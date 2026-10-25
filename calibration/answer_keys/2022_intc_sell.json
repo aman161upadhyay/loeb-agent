@@ -1,0 +1,52 @@
+{
+  "id": "2022_intc_sell",
+  "actual_decision": "SELL",
+  "conviction": "medium",
+  "size_pct_nav": "Public common 9m at Q3 2021 to absent Q4; exact all-in economic exposure unknown.",
+  "first_action_date": null,
+  "first_action_window": "Requested SELL/L2 on Jan31 is not supported as an economic exit. Common exit occurred Q4 2021, disclosed Feb14; bullish Feb16 commentary conflicts. Excluded from strict directional/reason scoring.",
+  "disclosure_date": "2022-02-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Daniel S. Loeb",
+      "Third Point investment team"
+    ],
+    "governance_route": "P0; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "The public common-stock line is absent at December 31 versus 9m shares in the preceding reported quarter; this establishes a common-line exit, not its rationale.",
+      "source": "https://13f.info/13f/000108514622001108-third-point-llc-q4-2021 (2022-02-14)",
+      "quote": null
+    },
+    {
+      "driver": "The original stated thesis concerned engineering talent and strategic alternatives; no contemporaneous stated sell reason was recovered.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (2020-12-29)",
+      "quote": null
+    },
+    {
+      "driver": "The February 16 letter remained explicitly bullish on Gelsinger and investment, contradicting an assumed thesis-broken liquidation.",
+      "source": "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/28107946-f0e4-4631-89eb-5063b897287e/00D4I000000fYffUAE/Third%20Point%20Q4%202021.pdf (2022-02-16)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "SELL is a common-line proxy only. February 16, 2022 letter: compelling underappreciated story, reversing brain drain, encouraged by investment. Do not label this verified L2.",
+  "sources": [
+    "https://13f.info/13f/000108514622001108-third-point-llc-q4-2021 (2022-02-14)",
+    "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/28107946-f0e4-4631-89eb-5063b897287e/00D4I000000fYffUAE/Third%20Point%20Q4%202021.pdf",
+    "https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (2020-12-29)",
+    "https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/28107946-f0e4-4631-89eb-5063b897287e/00D4I000000fYffUAE/Third%20Point%20Q4%202021.pdf (2022-02-16)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested SELL/L2 on Jan31 is not supported as an economic exit. Common exit occurred Q4 2021, disclosed Feb14; bullish Feb16 commentary conflicts. Excluded from strict directional/reason scoring. AUM 19.3bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (2021-10-05). AUM observation period 2021-09; last verified, not asserted current. NOT suitable for strict historical directional/reasoning scoring; key observations and requested-target contradictions are expressly annotated.",
+  "pack_quality_grade": "C",
+  "calibration_eligible": false,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

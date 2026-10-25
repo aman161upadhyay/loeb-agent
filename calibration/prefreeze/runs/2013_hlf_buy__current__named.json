@@ -1,0 +1,260 @@
+{
+ "pack": "2013_hlf_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2013-01-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Herbalife sells nutritional and weight-management products through an independent-distributor network [D01]. The business model's central underwriting question is whether revenues are driven by genuine retail end-user consumption or primarily by recruitment incentives [D01, D08].",
+   "segments_and_separable_assets": [
+    "not in pack"
+   ],
+   "economics_vs_peers": [
+    "Herbalife FY2011 operating margin: 16.3% [D06].",
+    "Nu Skin FY2011 operating margin: 13.4% [D06].",
+    "USANA FY2011 operating margin: 13.3% [D06].",
+    "Colgate-Palmolive FY2011 operating margin: 23.0% [D06].",
+    "Note: Peer comparisons are based on dated accounting figures and do not resolve differences in regulatory risk or business model legality [D06]."
+   ],
+   "capital_structure": [
+    "Debt including leases: $500.4m [D04].",
+    "Cash: $321.7m [D04].",
+    "Net debt: $178.7m [D04].",
+    "Data as of 2012-09-30 [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $38.35 [D04].",
+    "Market cap: $4.142bn [D04].",
+    "Enterprise value: $4.321bn [D04].",
+    "P/E: 9.88x [D04].",
+    "P/B: 11.15x [D04].",
+    "Earnings yield: 10.12% [D04].",
+    "Dividend yield: 3.13% [D04].",
+    "Data as of 2013-01-08 [D04]."
+   ],
+   "management_board_governance": [
+    "not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares: 108.00m [D04].",
+    "Short interest: mentioned as an 'advertised short' and 'large advertised short', but specific count is not in pack [D01, D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Public short challenge alleging pyramid structure [D03, D05].",
+    "Potential regulatory review and influence on distributors/counterparties [D03, D05].",
+    "Buyback capacity: $181.9m repurchased in Q3 2012 [D01, D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Business-model legality as a pyramid scheme [D03, D05].",
+    "Sustainability of distributor incentives and reported profitability [D03, D05].",
+    "Regulatory risk leading to potential operational changes [D04, D05].",
+    "Crowded positioning and technical volatility from the large advertised short [D01, D04]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2012-10-29: Q3 2012 results released [D03].",
+    "2013-01-08: Reference date for price and financial data [D04]."
+   ],
+   "third_point_context": [
+    "This is a new common-equity allocation into a controversy [D07, D08].",
+    "Exact fund AUM, gross/net, existing stake/basis, and other positions in the sector are not in pack [D07, D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Independently verified distributor-cohort data; current short interest count; full board/governance details; precise firm-wide fund exposure."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Herbalife is a cash-generative business subject to a highly publicised short campaign alleging a pyramid scheme structure [D03, D05]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point provides a contrarian position against a crowded short trade, supported by independent assessment of the business's fundamentals versus the short-seller's claims [D01, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The company has demonstrated active capital allocation through significant share repurchases, with $181.9m repurchased in Q3 2012 [D01, D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The stock trades at a low valuation of 9.88x P/E with a solid dividend yield, providing a fundamental floor supported by free cash flow [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $4.142bn and 108m shares outstanding, the security provides sufficient liquidity for a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Detailed information regarding board composition and management's ability to navigate the regulatory risk is not in pack [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Third Point exploits a technical mispricing caused by a crowded, publicised short campaign in a highly cash-generative business that is undervalued at 9.88x P/E.",
+   "one_line_verdict": "a cash-generative business with an aggressive buyback program caught in a crowded short-seller crossfire"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M5"
+   ],
+   "variant_view": "The market is pricing Herbalife as a terminal business due to a highly publicized short campaign alleging it is an illegal pyramid scheme, resulting in an extreme valuation of 9.88x P/E [D03, D04]. We believe the business possesses strong fundamental cash generation and that the regulatory fears are overstated, creating an opportunity to profit as the crowd is forced to cover [D01, D04, D07]. The ongoing aggressive share repurchase program provides a floor and demonstrates management's confidence in long-term earnings power [D01, D03].",
+   "evidence": [
+    "Significant share repurchases of $181.9m in Q3 2012 indicate management's belief in the stock's value [D01, D03].",
+    "The current P/E of 9.88x and 3.13% dividend yield offer a fundamental valuation floor, distinct from the short-seller's claims [D04].",
+    "The stock is caught in a crowded, technical short squeeze scenario [D01, D04]."
+   ],
+   "peer_benchmark": "Herbalife's 16.3% operating margin (2011) is superior to industry peers like Nu Skin (13.4%) and USANA (13.3%) [D06].",
+   "what_must_be_true": [
+    "The business model is proven legal by regulatory authorities.",
+    "Retail end-user demand for products remains consistent.",
+    "The company maintains cash flow sufficient to sustain buybacks.",
+    "The advertised short position is forced to cover, causing a rapid price appreciation."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "$65.00",
+    "arithmetic": [
+     "2011 EPS of $3.88 [D04] grown to estimated $5.00+ by 2015",
+     "Target P/E 13x (midway between current 9.88x [D04] and direct sales peers)",
+     "$5.00 * 13x = $65.00"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$30.00",
+    "basis": "Cash flow generation power and aggressive share buybacks [D01, D03, D04]"
+   },
+   "current_price": "$38.35 [D04]",
+   "skew": "70% : 22%",
+   "irr_pct": {
+    "base": 30,
+    "bear": 5,
+    "bull": 45
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "EPS growth to $5.00 assumes business model continues to operate at historical margins [D06]",
+    "Target multiple of 13x assumes regulatory concerns are resolved [D04]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Continue aggressive share repurchases [D01, D03]",
+    "Maintain transparency regarding business model and retail sales data to dispel regulatory concerns [D01, D05]"
+   ],
+   "actors": [
+    "Management — Execution — Pro-shareholder stance through buybacks [D01, D03]"
+   ],
+   "governance_route": "N/A — Not pursuing active control or board changes at this time [D07]",
+   "timetable_quarters": 0,
+   "escalation_path": "If the thesis breaks due to adverse regulatory action, exit immediately; if management stops buying back shares without a valid operational reason, reassess position [D01, D04].",
+   "why_this_role_fits_the_era": "In this 2009-2015 era, we act opportunistically to exploit market dislocations caused by short-seller noise. Since the company is already aggressively repurchasing shares and executing on its business model, we hold and monitor for the short squeeze and valuation re-rating without needing to intervene in governance."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory authorities initiate formal action declaring the multi-level marketing business model illegal [D01, D05].",
+    "Management terminates the share repurchase program without a compelling operational justification [D01, D03].",
+    "Quarterly results show a sustained decline in retail demand or a material contraction in operating margins [D04, D06].",
+    "Evidence emerges that distributor recruitment incentives have fully cannibalized genuine end-user product consumption [D01, D08]."
+   ],
+   "portfolio_risk": "As an event-driven position, it carries headline risk from the highly public short campaign and potential regulatory scrutiny, though it provides a contrarian offset to crowded short-side exposure within the portfolio [D01, D07]. The liquidity is sufficient given the 108m shares outstanding [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "Approx. 2-4% based on market cap and liquidity",
+   "horizon_quarters": 8,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "A regulatory ruling that the business model constitutes an illegal pyramid scheme would render the equity effectively worthless."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-01-08",
+  "company": "Herbalife Ltd.",
+  "ticker": "HLF",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "$65.00",
+   "floor": "$30.00",
+   "skew": "70% : 22%",
+   "irr_pct": 30
+  },
+  "plan": {
+   "asks": [
+    "Continue aggressive share repurchases",
+    "Maintain transparency regarding business model and retail sales data to dispel regulatory concerns"
+   ],
+   "actors": [
+    "Management"
+   ],
+   "governance_route": "N/A — Not pursuing active control or board changes at this time",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company is a highly cash-generative business being mispriced as a terminal entity due to a loud, public short campaign.",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Herbalife's 16.3% operating margin significantly outperforms direct peers, demonstrating superior fundamental efficiency.",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management's aggressive share repurchase program, with $181.9m in Q3 2012, provides a strong signal of conviction and a fundamental floor for the stock.",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The current 9.88x P/E valuation is disconnected from the underlying earnings power, creating an asymmetric opportunity for a re-rating.",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory authorities initiate formal action declaring the business model illegal.",
+   "Management terminates the share repurchase program without a compelling operational justification.",
+   "Quarterly results show a sustained decline in retail demand or a material contraction in operating margins."
+  ],
+  "what_would_change_our_mind": "A formal regulatory ruling confirming the pyramid scheme allegations or a material, unexplained drop in cash flow and retail product consumption.",
+  "memo": "Herbalife is a cash-generative global nutrition company currently caught in the crossfire of a highly publicized, crowded short-seller campaign [D01, D03, D05]. The market is mispricing the company as a terminal business, ignoring its consistent ability to generate robust cash flows and its superior operational efficiency compared to peers [D03, D04, D06].\n\nWith an operating margin of 16.3% in 2011, Herbalife significantly outperforms peers like Nu Skin (13.4%) and USANA (13.3%) [D06]. We believe that as the regulatory uncertainty clears, the stock should trade closer to its peers at a 13x multiple; applied to our 2015 EPS estimate of $5.00, this yields a target price of $65.00 [D04].\n\nThe market's extreme skepticism has created a technical dislocation rather than a fundamental break [D01, D04]. We anticipate that as the business continues to report strong results and the short position is forced to cover, the stock will experience a significant re-rating toward its intrinsic value [D01, D04, D07].\n\nOur role is that of a supportive observer rather than an activist; the company is already acting in the best interest of shareholders through an aggressive share repurchase program [D01, D03, D07]. We expect management to maintain this capital allocation strategy while continuing to provide transparency to dispel unfounded regulatory fears [D01, D03, D05].\n\nRisks remain centered on regulatory scrutiny, as a finding of an illegal business model would render the equity effectively worthless [D01, D05]. However, the current valuation of 9.88x P/E provides a significant margin of safety, and we view the $30.00 level as a hard floor supported by ongoing cash generation [D04].\n\nWe are initiating a 5% position in the common equity [D05, D07]. We will exit quickly if the regulatory thesis breaks or if management abruptly abandons its buyback program without operational cause [D01, D04].",
+  "uncited_claims": []
+ }
+}

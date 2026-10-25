@@ -1,0 +1,50 @@
+{
+ "pack": "ho_2026_costar_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-12-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-12-31",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Governance catalyst: intact [D07]",
+   "Commercial franchise value: intact [D01]",
+   "Residential investment discipline: pending/strengthened by oversight [D01, D07]"
+  ],
+  "remaining_skew": "Upside remains tied to the Company's ability to convert recurring commercial cash flows into tangible shareholder value by curbing residential cash burn, versus downside risk if management continues to obscure segment-level economics [D04, D05].",
+  "next_catalyst_and_timing": "Q4 2025 earnings release (expected Q1 2026), specifically seeking confirmation of spending discipline and segment cash earnings accountability [D03, D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The April governance settlement established the framework for oversight, but we require further operating disclosures to confirm capital allocation discipline [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Reported revenue growth remains ambiguous as it lacks a clear bridge to free-cash-flow generation, necessitating patience to see if the board-settlement remedy forces accountability [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The core commercial franchise remains a valuable potential source of recovery, provided senior claims and residential subsidies do not consume its value [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We remain holders of our position as we monitor the effectiveness of the board settlement initiated in April [D07]. The current operating results present a competing narrative: while the issuer reports strong net new bookings growth, this topline performance fails to provide a clear bridge to segment cash earnings or evidence of improved returns on residential investment [D02, D03]. We are not yet prepared to call the thesis broken, nor have we reached the point of escalation; we are in the valuation-validation phase of the event [D07].\n\nOur focus is on the mechanism of the board-settlement remedy and its ability to impose spending discipline [D01, D04]. The central risk to our thesis is that management continues to prioritize platform expansion at the expense of cash margins, effectively masking the true economics of the residential business under the umbrella of commercial recurring cash flows [D05]. We treat the latest reported revenue growth as a contingent data point rather than a validation of improved business quality [D03].\n\nUntil we receive evidence that the refreshed board and capital-allocation committee have meaningfully altered the spending profile, we maintain our current exposure [D07, D08]. We avoid the trap of substituting management's optimistic outlook for a rigorous reconciliation of cash flows and capital requirements [D03, D04]. Our conviction remains contingent on the upcoming disclosure cycle, where we expect to see tangible results regarding segment cash earnings and fiscal accountability [D06].",
+  "uncited_claims": []
+ }
+}

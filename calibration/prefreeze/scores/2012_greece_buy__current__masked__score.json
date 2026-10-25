@@ -1,0 +1,47 @@
+{
+ "trade_id": "2012_greece_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The market overstates the probability of default and redenomination relative to the official-sector incentive to keep Greece in the euro. → The market is currently paralyzed by fear of Eurozone contagion and the potential for a political vacuum following the upcoming June 17 election, leading to a massive mispricing of these instruments",
+   "New bonds' legal terms and creditor protections improve the recovery asymmetry. → By pricing these bonds at 10¢, the market is effectively ignoring the strength of the English law protections governing this post-reorg paper",
+   "Incremental official funding can produce low-20s pricing, with larger upside as the strip moves to yield valuation. → Our analysis suggests a recovery value of 30¢ to 40¢ per euro, based on the reality that the sovereign's reliance on official-sector funding makes adherence to bailout conditions a strategic necessity for the EU and ECB"
+  ],
+  "missed": [
+   "On-the-ground assessment and policy resolve support willingness to implement the program; this is Q3 hindsight relative to this pack."
+  ],
+  "extra_agent_drivers": [
+   "The June 17 election serves as the immediate catalyst to form a government capable of maintaining adherence to bailout conditions, unlocking further funding"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market is pricing these bonds at 10¢ per euro",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "English law governance provides a critical legal floor",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We have initiated a position in the newly issued sovereign bond strips of Greece, currently trading at distressed levels of 10¢ per euro [D04].",
+ "grader_notes": "The agent correctly identified the investment direction and captured the core investment thesis regarding market overreaction to contagion and the value inherent in legal protections. It diverged slightly by emphasizing the June 17 election as a near-term catalyst, whereas Loeb's historical letter focused on the ex-post realization of policy resolve.",
+ "run": "2012_greece_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

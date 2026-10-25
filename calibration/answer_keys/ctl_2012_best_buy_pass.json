@@ -1,0 +1,48 @@
+{
+  "id": "ctl_2012_best_buy_pass",
+  "actual_decision": "PASS",
+  "conviction": "medium",
+  "size_pct_nav": 0,
+  "first_action_date": "2012-02-01",
+  "disclosure_date": null,
+  "reason_class": null,
+  "opportunity_template": [
+    "E1",
+    "E4"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [],
+    "governance_route": "No public Third Point action established for the scoped common-stock opportunity; PASS is a retrospective observational label.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "Never held per recovered 13F history: BBY/Best Buy absent from the complete Q3/Q4 2011 and all four 2012 original Third Point 13Fs (plus Q2 amendment), and from the 54-quarter 2013–Q2 2026 index. No attributable manager public comment recovered. Replaces JCP: Q2 2012 original filing reports puts on 9,000,000 JCP shares and value 6480 in the table's $000 column. The reported value's option-versus-underlying convention is unresolved; no premium, delta, NAV risk or return is inferred.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000108514612001123/thirdpoint2q2012r5.txt",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "No Third Point entry: this is a common-stock discipline control, not an actual rejected-idea memo. Cutoff price/valuation gaps are identified in the pack.",
+  "outcome_note": "PASS labels absence of a reported long in the specified window, not a public statement of rejection, zero economic exposure across all instruments, or proof of no intraperiod trade. No forward return is used to justify the label.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1040273/000108514612001123/thirdpoint2q2012r5.txt",
+    "https://www.sec.gov/Archives/edgar/data/1040273/000108514613000612/thirdpoint4q2012.txt",
+    "https://www.sec.gov/Archives/edgar/data/1040273/000108514612001484/thirdpoint3q2012.txt",
+    "https://www.sec.gov/Archives/edgar/data/1040273/000108514612001179/thirdpoint2q2012a1.txt",
+    "https://www.sec.gov/Archives/edgar/data/1040273/000108514612000807/thirdpoint1q2012.txt",
+    "https://www.sec.gov/Archives/edgar/data/1040273/000108514612000452/tpt4q2011.txt",
+    "https://www.sec.gov/Archives/edgar/data/1040273/000108514611001255/tpt3q2011.txt",
+    "https://13f.info/manager/0001040273-third-point-llc",
+    "loeb-agent/compendium/all_positions_index.md",
+    "https://www.sec.gov/Archives/edgar/data/764478/000076447812000007/exhibit9901-06x12.htm"
+  ],
+  "pack_quality_notes": "Grade C. Replacement for ctl_2012_jcp_pass. Negative evidence is scoped to reportable quarter-end holdings plus recovered public comments, not private investment records. Silent controls intentionally have one documented driver instead of fabricating three manager reasons. Most current share prices, peer tables and fund AUM were not recovered. Null fund AUM is an intentional metadata schema exception. Firm-wide/Offshore capital is not inferred from 13F value. No exhaustive historical X or letter review is claimed.",
+  "control_verification": {
+    "scope": "Q3/Q4 2011 and all original/amended 2012 tables, plus full 2013–Q2 2026 index.",
+    "verified_reportable_absence": true,
+    "absolute_economic_nonownership_verified": false,
+    "replaced_requested_id": "ctl_2012_jcp_pass"
+  }
+}

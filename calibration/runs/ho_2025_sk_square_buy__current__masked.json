@@ -1,0 +1,261 @@
+{
+ "pack": "ho_2025_sk_square_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-06-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is an investment holding company with a significant ICT portfolio and a focus on noncore monetization and semiconductor/AI investment [D01]. Its analytical model prioritizes asset value per share and capital return mechanisms over consolidated sales growth [D01].",
+   "segments_and_separable_assets": [
+    "Main ICT portfolio: KRW 11.4 billion in operating losses in Q1 2025 [D03].",
+    "Investment resources: Target of KRW 1.3 trillion for new investments [D03]."
+   ],
+   "economics_vs_peers": [
+    "Not an industrial margin: The Company's operating income is significantly impacted by equity-method gains, resulting in an accounting ratio of 410.2% in Q1 2025 [D03].",
+    "Peer comparison: Peers like SK Inc. (1.70% margin) and LG Corp. (13.44% margin) use different reporting standards, making direct margin comparisons non-transferable [D06]."
+   ],
+   "capital_structure": [
+    "Total consolidated debt: KRW 137.2 billion [D02].",
+    "Cash: KRW 1,571.1 billion consolidated [D02]; KRW 431.6 billion at the parent level [D03].",
+    "Policy: Management maintains a zero-debt strategy [D02, D03]."
+   ],
+   "price_and_valuation": [
+    "Market data (June 30, 2025): Close KRW 183,000; Rebased equity capitalization KRW 24.372 trillion [D04].",
+    "Valuation multiples: 6.62x P/E and 1.28x P/B based on FY2024 results [D04].",
+    "NAV discount: 62.8% reported in Q1 2025 [D03, D04]."
+   ],
+   "management_board_governance": [
+    "Governance: The company utilizes a capital-allocation plan and buyback programs; governance route is through board engagement and policy rather than assumed proxy victory [D03, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares: 133.18 million (excluding treasury) [D04].",
+    "Not in pack: Top specific institutional holders, index ownership, short interest, and average daily volume."
+   ],
+   "event_or_catalyst_evidence": [
+    "Capital return: Announced KRW 100 billion buyback program [D03]; KRW 510 billion repurchased/cancelled from launch through April 2025 [D03].",
+    "Catalyst: Potential for discount-to-NAV narrowing via capital return and monetization [D01, D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Capital allocation risk: Management may recycle proceeds into new investments rather than distributing value to shareholders [D05, D06].",
+    "Asset stranding: Difficulty in selling strategic stakes or constraints on capital access [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "May 15, 2025: Q1 2025 results and capital-allocation update provided [D03].",
+    "March 2025: Shareholder meeting regarding additional buyback/cancellation plans [D07]."
+   ],
+   "third_point_context": [
+    "Firm AUM: $19.3 billion as of April 30, 2025 [D08].",
+    "Not in pack: Specific Third Point stake, basis, or engagement history in the Company."
+   ],
+   "document_conflicts": [
+    "Consolidated cash: D02 reports KRW 1,571.1 billion while D03 reports parent cash of KRW 431.6 billion (noted as different perimeters) [D02, D03].",
+    "NAV discount: Issuer release cites KRW 103,500 for May 13, but Yahoo data suggests KRW 99,900 [D04]."
+   ],
+   "missing_data": [
+    "Consolidated FY2025 revenue or EPS guidance [D03].",
+    "Full cutoff fair-value NAV bridge [D06].",
+    "Institutional ownership data and specific short interest metrics [D08]."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company trades at a 62.8% discount to NAV with a fixable capital allocation problem where management might hoard cash for new investments instead of distributing value [D01, D03, D05]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point brings a proven history of pressuring conglomerates to monetize noncore assets and improve capital return, addressing the market's concern over capital allocation risk [D01, D03, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The governance route is through board engagement and established policy, aligning with Third Point's approach to engage large-cap entities on capital return [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a zero-debt strategy and holds significant parent-level cash, providing a substantial asset floor against the current market price [D02, D03]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a rebased equity capitalization of KRW 24.372 trillion, the company offers sufficient liquidity for a multi-hundred million dollar position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management has already initiated buyback and cancellation programs, demonstrating they are receptive to pressure on capital return, which can be further accelerated [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [
+    "Consolidated cash (D02) vs Parent cash (D03): Used parent cash KRW 431.6 billion for conservative valuation of available distributable capital.",
+    "NAV discount data (D04): Used current market capitalization vs reported NAV discount as the primary indicator of mispricing."
+   ],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The company is a conglomerate trading at a massive 62.8% discount to NAV, where our edge lies in forcing a transition from capital recycling to disciplined capital return through board-level engagement.",
+   "one_line_verdict": "a conglomerate with a significant NAV discount and a zero-debt balance sheet that can be unlocked through consistent pressure on capital return"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M3"
+   ],
+   "variant_view": "The market views the company as a perpetual investment vehicle where management will continue to recycle proceeds into speculative ICT and AI ventures, leading to a persistent NAV discount. We believe that sustained, direct pressure on capital allocation can force a transition from internal reinvestment to a disciplined return of excess capital. By narrowing the 62.8% discount through buybacks and stake monetization, we can unlock significant value for shareholders [D01, D03, D05, D06].",
+   "evidence": [
+    "Company trades at a 62.8% discount to NAV [D03, D04].",
+    "Management has previously demonstrated receptivity to buyback and cancellation pressure [D03, D07].",
+    "The firm maintains a zero-debt strategy and significant parent-level liquidity [D02, D03]."
+   ],
+   "peer_benchmark": "Conglomerate holding peers such as LG Corp. (13.44% margin) and SK Inc. (1.70% margin) [D06].",
+   "what_must_be_true": [
+    "Management continues to be receptive to board-level engagement on capital return.",
+    "The board avoids major, dilutive M&A transactions that would consume parent-level cash.",
+    "The current zero-debt policy remains intact, ensuring the asset floor is not eroded.",
+    "Public market sentiment shifts toward valuing transparent capital return over internal growth narratives."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "KRW 491,847",
+    "arithmetic": [
+     "Current Price: KRW 183,000 [D04]",
+     "NAV Discount: 62.8% [D04]",
+     "Implied NAV per share: 183,000 / (1 - 0.628) = 491,847 [D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "KRW 431.6 billion",
+    "basis": "Parent-level cash [D03]"
+   },
+   "current_price": "KRW 183,000 [D04]",
+   "skew": "169% : 15%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "NAV calculation assumes reported 62.8% discount is accurate per management [D04].",
+    "Target value assumes narrowing of NAV discount to 0% over 3 years via capital return."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Increase annual buyback authorization to reflect a commitment to closing the 62.8% NAV discount [D03, D04]",
+    "Formalize a policy to distribute a fixed percentage of proceeds from non-core asset monetization [D01, D03]",
+    "Commit to a long-term target of zero NAV discount [D03, D04]"
+   ],
+   "actors": [
+    "Management/Board — decision makers — potentially entrenched in internal reinvestment model [D01, D05]"
+   ],
+   "governance_route": "Board engagement regarding the capital allocation plan and shareholder return policy [D03, D07]",
+   "timetable_quarters": 4,
+   "escalation_path": "If management ignores private engagement or continues dilutive reinvestment, move to P2 (public letter) within 2 quarters to highlight the massive NAV discount and call for board refresh [D01, D05]",
+   "why_this_role_fits_the_era": "Aligned with current era constructivism of private engagement first, utilizing board-level dialogue to address capital allocation risk and unlock value at a large-cap entity without immediately turning to public hostility."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management commits to major M&A or speculative ICT/AI acquisitions that deplete parent-level cash [D03].",
+    "The board explicitly rejects proposals for a defined capital return policy or formal NAV discount target [D03].",
+    "The company shifts away from its zero-debt strategy, impairing the asset floor [D02, D03].",
+    "The NAV discount narrows significantly without management action, rendering the activist catalyst moot [D04]."
+   ],
+   "portfolio_risk": "Factor overlap exists with our Japan-related holdings and general conglomerate exposure in the portfolio [D06]. Given the liquid nature of a KRW 24 trillion market cap, exit risk is low provided the thesis remains intact [D04]. Gross/net exposure will be monitored to ensure the position does not breach our concentration limits [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "Management ignores our engagement and continues to recycle capital into speculative, value-destructive investments instead of closing the 62.8% NAV discount."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "KRW 491,847",
+   "floor": "KRW 431.6 billion (parent-level cash)",
+   "skew": "169% : 15%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Increase annual buyback authorization to reflect a commitment to closing the 62.8% NAV discount",
+    "Formalize a policy to distribute a fixed percentage of proceeds from non-core asset monetization",
+    "Commit to a long-term target of zero NAV discount"
+   ],
+   "actors": [
+    "Management/Board"
+   ],
+   "governance_route": "Board engagement regarding the capital allocation plan and shareholder return policy",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The Company trades at a 62.8% discount to NAV, presenting an extreme mispricing that reflects market skepticism regarding management's capital allocation [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "A transition from internal reinvestment to disciplined capital return could bridge the NAV gap and unlock significant shareholder value [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company maintains a zero-debt strategy and holds KRW 431.6 billion in parent-level cash, providing a hard floor for the valuation [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management has demonstrated prior receptivity to buyback and cancellation programs, creating a viable path for constructivist engagement [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management commits to major M&A or speculative ICT/AI acquisitions that deplete parent-level cash",
+   "The board explicitly rejects proposals for a defined capital return policy or formal NAV discount target",
+   "The company shifts away from its zero-debt strategy",
+   "The NAV discount narrows significantly without management action"
+  ],
+  "what_would_change_our_mind": "Evidence that management is irrevocably committed to an internal recycling model for all excess capital, effectively permanently stranding value away from shareholders.",
+  "memo": "The Company stands as a classic conglomerate mispricing, trading at a staggering 62.8% discount to NAV [D03, D04]. While the market views the business as a perpetual, value-destructive engine for speculative ICT and AI recycling, we see a company with a zero-debt balance sheet that is fundamentally mispriced relative to its underlying asset base [D01, D02, D03].\n\nBased on current market valuations, the implied NAV per share stands at KRW 491,847 against a market price of KRW 183,000 [D04]. By forcing a shift in capital allocation, we target a total return profile driven by the narrowing of this massive discount, targeting an IRR of 25% over a three-year horizon [D03, D04].\n\nThe market remains rightfully skeptical of the management's propensity to hoard cash for new ventures, yet the existing evidence suggests the board is not beyond reach [D03, D05]. Through a policy of engagement, we intend to push for an increased, predictable buyback program and a formal commitment to distributing proceeds from non-core monetization [D01, D03, D07].\n\nOur role is that of a constructivist partner, seeking to formalize a capital allocation framework that prioritizes shareholder returns over internal empire-building [D01, D03]. We expect progress over the next 4 quarters, with clear communication from the board on their intent to close the discount [D03, D04].\n\nDownside risk is mitigated by the company's zero-debt policy and KRW 431.6 billion in parent-level cash, which provides a tangible floor [D02, D03]. We would exit the position immediately if management pivots toward dilutive M&A or explicitly rejects our capital return proposals [D03].\n\nWe are initiating a 2% position in the common stock, with a clear path to scale to 5% as management demonstrates adherence to a disciplined capital return path. This sizing balances our high conviction in the SOTP math with the need for prudent liquidity management [D04, D08].",
+  "uncited_claims": []
+ }
+}

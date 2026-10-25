@@ -1,0 +1,58 @@
+{
+ "pack": "2018_nestle_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2018-07-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2018-07-01",
+  "company": "Nestlé S.A.",
+  "ticker": "NESN",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis: strong brands, operating underperformance, potential for improved capital efficiency [D01].",
+   "Current status: Management has adopted some measures such as a margin objective and buyback, but performance continues to fall short of expectations, indicating further need for structural change [D03].",
+   "Evidence: Fourth-quarter organic growth slowed to 1.9%, and headline results remain pressured by decentralization [D02, D03]."
+  ],
+  "remaining_skew": "Significant upside potential remains by closing the margin gap versus peers and optimizing the portfolio, vs limited downside protected by strong brands [D01, D06].",
+  "next_catalyst_and_timing": "Public presentation 'NestléNOW' (published today, 2018-07-01) provides the basis for an accelerated shift in portfolio and operational strategy [D01, D03].",
+  "asks_if_escalating": [
+   "Accelerate margin expansion toward the 17.5-18.5% target",
+   "Optimize portfolio composition to address the underperforming long tail of categories",
+   "Drive more aggressive capital allocation and operational discipline"
+  ],
+  "drivers": [
+   {
+    "driver": "Persistent organic growth deceleration with fourth-quarter growth down to 1.9% [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Operating margins continue to lag behind category peers despite some management efforts [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The complexity of the current decentralized structure continues to obscure the underlying value of the core business [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Opportunity to amplify the case for change following today's 'NestléNOW' presentation [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "Nestlé remains a collection of high-quality assets buried beneath a legacy of decentralization and bureaucratic inertia. While CEO Schneider has taken initial steps toward a buyback and margin targets, these are modest improvements rather than the structural transformation this company requires [D03]. Our engagement has reached a stage where private suggestions are no longer sufficient to drive the urgency needed in a global group facing slowing organic growth [D03, D05].\n\nToday, we publish 'NestléNOW' to highlight the clear margin gap vs. best-in-class peers and to demand a more aggressive approach to portfolio simplification [D01, D06]. The company has the brands to be a top-tier performer, but the current structure continues to fail to convert that customer value into sustainable cash for owners [D01]. We are not content to wait for slow-motion recovery when the levers for value creation—portfolio rationalization and operational sharpening—are visible and underutilized [D05].\n\nOur decision to escalate is a direct response to the persistence of the mispricing and the inadequacy of the current pace of execution [D03, D05]. We expect management to move beyond the current plan and demonstrate a commitment to shareholder returns that matches the caliber of the franchise [D03].",
+  "uncited_claims": []
+ }
+}

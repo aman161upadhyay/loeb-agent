@@ -1,0 +1,47 @@
+{
+ "trade_id": "2013_yahoo_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Monetize part of a substantially repriced position after the governance catalyst has been achieved. → We have the opportunity to utilize issuer block-liquidity terms to harvest a portion of our gain.",
+   "Board participation can end as the ownership threshold falls while a residual investment preserves upside. → This allows us to manage risk and lock in profits crystallized by our successful governance intervention while maintaining residual exposure to the long-term potential of the Asian assets."
+  ],
+  "missed": [
+   "The issuer's 40m-share block transaction supplies $1.1644bn gross liquidity at $29.11."
+  ],
+  "extra_agent_drivers": [
+   "Core revenue and adjusted EBITDA remain under pressure, shifting the thesis toward a fundamental operating turnaround rather than governance",
+   "Risk of foregone upside exists if Asian affiliate growth continues, but current exposure requires a fresh earnings-inflection judgment"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Our original governance campaign for the Company has been a success, resulting in board representation and the appointment of a new CEO",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "second-quarter GAAP revenue down 7% and non-GAAP operating income falling 13%",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 2,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have the opportunity to utilize issuer block-liquidity terms to harvest a portion of our gain.",
+ "grader_notes": "The agent correctly identified the trim decision and the core drivers regarding the realization of governance catalysts and the utilization of block liquidity. It diverged by focusing more heavily on the fundamental operating turnaround metrics of the company, which were not cited as primary drivers in Loeb's specific action memo.",
+ "run": "2013_yahoo_sell__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

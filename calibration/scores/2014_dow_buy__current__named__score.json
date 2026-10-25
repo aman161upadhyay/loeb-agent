@@ -1,0 +1,58 @@
+{
+ "trade_id": "2014_dow_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Commodity and specialty businesses merit an objective strategic review and potential separation. → A structural separation will unlock SOTP value, forcing a re-rating of the specialty business while instilling discipline in the commodity segment [D03], [D06].",
+   "Transparent transfer pricing and operating benchmarks expose cross-subsidy and accountability gaps. → The company suffers from a significant margin gap; its 2.1% net margin drastically underperforms peers like DuPont (13.9%) and LyondellBasell (12.9%) [D06].",
+   "A stronger balance sheet and disciplined capital return complement operating improvement. → Implement aggressive capital allocation discipline to match peer benchmarks of ~13% margins"
+  ],
+  "missed": [
+   "Petrochemicals under-earn despite shale feedstock advantages, indicating a self-help opportunity."
+  ],
+  "extra_agent_drivers": [
+   "We see a clear path to an equity value of $62.50 per share based on margin expansion and multiple re-rating over a 2-year horizon [D03], [D06].",
+   "The downside is protected by a solid floor around $35.00, supported by book value and mid-cycle cash flow, offering an asymmetric 3:1 skew [D04], [D06]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Dow's conglomerate structure hides the high-growth potential of its specialty assets, resulting in a persistent valuation discount",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company suffers from a significant margin gap; its 2.1% net margin drastically underperforms peers like DuPont (13.9%) and LyondellBasell (12.9%)",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We see a clear path to an equity value of $62.50 per share",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The downside is protected by a solid floor around $35.00",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 14,
+  "share": 0.93
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are calling for an immediate and full structural separation of the commodity chemicals and specialty businesses [D06], [D07].",
+ "grader_notes": "The agent correctly identified the core thesis of structural separation and margin improvement found in the Third Point letter. It diverged by focusing heavily on specific price targets and downside floors that were not explicitly cited as Third Point's primary drivers in the provided answer key.",
+ "run": "2014_dow_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

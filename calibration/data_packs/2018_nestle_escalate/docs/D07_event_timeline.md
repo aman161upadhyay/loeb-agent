@@ -1,0 +1,19 @@
+Title: Dated event map and authority to act — Nestlé S.A.
+Source: https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2017 (2018-02-15); https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25); https://www.valuewalk.com/wp-content/uploads/2018/01/Third-Point-Q4-Investor-Letter-TPOI.pdf (2018-01-22); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (2018-05-15)
+Date: 2018-07-01
+
+June of the prior year: original operating, portfolio and capital-efficiency case was publicly articulated. Since then management has introduced a formal margin objective, a substantial buyback and initial portfolio adjustments. February 15: the latest full-year report shows 2.4% organic growth and 16.4% underlying margin. The present review ends July 1. The current public action under evaluation is not supplied to the analyst; neither its deck nor its wording is an input. The relevant event path remains organizational and portfolio execution under Schneider and chairman Paul Bulcke. [S1–S3]
+
+Event-path discipline. The timeline separates a public report, an announced intention, a legally binding step and actual implementation. These are different milestones. A board may examine an option without approving it; an approved transaction can still face financing, regulatory, tax or execution conditions. Put the authority to decide alongside the event, rather than presume that a minority shareholder can cause it immediately.
+
+The observation cutoff is hard. A later upload location for an older document does not move its underlying publication date, while a later investor retrospective cannot become an earlier desk input. No eventual transaction, operating result or investment outcome is implied here. Where a first transaction day is not publicly recoverable, this document does not invent one from a quarter-end filing. Future calendar items are possibilities to monitor, not completed facts. A realistic timetable should allow multiple quarters when necessary and specify the evidence that would show delay or failure. This avoids confusing a well-written proposal with an executable catalyst and keeps the analyst's expected value separate from the historical answer.
+
+Analyst cross-check: For each prospective milestone, identify who controls the decision, which prerequisite must occur first and whether shareholder approval is sufficient. Regulatory clearance, creditor consent and operational implementation are distinct gates. Delay affects discounted value even if the eventual strategic direction remains economically sensible and legally feasible.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2017 (published 2018-02-15).
+- [S2] https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (published 2017-06-25).
+- [S3] https://www.valuewalk.com/wp-content/uploads/2018/01/Third-Point-Q4-Investor-Letter-TPOI.pdf (published 2018-01-22).
+- [S4] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S5] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S6] https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (published 2018-05-15).

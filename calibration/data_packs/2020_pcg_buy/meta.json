@@ -1,0 +1,24 @@
+{
+  "id": "2020_pcg_buy",
+  "company": "PG&E Corporation",
+  "ticker": "PCG",
+  "aliases": [
+    "Fire Victim Trust",
+    "Pacific Gas and Electric",
+    "Pacific Gas and Electric Company",
+    "PCG",
+    "PG&E",
+    "PG&E Corporation",
+    "PGE",
+    "Utility"
+  ],
+  "as_of_date": "2020-07-01",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Chronology corrected: July 2020 underwriting cannot rely on Patti Poppe's subsequent appointment or performance.",
+  "fund_aum_usd_bn": 12.7,
+  "fund_aum_observation_period": "2020-05",
+  "fund_aum_source_date": "2020-06-03",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Chronology corrected: July 2020 underwriting cannot rely on Patti Poppe's subsequent appointment or performance. AUM 12.7bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-ltd-third-point-may-2020-monthly-report-876562038.html (2020-06-03). AUM observation period 2020-05; last verified, not asserted current."
+}

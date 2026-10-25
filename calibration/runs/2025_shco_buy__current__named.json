@@ -1,0 +1,52 @@
+{
+ "pack": "2025_shco_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-01-28",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-01-28",
+  "company": "Soho House & Co Inc.",
+  "ticker": "SHCO",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Membership growth remains robust with 13% YoY Soho House growth [D03]",
+   "Operating performance improved to $48.3m Q3 adjusted EBITDA [D03]",
+   "Governance concerns regarding super-voting control and potential privatization remain unaddressed [D01]",
+   "GAAP profitability remains elusive with near-breakeven net income [D03]"
+  ],
+  "remaining_skew": "Significant upside through potential privatization process or governance reform, limited downside if operating performance holds, subject to execution risks [D04; D05]",
+  "next_catalyst_and_timing": "Clarification of privatization process and board response to minority shareholder concerns within 1-2 quarters [D01; D07]",
+  "asks_if_escalating": [
+   "Independent board review of any privatization proposal",
+   "Formal commitment to an open, competitive auction process",
+   "Enhanced disclosure regarding capital allocation and unit economics"
+  ],
+  "drivers": [
+   {
+    "driver": "The ongoing uncertainty surrounding a privatization process requires public intervention to ensure minority interests are protected from potential self-dealing [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Operating results are showing signs of life with positive adjusted EBITDA, justifying a more proactive stance to unlock value [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Super-voting control structures create a governance gap that necessitates public scrutiny to prevent value leakage [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "Soho House possesses a unique membership hospitality platform with durable demand, yet its corporate structure and governance currently obscure significant underlying value [D01]. While Q3 results demonstrate improved adjusted EBITDA of $48.3 million and solid membership growth, the path to sustained GAAP profitability and capital return remains tethered to a model burdened by expansionary capex and lease obligations [D03; D05].\n\nOur primary concern is the potential privatization process, which must not occur in a vacuum [D01]. Given the influence of super-voting shares and the inherent conflict in any management-led transaction, we believe it is time to move from private monitoring to a more public escalation [D01]. Minority shareholders require transparent assurance that any future sale or restructuring process is governed by an independent committee and directed toward a competitive auction, rather than a controlled outcome that undervalues the franchise [D01; D05].\n\nWe have no interest in waiting for the market to resolve these governance questions on its own [D01]. By forcing a public discussion on board independence and fair-process requirements, we aim to protect our investment from the risk of empire-building or a distressed exit at an inadequate valuation [D05]. We maintain our position with the firm expectation that management and the board will adhere to the highest fiduciary standards as they navigate this inflection point [D01; D07].",
+  "uncited_claims": []
+ }
+}

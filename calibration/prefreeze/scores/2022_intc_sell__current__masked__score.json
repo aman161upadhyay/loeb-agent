@@ -1,0 +1,58 @@
+{
+ "trade_id": "2022_intc_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The public common-stock line is absent at December 31 versus 9m shares in the preceding reported quarter; this establishes a common-line exit, not its rationale.",
+   "The original stated thesis concerned engineering talent and strategic alternatives; no contemporaneous stated sell reason was recovered.",
+   "The February 16 letter remained explicitly bullish on Gelsinger and investment, contradicting an assumed thesis-broken liquidation."
+  ],
+  "extra_agent_drivers": [
+   "Management's transition to the IDM 2.0 strategy addresses the core issues identified in our original engagement.",
+   "Recent financial results exceeded guidance, showing early progress despite lower near-term profitability.",
+   "The valuation remains attractive at ~7x EV/EBITDA, providing a margin of safety while the turnaround progresses.",
+   "Substantial cash generation supports the dividend increase, though high reinvestment needs remain the primary risk to watch."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company has implemented the IDM 2.0 program, which fundamentally addresses our concerns regarding manufacturing execution and strategic orientation",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The most recent results show revenue exceeding management's guidance",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Trading at approximately 7x EV/EBITDA",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The 5.66% free cash flow yield",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We will hold our position to observe the next phases of capacity build-out and customer adoption, ensuring that the company maintains its focus on returns rather than empire-building [D03, D07].",
+ "grader_notes": "The agent was instructed to grade against an actual exit, but the agent recommended a HOLD based on an analysis of the IDM 2.0 strategy. The reasoning provided by the agent focuses on operational turnaround progress, whereas Loeb provided no specific sell rationale other than the fact of the exit and a later bullish sentiment. The agent failed to align with the actual market evidence of an exit.",
+ "run": "2022_intc_sell__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

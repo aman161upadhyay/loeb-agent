@@ -1,0 +1,18 @@
+Title: Peers, industry and comparability — Campbell Soup Company
+Source: https://www.sec.gov/Archives/edgar/data/16732/000001673218000045/exhibit991-q32018.htm (2018-05-18); https://www.sec.gov/Archives/edgar/data/16732/000114420418043237/tv500575_ex99-1.htm (2018-08-09); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (2018-05-15)
+Date: 2018-08-09
+
+Branded-food peers offer distribution scale and cash generation but differ greatly in growth, debt and exposure to center-store decline. Soup, salty snacks and fresh foods should not inherit identical margins or multiples. Flat organic sales alongside 15% reported growth show why acquisition effects must be removed. Compare recurring EBIT, cash restructuring costs, leverage and interest coverage rather than headline EPS alone. A food-industry buyer may have synergies, but these do not belong wholly to target shareholders without competitive bidding. Matched same-day peer multiples were not recovered. [S1; analyst industry comparison]
+
+Comparison discipline. Choose peers that match the economic exposure, not simply a sector classification. Product mix, geography, recurring revenue, leverage, capital intensity, tax and accounting can explain a large part of an apparent discount. A business that deserves a higher multiple after a transaction still must pay the costs of achieving that identity. A premium segment cannot be valued independently while its necessary central expenses are omitted.
+
+Relative valuation is a cross-check on an operating model rather than a replacement for one. Where the pack lacks identical-date peer multiples, it does not use a modern screen, an unrelated index average or a later shareholder target to fill the hole. Industry narratives also need an earnings mechanism: price, volume, mix, utilization, cost, financing or capital return. A broad secular tailwind may help competitors equally or encourage enough new supply to erode returns. Compare who captures incremental profit and who funds the investment. The evidence above identifies the most relevant competitive dimensions; it does not establish an exact attainable rerating or guarantee that the company's chosen benchmark is economically equivalent.
+
+Analyst cross-check: Relative attractiveness must survive a consistent comparison date and a consistent definition of earnings. A low multiple can compensate for weaker assets, heavier debt or poorer cash conversion. Conversely, different business mixes can make a group average look cheap even when no individual segment is undervalued.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/16732/000001673218000045/exhibit991-q32018.htm (published 2018-05-18).
+- [S2] https://www.sec.gov/Archives/edgar/data/16732/000114420418043237/tv500575_ex99-1.htm (published 2018-08-09).
+- [S3] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S4] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S5] https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (published 2018-05-15).

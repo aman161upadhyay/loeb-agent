@@ -1,0 +1,53 @@
+{
+ "pack": "2007_pogo_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2007-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2007-01-31",
+  "company": "Pogo Producing Company",
+  "ticker": "PPP",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Realizable reserve value: intact [D07]",
+   "Better capital allocation: broken; partial divestitures are insufficient [D03, D07]"
+  ],
+  "remaining_skew": "Upside to NAV remains significant vs floor limited by underlying oil/gas assets [D02, D04]",
+  "next_catalyst_and_timing": "Annual meeting cycle for director-accountability route; H1 2007 asset-sale phase closings [D03, D07]",
+  "asks_if_escalating": [
+   "Abandon piecemeal asset divestitures",
+   "Initiate a comprehensive strategic review to solicit a whole-company sale",
+   "Appoint independent directors to oversee the sale process"
+  ],
+  "drivers": [
+   {
+    "driver": "Management's current plan of partial, phased divestitures is an inadequate response to the persistent mispricing and margin underperformance versus peers [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The window for the annual-meeting cycle provides a critical governance lever to hold the board accountable for shareholder returns [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company trades at a significant discount to likely reserve NAV, which is best unlocked through a full sale rather than continued operational drift [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "memo": "Pogo Producing Company remains a textbook case of a valuable resource base obscured by poor capital allocation and ineffective governance. While management has initiated a divestiture program, these half-measures are insufficient to close the valuation gap; they serve only to delay the inevitable conclusion that this franchise should be sold in its entirety [D03, D07]. The market continues to discount these assets, reflecting the lack of confidence in management's ability to drive sustainable operating returns [D01, D06].\n\nWe have been patient, but our thesis—that the sum of the parts far exceeds the trading value—is being eroded by continued reinvestment and the costs of delay [D02, D07]. A partial asset sale is not an end in itself; it is the moment to demand a formal strategic review and a full sale process [D03]. We will not wait for the market to eventually 'figure it out' while our capital is tied up in a business that is clearly not maximizing value for its owners [D05, D08].\n\nWith the annual meeting cycle approaching, the time for private engagement has passed. We are escalating our position to publicly advocate for the only outcome that makes sense: a clean break and a sale of the company to a strategic buyer who can manage these assets with the scale and focus they require [D03, D07]. We expect the board to immediately engage with representatives of the shareholders to implement this change [D07].",
+  "uncited_claims": []
+ }
+}

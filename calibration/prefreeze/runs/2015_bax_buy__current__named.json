@@ -1,0 +1,240 @@
+{
+ "pack": "2015_bax_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-08-05",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Baxter International Inc. is a medical-products and renal-care company that recently completed the separation of its bioscience operation into Baxalta on July 1, 2015 [D01]. The newly focused parent company must now be evaluated based on its standalone operating performance and recurring economics rather than historical consolidated results [D01].",
+   "segments_and_separable_assets": [
+    "Medical-products and renal-care businesses: Standalone revenue, EBITDA, and value evidence are not in pack [D01; D02; D04]"
+   ],
+   "economics_vs_peers": [
+    "No numerical cutoff peer margin table was recovered; apparent margin gaps against peers (e.g., Becton Dickinson, Danaher, Pfizer) are starting points for analysis, not proof of avoidable costs [D01; D06]"
+   ],
+   "capital_structure": [
+    "Historical consolidated long-term debt/leases were $8,392m in 2014; a fully reconciled standalone post-spin balance sheet and cutoff net-debt bridge were not recovered [D02; D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $42.13 as of 2015-08-05 [D04]. Market cap: ~$22.93bn based on 544.25m shares [D04]. EV, EV/EBITDA, and P/E: Not in pack due to separation/lack of reconciled standalone data [D04].",
+    "FCF yield: Not in pack; historical consolidated OCF less capex was $1,317m in 2014, but is not representative of standalone performance [D02].",
+    "Dividend yield: Approximately 1.09% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO/chair: Leadership succession offers potential governance checkpoints [D03]. Board: Determines appointment, operating targets, and capital allocation [D03]. No negotiated owner-board settlement or named CEO appointment is in pack [D03; D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders: Not in pack. Short interest: Not in pack. Average daily volume: Not in pack [D08]."
+   ],
+   "event_or_catalyst_evidence": [
+    "The July 1, 2015, separation of Baxalta is complete; future catalysts include leadership succession and potential operational improvements to align with standalone peer margins [D03; D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Standalone overhead offsetting focus benefits [D05]; margin improvement pace in regulated products [D05]; execution risk in CEO transition [D05]; currency headwinds and renal reimbursement challenges [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2015-07-01: Separation of Baxalta completed [D01]. 2015-07-29: Q2 earnings release and post-separation guidance issued [D03]."
+   ],
+   "third_point_context": [
+    "Not in pack; fund's healthcare concentration, AUM, and specific position details are unavailable [D07; D08]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Reconciled standalone balance sheet, standalone net-debt bridge, standalone revenue and EBITDA/operating income, post-spin share count, and current enterprise value."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company recently completed a separation of its bioscience operation and now faces operational improvements to align with standalone peer margins [D01; D03]."
+    },
+    "edge": {
+     "score": "UNSURE",
+     "evidence": "While Third Point has a history of constructivist engagement in healthcare, specific current plans, AUM context, and differentiated insights into the new standalone cost structure are not in pack [D07; D08]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Leadership succession and potential board engagement are noted, but no negotiated settlement or specific, forced governance pathway is currently active [D03; D07]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "A reconciled standalone balance sheet and enterprise value are not in pack, preventing a calculation of an asset or FCF-based floor [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "UNSURE",
+     "evidence": "Average daily volume and specific position sizing feasibility are not in pack [D08]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "The thesis depends on future execution in the CEO transition, and the pack does not provide evidence to judge the existing management's ability to execute the new standalone roadmap [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 0,
+   "n_unsure": 5,
+   "hard_fail": false,
+   "edge_statement": "The event is the post-separation operational transition of Baxter, where the mispricing stems from market uncertainty regarding standalone margins and overhead, though Third Point's specific edge awaits further analysis of the new cost structure.",
+   "one_line_verdict": "a post-spin medical products company with potential for operational margin alignment and leadership-driven value creation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2"
+   ],
+   "variant_view": "The market views Baxter as a burdened, legacy entity struggling with transition risks, overhead, and reimbursement headwinds following the Baxalta spin. We believe the market fails to appreciate the potential for margin expansion through disciplined operational realignment as a focused medical-products company. Performance will improve as the company sheds consolidated bloat and executes against best-in-class peer benchmarks [D01; D03; D05].",
+   "evidence": [
+    "The company completed its bioscience separation on July 1, 2015, requiring a recalibration of its standalone operating economics [D01]",
+    "Market concerns focus on the pace of margin improvement and the efficacy of the post-spin cost structure [D05]"
+   ],
+   "peer_benchmark": "Becton Dickinson, Danaher, and Pfizer serve as reference points for medical-product margin expectations [D01; D06]",
+   "what_must_be_true": [
+    "New management must successfully execute the standalone operating roadmap",
+    "Standalone operating margins must show a clear trajectory toward peer levels",
+    "The company must effectively manage renal reimbursement and currency headwinds"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "not in pack",
+    "arithmetic": [
+     "standalone revenue, EBITDA, and post-spin share count not in pack [D01; D04]",
+     "peer margin gap identified but unquantified [D01; D06]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "not in pack",
+    "basis": "no reconciled standalone balance sheet or net-debt bridge [D04; D08]"
+   },
+   "current_price": "$42.13 [D04]",
+   "skew": "not in pack : not in pack",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Standalone revenue and EBITDA figures are unavailable post-spin",
+    "Standalone net debt is not provided",
+    "Target valuation multiple must be assumed based on proxies like Becton Dickinson or Danaher"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Execute rigorous cost-structure optimization to align operating margins with peers such as Becton Dickinson and Danaher [D01; D06]",
+    "Implement transparent capital allocation policy following the Baxalta spin [D03]",
+    "Provide clear roadmap for standalone earnings power post-leadership transition [D05]"
+   ],
+   "actors": [
+    "CEO/Board — Lead — Management of the standalone entity [D03]"
+   ],
+   "governance_route": "Engagement regarding board oversight of post-spin operational targets [D03; D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management fails to demonstrate margin improvement within 2-3 quarters, we move to a public letter (P2) to demand specific margin targets and potential board refresh.",
+   "why_this_role_fits_the_era": "Fits the 2009-2015 era of large-cap constructivism, where private engagement is the initial step for a new standalone entity (post-spin) to address operational margin gaps before turning to public agitation."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to provide transparent margin targets within two quarters [D03; D04]",
+    "Operating margins show no convergence toward peer levels [D01; D06]",
+    "Management team fails to execute on the standalone operating roadmap post-transition [D05]",
+    "Adverse regulatory shifts in renal reimbursement impacting cash flow stability [D05]"
+   ],
+   "portfolio_risk": "Factor overlap exists with broader healthcare holdings; execution risk is high due to the lack of a proven standalone track record; liquidity is assumed sufficient for a mid-cap activist position, though specific volume data is not in pack [D05; D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The thesis hinges on unproven post-spin operational margin expansion which may be obstructed by legacy corporate bloat and external reimbursement headwinds."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-08-05",
+  "company": "Baxter International Inc.",
+  "ticker": "BAX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "not in pack",
+   "floor": "not in pack",
+   "skew": "not in pack : not in pack",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "Execute rigorous cost-structure optimization to align operating margins with peers such as Becton Dickinson and Danaher",
+    "Implement transparent capital allocation policy following the Baxalta spin",
+    "Provide clear roadmap for standalone earnings power post-leadership transition"
+   ],
+   "actors": [
+    "CEO/Board — Lead — Management of the standalone entity"
+   ],
+   "governance_route": "Engagement regarding board oversight of post-spin operational targets",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The market fails to recognize the potential for margin expansion following the July 1, 2015 separation of the bioscience business.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "A persistent margin gap exists when compared to best-in-class peers such as Becton Dickinson and Danaher.",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company faces execution risk in a CEO transition and must prove its standalone operating roadmap.",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Standalone financial visibility remains insufficient due to the lack of a reconciled post-spin balance sheet and EBITDA data.",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to provide transparent margin targets within two quarters",
+   "Operating margins show no convergence toward peer levels",
+   "Management team fails to execute on the standalone operating roadmap post-transition",
+   "Adverse regulatory shifts in renal reimbursement impacting cash flow stability"
+  ],
+  "what_would_change_our_mind": "Clear financial transparency regarding standalone post-spin margins, a reconciled balance sheet, and evidence of management's ability to execute margin improvements.",
+  "memo": "Baxter International stands at a critical juncture following the July 1, 2015 separation of its bioscience operation [D01]. The market currently views the company as a burdened entity, but we see potential for significant value creation if the newly focused medical-products business can eliminate legacy overhead and align its margins with premier peers like Becton Dickinson and Danaher [D01; D03; D06].\n\nAt present, the investment case remains speculative due to the lack of a reconciled standalone balance sheet and clarity on normalized post-spin earnings power [D04]. We lack the necessary financial data to confirm a valuation floor or the 3:1 risk/reward skew required for a core position [D04].\n\nOur plan, should we engage, would be to demand a rigorous cost-structure optimization and a transparent capital allocation policy [D01; D03]. We expect the CEO and Board to provide a concrete roadmap for margin convergence within the next two quarters [D03; D05].\n\nGiven the uncertainty surrounding the post-spin execution and the lack of differentiated insight into the standalone cost structure, we are passing on the opportunity at this time [D05; D07]. We will monitor the situation and wait for management to demonstrate operational progress before committing capital.",
+  "uncited_claims": []
+ }
+}

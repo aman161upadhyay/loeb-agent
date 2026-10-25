@@ -1,0 +1,56 @@
+{
+  "id": "ho_2026_costar_sell",
+  "actual_decision": "SELL",
+  "conviction": "medium",
+  "size_pct_nav": "Complete exit per cited letter/13D; prior NAV weight not recovered.",
+  "first_action_date": "2026-Q1; exact exit date unknown",
+  "disclosure_date": "2026-04-10",
+  "reason_class": "L2",
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Andy Florance",
+      "the refreshed board",
+      "its capital-allocation committee",
+      "shareholders"
+    ],
+    "governance_route": "Operating/transaction/portfolio implementation; no new proxy or board route required.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "The board remedy failed to restrain continued Homes.com spending and related acquisitions.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "The manager believed the CEO was entrenched through golden-parachute terms rather than held accountable.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Reporting changes appeared to obscure residential results, while attention to core Apartments.com and CoStar Suite and AI competition was inadequate.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "The original governance/capital-allocation thesis no longer held, prompting complete disposal.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": "We no longer believe that our original thesis holds true today and have disposed of our position in its entirety."
+    }
+  ],
+  "entry_valuation_stated": "No exit execution price or realized loss disclosed; Q1 detractor status is not the round-trip P&L.",
+  "outcome_note": "See dated primary disclosure for actual action. No later stock return, fund contribution or July 2026 unwind is a desk input. Conviction is an evaluator label, not a disclosed manager conviction; exact cost and realized round-trip P&L remain unknown.",
+  "sources": [
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf",
+    "https://investors.costargroup.com/static-files/b19fb6b5-6204-4bab-86f9-4de804f1adb2",
+    "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf",
+    "https://assets.thirdpointlimited.com/f/166217/x/3999c42098/2025-04-april-monthly-report-tpil.pdf",
+    "https://13f.info/13f/000104027325000003-third-point-llc-q3-2025"
+  ],
+  "pack_quality_notes": "Grade C. Point-in-time issuer/manager evidence is separated from dated post-action explanation. Missing cutoff price, consensus, full peer models and current NAV constrain valuation. Original exact action dates and execution prices are unknown; a quarter-end fallback or preceding month-end trading day is expressly identified in metadata. Earlier-source arguments and inferred size-change rationales are not mislabeled as new manager statements. Each driver source identifies the retrospective disclosure. timetable_quarters=0 means no reliable quantitative timetable recovered, not an assertion of immediate completion."
+}

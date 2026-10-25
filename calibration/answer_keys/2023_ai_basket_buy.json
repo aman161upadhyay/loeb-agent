@@ -1,0 +1,57 @@
+{
+  "id": "2023_ai_basket_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "July letter says ~45% of 70% net-long book direct/indirect AI beneficiaries; not an April six-name basket weight.",
+  "first_action_date": null,
+  "first_action_window": "April30 retained. Q1 letter dated May17 and Q2 letter July31 are hindsight only; NVDA/TSMC/Meta are a requested thematic synthesis, not a verified simultaneous transaction.",
+  "disclosure_date": "2023-07-31",
+  "reason_class": null,
+  "opportunity_template": [
+    "E4",
+    "E5"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Daniel S. Loeb",
+      "Third Point investment team"
+    ],
+    "governance_route": "P0; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "AI represented a transformational platform shift across software and semiconductors.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/44aad2e051/third-point-q2-2023-investor-letter-tpil.pdf (2023-07-31, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "Hyperscale cloud providers were picks and shovels benefiting regardless of individual application winners.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/44aad2e051/third-point-q2-2023-investor-letter-tpil.pdf (2023-07-31, retrospective relative to pack)",
+      "quote": "“picks and shovels” of the AI gold rush"
+    },
+    {
+      "driver": "AI features could raise software ARPU and employee productivity.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/44aad2e051/third-point-q2-2023-investor-letter-tpil.pdf (2023-07-31, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "Compute intensity and model complexity could create a step change in GPU, memory and manufacturing demand.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/44aad2e051/third-point-q2-2023-investor-letter-tpil.pdf (2023-07-31, retrospective relative to pack)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "July letter acknowledges undersized tech and hedges offsetting gains. Exact six-name synchronized April purchase unverified; later holdings must not be projected backward.",
+  "sources": [
+    "https://assets.thirdpointlimited.com/f/166217/x/44aad2e051/third-point-q2-2023-investor-letter-tpil.pdf (2023-07-31)",
+    "https://assets.thirdpointlimited.com/f/166217/x/a4928be28f/third-point-q1-2023-investor-letter-tpil.pdf",
+    "https://assets.thirdpointlimited.com/f/166217/x/44aad2e051/third-point-q2-2023-investor-letter-tpil.pdf (2023-07-31, retrospective relative to pack)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. April30 retained. Q1 letter dated May17 and Q2 letter July31 are hindsight only; NVDA/TSMC/Meta are a requested thematic synthesis, not a verified simultaneous transaction. Nvidia April28 close reconstructed in contemporary units by reversing the historical provider's 10:1 price adjustment; no future split or future operating fact appears in docs. Basket weights/synchronous entry unverified. AUM 12.7bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (2023-02-06). AUM observation period 2023-01; last verified, not asserted current. NOT suitable for strict historical directional/reasoning scoring; key observations and requested-target contradictions are expressly annotated.",
+  "pack_quality_grade": "C",
+  "calibration_eligible": false,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

@@ -1,0 +1,62 @@
+{
+ "trade_id": "2020_q1_derisk",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Reducing equity exposure and preserving liquidity allowed rotation into more asymmetric credit → Reduce total gross equity and credit exposure significantly to preserve liquidity"
+  ],
+  "missed": [
+   "The fund had assigned inadequate probability to a full global pandemic.",
+   "Concentrated and correlated cyclical exposures amplified shutdown losses."
+  ],
+  "extra_agent_drivers": [
+   "Market plumbing and liquidity are impaired",
+   "Lessons from 2008 dictate that in a liquidity regime change, cutting gross exposure early is mandatory"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The WHO declared a pandemic on March 11",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Federal Reserve implemented emergency monetary easing on March 15",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "High-yield credit spreads have widened by 478bp since year-end",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the S&P 500 has experienced a 29.5% drawdown from its February peak",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "VIX at 82.69",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 1,
+  "share": 0.13
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are moving to reduce gross exposure immediately.",
+ "grader_notes": "The agent correctly identified the decision to reduce gross exposure. However, the reasoning significantly diverged from Loeb's retrospective account; the agent focused heavily on technical market indicators (VIX, HY spreads) and institutional lessons, whereas Loeb’s actual rationale centered on an admitted failure to assign adequate probability to the pandemic and the impact of concentrated cyclical exposure.",
+ "run": "2020_q1_derisk__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,53 @@
+{
+ "trade_id": "2020_dis_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Reinvesting roughly $3bn of annual dividends into original content could accelerate streaming scale. → Management must pivot capital allocation away from legacy dividends to prioritize content reinvestment for the Disney+ streaming platform"
+  ],
+  "missed": [
+   "Owned intellectual property and direct consumer relationships created a large global distribution opportunity.",
+   "A larger content budget could make the direct-to-consumer business more compelling and valuable."
+  ],
+  "extra_agent_drivers": [
+   "The market is mispricing Disney by focusing on temporary pandemic-related headwinds in the Parks segment while ignoring the high-growth potential of the D2C streaming transition.",
+   "We value Disney at $175 per share, based on a 35x multiple on projected FY2023 EPS of $5.00, reflecting a significant discount to pure-play streaming peers like Netflix.",
+   "A hard floor of $100 exists based on the sum-of-the-parts value of the underlying Parks, Studios, and linear networks, providing an asymmetric risk/reward profile."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Disney is effectively transitioning from a wholesale carriage model to a high-growth, direct-to-consumer platform with over 101 million aggregate subscribers",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market fixates on current cash burn",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "sum-of-the-parts analysis suggests a path to $175 per share by 2023",
+    "citation": "D04",
+    "verdict": "unsupported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are engaging with CEO Bob Chapek and CFO Christine McCarthy to advocate for a rigid prioritization of capital toward D2C content reinvestment over legacy dividends [D01, D07].",
+ "grader_notes": "The agent correctly matches the direction (BUY) and captures the primary driver regarding dividend suspension. However, it fails to capture Loeb's specific emphasis on the role of 'owned IP' as a distribution opportunity and creates a complex proprietary valuation model that Loeb did not state. The agent's reasoning is farthest from Loeb's in its reliance on arbitrary price targets and peer-multiple math not present in the primary source.",
+ "run": "2020_dis_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

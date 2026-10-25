@@ -1,0 +1,52 @@
+{
+ "trade_id": "2018_cpb_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "A credible slate and alliance with George Strawbridge created a route to governance change. → By aligning with major shareholder George Strawbridge, we intend to exert sufficient pressure on the Board to pivot toward shareholder-friendly capital allocation before the current review cycle concludes [D07].",
+   "A strategic review should consider a sale rather than preserve the status quo. → A board-led strategic review provides the immediate catalyst for portfolio simplification through the divestiture of the impaired fresh-food assets [D07]."
+  ],
+  "missed": [
+   "Poor board oversight and acquisition mistakes had damaged operating performance and shareholder value."
+  ],
+  "extra_agent_drivers": [
+   "Conglomerate mispricing due to failed fresh-food expansion.",
+   "Valuation math indicating significant upside to $52.00."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a classic conglomerate mispricing where the market punishes the entire entity for a failed fresh-food expansion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Alignment with major shareholder George Strawbridge provides a credible counter-weight to the entrenched Dorrance family",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The departure of the CEO has created a governance vacuum",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "By aligning with major shareholder George Strawbridge, we intend to exert sufficient pressure on the Board to pivot toward shareholder-friendly capital allocation before the current review cycle concludes [D07].",
+ "grader_notes": "The agent correctly identifies the governance strategy and the role of the strategic review, which aligns with Loeb's stated drivers. However, the agent's reasoning is heavily focused on SOTP valuation and internal performance analysis, which Loeb did not cite as the primary drivers of his decision in the 13D filing provided in the answer key.",
+ "run": "2018_cpb_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

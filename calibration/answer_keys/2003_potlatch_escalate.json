@@ -1,0 +1,52 @@
+{
+  "id": "2003_potlatch_escalate",
+  "actual_decision": "ESCALATE",
+  "conviction": "medium",
+  "size_pct_nav": "About 3% of issuer in April reporting; NAV weight unavailable.",
+  "first_action_date": null,
+  "disclosure_date": "2003-04-17",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "L. Pendleton Siegel",
+      "Potlatch board",
+      "long-tenured shareholders"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 5
+  },
+  "drivers": [
+    {
+      "driver": "Shareholder voting rights should not reward four years of enduring poor stewardship.",
+      "source": "https://www.lmtribune.com/northwest/potlatchs-voting-may-be-an-issue-5c6f945f (2003-04-17)",
+      "quote": "We find it ironic that shareholders must endure four years of your destructive stewardship in order to be entitled to a full vote"
+    },
+    {
+      "driver": "Persistent operating losses and inferior returns warrant greater board accountability.",
+      "source": "https://www.lmtribune.com/northwest/potlatchs-voting-may-be-an-issue-5c6f945f (2003-04-17)",
+      "quote": null
+    },
+    {
+      "driver": "The $66m towel investment deserves scrutiny while the consumer-products market is oversupplied.",
+      "source": "https://www.lmtribune.com/northwest/potlatchs-voting-may-be-an-issue-5c6f945f (2003-04-17)",
+      "quote": null
+    },
+    {
+      "driver": "Compensation and owner alignment should be tested against the loss record; the full alleged plane/perquisite criticism remains unverified.",
+      "source": "https://www.lmtribune.com/northwest/potlatchs-voting-may-be-an-issue-5c6f945f (2003-04-17)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact execution price and entry multiple not recovered.",
+  "outcome_note": "Final campaign result and fund P&L unknown.",
+  "sources": [
+    "https://www.lmtribune.com/northwest/potlatchs-voting-may-be-an-issue-5c6f945f",
+    "https://www.sec.gov/Archives/edgar/data/79716/000103221003000433/ddef14a.htm"
+  ],
+  "pack_quality_notes": "Grade C. Requested CEO-plane letter not recovered: primary proxy verifies salary/options and no cash bonus, not aircraft spending. Key does not invent a plane figure or quote. April 7 initial letter precedes May 1 cutoff, so this is continuation/escalation, not pristine first public-letter prediction. No precise action on May 2 is claimed. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

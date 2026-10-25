@@ -1,0 +1,29 @@
+{
+  "id": "2008_pdl_escalate",
+  "company": "PDL BioPharma Inc.",
+  "ticker": "PDLI",
+  "aliases": [
+    "PDL BioPharma Inc.",
+    "PDLI",
+    "PDL",
+    "PDL BioPharma",
+    "Protein Design Labs",
+    "Queen patents",
+    "Queen et al.",
+    "Cardene",
+    "Retavase",
+    "Busulfex",
+    "Nuvion",
+    "ularitide",
+    "visilizumab",
+    "Mark McDade",
+    "L. Patrick Gage"
+  ],
+  "as_of_date": "2008-01-31",
+  "mode": "existing",
+  "era": "A",
+  "first_action_window": "Requested checkpoint 2008-01-31; actual first action not recovered to a unique day; see answer-key dating notes. Requested cutoff is after original 2007 escalation. April letter concerned then-CEO McDade; key marks historical rationale, not a new January demand to dismiss an incumbent already changed. Current financials/price and an original January letter not recovered.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Requested cutoff is after original 2007 escalation. April letter concerned then-CEO McDade; key marks historical rationale, not a new January demand to dismiss an incumbent already changed. Current financials/price and an original January letter not recovered."
+}

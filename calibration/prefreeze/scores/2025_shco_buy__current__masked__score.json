@@ -1,0 +1,62 @@
+{
+ "trade_id": "2025_shco_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Super-voting control and the proposed insider transaction created conflicts needing scrutiny. → We are not content to wait for a management-led, potentially value-destructive process to conclude in private."
+  ],
+  "missed": [
+   "An independent sale process should maximize value for all shareholders.",
+   "Qualified outside bidders could offer superior value and a fresh start."
+  ],
+  "extra_agent_drivers": [
+   "The company's status as a capital-intensive hospitality operator with negative GAAP earnings demands a transparent, arms-length exit strategy.",
+   "Public-market illiquidity and discount relative to the brand's potential justify pushing for a sale process that captures full sum-of-the-parts value."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Membership growth: intact, 208,078 members up 13% YoY",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ongoing negative GAAP bottom line",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "super-voting control influence over potential privatization risks minority interests",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trapped in public market with low liquidity",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "formation of a truly independent special committee to manage any potential sale",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are escalating to ensure a rigorous, independent process that maximizes shareholder value [D01].",
+ "grader_notes": "The agent correctly identified the escalation decision but focused heavily on internal operational/fundamental drivers (GAAP losses, hospitality overhead) rather than the specific, governance-focused drivers cited by Loeb in the letter. The agent failed to explicitly mention the role of qualified third-party bidders as a specific driver of the escalation.",
+ "run": "2025_shco_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

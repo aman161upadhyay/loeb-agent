@@ -1,0 +1,41 @@
+{
+ "trade_id": "ctl_2019_newell_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Newell/NWL/Jarden absent from complete 54-quarter index; no attributable Third Point public position comment recovered. Replaces Kraft Heinz, which WAS held Q3 2015–Q1 2016 (peak $582.285M)."
+  ],
+  "extra_agent_drivers": [
+   "Conglomerate restructuring story overcrowded with activists",
+   "Normalized operating margin lags behind peers",
+   "Governance-led catalyst fully priced in",
+   "Heavy lifting underway by other managers"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Starboard Value disclosed a ~4% Newell stake on 9 February 2018",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We will pass on this opportunity to remain disciplined in our core event-driven strategy.",
+ "grader_notes": "The agent correctly identified the PASS decision but provided four specific, manufactured investment drivers based on competitive dynamics and fundamental valuation. Loeb's actual 'driver' is purely observational—the company was not held in the portfolio and no public statement of intent was recovered. The agent's reasoning was entirely external to the specific, limited scope of the answer key.",
+ "run": "ctl_2019_newell_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

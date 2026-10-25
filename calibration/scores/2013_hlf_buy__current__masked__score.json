@@ -1,0 +1,58 @@
+{
+ "trade_id": "2013_hlf_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Independent diligence does not support the short seller's pyramid characterization → The Company presents a compelling opportunity to capture value in a business that is fundamentally mispriced due to a crowded, sensationalist short campaign.",
+   "The business is a cash-generative compounder temporarily discounted by the short attack → while the market is fixated on allegations regarding the legality of the distributor model, it has ignored a machine that generated $418.9 million in free cash flow in 2011.",
+   "The analyst-day rebuttal and significant short interest provide near-term rerating catalysts → We expect the market to reconcile the company's strong cash generation over the next four quarters, prompting a short-squeeze as bearish positions are covered."
+  ],
+  "missed": [
+   "A modest 10–12x earnings multiple supports $55–68 value and 40–70% upside."
+  ],
+  "extra_agent_drivers": [
+   "16.3% operating margins demonstrate a robust underlying retail-driven business model.",
+   "9.88x trailing P/E suggests the market is pricing the company for failure."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "generated $418.9 million in free cash flow in 2011",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "16.3% operating margins",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market re-rates the stock toward its intrinsic value",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "hard floor of $27.50 supported by net cash and distressed earnings power",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We expect the market to reconcile the company's strong cash generation over the next four quarters, prompting a short-squeeze as bearish positions are covered.",
+ "grader_notes": "The agent correctly identified the investment as a buy and captured the core thesis regarding the mispricing of a cash-generative business due to short-seller noise. The reasoning is closest to Loeb's in its focus on the short-squeeze dynamic and the dismissal of the pyramid scheme allegations. It is farthest in its valuation methodology, where it applied a specific peer multiple of 15.8x to reach a $61.50 target, whereas Loeb utilized a simpler 10-12x range to justify a $55-$68 target.",
+ "run": "2013_hlf_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

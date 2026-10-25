@@ -1,0 +1,19 @@
+Title: Strong countercase and thesis risks — Nestlé S.A.
+Source: https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2016 (2017-02-16); https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25); https://www.cnbc.com/2017/06/25/daniel-loebs-third-point-buys-stake-in-nestle-advises-selling-its-loreal-holding.html (2017-06-25); https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (2017-06-02); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514617001247-third-point-llc-q1-2017 (2017-05-12)
+Date: 2017-06-25
+
+A sceptic can view a consumer-staples premium multiple as already discounting self-help from the new CEO. Consumers are moving toward fresher and local products, retail channels are changing, and smaller competitors can innovate faster than a global bureaucracy. Price increases can sacrifice volume. Aggressive margin targets may merely shift costs out of marketing and damage brands. Selling the cosmetics stake can incur tax and remove an attractive compounding asset. Leverage-funded repurchases do not repair stagnant category economics. These objections are consistent with the weak growth and pricing disclosed by management, not predictions of failure. [S1; S3; analyst countercase]
+
+Adversarial underwriting. The countercase above should be allowed to defeat the attractive narrative. Distinguish a temporary cloud from permanent impairment, and distinguish a bad business from a good business burdened by claims or a poor structure. Neither distinction is settled by a share-price decline. A credible risk memo names observable developments that would invalidate earnings, liquidity or governance assumptions rather than treat every setback as a chance to increase exposure.
+
+Useful tests include persistent demand or margin erosion after comparable accounting, inability to finance required investment, a remedy whose cost consumes its value, or a decision-maker with neither incentive nor obligation to act. These are analyst tests, not unreported management statements or documented shareholder instructions. Consider the opposite error as well: excessive caution can crystallize losses or miss a profitable recovery. A hedge can add basis, financing and squeeze risk. The recovered sources do not supply probabilities for each scenario, so no precision is implied. The downside floor must be independently demonstrated in cash flows, assets, contractual rights or capital structure; it must not be assumed merely because the upside plan sounds plausible.
+
+Analyst cross-check: Rank the objections by their transmission to the security: reduced operating cash generation, a larger financing claim, lost governance authority, or delayed realization. A thesis can survive a weak quarter but fail because funding expires first. Identify which risks can be monitored and which remain discontinuous.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2016 (published 2017-02-16).
+- [S2] https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (published 2017-06-25).
+- [S3] https://www.cnbc.com/2017/06/25/daniel-loebs-third-point-buys-stake-in-nestle-advises-selling-its-loreal-holding.html (published 2017-06-25).
+- [S4] https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (published 2017-06-02).
+- [S5] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S6] https://13f.info/13f/000108514617001247-third-point-llc-q1-2017 (published 2017-05-12).

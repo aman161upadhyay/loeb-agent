@@ -1,0 +1,64 @@
+{
+ "trade_id": "2007_pogo_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "A competitive sale should realize asset value in the whole company or several parts → We intend to make our voice heard publicly to ensure that the board recognizes its duty to shareholders is to maximize the sale value of the entire entity, not to provide 'processes' that keep them employed"
+  ],
+  "missed": [
+   "Ten-year share-price appreciation of 5.8% trails the 11.7% peer rate.",
+   "Northrock's $1.8bn cost plus over $350m investment is difficult to reconcile with production falling from 30,000 to 27,000 boe/day.",
+   "A majority-board proxy challenge makes the proposed process credible."
+  ],
+  "extra_agent_drivers": [
+   "management is pursuing a slow, piecemeal divestiture strategy that risks crystallizing tax leakage and destroying value rather than pursuing a full sale",
+   "the persistent margin gap versus peers and poor capital efficiency indicate entrenched, sub-optimal governance",
+   "the trading multiple of 5.0x is deeply disconnected from the intrinsic value of the reserve base"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company possesses significant reserve value obscured by poor capital allocation.",
+    "citation": "D07",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Current strategy of selling non-core assets in phases risks tax leakage.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Stock trading at a depressed 5.0x trailing P/E.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Peer margin gap remains egregious.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Annual-meeting cycle is upon us.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to make our voice heard publicly to ensure that the board recognizes its duty to shareholders is to maximize the sale value of the entire entity, not to provide 'processes' that keep them employed.",
+ "grader_notes": "The agent correctly matched the escalation direction and the core demand for a strategic sale of the company. However, the reasoning overlap is low because the agent focused on internal valuation metrics and piecemeal divestiture criticisms not cited in Loeb's specific drivers. The agent failed to reference the quantitative historical performance data or the specific concerns regarding Northrock capital expenditure that informed Loeb's original case.",
+ "run": "2007_pogo_escalate__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

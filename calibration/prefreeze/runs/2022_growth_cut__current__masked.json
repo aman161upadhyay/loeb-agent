@@ -1,0 +1,54 @@
+{
+ "pack": "2022_growth_cut",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2022-03-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2022-03-31",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The Federal Reserve initiated a policy-rate hike cycle on March 16 [D01], and February CPI reached a 7.9% YoY increase [D03]. Higher discount rates disproportionately impact the long-duration growth and venture-origin holdings prevalent in the portfolio, while liquidity for private market assets reliant on cheap funding is tightening [D01].",
+  "book_exposure": "The portfolio carries significant exposure to technology and private-market assets which face rerating risks in a higher-rate environment [D01]. Previous records indicate high equity gross exposure (149.7% in 2021-09) [D08], which is incompatible with the current liquidity and rate regime shift.",
+  "actions": [
+   "Trim long-duration growth equity and venture-origin positions to reduce sensitivity to discount rate expansion [D01].",
+   "Reduce exposure to private-market assets that rely on cheap funding [D01].",
+   "Close or trim tactical positions that lack immediate event-driven catalysts to lower gross exposure [D08]."
+  ],
+  "target_gross_net": "Material reduction in gross exposure to move toward a more defensive net stance in anticipation of continued volatility [D01].",
+  "drivers": [
+   {
+    "driver": "The transition from a low-rate, high-liquidity environment to an active tightening cycle creates an existential valuation headwind for long-duration assets.",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Rising CPI (7.9%) and policy rate increases compress valuation multiples for growth-heavy books.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "A prudent event-driven strategy mandates exiting positions where the liquidity and funding-driven growth model is no longer sustainable.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Third Point’s history demonstrates that during liquidity regime changes—like 2008 and Q1 2020—cutting gross early is mandatory to protect capital.",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "We are facing a regime shift that mandates a decisive reduction in gross exposure. The combination of sustained, elevated inflation at 7.9% [D03] and the Federal Reserve’s commitment to raising rates [D01] has broken the valuation floor for the long-duration technology and venture-origin assets that have previously driven our returns [D01]. Our February letter already correctly identified that private markets reliant on cheap funding face unavoidable rerating [D01]. \n\nWe must not confuse a high-quality brand or a temporary share-price pullback with an investment thesis that can compound through a restrictive liquidity environment [D05]. We have seen this movie before; when funding dries up, the capital structure of these growth-heavy positions is often tested by stock-based compensation and a lack of free cash flow conversion [D05]. We are cutting now, not waiting for the market to prove our caution correct. We will remain nimble and opportunistic, preserving liquidity to redeploy only when the event-driven risk/reward skew recovers and the macro volatility subsides.",
+  "uncited_claims": [
+   "The 2021-09 equity gross exposure of 149.7% is assumed to be representative of general portfolio positioning prior to this reduction."
+  ]
+ }
+}

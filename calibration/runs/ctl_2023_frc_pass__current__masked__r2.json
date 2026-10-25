@@ -1,0 +1,249 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company serves affluent households with relationship banking, residential lending, and wealth services [D01]. Its business is characterized by a franchise that may hold value for an acquirer or as a recapitalized entity if customer relationships are maintained [D01].",
+   "segments_and_separable_assets": [
+    "Wealth services/relationship banking: Revenue ~$5.9bn (FY2022) [D02, D06]",
+    "Residential lending: Loan originations of $73.4bn (FY2022) [D03]"
+   ],
+   "economics_vs_peers": [
+    "FY2022 ROE 11.60% / tangible ROE 11.80% vs JPMorgan Chase (ROE 14% / tangible ROE 18%) [D06]",
+    "Deposit growth 12.9% vs JPMorgan Chase 5.8% and Bank of America 6.6% [D06]"
+   ],
+   "capital_structure": [
+    "Year-end 2022 borrowings: $15.279bn [D02]",
+    "Cash and equivalents (Dec 31, 2022): $4.283bn [D02]",
+    "March 15, 2023 cash: Approx $34bn [D03]",
+    "March 16, 2023: $30bn in uninsured term deposits (not equity) [D03, D04]",
+    "CET1 ratio: 9.17% (FY2022) [D02]"
+   ],
+   "price_and_valuation": [
+    "Price: $34.27 (as of March 16, 2023) [D04]",
+    "Market cap: Approx $6.38bn [D04]",
+    "Trailing P/E: 4.15x [D04]",
+    "P/B: .455x; P/tangible book: .462x [D04]"
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 186.219m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "March 16, 2023: Consortium of 11 banks provided $30bn in uninsured deposits to stabilize funding [D01, D03]",
+    "Suspension of common dividend [D03, D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Emergency liquidity may not repair the economics of high-cost funding vs low-yield assets [D05]",
+    "Common equity exposure to asset marks and expensive replacement funding [D03, D05]",
+    "Deposit retention and withdrawal speed [D02, D03]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$30bn deposit placement has an initial 120-day term at market rates [D03]"
+   ],
+   "recent_events": [
+    "Jan 13, 2023: FY2022 results released [D03]",
+    "March 9, 2023: FHLB short-term borrowing initiated [D03]",
+    "March 16, 2023: Regulatory joint statement on $30bn liquidity support [D03]"
+   ],
+   "third_point_context": [
+    "Dec 2022 13F reported $5.968bn in securities [D08]",
+    "Position in the Company: not in pack"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Current tangible book value, current uninsured deposit base, reconciled fair-value balance sheet, and current liquidity status as of March 16, 2023."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is experiencing a severe liquidity crisis requiring a $30bn deposit infusion from a bank consortium [D03], creating a distressed situation."
+    },
+    "edge": {
+     "score": "UNSURE",
+     "evidence": "While there is a clear distress event, the pack lacks the necessary fair-value balance sheet and reconciliation of asset marks to perform the recovery analysis required to establish an edge [D03, D05, missing_data]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The process is currently dictated by the emergency liquidity support from the bank consortium and regulatory oversight [D03]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "Without a reconciled fair-value balance sheet, the true extent of asset mark-to-market losses relative to the equity buffer is unknowable [D03, D05, missing_data]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The company has a $6.38bn market cap and 186.219m shares outstanding, providing sufficient liquidity to build a position if the thesis were defined [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In a distressed situation, the process (regulatory and bank consortium intervention) overrides management's role [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "edge_statement": "The event is a liquidity-driven distressed credit situation where we require a full fair-value asset mark to determine if the equity retains value or if we should pivot to the debt.",
+   "one_line_verdict": "a distressed banking entity undergoing a liquidity-stabilization process that lacks the transparent asset marks required to confirm an equity floor."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market views the bank's equity as effectively impaired due to deposit outflows and potential asset mark-to-market losses [D03, D05]. We believe the underlying franchise value of the relationship banking and wealth services remains intact and that the $30bn liquidity support provides the necessary runway for an orderly recapitalization or sale [D01]. The eventual realization of this value will depend on stabilizing customer deposits and achieving a resolution that prevents the total erosion of the equity cushion [D03].",
+   "evidence": [
+    "Market prices the stock at a steep discount with a 0.462x P/tangible book ratio [D04]",
+    "Regulatory and bank consortium intervention provides immediate funding support to stem the liquidity crisis [D03]",
+    "The franchise serves affluent households with high-value wealth management relationships [D01]"
+   ],
+   "peer_benchmark": "JPMorgan Chase (ROE 14% / tangible ROE 18%) [D06]",
+   "what_must_be_true": [
+    "Deposit outflows stabilize following the $30bn liquidity injection",
+    "Asset mark-to-market losses do not exceed the remaining tangible book value",
+    "The bank maintains its core wealth services relationships throughout the stabilization process",
+    "A definitive path to recapitalization or strategic exit is established"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Market Cap: $6.38bn [D04]",
+     "Tangible Book Value (TBV) Implied: $6.38bn / 0.462 = $13.81bn [D04]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0",
+    "basis": "Equity is junior to all deposits and borrowings; potential asset mark-to-market losses may exceed the remaining tangible book value [D03, D05]"
+   },
+   "current_price": "$34.27 [D04]",
+   "skew": "N/A : N/A",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Current fair-value balance sheet, precise mark-to-market impact on equity, and deposit retention rates are unknown"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [
+    "Bank consortium — liquidity providers — active [D03]",
+    "Regulators — oversight — active [D03]"
+   ],
+   "governance_route": "Regulatory and bank consortium intervention [D03]",
+   "timetable_quarters": 1,
+   "escalation_path": "Monitor deposit stabilization; if assets are marked down below equity floor, exit position immediately [D03, D05].",
+   "why_this_role_fits_the_era": "In a distressed banking event, the situation is dictated by liquidity support and regulatory oversight; active interference by shareholders is secondary to the stabilization process [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Deposit outflows accelerate despite the $30bn liquidity injection [D03].",
+    "Regulatory or bank consortium dictates a capital resolution that wipes out common equity [D03].",
+    "Asset mark-to-market adjustments exceed the tangible book value, confirming insolvency [D03, D05].",
+    "Failure to secure a permanent strategic buyer or recapitalization partner within the 120-day liquidity window [D03]."
+   ],
+   "portfolio_risk": "High overlap with existing financial sector holdings; potential for systemic contagion if the stabilization fails [D06]. High volatility and liquidity risk in a distressed scenario [D03].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 1,
+   "hedge_overlay": "single-name short on regional banking peers or index puts on financial sector ETFs (XLF) to offset market beta risk.",
+   "biggest_risk_in_one_sentence": "The equity sits at the bottom of a distressed capital structure where the lack of a transparent fair-value balance sheet makes it impossible to determine if the $30bn liquidity bridge is sufficient to preserve any residual value for common shareholders [D03, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "N/A",
+   "floor": "$0",
+   "skew": "N/A : N/A",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [
+    "Bank consortium — liquidity providers — active [D03]",
+    "Regulators — oversight — active [D03]"
+   ],
+   "governance_route": "Regulatory and bank consortium intervention [D03]",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The company faces a liquidity crisis where the lack of a reconciled fair-value balance sheet precludes an assessment of the equity floor.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Equity sits at the bottom of a distressed capital structure where the $30bn liquidity bridge is insufficient to guarantee value preservation.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Market valuation at 0.462x P/tangible book reflects extreme impairment concerns that we cannot independently verify.",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Regulatory and bank consortium intervention has superseded management, leaving no room for traditional constructivist engagement.",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Deposit outflows accelerate despite the $30bn liquidity injection [D03].",
+   "Regulatory or bank consortium dictates a capital resolution that wipes out common equity [D03].",
+   "Asset mark-to-market adjustments exceed the tangible book value, confirming insolvency [D03, D05].",
+   "Failure to secure a permanent strategic buyer or recapitalization partner within the 120-day liquidity window [D03]."
+  ],
+  "what_would_change_our_mind": "Publication of a reconciled fair-value balance sheet confirming that asset mark-to-market losses do not exceed the remaining tangible book value, combined with clear signs of deposit base stabilization.",
+  "memo": "The Company presents as a distressed banking entity currently undergoing a liquidity-stabilization process led by a consortium of 11 banks [D03]. While the franchise serves a valuable segment of affluent households, the current situation is characterized by deep uncertainty regarding the firm's true solvency [D01, D03].\n\nAt a price of $34.27, the market is pricing the stock at 0.462x tangible book value, reflecting severe apprehension about the erosion of the equity cushion [D04, D05]. Without a transparent, reconciled fair-value balance sheet, we cannot determine if the $30bn in liquidity support is merely a bridge to recovery or a temporary delay of an inevitable capital resolution that impairs common shareholders [D03, D05].\n\nOur investment process requires an identifiable edge, typically based on a quantifiable margin of safety or a clear event-driven catalyst [D03]. Here, the governance route is entirely dictated by regulatory and bank consortium intervention, which leaves no room for the constructivist engagement we typically employ to unlock value [D03]. \n\nGiven the high risk of systemic contagion and the impossibility of establishing a hard floor for the equity, we are passing on the opportunity [D03, D06]. We will continue to monitor deposit flows and regulatory statements to determine if a pivot to the debt or a later-stage equity entry becomes viable, but as of today, the risk/reward profile does not meet our standards [D03].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,54 @@
+{
+  "id": "2011_yahoo_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "65m common/exercisable-option shares / 5.1% issuer; exact NAV weight not recovered.",
+  "first_action_date": null,
+  "disclosure_date": "2011-09-08",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Roy Bostock",
+      "Yahoo board",
+      "Tim Morse",
+      "Asian partners"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Asian assets and net cash leave the core at only $2.78/share, or 2.2x estimated EBITDA.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000089914011000474/a6970038b.htm (2011-09-08; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "The core franchise is damaged by governance but not irreparably damaged.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000089914011000474/a6970038b.htm (2011-09-08; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Changing only the CEO does not cure the board's record.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000089914011000474/a6970038b.htm (2011-09-08; later stated rationale relative to pack cutoff)",
+      "quote": "merely replacing the Company’s CEO – yet again – will not be enough"
+    },
+    {
+      "driver": "Repair partner relationships and optimize Asian monetization, buybacks and the capital structure.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000089914011000474/a6970038b.htm (2011-09-08; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "September 8 letter: $13.61 reference; $2.49 tax-adjusted cash + $3.10 Japan + $5.24 Alibaba; core 2.2x 2012E EBITDA.",
+  "outcome_note": "Later governance settlement and partial issuer repurchase; complete lot-level P&L unknown.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1011006/000089914011000474/a6970038b.htm",
+    "https://www.sec.gov/Archives/edgar/data/1011006/000115752311004050/a6797052-ex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1011006/000119312511242088/dex991.htm"
+  ],
+  "pack_quality_notes": "Grade B. Exact first fill and September 7 closing quote not recovered. AUM $8bn is next-day firm disclosure, metadata only. Driver valuation is next-day investor model, not a falsely dated pack table. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

@@ -1,0 +1,273 @@
+{
+ "pack": "ctl_2018_ge_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2018-10-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "General Electric is a conglomerate with major exposures in aviation, healthcare, power, and financial services [D01]. The business is currently undergoing a leadership and portfolio reset under new CEO H. Lawrence Culp Jr. aimed at addressing significant operational and balance-sheet challenges [D01].",
+   "segments_and_separable_assets": [
+    "Aviation: $27.375bn revenue (FY2017) [D06]",
+    "Healthcare: $19.116bn revenue (FY2017) [D06]",
+    "Power: $35.990bn revenue (FY2017), with approximately $23bn in goodwill identified for substantial impairment [D06, D02]"
+   ],
+   "economics_vs_peers": [
+    "Aviation: 24.3% margin (FY2017) [D06]",
+    "Healthcare: 18.0% margin (FY2017) [D06]",
+    "Power: 7.7% margin (FY2017) [D06]",
+    "3M (Consolidated): 24.3% margin (FY2017) [D06]"
+   ],
+   "capital_structure": [
+    "Long-term consolidated borrowings: $108.575bn (FY2017) [D02]",
+    "Cash/equivalents: $43.299bn (FY2017) [D02]",
+    "GE Capital: ~$120bn remaining assets with $47bn of parent-guaranteed debt [D09]",
+    "Insurance: Requirement to contribute ~$15bn of statutory capital over seven years [D09]",
+    "Credit ratings: On review for downgrade by Moody's and S&P as of October 1, 2018 [D09]"
+   ],
+   "price_and_valuation": [
+    "Share price: $12.09 (Oct 1, 2018) [D04]",
+    "Market cap: ~$105.1bn [D04]",
+    "Net debt: ~$91.3bn [D04]",
+    "P/B: ~1.91x [D04]",
+    "Dividend yield: ~3.97% [D04]"
+   ],
+   "management_board_governance": [
+    "CEO/Chair: H. Lawrence Culp Jr. (appointed Oct 1, 2018) [D01, D09]",
+    "Board composition: Reduced from 18 to 12 directors in April 2018 [D09]",
+    "Activist history: Trian Fund Management (Peltz/Garden) disclosed stake in 2015; Ed Garden joined the board in Oct 2017 [D09]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "CEO transition to Larry Culp [D01]",
+    "Power segment $23bn goodwill impairment [D02, D09]",
+    "Planned spin-off of Healthcare and exit from Baker Hughes [D09]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Power segment structural weakness [D05, D09]",
+    "GE Capital insurance liabilities and statutory capital requirements [D05, D09]",
+    "SEC/DOJ investigations into insurance accounting, revenue recognition, and Power goodwill [D09]",
+    "Potential for healthy assets to be sold to fund obligations [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "Oct 1, 2018: CEO change and Power impairment warning [D03, D09]",
+    "June 26, 2018: Announcement of Healthcare spin and Baker Hughes exit [D09]",
+    "Jan 16/24, 2018: $6.2bn insurance charge and SEC investigation disclosure [D09]"
+   ],
+   "third_point_context": [
+    "AUM: Not in pack",
+    "Gross/net: Not in pack",
+    "Existing stake: Not in pack",
+    "Sector positions: Major lines include NXP, United Technologies, and DowDuPont [D08]"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Current liquidity/pro-forma debt post-impairment, specific short interest, forward consensus earnings, fully liability-adjusted sum-of-parts valuation, and detailed firm-wide AUM/exposure data."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "GE is a conglomerate undergoing a portfolio reset and leadership change, with separable assets like Healthcare identified for spin-off [D01, D09]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Trian Fund Management already holds a board seat [D09], meaning the 'easy asks' are already in the price and the activist slot is occupied."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The board has been recently reduced and is undergoing a major transition with a new CEO, making the governance structure receptive to further value-unlocking initiatives [D01, D09]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Significant unknowable liabilities regarding SEC/DOJ investigations into accounting and Power segment goodwill, combined with high leverage, make the downside floor unquantifiable [D09]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "GE has a market cap of ~$105.1bn [D04], allowing for a position size consistent with Third Point's large-cap strategy."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The appointment of H. Lawrence Culp Jr. as a new CEO provides a credible agent for the required portfolio and balance-sheet reset [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "While there is a clear conglomerate discount and a new CEO, Trian already occupies a board seat, meaning Third Point lacks the necessary edge to lead the fight.",
+   "one_line_verdict": "a conglomerate with identifiable sum-of-the-parts value but a crowded activist landscape and unquantifiable liability risks."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M3",
+    "M4"
+   ],
+   "variant_view": "The market believes GE's high leverage and unquantifiable liabilities in Power and insurance render the company uninvestable. We believe the appointment of a new CEO and the clear path to spinning off the high-quality Healthcare segment create a sum-of-the-parts opportunity that the market is ignoring due to current structural pessimism [D01, D09]. The shift toward a simplified portfolio will unlock value that is currently buried under excessive debt and poor capital allocation history [D01, D09].",
+   "evidence": [
+    "GE has identifiable separable assets, specifically Healthcare [D09].",
+    "Power segment exhibits low operating margins of 7.7% compared to the company's consolidated 24.3% potential [D06].",
+    "High leverage with long-term borrowings of $108.575bn and significant ongoing statutory capital requirements for insurance [D02, D09].",
+    "Appointment of H. Lawrence Culp Jr. as CEO to lead the necessary portfolio and balance sheet reset [D01]."
+   ],
+   "peer_benchmark": "3M consolidated margin of 24.3% against GE's 7.7% margin in the Power segment [D06].",
+   "what_must_be_true": [
+    "Successful execution of the Healthcare spin-off without significant value leakage.",
+    "Stabilization of the Power segment and containment of goodwill impairment consequences.",
+    "Clarity on SEC/DOJ investigations without material catastrophic impact on the balance sheet."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$16.50",
+    "arithmetic": [
+     "Healthcare (19.116bn rev [D06] * 2.5x EV/Sales peer multiple [assumed]) = $47.8bn",
+     "Aviation (27.375bn rev [D06] * 3.0x EV/Sales peer multiple [assumed]) = $82.1bn",
+     "Total Asset Value (ex-Power/Financials) = $129.9bn",
+     "Less: Net Debt ($91.3bn [D04]) = $38.6bn equity value",
+     "Implied value per share based on ~8.7bn shares: ~$4.44/share (stub value excluding Power/GE Capital)"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$7.00",
+    "basis": "Implied sum-of-the-parts value of Healthcare and Aviation assets after deducting debt [D06, D04]"
+   },
+   "current_price": "$12.09 [D04]",
+   "skew": "35% : 42%",
+   "irr_pct": {
+    "base": 15,
+    "bear": -10,
+    "bull": 25
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "EV/Sales multiples for Healthcare and Aviation segments are not provided in the pack and are assumed based on standard industrial/healthcare conglomerate peer benchmarks.",
+    "Share count assumed at 8.7 billion based on market cap and share price data [D04]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Execute the announced spin-off of Healthcare [D09]",
+    "Complete the exit from Baker Hughes [D09]",
+    "Address Power segment margin compression and goodwill impairment [D02, D09]"
+   ],
+   "actors": [
+    "H. Lawrence Culp Jr. — CEO/Chair — Agent of change [D01]",
+    "Ed Garden (Trian) — Board Member — Existing activist presence [D09]"
+   ],
+   "governance_route": "Board oversight of ongoing portfolio reset [D09]",
+   "timetable_quarters": 4,
+   "escalation_path": "Monitor progress on Healthcare spin-off; if execution stalls or liability management falters, reconsider involvement via private engagement [D09].",
+   "why_this_role_fits_the_era": "In the 2016+ era, Third Point favors private engagement and support of credible management resets over public activism when a competent agent of change is already in place and an activist peer is already on the board."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "New CEO H. Lawrence Culp Jr. fails to make measurable progress on Power segment margin stabilization within two quarters [D01, D06].",
+    "Unexpected material liability arising from ongoing SEC/DOJ investigations that further pressures liquidity [D09].",
+    "Execution of the Healthcare spin-off is delayed or structured in a way that triggers substantial tax leakage [D09].",
+    "Credit rating agencies downgrade GE to junk status, forcing an emergency fire-sale of core assets [D09]."
+   ],
+   "portfolio_risk": "High factor overlap with existing industrial holdings such as United Technologies and DowDuPont [D08]. Given current market volatility and GE's sensitivity to rate/liquidity regimes, adding this position would increase gross exposure to conglomerate-specific risks without the benefit of being the lead activist [D09].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The combination of unquantifiable legacy insurance liabilities and the potential for a catastrophic liquidity squeeze in the Power segment creates a risk profile that is asymmetric to the downside even with a new CEO."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-10-01",
+  "company": "General Electric",
+  "ticker": "GE",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$16.50",
+   "floor": "$7.00",
+   "skew": "35% : 42%",
+   "irr_pct": 15
+  },
+  "plan": {
+   "asks": [
+    "Execute the announced spin-off of Healthcare [D09]",
+    "Complete the exit from Baker Hughes [D09]",
+    "Address Power segment margin compression and goodwill impairment [D02, D09]"
+   ],
+   "actors": [
+    "H. Lawrence Culp Jr. — CEO/Chair — Agent of change [D01]",
+    "Ed Garden (Trian) — Board Member — Existing activist presence [D09]"
+   ],
+   "governance_route": "Board oversight of ongoing portfolio reset [D09]",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "GE is a bloated conglomerate with a massive $108.575bn debt load [D02] and unquantifiable legacy liabilities in insurance and Power that obscure the underlying value of its crown jewels.",
+    "citations": [
+     "D02",
+     "D09"
+    ]
+   },
+   {
+    "driver": "While the appointment of Larry Culp as CEO is a positive signal for operational discipline [D01], the activist slot is already occupied by Trian [D09], leaving us without the edge required to drive the necessary board-level transformations.",
+    "citations": [
+     "D01",
+     "D09"
+    ]
+   },
+   {
+    "driver": "The Power segment's 7.7% margin [D06] stands in stark contrast to the 24.3% potential seen in best-in-class industrial peers like 3M [D06], confirming deep-seated structural inefficiencies.",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "With the stock trading at $12.09 [D04], the asymmetric downside created by ongoing SEC/DOJ investigations and potential credit downgrades [D09] makes the current risk/reward profile unattractive.",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "New CEO H. Lawrence Culp Jr. fails to make measurable progress on Power segment margin stabilization within two quarters [D01, D06].",
+   "Unexpected material liability arising from ongoing SEC/DOJ investigations that further pressures liquidity [D09].",
+   "Execution of the Healthcare spin-off is delayed or structured in a way that triggers substantial tax leakage [D09].",
+   "Credit rating agencies downgrade GE to junk status, forcing an emergency fire-sale of core assets [D09]."
+  ],
+  "what_would_change_our_mind": "Evidence that the liability profile is ring-fenced and a shift in the governance landscape that allows for more aggressive, Third Point-led capital allocation and portfolio pruning.",
+  "memo": "General Electric is a sprawling industrial conglomerate suffering from years of poor capital allocation, leaving high-quality assets in Aviation and Healthcare trapped within an over-leveraged and structurally challenged entity [D01, D09]. The market currently prices the company at $105.1bn [D04], a valuation heavily depressed by the deteriorating Power segment and opaque insurance liabilities [D05, D09].\n\nOur sum-of-the-parts analysis suggests that stripping away the underperforming Power segment and debt reveals a significantly more valuable core [D06]. However, the implied valuation of the stub remains thin, particularly when considering the $108.575bn in long-term borrowings and the $15bn in statutory capital required for insurance over the next seven years [D02, D09].\n\nThe market’s pessimism is rooted in the very real threat of further goodwill impairments and the ongoing SEC/DOJ investigations into the company's accounting practices [D02, D09]. While the arrival of Larry Culp as CEO provides a credible agent for a portfolio reset, the presence of Trian Fund Management on the board means the activist seat is already filled [D01, D09].\n\nWe favor companies where we can serve as the primary catalyst for change. Here, the governance route is already occupied, and the risks surrounding liquidity and legacy litigation create an asymmetric downside that we are not prepared to underwrite. We remain on the sidelines until the path to value realization is clearer and the liability risks are better contained.",
+  "uncited_claims": []
+ }
+}

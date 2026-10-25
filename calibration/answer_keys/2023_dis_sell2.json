@@ -1,0 +1,53 @@
+{
+  "id": "2023_dis_sell2",
+  "actual_decision": "SELL",
+  "conviction": "medium",
+  "size_pct_nav": "Residual 950k common at Q4 2022 to absent Q1 2023; total derivative unwind not established.",
+  "first_action_date": null,
+  "first_action_window": "Requested Oct31 cutoff changed to Feb8 because common exit was Q1 2023, disclosed May15. L2 not asserted as stated reason; unsuitable for strict reasoning score.",
+  "disclosure_date": "2023-05-15",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Daniel S. Loeb",
+      "Third Point investment team"
+    ],
+    "governance_route": "P0; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Reported common fell from 950,000 at Q4 2022 to absent Q1 2023; this is the verified directional observation.",
+      "source": "https://13f.info/13f/000108514623002451-third-point-llc-q1-2023 (2023-05-15)",
+      "quote": null
+    },
+    {
+      "driver": "The original thesis sought cost, Hulu and board changes, but no contemporaneous stated liquidation rationale was recovered.",
+      "source": "https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15)",
+      "quote": null
+    },
+    {
+      "driver": "Common-only absence does not prove the timing or size of a complete beneficial/derivative unwind.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1744489/000174448922000167/fy2022_q4x8kxex101.htm (2022-09-30)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "Q1 2023 letter lists Disney as a top winner for the quarter, complicating a simplistic loss narrative. No fund realized P&L recovered; L2 is research interpretation, not verified investor statement.",
+  "sources": [
+    "https://13f.info/13f/000108514623002451-third-point-llc-q1-2023 (2023-05-15)",
+    "https://13f.info/13f/000108514623001325-third-point-llc-q4-2022",
+    "https://assets.thirdpointlimited.com/f/166217/x/a4928be28f/third-point-q1-2023-investor-letter-tpil.pdf",
+    "https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15)",
+    "https://www.sec.gov/Archives/edgar/data/1744489/000174448922000167/fy2022_q4x8kxex101.htm (2022-09-30)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested Oct31 cutoff changed to Feb8 because common exit was Q1 2023, disclosed May15. L2 not asserted as stated reason; unsuitable for strict reasoning score. AUM 12.7bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (2023-02-06). AUM observation period 2023-01; last verified, not asserted current. NOT suitable for strict historical directional/reasoning scoring; key observations and requested-target contradictions are expressly annotated.",
+  "pack_quality_grade": "C",
+  "calibration_eligible": false,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

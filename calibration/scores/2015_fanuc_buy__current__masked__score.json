@@ -1,0 +1,53 @@
+{
+ "trade_id": "2015_fanuc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Idle cash, no debt and treasury stock create an inefficient capital structure. → With an 87.2% equity ratio and no meaningful debt, the company represents a classic capital allocation inefficiency that fails to reward shareholders in a modern governance environment [D02, D03, D07].",
+   "A buyback program and better investor communication can surface earnings power and drive rerating. → The post-2013 Japanese corporate governance environment provides a clear path for constructive engagement to unlock value through improved payout ratios and share buybacks [D07].",
+   "Automation and vertical integration generate exceptional operating economics. → The Company operates a world-class, high-margin robotics business with a 36.4% operating margin, yet its equity value is obscured by a fortress balance sheet hoarding over ¥800bn in cash [D01, D03, D06]."
+  ],
+  "missed": [
+   "Dominant controls and service create high switching costs and a strong industrial franchise.",
+   "Chinese automation, global robotics and machining demand support secular growth within cyclical end markets."
+  ],
+  "extra_agent_drivers": [
+   "Valuing the core business at a conservative 15x multiple plus cash results in a target price of ¥26,200, representing significant upside from the current ¥20,755 share price [D03, D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company operates a world-class, high-margin robotics business with a 36.4% operating margin",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the company represents a classic capital allocation inefficiency",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Japanese corporate governance environment provides a clear path for constructive engagement",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to engage management in the spirit of the ongoing Japanese corporate governance reforms, pushing for a formal dividend policy and a multi-year share repurchase program to rectify the current ROE-diluting cash hoarding [D07].",
+ "grader_notes": "The agent correctly identifies the core thesis regarding capital structure inefficiency and the catalyst of shareholder engagement aligned with Japanese governance reforms. However, the agent fails to capture Loeb's focus on the competitive franchise (switching costs) and the secular growth trends in Chinese automation/robotics, relying instead on its own valuation-based drivers.",
+ "run": "2015_fanuc_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

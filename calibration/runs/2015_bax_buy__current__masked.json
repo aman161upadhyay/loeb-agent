@@ -1,0 +1,221 @@
+{
+ "pack": "2015_bax_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-08-05",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a focused medical-products and renal-care business following the spin-off of its other operations on July 1, 2015 [D01]. The remaining business maintains distinct product mixes, margins, and capital needs compared to its pre-spin consolidated state [D01].",
+   "segments_and_separable_assets": [
+    "Medical-products and renal-care businesses (value evidence and peer multiples not in pack) [D01]"
+   ],
+   "economics_vs_peers": [
+    "Peers include Becton Dickinson, Danaher, and Pfizer; comparisons should align restructuring charges, emerging-market exposure, product mix, and accounting for R&D/distribution [D01, D06]. No numerical cutoff peer margin table was recovered [D01]."
+   ],
+   "capital_structure": [
+    "Debt/leverage/covenants: A fully reconciled standalone balance sheet and cutoff net-debt bridge were not recovered [D01, D02]."
+   ],
+   "price_and_valuation": [
+    "Price: $42.13 (2015-08-05) [D04]. Market cap: $22.93bn [D04]. EV, P/E, FCF yield: Not comparable/unreconciled due to the July 2015 separation [D04]. H2 2015 continuing EPS guidance: $0.58–0.62 [D03, D04]."
+   ],
+   "management_board_governance": [
+    "Leadership succession and standalone operating priorities are potential checkpoints [D03, D07]. No named future CEO appointment or negotiated owner-board settlement [D03, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares: 544.25m [D04]. Top holders/short interest/volume: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "The July 1, 2015 separation is completed [D03, D07]. Potential catalysts include leadership succession and standalone operating improvements [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Standalone overhead costs [D05], margin improvement slow in regulated products [D05], currency and hospital purchasing pressure [D05], renal reimbursement challenges [D05], and CEO transition execution risk [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "July 1, 2015: Completion of separation [D03, D07]. July 29, 2015: Q2 results release and outlook for continuing operations [D01, D03]."
+   ],
+   "third_point_context": [
+    "Exact firm AUM, gross/net, existing stake, and basis are unavailable [D07, D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Standalone balance sheet, cutoff net-debt bridge, segment-level EBITDA, current share count (beyond April 30 figure), peer margin table, and exact internal fund position/basis."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "NONE"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The company completed its separation on July 1, 2015, and currently lacks a specific, actionable catalyst beyond general operational improvement and leadership succession [D03, D07]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The pack lacks the peer margin tables, standalone balance sheet, and segment-level data required to form a differentiated view or identify a specific mispricing [D01, D02, D05]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "There is no negotiated settlement, active nomination window, or specific governance plan to address the mentioned execution risks [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "The lack of a reconciled standalone balance sheet or debt bridge prevents the establishment of an asset or leverage-based floor [D01, D02]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $22.93bn, the company is sufficiently liquid for Third Point to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis currently relies entirely on unproven management executing a standalone roadmap without an identified governance path to pressure them [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The opportunity lacks an identified catalyst, specific valuation edge, or governance path, as it is a recently spun-off entity with general operating concerns rather than a targeted event.",
+   "one_line_verdict": "a post-spin situation lacking the data and specific catalyst necessary for a Third Point event-driven investment"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market is currently pricing in uncertainty regarding standalone overhead costs, margin recovery, and leadership transition following the recent July 2015 separation [D05]. We have no differentiated view or variant thesis because the necessary financial data—including a reconciled standalone balance sheet and peer margin analysis—is not available in the pack [D01, D05]. Without a specific catalyst or quantitative edge, there is no basis to argue against the market's current valuation [D03, D07].",
+   "evidence": [
+    "The company completed its separation on July 1, 2015, and lacks an actionable catalyst [D03, D07].",
+    "The pack lacks the required peer margin tables, standalone balance sheet, and segment-level data [D01, D05]."
+   ],
+   "peer_benchmark": "Peers include Becton Dickinson, Danaher, and Pfizer; however, no numerical peer margin table was recovered to anchor the valuation gap [D01].",
+   "what_must_be_true": [
+    "Identification of a specific operational or governance catalyst",
+    "Reconciliation of the standalone balance sheet and debt bridge",
+    "Availability of segment-level data for sum-of-the-parts analysis",
+    "Clear evidence of margin improvement trajectory relative to peer benchmarks"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "not in pack",
+    "arithmetic": [
+     "H2 2015 EPS guidance: $0.58-$0.62 [D03, D04]"
+    ],
+    "horizon_years": 0
+   },
+   "floor": {
+    "value": "not in pack",
+    "basis": "no standalone balance sheet or asset floor data [D01, D02]"
+   },
+   "current_price": "$42.13 [D04]",
+   "skew": "not in pack : not in pack",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Standalone balance sheet, segment-level EBITDA, and peer margin benchmarks are unavailable in the pack, precluding a formal SOTP or earnings-power valuation."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "none [D03, D07]",
+   "timetable_quarters": 0,
+   "escalation_path": "none; position is a PASS due to lack of catalyst [D07]",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point requires a specific, actionable constructivist plan for large-cap situations. As this is a post-spin entity without an identified catalyst or governance gap, it does not meet our event-driven threshold [D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to meet H2 2015 EPS guidance of $0.58-$0.62 [D03, D04]",
+    "Margin improvement trajectory fails to materialize over two consecutive quarters [D05]",
+    "External shocks in renal reimbursement significantly impair operating cash flow [D05]"
+   ],
+   "portfolio_risk": "Factor overlap exists with broader healthcare holdings, specifically exposure to hospital spending and currency fluctuations [D05]. Liquidity is sufficient, but lack of a clear catalyst creates duration risk [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The lack of an identifiable catalyst or governance route makes this a speculative operational turnaround without the necessary edge for a Third Point core position [D03, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-08-05",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "none",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "not in pack",
+   "floor": "not in pack",
+   "skew": "not in pack : not in pack",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "none [D03, D07]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company is a recent post-spin entity that lacks a specific, actionable catalyst beyond general operational improvement [D03, D07].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The absence of a standalone balance sheet and peer margin analysis precludes the formation of a differentiated valuation edge [D01, D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is no negotiated governance path or board-level engagement to address execution risks [D03, D07].",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "The current thesis relies on unproven management executing a standalone roadmap without an identified margin-of-safety floor [D03, D07].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to meet H2 2015 EPS guidance of $0.58-$0.62 [D03, D04]",
+   "Margin improvement trajectory fails to materialize over two consecutive quarters [D05]",
+   "External shocks in renal reimbursement significantly impair operating cash flow [D05]"
+  ],
+  "what_would_change_our_mind": "The emergence of a clear, actionable governance catalyst, availability of reconciled standalone financial data, and evidence of a path to bridge the margin gap relative to peers.",
+  "memo": "We have reviewed the Company following its July 1, 2015 separation into a focused medical-products and renal-care business [D01, D03]. Despite its $22.93bn market capitalization, we find the current investment thesis speculative as it lacks a discrete event or identified catalyst to drive value [D04, D07].\n\nOur evaluation of the business is hindered by the lack of a reconciled standalone balance sheet, segment-level EBITDA data, and peer margin benchmarks [D01, D05]. Without these, we cannot perform a rigorous sum-of-the-parts analysis or determine a reliable margin of safety for the $42.13 share price [D01, D04].\n\nWhile the market expresses concern regarding standalone overhead, currency fluctuations, and renal reimbursement pressures, these are operational issues rather than a mispriced event [D05]. We require a concrete governance plan or a structural mispricing to commit capital, neither of which is present in the current situation [D03, D07].\n\nConsequently, we pass on the opportunity and will monitor the company's H2 2015 performance—specifically the $0.58-$0.62 EPS guidance—from the sidelines [D03, D04]. We require more than a generic operational turnaround to warrant our involvement [D07].",
+  "uncited_claims": []
+ }
+}

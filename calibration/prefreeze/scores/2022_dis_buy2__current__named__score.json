@@ -1,0 +1,61 @@
+{
+ "trade_id": "2022_dis_buy2",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 5,
+  "matched": [
+   "Accelerate the purchase of Comcast's Hulu minority and integrate the offering with Disney+ → Optimize portfolio by resolving the Hulu minority interest"
+  ],
+  "missed": [
+   "Cut excessive costs and dispose of weak assets.",
+   "Reconsider an ESPN separation if contractual synergies can replicate shared ownership.",
+   "Refresh board skills in technology, advertising and consumer engagement.",
+   "Keep dividend suspended to preserve reinvestment, debt-repayment and repurchase flexibility."
+  ],
+  "extra_agent_drivers": [
+   "Disney is a world-class conglomerate with obscured value in its streaming and sports assets that can be unlocked through portfolio simplification and cost-disciplined capital allocation.",
+   "A persistent margin gap exists, with Disney operating at 16.6% compared to peers like Comcast at 21.2%, representing significant potential for earnings expansion.",
+   "The separation of ESPN from the core Disney business would re-rate the asset and eliminate the conglomerate discount, adding approximately $58 per share to the company's value.",
+   "The Parks segment provides a robust floor for free cash flow generation, protecting the downside at approximately $95 per share."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We have initiated a position and filed for HSR to engage privately with CEO Bob Chapek and the Board of Directors.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "By closing the margin gap against peer benchmarks like Comcast—which operates at 21.2% versus Disney's 16.6%—and re-rating ESPN as a standalone entity, we see a path to a $175 valuation.",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "We will push for a strategic review of the ESPN business, a resolution to the Hulu minority interest, and a target to bring operating margins in line with peers.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Parks segment provides a robust floor for free cash flow generation, protecting the downside at approximately $95 per share.",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 6,
+  "share": 0.43
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have initiated a position and filed for HSR to engage privately with CEO Bob Chapek and the Board of Directors [D01].",
+ "grader_notes": "The agent correctly matched the buy direction but failed to capture the majority of Third Point's specific activist drivers (such as the dividend suspension and board refresh). The agent focused heavily on a sum-of-the-parts valuation model and margin gap analysis, which were not explicitly provided as Loeb's primary decision drivers in the answer key.",
+ "run": "2022_dis_buy2__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

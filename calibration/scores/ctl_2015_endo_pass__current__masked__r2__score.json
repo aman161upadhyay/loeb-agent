@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2015_endo_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Endo/ENDP/Auxilium absent from 54-quarter issuer/instrument index and no attributable Endo investment comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company is a conglomerate mispriced by the market due to integration noise and GAAP margin confusion.",
+   "The divestiture of the Men’s/Prostate Health business provides an immediate catalyst to de-lever the balance sheet.",
+   "Based on 2015 adjusted EPS guidance of $4.55 and a conservative 25x peer multiple, the stock offers a path to $113.75.",
+   "Consolidated adjusted margins of 37.3% demonstrate the quality of the core business."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Consolidated adjusted margins of 37.3% demonstrate the quality of the core business",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "2015 adjusted EPS guidance of $4.55",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "The Company represents a classic, misunderstood pharmaceutical conglomerate where market focus on short-term GAAP volatility and integration noise masks a high-quality business with significant earnings power [D05, D06].",
+ "grader_notes": "The agent failed to acknowledge the status of the asset as a non-holding in the Third Point portfolio, instead fabricating a full investment thesis where no public record of such a position exists. The agent's reasoning is entirely misaligned with the factual control record provided in the answer key.",
+ "run": "ctl_2015_endo_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "BUY",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

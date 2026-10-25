@@ -1,0 +1,57 @@
+{
+ "trade_id": "2009_chrysler_finco_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Finco is legally ring-fenced from the insolvent manufacturing company. → We believe this valuation fails to recognize that the finance entity is legally ring-fenced",
+   "First liens in the 50s and second liens in the 30s are covered by the finance company's assets. → Our analysis suggests the recovery value of these senior claims is fundamentally anchored by the first-priority lien on the new consumer loan collateral",
+   "The government-set bankruptcy deadline can resolve ambiguity over the claims. → The ongoing US Treasury-led viability review serves as the primary catalyst to clarify these creditor rights"
+  ],
+  "missed": [
+   "Subsequent runoff creates a repayment catalyst; this is a later thesis update, not initial entry evidence."
+  ],
+  "extra_agent_drivers": [
+   "Recovery on the underlying consumer loan portfolio is expected to exceed current distressed market pricing, which is being driven by indiscriminate selling"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the finance entity is legally ring-fenced",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "assets insulated by a $1.5bn government-backed SPV facility",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "recovery value of these senior claims is fundamentally anchored by the first-priority lien on the new consumer loan collateral",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The ongoing US Treasury-led viability review serves as the primary catalyst to clarify these creditor rights",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe this valuation fails to recognize that the finance entity is legally ring-fenced, with assets insulated by a $1.5bn government-backed SPV facility [D01, D02, D04].",
+ "grader_notes": "The agent correctly identified the key thesis drivers regarding ring-fencing, senior claim collateralization, and the role of the government process as a catalyst. The reasoning was closest to Loeb's in the structural analysis of the bankruptcy separation; it was farthest regarding the specific emphasis on runoff dynamics, which the answer key identifies as a later thesis development.",
+ "run": "2009_chrysler_finco_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

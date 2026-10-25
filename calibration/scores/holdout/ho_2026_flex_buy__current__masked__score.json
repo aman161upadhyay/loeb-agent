@@ -1,0 +1,65 @@
+{
+ "trade_id": "ho_2026_flex_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The announced CPI separation exposes an infrastructure business the market undervalues as contract manufacturing. → The Company is currently valued by the market as a legacy manufacturing conglomerate, ignoring its critical position as a designer of power and thermal infrastructure for AI data centers [D01]."
+  ],
+  "missed": [
+   "Integrated power, cooling and racks create a differentiated AI deployment offering.",
+   "Branded electrical/cooling mix, Google TPU exposure and the 800V transition support growth and margins.",
+   "Revathi Advaithi’s electrical experience and separation record support confidence in execution."
+  ],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts analysis with specific price targets",
+   "Board spin-off approval and timeline",
+   "GAAP operating margin peer analysis",
+   "Risk/reward skew"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is undergoing a structural separation of its cloud and power infrastructure segment",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The board has already unanimously approved the spin-off",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "4.9% GAAP operating margin",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company's performance is consistent with the 1.8-percentage-point margin range of its peer group",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Significant re-rating",
+    "citation": "D110",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The Company is currently valued by the market as a legacy manufacturing conglomerate, ignoring its critical position as a designer of power and thermal infrastructure for AI data centers [D01].",
+ "grader_notes": "The agent correctly identified the core investment direction and the fundamental thesis of the infrastructure business being undervalued versus the legacy conglomerate structure. However, the agent failed to capture Loeb's specific drivers regarding the differentiated AI deployment offering, the 800V transition/Google TPU exposure, and management's specific track record in separations, instead focusing on generic SOTP valuation and peer margin comparisons not cited in the Loeb key.",
+ "run": "ho_2026_flex_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

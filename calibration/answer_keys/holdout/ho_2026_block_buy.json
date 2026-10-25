@@ -1,0 +1,56 @@
+{
+  "id": "ho_2026_block_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Unknown NAV weight; 13F market value is not cost or total economic exposure.",
+  "first_action_date": "2026-Q2; exact date unknown",
+  "disclosure_date": "2026-07-31",
+  "reason_class": null,
+  "opportunity_template": [
+    "E4"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Jack Dorsey",
+      "Amrita Ahuja",
+      "the board",
+      "banking regulators",
+      "merchants",
+      "consumers"
+    ],
+    "governance_route": "Operating/transaction/portfolio implementation; no new proxy or board route required.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "Own-bank nationwide Borrow origination retains more economics and expands eligible users.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf (2026-07-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Real-time transaction data and automatic repayment support differentiated consumer underwriting.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf (2026-07-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Monetizing the installed Cash App base needs little incremental acquisition cost and improves retention and ecosystem spending.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf (2026-07-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Rebuilt Square go-to-market and an AI-enabled cost reset create a second earnings-growth engine.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf (2026-07-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "No manager entry multiple disclosed. Q2 common shares 2,558,943/$194.479M, disclosed August 14, are quarter-end exposure not cost.",
+  "outcome_note": "See dated primary disclosure for actual action. No later stock return, fund contribution or July 2026 unwind is a desk input. Conviction is an evaluator label, not a disclosed manager conviction; exact cost and realized round-trip P&L remain unknown.",
+  "sources": [
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf",
+    "https://s29.q4cdn.com/628966176/files/doc_financials/2025/q4/Q4-2025-Shareholder-Letter_Block.pdf",
+    "https://assets.thirdpointlimited.com/f/166217/x/3999c42098/2025-04-april-monthly-report-tpil.pdf"
+  ],
+  "pack_quality_notes": "Grade B. Point-in-time issuer/manager evidence is separated from dated post-action explanation. Missing cutoff price, consensus, full peer models and current NAV constrain valuation. Original exact action dates and execution prices are unknown; a quarter-end fallback or preceding month-end trading day is expressly identified in metadata. Earlier-source arguments and inferred size-change rationales are not mislabeled as new manager statements. Each driver source identifies the retrospective disclosure. timetable_quarters=0 means no reliable quantitative timetable recovered, not an assertion of immediate completion."
+}

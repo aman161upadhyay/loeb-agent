@@ -1,0 +1,53 @@
+{
+  "id": "2025_shco_buy",
+  "actual_decision": "ESCALATE",
+  "conviction": "medium",
+  "size_pct_nav": "Letter states 9.9% of Class A, not total equity/votes; original cornerstone IPO investment in 2021.",
+  "first_action_date": "2025-01-29",
+  "first_action_window": "Requested June1 new BUY/participation contradicted by primary Jan29 letter: existing 2021 IPO investor publicly escalated a fair-process campaign. Corrected to Jan28 existing → ESCALATE; no buy fabrication.",
+  "disclosure_date": "2025-01-29",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1",
+    "E2"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Ron Burkle",
+      "Soho House board",
+      "independent directors",
+      "qualified outside bidders"
+    ],
+    "governance_route": "P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "An independent sale process should maximize value for all shareholders.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000095017025010206/ck0001669811-ex99_3.pdf (2025-01-29, retrospective relative to pack)",
+      "quote": "we applaud the decision to return the Company to private ownership"
+    },
+    {
+      "driver": "Super-voting control and the proposed insider transaction created conflicts needing scrutiny.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000095017025010206/ck0001669811-ex99_3.pdf (2025-01-29, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "Qualified outside bidders could offer superior value and a fresh start.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000095017025010206/ck0001669811-ex99_3.pdf (2025-01-29, retrospective relative to pack)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "August18 agreement and later 13D exit are not evidence of Third Point participating in the take-private. Sale proceeds and P&L not recovered.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1040273/000095017025010206/ck0001669811-ex99_3.pdf (2025-01-29)",
+    "https://www.sec.gov/Archives/edgar/data/1040273/000095017025010206/ck0001669811-ex99_3.pdf (2025-01-29, retrospective relative to pack)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested June1 new BUY/participation contradicted by primary Jan29 letter: existing 2021 IPO investor publicly escalated a fair-process campaign. Corrected to Jan28 existing → ESCALATE; no buy fabrication. AUM 12bn is firm/manager capital, not Offshore NAV, per https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (2025-01-02). AUM observation period 2024-12; last verified, not asserted current.",
+  "pack_quality_grade": "C",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

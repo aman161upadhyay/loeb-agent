@@ -1,0 +1,52 @@
+{
+ "trade_id": "2003_potlatch_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Persistent operating losses and inferior returns warrant greater board accountability. → The company's own data confirms the severity of this mismanagement, with a 2002 return on equity of negative 33.1% compared to negative 4.1% for the peer group.",
+   "The $66m towel investment deserves scrutiny while the consumer-products market is oversupplied. → While the company faces a cyclical downturn, management's decision to press forward with a $66 million investment in a Las Vegas towel plant during a supply glut is an unacceptable misuse of capital that underscores a fundamental lack of discipline.",
+   "Shareholder voting rights should not reward four years of enduring poor stewardship. → The existing governance structure, which utilizes a staggered board and high voting hurdles to shield directors, acts as a barrier to the necessary strategic shift."
+  ],
+  "missed": [
+   "Compensation and owner alignment should be tested against the loss record; the full alleged plane/perquisite criticism remains unverified."
+  ],
+  "extra_agent_drivers": [
+   "None"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "2002 return on equity of negative 33.1% compared to negative 4.1% for the peer group",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$66 million investment in a Las Vegas towel plant",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Third Point is already the seventh-largest shareholder",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We must move beyond private engagement and escalate our opposition publicly.",
+ "grader_notes": "The agent correctly identified the escalation decision and captured three of the four core drivers, specifically aligning on the towel plant investment, operating performance, and governance issues. It failed to address the fourth driver concerning executive compensation and perquisites. The reasoning was highly consistent with the provided materials.",
+ "run": "2003_potlatch_escalate__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

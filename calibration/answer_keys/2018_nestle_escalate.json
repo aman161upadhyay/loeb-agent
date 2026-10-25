@@ -1,0 +1,56 @@
+{
+  "id": "2018_nestle_escalate",
+  "actual_decision": "ESCALATE",
+  "conviction": "high",
+  "size_pct_nav": "Existing multibillion-dollar position; exact July NAV weight not recovered.",
+  "first_action_date": "2018-07-01",
+  "first_action_window": "Purchase/position change predates or coincides with disclosure; exact first transaction date not recovered.",
+  "disclosure_date": "2018-07-01",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Mark Schneider",
+      "Paul Bulcke",
+      "Nestlé board"
+    ],
+    "governance_route": "P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "The pace and magnitude of change remained inadequate despite initial management steps.",
+      "source": "https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01)",
+      "quote": "This is a call for urgency – rather than incrementalism"
+    },
+    {
+      "driver": "Sharpen strategy and add food-and-beverage expertise and transparency.",
+      "source": "https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01)",
+      "quote": null
+    },
+    {
+      "driver": "Divest up to 15% of sales and the L'Oréal stake to focus the portfolio.",
+      "source": "https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01)",
+      "quote": null
+    },
+    {
+      "driver": "Simplify the organization and move faster against nimble competitors.",
+      "source": "https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "Published 34-page NestléNOW roadmap. A call for greater urgency, not a new purchase or proof of a completed disposal.",
+  "sources": [
+    "https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01)",
+    "https://www.10xebitda.com/wp-content/uploads/2020/03/Third-Point-Nestl%C3%A9-Presentation-July-2018.pdf"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. AUM 18bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01). AUM observation period 2018-07; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

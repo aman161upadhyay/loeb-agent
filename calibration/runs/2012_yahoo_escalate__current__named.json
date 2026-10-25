@@ -1,0 +1,60 @@
+{
+ "pack": "2012_yahoo_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2012-05-03",
+ "stages": {},
+ "final": {
+  "as_of_date": "2012-05-03",
+  "company": "Yahoo! Inc.",
+  "ticker": "YHOO",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis (Asian-asset value and core-business stewardship) remains intact [D07], [D08]",
+   "Governance concern has escalated from stewardship to fundamental leadership credibility and board oversight failures regarding executive qualifications [D01], [D02], [D03]"
+  ],
+  "remaining_skew": "Significant upside remains through sum-of-the-parts monetization and core-business turnaround, protected by existing asset value floor [D01], [D02], [D04]",
+  "next_catalyst_and_timing": "Upcoming annual meeting and board director elections [D03], [D07]",
+  "asks_if_escalating": [
+   "Immediate board accountability for CEO and director biography discrepancies",
+   "Independent verification of credentials and internal governance controls",
+   "Accelerated monetization of Asian assets and operational restructuring"
+  ],
+  "drivers": [
+   {
+    "driver": "Governance crisis involving CEO and director biography discrepancies undermines leadership credibility and board-control processes [D02], [D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Underlying sum-of-the-parts value remains obscured, necessitating urgent board refreshment to ensure intelligent asset monetization [D01], [D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Operating performance is stagnant with a 11% decline in operating income, indicating a need for a more robust strategic plan beyond mere cost-cutting [D01], [D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Competing director nominations are already active; our 5.8% stake requires active public pressure to ensure our slate succeeds in addressing the oversight failures [D07], [D08].",
+    "citations": [
+     "D07",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "The situation at Yahoo! has reached a point where passive engagement is no longer sufficient. While the original thesis regarding the value of Asian assets and the latent potential of the core business remains intact [D07], [D08], we are witnessing a governance failure of the highest order. The recent identification of discrepancies between the CEO's stated academic credentials and institutional records, alongside similar issues with director Patti Hart, is unacceptable and demands an immediate, public response [D02], [D03].\n\nOperating performance continues to lag, with first-quarter operating income falling 11%, proving that the current leadership is unable to convert the company’s assets into sustainable earnings growth [D01]. We have already nominated four director candidates, and the time for private, polite dialogue has passed [D07]. \n\nWe must escalate our campaign to ensure that the board is reconstituted with individuals who possess the technical and media experience necessary to oversee this business with integrity [D03]. The mispricing persists, and with the annual meeting approaching, we will use our 5.8% stake to demand the board accountability that shareholders deserve [D07], [D08]. We are not waiting for internal investigations to run their course; the credibility of the board and management is the primary catalyst for unlocking the value we see.",
+  "uncited_claims": []
+ }
+}

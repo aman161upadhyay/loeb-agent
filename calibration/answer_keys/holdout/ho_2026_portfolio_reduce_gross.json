@@ -1,0 +1,49 @@
+{
+  "id": "ho_2026_portfolio_reduce_gross",
+  "actual_decision": "REDUCE_GROSS",
+  "conviction": "medium",
+  "size_pct_nav": "Gross and net reduced; exact percentage change not disclosed.",
+  "first_action_date": "2026-02; exact first day unknown",
+  "disclosure_date": "2026-04-10",
+  "reason_class": "L3",
+  "opportunity_template": [
+    "E5"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Daniel Loeb",
+      "portfolio managers",
+      "risk managers",
+      "trading counterparties"
+    ],
+    "governance_route": "Operating/transaction/portfolio implementation; no new proxy or board route required.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "Exposure reduction began in February when positions reached targets or benefited from factor rotation.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": "Our exposure reduction began in February, when many of our positions reached a target price or were beneficiaries of factor rotations, not a change in fundamentals."
+    },
+    {
+      "driver": "The manager significantly reduced both net and gross exposure, including rails and the Kimberly-Clark successor position.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Cuts reflected sizing and risk discipline rather than a change in company fundamentals and preceded the Iran-war escalation; no advance war forecast is claimed.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact pre/post February gross/net percentages not disclosed in recovered source; Q2 average net ~45% is later context, not an input.",
+  "outcome_note": "See dated primary disclosure for actual action. No later stock return, fund contribution or July 2026 unwind is a desk input. Conviction is an evaluator label, not a disclosed manager conviction; exact cost and realized round-trip P&L remain unknown.",
+  "sources": [
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf",
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf",
+    "https://assets.thirdpointlimited.com/f/166217/x/3999c42098/2025-04-april-monthly-report-tpil.pdf"
+  ],
+  "pack_quality_notes": "Grade C. Point-in-time issuer/manager evidence is separated from dated post-action explanation. Missing cutoff price, consensus, full peer models and current NAV constrain valuation. Original exact action dates and execution prices are unknown; a quarter-end fallback or preceding month-end trading day is expressly identified in metadata. Earlier-source arguments and inferred size-change rationales are not mislabeled as new manager statements. Each driver source identifies the retrospective disclosure. timetable_quarters=0 means no reliable quantitative timetable recovered, not an assertion of immediate completion."
+}

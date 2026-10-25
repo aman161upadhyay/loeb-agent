@@ -1,0 +1,53 @@
+{
+ "trade_id": "2007_pogo_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "A competitive sale should realize asset value in the whole company or several parts → We are moving to escalate our involvement.",
+   "A majority-board proxy challenge makes the proposed process credible → The upcoming annual meeting is the appropriate venue to enforce a change in direction"
+  ],
+  "missed": [
+   "Ten-year share-price appreciation of 5.8% trails the 11.7% peer rate.",
+   "Northrock's $1.8bn cost plus over $350m investment is difficult to reconcile with production falling from 30,000 to 27,000 boe/day."
+  ],
+  "extra_agent_drivers": [
+   "The company's non-core divestiture process is moving too slowly to capture value in the current commodity environment.",
+   "Reported operating cash flow and margins have deteriorated compared to the prior year, suggesting a need for more rigorous capital discipline."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company continues to trade at a significant discount to its underlying reserve value",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management remains content with a measured, slow-motion divestiture of non-core assets",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Declining cash flow and narrowing margins",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 1,
+  "share": 0.13
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are moving to escalate our involvement.",
+ "grader_notes": "The agent correctly identified the decision to escalate and leveraged the upcoming annual meeting as a proxy catalyst, which aligns well with Loeb's strategy. However, the agent's reasoning focused on operational metrics like cash flow and non-core divestiture speed rather than the specific quantitative performance gaps and failed acquisitions Loeb cited.",
+ "run": "2007_pogo_escalate__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

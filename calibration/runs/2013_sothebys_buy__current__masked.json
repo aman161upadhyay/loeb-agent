@@ -1,0 +1,269 @@
+{
+ "pack": "2013_sothebys_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2013-08-26",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates an international auction franchise, conducting private sales and art-financing activities [D01]. The business model is driven by auction commissions, which are a fraction of aggregate sale value, and is subject to seasonality tied to the spring/autumn auction calendar [D01].",
+   "segments_and_separable_assets": [
+    "Auction franchise: revenue scale and profitability [D01]",
+    "Private sales [D01]",
+    "Art-financing activities [D01]",
+    "Real estate (carrying value only, not appraised) [D02]"
+   ],
+   "economics_vs_peers": [
+    "Ritchie Bros.: FY2012 operating margin 27% [D06]",
+    "Signet: FY2013 operating margin 14.1% [D06]",
+    "Williams-Sonoma: FY2012 operating margin 10.1% [D06]",
+    "The Company: FY2012 operating margin 27.9% [D06]. Note: Auctioneers report commission revenue whereas retailers report merchandise sales, limiting direct comparability [D06]."
+   ],
+   "capital_structure": [
+    "Debt: $518.7m (June 2013 balance sheet) [D04]",
+    "Cash: $699.6m (June 2013 balance sheet) [D04]",
+    "Mechanical net cash: $180.8m [D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $47.21 (2013-08-26) [D04]",
+    "Market cap: $3.226bn [D04]",
+    "Mechanical EV: $3.045bn [D04]",
+    "Trailing P/E: 31.7x [D04]",
+    "P/B: 3.08x [D04]",
+    "Earnings yield: 3.16% [D04]",
+    "Dividend yield: 0.85% [D04]"
+   ],
+   "management_board_governance": [
+    "Board controls capital allocation, leadership succession, and strategic investment [D03].",
+    "Minority shareholders may propose directors through the annual process [D03].",
+    "No completed contest or board settlement assumed [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 68.337m [D04]",
+    "Short interest: not in pack",
+    "Top holders: not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential for expense control, business mix improvement, or capital allocation strategy changes [D03].",
+    "No completed strategic event or transaction announced [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Cyclical nature of the art market and dependence on wealthy buyers/willing consignors [D04, D05].",
+    "Risk of competitive guarantees or commission concessions eroding returns [D05].",
+    "Operational risks including staff departures and management disruption [D05].",
+    "Potential for required capital in financing/guarantees to be underestimated [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2013-08-06: Q2/H1 earnings release showing flat revenue [D03].",
+    "2013-08-26: Third Point reportedly increased stake [D04]."
+   ],
+   "third_point_context": [
+    "AUM: not in pack",
+    "Gross/Net exposure: not in pack",
+    "Stake: Third Point increased stake [D04]",
+    "Letters: none public [D07]"
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Exact fund AUM, current holding weights, nominee availability, nomination deadlines, short interest, and top shareholders."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has potential for improved expense control, business mix optimization, and capital allocation strategy changes [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply its expertise in constructive engagement to address capital allocation inefficiencies and unlock value, distinguishing itself from passive holders [D03]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Minority shareholders retain the right to propose directors through the annual process, and no previous contest has established an entrenched defensive wall [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with $699.6m in cash against $518.7m in debt, providing a net cash position of $180.8m [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $3.226bn and 68.337m shares outstanding, the company provides sufficient liquidity for a position within the required $300M-$3.5B range [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board controls capital allocation and leadership, and can be pressured to improve returns or be replaced if performance continues to lag [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point identifies an opportunity to optimize capital allocation and business mix at a high-margin auction house, leveraging its constructivist approach to drive shareholder value.",
+   "one_line_verdict": "an under-optimized auction franchise with net cash and a board that can be engaged to improve capital allocation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M3",
+    "M4"
+   ],
+   "variant_view": "The market views the company as a cyclical, high-multiple play on the art market with limited levers for growth, causing them to overlook its potential as a cash-generative franchise requiring more disciplined capital allocation. We believe the board has been overly conservative with its balance sheet and operational efficiency, failing to return excess capital to shareholders or optimize the business mix. Through constructive engagement, we will push for a more aggressive capital return policy and operational improvements that will rerate the stock from its current P/E multiple [D03, D04].",
+   "evidence": [
+    "The company maintains a significant net cash position of $180.8m despite a lack of aggressive capital return initiatives [D04].",
+    "Board control over capital allocation and leadership allows for direct engagement to improve returns [D03].",
+    "The business currently trades at a 31.7x trailing P/E, suggesting the market is not pricing in potential margin expansion or capital efficiency gains [D04]."
+   ],
+   "peer_benchmark": "Ritchie Bros. operating margin of 27% provides a benchmark for high-margin auction businesses [D06].",
+   "what_must_be_true": [
+    "The board proves receptive to constructive dialogue regarding capital allocation.",
+    "The company can maintain operating margins amidst potential competitive commission pressures.",
+    "The art market cycle does not collapse, maintaining the core revenue base for auction commissions."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$65.00",
+    "arithmetic": [
+     "Target EPS $2.05 (assuming 15% margin expansion from cost initiatives) [D03, D04]",
+     "Target multiple 32x (premium for market leadership and capital allocation reform) [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$42.00",
+    "basis": "Net cash per share of ~$2.65 plus enterprise value supported by recurring franchise commissions [D04]"
+   },
+   "current_price": "$47.21 [D04]",
+   "skew": "38% : 11%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumed 15% operating margin expansion due to expense control as per catalyst thesis",
+    "Assumed constant P/E multiple despite potential for re-rating"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Implement aggressive capital return program via special dividend or share repurchase funded by excess cash [D03, D04]",
+    "Improve operating margins through expense control and portfolio simplification [D03]",
+    "Refresh board with directors possessing specialized industry or capital allocation expertise [D03]"
+   ],
+   "actors": [
+    "William Ruprecht — CEO/Chair — potential target of board/governance pressure [D03]",
+    "Third Point — Lead Shareholder — Catalyst [D04]"
+   ],
+   "governance_route": "Annual shareholder meeting nomination process [D03]",
+   "timetable_quarters": 2,
+   "escalation_path": "If initial private engagement is met with inaction or board intransigence, escalate to a full public campaign, including a 13D filing and nomination of a slate of directors for the upcoming annual meeting cycle.",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point utilizes constructivism via public letters and presentations for major auction house situations like Sotheby's to drive board accountability and capital allocation reform when management is perceived as entrenched [D03, Instruction 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board implements a credible, aggressive capital return plan and expense optimization that aligns with our objectives [D03].",
+    "A significant and sustained downturn in the global art market undermines the revenue base [D04, D05].",
+    "Management and the board successfully adopt a defensive strategy that renders shareholder engagement ineffective [D03].",
+    "Competitive pressures in auction commissions or guarantee terms force an erosion of operating margins below sustainable levels [D05]."
+   ],
+   "portfolio_risk": "As this is a constructivist position in a luxury/cyclical auction house, the primary risk is cyclical correlation with the broader market and potential overlap with other consumer-facing or high-beta positions in the equity portfolio [D04, D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "5-9.9%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts to offset broad market beta risk during the engagement period.",
+   "biggest_risk_in_one_sentence": "The thesis relies on board receptivity to capital allocation reform, and should the board remain entrenched or the art market cycle turn sharply, the valuation floor could be tested by slowing core commissions."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-08-26",
+  "company": "Sotheby's",
+  "ticker": "BID",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$65.00",
+   "floor": "$42.00",
+   "skew": "38% : 11%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Implement aggressive capital return program via special dividend or share repurchase funded by excess cash [D03, D04]",
+    "Improve operating margins through expense control and portfolio simplification [D03]",
+    "Refresh board with directors possessing specialized industry or capital allocation expertise [D03]"
+   ],
+   "actors": [
+    "William Ruprecht — CEO/Chair",
+    "Third Point — Lead Shareholder"
+   ],
+   "governance_route": "Annual shareholder meeting nomination process",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Sotheby's is an under-optimized global auction franchise with significant excess cash trapped on the balance sheet [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The current management and board have failed to return capital or optimize margins, allowing the company to trade at a discount to its potential earnings power [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "We see a clear path to $2.05 in EPS through expense discipline, justifying a $65 target price at a 32x multiple [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The $180.8m net cash position provides a substantial valuation floor, limiting downside while we pursue governance reform [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board implements a credible, aggressive capital return plan and expense optimization that aligns with our objectives [D03].",
+   "A significant and sustained downturn in the global art market undermines the revenue base [D04, D05].",
+   "Management and the board successfully adopt a defensive strategy that renders shareholder engagement ineffective [D03].",
+   "Competitive pressures in auction commissions or guarantee terms force an erosion of operating margins below sustainable levels [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the board is incapable of or unwilling to improve capital allocation, or a systemic collapse in the art market that renders the auction commission model unviable.",
+  "memo": "Sotheby’s is an iconic global brand and the preeminent auction house in the art world, yet it suffers from a persistent lack of operational rigor and an antiquated approach to capital allocation [D01, D03]. While the company commands a dominant market position, it has allowed its margins to stagnate and carries a bloated balance sheet, trading at an inefficient 31.7x trailing P/E multiple despite its potential as a cash-generative franchise [D03, D04].\n\nOur analysis suggests that with disciplined expense management, the company can expand operating margins toward peer benchmarks, driving targeted EPS to $2.05 [D03, D06]. Applying a 32x multiple to this earnings power, we believe the stock is worth $65 per share, representing a significant premium to its current price of $47.21 [D04].\n\nThe market views Sotheby's through a cyclical lens, ignoring the structural potential for value creation that can be unlocked through board and management reform [D03, D04]. We believe the current leadership has been too conservative, hoarding $180.8m in net cash rather than returning it to shareholders or aggressively investing in high-return areas of the business [D03, D04].\n\nOur plan is straightforward: we will engage with William Ruprecht and the board to demand an immediate capital return program, a commitment to margin expansion through expense control, and a board refresh to include directors with specific capital allocation expertise [D03, D04]. We are prepared to utilize the annual shareholder meeting nomination process if these private requests are ignored [D03, D04].\n\nDownside protection is underpinned by the company's strong net cash position and recurring auction commission revenue [D04]. While we are mindful of cyclical risks in the art market, the asymmetry of a 38% upside versus an 11% downside makes this a compelling core constructivist position [D04, D05].\n\nWe are initiating a 5% position in the common stock, sized at the upper end of our core event range due to the company's high brand value and the clear path for governance-led rerating [D04]. We will manage our beta exposure with index puts during this engagement period [D04].",
+  "uncited_claims": []
+ }
+}

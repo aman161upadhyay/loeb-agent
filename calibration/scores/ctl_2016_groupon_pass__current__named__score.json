@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2016_groupon_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Groupon/GRPN absent from all 54 quarterly issuer/instrument observations; no manager-specific public investment rationale recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company is a classic example of an operational turnaround that lacks the catalyst-driven security we require, relying entirely on management execution to bridge a significant margin gap.",
+   "Operating margins are deeply negative at -5.7%, trailing far behind marketplace peers like eBay who maintain margins in the mid-20% range.",
+   "There is no identifiable governance lever or separable asset to force value creation, making the thesis purely speculative based on a multi-year roadmap.",
+   "The downside is not sufficiently protected by the current cash position of $780m, as it remains vulnerable to erosion from the cash-burning Goods segment and ongoing restructuring."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Operating margins are deeply negative at -5.7%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "eBay generated a 25.6% operating margin in 2015",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "current cash position of $780m",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 8,
+  "share": 0.89
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this opportunity because it lacks the event-driven margin of safety and catalyst-driven route required for our portfolio [D01].",
+ "grader_notes": "The agent reached the correct final decision (PASS) but failed to provide the reasoning Loeb actually used, which was simply that there is no public record of Third Point holding or researching the stock. The agent instead fabricated a detailed fundamental analysis and a specific set of drivers, whereas the answer key clearly states that the PASS label is a retrospective observational control based on the absence of the issuer in historical holdings.",
+ "run": "ctl_2016_groupon_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

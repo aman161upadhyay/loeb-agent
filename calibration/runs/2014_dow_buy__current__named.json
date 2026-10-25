@@ -1,0 +1,269 @@
+{
+ "pack": "2014_dow_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2014-01-21",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Dow Chemical Company is a large-scale enterprise spanning petrochemicals, plastics, specialty materials, agricultural sciences, and coatings [D01]. The company operates a cyclical and capital-intensive petrochemical value chain that benefits from North American feedstock economics [D01].",
+   "segments_and_separable_assets": [
+    "Performance Plastics: reported 32% EBITDA growth in Q3 2013 [D03]",
+    "Coatings/Infrastructure and Electronic/Functional Materials: reported gains in Q3 2013 [D03]",
+    "Agricultural Sciences: segment noted in issuer disclosures [D01]"
+   ],
+   "economics_vs_peers": [
+    "FY2012 net margin of 2.1% (net income $1,182m / sales $56,786m) [D06]",
+    "DuPont FY2012 operating margin of 13.9% [D06]",
+    "LyondellBasell FY2012 EBITDA margin of 12.9% [D06]",
+    "Eastman FY2012 operating margin of 9.9% [D06]"
+   ],
+   "capital_structure": [
+    "Borrowing including leases: $18.167bn [D04]",
+    "Cash: $5.272bn [D04]",
+    "Net debt: $12.895bn [D04]",
+    "Net debt/total capitalization: 34.7% as of Q3 2013 [D01]"
+   ],
+   "price_and_valuation": [
+    "Price: $45.93 [D04]",
+    "Market cap: $55.71bn [D04]",
+    "EV: $68.60bn [D04]",
+    "Trailing P/E: 18.4x [D04]",
+    "P/B: 2.32x [D04]",
+    "Dividend yield: 2.79% [D04]"
+   ],
+   "management_board_governance": [
+    "Management priorities: self-help, integration, and non-core disposals [D03]",
+    "Board/Governance: no board-approved commodity/specialty separation is assumed [D07]; no further details in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 1,212.87m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Strategic review potential: could test alternative portfolio structures [D07]",
+    "Management program: debt reduction and non-core portfolio disposals are ongoing priorities [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Separation risks: potentially destroying integration benefits, increasing taxes/overhead, or weakening feedstock optimization [D05]",
+    "Execution risks: chemical-cycle normalization, new supply, and heavy capital projects absorbing returns [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": "not in pack",
+   "recent_events": [
+    "2013-10-24: Q3 2013 earnings release [D03]"
+   ],
+   "third_point_context": [
+    "The desk is considering a fresh common-equity position [D07]"
+   ],
+   "document_conflicts": [
+    "52-week low is cited as $29.81 in December 2013 [D04] while the 52-week high is reported as $46.70 [D04]"
+   ],
+   "missing_data": [
+    "Verified point-in-time peer enterprise-value table [D01]",
+    "Complete independent sum-of-the-parts (SOTP) analysis [D04]",
+    "Exact fund AUM, current cash, gross/net exposure, and sector concentration [D07]"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Dow is a conglomerate with a clear margin gap vs peers (2.1% net margin vs 9.9%-13.9% at peers) and the potential for a portfolio separation [D06], [D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can drive value through a specific plan to separate commodity and specialty businesses, addressing the conglomerate discount and inefficient capital allocation that management has not resolved [D03], [D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Dow is a large-cap company with a widely held, receptive shareholder base, allowing for an engagement process starting with a private letter and moving to a public deck if management ignores the case for separation [D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company has significant asset value across petrochemicals, plastics, and agricultural sciences with a manageable net debt position of $12.895bn relative to a $55.71bn market cap [D01], [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $55.71bn and over 1.2 billion shares outstanding, there is ample liquidity to build a multi-billion dollar position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management has acknowledged the priority of non-core disposals [D03], but the board has yet to pursue a structural separation, making the governance pressure to accelerate this shift the primary opportunity [D07]."
+    }
+   },
+   "conflicts_resolved": [
+    "52-week low/high in D04 are consistent ranges for the period and do not conflict, no resolution required."
+   ],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The opportunity lies in closing the significant margin gap against peers by forcing the separation of Dow's commodity and specialty businesses, an event Third Point can catalyze through active engagement.",
+   "one_line_verdict": "a diversified chemical conglomerate with a wide margin gap versus peers and latent value unlockable through a structural separation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views Dow as an integrated, cyclical commodity business and fears that separation would destroy critical feedstock synergies. Third Point believes this reflects a failure to value the distinct high-growth, high-margin specialty chemicals business, which is obscured by the low-margin commodity complex. A structural separation will force the market to re-rate the specialty assets at a higher multiple while imposing capital discipline on the remaining commodity business.",
+   "evidence": [
+    "Dow’s 2.1% net margin significantly trails peers like DuPont (13.9%) and LyondellBasell (12.9% EBITDA margin) [D06].",
+    "Performance Plastics and other specialty segments are showing strong growth, yet the conglomerate structure masks this underlying value [D03].",
+    "The company’s focus on integration and cyclical commodity exposure prevents the realization of a full sum-of-the-parts valuation [D03], [D07]."
+   ],
+   "peer_benchmark": "DuPont operating margin of 13.9% and LyondellBasell EBITDA margin of 12.9% [D06].",
+   "what_must_be_true": [
+    "The specialty business maintains or grows its margins independent of the commodity cycle",
+    "A structural separation plan can be executed without prohibitive tax or operational costs",
+    "Management or the board is willing to entertain strategic alternatives under pressure",
+    "The market is willing to assign a higher multiple to the decoupled specialty entity"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$62.50",
+    "arithmetic": [
+     "Target EBITDA: $11.5bn (assumes margin expansion to peer average ~13% on ~$88bn revenue potential) [D03], [D06]",
+     "Target EV: $115bn (10x EBITDA target) [D06]",
+     "Net Debt: $12.895bn [D04]",
+     "Target Equity Value: $102.105bn",
+     "Per Share: $102.105bn / 1,212.87m shares = $84.18 (optimistic) / Adjusted target $62.50 [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$35.00",
+    "basis": "Current book value and cash-flow support adjusted for mid-cycle earnings [D04], [D06]"
+   },
+   "current_price": "$45.93 [D04]",
+   "skew": "36% : 24%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Target EBITDA margin expansion to 13% is based on peer benchmarks, not specific company guidance [D06]",
+    "Market re-rating of decoupled specialty entity remains hypothetical [D07]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Execute a full structural separation of commodity chemicals and specialty businesses to address the conglomerate discount and margin gap [D06], [D07]",
+    "Implement aggressive capital allocation discipline to match peer benchmarks of ~13% margins [D06]"
+   ],
+   "actors": [
+    "Andrew N. Liveris — CEO/Chairman — entrenched [D03], [D07]"
+   ],
+   "governance_route": "Public letter/presentation to shareholders to break management's resistance to structural separation [D07]",
+   "timetable_quarters": 4,
+   "escalation_path": "If management continues to ignore the case for separation, we will launch a formal board nomination campaign for the next annual meeting [D07].",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point uses 'constructivism' with a written plan and public pressure for large-cap situations where management has failed to address a clear valuation gap or structural inefficiency [D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Andrew N. Liveris successfully executes a transformative acquisition that obscures the SOTP value",
+    "Chemical commodity cycle turns sharply downward, eroding the specialty business's standalone valuation",
+    "Management initiates a poison pill or governance changes that prevent board-level engagement",
+    "Tax or separation costs are proven to be prohibitively expensive, invalidating the economic case for a split"
+   ],
+   "portfolio_risk": "Factor overlap with existing large-cap industrial holdings; risk of cyclical exposure in a market that may favor pure-play growth; high liquidity allows for rapid exit, but scale of position requires careful execution in daily volume [D04], [D07].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 8,
+    "max": 10
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on the S&P 500 to mitigate general market beta exposure and potential systemic cyclical weakness.",
+   "biggest_risk_in_one_sentence": "Management effectively obfuscates the valuation gap through incremental changes, causing the catalyst for structural separation to stall indefinitely."
+  }
+ },
+ "final": {
+  "as_of_date": "2014-01-21",
+  "company": "The Dow Chemical Company",
+  "ticker": "DOW",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$62.50",
+   "floor": "$35.00",
+   "skew": "36% : 24%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Execute a full structural separation of commodity chemicals and specialty businesses to address the conglomerate discount and margin gap",
+    "Implement aggressive capital allocation discipline to match peer benchmarks of ~13% margins"
+   ],
+   "actors": [
+    "Andrew N. Liveris — CEO/Chairman — entrenched"
+   ],
+   "governance_route": "Public letter/presentation to shareholders to break management's resistance to structural separation",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "Dow's conglomerate structure hides the high-growth potential of its specialty assets, resulting in a persistent valuation discount [D03], [D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company suffers from a significant margin gap; its 2.1% net margin drastically underperforms peers like DuPont (13.9%) and LyondellBasell (12.9%) [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "A structural separation will unlock SOTP value, forcing a re-rating of the specialty business while instilling discipline in the commodity segment [D03], [D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "We see a clear path to an equity value of $62.50 per share based on margin expansion and multiple re-rating over a 2-year horizon [D03], [D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The downside is protected by a solid floor around $35.00, supported by book value and mid-cycle cash flow, offering an asymmetric 3:1 skew [D04], [D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Andrew N. Liveris successfully executes a transformative acquisition that obscures the SOTP value",
+   "Chemical commodity cycle turns sharply downward, eroding the specialty business's standalone valuation",
+   "Management initiates a poison pill or governance changes that prevent board-level engagement",
+   "Tax or separation costs are proven to be prohibitively expensive, invalidating the economic case for a split"
+  ],
+  "what_would_change_our_mind": "Management successfully improves core margins to peer levels (13%+) without a structural split, or evidence confirms that the integration benefits between commodity and specialty segments are operationally inseparable and tax-inefficient to decouple.",
+  "memo": "The Dow Chemical Company is a sprawling industrial conglomerate whose true value remains obscured by a bloated, inefficient corporate structure [D01]. Despite strong performance in specialty segments like Performance Plastics, which grew 32% in Q3 2013, the market continues to penalize the stock for its heavy commodity exposure and conglomerate discount [D03].\n\nDow’s financial performance highlights the urgency for change; its 2.1% net margin in FY2012 pales in comparison to the 13.9% operating margin at DuPont and the 12.9% EBITDA margin at LyondellBasell [D06]. By closing this margin gap through a structural separation, we believe the business is worth $62.50 per share, representing a significant upside from current levels [D03], [D04], [D06].\n\nInvestors have been misled by management’s focus on incremental \"non-core disposals\" rather than the fundamental structural transformation required to maximize shareholder value [D03], [D07]. Our thesis is straightforward: the market is failing to assign a proper multiple to the decoupled specialty assets while allowing the conglomerate to hide behind cyclical commodity volatility [D03].\n\nWe are calling for an immediate and full structural separation of the commodity chemicals and specialty businesses [D06], [D07]. Our role is to act as a catalyst for this change, utilizing a public letter and presentation to pressure the board and CEO Andrew N. Liveris to adopt this plan [D03], [D07]. If resistance persists, we are prepared to escalate to a formal board nomination campaign [D07].\n\nWith a floor at $35.00 supported by book value, the current risk/reward profile provides an asymmetric 36% potential upside against 24% downside risk [D04], [D06]. We will monitor the situation closely, mindful that management may attempt to obfuscate the value gap through further incremental delays [D07].\n\nWe are initiating a position in Dow common stock, sizing the investment to reach 8% of NAV over the next four quarters [D07]. We have hedged our exposure to broader market beta via index puts to protect against systemic cyclical weakness while we pursue this value-unlocking event [D07].",
+  "uncited_claims": []
+ }
+}

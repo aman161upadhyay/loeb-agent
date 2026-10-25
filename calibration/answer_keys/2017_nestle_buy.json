@@ -1,0 +1,59 @@
+{
+  "id": "2017_nestle_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Over $3.5 billion including options, funds and dedicated SPV; roughly 40 million shares. Not a verified single-fund NAV weight.",
+  "first_action_date": null,
+  "first_action_window": "Purchase/position change predates or coincides with disclosure; exact first transaction date not recovered.",
+  "disclosure_date": "2017-06-25",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P1→P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Daniel S. Loeb",
+      "Third Point investment team"
+    ],
+    "governance_route": "P1→P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "The best-positioned consumer portfolio was under-earning after years of stalled EPS and peer underperformance.",
+      "source": "https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25)",
+      "quote": "It is rare to find a business of Nestlé's quality with so many avenues for improvement."
+    },
+    {
+      "driver": "An explicit 18–20% margin objective by 2020 could impose accountability and close the operating gap.",
+      "source": "https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25)",
+      "quote": null
+    },
+    {
+      "driver": "An underlevered balance sheet could support repurchases and more efficient capital allocation.",
+      "source": "https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25)",
+      "quote": null
+    },
+    {
+      "driver": "Monetizing the non-core L'Oréal stake and pruning the portfolio could unlock hidden value.",
+      "source": "https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25)",
+      "quote": null
+    },
+    {
+      "driver": "Outside CEO Mark Schneider and operating adviser Jan Bennink created a credible change window.",
+      "source": "https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "2016 underlying EPS CHF3.40; activist forecast CHF5–6 by 2020; entry cost not recovered.",
+  "outcome_note": "Company announced a 17.5–18.5% margin target and CHF20bn buyback, not the activist's exact 18–20% request. Final realized return and exit unresolved.",
+  "sources": [
+    "https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. AUM 16bn is firm/manager capital, not Offshore NAV, per https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (2017-06-02). AUM observation period 2017-05; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

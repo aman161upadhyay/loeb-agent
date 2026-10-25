@@ -1,0 +1,50 @@
+{
+  "id": "2020_dis_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Significant common long; aggregate initial NAV weight not independently recovered.",
+  "first_action_date": null,
+  "first_action_window": "New means underwriting the October campaign, not first-ever purchase: filing compilation reports initial common in Q1 2020 and a large Q2 add.",
+  "disclosure_date": "2020-10-07",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1",
+    "E4"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Bob Chapek",
+      "Disney board"
+    ],
+    "governance_route": "P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Reinvesting roughly $3bn of annual dividends into original content could accelerate streaming scale.",
+      "source": "https://www.cnbc.com/2020/10/07/dan-loeb-calls-on-disney-to-suspend-dividend-invest-it-in-disney-plus.html (2020-10-07)",
+      "quote": null
+    },
+    {
+      "driver": "Owned intellectual property and direct consumer relationships created a large global distribution opportunity.",
+      "source": "https://www.cnbc.com/2020/10/07/dan-loeb-calls-on-disney-to-suspend-dividend-invest-it-in-disney-plus.html (2020-10-07)",
+      "quote": null
+    },
+    {
+      "driver": "A larger content budget could make the direct-to-consumer business more compelling and valuable.",
+      "source": "https://www.cnbc.com/2020/10/07/dan-loeb-calls-on-disney-to-suspend-dividend-invest-it-in-disney-plus.html (2020-10-07)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "First campaign exited late Q4 2021/early 2022. Do not apply the later Hulu/ESPN/board plan retroactively.",
+  "sources": [
+    "https://www.cnbc.com/2020/10/07/dan-loeb-calls-on-disney-to-suspend-dividend-invest-it-in-disney-plus.html (2020-10-07)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. New means underwriting the October campaign, not first-ever purchase: filing compilation reports initial common in Q1 2020 and a large Q2 add. AUM 12.7bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-ltd-third-point-may-2020-monthly-report-876562038.html (2020-06-03). AUM observation period 2020-05; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

@@ -1,0 +1,56 @@
+{
+  "id": "2015_fanuc_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Issuer stake and initial NAV weight not recovered.",
+  "first_action_date": null,
+  "disclosure_date": "2015-02-09",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Fanuc management",
+      "Fanuc board"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Dominant controls and service create high switching costs and a strong industrial franchise.",
+      "source": "https://www.gurufocus.com/news/315517/daniel-loebs-third-point-q4-2014-investor-letter (2015-02-09)",
+      "quote": null
+    },
+    {
+      "driver": "Chinese automation, global robotics and machining demand support secular growth within cyclical end markets.",
+      "source": "https://www.gurufocus.com/news/315517/daniel-loebs-third-point-q4-2014-investor-letter (2015-02-09)",
+      "quote": null
+    },
+    {
+      "driver": "Automation and vertical integration generate exceptional operating economics.",
+      "source": "https://www.gurufocus.com/news/315517/daniel-loebs-third-point-q4-2014-investor-letter (2015-02-09)",
+      "quote": null
+    },
+    {
+      "driver": "Idle cash, no debt and treasury stock create an inefficient capital structure.",
+      "source": "https://www.gurufocus.com/news/315517/daniel-loebs-third-point-q4-2014-investor-letter (2015-02-09)",
+      "quote": "There is a reason that Fanuc remains cheap at 13x FY15 earnings: the company’s illogical capital structure which does nothing for shareholder value."
+    },
+    {
+      "driver": "A buyback program and better investor communication can surface earnings power and drive rerating.",
+      "source": "https://www.gurufocus.com/news/315517/daniel-loebs-third-point-q4-2014-investor-letter (2015-02-09)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "February letter cites 13x FY15 earnings, $33bn market cap, $25bn EV and $8.5bn cash/no debt; not trade execution multiple.",
+  "outcome_note": "Q1 update welcomes 60% dividend payout, share cancellation and opportunistic repurchases; realized investment P&L unknown.",
+  "sources": [
+    "https://www.gurufocus.com/news/315517/daniel-loebs-third-point-q4-2014-investor-letter",
+    "https://www.fanuc.co.jp/en/ir/announce/pdf/2015/financialresult201412_e.pdf"
+  ],
+  "pack_quality_notes": "Grade C. Actual entry was Q4 2014 and disclosure February 9; requested February 10 new-mode date is counterfactual fresh underwriting. January issuer tables independently extracted: nine-month earnings, cash/securities, shares/treasury stock, divisional growth and full-year guidance included. Cutoff share price, independent peer multiples and fund exposures remain unavailable. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

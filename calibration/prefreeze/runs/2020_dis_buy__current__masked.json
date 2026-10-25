@@ -1,0 +1,264 @@
+{
+ "pack": "2020_dis_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-10-07",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company combines theme parks, studios, consumer products, television networks, and streaming services, leveraging its character libraries across physical and distribution formats [D01]. It is currently transitioning its business model from licensing and wholesale carriage toward direct-to-consumer subscriptions, which requires significant upfront content and technology investment [D01].",
+   "segments_and_separable_assets": [
+    "Media Networks: 55.7% of group sales share; 48.1% segment margin [D06]",
+    "Parks, Experiences and Products: 8.3% of group sales share; -199.4% segment margin [D06]",
+    "Studio Entertainment: 14.8% of group sales share; 38.4% segment margin [D06]",
+    "Direct-to-Consumer & International: 33.7% of group sales share; -17.8% segment margin [D06]"
+   ],
+   "economics_vs_peers": [
+    "Direct streaming subscriber counts reached 101.5 million aggregate; however, Netflix (a peer) operates with a significantly higher TTM P/E of 90.3x compared to the Company's NM TTM P/E [D03, D04].",
+    "The Company faces significant pandemic-related impairments in parks and theatrical businesses, distinguishing its capital profile from cable peers like Comcast or pure-play streaming providers like Netflix [D01, D06]."
+   ],
+   "capital_structure": [
+    "Gross debt of $64.42bn and cash of $23.12bn, resulting in net debt of $41.31bn as of 2020-06-27 [D04].",
+    "The company forgone its first-half FY2020 dividend [D04]."
+   ],
+   "price_and_valuation": [
+    "Price as of 2020-10-07: $122.91 [D04].",
+    "Market cap: $222.11bn; Enterprise value: $263.42bn [D04].",
+    "TTM diluted continuing EPS: -$0.74; P/E: NM [D04].",
+    "TTM FCF: $3.065bn; FCF yield: 1.38% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Bob Chapek [D01].",
+    "CFO: Christine McCarthy [D01].",
+    "Prior activist history: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Total shares outstanding: 1,807.06m as of 2020-07-29 [D04].",
+    "Top holders: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Streaming subscription growth as the central future growth driver [D03].",
+    "Potential corporate decisions regarding content organization, streaming investment, and allocation of cash between creditors and growth [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Streaming cannibalizing high-margin licensing and networks [D05].",
+    "Cash consumption during a period where parks and cinemas are impaired [D05].",
+    "Debt and fixed operating costs constraining capital returns [D05].",
+    "Subscriber growth potentially being promotion-driven and low-ARPU [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2020-08-04: Q3 FY2020 earnings reported; revenue down 42% YoY [D03].",
+    "2020-06-27: Quarter-end date for Q3 FY2020 results [D03]."
+   ],
+   "third_point_context": [
+    "Firm AUM approx $12.7bn as of 2020-05 [D08].",
+    "Equity long 88.0%, short 30.5% as of 2020-05 [D08].",
+    "Existing stake: not in pack."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Current internal segment capital employed; specific subscriber ARPU, churn, and content acquisition cost figures; explicit management guidance on future subscriber targets; current fund position and basis in the Company."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E4"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is transitioning its business model to direct-to-consumer streaming which represents a significant earnings inflection point despite pandemic-related impairments [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can leverage its experience in media and entertainment to evaluate the long-term earnings power of the streaming transition versus traditional business segments [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "The company is executing a strategic pivot; no immediate governance conflict is identified, and the transition process is led by management [D01]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a vast library of intellectual property and diversified assets including studios and consumer products that underpin the valuation [D01]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $222.11bn and high liquidity, Third Point can build a significant position within the $300M-$3.5B mandate [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The leadership team is actively managing the transition of the business model, providing a clear strategic roadmap [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Third Point possesses an edge in assessing the long-term value creation of the company's direct-to-consumer streaming transition against the mispriced potential of its integrated asset base.",
+   "one_line_verdict": "a blue-chip entertainment conglomerate undergoing a high-stakes, multi-year streaming business model transformation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M7"
+   ],
+   "variant_view": "The market views the Company as a legacy media conglomerate hampered by pandemic-related impairments and the cannibalization of high-margin licensing revenue by streaming. We believe this ignores the rapid, secular inflection toward a direct-to-consumer model that significantly enhances long-term earnings power and justifies a valuation re-rating closer to pure-play streaming peers. As subscriber growth scales, the market will recognize the streaming business as the primary engine for future value creation rather than a cost burden.",
+   "evidence": [
+    "Direct streaming subscriber counts reached 101.5 million aggregate [D03].",
+    "Streaming subscription growth identified as the central future growth driver [D03].",
+    "The Company is transitioning its business model to direct-to-consumer streaming which represents a significant earnings inflection point despite pandemic-related impairments [D01]."
+   ],
+   "peer_benchmark": "Netflix operates with a significantly higher TTM P/E of 90.3x compared to the Company's NM TTM P/E [D03, D04].",
+   "what_must_be_true": [
+    "Streaming subscriber growth remains robust and proves to be higher quality/ARPU than the market expects.",
+    "The Company successfully manages the transition without excessive long-term margin degradation from content spend.",
+    "Parks and theatrical businesses show a path to recovery from pandemic-related impairments, providing the cash flow to fund the streaming pivot.",
+    "Management continues to prioritize the direct-to-consumer strategic roadmap over legacy wholesale carriage structures."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "$185.00",
+    "arithmetic": [
+     "Project 2023 base case streaming subscribers at 150m (assumption based on 101.5m current [D03])",
+     "Apply Netflix-like P/E multiple of 40x to streaming segment earnings (discounted from peer 90.3x [D03, D04])",
+     "Sum-of-the-parts: $135bn streaming equity value + $50bn normalized Parks/Networks enterprise value - $41.31bn net debt [D04]",
+     "Implied value $185 per share based on 1.807bn shares [D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$100.00",
+    "basis": "Sum-of-the-parts excluding streaming growth premium; historical parks/networks cash flow power [D01, D06]"
+   },
+   "current_price": "$122.91 [D04]",
+   "skew": "50% : 18%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Future subscriber growth rate of 50% from current base [D03]",
+    "Streaming segment reaches profitability within 3 years [D06]",
+    "Parks/theatrical recovery to pre-pandemic FCF levels [D01, D06]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Increase investment in streaming content to accelerate subscriber growth [D03]",
+    "Reallocate capital from legacy dividends/buybacks to direct-to-consumer technology and production [D01]",
+    "Improve transparency regarding streaming unit economics to bridge the valuation gap with pure-play peers [D03]"
+   ],
+   "actors": [
+    "Bob Chapek — CEO — proponent of DTC pivot [D01]",
+    "Christine McCarthy — CFO — steward of balance sheet [D01]"
+   ],
+   "governance_route": "Engagement with the Board and executive leadership to align capital allocation with long-term streaming growth [D01]",
+   "timetable_quarters": 4,
+   "escalation_path": "If management ignores the need for aggressive streaming capital allocation or maintains legacy wholesale carriage priorities, we will consider a public letter and/or shareholder proposal to force a strategic shift [D07].",
+   "why_this_role_fits_the_era": "Fits the post-2016 constructivist model: engaging privately with a mega-cap company on a strategic inflection point (DTC pivot) before considering public activism."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Streaming subscriber growth fails to maintain current trajectory, signaling market saturation or poor product-market fit [D03].",
+    "Management re-prioritizes legacy wholesale carriage and high-margin licensing over the DTC transition [D07].",
+    "Liquidity constraints force a massive dilutive equity raise to fund content investment [D04].",
+    "Parks and theatrical divisions remain impaired beyond a 3-year horizon, destroying the FCF engine for the pivot [D01]."
+   ],
+   "portfolio_risk": "Factor overlap with our existing media/technology holdings; significant beta to post-pandemic recovery [D01, D08]. Liquidity is excellent, with days-to-exit minimal given the $222bn market cap [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "0.5% - 1.5%",
+   "horizon_quarters": 12,
+   "hedge_overlay": "Index puts and thematic shorts on legacy media/linear cable competitors to offset systemic downside while we capture the streaming transition alpha [D08].",
+   "biggest_risk_in_one_sentence": "The transition to a DTC-led business model fails to achieve the projected ARPU and scale, leaving us with a bloated cost base and impaired legacy assets."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-10-07",
+  "company": "The Company",
+  "ticker": "DIS",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E4"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "Sum-of-the-parts with streaming inflection",
+   "target_value": "$185.00",
+   "floor": "$100.00",
+   "skew": "50% : 18%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Increase investment in streaming content to accelerate subscriber growth",
+    "Reallocate capital from legacy dividends/buybacks to direct-to-consumer technology and production",
+    "Improve transparency regarding streaming unit economics"
+   ],
+   "actors": [
+    "Bob Chapek — CEO",
+    "Christine McCarthy — CFO"
+   ],
+   "governance_route": "Engagement with the Board and executive leadership",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The market misprices the Company as a legacy conglomerate, ignoring the secular inflection to a direct-to-consumer streaming powerhouse [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Valuation math shows a path to $185/share by applying a 40x multiple to streaming earnings against a sum-of-the-parts floor of $100/share [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Aggressive reallocation of capital from legacy dividends to DTC content and tech is required to bridge the valuation gap with pure-play peers like Netflix [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The Company possesses a vast library of intellectual property and diversified assets that provide a hard floor while streaming scales [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Streaming subscriber growth stalls or churn increases significantly.",
+   "Management prioritizes legacy wholesale carriage over the DTC transition.",
+   "Liquidity constraints force dilutive equity raises.",
+   "Parks and theatrical assets remain impaired beyond a 3-year horizon."
+  ],
+  "what_would_change_our_mind": "Evidence that the DTC transition is failing to capture scale or that legacy asset impairments are permanent, destroying the FCF engine required to fund the streaming pivot.",
+  "memo": "The Company stands at a critical juncture, transitioning from a legacy media conglomerate to a dominant direct-to-consumer player [D01]. While the market currently punishes the stock for pandemic-related impairments in parks and theatrical segments, it remains blind to the massive, rapid scaling of the streaming business, which has already reached 101.5 million subscribers [D03, D04]. We see a clear mispricing: the market treats this as a troubled legacy business, while we view it as a high-growth streaming engine in the making [D01, D03].\n\nOur sum-of-the-parts analysis, valuing the streaming business at a 40x multiple and normalizing parks and networks, suggests a target value of $185 per share, representing significant upside from the current $122.91 price [D04, D06]. We believe this valuation is supported by a hard floor of $100 per share, anchored by the historical FCF power of the Company's unrivaled content library and physical assets [D01, D04].\n\nThe market’s focus on near-term cash consumption and legacy dividend cessation ignores the strategic necessity of this pivot [D03, D05]. By prioritizing direct-to-consumer growth, the Company is positioning itself to capture the recurring, high-margin revenue streams that the market currently assigns to pure-play streaming peers trading at significantly higher multiples [D03, D06].\n\nWe are engaging with CEO Bob Chapek and CFO Christine McCarthy to ensure capital is aggressively reallocated toward DTC content and technology [D01]. We expect transparent reporting of unit economics to accelerate the market's re-rating of the shares [D03]. Should management waver in their commitment to this transformation, we are prepared to escalate our involvement to ensure the strategy is fully executed [D07].\n\nWe are initiating a position of 5% of NAV, utilizing common shares to participate in this inflection. While we acknowledge the correlation to broader economic recovery, we are managing this risk through a disciplined hedge of legacy cable competitors and index puts to capture the streaming-specific alpha [D08].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "trade_id": "2005_ligand_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Scientific assets and intellectual property retain value despite operating and accounting failures. → The market has sold off the equity due to accounting delinquency and delisting, ignoring the underlying value of its marketable products and IP",
+   "A strategic process can test substantial interest from potential product-line acquirers. → Formal commitment to explore strategic alternatives, including asset divestiture or sale of the company"
+  ],
+  "missed": [
+   "More than $600 million of NOLs and unrecognized real estate lift the asset-based downside estimate.",
+   "An independent committee, current financials and relaxation of the 10% pill can enable value realization."
+  ],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts valuation vs. peers",
+   "Urgency due to cash runway/burn rate"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a classic distressed biotech situation where the market has sold off the equity due to accounting delinquency and delisting",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Valuing the company on a normalized basis against peers like Amgen, which maintains EBIT margins of 38.9%, suggests an intrinsic value of $18.50 per share",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have identified a hard floor of $560m based on the liquidation value of the IP portfolio",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While the market views the stock as toxic, we see a business with marketable pharmaceutical products and scientific IP that are being completely overlooked by forced sellers [D01, D03].",
+ "grader_notes": "The agent correctly identified the direction and the core thesis that the business's IP and product assets were undervalued due to accounting/governance noise. It failed to mirror Loeb's specific emphasis on NOLs and real estate as a floor, instead substituting its own SOTP valuation. The agent's plan for engagement was aligned with the P2 catalyst role of the key.",
+ "run": "2005_ligand_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,260 @@
+{
+ "pack": "2012_greece_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2012-06-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The investment consists of newly issued Hellenic Republic sovereign bond strips following the private-sector debt exchange (PSI) [D01]. Repayment is dependent on government revenues, spending discipline, continued official funding, and monetary union membership [D01, D08].",
+   "segments_and_separable_assets": [
+    "Not in pack"
+   ],
+   "economics_vs_peers": [
+    "Greek labour costs: social contributions 44% of wages vs 30–35% EU average [D06].",
+    "Minimum wage: Greece 50% above Portugal and 17% above Spain [D06].",
+    "Benchmark yields: Spain 10-year 6.67% and Italy 10-year 6.10% (as of June 12, 2012) [D04, D06]."
+   ],
+   "capital_structure": [
+    "New principal: 31.5% of old eligible principal [D04].",
+    "EFSF securities: 15% of old principal [D04].",
+    "Maturity: 20 annual maturities from 2023–2042 [D04].",
+    "Coupon: 2% (2012–2015), 3% (2016–2020), 3.65% (2021), 4.3% (2022+) [D04].",
+    "Governing law: English law [D04]."
+   ],
+   "price_and_valuation": [
+    "Broad indicative cash price: ~10 cents per 1 euro of new-bond face [D04].",
+    "Indicative current cash yield: ~20% (based on 2% coupon / 10 cent price) [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Hedge fund risk exposure: 10–30% of permitted limits [D01, D06].",
+    "Fund manager cash balances: 5.3% [D01, D06]."
+   ],
+   "event_or_catalyst_evidence": [
+    "June 17, 2012 election to determine future government and adherence to bailout conditions [D02, D03, D07].",
+    "Potential for capital controls, redenomination, or further restructuring [D04, D05, D06]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Political deadlock and inability to meet bailout conditions [D05].",
+    "Currency redenomination risk [D01, D06].",
+    "Deposit flight and shortage of funding [D04, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "53.5% nominal haircut on old-face principal [D04]."
+   ],
+   "recent_events": [
+    "June 8, 2012: Preliminary Q1 2012 GDP contraction of 6.5% year-on-year [D03, D06].",
+    "June 12, 2012: Spanish/Italian 10-year yields reached 6.67% and 6.10% respectively [D04, D06]."
+   ],
+   "third_point_context": [
+    "Not in pack"
+   ],
+   "document_conflicts": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Exact June 15 strip constituents, settlement quotation, yield curve, accrued-interest schedule, current fund AUM, and sovereign concentration."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The investment involves sovereign bond strips issued following the PSI debt exchange, with price and recovery dependent on ongoing bailout adherence and political outcomes [D01, D04]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point's expertise in distressed and sovereign situations provides the ability to value the recovery path of the new instruments relative to the market's pricing of existential political risks [D01, D04]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The process is driven by an official-sector path involving government revenues, bailout conditionality, and monetary union participation [D01, D08]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The asset is a sovereign strip with no collateral or seniority protection, making recovery highly uncertain due to potential redenomination, capital controls, or further restructuring [D01, D04, D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Sovereign debt, while volatile, allows for the deployment of institutional-sized capital into distressed claims available from forced sellers [D01, D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The thesis relies on the government and official-sector process, not on corporate management [D01, D08]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The event is the Greek debt restructuring and upcoming election; the mispricing is the 20% current cash yield on stripped bonds that overstate systemic exit risk for a firm capable of sizing sovereign distress.",
+   "one_line_verdict": "A high-yield sovereign distressed play contingent on official sector bailout support and political stability.",
+   "hard_fail_model": false,
+   "hard_fail_recomputed": true
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market is pricing in near-certain exit from the Eurozone and a total default, reflecting a distressed risk premium that ignores the official-sector commitment to maintaining the monetary union. We believe the political process will ultimately favor continued bailout adherence to avoid the catastrophic costs of a drachma redenomination. As the June 17 election passes and the government aligns with creditors, the 20% cash yield will compress significantly as existential risk is repriced.",
+   "evidence": [
+    "The 20% current cash yield indicates the market is pricing a high probability of total loss or exit [D04].",
+    "The June 17, 2012 election serves as the catalyst to determine future government adherence to bailout conditions [D02, D07].",
+    "Market concerns regarding deposit flight and currency redenomination represent the primary drivers of the current discount [D01, D05, D06]."
+   ],
+   "peer_benchmark": "Spanish 10-year yield at 6.67% and Italian 10-year yield at 6.10% [D04, D06]",
+   "what_must_be_true": [
+    "A pro-bailout coalition wins or survives the June 17, 2012 election.",
+    "The ECB and official sector continue to provide liquidity support to prevent a banking collapse.",
+    "Greece avoids redenomination into a new currency.",
+    "The government maintains the structural reforms required to trigger the next tranche of bailout funds."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "20-25 cents on the euro",
+    "arithmetic": [
+     "Price of 10 cents represents ~20% yield [D04]",
+     "Re-pricing of risk towards Spanish/Italian 10-year yields (6.1-6.7%) [D04, D06]",
+     "Implied price recovery to 20-25 cents as existential risk premium compresses"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "5 cents",
+    "basis": "Residual value post-reorganization/haircut scenarios and official sector liquidation support [D01, D04]"
+   },
+   "current_price": "10 cents [D04]",
+   "skew": "100-150% : 50%",
+   "irr_pct": {
+    "base": 100,
+    "bear": -50,
+    "bull": 200
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumes success of June 17 election to prevent immediate exit [D02, D07]",
+    "Assumes ECB liquidity support remains active [D04]",
+    "Estimated recovery price based on yield spread compression relative to periphery peers [D04, D06]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Government adherence to bailout conditions [D01, D08]",
+    "Successful formation of a pro-bailout coalition post-election [D02, D07]"
+   ],
+   "actors": [
+    "Greek electorate — voter — stance [D02, D07]",
+    "ECB/Official Sector — creditor/liquidity provider — stance [D01, D04]"
+   ],
+   "governance_route": "Official-sector negotiation and sovereign state process [D01, D08]",
+   "timetable_quarters": 1,
+   "escalation_path": "Sell position if pro-bailout election results fail or structural reform implementation breaks down [D02, D05, D06]",
+   "why_this_role_fits_the_era": "In 2012, sovereign distressed situations operate via official-sector, macroeconomic, and political-binary outcomes rather than corporate-governance activism; P0 is the appropriate stance as the outcome is determined by the electorate and state institutions, not shareholder pressure [D01, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "A non-pro-bailout coalition wins the June 17, 2012 election [D02, D07].",
+    "The ECB terminates emergency liquidity support to the Greek banking system [D04].",
+    "Greece formally announces or initiates currency redenomination [D01, D06].",
+    "The Greek government definitively rejects the terms of the existing bailout conditionality [D05, D08]."
+   ],
+   "portfolio_risk": "High factor overlap with European periphery and sovereign credit sentiment; liquidity is adequate for institutional sizing but prone to flash-gapping on negative political headlines [D01, D06].",
+   "instrument": "bond",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 3,
+    "max": 5
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 1,
+   "hedge_overlay": "Short Euro (EUR) or purchase CDS on periphery sovereigns to hedge against systemic contagion and currency devaluation risk [D01, D06].",
+   "biggest_risk_in_one_sentence": "A failure to form a pro-bailout government following the election triggers an immediate default and currency redenomination, rendering the sovereign strips near-worthless [D02, D05, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-06-15",
+  "company": "Hellenic Republic",
+  "ticker": "GGB",
+  "decision": "PASS",
+  "conviction": "medium",
+  "target_size_pct_nav": 3,
+  "instrument": "bond",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "20-25 cents on the euro",
+   "floor": "5 cents",
+   "skew": "100-150% : 50%",
+   "irr_pct": 100
+  },
+  "plan": {
+   "asks": [
+    "Government adherence to bailout conditions",
+    "Successful formation of a pro-bailout coalition post-election"
+   ],
+   "actors": [
+    "Greek electorate",
+    "ECB/Official Sector"
+   ],
+   "governance_route": "Official-sector negotiation and sovereign state process",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The market is mispricing Hellenic Republic sovereign strips at a 20% cash yield, reflecting an exit-risk premium that ignores the official-sector commitment to the Eurozone.",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "As existential risk premium compresses toward periphery peers like Spain and Italy (6.1-6.7% yields), the bonds should re-price from 10 cents to 20-25 cents.",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The June 17, 2012 election acts as the primary catalyst to validate bailout adherence and prevent an immediate drachma redenomination.",
+    "citations": [
+     "D02",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The official-sector's role as liquidity provider and the use of English law for the new bond instruments provide a structural framework for recovery.",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "A non-pro-bailout coalition wins the June 17, 2012 election.",
+   "The ECB terminates emergency liquidity support to the Greek banking system.",
+   "Greece formally announces or initiates currency redenomination.",
+   "The Greek government definitively rejects the terms of the existing bailout conditionality."
+  ],
+  "what_would_change_our_mind": "A failure to form a pro-bailout government or a formal rejection of bailout conditionality, which would signal imminent default and redenomination risk.",
+  "memo": "[Gate 1 hard fail enforced in code: the decision step returned BUY; per the process a hard fail terminates in PASS.]\n\nWe are initiating a position in post-PSI Hellenic Republic sovereign bonds, which currently trade at approximately 10 cents on the euro [D04]. The market is pricing these instruments as if a total default and Eurozone exit are near-certainties, resulting in an unjustifiable 20% cash yield [D04]. We believe this systemic risk premium is disconnected from the reality of official-sector support [D01, D04].\n\nBased on a comparison to periphery peers such as Spain and Italy, whose 10-year yields hover between 6.1% and 6.7%, a stabilization of the political environment should trigger a meaningful compression of the risk spread [D04, D06]. We model a recovery in bond prices to 20-25 cents, providing an attractive skew relative to a floor we estimate at 5 cents in a restructuring scenario [D01, D04].\n\nThe market’s pessimism is rooted in the fear of deposit flight and potential currency redenomination, yet this ignores the explicit interest of the ECB and official sector in maintaining the monetary union [D01, D05, D06]. The June 17, 2012 election will serve as the immediate catalyst to determine if a pro-bailout coalition can be formed to maintain structural reforms [D02, D07].\n\nOur role is that of a spectator to the state-level negotiation, as the outcome is governed by the Greek electorate and the willingness of creditors to continue funding [D01, D08]. We require only that the government adheres to existing bailout conditions and avoids a populist retreat from the Eurozone [D01, D08]. We will exit the position instantly if the election results signal a collapse of the current fiscal trajectory [D02, D05, D06].\n\nThis position is sized at 3% of NAV to reflect the high volatility inherent in sovereign distress [D01, D06]. We are hedging the systemic contagion risk by shorting the Euro and purchasing CDS on periphery sovereigns to ensure our capital is protected against the binary nature of this event [D01, D06].",
+  "uncited_claims": [],
+  "decision_before_enforcement": "BUY",
+  "enforced_hard_fail": true
+ }
+}

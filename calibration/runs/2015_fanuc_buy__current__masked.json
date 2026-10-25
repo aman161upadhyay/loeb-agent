@@ -1,0 +1,268 @@
+{
+ "pack": "2015_fanuc_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-02-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company supplies factory-automation controls, servo motors, robots, and small machining centers, leveraging installed systems to create significant switching costs [D01]. The business operates across three distinct segments with varying order patterns: FA (Factory Automation), Robotics, and Robomachines [D01, D06].",
+   "segments_and_separable_assets": [
+    "FA: ¥188.700bn in nine-month sales, +14.8% [D02, D03]",
+    "Robot: ¥135.421bn in nine-month sales, +23.0% [D02, D03]",
+    "Robomachine: ¥202.285bn in nine-month sales, +282.9% [D02, D03]"
+   ],
+   "economics_vs_peers": [
+    "The Company: 36.4% operating margin (FY2014) [D06]",
+    "Yaskawa: 7.1% operating margin (FY2014) [D06]",
+    "SMC: 26.6% operating margin (FY2014) [D06]",
+    "Keyence: 49.3% operating margin (FY2014) [D06]"
+   ],
+   "capital_structure": [
+    "Cash/deposits: ¥808.703bn; Securities: ¥120bn [D01, D03]",
+    "Total liabilities: ¥187.608bn (including ¥42.847bn retirement-benefit liability) [D01, D03]",
+    "Borrowing: No separate borrowing line [D01, D02, D03]",
+    "Equity ratio: 87.2% [D02]"
+   ],
+   "price_and_valuation": [
+    "Tokyo close: ¥20,755 [D04]",
+    "Market cap: Approximately ¥4,060.8bn [D04]",
+    "Cash-adjusted EV: Approximately ¥3,132.1bn [D04]",
+    "Trailing P/E: 22.2x [D04]",
+    "Management-guidance P/E: 21.94x [D04]",
+    "P/B: Approximately 3.1x [D04]"
+   ],
+   "management_board_governance": [
+    "The board maintains discretion over payouts, treasury shares, and communications [D03, D07].",
+    "No commitment to additional capital-return programs exists [D03, D07].",
+    "The company is not currently subject to known activist pressure in this pack [D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Issued shares: 239,508,317 [D02]",
+    "Treasury shares: 43,854,325 [D02]",
+    "Outstanding economic shares: 195.654m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Management guidance: ¥688.2bn sales, ¥268bn operating income, ¥185.1bn net income [D02, D03].",
+    "Potential for capital allocation improvements (payouts/treasury shares) remains as a governance lever [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Cyclicality of manufacturing demand [D01, D05]",
+    "Risk of simultaneous weakening in China, smartphone machining, and auto capital budgets [D05, D06]",
+    "High machining growth may be unsustainable given it reflects a concentrated investment cycle [D03, D07]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2015-01-28: Issuer released nine-month financial results showing 60.9% revenue growth and 85.4% operating income growth [D01, D03]."
+   ],
+   "third_point_context": [
+    "Mandate: New Japanese common-equity investment [D07, D08]",
+    "Existing stake: Not in pack",
+    "AUM/Gross/Net: Not in pack"
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Exact current enterprise value components (fully diluted shares, current debt); independently verified February 10 peer multiples; explicit current fund exposure/stake size."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company maintains an 87.2% equity ratio and large cash hoard with no payout commitment, representing a clear capital allocation inefficiency [D02, D03, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can leverage its experience in Japanese governance to press for capital return, addressing the market's discount caused by management's conservative capital allocation [D07, D08]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Under the post-2013 Japanese environment, specific and polite engagement regarding capital allocation is a viable path to unlocking shareholder value [D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business is highly profitable with a 36.4% operating margin and an exceptionally strong balance sheet featuring over ¥800bn in cash and minimal debt [D01, D03, D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ¥4,060.8bn and significant outstanding float, Third Point has ample liquidity to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated strong operational performance and profitability, making them capable of executing improved capital allocation if pressured [D01, D03, D06]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "We see a world-class, high-margin robotics leader whose value is suppressed by a fortress balance sheet with excessive cash and no capital return program, where Third Point can use its Japanese engagement expertise to force a more efficient capital allocation policy.",
+   "one_line_verdict": "a highly profitable, cash-rich Japanese automation leader with a clear opportunity for capital return and improved shareholder communication."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M3",
+    "M4"
+   ],
+   "variant_view": "The market views the company as a cyclical manufacturer prone to investment demand volatility, leading to a conservative, cash-hoarding stance that suppresses valuation. We disagree, identifying a world-class robotics leader whose fortress balance sheet represents a massive capital allocation inefficiency. We will engage management to pivot toward a shareholder-friendly capital return policy, unlocking the value trapped in their excessive cash pile.",
+   "evidence": [
+    "87.2% equity ratio and over ¥800bn in cash [D01, D02, D03]",
+    "36.4% operating margin outperforms most peers [D06]",
+    "No commitment to capital return programs [D03, D07]"
+   ],
+   "peer_benchmark": "Yaskawa (7.1%) and SMC (26.6%) operating margins [D06]",
+   "what_must_be_true": [
+    "Management remains open to dialogue on capital allocation",
+    "The core robotics and automation business maintains operational leadership",
+    "Japanese corporate governance reforms continue to encourage shareholder engagement"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "¥26,200",
+    "arithmetic": [
+     "Operating Income: ¥268bn [D02, D03]",
+     "Target Multiple: 15x (conservative industrial/robotics peer proxy) [Assumption]",
+     "Enterprise Value: ¥4,020bn",
+     "Plus Net Cash: ¥928.7bn [D01, D03]",
+     "Equity Value: ¥4,948.7bn",
+     "Divided by 189m adjusted shares (accounting for treasury) [D02, D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "¥16,000",
+    "basis": "Cash per share of ~¥4,700 [D01, D03] + normalized earnings power at trough cycle multiples [Assumption]"
+   },
+   "current_price": "¥20,755 [D04]",
+   "skew": "26% upside : 23% downside",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Target multiple of 15x based on historical industrial robotics peer ranges; assumed treasury share deduction from outstanding count"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Implement a formal dividend policy targeting a payout ratio consistent with industrial peers [D06, D07]",
+    "Announce a multi-year share repurchase program to utilize excess cash and improve ROE [D03, D07]",
+    "Improve investor communications and transparency regarding capital allocation strategy [D03, D07]"
+   ],
+   "actors": [
+    "Management/Board — decision-makers — currently conservative on capital returns [D03, D07]"
+   ],
+   "governance_route": "Engagement under the post-2013 Japanese corporate governance environment to shift capital allocation policy without triggering an immediate hostile confrontation [D07].",
+   "timetable_quarters": 2,
+   "escalation_path": "If private engagement is ignored or rejected by the board, we will pivot to a public letter campaign (P2) and prepare for potential shareholder proposals ahead of the next AGM cycle.",
+   "why_this_role_fits_the_era": "Fits the 2009-2015 era of large-cap constructivism in Japan, where specific, polite engagement is the default first step to unlock value trapped by fortress balance sheets [D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management explicitly rejects all forms of capital allocation dialogue",
+    "Operating margins compress by more than 500bps due to loss of competitive advantage in core robotics",
+    "Macro environment triggers a simultaneous, sustained contraction in global auto and smartphone capex",
+    "Company commits to a large, value-destructive M&A acquisition"
+   ],
+   "portfolio_risk": "Factor overlap exists with other Japanese holdings sensitive to industrial and tech capital expenditure cycles [D05, D06]. We will monitor gross exposure to ensure this does not overly concentrate our Japan-specific cyclical beta [D07].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 7,
+    "max": 10
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts on the TOPIX or Nikkei 225 to mitigate broad Japanese market beta and potential currency volatility.",
+   "biggest_risk_in_one_sentence": "The thesis relies on management's willingness to abandon its traditional, conservative capital hoarding, which could be stymied by a deeply entrenched corporate culture that prioritizes excess cash over shareholder returns."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-02-10",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 7,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "¥26,200",
+   "floor": "¥16,000",
+   "skew": "26% upside : 23% downside",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Implement a formal dividend policy targeting a payout ratio consistent with industrial peers",
+    "Announce a multi-year share repurchase program to utilize excess cash and improve ROE",
+    "Improve investor communications and transparency regarding capital allocation strategy"
+   ],
+   "actors": [
+    "Management/Board"
+   ],
+   "governance_route": "Engagement under the post-2013 Japanese corporate governance environment to shift capital allocation policy without triggering an immediate hostile confrontation.",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The Company operates a world-class, high-margin robotics business with a 36.4% operating margin, yet its equity value is obscured by a fortress balance sheet hoarding over ¥800bn in cash [D01, D03, D06].",
+    "citations": [
+     "D01",
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "With an 87.2% equity ratio and no meaningful debt, the company represents a classic capital allocation inefficiency that fails to reward shareholders in a modern governance environment [D02, D03, D07].",
+    "citations": [
+     "D02",
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Valuing the core business at a conservative 15x multiple plus cash results in a target price of ¥26,200, representing significant upside from the current ¥20,755 share price [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The post-2013 Japanese corporate governance environment provides a clear path for constructive engagement to unlock value through improved payout ratios and share buybacks [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management explicitly rejects all forms of capital allocation dialogue",
+   "Operating margins compress by more than 500bps due to loss of competitive advantage in core robotics",
+   "Macro environment triggers a simultaneous, sustained contraction in global auto and smartphone capex",
+   "Company commits to a large, value-destructive M&A acquisition"
+  ],
+  "what_would_change_our_mind": "A sustained rejection of shareholder dialogue or a structural impairment of the company's competitive advantage in robotics would force an exit.",
+  "memo": "The Company is a world-class leader in robotics and automation, commanding 36.4% operating margins that significantly outpace industrial peers [D06]. Despite this operational excellence, the market continues to penalize the stock, trading it as a volatile cyclical manufacturer rather than the high-margin compounder it is [D05, D06]. The primary culprit is a fortress balance sheet holding over ¥800bn in cash with zero commitment to capital returns, a state of affairs that suppresses the company's true value [D01, D03, D07].\n\nOur sum-of-the-parts analysis, applying a conservative 15x multiple to operating earnings and adding the substantial net cash position, yields a valuation of ¥26,200 per share [D03, D04]. This valuation is anchored by the company's ¥16,000 floor, representing cash per share plus normalized earnings power at trough cycle multiples [D01, D03]. We see an asymmetric risk-reward profile with 26% upside to our target, providing a compelling entry for a core holding [D03, D04].\n\nThe market misprices the company by focusing on the cyclicality of its end markets—such as smartphone and automotive capex—while ignoring the immense value trapped in its capital structure [D01, D05]. We intend to engage management in the spirit of the ongoing Japanese corporate governance reforms, pushing for a formal dividend policy and a multi-year share repurchase program to rectify the current ROE-diluting cash hoarding [D07]. We view this as a straightforward exercise in capital allocation optimization that the board can execute without compromising operational integrity [D03, D07].\n\nWe are initiating a position with a 3% starting weight, with a path to increase to 7% as our engagement progresses over the next two quarters [D07]. We are concurrently utilizing index puts on the Nikkei 225 to hedge against broader market beta and currency volatility, ensuring our exposure remains focused on the specific catalyst of capital return [D07]. We act now to capture this value while the governance climate in Japan is uniquely favorable to shareholder-friendly change [D07].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,52 @@
+{
+  "id": "2005_star_gas_escalate",
+  "actual_decision": "ESCALATE",
+  "conviction": "high",
+  "size_pct_nav": "1,945,500 common units / 6.0% of issuer; fund NAV weight unknown.",
+  "first_action_date": "2005-02-14",
+  "disclosure_date": "2005-02-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Irik Sevin",
+      "Audrey Sevin",
+      "Star Gas board"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 2
+  },
+  "drivers": [
+    {
+      "driver": "Operating deterioration requires a credible plan to restore per-gallon profitability.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1002590/000089914005000128/t2774169.txt (2005-02-14; later stated rationale relative to pack cutoff)",
+      "quote": "we insist that you provide a plan of action on how you will achieve that goal."
+    },
+    {
+      "driver": "Months of unanswered calls leave public communication as the remaining owner route.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1002590/000089914005000128/t2774169.txt (2005-02-14; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Independent oversight and replacement of conflicted leadership are needed to stop further value destruction.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1002590/000089914005000128/t2774169.txt (2005-02-14; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Apply propane-sale cash to expensive notes unless management demonstrates a superior use.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1002590/000089914005000128/t2774169.txt (2005-02-14; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact execution price and entry multiple not recovered.",
+  "outcome_note": "March leadership changes verified in the dossier; full P&L unknown.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1002590/000089914005000128/t2774169.txt",
+    "https://www.sec.gov/Archives/edgar/data/1002590/000115752305001259/a4818531ex991.txt"
+  ],
+  "pack_quality_notes": "Grade B. Pre-cutoff daily quote, firm AUM and gross/net not recovered. Existing stake is supplied as desk state; first-fill date unknown. February 14 rationale is key-only. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

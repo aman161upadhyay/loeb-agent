@@ -1,0 +1,62 @@
+{
+ "trade_id": "2015_seven_i_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Best-in-class convenience-store economics are hidden by weaker retail operations. → The company is a classic conglomerate discount case where a world-class convenience store franchise is obscured by structurally unprofitable superstore and general-merchandise assets.",
+   "Stop subsidizing Ito Yokado and permit it to restructure outside the group. → Divesting non-core retail formats could unlock significant value and re-rate the stock toward a sum-of-the-parts target of ¥7,800 per share.",
+   "A global convenience-store pure-play should command a meaningful rerating. → The convenience store core generates the vast majority of operating income, yet the market applies a blended P/E multiple of 27.4x that fails to reward the quality of this core business."
+  ],
+  "missed": [
+   "An underlevered balance sheet and slowing growth capex create a capital-return opportunity."
+  ],
+  "extra_agent_drivers": [
+   "Management’s focus on low-margin superstores, which generated only ¥1.158bn in H1 2015 operating income, demonstrates a clear failure in capital allocation"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Convenience segment producing ¥152.328bn in H1 2015 operating income",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Superstore segment operating income of ¥1.158bn",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Current market cap of ¥4,752.3bn",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Fast Retailing operates with margins of 9.8%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Current price of ¥5,375",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 11,
+  "share": 0.73
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "The market has failed to differentiate these segments, leaving the stock trapped in a conglomerate discount [D07].",
+ "grader_notes": "The agent correctly identified the conglomerate discount and the core value of the convenience store business, mirroring Loeb's thesis. It missed the specific driver regarding the underlevered balance sheet, focusing instead on operating performance failures. Reasoning is closely aligned on the necessity of restructuring non-core retail assets.",
+ "run": "2015_seven_i_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

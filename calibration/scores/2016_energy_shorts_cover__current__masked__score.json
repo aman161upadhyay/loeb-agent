@@ -1,0 +1,47 @@
+{
+ "trade_id": "2016_energy_shorts_cover",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "China's unwillingness to devalue and prospective fiscal stimulus invalidated the common bearish macro premise.",
+   "The dollar peak and a perceived oil bottom required covering commodity, cyclical and industrial shorts.",
+   "Corporate credit moved from net short to net long as energy-credit opportunities improved."
+  ],
+  "extra_agent_drivers": [
+   "Thematic energy shorts have paid off significantly following the collapse in oil prices, and the risk of a squeeze now outweighs the remaining fundamental downside.",
+   "A transition to a more volatile regime requires lower gross exposure to maintain liquidity and avoid forced selling.",
+   "Persistent macro factors across the book—duration, commodities, and cyclicality—are increasingly correlated, necessitating a reduction in gross leverage."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "EIA data projecting 2016 prices near $40/bbl",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Offshore Fund maintained a gross equity exposure of 96.7% with a net of 47.9%",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 1,
+  "share": 0.17
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are choosing to exit these positions now rather than waiting for further price erosion.",
+ "grader_notes": "The agent correctly identifies the decision to REDUCE_GROSS. However, the reasoning is entirely disconnected from Loeb's actual drivers, focusing on liquidity management and squeeze risks rather than the specific macro shifts (China stimulus, USD peak) cited in the Q1 letter.",
+ "run": "2016_energy_shorts_cover__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,249 @@
+{
+ "pack": "ctl_2022_vroom_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is an online retailer of used vehicles that also operates an auto-finance business [D01]. Its current strategy centers on a deliberate inventory and operating-cost reset intended to prioritize unit economics and liquidity over retail volume [D01].",
+   "segments_and_separable_assets": [
+    "Ecommerce vehicle retailing: Q2 2022 revenue of $475.4m with ecommerce gross profit per unit of $3,629 [D03].",
+    "Auto-finance operations: Receivables require separate valuation due to inherent credit and funding risks [D01]."
+   ],
+   "economics_vs_peers": [
+    "Margins: Q2 2022 operating margin of -21.1% [D03]. FY2021 operating margin of -11.3% [D02].",
+    "Growth: Q2 2022 revenue declined 37.6% YoY [D03].",
+    "Comparison: Unlike capital-light marketplaces, the Company has significant vehicle ownership and financing exposure [D06]. Peers like CarMax and AutoNation show positive operating margins, though direct comparison is limited by accounting and business model differences [D06]."
+   ],
+   "capital_structure": [
+    "Debt: Consolidated debt of $1,212.108m as of June 30, including $422.452m floorplan debt, $115.325m current securitization, and $674.331m noncurrent debt [D04].",
+    "Convertible Debt: $610.618m reported as of December 31, 2021 [D02].",
+    "Cash: $532.642m as of June 30 [D04].",
+    "Liquidity Outlook: Management forecasts year-end liquidity of $450–$565 million [D03]."
+   ],
+   "price_and_valuation": [
+    "Price: $.88 per share [D04].",
+    "Market Cap: Approximately $121.5m [D04].",
+    "EV: Approximately $801.0m [D04].",
+    "P/Tangible Book: .377x [D04].",
+    "FCF Yield: Approximately -491% based on FY2021 [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack regarding CEO/chair tenure, specific board composition, or current nomination windows."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares: 138.109m [D04].",
+    "Other holders: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Operational turnaround: Deliberate inventory and operating-cost reset to preserve liquidity [D01].",
+    "Key monitoring metrics: Gross profit per vehicle after operating costs, unrestricted liquidity, and cash burn [D03, D04]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Liquidity depletion: Potential for higher rates and falling used-car prices to exhaust cash before the model becomes self-financing [D05].",
+    "Operational risks: Lower volumes potentially worsening overhead absorption [D05].",
+    "Financial risks: Inventory markdowns, tightening funding lines, and consumer credit deterioration [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "August 8, 2022: Second-quarter turnaround and liquidity update released [D07]."
+   ],
+   "third_point_context": [
+    "AUM: Reportable securities of $4.225b as of Q2 2022 13F [D08].",
+    "Stake: No existing stake disclosed in pack.",
+    "Engagement: No prior engagement or public letters disclosed in pack."
+   ],
+   "document_conflicts": [
+    "The 106% per-unit gross profit improvement cited in the market is sequential (Q1 to Q2), whereas the YoY comparison shows a 33.5% increase [D03]."
+   ],
+   "missing_data": [
+    "Exact cutoff NAV, firm-wide AUM, current convertible trading levels, specific board governance details, and comprehensive credit covenant terms."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "NONE"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The company is undergoing an operational turnaround [D01], but lacks a specific catalyst such as a sale, governance trigger, or inflection point [D01, D03, D07]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "No differentiated process or catalyst is evident; the business is a small-cap facing structural liquidity and operational challenges [D03, D05]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "No information provided on the board or nomination windows [D01]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The business faces declining revenue [D03], negative margins [D03], and significant debt [D04], failing the melting ice cube and leverage discipline tests."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "At a $121.5m market cap, a meaningful position could be established, though liquidity is not a substitute for an investment thesis [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis depends on an unproven management executing a multi-year turnaround, which the 2022 Intel rule categorizes as a FAIL [D01]."
+    }
+   },
+   "conflicts_resolved": [
+    "Sequential vs YoY gross profit growth: used Q2/Q1 sequential data as it reflects current momentum [D03]."
+   ],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The situation is a generic turnaround on a burning platform with no clear governance path or asset-backed floor for Third Point to exploit.",
+   "one_line_verdict": "a distressed online retailer with high cash burn and no identifiable catalyst"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market correctly identifies this as a distressed retailer facing severe liquidity depletion and negative margins. There is no hidden asset or governance catalyst to unlock value, rendering the equity essentially an option on survival. We decline to participate in an unproven operational turnaround with a high risk of capital impairment.",
+   "evidence": [
+    "Q2 2022 operating margin of -21.1% [D03]",
+    "Revenue declined 37.6% YoY [D03]",
+    "Consolidated debt of $1,212.108m against liquidity concerns [D04]",
+    "FCF yield of -491% [D04]"
+   ],
+   "peer_benchmark": "CarMax and AutoNation, both of which demonstrate positive operating margins [D06]",
+   "what_must_be_true": [
+    "Stabilization of used vehicle pricing",
+    "Successful reduction of operating-cost base",
+    "Avoidance of a liquidity-driven capital raise or restructuring"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$0.00",
+    "arithmetic": [
+     "Market Cap $121.5m [D04]",
+     "Consolidated Debt $1,212.108m [D04]",
+     "Cash $532.642m [D04]",
+     "Net Debt $679.466m [D04]",
+     "Enterprise Value $801.0m [D04]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Negative operating margins of -21.1% and ongoing cash burn [D03], with total debt exceeding liquidity [D04]."
+   },
+   "current_price": "$0.88 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumes inability to reach self-financing status given -491% FCF yield [D04] and declining revenues [D03]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "not in pack [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "n/a",
+   "why_this_role_fits_the_era": "The situation is a distressed retailer with negative operating margins and no identifiable catalyst, leading to a PASS decision; no action is required as we are not initiating a position."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Liquidity depletion below management's forecast of $450m [D03]",
+    "Failure to achieve sequential gross profit per unit improvement for two consecutive quarters [D03]",
+    "Further decline in used vehicle pricing exceeding historical volatility [D05]",
+    "Default or breach of credit/securitization covenants [D04]"
+   ],
+   "portfolio_risk": "High overlap with other consumer discretionary and retail turnaround exposures; minimal impact due to PASS decision [D01].",
+   "instrument": "none",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The company is a classic value trap with negative operating margins and no identifiable catalyst, leading to a high probability of capital impairment."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$0.00",
+   "floor": "$0.00",
+   "skew": "0% : 100%",
+   "irr_pct": -100
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "not in pack",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company suffers from a structural -21.1% operating margin and a -491% FCF yield, rendering the equity an unhedged bet on survival rather than an investment [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Revenue has cratered 37.6% YoY, and the business model lacks the capital-light efficiency of peer marketplaces like CarMax or AutoNation [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The balance sheet is burdened by $1,212.108m in total debt against diminishing liquidity, creating a high probability of capital impairment [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "There is no identifiable catalyst or governance lever to unlock value, leaving the thesis entirely dependent on management successfully executing an unproven turnaround [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Liquidity depletion below management's forecast of $450m [D03]",
+   "Failure to achieve sequential gross profit per unit improvement for two consecutive quarters [D03]",
+   "Further decline in used vehicle pricing exceeding historical volatility [D05]",
+   "Default or breach of credit/securitization covenants [D04]"
+  ],
+  "what_would_change_our_mind": "A verifiable pivot to a capital-light model with positive free cash flow and a concrete, board-endorsed path to balance sheet deleveraging.",
+  "memo": "We have reviewed the situation at the Company and have determined that it is a classic value trap characterized by severe liquidity depletion and negative operating margins. With a Q2 2022 operating margin of -21.1% and a FCF yield of -491%, the business is currently burning through its cash reserves [D03, D04].\n\nUnlike capital-light peer marketplaces such as CarMax and AutoNation, the Company carries significant inventory and financing exposure that compounds the risk of its current revenue decline, which stands at 37.6% YoY [D03, D06]. The enterprise value of $801.0m is heavily weighted by $1,212.108m in consolidated debt, leaving virtually no margin for error as management attempts to stabilize operations [D04].\n\nThere is no identifiable catalyst or governance path for us to intervene, and we are not in the business of backing unproven management teams through multi-year turnarounds [D01]. We maintain a strict discipline regarding leverage and margin profiles; the current configuration of this business does not meet our minimum investment requirements [D04].\n\nWe have decided to pass on this opportunity. The skew is overwhelmingly negative, and we see no compelling reason to allocate capital to an entity facing such profound structural headwinds [D03, D04].",
+  "uncited_claims": []
+ }
+}

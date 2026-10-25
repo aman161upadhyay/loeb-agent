@@ -1,0 +1,48 @@
+{
+ "trade_id": "2022_growth_cut",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Valuations were incompatible with the changing rate environment, geopolitical uncertainty and weakening economies. → The shift in macro regime—marked by the first rate hike and persistent inflation—renders previous valuation multiples for growth assets unsustainable [D02]."
+  ],
+  "missed": [
+   "Reduce and substantially hedge the volatile SentinelOne concentration and exit other large equity exposures.",
+   "Increase selective single-name shorts while reducing basket and market hedges.",
+   "Maintain buying power for idiosyncratic events and cash-returning energy/cyclical opportunities."
+  ],
+  "extra_agent_drivers": [
+   "Shrinking liquidity and higher discount rates undermine the funding models of cash-burning growth companies",
+   "The portfolio's heavy skew toward long-duration equities necessitates a reduction in gross risk to preserve capital and prevent forced selling"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Federal Reserve initiated a rate-hiking cycle on March 16 [D03]",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "CPI inflation reached 7.9% in February [D02]",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We must act quickly to reduce gross exposure.",
+ "grader_notes": "The agent correctly identified the decision to reduce gross exposure but failed to capture the specific tactical components of Loeb's plan, such as the focus on SentinelOne and the rotation into energy/cyclical opportunities. The agent's reasoning was driven by general macro-regime change, which aligns with one of Loeb's drivers, but lacked the specific portfolio-management actions Loeb executed.",
+ "run": "2022_growth_cut__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

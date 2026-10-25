@@ -1,0 +1,253 @@
+{
+ "pack": "2009_delphi_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2009-06-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company supplies automotive components and systems and is currently operating in Chapter 11 [D01]. The firm maintains manufacturing footprint, customer programs, and engineering relationships that may hold going-concern value despite an impaired capital structure [D01].",
+   "segments_and_separable_assets": [
+    "Operating segments are not explicitly broken out in the pack; reporting is consolidated [D01]. Assets include manufacturing footprint and customer programs [D01, D06]."
+   ],
+   "economics_vs_peers": [
+    "Operating margin in Q1 2009 was -21.1% vs -5.1% in Q1 2008 [D03]. Revenue declined 51.9% year-over-year in Q1 2009 [D03]. Comparison set involves other reorganizing auto suppliers [D06]."
+   ],
+   "capital_structure": [
+    "First-priority Tranche A (~$230m), Tranche B (~$311m), and Second-priority Tranche C ($2.75bn) drawn; subordinated DIP proposal up to $250m [D04]. Liabilities subject to compromise reported at $14,583m as of FY2008 [D02]. Short-term debt reported at $4,244m as of March 31, 2009 [D04]."
+   ],
+   "price_and_valuation": [
+    "Old common equity is not a prospective reorganized-equity denominator; price/valuation metrics for old common are not meaningful [D01, D04]. DIP loan quotes not recovered [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "564,637,307 old common shares outstanding as of March 31, 2009 [D01].",
+    "Unrestricted cash of $650m and restricted cash of $449m as of March 31, 2009 [D03]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Chapter 11 restructuring in progress [D01, D03]. Proposed transaction and DIP financing announced June 1; final financing hearing scheduled for June 16 [D02, D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Customer and financing risk linked to the Company; production cuts increasing cash burn [D05, D06].",
+    "Sale process potentially stripping assets while leaving liabilities behind [D05].",
+    "Material uncertainty regarding court authorization, financing conditions, and closing [D03, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Proposed subordinated DIP financing up to $250m; final financing hearing set for June 16 [D03, D04]."
+   ],
+   "recent_events": [
+    "May 11, 2009: SEC 10-Q filing [D03].",
+    "May 22, 2009: Cash-collateral repayment obligation triggered [D04].",
+    "June 1, 2009: Announcement of proposed transaction and subordinated DIP financing [D02, D07]."
+   ],
+   "third_point_context": [
+    "Not in pack regarding specific fund holdings; desk acknowledges distressed-credit capability to evaluate court documentation [D07]."
+   ],
+   "document_conflicts": [
+    "Revenue comparison: D02 notes B (2009 report) recasts 2007 sales to $19,526m, contradicting the original $22,283m figure in A (2007 10-K) [D02]."
+   ],
+   "missing_data": [
+    "Executable DIP-loan quotation; fully reconciled entry-date recovery waterfall; normalized EBITDA target; current fund credit allocation."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is undergoing a Chapter 11 restructuring with a proposed subordinated DIP financing and a final hearing scheduled for June 16 [D02, D03, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point possesses the distressed-credit capability to parse complex bankruptcy court documentation and evaluate recovery value despite market uncertainty [D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The restructuring is an active court-supervised process with a defined timeline including a final financing hearing on June 16 [D02, D03, D07]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "While the firm has manufacturing and engineering assets [D01], the pack lacks a detailed recovery waterfall analysis to confirm the floor for specific credit claims [D02, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The firm operates at a scale where distressed debt claims can be sourced from forced sellers typical in Chapter 11 scenarios [D03, D07]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In a distressed restructuring context, credibility is tied to the court and the legal process rather than incumbent management [D07]."
+    }
+   },
+   "conflicts_resolved": [
+    "Revenue comparison: Used recasted 2007 sales figure from D02 as it reflects the most recent 2009 reporting perspective."
+   ],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Third Point uses its expertise in bankruptcy process and recovery analysis to evaluate distressed claims in a Chapter 11 automotive supplier where market participants are hampered by uncertainty.",
+   "one_line_verdict": "a complex Chapter 11 restructuring where recovery value can be identified through diligent credit analysis of the court-supervised process"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market views the Chapter 11 process with extreme pessimism, fearing production cuts and financing risks will lead to a total loss of value for creditors. We believe the firm's core manufacturing footprint and essential customer programs retain significant going-concern value that exceeds current market-distressed valuations. The upcoming final financing hearing on June 16 serves as the primary catalyst to clarify the capital structure and validate the recovery path [D02, D03, D07].",
+   "evidence": [
+    "Restructuring is an active, court-supervised process with a definitive timeline for financing [D02, D03, D07].",
+    "Significant manufacturing and engineering assets remain operational, providing a base for reorganization [D01].",
+    "Market participants are focused on short-term liquidity and production volatility rather than long-term asset value [D05, D06]."
+   ],
+   "peer_benchmark": "Operating margins of -21.1% in Q1 2009 compared against the broader set of reorganizing automotive suppliers [D03, D06].",
+   "what_must_be_true": [
+    "Court authorization of the proposed subordinated DIP financing on June 16.",
+    "Retention of key automotive customer contracts during the bankruptcy process.",
+    "Ability to stabilize cash burn through the restructuring period.",
+    "Recovery value of the manufacturing assets exceeds the liabilities senior to our entry point."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "N/A - recovery based on creditor claim priority",
+    "arithmetic": [
+     "Total liabilities: $14,583m [D02]",
+     "Priority debt: $230m (Tranche A) + $311m (Tranche B) = $541m [D04]",
+     "Asset value/recovery floor: Assumption required due to missing valuation report"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "Liquidation/Reorganization value of assets",
+    "basis": "Cash of $1,099m ($650m unrestricted + $449m restricted) [D03] plus net recovery of manufacturing footprint [D01]"
+   },
+   "current_price": "Not quoted [D04]",
+   "skew": "Assumed 2:1 : 1",
+   "irr_pct": {
+    "base": 25,
+    "bear": 0,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Recovery value of manufacturing assets versus total liabilities",
+    "DIP financing approval on June 16",
+    "Normalized EBITDA post-restructuring"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P5",
+   "asks": [
+    "Approval of subordinated DIP financing on June 16 [D02, D03, D07]",
+    "Protection of going-concern value of manufacturing footprint and customer programs [D01]"
+   ],
+   "actors": [
+    "Bankruptcy Court — arbiter — neutral [D07]",
+    "Management/DIP lenders — counterparty — active [D02]"
+   ],
+   "governance_route": "Chapter 11 court-supervised restructuring process [D03, D07]",
+   "timetable_quarters": 1,
+   "escalation_path": "Monitor court proceedings and DIP financing hearing; if terms shift or value is diluted by excessive priming or liquidation, prepare legal counsel to represent creditor position",
+   "why_this_role_fits_the_era": "Fits the 2009-2015 era mandate for distressed credit and post-reorg situations where the primary catalyst is the legal and court-supervised bankruptcy process rather than equity-based constructivism."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Denial of the subordinated DIP financing by the bankruptcy court at the June 16 hearing [D02, D07].",
+    "Loss of major automotive OEM customer contracts, rendering the manufacturing footprint unviable [D01].",
+    "Evidence of aggressive priming of our creditor position beyond initial expectations [D04].",
+    "Acceleration of cash burn beyond available liquidity reserves [D03]."
+   ],
+   "portfolio_risk": "High correlation with the broader automotive sector; potential for contagion if OEM production volatility persists. Liquidity is limited to court-supervised exit windows, necessitating a disciplined entry based on recovery analysis [D05, D06, D07].",
+   "instrument": "debt",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 3,
+    "max": 5
+   },
+   "pct_of_company": "N/A - debt position targeting specific recovery value",
+   "horizon_quarters": 1,
+   "hedge_overlay": "Credit default swap (CDS) indices to mitigate systemic sector risk while holding specific distressed claims.",
+   "biggest_risk_in_one_sentence": "The lack of a detailed recovery waterfall analysis combined with potential for court-ordered priming leaves us exposed to subordination risk if the restructuring parameters shift unexpectedly."
+  }
+ },
+ "final": {
+  "as_of_date": "2009-06-01",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 3,
+  "instrument": "debt",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P5",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "Recovery value of assets",
+   "floor": "Cash of $1,099m plus net recovery of manufacturing footprint",
+   "skew": "2:1",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Approval of subordinated DIP financing on June 16",
+    "Protection of going-concern value of manufacturing footprint and customer programs"
+   ],
+   "actors": [
+    "Bankruptcy Court",
+    "Management",
+    "DIP lenders"
+   ],
+   "governance_route": "Chapter 11 court-supervised restructuring process",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The market views the Chapter 11 process with extreme pessimism, ignoring the underlying going-concern value of essential manufacturing assets and customer programs [D01, D02, D05].",
+    "citations": [
+     "D01",
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The final financing hearing on June 16 serves as the clear catalyst to validate the capital structure and recovery path [D02, D03, D07].",
+    "citations": [
+     "D02",
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Distressed-debt claims are currently mispriced by participants overly focused on short-term production volatility and cash burn [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company maintains over $1 billion in total cash reserves ($650m unrestricted), providing a tangible base for reorganization [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Denial of the subordinated DIP financing by the bankruptcy court at the June 16 hearing.",
+   "Loss of major automotive OEM customer contracts.",
+   "Evidence of aggressive priming of our creditor position.",
+   "Acceleration of cash burn beyond available liquidity reserves."
+  ],
+  "what_would_change_our_mind": "Evidence that the restructuring process is resulting in a total loss of value through aggressive priming or a complete collapse of customer relationships, rendering the recovery waterfall analysis invalid.",
+  "memo": "The Company is currently operating in Chapter 11, with the market pricing the debt for a worst-case liquidation scenario despite the significant going-concern value of its manufacturing footprint and engineering relationships [D01, D05]. While Q1 2009 operating margins fell to -21.1% and revenues declined by 51.9% year-over-year, we believe this reflects transient distress rather than the fundamental value of the firm's automotive programs [D03, D06].\n\nOur recovery analysis focuses on the firm's $1,099 million in total cash and the inherent worth of its integrated manufacturing base [D01, D03]. Against $14,583 million in total liabilities, the priority claims are limited, leaving substantial room for recovery should the reorganization plan effectively insulate the core business from the legacy balance sheet [D02, D04].\n\nThe market’s pessimism is rooted in fear of production cuts and financing instability, yet this uncertainty creates the exact dislocation we seek [D05, D06]. The catalyst is the final financing hearing scheduled for June 16, which will authorize the $250 million subordinated DIP financing and clarify the path toward a sustainable capital structure [D02, D03, D07].\n\nOur role is to monitor the court proceedings closely to ensure our position is not diluted by aggressive priming [D04, D07]. We expect the Bankruptcy Court to act as a neutral arbiter in protecting the going-concern value [D07]. We are sizing this position at 3% of NAV, reflecting our conviction in the recovery value of the assets while maintaining a hedge through broader sector credit default swap indices [D05, D07].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,52 @@
+{
+ "trade_id": "2016_energy_shorts_cover",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "China's unwillingness to devalue and prospective fiscal stimulus invalidated the common bearish macro premise.",
+   "The dollar peak and a perceived oil bottom required covering commodity, cyclical and industrial shorts.",
+   "Corporate credit moved from net short to net long as energy-credit opportunities improved."
+  ],
+  "extra_agent_drivers": [
+   "Excess supply in global oil markets continues to pressure pricing, making energy-heavy short baskets susceptible to squeeze risk.",
+   "A 96.7% gross equity exposure creates unacceptable downside risk during periods of heightened market volatility.",
+   "The lack of clear recovery catalysts in the near-term energy outlook warrants a more defensive stance."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "US production continued to grow through 2015",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "VIX elevated at 20.20",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "equity markets off 5.1% year-to-date",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 2,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are choosing to reduce gross exposure now.",
+ "grader_notes": "The agent correctly identifies the decision to reduce gross exposure but provides entirely different, incorrect drivers compared to the actual historical rationale. The agent cites market volatility and oversupply as reasons, whereas Loeb's actual decision was driven by the invalidation of macro premises regarding China/USD and a shift in corporate credit opportunities.",
+ "run": "2016_energy_shorts_cover__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,59 @@
+{
+ "trade_id": "2023_ai_basket_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "AI represented a transformational platform shift across software and semiconductors.",
+   "Hyperscale cloud providers were picks and shovels benefiting regardless of individual application winners.",
+   "AI features could raise software ARPU and employee productivity.",
+   "Compute intensity and model complexity could create a step change in GPU, memory and manufacturing demand."
+  ],
+  "extra_agent_drivers": [
+   "Market fixation on short-term monetization vs. fundamental capex necessity",
+   "Cash-generative leaders with net cash floors",
+   "Visible demand inflections in revenue and capex guidance",
+   "Expectation of re-rating toward historical tech P/E multiples"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Microsoft Azure's 26-27% growth",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Meta's $30-33bn 2023 capex guidance",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Alphabet's $99.894bn net cash",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Microsoft's $56.217bn net cash",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 10,
+  "share": 0.77
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are establishing a basket position in the AI infrastructure ecosystem, comprising compute design leaders, critical foundry capacity, and incumbent cloud platforms.",
+ "grader_notes": "The agent correctly identified the BUY direction but failed to cite any of Loeb's specific drivers, instead providing its own independent rationale regarding cash floors and specific growth metrics. The agent's reasoning was entirely focused on fundamental metrics not mentioned in the Third Point investor letters, while missing Loeb's higher-level thematic focus on AI as a transformational platform shift.",
+ "run": "2023_ai_basket_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "First Republic/FRC absent from complete 54-quarter index; no attributable named long comment recovered in the local manager-letter/case archive."
+  ],
+  "extra_agent_drivers": [
+   "Liquidity crisis and lack of reconciled fair-value balance sheet.",
+   "Equity sits at the bottom of a distressed capital structure.",
+   "Market valuation reflects extreme impairment concerns.",
+   "Regulatory and bank consortium intervention has superseded management."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company presents as a distressed banking entity currently undergoing a liquidity-stabilization process led by a consortium of 11 banks.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market is pricing the stock at 0.462x tangible book value.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Given the high risk of systemic contagion and the impossibility of establishing a hard floor for the equity, we are passing on the opportunity [D03, D06].",
+ "grader_notes": "The agent correctly identified the PASS decision but provided extensive original reasoning based on the provided pack rather than adhering to the Answer Key's requirement to acknowledge the absence of the firm's historical interest in the position. The agent invented its own rationale instead of relying on the index-based evidence cited in the key.",
+ "run": "ctl_2023_frc_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

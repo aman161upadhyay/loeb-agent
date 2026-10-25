@@ -1,0 +1,256 @@
+{
+ "pack": "2017_hon_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2017-04-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company combines four business units: aftermarket components, automation and warehouse products, industrial software, and productivity systems [D01]. The group is led by CEO Darius Adamczyk and benefits from aftermarket revenue and industrial-safety demand, though it faces diverse cyclicality from oil-and-gas and commercial-aircraft exposures [D01, D03].",
+   "segments_and_separable_assets": [
+    "Unit 1: 37.4% of sales, -4% growth, 22.4% margin [D06]",
+    "Unit 2: 26.9% of sales, +3% growth, 15.2% margin [D06]",
+    "Unit 3: 21.8% of sales, -9% growth, 22.8% margin [D06]",
+    "Unit 4: 13.9% of sales, +25% growth, 14.7% margin [D06]"
+   ],
+   "economics_vs_peers": [
+    "Peers include Emerson Electric (23.8x P/E, 3.17% yield), Lockheed Martin (15.3x P/E, 2.53% yield), and Northrop Grumman (19.5x P/E, 1.47% yield) [D04].",
+    "Reported group 70-basis-point segment-margin improvement noted in Q1 2017 [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $15.87bn; Cash: $7.71bn; Net debt: $8.16bn (as of 2017-03-31) [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $124.87 [D04].",
+    "Market cap: $95.19bn; EV: $103.35bn [D04].",
+    "P/E: 19.7x (trailing), 17.8x (forward guidance) [D04].",
+    "FCF yield: 5.3% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Darius Adamczyk [D01].",
+    "Prior activist history: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 762.34m (as of 2017-03-31) [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Structural analysis of potential separation of businesses to unlock value; management transition to Adamczyk provides a window for strategic review [D01, D07].",
+    "No verified board commitment to separation [D05]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential for duplicated overhead and tax/pension complications from a spin [D05].",
+    "Cyclicality in oil-linked process exposure and commercial-aircraft demand [D05].",
+    "Risk that management chooses a different portfolio route than expected [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2017-04-21: Q1 2017 results released, showing 18.8% operating margin and raised EPS guidance to $6.90–7.10 [D03]."
+   ],
+   "third_point_context": [
+    "Firm AUM: ~$17bn (as of 2015-10) [D08].",
+    "Existing stake: not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Current ownership stake of Third Point; specific board composition; detailed debt maturity schedule; explicit segment capital employed."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is a conglomerate with separable, distinct units that can be unlocked through strategic review or separation [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point’s edge lies in applying sum-of-the-parts arithmetic to highlight the valuation discount and potential for margin optimization compared to named peers [D04, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The leadership transition to CEO Darius Adamczyk creates a clear window for a strategic portfolio review [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company produces a 5.3% FCF yield and demonstrated recent segment-margin improvement, providing a fundamental floor [D04, D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a $95.19bn market cap and high liquidity, Third Point can easily build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The new CEO provides a catalyst for strategic change, and the board can be engaged to push for portfolio simplification [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The event is a potential conglomerate breakup of four distinct units where the sum-of-the-parts is obscured by overhead and cyclicality, allowing Third Point to use its constructivist expertise to drive value realization.",
+   "one_line_verdict": "a diversified industrial conglomerate with separable business units and a leadership transition window that invites portfolio simplification"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views the company as a bloated, cyclical conglomerate where the benefits of diversification are offset by structural overhead and complexity, leading to a persistent sum-of-the-parts discount. We believe that under new leadership, a separation of these distinct, high-margin business units will allow the market to re-rate each asset to peer multiples. This transition from a conglomerate structure to focused, pure-play businesses will unlock significant shareholder value that is currently buried in the corporate bureaucracy [D01, D07].",
+   "evidence": [
+    "The company operates four distinct business units with varying growth profiles and margins, suggesting significant underlying value is obscured [D01, D06].",
+    "Segment-margin improvements of 70 basis points in Q1 2017 demonstrate operational leverage that is not yet fully reflected in the valuation [D03, D06].",
+    "Management transition to CEO Darius Adamczyk provides a specific, timely catalyst to initiate a strategic portfolio review [D01, D07]."
+   ],
+   "peer_benchmark": "Emerson Electric (23.8x P/E) serves as the valuation anchor for the high-margin industrial business segments [D04].",
+   "what_must_be_true": [
+    "CEO Darius Adamczyk commits to a comprehensive strategic portfolio review",
+    "The business units maintain or expand current margins despite cyclical end-market headwinds",
+    "Tax and pension liabilities associated with a potential spin-off are manageable",
+    "The board remains open to constructive engagement regarding structural alternatives"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$156.40",
+    "arithmetic": [
+     "Total Sales: assume ~$40bn based on segment contribution [D06]",
+     "Weighted Average Target Multiple (Emerson peer benchmark): 23.8x [D04]",
+     "Estimated Enterprise Value: $40bn * 23.8x P/E equivalent * 0.9 (conservative conglomerate discount factor) = $119bn [D04]",
+     "Minus Net Debt: $119bn - $8.16bn [D04] = $110.84bn equity value",
+     "Per share: $110.84bn / 762.34m shares [D04] = $156.40"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$124.87",
+    "basis": "Current market price reflects the conglomerate value and 5.3% FCF yield as a floor [D04]"
+   },
+   "current_price": "$124.87 [D04]",
+   "skew": "25% : 0%",
+   "irr_pct": {
+    "base": 28,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Sales figure derived from estimated conglomerate size consistent with $95bn market cap",
+    "Application of Emerson Electric 23.8x multiple to all segments despite varying growth profiles [D04, D06]",
+    "Tax and pension costs of separation estimated as neutral for simplified SOTP model [D05]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Initiation of a formal strategic portfolio review to evaluate the separation of the four distinct business units [D01, D07]",
+    "Optimization of cost structure and reduction of corporate overhead to align margins with high-margin industrial peers [D04, D06]"
+   ],
+   "actors": [
+    "Darius Adamczyk — CEO — target for engagement [D01]"
+   ],
+   "governance_route": "Engagement with the board and management to advocate for portfolio simplification [D01, D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains non-responsive or fails to initiate a review within two quarters, we will prepare a public letter and potential board nomination campaign for the next annual meeting.",
+   "why_this_role_fits_the_era": "Consistent with our 2016-onward approach of 'private engagement first,' we leverage the leadership transition to Darius Adamczyk as the catalyst to push for value-unlocking structural change without immediate public aggression."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "CEO Darius Adamczyk publicly rejects structural separation or announces a commitment to the conglomerate model for the long term [D01, D05].",
+    "Segment margins contract for two consecutive quarters, signaling failure to capture operational improvements [D06].",
+    "Tax or pension liability assessments from the spin-off process exceed 10% of equity value, destroying the SOTP arbitrage [D05].",
+    "A significant drop in oil or commercial aerospace demand severely impairs the standalone value of the largest segments [D05]."
+   ],
+   "portfolio_risk": "Factor overlap exists with our existing industrial and cyclical exposure, particularly sensitive to global GDP and aerospace/energy capex; we remain net long, so this adds to gross industrial exposure while providing idiosyncratic alpha [D03, D05, D06].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 8,
+    "max": 10
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts (S&P 500) to protect against broad market volatility given our industrial cyclical concentration [D05].",
+   "biggest_risk_in_one_sentence": "Management chooses to maintain the conglomerate status quo, resulting in continued trading at a discount to sum-of-the-parts and loss of the leadership transition catalyst [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2017-04-27",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$156.40",
+   "floor": "$124.87",
+   "skew": "25% : 0%",
+   "irr_pct": 28
+  },
+  "plan": {
+   "asks": [
+    "Initiation of a formal strategic portfolio review to evaluate the separation of the four distinct business units",
+    "Optimization of cost structure and reduction of corporate overhead"
+   ],
+   "actors": [
+    "Darius Adamczyk"
+   ],
+   "governance_route": "Engagement with the board and management to advocate for portfolio simplification",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a persistent conglomerate discount that obscures the standalone value of four distinct, high-margin business units [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Applying a peer-derived multiple of 23.8x to the sum-of-the-parts suggests an equity value of $156.40 per share, significantly above the current price of $124.87 [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The transition to CEO Darius Adamczyk provides a timely catalyst to initiate a strategic portfolio review and unlock value [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Operational momentum is evident in the 70-basis-point segment-margin improvement reported in Q1 2017, providing a fundamental floor for our thesis [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "CEO Darius Adamczyk publicly rejects structural separation or announces a commitment to the conglomerate model for the long term [D01, D05].",
+   "Segment margins contract for two consecutive quarters, signaling failure to capture operational improvements [D06].",
+   "Tax or pension liability assessments from the spin-off process exceed 10% of equity value [D05].",
+   "A significant drop in oil or commercial aerospace demand severely impairs the standalone value of the largest segments [D05]."
+  ],
+  "what_would_change_our_mind": "Management publicly commits to the current conglomerate structure or failure to initiate a strategic review within the next two quarters.",
+  "memo": "The Company is a diversified industrial conglomerate currently hindered by structural overhead and cyclicality, trading at a persistent discount to its intrinsic sum-of-the-parts [D01, D05]. While the market views the business as a bloated entity, we see four distinct units that, if separated, would be re-rated by the market to trade closer to high-margin peers like Emerson Electric [D04, D07].\n\nOur valuation work, using a conservative 23.8x multiple on estimated enterprise value, suggests a target price of $156.40 per share, implying substantial upside from the recent price of $124.87 [D04]. This valuation is supported by a 5.3% free cash flow yield, which provides a meaningful floor for our investment while we wait for the realization of our thesis [D04].\n\nThe market fails to fully credit the underlying quality of the segments, despite the 70-basis-point margin improvement demonstrated in the most recent quarter [D03, D06]. We believe the transition to CEO Darius Adamczyk creates a unique window for a strategic portfolio review, allowing the company to shed unnecessary complexity and align its margins with industry leaders [D01, D07].\n\nWe intend to engage constructively with the board and management to advocate for this portfolio simplification over the next two quarters [D01, D04]. Should this private engagement fail to yield a commitment to a strategic review, we are prepared to escalate our efforts, including a potential public letter and nomination of board candidates [D01, D05].\n\nWe acknowledge risks regarding tax and pension liabilities as well as cyclical headwinds in oil and aerospace, but we remain confident that a structural separation serves the best interests of shareholders [D05, D06]. Our decision is to initiate a position with a 5% initial allocation of NAV, with a target to build to 8% as our engagement progresses [D05].",
+  "uncited_claims": []
+ }
+}

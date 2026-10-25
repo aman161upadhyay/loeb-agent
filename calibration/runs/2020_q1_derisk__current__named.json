@@ -1,0 +1,51 @@
+{
+ "pack": "2020_q1_derisk",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2020-03-16",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-03-16",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The WHO declared a pandemic on March 11 [D03], and the Federal Reserve implemented emergency monetary easing on March 15 in response to severe disruptions in global financial conditions [D01, D03]. High-yield credit spreads have widened by 478bp since year-end, and the S&P 500 has experienced a 29.5% drawdown from its February peak, indicating systemic liquidity stress [D02, D04].",
+  "book_exposure": "As of February 29, the portfolio maintained a significant gross equity exposure of 140.5% (105.3% long / 35.2% short) and a total portfolio gross of 174.3% [D02].",
+  "actions": [
+   "Reduce total gross equity and credit exposure significantly to preserve liquidity [D01, D02]",
+   "Unwind highly correlated cyclical equity positions that are vulnerable to demand shocks [D01, D06]",
+   "Cover or trim speculative exposures that rely on financing markets [D01, D05]",
+   "Reassess private investments for potential liquidity traps [D02, D06]"
+  ],
+  "target_gross_net": "Materially lower than 174% gross / 103% net; prioritize cash and liquidity over capital deployment.",
+  "drivers": [
+   {
+    "driver": "The rapid onset of a global pandemic and systemic funding stress demands an immediate focus on portfolio liquidity and capital preservation over thesis-driven growth [D01, D05].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Elevated gross exposure across cyclicals, including aerospace, travel, and autos, creates unacceptable risk in a synchronized economic shutdown [D01, D06].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Market plumbing and liquidity are impaired, as evidenced by the 838bp HY OAS and the VIX at 82.69, rendering standard event-driven catalysts secondary to solvency [D02, D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Lessons from 2008 dictate that in a liquidity regime change, cutting gross exposure early is mandatory to avoid forced selling [D01, D04].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "The situation today is not a standard market correction but a total liquidity regime change triggered by a global pandemic. Our portfolio, while focused on high-conviction events, is built on the assumption of functional financing markets and reliable demand; both have been rendered volatile or broken in the last week. The Federal Reserve's emergency interventions are necessary plumbing, but they do not substitute for the cash-flow destruction currently unfolding in our cyclical and event-heavy holdings. \n\nWe are moving to reduce gross exposure immediately. We do not wait for the market to bottom or for our theses to be 'proven'—when the premise shifts from corporate mispricing to systemic survival, the first loss is the cheapest. We are marking our positions honestly and prioritize liquidating assets that could become liquidity traps if forced selling accelerates. This is not the time to be smart about entry multiples on cyclicals; it is the time to ensure the fund remains a going concern capable of participating when the dust finally settles.",
+  "uncited_claims": []
+ }
+}

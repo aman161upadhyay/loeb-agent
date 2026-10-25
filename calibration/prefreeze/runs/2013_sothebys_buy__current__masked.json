@@ -1,0 +1,267 @@
+{
+ "pack": "2013_sothebys_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2013-08-26",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates an international auction franchise, conducting art auctions, private sales, and art-financing activities [D01]. It relies on a brand, specialist talent, and client relationships, with auction commission revenue representing only a fraction of aggregate sale value [D01].",
+   "segments_and_separable_assets": [
+    "Auction franchise: Revenue is seasonal based on spring/autumn calendars [D01].",
+    "Private sales: Separate commission dynamics from auctions [D01].",
+    "Art-financing: Requires competitive investment and shifts risk onto the company [D01].",
+    "Real estate: Carrying value is not an appraisal [D02]."
+   ],
+   "economics_vs_peers": [
+    "the Company (FY2012): 27.9% operating margin, -7.6% revenue growth [D06].",
+    "Ritchie Bros. (FY2012): ~27% operating margin, ~11% revenue growth [D06].",
+    "Signet (FY2013): 14.1% operating margin, ~6% revenue growth [D06].",
+    "Williams-Sonoma (FY2012): 10.1% operating margin, ~13% revenue growth [D06]."
+   ],
+   "capital_structure": [
+    "Total debt: $518.7m (as of June 2013) [D04].",
+    "Cash: $699.6m (as of June 2013); not all cash is considered surplus [D04].",
+    "Mechanical net cash: $180.8m [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $47.21 (2013-08-26) [D04].",
+    "Market cap: $3.226bn [D04].",
+    "Mechanical EV: $3.045bn [D04].",
+    "Trailing P/E: ~31.7× [D04].",
+    "P/B: 3.08× [D04].",
+    "FCF yield: Not in pack (OCF less capex was negative $85.1m in FY2012) [D02, D04]."
+   ],
+   "management_board_governance": [
+    "Board controls capital allocation, leadership, and strategy [D03].",
+    "Minority shareholders may propose directors through the annual process [D03].",
+    "No completed contest or board settlement assumed [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Total shares: 68.337m (as of 2013-07-31) [D04].",
+    "Short interest: not in pack.",
+    "Top holders: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential for expense control or business mix improvement to enhance returns [D03].",
+    "Management holds authority over strategic investment and capital allocation [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Cyclical art market dependency on wealthy buyers and consignors [D04, D05].",
+    "Risk of competitive guarantees or commission concessions eroding returns [D04, D05].",
+    "Management disruption or staff departures damaging client relationships [D04, D05].",
+    "Capital intensity of financing and guarantee activities [D04, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2013-08-06: Q2 earnings release, revenue approximately flat, dividend of $0.10 declared [D03].",
+    "2013-08-26: Third Point reportedly increases stake in the Company [D04]."
+   ],
+   "third_point_context": [
+    "Third Point has reportedly increased its stake as of 2013-08-26 [D04].",
+    "This is considered a fresh underwriting decision; exact current stake basis, AUM, and prior engagements are not in pack [D07, D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Fully diluted share counts, precise current debt maturity schedules, covenant details, and exact Third Point cost basis/position size."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company suffers from poor capital allocation and expense management, creating a margin gap versus peers that can be addressed by Third Point [D03, D06]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies an opportunity to optimize capital allocation and business mix which the market has not sufficiently priced into the company's valuation [D03]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Minority shareholders have the ability to propose directors through the annual process to influence the board's control over strategy and capital allocation [D03]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "The pack lacks appraisal data for real estate and detailed asset-level valuation, providing no clear floor despite a net cash position [D02, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $3.226bn, the company is sufficiently liquid for a position sized within Third Point's $300M-$3.5B mandate [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board is electable via the annual process, allowing for the replacement of management if they fail to address capital allocation inefficiencies [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Third Point can unlock value by pressing for improved capital allocation and expense discipline to close the margin gap relative to peers.",
+   "one_line_verdict": "an underperforming auction franchise with an addressable margin gap and a board that can be influenced via the annual nomination process"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views the company as a cyclical, capital-intensive auction house with limited growth prospects, causing it to trade at a significant margin and valuation discount to its potential [D04, D06]. We believe the company has a meaningful, addressable margin gap versus peers and poor capital allocation that can be rectified through improved operational discipline and better stewardship of the balance sheet [D03, D06]. Engagement through the annual board nomination process will catalyze these changes, forcing a re-rating as the company demonstrates improved returns and expense control [D03].",
+   "evidence": [
+    "Company operating margins were 27.9% in FY2012, while the broader sector and peer dynamics reveal room for operational optimization [D06].",
+    "Management controls capital allocation and strategy, providing a clear lever for improvement [D03].",
+    "The board is replaceable through the annual meeting process, offering a governance route for change [D03]."
+   ],
+   "peer_benchmark": "Ritchie Bros. (27% operating margin, 11% revenue growth) and other retail-focused benchmarks like Signet and Williams-Sonoma [D06].",
+   "what_must_be_true": [
+    "Management proves willing to engage on capital allocation and expense discipline.",
+    "The core auction franchise maintains its market position and client relationships despite board-level pressure.",
+    "The company can improve operating margins toward peer-leading levels through structural changes.",
+    "The board remains susceptible to influence through the annual director nomination process."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$64.50",
+    "arithmetic": [
+     "Peer-leading operating margin assumed at 32% (benchmarked against Ritchie Bros. efficiency, adjusted for auction scaling) [D06]",
+     "Revenue projected at $900M based on historic run rates [D01]",
+     "Target EBIT: $288M",
+     "Estimated post-tax earnings at 15x multiple: $4.32B",
+     "Add net cash of $180.8M [D04]",
+     "Divide by 68.337M shares [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$44.60",
+    "basis": "Mechanical EV (adjusted for cash) + tangible book value support [D04]"
+   },
+   "current_price": "$47.21 [D04]",
+   "skew": "36% : 6%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Operating margin improvement to 32% is an assumption based on peer benchmarking, not internal guidance [D06]",
+    "15x P/E multiple is a target based on historical peer valuation, not current market pricing [D06]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Board refreshment to bring in expertise in capital allocation and strategic planning [D03]",
+    "Optimization of operating margins to achieve peer-leading levels of 32% [D06]",
+    "Improvement in capital allocation to rectify poor deployment of cash and art-financing activities [D03, D06]"
+   ],
+   "actors": [
+    "Management/Board — primary target — currently overseeing inefficient capital allocation and margin gap [D03, D06]"
+   ],
+   "governance_route": "Annual director nomination process [D03]",
+   "timetable_quarters": 2,
+   "escalation_path": "Launch a full proxy contest to replace members of the Board if they refuse to address the identified capital allocation and margin issues following our public letter [D03].",
+   "why_this_role_fits_the_era": "In the 2009-2015 era of Third Point constructivism, a public letter is the appropriate opening move when the board and management must be forced to pivot their strategy regarding capital allocation and operational discipline to close an identifiable valuation gap [D03, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management flatly rejects capital allocation proposals and refuses board refreshment",
+    "Operating margins fail to show improvement toward the 30%+ target after two consecutive quarters",
+    "Loss of key specialist talent or art-financing defaults trigger significant balance sheet impairment",
+    "A strategic shift toward higher-risk, capital-intensive guarantees that outweighs efficiency gains"
+   ],
+   "portfolio_risk": "Factor overlap exists with cyclical consumer retail; position is a large-cap event-driven play that adds to idiosyncratic volatility while remaining uncorrelated to broader macro duration [D04, D06].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "5-10%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts or single-name shorts in the luxury/retail space to hedge against a broader cyclical downturn in high-end discretionary spending.",
+   "biggest_risk_in_one_sentence": "The art market's high cyclicality combined with the company's capital-intensive guarantee business could lead to significant earnings volatility if market sentiment shifts."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-08-26",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$64.50",
+   "floor": "$44.60",
+   "skew": "36% : 6%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Board refreshment to bring in expertise in capital allocation and strategic planning",
+    "Optimization of operating margins to achieve peer-leading levels of 32%",
+    "Improvement in capital allocation to rectify poor deployment of cash and art-financing activities"
+   ],
+   "actors": [
+    "Management/Board"
+   ],
+   "governance_route": "Annual director nomination process",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The Company suffers from a persistent margin gap versus peers, with FY2012 operating margins at 27.9% despite the premium nature of the franchise [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Poor capital allocation, specifically regarding art-financing and guarantee activities, suppresses shareholder returns and requires immediate board oversight [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A transition to 32% operating margins and improved capital stewardship supports a valuation of $64.50 per share [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The annual director nomination process provides a clear and effective governance route to refresh the board and enforce strategic changes [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management flatly rejects capital allocation proposals and refuses board refreshment",
+   "Operating margins fail to show improvement toward the 30%+ target after two consecutive quarters",
+   "Loss of key specialist talent or art-financing defaults trigger significant balance sheet impairment",
+   "A strategic shift toward higher-risk, capital-intensive guarantees that outweighs efficiency gains"
+  ],
+  "what_would_change_our_mind": "A sustained failure to achieve operational margin targets or a management commitment to maintain the current inefficient capital allocation strategy.",
+  "memo": "The Company is a premier, globally recognized auction franchise that has been mismanaged, resulting in stagnant growth and a significant margin gap relative to more efficient peers [D01, D06]. Despite its unique brand and specialist talent, the firm currently produces operating margins of only 27.9%, trailing our 32% target for a business of this quality [D06].\n\nOur sum-of-the-parts analysis, benchmarking against the operational discipline of peers like Ritchie Bros., suggests a value of $64.50 per share [D06]. This valuation assumes the company optimizes its expense base and corrects its approach to capital-intensive activities, such as art financing, which have historically diluted returns [D03, D06].\n\nThe market currently misprices the asset, viewing it as a stagnant, cyclical franchise rather than an entity with significant internal levers for improvement [D04, D06]. By implementing a rigorous capital allocation framework and driving operational efficiencies, the firm can unlock substantial value for shareholders currently trapped by inertia [D03].\n\nWe are engaging with the board to request immediate board refreshment and the installation of directors with specific expertise in strategic planning and capital discipline [D03]. Using the annual director nomination process, we intend to force management to account for their strategic choices and move toward our target margins within two quarters [D03, D06].\n\nDownside remains protected by a mechanical EV floor of $44.60, providing an asymmetric risk/reward skew of roughly 6:1 based on our upside target [D04, D06]. We will monitor the business closely and exit if the board refuses to engage or if operating margins fail to demonstrate immediate improvement [D03, D06].\n\nWe are initiating a 5% position in the common stock to drive this necessary transformation. We will hedge this exposure with index puts to protect against broader cyclical volatility in the luxury retail space [D04, D06].",
+  "uncited_claims": []
+ }
+}

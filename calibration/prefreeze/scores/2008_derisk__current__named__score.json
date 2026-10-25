@@ -1,0 +1,53 @@
+{
+ "trade_id": "2008_derisk",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Fundamental value is insufficient protection when crowded exposures become correlated and liquidity disappears. → We will not be forced sellers in a distressed market because we held onto positions waiting for 'value' to be realized [D05].",
+   "Reduce the chance that funding or redemptions force sales before event value can be realized. → We are cutting gross exposure immediately to protect our capital and liquidity, ensuring we can meet potential redemption demands without fire-selling our best assets [D06].",
+   "Preserve the ability to redeploy into distressed opportunities rather than defend every prior mark. → My priority now is survival to fight another day."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The portfolio faces urgent, joint factor risks in energy and financials that can force liquidations before the underlying thesis is realized [D04, D05].",
+   "Thin liquidity and higher collateral calls in a high-volatility regime demand immediate reduction of gross exposure [D02, D04].",
+   "July's sharp reversal proved that 'hedged' strategies can suffer simultaneous losses on both sides of the trade [D02, D06].",
+   "Counterparty risk and potential redemption pressure make maintaining current leverage levels untenable without a clear liquidity buffer [D01, D06]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "VIX has surged to 39.39",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The July reversal saw energy longs drop >30% in a week while financial shorts rallied",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market depth is evaporating",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are cutting gross exposure immediately to protect our capital and liquidity, ensuring we can meet potential redemption demands without fire-selling our best assets [D06].",
+ "grader_notes": "The agent correctly identified the decision to reduce gross exposure and captured the essence of the archival drivers regarding redemption pressure and the failure of fundamental value to protect against systemic liquidity loss. The agent's reasoning is highly aligned with the key, despite providing more specific, granular drivers related to the market environment of September 2008.",
+ "run": "2008_derisk__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

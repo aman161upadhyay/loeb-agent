@@ -1,0 +1,54 @@
+{
+ "pack": "2012_yahoo_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2012-05-03",
+ "stages": {},
+ "final": {
+  "as_of_date": "2012-05-03",
+  "company": "Yahoo! Inc.",
+  "ticker": "YHOO",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Asian-asset value: intact [D08]",
+   "Core-business stewardship: broken due to leadership credibility issues [D01, D08]",
+   "Governance: requiring immediate intervention following disclosure discrepancies in CEO and director biographies [D02, D03, D07]"
+  ],
+  "remaining_skew": "Significant upside from monetization of affiliate stakes if core governance is reformed; downside protected by inherent asset value [D01, D02]",
+  "next_catalyst_and_timing": "Annual meeting vote on our four nominated director candidates [D07]",
+  "asks_if_escalating": [
+   "Immediate board overhaul to include our four independent nominees with technical and media experience [D07, D08]",
+   "Full transparency regarding the leadership biography discrepancies found in SEC filings [D03, D07]",
+   "Execution of the original plan to monetize non-core Asian assets and improve core business stewardship [D01, D07]"
+  ],
+  "drivers": [
+   {
+    "driver": "Material discrepancy in CEO and director biographies reported in SEC filings undermines board credibility and governance [D03, D07]",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Existing board lacks the necessary independent technical and media expertise to properly oversee the business turnaround [D01, D06]",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The core business requires urgent stewardship reform to align with the value of distinct Asian affiliate holdings [D01, D08]",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Yahoo! is a classic case where underlying asset value is being obscured by a board and leadership team that lack the basic credibility required to oversee a public company. Our analysis of SEC filings has uncovered unacceptable discrepancies regarding the academic credentials of the CEO and director Patti Hart, a failure of disclosure that strikes at the heart of the board's integrity [D03, D07]. We did not invest for the management to be caught in a biography scandal; we invested for the intelligent monetization of Asian assets and the recovery of core operating value [D01, D08].\n\nThe current board has failed the most basic test of governance. While the company points to stabilized revenue as a sign of progress, these figures cannot mask the deeper rot in management oversight [D02, D04]. A company with high-value products cannot flourish under a leadership team that lacks a transparent, truthful control process [D01, D06]. We are not interested in waiting for the current regime to stumble through further disclosures; we are escalating to ensure our four independent director candidates are seated to provide the technical and media expertise this business desperately needs [D03, D07, D08].\n\nOur case is clear: replace the entrenched actors who have presided over this degradation with directors who understand shareholder stewardship [D07]. The path to 20-30% IRR remains, but it is now contingent on a board refresh [D07, D08]. We are moving to the next stage of our campaign because the mispricing persists, the shareholder base is receptive to change, and the annual meeting represents the immediate window for intervention [D07]. We exit the era of quiet dialogue and demand a board that adheres to the standards our capital expects [D07, D08].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "trade_id": "2012_greece_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The market overstates the probability of default and redenomination relative to the official-sector incentive to keep Greece in the euro. → The Hellenic Republic’s post-PSI sovereign bonds are currently trading at a distressed 10¢ on the dollar, a price that reflects nothing less than the market’s expectation of a total collapse and a chaotic Eurozone exit [D04, D05].",
+   "Incremental official funding can produce low-20s pricing, with larger upside as the strip moves to yield valuation. → We estimate a recovery value of 25¢-30¢, representing 2.5x-3x our entry price, based on a return to normalized distressed trading benchmarks once the binary risk of the June 17 election is cleared [D03, D04]."
+  ],
+  "missed": [
+   "New bonds' legal terms and creditor protections improve the recovery asymmetry.",
+   "On-the-ground assessment and policy resolve support willingness to implement the program; this is Q3 hindsight relative to this pack."
+  ],
+  "extra_agent_drivers": [
+   "The June 17 election acts as a binary catalyst.",
+   "Forced selling by hedge funds reducing risky-asset exposure has created an artificial floor for entry at 10¢."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Hellenic Republic’s post-PSI sovereign bonds are currently trading at a distressed 10¢ on the dollar",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "minimum wage 50% above Portugal’s and onerous social contributions at 44% of wages",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The June 17 election acts as a binary catalyst",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Forced selling by hedge funds reducing risky-asset exposure has created an artificial floor for entry at 10¢",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "English law governing these instruments",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 2,
+  "share": 0.17
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The Hellenic Republic’s post-PSI sovereign bonds are currently trading at a distressed 10¢ on the dollar, a price that reflects nothing less than the market’s expectation of a total collapse and a chaotic Eurozone exit [D04, D05].",
+ "grader_notes": "The agent correctly identified the 'buy' direction and two core drivers related to market mispricing of default risk and recovery potential. The reasoning was farthest from Loeb's in its reliance on the June 17th election as the primary catalyst and a 'P0' opportunistic framework, which reflects the agent's pre-election perspective rather than the hindsight-based strategic rationale documented in Loeb's later Q3 commentary.",
+ "run": "2012_greece_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

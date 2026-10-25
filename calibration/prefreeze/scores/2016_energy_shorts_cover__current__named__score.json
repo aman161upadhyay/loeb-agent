@@ -1,0 +1,42 @@
+{
+ "trade_id": "2016_energy_shorts_cover",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "China's unwillingness to devalue and prospective fiscal stimulus invalidated the common bearish macro premise.",
+   "The dollar peak and a perceived oil bottom required covering commodity, cyclical and industrial shorts.",
+   "Corporate credit moved from net short to net long as energy-credit opportunities improved."
+  ],
+  "extra_agent_drivers": [
+   "Short squeeze risk from crowded trades",
+   "Market volatility and potential for correlated moves",
+   "Excessive commodity supply and weak demand"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The oil market is severely oversupplied with EIA forecasts indicating continued price pressure",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 2,
+  "share": 0.29
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are reducing gross exposure to exit the thematic energy and commodity-sensitive shorts that have dominated our recent P&L.",
+ "grader_notes": "The agent correctly identified the trade (REDUCE_GROSS) but failed to cite any of the specific, retrospective drivers identified in Loeb's Q1 letter, instead providing its own independent reasoning about short squeezes and volatility. The agent's reasoning was entirely disconnected from the actual rationale provided by the firm for why the shorts were covered in early 2016.",
+ "run": "2016_energy_shorts_cover__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

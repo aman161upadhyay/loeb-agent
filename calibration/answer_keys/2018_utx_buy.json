@@ -1,0 +1,49 @@
+{
+  "id": "2018_utx_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Stake initiated Q4 2017; exact cost and NAV weight not recovered.",
+  "first_action_date": null,
+  "first_action_window": "ID retained as requested, but the first position was initiated Q4 2017, not May 2018. This is a disclosure-window underwriting replay.",
+  "disclosure_date": "2018-05-04",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Gregory Hayes",
+      "UTC board"
+    ],
+    "governance_route": "P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Separate Aerospace, Otis and Carrier so each can close the discount to pure-play peers.",
+      "source": "https://www.gurufocus.com/news/677941/daniel-loebs-third-point-1st-quarter-investor-letter (2018-05-04)",
+      "quote": null
+    },
+    {
+      "driver": "Pratt & Whitney's investment phase could give way to a large multi-year free-cash-flow inflection.",
+      "source": "https://www.gurufocus.com/news/677941/daniel-loebs-third-point-1st-quarter-investor-letter (2018-05-04)",
+      "quote": null
+    },
+    {
+      "driver": "Standalone transparency, incentives and capital allocation could surface sum-of-parts value.",
+      "source": "https://www.gurufocus.com/news/677941/daniel-loebs-third-point-1st-quarter-investor-letter (2018-05-04)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "May letter SOTP above $190 by end-2019, up to $210 including geared-turbofan NPV; not an entry cost.",
+  "outcome_note": "Separation announced in 2018; subsequent Raytheon merger opposition is separate. Successor-lot realized returns unresolved.",
+  "sources": [
+    "https://www.gurufocus.com/news/677941/daniel-loebs-third-point-1st-quarter-investor-letter (2018-05-04)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. ID retained as requested, but the first position was initiated Q4 2017, not May 2018. This is a disclosure-window underwriting replay. AUM 16bn is firm/manager capital, not Offshore NAV, per https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (2017-06-02). AUM observation period 2017-05; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

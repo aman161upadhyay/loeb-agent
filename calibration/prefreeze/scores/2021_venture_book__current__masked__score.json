@@ -1,0 +1,52 @@
+{
+ "trade_id": "2021_venture_book",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "AI underwriting could price consumer credit more accurately than legacy approaches → AI-based credit underwriting and fee-based model remain the core value drivers",
+   "Years of venture and board knowledge supported underwriting the public-market lifecycle → As early-stage venture investors, we have a long-standing familiarity with the management and underwriting platform"
+  ],
+  "missed": [
+   "The IPO was another stage of ownership rather than an automatic exit."
+  ],
+  "extra_agent_drivers": [
+   "The market rerating post-IPO from $20 to $62.19 requires a disciplined approach, as the current valuation reflects high expectations rather than an undiscovered opportunity",
+   "We maintain the position to monitor the next critical milestone of public earnings and cohort data, avoiding premature exit while keeping valuation discipline"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Reported Q3 2020 results showed robust revenue growth of 32.1% year-over-year",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "expansion in operating margins to 18.7%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "rapid appreciation of the share price to $62.19",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 7,
+  "share": 0.78
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We continue to hold while we await the first full public earnings cycle and detailed loan cohort performance to confirm that the business model is not merely a beneficiary of a favorable macro environment [D03; D05].",
+ "grader_notes": "The agent correctly identified the hold decision and aligned with the core drivers of venture-based familiarity and the AI underwriting thesis. However, the agent's reasoning was heavily focused on valuation concerns regarding the post-IPO price run-up, which was not explicitly highlighted in Loeb's retrospective commentary as a primary driver for the hold decision.",
+ "run": "2021_venture_book__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "HOLD",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

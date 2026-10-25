@@ -1,0 +1,48 @@
+{
+ "trade_id": "2024_vst_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "AI/data-center and EV demand could accelerate domestic electricity demand against constrained baseload supply. → The market misprices the Company as a volatile commodity play, failing to recognize a structural earnings inflection driven by AI-linked data center power demand."
+  ],
+  "missed": [
+   "Brilliant capital allocation and substantial buybacks exploited assets valued far below new-build cost.",
+   "The March 2023 Energy Harbor acquisition supplied the original nuclear-fleet catalyst.",
+   "Intermittent generation increased the need and economic value of existing dispatchable assets."
+  ],
+  "extra_agent_drivers": [
+   "Operating margins of 18.0% significantly outperform peers like Constellation Energy at 7.7%, demonstrating superior operational efficiency.",
+   "The valuation is compelling at 9.0x EV/EBITDA, with a clear path to $125 per share through margin expansion to 22% and $3.5bn in adjusted FCF."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Operating margins of 18.0% significantly outperform peers like Constellation Energy at 7.7%",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Management is actively driving value through a $1.5 billion share repurchase program",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 3,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The Company is a leading independent power generator currently mispriced by a market that views it as a cyclical commodity play rather than a beneficiary of a structural AI-driven power demand inflection [D03, D05].",
+ "grader_notes": "The agent correctly identified the direction as a BUY, matching Loeb's decision. However, the reasoning overlap is weak; the agent focused heavily on internal operational metrics and specific valuation multiples (EV/EBITDA, margin targets) not highlighted in the answer key, while failing to mention the critical Energy Harbor acquisition catalyst or the relative value of existing dispatchable assets in the context of intermittent generation.",
+ "run": "2024_vst_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

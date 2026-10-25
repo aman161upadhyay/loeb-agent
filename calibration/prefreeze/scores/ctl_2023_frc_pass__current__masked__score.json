@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "First Republic/FRC absent from complete 54-quarter index; no attributable named long comment recovered in the local manager-letter/case archive. PASS is an observed reportable-common control, not proof that undisclosed shorts, swaps or credit were absent."
+  ],
+  "extra_agent_drivers": [
+   "The company suffers from a liquidity-driven crisis where the potential for equity wipeout by regulators remains a binary risk.",
+   "While the franchise trades at 0.462x Tangible Book Value, the lack of visibility into asset marks and deposit retention makes the floor unquantifiable.",
+   "Regulatory intervention via a $30bn deposit placement provides temporary support, but long-term solvency remains unproven.",
+   "The current valuation skew is theoretical, as the downside risk of a total common equity impairment in a forced resolution scenario is high."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company presents a classic distressed banking situation where the market is currently pricing for a terminal outcome.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock trading at 0.462x tangible book value.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The $30bn liquidity intervention by major banks is merely a 120-day bridge.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Consequently, we are passing on the opportunity to invest at this time [D05].",
+ "grader_notes": "The agent correctly identifies the PASS decision, but its reasoning is entirely synthetic, focusing on a detailed fundamental analysis of the bank's liquidity crisis. The answer key for this control is based purely on historical index absence and the lack of a public record, meaning the agent's complex fundamental arguments are irrelevant to the specific PASS logic requested.",
+ "run": "ctl_2023_frc_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

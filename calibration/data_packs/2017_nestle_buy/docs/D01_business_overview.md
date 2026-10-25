@@ -1,0 +1,19 @@
+Title: Business economics and asset map — Nestlé S.A.
+Source: https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2016 (2017-02-16); https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25); https://www.cnbc.com/2017/06/25/daniel-loebs-third-point-buys-stake-in-nestle-advises-selling-its-loreal-holding.html (2017-06-25); https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (2017-06-02); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514617001247-third-point-llc-q1-2017 (2017-05-12)
+Date: 2017-06-25
+
+Nestlé sells coffee, infant nutrition, pet food, bottled water and other packaged foods through global brands and local distribution. Its coffee and pet-care franchises combine repeat purchases with brand investment; this is not a portfolio of identical commodity products. Emerging-market penetration and developed-market premiumization offer different growth sources. The outside CEO, Mark Schneider, arrived from Fresenius at the start of the year. The separate L'Oréal investment is a financial asset, not revenue of the food operations. An ownership thesis must distinguish franchise quality from what the current organization earns on those assets. [S1]
+
+Economic map and evidence limits. Separate the source's business descriptions from an analyst's inference about durability. Revenue scale alone is not a moat: the important distinctions are repeat demand, switching or distribution advantages, reinvestment requirements, and the ability to convert customer value into cash for owners. A strong asset can be an unattractive security when other claims absorb the cash. Conversely, complexity can obscure an otherwise sound franchise. The facts above identify the businesses and the relevant unit of analysis; they do not establish that a particular corporate structure is optimal.
+
+Underwrite the operating case before assuming an event. Identify who pays, why the customer returns, which costs are fixed, and what spending must recur to protect the franchise. Keep operating assets, financial investments and restricted capital separate. Where the recovered source does not provide unit economics, customer retention or segment capital employed, those figures are not available in contemporaneous sources; do not fill them with a current estimate. A downside analysis should test the business with no immediate transaction or valuation rerating. This is an analyst framework, not a statement that management or any shareholder has adopted it.
+
+Analyst cross-check: Map the customer, contractual counterparty and owner of the relevant intellectual property separately. A distributor's access to end demand is not ownership of that demand; likewise, reported group market share does not prove that each operating unit possesses pricing power or recurring revenue.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2016 (published 2017-02-16).
+- [S2] https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (published 2017-06-25).
+- [S3] https://www.cnbc.com/2017/06/25/daniel-loebs-third-point-buys-stake-in-nestle-advises-selling-its-loreal-holding.html (published 2017-06-25).
+- [S4] https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (published 2017-06-02).
+- [S5] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S6] https://13f.info/13f/000108514617001247-third-point-llc-q1-2017 (published 2017-05-12).

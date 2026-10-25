@@ -1,0 +1,52 @@
+{
+ "trade_id": "ho_2025_soho_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "August 20 13D/A reports zero beneficial shares following the August 18 event, establishing an exit rather than continued ownership.",
+   "The January campaign sought an independent sale process and fair minority treatment; catalyst realization is an inferred classification, not a contemporaneous disclosed execution rationale.",
+   "Issuer transaction terms announced August 18 provide event context but do not prove Third Point sold at the announced $9 offer price or that the merger was then complete."
+  ],
+  "extra_agent_drivers": [
+   "The risk that a controller-led process limits competition and results in inadequate consideration for minority shareholders remains the primary concern",
+   "Following the initial January public letter, the lack of a definitive, fair sale process announcement necessitates a more aggressive public stance",
+   "Current operating results, while improved, do not replace the need for the catalyst-driven event of a transaction to unlock value"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Q2 2025 showed improvement in revenue and margins",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Company's membership scarcity and brand value represent a hidden asset",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "controlling shareholder may stifle competition to the detriment of minority economics",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Consequently, we are escalating our involvement.",
+ "grader_notes": "The agent completely missed the exit event, erroneously advocating for further escalation while Third Point had already executed a full exit. The reasoning is entirely disconnected from the actual trade outcome, focusing on strategy persistence rather than the realized divestment.",
+ "run": "ho_2025_soho_sell__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

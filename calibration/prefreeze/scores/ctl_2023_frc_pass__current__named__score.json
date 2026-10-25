@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "First Republic/FRC absent from complete 54-quarter index; no attributable named long comment recovered in the local manager-letter/case archive. PASS is an observed reportable-common control, not proof that undisclosed shorts, swaps or credit were absent."
+  ],
+  "extra_agent_drivers": [
+   "The common equity is effectively a subordinated call option with no floor",
+   "The situation involves extreme uncertainty regarding asset marks, replacement funding costs, and deposit retention",
+   "Management and regulators control the stabilization process, leaving common equity shareholders with no clear governance lever",
+   "Third Point lacks a structural edge because the valuation is highly sensitive to unknown fair-value marks"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The common equity sits behind senior depositors, secured creditors, and preferred holders.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The dividend suspension is a tacit admission of the capital pressures the bank faces.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current plan is managed entirely by an eleven-bank consortium and regulatory authorities.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 2,
+  "share": 0.15
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have determined that this situation is a pass.",
+ "grader_notes": "The agent correctly identified the PASS decision but provided a completely different set of rationales compared to the answer key. The answer key identifies the pass based on lack of historical ownership and absence of public commentary, whereas the agent authored a fundamental analysis of the bank's insolvency risk.",
+ "run": "ctl_2023_frc_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

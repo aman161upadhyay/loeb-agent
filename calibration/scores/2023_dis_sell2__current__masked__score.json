@@ -1,0 +1,52 @@
+{
+ "trade_id": "2023_dis_sell2",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Reported common fell from 950,000 at Q4 2022 to absent Q1 2023; this is the verified directional observation.",
+   "The original thesis sought cost, Hulu and board changes, but no contemporaneous stated liquidation rationale was recovered.",
+   "Common-only absence does not prove the timing or size of a complete beneficial/derivative unwind."
+  ],
+  "extra_agent_drivers": [
+   "The September 2022 support agreement includes a board appointment and standstill obligations, necessitating a hold through the implementation of the plan",
+   "Management has recently announced a significant $5.5 billion cost-savings target which requires monitoring to confirm execution",
+   "Streaming remains a cash-heavy investment; the immediate catalyst is proving operating discipline rather than further governance conflict"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Management has recently announced a significant $5.5 billion cost-savings target",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The appointment of Carolyn Everson to the board",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "operating loss of approximately $1.1 billion in the latest quarter",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 5,
+  "share": 0.63
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We maintain our position in The Walt Disney Company as we move into the implementation phase of the governance agreement reached in September 2022 [D07].",
+ "grader_notes": "The agent incorrectly identifies the trade decision as a HOLD, while the actual outcome was a complete divestment of the common position by Q1 2023. The reasoning is entirely divergent, as the agent focuses on the upside of a continued engagement while the actual firm proceeded to exit the position.",
+ "run": "2023_dis_sell2__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

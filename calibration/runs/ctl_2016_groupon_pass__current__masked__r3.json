@@ -1,0 +1,256 @@
+{
+ "pack": "ctl_2016_groupon_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-10-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company connects consumers with local merchants through discounted offers and operates Goods activities [D01]. It is characterized as a repeat local-commerce network focusing on low marginal fulfillment expense rather than a traditional inventory retailer [D01].",
+   "segments_and_separable_assets": [
+    "Local-commerce network; revenue evidence from Q2 2016 North American local billings growth of 9% [D03].",
+    "Goods activities; no specific revenue or EBITDA breakout recovered [D01, D03]."
+   ],
+   "economics_vs_peers": [
+    "Margins: Q2 2016 operating margin of -5.7% vs eBay 25.6% (FY2015), Amazon 2.1% (FY2015), and TripAdvisor 15.5% (FY2015) [D03, D06].",
+    "Revenue growth: 2.4% (Q2 2016) vs eBay -2.3%, Amazon 20.2%, and TripAdvisor 19.7% (FY2015) [D06]."
+   ],
+   "capital_structure": [
+    "$250m principal in convertible notes issued April 4 [D04].",
+    "$780.1m in unrestricted cash as of June 30, 2016 [D04].",
+    "No specific credit ratings, covenants, or maturity dates beyond note issuance recovered [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $5.17 (as of Oct 10, 2016) [D04].",
+    "Market cap: ~$2.97bn [D04].",
+    "Enterprise value: ~$2.44bn [D04].",
+    "Price/Book: 8.06x [D04].",
+    "FY2015 FCF yield: ~5.75% [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 574.590m (both classes) [D04].",
+    "Top holders and short interest: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Identifiable catalyst is improvement in local activity and operating leverage [D01].",
+    "Management guidance: $140–$165m adjusted EBITDA for 2016 [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Increased marketing expense creating headline growth without profitable retention [D05].",
+    "Discounts attracting deal-seekers rather than durable merchant relationships [D05].",
+    "Goods inventory and international restructuring consuming cash [D05].",
+    "Material net losses despite positive adjusted EBITDA [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "July 27, 2016: Q2 earnings release showing $756m revenue and $34m adjusted EBITDA [D03].",
+    "August 5, 2016: Amended Q2 10-Q filing [D03]."
+   ],
+   "third_point_context": [
+    "Third Point held $10.492bn in securities per Q2 13F [D08].",
+    "Major holdings included Baxter, Allergan, Dow, and Facebook [D08].",
+    "Specific stake in The Company: Not in pack."
+   ],
+   "document_conflicts": [
+    "Operating income/loss figures in D02 and D03 utilize different perimeters/adjustments; D02 reports FY2015 operating income as -79.8m, while D03 reports Q2 2016 operating loss as -43.2m [D02, D03]."
+   ],
+   "missing_data": [
+    "Debt maturity schedules, specific credit ratings, board composition, detailed segment-level EBITDA, and exact firm-wide net exposure."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E7"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The identified catalysts of 'improvement in local activity' and 'operating leverage' are vague operational goals rather than a discrete event or structural catalyst [D01]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The business model is suffering from a structural 'melting ice cube' concern regarding marketing expense and retention, and there is no differentiated plan or edge provided in the pack [D05]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "There is no disclosed governance path, board composition, or settlement precedent mentioned in the pack [D04, Missing Data]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The company suffers from material net losses and the business model faces secular concerns regarding retention, which does not provide a reliable floor [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$2.97bn, the company is sufficiently liquid for a position sized to Third Point's $10bn+ portfolio [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Management credibility is not addressed in the pack, and board/management details are missing [Missing Data]."
+    }
+   },
+   "conflicts_resolved": [
+    "Operating income/loss figures in D02 and D03: reconciled by noting that D02 and D03 use different perimeters/adjustments, but both confirm the business is operating at a loss [D02, D03]."
+   ],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The company represents a struggling local-commerce network with no clear catalyst or event, failing our requirement for a specific event-driven opportunity.",
+   "one_line_verdict": "A business model with structural retention issues and no identifiable event or governance path to value creation."
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market views the company as a failing local-commerce network struggling with high marketing costs and poor customer retention. As the situation lacks a specific event, catalyst, or governance path to value creation, we find no actionable variant view that would support an investment. The business model's structural losses and lack of differentiation confirm the market's skepticism [D01, D05].",
+   "evidence": [
+    "Q2 2016 operating margin of -5.7% reflects poor profitability [D03].",
+    "Marketing spend is generating headline growth but failing to secure profitable retention [D05].",
+    "No disclosed governance path or event-driven catalyst identified [D01, D04]."
+   ],
+   "peer_benchmark": "eBay 25.6% operating margin (FY2015) [D06].",
+   "what_must_be_true": [
+    "Management must demonstrate a pivot to profitable, sustainable retention.",
+    "A clear, actionable catalyst for operational improvement must be identified.",
+    "The company must resolve its structural net losses."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Market cap $2.97bn [D04]",
+     "Management 2016 Adj. EBITDA target $140–$165m [D03]",
+     "Current EV $2.44bn [D04]",
+     "Implied EV/EBITDA ~14.8x-17.4x based on FY2016 target"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$780.1m",
+    "basis": "Unrestricted cash as of June 30, 2016 [D04]"
+   },
+   "current_price": "$5.17 [D04]",
+   "skew": "N/A : N/A",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "No actionable catalyst identified to bridge the valuation gap to profitable peers.",
+    "EBITDA targets rely on management guidance without evidence of structural improvement in customer retention."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "PASS — no actionable event identified [D01, D05]"
+   ],
+   "actors": [
+    "Not in pack — N/A — N/A"
+   ],
+   "governance_route": "Not in pack",
+   "timetable_quarters": 0,
+   "escalation_path": "N/A",
+   "why_this_role_fits_the_era": "Third Point requires an identifiable event or catalyst to move beyond a pass. As the situation lacks a specific catalyst, governance path, or credible edge, and the business model is characterized by structural retention issues and net losses, this does not meet our threshold for engagement [D01, D05]. We do not engage with 'melting ice cubes' that lack a concrete plan for improvement."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to demonstrate a pivot to profitable, sustainable retention [D05].",
+    "Operating margins continue to miss peers significantly without a clear path to closing the gap [D03, D06].",
+    "Marketing spend remains inefficient, failing to secure durable merchant or consumer relationships [D05]."
+   ],
+   "portfolio_risk": "N/A — PASS decision; no position initiated [D01, D05].",
+   "instrument": "none",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The investment thesis relies on an unproven pivot in a 'melting ice cube' business model that lacks a catalyst for structural profitability."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-10",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "none",
+  "opportunity_template": [
+   "E7"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "N/A",
+   "floor": "$780.1m",
+   "skew": "N/A : N/A",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "PASS — no actionable event identified"
+   ],
+   "actors": [
+    "Not in pack"
+   ],
+   "governance_route": "Not in pack",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company operates as a 'melting ice cube' with high marketing spend failing to secure durable, profitable customer retention [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is no identifiable event, catalyst, or governance path to bridge the significant margin gap between the company's -5.7% operating margin and peers like eBay at 25.6% [D01, D03, D06].",
+    "citations": [
+     "D01",
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The business suffers from structural net losses and relies on vague operational goals rather than a discrete, value-creating plan [D01, D03, D05].",
+    "citations": [
+     "D01",
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Valuation is unattractive given the lack of a catalyst, with implied FY2016 EV/EBITDA multiples of ~14.8x-17.4x despite poor business quality [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to demonstrate a pivot to profitable, sustainable retention [D05].",
+   "Operating margins continue to miss peers significantly without a clear path to closing the gap [D03, D06].",
+   "Marketing spend remains inefficient, failing to secure durable merchant or consumer relationships [D05]."
+  ],
+  "what_would_change_our_mind": "A demonstrated, sustainable shift toward profitable retention coupled with an identifiable, discrete catalyst or board-level change that would unlock trapped value.",
+  "memo": "We have reviewed the business as a potential local-commerce opportunity, but find it to be a classic 'melting ice cube' lacking the essential elements for a Third Point investment [D01, D05]. The company's current model burns significant cash to drive headline growth, yet fails to generate the profitable customer retention necessary for a durable business [D05].\n\nWhen we benchmark the company against peers, the disparity is stark; the company reported a -5.7% operating margin in Q2 2016, a figure that pales in comparison to eBay's 25.6% or TripAdvisor's 15.5% [D03, D06]. Without a clear structural pivot, we see no mathematical path to closing this margin gap that warrants capital allocation [D03, D06].\n\nThe market’s skepticism is well-founded, as the company has failed to demonstrate that its marketing spend creates anything more than temporary deal-seeking behavior rather than permanent merchant relationships [D05]. We require a concrete event or catalyst to move beyond a passive observation, and here, no such event exists [D01, D04].\n\nGiven the absence of a governance route or a clear plan to refresh board or management leadership, we remain on the sidelines [D01, D04]. We exit this analysis with a firm pass, as the current risk-reward profile is fundamentally unattractive for our portfolio [D01, D05].",
+  "uncited_claims": []
+ }
+}

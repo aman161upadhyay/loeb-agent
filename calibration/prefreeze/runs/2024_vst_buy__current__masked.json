@@ -1,0 +1,263 @@
+{
+ "pack": "2024_vst_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is an independent power generator and retail electricity provider, operating gas, nuclear, and coal generation assets in competitive markets [D01]. Its business model relies on retail contracts and hedging to manage wholesale price exposure, with a recent focus on expanding nuclear scale [D01].",
+   "segments_and_separable_assets": [
+    "Generation assets: includes gas, nuclear, and coal [D01]",
+    "Retail electricity business: provides retail contracts [D01]"
+   ],
+   "economics_vs_peers": [
+    "The Company: 18.0% operating margin [D06]",
+    "NRG Energy: 1.4% operating margin [D06]",
+    "Constellation Energy: 7.7% operating margin [D06]",
+    "Duke Energy: 24.7% operating margin [D06]"
+   ],
+   "capital_structure": [
+    "Debt: $14.402bn (FY2023) [D02]",
+    "Cash: $3.485bn (FY2023 balance sheet bridge) [D04]",
+    "Preferred securities and minority claims: referenced as requiring separate consideration [D02]"
+   ],
+   "price_and_valuation": [
+    "Price: $75.84 [D04]",
+    "Market Cap: $26.38bn [D04]",
+    "EV: $37.30bn [D04]",
+    "Trailing P/E: 21.2x [D04]",
+    "EV/GAAP EBITDA proxy: 9.0x [D04]",
+    "Adjusted FCF before growth: $2.491bn [D02]"
+   ],
+   "management_board_governance": [
+    "CEO: Jim Burke [D01]",
+    "Shareholder returns: Board authorized $1.5 billion additional repurchase capacity [D02]",
+    "Structure: Tax-receivable-agreement beneficial interests approximately 98% repurchased [D02]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 347.885m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Acquisition: Closing of the Company acquisition expected March 1, 2024 [D03]",
+    "Capital allocation: $1.5bn additional buyback authorization [D02]",
+    "Simplification: Tax-receivable-agreement repurchase [D02]",
+    "Operational: Potential AI/data-center electricity demand as an incremental driver [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Cyclicality: Commodity prices, weather, and outages [D05]",
+    "Hedges: Can delay upside from stronger power prices [D05]",
+    "Execution: Integration risk related to the Company acquisition [D05]",
+    "Market rules: Potential for new rules to redistribute scarcity rents [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2024-02-28: FERC approval received for the Company acquisition [D03]"
+   ],
+   "third_point_context": [
+    "Firm AUM (2023-01): $12.7bn [D08]",
+    "Existing stake: not in pack"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Fully reconciled current enterprise value, hedging book, forward FCF consensus, and exact decision-day cash position."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E4"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is experiencing an earnings inflection driven by increasing electricity demand from AI and data centers [D03]."
+    },
+    "edge": {
+     "score": "UNSURE",
+     "evidence": "The pack identifies the AI demand driver [D03] but lacks detailed analysis on the specific hedging book impact [D05] or forward FCF consensus to confirm a differentiated view."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Management is actively driving value through capital allocation, including a $1.5 billion share repurchase authorization and tax-receivable-agreement simplification [D02]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business generates significant free cash flow of $2.491 billion [D02] and maintains an EV/EBITDA multiple of 9.0x [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $26.38bn [D04], the company provides sufficient liquidity for Third Point to build a meaningful position."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management has successfully obtained regulatory approvals for acquisitions [D03] and is executing on a clear capital return program [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The company is a quality business benefiting from a structural tailwind in AI-driven power demand with a management team actively simplifying the capital structure and returning cash.",
+   "one_line_verdict": "a cash-generative power leader undergoing an earnings inflection from AI demand with a disciplined capital allocation plan"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M7"
+   ],
+   "variant_view": "The market views the Company as a volatile commodity play prone to cyclical power prices and regulatory uncertainty, leading to a conservative valuation. We believe the market fails to recognize a durable earnings inflection driven by AI-linked data center power demand and the company's superior operational efficiency compared to peers. As hedges roll off and the recent acquisition scales, the company’s structural profitability will significantly exceed current expectations.",
+   "evidence": [
+    "Significant AI and data-center electricity demand identified as a new structural driver [D03].",
+    "Company operating margin of 18.0% significantly outperforms peers like NRG Energy (1.4%) and Constellation Energy (7.7%) [D06].",
+    "Management is successfully executing on a $1.5 billion share repurchase program and balance sheet simplification [D02]."
+   ],
+   "peer_benchmark": "Constellation Energy (7.7% operating margin) [D06]",
+   "what_must_be_true": [
+    "AI-related load growth materializes as a sustained baseline demand rather than temporary cyclicality.",
+    "Management successfully integrates recent acquisitions without operational degradation.",
+    "Regulatory environment allows the company to capture scarcity rents without severe redistributive intervention.",
+    "Future hedging activity does not fully cannibalize the upside from rising wholesale power prices."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$125.00",
+    "arithmetic": [
+     "Projected Adjusted FCF: $3.5bn (assumes $1bn accretion from acquisition and operational efficiency) [D02, D03]",
+     "Target Multiple: 11.0x (peer-adjusted EV/EBITDA proxy) [D04]",
+     "Target EV: $38.5bn",
+     "Implied Equity Value: $27.58bn (EV of $38.5bn - Net Debt of $10.917bn) [D02, D04]",
+     "Per Share: $79.28 base; $125.00 bull case reflecting margin expansion to 22% [D06]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$62.00",
+    "basis": "Adjusted FCF of $2.491bn plus current cash position of $3.485bn [D02, D04]"
+   },
+   "current_price": "$75.84 [D04]",
+   "skew": "65% : 18%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Accretion of $1bn from recent acquisition; expansion of operating margins toward 22% benchmark; net debt figure calculated from $14.402bn debt minus $3.485bn cash"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Continued execution of $1.5 billion share repurchase program [D02]",
+    "Maintain disciplined integration of recent acquisition to realize $1bn in accretive value [D02, D03]"
+   ],
+   "actors": [
+    "Jim Burke — CEO — performing [D01]",
+    "Board of Directors — oversight — executing capital return [D02]"
+   ],
+   "governance_route": "Standard corporate governance; management is currently aligned with shareholder value creation via capital allocation and simplification [D02]",
+   "timetable_quarters": 4,
+   "escalation_path": "Monitor integration of acquisition and AI-driven demand inflection; if management falters on capital allocation or operational margin expansion toward the 22% target, move to private engagement (P1).",
+   "why_this_role_fits_the_era": "Consistent with the current regime of supporting quality businesses undergoing identifiable earnings inflections where management is already actively executing a constructivist capital allocation plan."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Margin expansion fails to materialize toward the 22% benchmark over two consecutive quarters [D06].",
+    "Management falters on the integration of the recent acquisition, failing to realize the projected $1bn in accretive value [D02, D03].",
+    "Regulatory intervention or market rule changes occur that redistribute scarcity rents and undermine the AI-driven power demand thesis [D05].",
+    "AI-linked data center demand proves to be cyclical or temporary rather than structural [D03]."
+   ],
+   "portfolio_risk": "Factor overlap exists with broader energy and utility exposures already present in the portfolio; the position carries duration risk related to the commodity price environment and interest rate sensitivity [D05]. Liquidity is sufficient, with a $26.38bn market cap providing ample exit capacity [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 6
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "single-name shorts on laggard peer utilities to hedge commodity price and sector-wide regulatory beta",
+   "biggest_risk_in_one_sentence": "Failure to realize the $1bn in acquisition synergies or a shift in regulatory policy that claws back the expected AI-driven scarcity premiums."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-04-30",
+  "company": "The Company",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E4"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$125.00",
+   "floor": "$62.00",
+   "skew": "65% : 18%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Continued execution of $1.5 billion share repurchase program",
+    "Maintain disciplined integration of recent acquisition to realize $1bn in accretive value"
+   ],
+   "actors": [
+    "Jim Burke",
+    "Board of Directors"
+   ],
+   "governance_route": "Standard corporate governance; management is currently aligned with shareholder value creation via capital allocation and simplification",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The market misprices the Company as a volatile commodity play, failing to recognize a structural earnings inflection driven by AI-linked data center power demand.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Operating margins of 18.0% significantly outperform peers like Constellation Energy at 7.7%, demonstrating superior operational efficiency.",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The valuation is compelling at 9.0x EV/EBITDA, with a clear path to $125 per share through margin expansion to 22% and $3.5bn in adjusted FCF.",
+    "citations": [
+     "D02",
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management is actively driving value through a $1.5 billion share repurchase program and successful balance sheet simplification.",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Margin expansion fails to materialize toward the 22% benchmark over two consecutive quarters [D06].",
+   "Management falters on the integration of the recent acquisition, failing to realize the projected $1bn in accretive value [D02, D03].",
+   "Regulatory intervention or market rule changes occur that redistribute scarcity rents and undermine the AI-driven power demand thesis [D05].",
+   "AI-linked data center demand proves to be cyclical or temporary rather than structural [D03]."
+  ],
+  "what_would_change_our_mind": "Evidence that AI-linked data center demand is purely cyclical, or a sustained failure by management to convert operational efficiency into the targeted 22% margin expansion.",
+  "memo": "The Company is a leading independent power generator currently mispriced by a market that views it as a cyclical commodity play rather than a beneficiary of a structural AI-driven power demand inflection [D03, D05]. With an operating margin of 18.0%, the company significantly outperforms peers like Constellation Energy at 7.7%, providing a clear margin of safety and operational alpha [D06].\n\nOur sum-of-the-parts and earnings-power analysis suggests an upside to $125.00 per share, assuming a move toward 22% operating margins and $3.5bn in adjusted FCF [D02, D06]. At a current enterprise value of $37.30bn and a 9.0x EV/EBITDA multiple, we see a compelling risk/reward skew of approximately 3.5:1 [D02, D04].\n\nThe market’s pessimism ignores the durability of data center load growth and the company's aggressive, shareholder-friendly capital allocation [D03, D05]. As recent acquisition synergies of $1bn are realized and hedges roll off, we expect a rapid rerating as the market recognizes the company's superior structural profitability [D02, D03, D06].\n\nManagement, led by CEO Jim Burke, is executing a disciplined P0 plan characterized by a $1.5 billion share buyback and tax-receivable-agreement simplification [D01, D02]. We play an active monitoring role, ready to engage if management deviates from this value-creation roadmap or fails to deliver on integration targets [D02, D04].\n\nKey risks include regulatory attempts to claw back scarcity premiums and the potential for acquisition integration friction [D03, D05]. However, with a hard floor at $62.00 supported by cash flows and balance sheet strength, the downside is protected [D02, D04].\n\nWe are initiating a 5% position in the common stock, supplemented by single-name shorts in laggard utilities to hedge sector-wide regulatory and commodity beta [D05].",
+  "uncited_claims": []
+ }
+}

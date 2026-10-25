@@ -1,0 +1,26 @@
+{
+  "id": "2012_greece_buy",
+  "company": "Hellenic Republic post-PSI bonds",
+  "ticker": "GGB",
+  "aliases": [
+    "Hellenic Republic post-PSI bonds",
+    "GGB",
+    "Greece",
+    "Greek",
+    "Hellenic Republic",
+    "GGB Strip",
+    "PSI",
+    "Troika",
+    "EFSF",
+    "New Democracy",
+    "Syriza",
+    "Athens"
+  ],
+  "as_of_date": "2012-06-15",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2012-06-15; actual first action not recovered to a unique day; see answer-key dating notes. Critical timing correction: June 15 is BEFORE June 17 election and late-July policy pledge; original letter explicitly says Q3 entry. Requested June pack is a counterfactual early-entry stress test, not historical first-action prediction. Later election result, Draghi pledge and Athens conclusions are key-only. Primary terms index recovered, not full executed trust deed.",
+  "fund_aum_usd_bn": null,
+  "instrument": "bond",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Critical timing correction: June 15 is BEFORE June 17 election and late-July policy pledge; original letter explicitly says Q3 entry. Requested June pack is a counterfactual early-entry stress test, not historical first-action prediction. Later election result, Draghi pledge and Athens conclusions are key-only. Primary terms index recovered, not full executed trust deed."
+}

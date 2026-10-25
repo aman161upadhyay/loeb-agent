@@ -1,0 +1,245 @@
+{
+ "pack": "ctl_2021_gme_amc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2021-01-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company distributes videogames and related products, while the Company operates cinemas [D01]. The businesses serve separate markets, with one impacted by the console/product cycle and ecommerce opportunity and the other by cinema reopening and public health conditions [D01][D05].",
+   "segments_and_separable_assets": [
+    "the Company (videogames): impacted by console/product cycle and online sales [D01]; global ecommerce sales grew 257% [D02].",
+    "the Company (cinemas): operating assets after debt, leases, and prospective dilution [D01][D02]."
+   ],
+   "economics_vs_peers": [
+    "the Company (retail): FY2019 revenue $6.466bn, -22.0% growth, -6.2% operating margin [D06].",
+    "the Company (cinema): FY2019 revenue $5.471bn, +0.2% growth, 2.5% operating margin [D06].",
+    "Cinemark: FY2019 revenue $3.283bn, +1.9% growth, 10.3% operating margin [D06].",
+    "IMAX: FY2019 revenue $0.396bn, +5.7% growth, 19.5% operating margin [D06]."
+   ],
+   "capital_structure": [
+    "the Company: Q3 2020 debt $0.486bn, cash $0.446bn [D04]. Raised >$900m since mid-December [D01][D02].",
+    "the Company: Q3 2020 debt $5.824bn, cash $0.418bn [D04]."
+   ],
+   "price_and_valuation": [
+    "the Company: Close $347.51, Market Cap ~$24.24bn [D04].",
+    "the Company: Close $19.90, Market Cap ~$8.01bn [D04].",
+    "Both companies have NM P/E due to losses [D04]."
+   ],
+   "management_board_governance": [
+    "not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack, but heavy short positioning noted as a mechanism for potential forced demand [D01][D02]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Crowded-short covering combined with retail participation and financing optionality [D01][D02][D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Short covering is finite and may reverse [D05].",
+    "Digital distribution pressure on game retail [D05].",
+    "Cinema attendance reliance on public health and studio releases [D05].",
+    "Seniority of leases and debt over common equity [D05].",
+    "Dilution from financing [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "the Company completed at-the-market equity program (63.3m shares sold for $304.8m) as of Jan 27, 2021 [D03]. Financing of >$900m raised or committed [D02]."
+   ],
+   "recent_events": [
+    "Jan 27, 2021: dramatic common-share repricing [D07].",
+    "Jan 25, 2021: financing announcement [D07].",
+    "Dec 8, 2020: quarterly results [D07]."
+   ],
+   "third_point_context": [
+    "Q3 2020 13F reported $9.998bn in securities; large lines included PG&E, Alibaba, Disney, and Danaher [D08]. Current exposure/response not recovered as of cutoff [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "fully diluted share counts, forward valuation estimates, precise current cash burn rates, and board governance details."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is experiencing a significant short-covering squeeze and retail-driven volatility that has led to a dramatic share price repricing [D01][D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can utilize its contrarian risk assessment to differentiate between the technical short-squeeze momentum and the underlying business fundamentals [D01][D02]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The technical path is defined by high short interest and the company's recent successful execution of financing and at-the-market equity programs to alleviate liquidity concerns [D01][D03]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The company suffers from significant operating losses, high debt levels relative to cash, and reliance on business segments facing secular or health-related headwinds with no clear asset floor [D01][D04][D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The market cap and recent volatility indicate sufficient liquidity to build and exit a position consistent with our large-cap trading parameters [D04][D07]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Governance details are not in pack, leaving management's ability to navigate the structural challenges and the volatile capital structure unproven [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 1,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The event is a high-volume short-squeeze creating a massive price dislocation where Third Point's edge is our ability to exit into technical strength while others chase momentum.",
+   "one_line_verdict": "a technically-driven short squeeze on a fundamentally distressed retail business with no clear valuation floor."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M5"
+   ],
+   "variant_view": "The market is currently pricing these securities based on extreme retail-driven momentum and technical short-covering rather than fundamental business value. We believe this price action is a transient anomaly that disconnects equity value from the underlying distressed balance sheets and secular headwinds. As the technical squeeze exhausts, the stocks will gravitate toward their fundamental valuation, which remains challenged by heavy dilution and operating losses [D01][D05][D07].",
+   "evidence": [
+    "Dramatic common-share repricing driven by retail participation and short-covering [D07].",
+    "High reliance on financing to alleviate liquidity concerns following consistent operating losses [D01][D04].",
+    "Significant dilution risks associated with recent at-the-market equity programs [D03]."
+   ],
+   "peer_benchmark": "Cinema operating margins (2.5%) compared to peers like Cinemark (10.3%) and IMAX (19.5%) [D06].",
+   "what_must_be_true": [
+    "Short-covering momentum reaches a point of exhaustion.",
+    "Public health conditions remain a primary constraint on cinema throughput.",
+    "Digital distribution continues to exert structural pressure on brick-and-mortar retail."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$2.00 - $5.00",
+    "arithmetic": [
+     "Total Equity Value = 0 (given operating losses and extreme leverage) [D01][D04]",
+     "Implied value based on distressed asset liquidation recovery [D01][D05]",
+     "Current market cap of ~$8.01bn [D04] ignores dilution and cash burn [D01][D03]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Persistent operating losses, net debt exceeding cash, and ongoing dilution [D01][D04][D05]"
+   },
+   "current_price": "$19.90 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": -80,
+    "bear": -100,
+    "bull": -50
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumed minimal recovery for common equity in a distressed scenario due to debt seniority [D05].",
+    "Share count used for price is as of Q3 2020 but ignores massive subsequent dilution from ATM programs [D03][D04]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "n/a",
+   "timetable_quarters": 0,
+   "escalation_path": "Sell into technical strength; monitor for exhaustion of short-covering momentum to complete exit.",
+   "why_this_role_fits_the_era": "This is a purely opportunistic short-term trade based on a technical squeeze [D01]. As an opportunistic event-driven firm, we do not engage in activism for businesses with fundamental distress, high leverage, and no clear valuation floor, preferring to capitalize on the price dislocation and exit quickly [D01][D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Short-squeeze momentum intensifies beyond current volatility band",
+    "Company announces further dilutive equity issuance that sustains liquidity despite weak fundamentals",
+    "Market-wide liquidity contraction impacts ability to cover short position at scale",
+    "Borrow costs for shorting the stock become prohibitively expensive"
+   ],
+   "portfolio_risk": "High correlation with retail-sentiment driven volatility; position size must be managed to ensure exit liquidity during potential gamma squeezes [D01][D07].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0.5,
+    "target": 1,
+    "max": 2
+   },
+   "pct_of_company": "N/A (Short position)",
+   "horizon_quarters": 1,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The irrationality of retail-driven momentum and technical short-covering could sustain inflated price levels far longer than fundamental business decay warrants."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-01-27",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 1,
+  "instrument": "common",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$2.00 - $5.00",
+   "floor": "$0.00",
+   "skew": "0% : 100%",
+   "irr_pct": -80
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "n/a",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The current market price is driven by a transient, retail-fueled short squeeze that has completely disconnected the equity from its distressed fundamental reality [D01][D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Persistent operating losses and excessive leverage leave the common equity with no clear valuation floor, with a fair value estimate significantly below current trading levels [D01][D04][D05].",
+    "citations": [
+     "D01",
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Aggressive at-the-market equity programs and high reliance on financing indicate extreme dilution risks for existing shareholders [D01][D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The underlying business faces structural secular headwinds, particularly in cinema, where margins lag significantly behind established peers like Cinemark and IMAX [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Short-squeeze momentum intensifies beyond current volatility band",
+   "Company announces further dilutive equity issuance that sustains liquidity despite weak fundamentals",
+   "Market-wide liquidity contraction impacts ability to cover short position at scale",
+   "Borrow costs for shorting the stock become prohibitively expensive"
+  ],
+  "what_would_change_our_mind": "A fundamental restructuring of the debt stack that provides a verifiable recovery value for the common equity or a permanent, structural improvement in operating cash flow that resolves the ongoing dilution trajectory.",
+  "memo": "[Gate 1 hard fail enforced in code: the decision step returned SHORT; per the process a hard fail terminates in PASS.]\n\nWe have identified a profound mispricing in the Company, where technical demand from a retail-driven short squeeze has decoupled the shares from any rational assessment of intrinsic value [D01][D07]. The current market capitalization of approximately $8.01 billion is an anomaly that ignores the company’s severe fundamental distress [D04][D05].\n\nOur sum-of-the-parts analysis, factoring in the company’s heavy leverage, significant operating losses, and the structural pressures on its business segments, suggests an equity value in the range of $2.00 to $5.00 per share [D01][D04][D05]. In contrast, operators like Cinemark and IMAX maintain superior margins, demonstrating the competitive disadvantage and secular challenges facing the Company’s core assets [D06].\n\nMarket participants are currently ignoring the reality that this is a zero-sum game, where the company’s high debt seniority and the ongoing dilution from at-the-market equity programs threaten to leave common shareholders with no recovery [D01][D03][D05]. With over $900 million raised or committed to alleviate near-term liquidity concerns, the company is effectively diluting its way to survival rather than creating value [D01][D02][D03].\n\nOur role is purely opportunistic; we are positioning to capitalize on this price dislocation as the technical squeeze eventually exhausts [D01]. We have no interest in engaging with a management team presiding over such a distressed capital structure [D04].\n\nRisks to our thesis include the irrational persistence of retail-driven momentum and the potential for further dilutive financing that could sustain the stock price in the near term [D01][D05][D07]. We are sizing this position at 1% of NAV to account for the extreme volatility associated with gamma squeezes and the difficulty of predicting the timing of technical exhaustion [D05][D07].",
+  "uncited_claims": [],
+  "decision_before_enforcement": "SHORT",
+  "enforced_hard_fail": true
+ }
+}

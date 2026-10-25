@@ -1,0 +1,64 @@
+{
+ "trade_id": "2020_intc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "Restore advanced manufacturing competitiveness after losing leadership to Asian foundries.",
+   "Address engineering talent flight and human-capital management immediately.",
+   "Retain an adviser to examine strategic alternatives and failed acquisitions.",
+   "Develop a manufacturing/customer strategy able to serve competitors as customers."
+  ],
+  "extra_agent_drivers": [
+   "Low TTM P/E valuation",
+   "Margin gap vs peers",
+   "Sum-of-the-parts valuation",
+   "NAND divestiture and FCF yield as valuation floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is an iconic American institution that has unfortunately lost its way, suffering from persistent manufacturing delays and an erosion of its technological leadership.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have initiated constructive private engagement with the board, led by Omar Ishrak, to demand a strategic review of fabrication operations.",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market is currently paralyzed by skepticism toward the existing multi-year turnaround plan, which is failing to address the fundamental manufacturing bottlenecks that plague the company.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The downside is protected by a 10.04% FCF yield and the $9 billion cash infusion from the memory divestiture, providing a hard floor near $40.00.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Company trades at an absurd valuation of 9.70x TTM P/E, with the market pricing it as a terminal loser rather than a dominant semiconductor franchise.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 11,
+  "share": 0.73
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have initiated constructive private engagement with the board, led by Omar Ishrak, to demand a strategic review of fabrication operations.",
+ "grader_notes": "The agent correctly identified the BUY direction but entirely substituted the investor's qualitative, governance-focused drivers (manufacturing competitiveness, talent flight, strategic adviser, customer strategy) with its own financial/valuation-based arguments. The agent's reasoning fails the overlap test because it does not cite any of the specific drivers provided in the answer key.",
+ "run": "2020_intc_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

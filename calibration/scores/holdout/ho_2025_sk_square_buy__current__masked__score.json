@@ -1,0 +1,47 @@
+{
+ "trade_id": "ho_2025_sk_square_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The large liquid SK hynix asset and cash dominate NAV, making the holding-company discount unusually large. → The Company stands as a classic conglomerate mispricing, trading at a staggering 62.8% discount to NAV.",
+   "Repurchases and noncore disposals provide a mechanism to close the discount. → Through a policy of engagement, we intend to push for an increased, predictable buyback program and a formal commitment to distributing proceeds from non-core monetization."
+  ],
+  "missed": [
+   "Look-through valuation permits ownership of the AI memory franchise more cheaply than direct stock."
+  ],
+  "extra_agent_drivers": [
+   "The company maintains a zero-debt strategy and holds KRW 431.6 billion in parent-level cash, providing a hard floor for the valuation.",
+   "Management has demonstrated prior receptivity to buyback and cancellation programs, creating a viable path for constructivist engagement."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company trades at a 62.8% discount to NAV.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains a zero-debt strategy.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Through a policy of engagement, we intend to push for an increased, predictable buyback program and a formal commitment to distributing proceeds from non-core monetization [D01, D03, D07].",
+ "grader_notes": "The agent correctly identified the direction and the primary drivers regarding the NAV discount and the mechanics of closing it via buybacks and disposals. The reasoning was farthest from Loeb's when the agent introduced its own valuation floor and specific engagement timeline, which were not explicitly mentioned in the provided Loeb drivers.",
+ "run": "ho_2025_sk_square_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

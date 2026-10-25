@@ -1,0 +1,63 @@
+{
+ "trade_id": "2019_sony_buy2",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Recurring gaming and entertainment assets were misunderstood and undervalued. → Market participants are distracted by transient concerns such as console transition risk and content spending, failing to see that the structural complexity is the primary inhibitor of shareholder value",
+   "Separate the world-class image-sensor franchise to create two focused investment propositions. → We believe the path to unlocking this value is through a formal separation of the image sensor business, forcing a re-rating that reflects the unit's true growth profile",
+   "A roughly 8x EV/EBIT valuation implied a large discount to the stated sum of parts. → Market persists in applying a conglomerate discount, valuing the entire entity at a pedestrian 7.54x P/E"
+  ],
+  "missed": [
+   "Sell non-core listed stakes and redeploy proceeds into disciplined investment and buybacks."
+  ],
+  "extra_agent_drivers": [
+   "Management's 'Reimagine SPE' initiative proves they are open to operational improvement, providing a credible path to negotiate structural reform",
+   "The floor is protected by ¥397.7 billion in non-financial net cash and a conservative 7.54x P/E valuation"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a sprawling, world-class conglomerate whose pieces are worth significantly more than the whole",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Consolidated operating margins of 10.3% are a poor metric for the company",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We will exercise the Japanese model of influence, applying specific and polite pressure",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "¥397.7 billion in non-financial net cash",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are initiating a position at 5% of NAV",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 5,
+  "share": 0.36
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe the path to unlocking this value is through a formal separation of the image sensor business, forcing a re-rating that reflects the unit's true growth profile [D01, D06].",
+ "grader_notes": "The agent correctly identified the core thesis drivers of sum-of-the-parts valuation and image sensor separation. The agent missed the driver regarding selling non-core listed stakes but compensated with sufficient relevant drivers, resulting in a MATCH state.",
+ "run": "2019_sony_buy2__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,52 @@
+{
+ "pack": "2025_shco_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-01-28",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-01-28",
+  "company": "Soho House & Co Inc.",
+  "ticker": "SHCO",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Membership growth: intact, with 13% YoY growth [D03]",
+   "Operating profitability: progress observed with positive operating income in Q3 2024, yet persistent GAAP losses/negative equity remain [D02, D03]",
+   "Governance/Control: status quo remains concerning voting influence and privatization process [D01, D07]"
+  ],
+  "remaining_skew": "Significant upside potential via governance reform or transparent privatization vs. limited downside floor given recurring membership revenue [D01, D05]",
+  "next_catalyst_and_timing": "Public 13D filing and engagement to demand independent special committee and fair valuation process; next 1-3 months [D07]",
+  "asks_if_escalating": [
+   "Establish an independent special committee to oversee any potential privatization transaction",
+   "Require a formal, transparent sale process to prevent value extraction by controlling shareholders",
+   "Demand independent valuation and equal treatment for minority shareholders",
+   "Transparency regarding the path to sustainable free cash flow versus capital-intensive expansion"
+  ],
+  "drivers": [
+   {
+    "driver": "Persistent risk of a coerced take-private transaction that undervalues minority interests given existing voting concentration [D01, D05]",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Gap between underlying membership franchise value and public market performance necessitates active governance intervention [D01, D03]",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "GAAP profitability remains fragile and negative equity underscores the need for capital allocation discipline over empire-building [D02, D03]",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "memo": "Soho House occupies a unique position as a global membership platform, yet its public market presence is marred by structural complexity and concerns regarding the influence of controlling shareholders [D01]. While the company has demonstrated membership growth of 13% and delivered a positive operating quarter, the persistent GAAP losses, negative tangible book equity, and ongoing capital-intensive expansion necessitate a rigorous re-evaluation of its governance [D02, D03]. \n\nThe current environment, characterized by whispers of privatization, presents a classic risk for minority holders [D05]. Without an independent committee, there is no guarantee that a transaction will be conducted fairly or that it will reflect the intrinsic value of the membership brand rather than the short-term interests of insiders [D01, D05].\n\nWe are moving to ESCALATE to ensure that any potential change in control is handled through a transparent, competitive process that protects our investment. We demand the immediate appointment of an independent special committee to oversee all strategic alternatives, ensuring that the path to a fair outcome is not obscured by governance structures [D01, D07].",
+  "uncited_claims": []
+ }
+}

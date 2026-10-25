@@ -1,0 +1,188 @@
+{
+ "pack": "ctl_2022_vroom_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "_raw": "{\n \"business_description\": \"The Company sells used vehicles online and operates an auto-finance business [D01]. The current strategy focuses on a deliberate inventory and operating-cost reset to prioritize unit economics and liquidity over retail volume [D01, D04].\",\n \"segments_and_separable_assets\": [\n  \"Vehicle retail: Ecommerce channel; Q2 2022 revenue $475.437m; Q2 ecommerce gross profit per unit $3,629 [D03].\",\n  \"Auto-finance: Owns auto-finance operations; requires separate valuation due to credit and funding risks [D01].\"\n ],\n \"economics_vs_peers\": [\n  \"Margins: Q2 2022 operating margin -21.1% vs -11.3% in FY2021 [D03, D06].\",\n  \"Growth: Q2 2022 revenue down 37.6% YoY [D03].\",\n  \"Peers: CarMax (FY2022 3.6% net margin) and AutoNation (FY2021 7.4% operating margin) operate different models and fiscal calendars, limiting direct ratio comparisons [D06].\"\n ],\n \"capital_structure\": [\n  \"Debt: Consolidated debt $1,212.108m (includes $422.452m floorplan, $115.325m current securitization, and $674.331m noncurrent) [D04].\",\n  \"Cash: $532.642m as of June 30, 2022 [D04].\",\n  \"Convertibles: $610.618m long-term convertible debt reported as of Dec 31, 2021 [D02].\",\n  \"Liquidity outlook: Management forecast $450–$565m by year-end 2022 [D03].\"\n ],\n \"price_and_valuation\": [\n  \"Price: $.88 per share (Nov 4, 2022) [D04].\",\n  \"Market Cap: ~$121.5m [D04].\",\n  \"EV: ~$801.0m [D04].\",\n  \"Valuation multiples: P/B 0.245x; P/tangible book 0.377x [D04].\",\n  \"Yields: FY2021 FCF yield -491% [D04].\"\n ],\n \"management_board_governance\": [\n  \"Not in pack regarding CEO/chair tenure or board composition details; relevant actors identified as the Company, board, warehouse lenders, and convertible holders [D01, D07].\"\n ],\n \"shareholder_base_and_liquidity\": [\n  \"Common shares: 138.109m (as of Aug 4, 2022) [D04].\"\n ],\n \"event_or_catalyst_evidence\": [\n  \"Catalyst: Deliberate inventory and operating-cost reset intended to preserve liquidity and improve unit economics [D01, D04].\"\n ],\n \"what_the_market_is_worried_about\": [\n  \"Cash exhaustion: Race between restructuring and cash depletion [D05].\",\n  \"Macro: Higher interest rates and falling used-car prices [D03, D05].\",\n  \"Operations: Lower volumes worsening overhead absorption; inventory markdowns consuming liquidity [D05].\"\n ],\n \"deal_or_instrument_terms_if_any\": [\n  \"Not in pack\"\n ],\n \"recent_events\": [\n  \"August 8, 2022: Q2 turnaround and liquidity update [D07].\",\n  \"November 4, 2022: Investment cutoff [D07].\"\n ],\n \"third_point_context\": [\n  \"AUM: Q2 2022 13F reported $4.225bn in securities; exact firm AUM not in pack [D08].\",\n  \"Existing stake: Not in pack.\"\n ],\n \"document_conflicts\": [\n  \"None reported.\"\n ],\n \"missing_data\": [\n  \"Current liquidity/cash levels as of November 4, 2022, specific board member identities, and exact Third Point position/basis.\"\n]",
+   "_truncated": true
+  },
+  "gate1": {
+   "situation_types": [
+    "NONE"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The company is undergoing a 'deliberate inventory and operating-cost reset' which is a multi-year operational turnaround lacking a separable asset or defined sale route [D01, D04]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The turnaround is a management-led operational effort with no specific Third Point-driven catalyst or differentiated plan provided [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "No nomination window, settlement precedent, or concrete governance path is identified in the pack to force change [D01]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "With negative operating margins, declining revenue, and significant debt, the company faces cash exhaustion risks that undermine the floor [D03, D05, D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$121.5m, Third Point could theoretically build a position, though liquidity is constrained by the company's distressed profile [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis depends on an unproven management team executing a long, difficult turnaround, which violates the 2022 Intel rule [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The situation represents a speculative turnaround without a clear governance catalyst or asset-backed floor, providing no specific edge for Third Point.",
+   "one_line_verdict": "a cash-burning, operationally distressed company in a secularly challenged segment with no actionable activist path"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market correctly prices the company as a distressed entity facing severe cash exhaustion risks amidst a deteriorating macro environment for used vehicles. We see no mispricing or catalyst that would allow for an asymmetric return profile, as the current operational turnaround lacks the requisite governance path or separable assets to anchor our investment. Consequently, the company does not meet our threshold for an event-driven opportunity.",
+   "evidence": [
+    "Operating margins have cratered to -21.1% [D03, D06].",
+    "The turnaround is an internal management-led operational effort without a clear governance catalyst [D01].",
+    "The company faces significant liquidity constraints with a race between restructuring and cash depletion [D03, D05]."
+   ],
+   "peer_benchmark": "CarMax 3.6% net margin and AutoNation 7.4% operating margin [D06]",
+   "what_must_be_true": [
+    "The company must secure immediate additional liquidity to avoid insolvency.",
+    "The unit economics must demonstrate a sustainable inflection rather than continued compression.",
+    "An actionable event or governance catalyst must emerge to force value realization."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "Not applicable",
+    "arithmetic": [
+     "EV $801.0m [D04]",
+     "Market Cap $121.5m [D04]",
+     "Cash $532.6m [D04]",
+     "Total Debt $1,212.1m [D04]"
+    ],
+    "horizon_years": 0
+   },
+   "floor": {
+    "value": "Zero/Insolvency risk",
+    "basis": "Cash depletion exceeds operational runway [D03, D05]"
+   },
+   "current_price": "$0.88 [D04]",
+   "skew": "0 : 100",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumption that liquid assets remain insufficient to cover debt obligations given current burn rate [D03, D05]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "N/A",
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A",
+   "timetable_quarters": 0,
+   "escalation_path": "N/A",
+   "why_this_role_fits_the_era": "This is a PASS. As established in the Gate 1, 2, and 3 analysis, the company is a cash-burning, operationally distressed entity with no identifiable catalyst, no governance path for constructive engagement, and a negative risk/reward skew that fails to meet Third Point's event-driven investment criteria [D01, D03, D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Cash burn exceeds management liquidity projections [D03]",
+    "Failure to stabilize unit economics in upcoming quarters [D01]",
+    "Refinancing or restructuring terms that lead to equity subordination [D04]"
+   ],
+   "portfolio_risk": "High exposure to distressed retail/consumer credit sensitive to interest rate hikes; no correlation with current thematic AI or mega-cap constructivist positions [D03, D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The investment thesis is negated by a lack of an actionable governance catalyst combined with an existential risk of cash insolvency."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "N/A",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "N/A",
+   "floor": "Zero/Insolvency risk",
+   "skew": "0 : 100",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company is a cash-burning, operationally distressed entity facing a race between restructuring and potential insolvency [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Operating margins have deteriorated to -21.1%, signaling significant fundamental weakness compared to industry benchmarks [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The turnaround is a management-led operational effort lacking an identifiable activist catalyst or governance path [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The investment thesis depends on unproven management executing a difficult, multi-year pivot, violating our core criteria for event-driven conviction [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Cash burn exceeds management liquidity projections [D03]",
+   "Failure to stabilize unit economics in upcoming quarters [D01]",
+   "Refinancing or restructuring terms that lead to equity subordination [D04]"
+  ],
+  "what_would_change_our_mind": "The emergence of an actionable governance catalyst, such as a board refresh or a forced asset separation, coupled with clear evidence of sustainable unit economic inflections.",
+  "memo": "The Company is a distressed player in the online vehicle retail space, currently struggling through an operational turnaround in a punishing macro environment [D01, D05]. With operating margins at -21.1%, the business is failing to achieve the scale necessary to compete with established peers like CarMax and AutoNation [D03, D06].\n\nThe market’s skepticism is well-founded given the company’s precarious liquidity position and the race between ongoing cash depletion and potential restructuring [D03, D05]. With total debt standing at $1,212.1 million against a market capitalization of only $121.5 million, the equity risk is extreme [D04].\n\nOur process demands an identifiable event or catalyst to unlock value, yet we see only an internal, management-led operational reset with no clear governance path [D01]. Without a specific, actionable plan to force change or a tangible floor to protect against insolvency, the risk/reward skew is non-existent [D03, D04].\n\nWe pass on this opportunity. The investment relies on unproven management to execute a multi-year recovery while the company burns cash, which fails to meet our standards for opportunistic, event-driven value [D01].",
+  "uncited_claims": []
+ }
+}

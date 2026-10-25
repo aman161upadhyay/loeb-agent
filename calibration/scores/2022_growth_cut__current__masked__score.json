@@ -1,0 +1,49 @@
+{
+ "trade_id": "2022_growth_cut",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Valuations were incompatible with the changing rate environment, geopolitical uncertainty and weakening economies. → The Federal Reserve's hike in March and the persistent 7.9% inflation print are clear signals that the discount rate applied to our long-duration, cash-light growth holdings must move higher, necessitating a painful rerating [D01, D03, D07]."
+  ],
+  "missed": [
+   "Reduce and substantially hedge the volatile SentinelOne concentration and exit other large equity exposures.",
+   "Increase selective single-name shorts while reducing basket and market hedges.",
+   "Maintain buying power for idiosyncratic events and cash-returning energy/cyclical opportunities."
+  ],
+  "extra_agent_drivers": [
+   "Private-market valuations and venture-heavy holdings face significant impairment risk as funding costs rise and liquidity shrinks",
+   "The historical lesson of 2008 and Q1 2020 dictates that gross exposure should be reduced early during regime shifts rather than awaiting further price deterioration",
+   "Rising inflation and volatility create a challenging environment for growth-oriented equity factor concentration"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Federal Reserve initiated a policy rate hike on March 16, 2022",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "7.9% CPI in February",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 2,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are moving to reduce our gross exposure and cut positions that lack internal cash generation and are overly reliant on cheap external financing [D05, D08].",
+ "grader_notes": "The agent correctly identified the direction of the trade (Reduce Gross). However, the agent's reasoning was largely internal and theoretical rather than capturing Loeb's specific stated drivers, such as the need to hedge the SentinelOne concentration, adjust short exposures, or prioritize energy/cyclical opportunities.",
+ "run": "2022_growth_cut__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

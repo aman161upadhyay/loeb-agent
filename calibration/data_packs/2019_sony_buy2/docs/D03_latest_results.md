@@ -1,0 +1,18 @@
+Title: Latest recovered results and live expectations — Sony Corporation
+Source: https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/18q4_sony.pdf (2019-04-26); https://www.sony.com/en/SonyInfo/IR/library/presen/irday/pdf/2019/presen_E.pdf (2019-05-21); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514619001661-third-point-llc-q1-2019 (2019-05-15)
+Date: 2019-06-13
+
+The May investor day reports cumulative PS4 shipments of 96.8 million and PlayStation Plus subscriptions of 36.4 million. Network services represented 62% of gaming sales. Recorded-music and publishing streaming sales rose 16% on the stated comparable basis. EMI consolidation increased annualized music-publishing EBITDA by about ¥29 billion. Pictures reported an 11% US box-office share and ¥15 billion annual cost reduction from Reimagine SPE. These operating disclosures show diverse recurring and hit-driven revenues; the margin and capital requirements of those sources differ substantially. [S2]
+
+Results versus forecast. Management guidance is attributed to management and remains a forecast. A report above expectations is evidence about one reporting period, not proof of an enduring earnings inflection. Look separately at pricing, units, mix, currency, acquisitions and costs; the same revenue increase can have very different implications depending on its source. Likewise, a decline can reflect a temporary comparison base, a deliberate investment or a genuinely weaker business.
+
+For the next decision, translate each proposed improvement into an observable milestone: organic demand, margin after necessary spending, cash conversion, financing access or a specific legal step. The source set does not establish future delivery simply because a management plan has been announced. Analyst forecasts are not supplied as though they were consensus. Where the most recent independently recovered financial release is stale, the limitation is stated above; no subsequent quarter is silently substituted. The material question is what this dated evidence changes about sustainable earnings and downside, including evidence that contradicts an attractive narrative. An existing-position review must compare with its original premise, not only with the previous share price.
+
+Analyst cross-check: The next useful update should distinguish a change in demand from a change in reported accounting and a change in expectations. Ask what information would invalidate each interpretation. A quarter that beats an unusually weak comparator is not necessarily evidence of a durable improvement in normalized economics.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/18q4_sony.pdf (published 2019-04-26).
+- [S2] https://www.sony.com/en/SonyInfo/IR/library/presen/irday/pdf/2019/presen_E.pdf (published 2019-05-21).
+- [S3] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S4] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S5] https://13f.info/13f/000108514619001661-third-point-llc-q1-2019 (published 2019-05-15).

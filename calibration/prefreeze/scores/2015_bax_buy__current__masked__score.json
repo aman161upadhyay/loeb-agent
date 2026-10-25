@@ -1,0 +1,47 @@
+{
+ "trade_id": "2015_bax_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The post-spin parent is a focused under-earner with a substantial operational opportunity → The Company is a recently independent... currently suffering from market skepticism following its July 1, 2015 spin-off [D01, D07].",
+   "Influence CEO succession and board representation to bring an owner's operating discipline → We intend to engage with the Board of Directors and the incoming CEO to pivot toward a rigorous, peer-aligned operating framework [D02, D03, D07].",
+   "Better margins and capital allocation can unlock value without relying on an unannounced new breakup → By professionalizing the standalone cost structure and achieving margin parity, we believe the business can reach an implied 2017 EPS of $1.80 [D01, D06]."
+  ],
+  "missed": [
+   "A proven operator can reinvigorate the standalone business; Almeida framing is a later Q3 update, not August appointment evidence."
+  ],
+  "extra_agent_drivers": [
+   "Specific peer margin comparisons (16.2% vs 19.0%/18.4%)"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "2014 consolidated margins of 16.2% significantly trail benchmarks such as Becton Dickinson at 19.0% and Pfizer at 18.4% [D06].",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Company is a recently independent medical-products and renal-care business [D01, D07].",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to engage with the Board of Directors and the incoming CEO to pivot toward a rigorous, peer-aligned operating framework that focuses on margin expansion and optimized capital allocation [D02, D03, D07].",
+ "grader_notes": "The agent correctly identified the core strategy of engaging the board and new CEO to improve margins and capital allocation. It scored lower on conviction and sizing (5% vs nearly 10%) and failed to capture the specific focus on bringing in a proven operator, relying instead on specific margin gap calculations which were not explicitly stated as the primary mechanism by Loeb in the August 5th context.",
+ "run": "2015_bax_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

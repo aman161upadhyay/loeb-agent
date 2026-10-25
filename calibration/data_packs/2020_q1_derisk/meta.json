@@ -1,0 +1,23 @@
+{
+  "id": "2020_q1_derisk",
+  "company": "Third Point portfolio pandemic liquidity risk",
+  "ticker": "PORTFOLIO",
+  "aliases": [
+    "COVID-19",
+    "Offshore",
+    "pandemic portfolio",
+    "PORTFOLIO",
+    "Third Point",
+    "Third Point portfolio pandemic liquidity risk",
+    "Ultra"
+  ],
+  "as_of_date": "2020-03-16",
+  "mode": "hedge",
+  "era": "C",
+  "first_action_window": "April letter's 85% top-20 concentration and shutdown-loss attribution are hindsight and stay in key only.",
+  "fund_aum_usd_bn": 14,
+  "fund_aum_observation_period": "2020-02",
+  "fund_aum_source_date": "2020-02-24",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. April letter's 85% top-20 concentration and shutdown-loss attribution are hindsight and stay in key only. AUM 14bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24). AUM observation period 2020-02; last verified, not asserted current."
+}

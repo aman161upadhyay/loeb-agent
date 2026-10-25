@@ -1,0 +1,44 @@
+{
+ "trade_id": "2023_ai_basket_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "AI represented a transformational platform shift across software and semiconductors.",
+   "Hyperscale cloud providers were picks and shovels benefiting regardless of individual application winners.",
+   "AI features could raise software ARPU and employee productivity.",
+   "Compute intensity and model complexity could create a step change in GPU, memory and manufacturing demand."
+  ],
+  "extra_agent_drivers": [
+   "Lack of specific event or catalyst",
+   "Thin/dispersed valuation",
+   "Unavailable consolidated financial data",
+   "Unproven long-term monetization risk"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "P/E multiples ranging from 13.5x to 251x",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We will continue to monitor the space for specific mispricings or governance opportunities where our intervention can drive value, but at this stage, we elect to pass [D07].",
+ "grader_notes": "The agent opted to PASS, directly contradicting the buy-side theme identified by Third Point's retrospective letters. The agent's reasoning focused on valuation dispersion and lack of catalyst, which was not the driver provided by Loeb; the agent missed the transformative potential cited by Loeb entirely.",
+ "run": "2023_ai_basket_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": false
+}

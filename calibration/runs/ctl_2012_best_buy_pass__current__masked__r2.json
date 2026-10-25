@@ -1,0 +1,265 @@
+{
+ "pack": "ctl_2012_best_buy_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2012-02-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a global multichannel consumer-electronics retailer operating stores, online channels, mobile products, and technology services [D01]. The core business strategy involves leveraging an existing footprint to capture growth in connected devices and tablets while attempting an online operating reset [D01, D03].",
+   "segments_and_separable_assets": [
+    "Retail store network: $50.27bn revenue (FY2011) [D02, D06]",
+    "Online distribution channel: 26% domestic online sales growth (January 2012 update) [D03]",
+    "Mobile, Tablet and eReader services: Reported as key growth areas with low triple-digit growth for tablets and eReaders [D03]"
+   ],
+   "economics_vs_peers": [
+    "Operating margin: 4.2% (FY2011) vs Walmart 6.1% (FY2011) and Amazon 1.8% (FY2011) [D06]",
+    "Revenue growth: 1.2% (FY2011) vs Walmart 3.4% and Amazon 40.6% [D06]",
+    "Margin gap: 190bp gap to Walmart [D06]"
+   ],
+   "capital_structure": [
+    "Gross debt: $2.541bn (as of November 26, 2011) [D04]",
+    "Cash: $2.392bn (as of November 26, 2011) [D04]",
+    "Net debt: $0.149bn [D04]"
+   ],
+   "price_and_valuation": [
+    "Share price: $24.18 [D04]",
+    "Market cap: ~$8.47bn [D04]",
+    "Enterprise value: ~$8.62bn [D04]",
+    "Trailing P/E: ~8.6x [D04]",
+    "Guidance-based forward P/E: 6.6–7.2x [D04]",
+    "FY2011 FCF yield: 5.3% [D04]"
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 350.317m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Online operating reset [D01, D03]",
+    "Connected-product growth [D01, D03]",
+    "Potential store/network changes [D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Structural pressure on store network; December domestic entertainment comps down 19.5% and consumer electronics down 3% [D05]",
+    "Online price competition and weak legacy categories potentially making restructuring a permanent cash expense [D03, D05]",
+    "Gap between adjusted earnings and GAAP losses [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "December 13, 2011: Q3 results, $178m operating income [D03]",
+    "January 6, 2012: Holiday sales release and reaffirmed annual adjusted EPS guidance of $3.35–$3.65 [D03, D04]"
+   ],
+   "third_point_context": [
+    "Third Point mandate includes event-driven investments across capital structures [D08]. Specific AUM, exposure, and existing stake not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "None identified in pack"
+   ],
+   "missing_data": [
+    "Management/board composition and governance details (e.g., staggered board, pill, ownership stakes). Precise current firm AUM, gross/net exposure for Third Point."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company faces a significant margin gap versus peers and structural challenges in its store network that require an operating reset [D01, D03, D06]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "There is no clear plan or differentiated process provided; attempting a multi-year turnaround as the only lever without a separable asset or capital-return catalyst constitutes a trade rather than a core activist event [D01, D03]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "The fact sheet contains no information on management or board composition, making it impossible to assess the governance route [Missing data]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The core business is experiencing secular decline in legacy categories, such as the 19.5% decline in entertainment comps, which violates the 'melting ice cube' discipline test [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$8.47bn and 350.317m shares outstanding, the stock provides sufficient liquidity for a position [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Management credibility is impossible to assess as governance details are not in pack [Missing data]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 3,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The business is a retailer in secular decline facing an unproven operating reset with no clear path to value creation or governance leverage for Third Point.",
+   "one_line_verdict": "a retail business with a melting ice cube core and no evidence of a governance route or catalyst to unlock value"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2"
+   ],
+   "variant_view": "The market believes the company is a dying retailer in secular decline, leading to an overly pessimistic valuation of 6.6-7.2x forward P/E. We believe the market fails to properly value the underlying omnichannel platform and the potential for a significant margin expansion if the operating reset successfully addresses the 190bp margin gap versus Walmart. The valuation is suppressed by negative sentiment around legacy categories, ignoring the growth trajectory in the mobile and tablet segments.",
+   "evidence": [
+    "Operating margin of 4.2% vs 6.1% at Walmart, representing a 190bp gap [D06].",
+    "26% growth in domestic online sales [D03].",
+    "Triple-digit growth in tablet and eReader segments [D03].",
+    "Company trading at 6.6–7.2x forward P/E [D04]."
+   ],
+   "peer_benchmark": "Walmart operating margin of 6.1% [D06]",
+   "what_must_be_true": [
+    "The online operating reset must show stabilization in earnings power.",
+    "Management must demonstrate a clear path to closing the margin gap through cost discipline.",
+    "The secular decline in legacy entertainment categories must be offset by growth in connected devices.",
+    "The board must remain open to strategic alternatives if the operational turnaround fails to close the valuation discount."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$38.00",
+    "arithmetic": [
+     "Projected EPS: $3.50 (midpoint of $3.35-$3.65 guidance) [D04]",
+     "Target margin: 5.5% (closing 190bp gap to Walmart 6.1% to 5.5% target) [D06]",
+     "Target P/E: 11x (re-rating from 7x toward peer-appropriate multiple given stabilization) [D04]",
+     "$3.50 EPS * 11x multiple = $38.50"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$21.00",
+    "basis": "Net cash position of $2.392bn ($6.82/share) [D04] plus conservative DCF of core retail assets assuming zero growth [D04]"
+   },
+   "current_price": "$24.18 [D04]",
+   "skew": "57% upside : 13% downside",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Management/board composition and governance details missing; assumed ability to influence strategic alternatives [D08].",
+    "Target 11x multiple assumes market perception of retail platform stabilizes.",
+    "Peer benchmark of Walmart (6.1%) used for margin potential despite business model differences."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Execute cost discipline to close the 190bp operating margin gap to Walmart's 6.1% [D06]",
+    "Provide a detailed strategic plan for the retail store network to address structural declines in entertainment comps [D05, D07]",
+    "Commit to shareholder-friendly capital allocation to monetize the net cash position [D04]"
+   ],
+   "actors": [
+    "Management — operating team — stance not in pack [Missing data]",
+    "Board — overseers — stance not in pack [Missing data]"
+   ],
+   "governance_route": "Not in pack; requires immediate due diligence on nomination windows and defensive measures [Missing data]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management ignores private requests or performance continues to deteriorate, transition to P2 (public letter) within 2 quarters to demand board refreshment",
+   "why_this_role_fits_the_era": "Consistent with the 2009-2015 era of large-cap constructivism, where we utilize private engagement to demand a written plan and operational improvements before moving to public pressure"
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Margin plan misses consensus estimates for two consecutive quarters",
+    "December entertainment comp decline of 19.5% accelerates into a broader structural failure of the store network",
+    "Management rejects initial private engagement for operational review",
+    "Liquidity or market sentiment shifts to further compress the P/E multiple below 6x"
+   ],
+   "portfolio_risk": "Factor overlap with retail/consumer-electronics and broader US consumer duration [D01, D05]. Liquidity is high with 350m shares outstanding [D04], allowing for efficient entry and exit. Position size requires monitoring against gross exposure limits in a volatile retail sector [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 6
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts on XRT or broader retail ETFs to offset secular decline risk in the core business [D05].",
+   "biggest_risk_in_one_sentence": "The lack of visibility into management's willingness to execute a turnaround and the potential for the legacy store network to become a permanent cash drain constitute the primary risks to the thesis."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-02-01",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$38.00",
+   "floor": "$21.00",
+   "skew": "57% upside : 13% downside",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Execute cost discipline to close the 190bp operating margin gap to Walmart's 6.1%",
+    "Provide a detailed strategic plan for the retail store network to address structural declines in entertainment comps",
+    "Commit to shareholder-friendly capital allocation to monetize the net cash position"
+   ],
+   "actors": [
+    "Management — operating team — stance not in pack",
+    "Board — overseers — stance not in pack"
+   ],
+   "governance_route": "Not in pack; requires immediate due diligence on nomination windows and defensive measures",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at an overly pessimistic 6.6–7.2x forward P/E despite a significant 190bp operating margin gap vs Walmart that provides a clear bridge to earnings power [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The market misprices the company as a dying retailer, ignoring 26% growth in online sales and triple-digit growth in tablet and eReader segments [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "We see a path to a $38 share price by applying an 11x multiple to stabilized EPS of $3.50, supported by a $6.82/share cash floor [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The lack of visibility into management or board composition prevents us from mapping a concrete governance route, forcing a pass despite the valuation [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Margin plan misses consensus estimates for two consecutive quarters",
+   "December entertainment comp decline of 19.5% accelerates into a broader structural failure of the store network",
+   "Management rejects initial private engagement for operational review",
+   "Liquidity or market sentiment shifts to further compress the P/E multiple below 6x"
+  ],
+  "what_would_change_our_mind": "Evidence of a constructive, actionable governance path or a clear commitment from the board to initiate a strategic review and capital return program.",
+  "memo": "The Company operates a global multichannel retail platform that the market currently misprices as a terminal asset, trading at a depressed 6.6-7.2x forward P/E multiple [D04, D06]. While the legacy store network faces pressure—evidenced by a 19.5% decline in December entertainment comps—this pessimistic sentiment ignores 26% growth in online distribution and significant traction in tablets and eReaders [D03, D05].\n\nThe math for a re-rating is straightforward: closing the 190bp operating margin gap against Walmart’s 6.1% level provides a clear path to $3.50 in EPS [D04, D06]. By applying a more normalized 11x multiple to this post-event earnings power, we arrive at a target value of $38.50 per share, representing meaningful upside from current levels [D04].\n\nHowever, our discipline requires more than just an attractive valuation; we demand a clear catalyst and a path to influence the board. The current data provides no clarity on the composition of management or the board, and we lack the necessary information to assess the governance route to force the needed operational turnaround [D08].\n\nWithout a proven plan or identified actors willing to engage, we cannot commit capital to what effectively amounts to an unproven multi-year turnaround. Consequently, we are passing on the opportunity at this time, preferring to wait for an identifiable governance opening that would allow us to drive the required capital allocation and margin improvements.",
+  "uncited_claims": [
+   "Management/board composition and governance details missing; assumed ability to influence strategic alternatives [D08].",
+   "Target 11x multiple assumes market perception of retail platform stabilizes.",
+   "Peer benchmark of Walmart (6.1%) used for margin potential despite business model differences."
+  ]
+ }
+}

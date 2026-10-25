@@ -1,0 +1,55 @@
+{
+ "trade_id": "2012_greece_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The market overstates the probability of default and redenomination relative to the official-sector incentive to keep Greece in the euro. → The market is pricing these instruments as if a total default and Eurozone exit are near-certainties, resulting in an unjustifiable 20% cash yield."
+  ],
+  "missed": [
+   "New bonds' legal terms and creditor protections improve the recovery asymmetry.",
+   "Incremental official funding can produce low-20s pricing, with larger upside as the strip moves to yield valuation.",
+   "On-the-ground assessment and policy resolve support willingness to implement the program; this is Q3 hindsight relative to this pack."
+  ],
+  "extra_agent_drivers": [
+   "As existential risk premium compresses toward periphery peers like Spain and Italy (6.1-6.7% yields), the bonds should re-price from 10 cents to 20-25 cents.",
+   "The June 17, 2012 election acts as the primary catalyst to validate bailout adherence and prevent an immediate drachma redenomination.",
+   "The official-sector's role as liquidity provider and the use of English law for the new bond instruments provide a structural framework for recovery."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market is pricing these instruments as if a total default and Eurozone exit are near-certainties, resulting in an unjustifiable 20% cash yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "a stabilization of the political environment should trigger a meaningful compression of the risk spread",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The June 17, 2012 election will serve as the immediate catalyst to determine if a pro-bailout coalition can be formed",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We are initiating a position in post-PSI Hellenic Republic sovereign bonds, which currently trade at approximately 10 cents on the euro [D04].",
+ "grader_notes": "The agent reached a MISS because it enforced a hard-fail to a PASS decision despite its own analysis favoring a BUY. Reasoning was closest to Loeb's regarding the market overstating default probabilities but was farthest in its reliance on specific near-term election outcomes as the primary investment thesis, whereas Loeb focused on the fundamental asymmetry and official sector incentives.",
+ "run": "2012_greece_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true,
+ "enforced_hard_fail": true
+}

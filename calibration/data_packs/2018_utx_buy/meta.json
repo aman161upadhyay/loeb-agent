@@ -1,0 +1,29 @@
+{
+  "id": "2018_utx_buy",
+  "company": "United Technologies Corporation",
+  "ticker": "UTX",
+  "aliases": [
+    "Carrier",
+    "Climate, Controls & Security",
+    "Otis",
+    "P&W",
+    "Pratt & Whitney",
+    "Pratt and Whitney",
+    "Rockwell Collins",
+    "United Technologies",
+    "United Technologies Corporation",
+    "UTAS",
+    "UTC",
+    "UTC Aerospace Systems",
+    "UTX"
+  ],
+  "as_of_date": "2018-05-04",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "ID retained as requested, but the first position was initiated Q4 2017, not May 2018. This is a disclosure-window underwriting replay.",
+  "fund_aum_usd_bn": 16,
+  "fund_aum_observation_period": "2017-05",
+  "fund_aum_source_date": "2017-06-02",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. ID retained as requested, but the first position was initiated Q4 2017, not May 2018. This is a disclosure-window underwriting replay. AUM 16bn is firm/manager capital, not Offshore NAV, per https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (2017-06-02). AUM observation period 2017-05; last verified, not asserted current."
+}

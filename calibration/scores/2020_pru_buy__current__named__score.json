@@ -1,0 +1,53 @@
+{
+ "trade_id": "2020_pru_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Asia and Jackson shared no discernible benefit from the same corporate umbrella → The market currently misprices the company by aggregating a capital-intensive US annuity business, Jackson National, with a high-growth Asian insurance franchise, resulting in a valuation that fails to reflect the intrinsic worth of the underlying segments",
+   "Independent Asian capital allocation could fund a high-ROE franchise with structural growth → A separation will resolve this misalignment, allowing investors to value the Asian business as a pure-play growth insurer, similar to its high-growth peers",
+   "Removing unnecessary group costs and complexity could unlock higher valuation → Prudential plc is a premier insurance group saddled with a structural conglomerate discount that obscures the true value of its high-growth Asian operations"
+  ],
+  "missed": [
+   "Jackson could invest and manage its own capital needs without obscuring Asian value."
+  ],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts valuation implies an equity value of £46.3bn compared to a market cap of £33.8bn",
+   "Management has established a clear precedent for corporate simplification through the successful M&G demerger"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Prudential plc is a premier insurance group saddled with a structural conglomerate discount that obscures the true value of its high-growth Asian operations",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our sum-of-the-parts analysis, based on a 15x P/E multiple for the Asia segment and a 0.7x P/B benchmark for Jackson, yields an implied equity value of £46.3bn",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Jackson’s RBC ratio exceeding 400%",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 7,
+  "share": 0.5
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Prudential plc is a premier insurance group saddled with a structural conglomerate discount that obscures the true value of its high-growth Asian operations [D01].",
+ "grader_notes": "The agent correctly identified the investment direction and captured three of the four core drivers provided by Loeb regarding the conglomerate structure and valuation potential. The agent's reasoning was slightly broader than the answer key, incorporating specific sum-of-the-parts modeling and the M&G demerger precedent, which were not explicitly listed in the key's four specific driver points.",
+ "run": "2020_pru_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,17 @@
+Title: Strong countercase and thesis risks — Intel Corporation
+Source: https://www.sec.gov/Archives/edgar/data/50863/000005086322000006/q421_earningsrelease.htm (2022-01-26); https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (2020-12-29); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (2021-10-05); https://13f.info/13f/000108514621003377-third-point-llc-q3-2021 (2021-11-15)
+Date: 2022-01-31
+
+The bear case is a long, capital-intensive turnaround with competitive product and manufacturing risks. Additional investment can consume cash before a better roadmap becomes commercially visible. There is also a credible bull countercase: an experienced technical CEO, a strong quarterly report and persistent cash generation may justify patience through near-term dilution of earnings. A board's higher dividend is not proof either view is correct. The original thesis must be tested against specific technical and talent milestones rather than an arbitrary holding-period deadline. No evidence of subsequent execution failure is admitted. [S1–S2; analyst countercase]
+
+Adversarial underwriting. The countercase above should be allowed to defeat the attractive narrative. Distinguish a temporary cloud from permanent impairment, and distinguish a bad business from a good business burdened by claims or a poor structure. Neither distinction is settled by a share-price decline. A credible risk memo names observable developments that would invalidate earnings, liquidity or governance assumptions rather than treat every setback as a chance to increase exposure.
+
+Useful tests include persistent demand or margin erosion after comparable accounting, inability to finance required investment, a remedy whose cost consumes its value, or a decision-maker with neither incentive nor obligation to act. These are analyst tests, not unreported management statements or documented shareholder instructions. Consider the opposite error as well: excessive caution can crystallize losses or miss a profitable recovery. A hedge can add basis, financing and squeeze risk. The recovered sources do not supply probabilities for each scenario, so no precision is implied. The downside floor must be independently demonstrated in cash flows, assets, contractual rights or capital structure; it must not be assumed merely because the upside plan sounds plausible.
+
+Analyst cross-check: Rank the objections by their transmission to the security: reduced operating cash generation, a larger financing claim, lost governance authority, or delayed realization. A thesis can survive a weak quarter but fail because funding expires first. Identify which risks can be monitored and which remain discontinuous.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/50863/000005086322000006/q421_earningsrelease.htm (published 2022-01-26).
+- [S2] https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (published 2020-12-29).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (published 2021-10-05).
+- [S4] https://13f.info/13f/000108514621003377-third-point-llc-q3-2021 (published 2021-11-15).

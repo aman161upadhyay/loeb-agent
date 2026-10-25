@@ -1,0 +1,47 @@
+{
+ "trade_id": "2014_sony_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Realize the investment gain rather than rely on a structural proposal management will not implement. → We do not wait to be proved right in the long run when the fundamental drivers of our exit strategy are spent [D04, D07]."
+  ],
+  "missed": [
+   "Some operational and cost changes delivered progress despite rejection of the partial spinout.",
+   "Electronics execution disappointed and successive profit warnings reduced confidence in the remaining turnaround."
+  ],
+  "extra_agent_drivers": [
+   "The company has suspended its dividend, signaling restricted capital return prospects in the near term [D03, D04].",
+   "Operational recovery in the electronics division remains inconsistent, creating ongoing risks to the asset base [D04, D05]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "With the board having officially rejected the proposed entertainment listing, this primary event-driven thesis is now broken",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The ¥180bn impairment of the mobile-communications business highlights a significant failure in the electronics division’s ability to generate reliable cash flows",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 1,
+  "share": 0.1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We do not wait to be proved right in the long run when the fundamental drivers of our exit strategy are spent [D04, D07].",
+ "grader_notes": "The agent correctly identified the decision to exit due to management's rejection of the spin-out proposal. However, the agent relied heavily on external financial data (dividend suspension, specific impairment figures) not mentioned in Loeb's stated drivers, while missing Loeb's specific acknowledgement that some operational changes were consistent with his goals.",
+ "run": "2014_sony_sell__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

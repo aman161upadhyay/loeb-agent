@@ -1,0 +1,55 @@
+{
+ "pack": "2023_dis_sell2",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2023-02-08",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-02-08",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Cost action: strengthened with new $5.5bn savings target [D03]",
+   "Board expertise: strengthened via September support agreement and appointment of Carolyn Everson [D03]",
+   "Streaming: remains in high-cash-burn phase with operating losses of $1.1bn in Q1 [D03]",
+   "Governance: active standstill in place until mid-2023/beyond [D03]"
+  ],
+  "remaining_skew": "Upside remains in potential margin expansion from $5.5bn cost program vs downside risk of continued streaming losses and network erosion [D03, D05]",
+  "next_catalyst_and_timing": "Execution of the $5.5bn cost reduction program and streaming profitability milestones over the next 1-3 quarters [D03]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The company has initiated a meaningful $5.5bn cost reduction program which provides a clear operating catalyst to improve earnings [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Governance improvements initiated by our initial engagement remain in progress following the appointment of a new director [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Despite secular headwinds in linear networks, parks performance and intellectual property depth provide a floor for valuation [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Current standstill obligations limit immediate public escalation, requiring us to allow the current management plan time to deliver results [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "Our engagement with Disney remains in the implementation phase following the September support agreement [D03, D07]. We successfully pushed for board refreshment with the appointment of Carolyn Everson, and management has now responded to the need for fiscal discipline by announcing a $5.5 billion cost-savings target [D03]. This is the necessary operating evolution we expected when establishing our position [D01, D07].\n\nThe business remains a complex mix of assets, and we are not yet at the point where the streaming segment's cash consumption is fully mitigated [D01, D03]. Q1 operating losses in direct-to-consumer were approximately $1.1 billion, highlighting that the work of optimizing the streaming business and protecting the core franchise is ongoing [D03]. We will monitor the delivery of the announced cost savings as a key metric of management’s commitment to our broader thesis.\n\nWhile our initial five-part agenda served to focus board attention, the standstill provisions currently dictate a measured approach [D03, D07]. We believe it is more prudent to hold and observe the execution of the company's plan rather than cycle out prematurely, as selling now would forfeit the potential upside from the margin improvement we have already demanded [D05]. We maintain our conviction that this franchise possesses the durability to reward a patient, constructivist approach, provided the operating results begin to align with our earnings-inflection framework [D01, D06].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,264 @@
+{
+ "pack": "ctl_2020_hertz_equity_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-06-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates rental-car brands supported by a financed vehicle fleet [D01]. It is currently undergoing a restructuring process following a voluntary Chapter 11 bankruptcy filing on May 22, 2020, citing a reduction in travel demand [D03].",
+   "segments_and_separable_assets": [
+    "US rental: Q1 2020 revenue $1,381m, 67% utilization [D06]",
+    "International rental: Q1 2020 revenue $368m, 66% utilization [D06]",
+    "Fleet-leasing segment: Q1 2020 revenue $174m, +13% growth [D06]"
+   ],
+   "economics_vs_peers": [
+    "US rental utilization was 67% vs 79% (Q1 2020 vs Q1 2019) [D03]",
+    "International rental utilization was 66% vs 74% (Q1 2020 vs Q1 2019) [D06]",
+    "AMERCO FY2020 operating margin 13.6% [D06]"
+   ],
+   "capital_structure": [
+    "Total debt: $17,089m (as of FY2019) [D02]",
+    "Unrestricted cash: $1,017m (as of March 31, 2020) [D03]",
+    "Structure includes vehicle ABS with collateral and structural protections, corporate debt, leases and administrative claims [D02]"
+   ],
+   "price_and_valuation": [
+    "Price: $5.53/share (June 8, 2020) [D04]",
+    "Market cap: ~$787m [D04]",
+    "P/B: ~0.57x [D04]",
+    "Trailing GAAP P/E: NM [D04]"
+   ],
+   "management_board_governance": [
+    "not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Trading volume: ~533.9m shares (June 8, 2020) [D04]",
+    "Shares outstanding: 142.285m (as of April 29, 2020) [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Voluntary Chapter 11 filing on May 22, 2020 [D03]",
+    "Potential catalysts: Reopening-driven recovery in travel demand, used-vehicle realizations, and the creditor waterfall process [D01], [D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Absolute priority: enterprise improvements may accrue entirely to creditors [D05]",
+    "Administrative expenses, fleet liquidation losses, and financing restrictions eroding equity value [D05]",
+    "Fragile exit liquidity [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "May 11, 2020: Q1 2020 financial results released [D03]",
+    "May 22, 2020: Chapter 11 bankruptcy filing [D03]",
+    "June 8, 2020: Speculative equity rally; shares closed at $5.53 (+115.2%) [D04]"
+   ],
+   "third_point_context": [
+    "Q1 2020 13F reports $6.266 billion of securities [D08]",
+    "April 16, 2020 investor letter reports 16% Q1 Offshore loss and March credit deployment [D08]"
+   ],
+   "document_conflicts": [
+    "None reported in pack"
+   ],
+   "missing_data": [
+    "Current liquidity/cash balance post-May 22; complete creditor waterfall; appraised vehicle liquidation values; board composition; full historical price range."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is undergoing a Chapter 11 bankruptcy restructuring [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point's process focuses on evaluating the creditor waterfall and post-reorg recovery potential amidst forced selling, leveraging historical expertise in distressed situations [D01], [D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The Chapter 11 process provides a clear legal framework for restructuring and creditor negotiation [D03]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "Appraised vehicle liquidation values and the full creditor waterfall are missing, making the equity floor currently unknowable [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The company has significant trading volume [D04], and distress-focused positions can be built through claim acquisitions."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In a Chapter 11 process, the focus is on the court-supervised restructuring process rather than management's operational track record [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The event is a Chapter 11 bankruptcy where we leverage our experience in creditor waterfalls to identify mispriced post-reorg equity or debt opportunities during the forced liquidation of the fleet.",
+   "one_line_verdict": "a distressed rental-car business navigating Chapter 11 where the path to value depends on creditor negotiations and fleet realization."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market views this as a terminal equity event driven by the Chapter 11 filing, pricing in a total wipeout due to unsustainable debt levels and fleet liquidation risks [D03], [D05]. We believe the market is mispricing the recovery value by ignoring the potential for fleet-value realization and the specific mechanics of the creditor waterfall, which may preserve equity optionality post-restructuring [D01], [D07]. The catalyst for a re-rating is a transparent court-supervised asset liquidation that proves residual value above the debt burden [D03].",
+   "evidence": [
+    "Voluntary Chapter 11 filing on May 22, 2020 [D03]",
+    "Significant spread between market pessimism and underlying vehicle fleet asset base [D01], [D05]",
+    "Historical distressed expertise allows for superior navigation of complex creditor waterfalls [D07]"
+   ],
+   "peer_benchmark": "AMERCO FY2020 operating margin of 13.6% [D06]",
+   "what_must_be_true": [
+    "Fleet liquidation value exceeds senior debt claims",
+    "Administrative costs do not erode the entire equity buffer during the Chapter 11 process",
+    "Post-reorg capital structure leaves residual value for common equity holders",
+    "Travel demand recovery stabilizes utilization rates above the 67% Q1 trough"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "Assumed $8.00/share",
+    "arithmetic": [
+     "Total debt $17,089m [D02]",
+     "Implied asset liquidation value at 95% of book/fleet value: $17,500m (Assumed)",
+     "Net equity value after $17,089m debt: $411m",
+     "Market cap: $787m [D04] implied price upside vs $5.53 current [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$2.50/share",
+    "basis": "Residual value of fleet assets post-debt satisfaction and administrative costs [D01], [D05]"
+   },
+   "current_price": "$5.53 [D04]",
+   "skew": "45% : 55%",
+   "irr_pct": {
+    "base": 22,
+    "bear": -50,
+    "bull": 45
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Asset liquidation value of $17.5B is an estimate based on assumed vehicle recovery rates",
+    "Assumed residual equity exists after senior creditor claims and administrative bankruptcy costs"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P5",
+   "asks": [
+    "Proactive engagement with the Official Committee of Unsecured Creditors to advocate for a reorganization plan that preserves equity value [D01]",
+    "Transparency regarding the fleet liquidation realization values compared to senior debt obligations [D05]",
+    "Alignment on a court-supervised plan that avoids excessive administrative dilution of common equity [D03]"
+   ],
+   "actors": [
+    "Chapter 11 Bankruptcy Court — Arbiter — Neutral [D03]",
+    "Official Committee of Unsecured Creditors — Creditor Representative — Potentially Aligned [D03]",
+    "Management — Debtor in Possession — Controlling Process [D03]"
+   ],
+   "governance_route": "Chapter 11 bankruptcy process; absolute priority rule governs the hierarchy of claims [D03], [D05]",
+   "timetable_quarters": 4,
+   "escalation_path": "If the plan provides for a total equity wipeout, we will evaluate shifting focus to senior debt or junior notes to participate in potential debt-for-equity swaps during the exit phase.",
+   "why_this_role_fits_the_era": "Fits the historical Third Point mandate of navigating distressed, post-reorganization situations where value is captured through superior analysis of the creditor waterfall and legal restructuring process [D01], [D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Fleet liquidation value proves insufficient to cover senior ABS and corporate debt claims",
+    "Bankruptcy court confirms a reorganization plan that triggers the absolute priority rule, fully diluting or canceling existing common equity",
+    "Administrative expenses and emergence costs exceed current cash liquidity, requiring further dilutive capital raises",
+    "Travel demand fails to recover, forcing deeper fire-sale discounts on vehicle disposals"
+   ],
+   "portfolio_risk": "Factor overlap includes exposure to travel-related cyclicality and distressed credit cycles [D01], [D03]. Given our Q1 2020 losses and recent credit deployment, this position requires careful sizing to ensure it remains liquid enough to exit during high-volatility court proceedings [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 2,
+    "max": 3
+   },
+   "pct_of_company": "Small, opportunistic stake relative to the $17B debt load",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on travel/leisure sector to offset beta risk; potential move into senior debt if equity thesis is subordinated",
+   "biggest_risk_in_one_sentence": "The absolute priority rule in Chapter 11 may render common equity worthless if asset realizations fail to clear the full debt stack."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-06-08",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "low",
+  "target_size_pct_nav": 2,
+  "instrument": "common",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P5",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$8.00/share",
+   "floor": "$2.50/share",
+   "skew": "45% : 55%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Proactive engagement with the Official Committee of Unsecured Creditors to advocate for a reorganization plan that preserves equity value [D01]",
+    "Transparency regarding the fleet liquidation realization values compared to senior debt obligations [D05]",
+    "Alignment on a court-supervised plan that avoids excessive administrative dilution of common equity [D03]"
+   ],
+   "actors": [
+    "Chapter 11 Bankruptcy Court",
+    "Official Committee of Unsecured Creditors",
+    "Management"
+   ],
+   "governance_route": "Chapter 11 bankruptcy process; absolute priority rule governs the hierarchy of claims [D03], [D05]",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The market is pricing the equity for a total wipeout, ignoring the potential residual value of the massive vehicle fleet asset base [D01], [D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Our analysis of the creditor waterfall suggests that if fleet liquidation values hold, there is a path to equity recovery that the current $787 million market cap fails to capture [D04], [D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The Chapter 11 process creates a structured catalyst for asset realization and potential re-rating as the company navigates the current travel demand trough [D03], [D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "We see an asymmetric risk/reward skew of approximately 2:1, with an implied upside to $8.00/share against a floor established by residual asset values [D01], [D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Fleet liquidation value proves insufficient to cover senior ABS and corporate debt claims",
+   "Bankruptcy court confirms a reorganization plan that triggers the absolute priority rule, fully diluting or canceling existing common equity",
+   "Administrative expenses and emergence costs exceed current cash liquidity, requiring further dilutive capital raises",
+   "Travel demand fails to recover, forcing deeper fire-sale discounts on vehicle disposals"
+  ],
+  "what_would_change_our_mind": "A confirmation of a restructuring plan that confirms total impairment of equity via the absolute priority rule or discovery that administrative burn rates have consumed the entire asset buffer.",
+  "memo": "The Company is currently trading as a terminal equity event, with the market pricing in a total wipeout following its May 22, 2020, Chapter 11 filing [D03], [D04]. We believe this valuation fails to account for the intrinsic value of the underlying vehicle fleet, which represents a massive, albeit mispriced, asset base [D01], [D05].\n\nOur sum-of-the-parts analysis, based on a $17.5 billion estimated fleet liquidation value against $17.1 billion in total debt, suggests residual equity value potential of roughly $411 million, or $8.00 per share [D02], [D03]. This stands in stark contrast to the current $787 million market capitalization, which we view as disconnected from the potential recovery of travel demand and asset realization [D04], [D06].\n\nThe market’s myopia is driven by fear of absolute priority and the perceived permanence of the travel depression [D03], [D05]. We see a clear catalyst in the court-supervised restructuring process, where transparent asset liquidation can prove value exists above the senior debt stack [D03], [D07].\n\nWe intend to engage proactively with the Official Committee of Unsecured Creditors to advocate for a reorganization plan that avoids excessive administrative dilution [D01], [D03]. We will utilize the Chapter 11 framework to monitor the creditor waterfall and ensure that any value captured from the fleet is not entirely diverted from equity holders [D03], [D05].\n\nThe primary risk is the absolute priority rule, which could render our common equity stake worthless if liquidation values fail to clear the debt stack [D05]. To protect the portfolio, we are sizing this at 2% of NAV and utilizing index puts to hedge our travel-sector beta, remaining ready to pivot to the senior debt if the equity thesis is subordinated [D08], [D05].",
+  "uncited_claims": []
+ }
+}

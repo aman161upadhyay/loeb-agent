@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2024_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Boeing/BA absent from complete 54-quarter issuer/instrument index and no attributable named common-stock comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "Boeing is a duopoly player facing an acute safety and quality shock.",
+   "Commercial segment margin deficit vs peers.",
+   "Commercial backlog provides demand support.",
+   "Lack of active governance route."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Boeing is a critical global aerospace player currently suffering from an acute safety and quality shock, exemplified by the recent Alaska Airlines door-plug incident.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current commercial operating margin of -8.6% is abysmal.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company’s $38.9bn net debt position.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 3,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Consequently, we are passing on the opportunity at this time, choosing to remain on the sidelines until the path to operational stability is more clearly defined and less subject to exogenous regulatory control.",
+ "grader_notes": "The agent correctly reached the PASS conclusion, which matches the answer key's observational label. However, the agent's reasoning was entirely fabricated with internal analysis, whereas the key reflects the lack of public evidence for any Third Point position in the company.",
+ "run": "ctl_2024_ba_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

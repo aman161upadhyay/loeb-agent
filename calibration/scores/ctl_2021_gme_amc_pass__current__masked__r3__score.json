@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2021_gme_amc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Neither GME nor AMC appears in any of the 54 reportable quarterly tables. No named long or short can be proved absent outside 13F. Retrospective February 10 letter commentary says Third Point mostly avoided modest-liquidity, high-short-interest shorts, not that Loeb publicly announced a named long PASS on January 27.",
+   "Retrospective 2021-02-10 crowded-short discipline comment, not a named common-stock long rejection and not available on the desk date."
+  ],
+  "extra_agent_drivers": [
+   "The current price action is driven by a transient, retail-led short squeeze rather than fundamental value.",
+   "The core videogame retail business operates at a negative -6.2% margin compared to 19.8% for best-in-class peers.",
+   "The cinema segment carries a heavy debt load of $4.753bn with no clear cash-flow floor to support the current valuation.",
+   "The cinema segment margins are thin at 2.5% vs peer benchmarks of 10.3%-19.5%."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The core videogame retail business operates at a negative -6.2% margin.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The cinema segment carries a heavy debt load of $4.753bn.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Cinema segment margins are thin at 2.5% vs peer benchmarks of 10.3%-19.5%.",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 3,
+  "share": 0.27
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on the current market volatility surrounding these companies.",
+ "grader_notes": "The agent correctly identifies the PASS decision, but its reasoning is entirely synthetic, relying on fundamental analysis of the companies rather than the observational evidence (absence from 13F filings and retrospective comments) cited in the answer key. The agent provides high-quality fundamental work that does not reflect Third Point's actual documented approach to these specific names.",
+ "run": "ctl_2021_gme_amc_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 2,
+ "reasoning_scorable": false
+}

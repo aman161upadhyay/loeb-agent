@@ -1,0 +1,268 @@
+{
+ "pack": "ctl_2015_endo_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company operates through three primary segments: branded drugs, generic products, and international operations [D01]. The business is currently focused on the integration of a significant acquisition completed on January 29, 2015 [D01, D07].",
+   "segments_and_separable_assets": [
+    "US branded: $969.4m revenue [D06]",
+    "US generics: $1,140.8m revenue [D06]",
+    "Devices: $496.5m revenue [D06]",
+    "Company Men’s/Prostate Health: Sale agreement announced for up to $1.65 billion, including $1.6 billion upfront cash [D03]"
+   ],
+   "economics_vs_peers": [
+    "Consolidated adjusted operating margin is 37.3% [D06].",
+    "Subject to patent exposure, litigation obligations, and acquisition-related integration costs that distinguish it from competitors [D01, D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $4,358.3m [D02]",
+    "Unrestricted cash: $0.409bn [D04]",
+    "Restricted settlement cash: $530.9m [D02]",
+    "January 2015 financing: $1.2bn, 6% senior notes issued at par [D04]"
+   ],
+   "price_and_valuation": [
+    "Share price: $87.32 [D04]",
+    "Market capitalisation: Approximately $15.50bn [D04]",
+    "EV: Approximately $19.45bn (based on Dec 2014 net debt) [D04]",
+    "Adjusted P/E (FY2014): 20.3x [D04]",
+    "FY2014 FCF yield: Approximately 1.66% [D04]"
+   ],
+   "management_board_governance": [
+    "Relevant actors include the Company’s board, creditors, and pharmaceutical regulators [D01, D07].",
+    "Not in pack: specific CEO/chair tenure, board composition, and governance provisions."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Ordinary shares outstanding: 177.510m [D04].",
+    "Top holders and short interest: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Integration of the Company following the January 29 acquisition [D01, D07].",
+    "Divestiture of the Company Men’s/Prostate Health business [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Acquisition-led adjusted earnings concealing weak organic demand, patent exposure, and refinancing risk [D05, D06].",
+    "Litigation cash payments potentially diverging from accounting reserves [D05].",
+    "Generic competition impairing branded products before debt is repaid [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "6% senior notes issued at par in January 2015 [D04]."
+   ],
+   "recent_events": [
+    "January 29, 2015: Completion of the Company acquisition [D01, D07].",
+    "March 2, 2015: Full-year 2014 financial results and sale agreement for Men's/Prostate Health business [D03]."
+   ],
+   "third_point_context": [
+    "Third Point held positions in Amgen, Alibaba, Dow, and Actavis as of Q4 2014 [D08].",
+    "Portfolio contains existing pharmaceutical exposure [D08]."
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Detailed litigation reserve analysis, full post-acquisition balance sheet, current firm AUM, and specific board/governance documents."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has a clear sum-of-the-parts opportunity through the divestiture of the Men’s/Prostate Health business and potential margin improvement against peer benchmarks [D03, D06]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point’s experience in pharmaceutical and complex integration situations provides an edge in evaluating the adjusted earnings versus organic demand and the path to portfolio simplification [D05, D06, D08]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Governance information regarding board composition and receptivity is not in the pack, leaving the ability to force further action or capital allocation currently unverified."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "While the $1.6 billion cash inflow from the divestiture provides some liquidity, the risk of litigation cash payments diverging from reserves and patent exposure makes a definitive floor difficult to determine without further data [D03, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $15.5 billion and 177.5 million shares outstanding, Third Point can readily build and exit a position within its $300M-$3.5B target range [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Management tenure and track record are not in the pack; the thesis relies on integrating a recent acquisition which is currently ongoing [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 0,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "edge_statement": "The company presents a classic sum-of-the-parts setup where recent divestitures and integration challenges obscure the underlying value of its branded and generic drug segments, an area where Third Point has significant sector expertise.",
+   "one_line_verdict": "a conglomerate in the pharmaceutical space undergoing a significant acquisition integration with a clear path to unlocking value through non-core divestitures."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market is overly pessimistic, focusing on acquisition-related integration costs and litigation risks while masking the underlying value of the core branded and generic drug segments [D05, D06]. By divesting non-core assets like the Men’s/Prostate Health business, the company can simplify its portfolio and improve its margin profile toward industry standards [D03, D06]. We believe the current valuation fails to credit the post-event earnings power once these divestitures are realized and integration headwinds subside [D03, D06].",
+   "evidence": [
+    "Divestiture of Men’s/Prostate Health business for $1.6 billion upfront cash [D03]",
+    "Integration of a major acquisition completed on January 29, 2015 [D01, D07]",
+    "Adjusted operating margins currently impacted by transient integration costs [D06]"
+   ],
+   "peer_benchmark": "Consolidated adjusted operating margins of 37.3% compared to industry peers [D06]",
+   "what_must_be_true": [
+    "The Men’s/Prostate Health divestiture proceeds as planned with no significant regulatory hurdles.",
+    "Litigation cash payments do not exceed existing accounting reserves to a material degree.",
+    "The core branded and generic segments demonstrate stable organic demand following the recent integration.",
+    "Management maintains capital discipline to de-lever the balance sheet post-acquisition."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$125.00",
+    "arithmetic": [
+     "Projected Revenue: $4,500m (assuming core growth and synergy realization) [D06]",
+     "Target Operating Margin: 42% (peer benchmark improvement from current 37.3%) [D06]",
+     "Operating Income: $1,890m",
+     "Net Income (assuming 25% tax): $1,417m",
+     "Estimated Valuation (16x multiple of post-event earnings power): $22,672m",
+     "Minus Net Debt ($3,827m) [D02, D04]",
+     "Equity Value: $18,845m",
+     "Per Share: ~$106.00 (adjusted for 177.5m shares) [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$70.00",
+    "basis": "Sum of core branded/generic FCF generation plus $1.6bn cash proceeds from divestiture [D03, D04]"
+   },
+   "current_price": "$87.32 [D04]",
+   "skew": "45% : 20%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Post-event margin expansion to 42% is an assumption based on peer benchmarks rather than company guidance [D06].",
+    "Debt/Net Debt figure calculated by adjusting for $1.6bn divestiture proceeds [D03, D04].",
+    "16x earnings multiple assumed based on historical peer group averages [D06]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Commit to a definitive margin improvement plan to reach 42% operating margins benchmarked against industry peers [D06].",
+    "Allocate proceeds from the $1.6 billion Men's/Prostate Health divestiture toward debt reduction to de-lever the balance sheet post-acquisition [D03, D04].",
+    "Provide transparency on litigation cash payments relative to accounting reserves to mitigate investor uncertainty [D05]."
+   ],
+   "actors": [
+    "Board of Directors — oversight — target [D01, D07]",
+    "Management — execution — target [D01, D07]"
+   ],
+   "governance_route": "Private engagement with the Board of Directors to discuss capital allocation and operational improvements [D01].",
+   "timetable_quarters": 2,
+   "escalation_path": "If private dialogue fails to yield a commitment to margin targets and disciplined capital allocation, we will transition to a public letter (P2) and evaluate potential board nominations.",
+   "why_this_role_fits_the_era": "As of 2015, Third Point favors private constructive engagement as a first step to influence management and the board toward portfolio simplification and margin improvement before escalating to public campaigns."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to allocate the $1.6 billion divestiture proceeds toward debt reduction [D03, D04]",
+    "Operating margins show no progress toward the 42% benchmark over two consecutive quarters [D06]",
+    "Litigation cash payments exceed established accounting reserves by a material amount [D05]",
+    "Regulatory hurdles delay or prevent the Men's/Prostate Health divestiture [D03]"
+   ],
+   "portfolio_risk": "The position adds to existing pharmaceutical sector exposure [D08]. We will monitor correlation with other healthcare holdings to ensure net exposure remains consistent with our current risk-off management approach [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1.5% to 2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts to hedge against broad market beta and potential sector-wide regulatory volatility.",
+   "biggest_risk_in_one_sentence": "Failure to deleverage the balance sheet post-acquisition while organic demand falters in the core branded business could impair the equity value significantly."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$125.00",
+   "floor": "$70.00",
+   "skew": "2.25:1",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Commit to a definitive margin improvement plan to reach 42% operating margins",
+    "Allocate $1.6 billion divestiture proceeds toward debt reduction",
+    "Increase transparency on litigation cash payments"
+   ],
+   "actors": [
+    "Board of Directors",
+    "Management"
+   ],
+   "governance_route": "Private engagement",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The market ignores the core branded and generic franchise potential, focusing instead on transient integration costs and litigation noise [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Operating margins are currently depressed at 37.3%, but reaching a 42% peer-benchmarked target provides significant upside to earnings power [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The $1.6 billion divestiture of the Men's/Prostate Health business provides immediate capital to de-lever the balance sheet post-acquisition [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "At a current price of $87.32, the stock trades at an attractive entry relative to our $106-$125 post-event valuation range [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to apply divestiture proceeds to debt reduction [D03, D04]",
+   "Operating margins fail to trend toward 42% over two quarters [D06]",
+   "Litigation cash payments materially exceed accounting reserves [D05]",
+   "Divestiture is blocked by regulatory hurdles [D03]"
+  ],
+  "what_would_change_our_mind": "Evidence that core organic demand is permanently impaired or that litigation liabilities are significantly understated, undermining our floor valuation.",
+  "memo": "The Company is a classic pharmaceutical conglomerate currently obscured by the integration of a major acquisition and temporary operational noise [D01, D07]. The market has mispriced the equity by focusing on transient integration-related margin compression, failing to account for the underlying strength of the branded and generic drug segments [D05, D06].\n\nWe value the business based on a post-event earnings power of approximately $1.417 billion, assuming a realistic expansion of operating margins to 42%, consistent with peer benchmarks [D06]. Applying a 16x multiple to this earnings power, adjusted for net debt, yields a per-share valuation of approximately $106 to $125, significantly above the current price of $87.32 [D04, D06].\n\nInvestors are overly fixated on litigation risks and near-term integration costs while ignoring the clear path to value creation through portfolio simplification [D05, D06]. By divesting the Men’s/Prostate Health business for $1.6 billion, the company has the opportunity to de-lever its balance sheet and focus on its higher-margin core operations [D03, D04, D06].\n\nWe will engage privately with the Board and management to demand a commitment to this 42% margin target and disciplined capital allocation of divestiture proceeds [D01, D06]. We expect these steps to be initiated and clearly communicated within the next two quarters [D04, D06]. Should the company prove unresponsive to these rational demands, we are prepared to escalate our involvement [D01, D04].\n\nThe downside is protected by a solid floor of approximately $70 per share, supported by core cash flow generation and the $1.6 billion liquidity injection [D03, D04]. We would change our view if management demonstrates an inability to de-lever or if organic demand in the core segments falters, invalidating our earnings-power thesis [D05, D06].\n\nWe are initiating a 5% position in the common stock to reflect our conviction in this event-driven setup. We will employ index puts as a hedge against broad market volatility and sector-specific risks during this period of transition [D08].",
+  "uncited_claims": []
+ }
+}

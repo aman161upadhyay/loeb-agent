@@ -1,0 +1,56 @@
+{
+ "trade_id": "ctl_2016_groupon_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Groupon/GRPN absent from all 54 quarterly issuer/instrument observations; no manager-specific public investment rationale recovered."
+  ],
+  "extra_agent_drivers": [
+   "The opportunity is a nebulous operational turnaround lacking any identifiable catalyst or separable assets to anchor our valuation",
+   "Operating margins of -5.7% demonstrate a significant gap against peer benchmarks such as eBay at 25.6%",
+   "The business model struggles with marketing efficiency, where high spend fails to convert transient traffic into sustainable retention",
+   "There is no clear governance route or activist path to force structural changes or capital allocation discipline"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Operating margin of -5.7% (Q2 2016)",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$780.1m in cash",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$250m in convertible debt",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "eBay maintains a 25.6% operating margin",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have decided to PASS and will allocate our capital to opportunities with a more identifiable margin of safety and a defined path to value realization [D01, D08].",
+ "grader_notes": "The agent correctly identified the PASS decision. However, the agent generated four substantive investment-thesis drivers, whereas the answer key explicitly states that the PASS decision is a control label resulting from the absence of the security in Third Point's public filings, rather than a negative investment opinion.",
+ "run": "ctl_2016_groupon_pass__current__masked__r2",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

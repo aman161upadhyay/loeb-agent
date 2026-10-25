@@ -1,0 +1,57 @@
+{
+  "id": "2024_vst_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Exact original NAV weight not recovered.",
+  "first_action_date": null,
+  "first_action_window": "Requested April2024 initiation corrected in key: letter identifies March2023 Energy Harbor deal as original catalyst. April30 snapshot is a disclosure-window re-underwriting, not first purchase.",
+  "disclosure_date": "2024-04-30",
+  "reason_class": null,
+  "opportunity_template": [
+    "E2",
+    "E4",
+    "E5"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Jim Burke",
+      "Vistra management",
+      "power-market regulators"
+    ],
+    "governance_route": "P0; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Brilliant capital allocation and substantial buybacks exploited assets valued far below new-build cost.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/785ef96e1a/third-point-q1-2024-investor-letter_tpil.pdf (2024-04-30)",
+      "quote": null
+    },
+    {
+      "driver": "The March 2023 Energy Harbor acquisition supplied the original nuclear-fleet catalyst.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/785ef96e1a/third-point-q1-2024-investor-letter_tpil.pdf (2024-04-30)",
+      "quote": null
+    },
+    {
+      "driver": "Intermittent generation increased the need and economic value of existing dispatchable assets.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/785ef96e1a/third-point-q1-2024-investor-letter_tpil.pdf (2024-04-30)",
+      "quote": null
+    },
+    {
+      "driver": "AI/data-center and EV demand could accelerate domestic electricity demand against constrained baseload supply.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/785ef96e1a/third-point-q1-2024-investor-letter_tpil.pdf (2024-04-30)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "April letter explicitly calls the later AI linkage better lucky than smart: acquired for value/allocation before becoming an AI darling.",
+  "sources": [
+    "https://assets.thirdpointlimited.com/f/166217/x/785ef96e1a/third-point-q1-2024-investor-letter_tpil.pdf (2024-04-30)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested April2024 initiation corrected in key: letter identifies March2023 Energy Harbor deal as original catalyst. April30 snapshot is a disclosure-window re-underwriting, not first purchase. AUM 12.7bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (2023-02-06). AUM observation period 2023-01; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

@@ -1,0 +1,56 @@
+{
+ "trade_id": "ctl_2015_endo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Endo/ENDP/Auxilium absent from 54-quarter issuer/instrument index and no attributable Endo investment comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The market misprices the company as a distressed, highly-leveraged roll-up while ignoring the potential value unlock from divesting the Men's/Prostate Health segment [D03].",
+   "Sum-of-the-parts analysis implies an equity value of approximately $15.49bn, suggesting upside to $115/share upon successful integration and deleveraging [D04].",
+   "Management is currently in the middle of a complex post-acquisition integration, with no clear governance path or edge to force value realization if execution falters [D01, D07].",
+   "Opaque litigation liabilities and negative GAAP operating margins create unquantifiable downside risk that prevents us from taking a meaningful position [D05, D06]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a newly combined pharmaceutical platform that the market currently values as a distressed, highly-leveraged roll-up.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "pending divestiture of the Men's/Prostate Health business for up to $1.65 billion",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "massive -31.2% GAAP operating margin in 2014",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have no governance edge or board-level visibility to influence this outcome.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on the opportunity to ensure we remain focused on higher-conviction events where the path to value realization is clearly within our control.",
+ "grader_notes": "The agent correctly identifies the PASS decision, though it invents a fundamental investment thesis to justify a decision that Loeb arrived at simply because the company was not in the portfolio. The reasoning is farthest from Loeb's because the agent engages in a hypothetical valuation and risk analysis that is absent from the answer key, which relies solely on the absence of reported ownership.",
+ "run": "ctl_2015_endo_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

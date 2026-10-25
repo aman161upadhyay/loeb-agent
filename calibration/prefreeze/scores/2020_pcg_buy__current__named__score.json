@@ -1,0 +1,52 @@
+{
+ "trade_id": "2020_pcg_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The recapitalization and post-reorganization equity provided a fresh capital-structure entry → We view this as a classic reorg-equity entry where the market is mispricing a monopoly with a clean balance sheet and newly seated board"
+  ],
+  "missed": [
+   "A good utility business had been impaired by a bad capital structure rather than disappearing demand.",
+   "Bankruptcy settlements and California's wildfire framework created a path toward financial normalization."
+  ],
+  "extra_agent_drivers": [
+   "Normalized earnings power at a 15.5% margin supports a target valuation.",
+   "The market misprices the technical share overhang from the Fire Victim Trust."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "PG&E emerges from Chapter 11 with a reset balance sheet",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The post-reorg capital structure achieves $250 million in annual interest savings",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Fire Victim Trust holds 22.19% of shares",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We view this as a classic reorg-equity entry where the market is mispricing a monopoly with a clean balance sheet and newly seated board [D01, D03, D04].",
+ "grader_notes": "The agent correctly identified the BUY direction and recognized the opportunity created by the post-reorganization capital structure. However, the agent's reasoning focused heavily on specific valuation multiples (15.5% margin) and the Fire Victim Trust share overhang, which were not cited by Loeb as his core investment drivers. The agent failed to capture the 'good business/bad capital structure' thesis and the specific link to California's wildfire framework.",
+ "run": "2020_pcg_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

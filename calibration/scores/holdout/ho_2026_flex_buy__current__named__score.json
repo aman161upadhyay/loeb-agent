@@ -1,0 +1,54 @@
+{
+ "trade_id": "ho_2026_flex_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Revathi Advaithi’s electrical experience and separation record support confidence in execution → Management, led by CEO Revathi Advaithi, has already demonstrated alignment with shareholder interests by gaining unanimous board approval for the separation"
+  ],
+  "missed": [
+   "The announced CPI separation exposes an infrastructure business the market undervalues as contract manufacturing.",
+   "Integrated power, cooling and racks create a differentiated AI deployment offering.",
+   "Branded electrical/cooling mix, Google TPU exposure and the 800V transition support growth and margins."
+  ],
+  "extra_agent_drivers": [
+   "Market failing to credit potential due to short-term hyperscaler concentration and separation costs",
+   "Q1 2027 spin-off as a definitive catalyst for re-rating",
+   "Valuation offers compelling setup with $225 target and $145 floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Flex designs and manufactures complex products",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has moved decisively by securing unanimous board approval for this separation",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Core manufacturing business at an 8x multiple provides a hard valuation floor near $145",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a 5% position in the common stock, effectively utilizing our expertise in compute-capex supply chains to capture the re-rating as the separation narrative gains traction [D08].",
+ "grader_notes": "The agent correctly matches the BUY direction and identifies the key actor, Revathi Advaithi. However, it fails to capture Loeb's specific technical drivers regarding Google TPU exposure, the 800V transition, and the integrated power/cooling infrastructure differentiation, focusing instead on generic SOTP valuation and general separation catalysts.",
+ "run": "ho_2026_flex_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

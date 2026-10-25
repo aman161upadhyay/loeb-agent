@@ -1,0 +1,17 @@
+Title: Business economics and asset map — CoStar Group, Inc.
+Source: https://www.sec.gov/Archives/edgar/data/1057352/000105735225000004/q42024earningspressrelease.htm (2025-02-18); https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (2025-01-02); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (2023-02-06); https://13f.info/13f/000108514625001713-third-point-llc-q4-2024 (2025-02-14)
+Date: 2025-03-31
+
+CoStar sells commercial real-estate information and operates online property marketplaces including Apartments.com and Homes.com. Proprietary data, embedded workflow and recurring subscriptions can create a durable commercial franchise. Apartments.com depends on rental-marketplace traffic, advertiser ROI and sales execution. Homes.com is a residential expansion with substantial current investment and different competitive economics. Andy Florance is founder and CEO. A capital-allocation case must value the mature businesses separately from the cash required to compete in residential, rather than use depressed consolidated earnings as a permanent measure of franchise quality. [S1; analyst mapping]
+
+Economic map and evidence limits. Separate the source's business descriptions from an analyst's inference about durability. Revenue scale alone is not a moat: the important distinctions are repeat demand, switching or distribution advantages, reinvestment requirements, and the ability to convert customer value into cash for owners. A strong asset can be an unattractive security when other claims absorb the cash. Conversely, complexity can obscure an otherwise sound franchise. The facts above identify the businesses and the relevant unit of analysis; they do not establish that a particular corporate structure is optimal.
+
+Underwrite the operating case before assuming an event. Identify who pays, why the customer returns, which costs are fixed, and what spending must recur to protect the franchise. Keep operating assets, financial investments and restricted capital separate. Where the recovered source does not provide unit economics, customer retention or segment capital employed, those figures are not available in contemporaneous sources; do not fill them with a current estimate. A downside analysis should test the business with no immediate transaction or valuation rerating. This is an analyst framework, not a statement that management or any shareholder has adopted it.
+
+Analyst cross-check: Map the customer, contractual counterparty and owner of the relevant intellectual property separately. A distributor's access to end demand is not ownership of that demand; likewise, reported group market share does not prove that each operating unit possesses pricing power or recurring revenue.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/1057352/000105735225000004/q42024earningspressrelease.htm (published 2025-02-18).
+- [S2] https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (published 2025-01-02).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (published 2023-02-06).
+- [S4] https://13f.info/13f/000108514625001713-third-point-llc-q4-2024 (published 2025-02-14).

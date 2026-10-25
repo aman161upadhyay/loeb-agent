@@ -1,0 +1,46 @@
+{
+ "trade_id": "2013_yahoo_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Monetize part of a substantially repriced position after the governance catalyst has been achieved. → With issuer block-liquidity terms available, we are electing to trim our position. This allows us to crystallize value from the successful governance campaign.",
+   "The issuer's 40m-share block transaction supplies $1.1644bn gross liquidity at $29.11. → With issuer block-liquidity terms available, we are electing to trim our position.",
+   "Board participation can end as the ownership threshold falls while a residual investment preserves upside. → This allows us to crystallize value from the successful governance campaign while rightsizing our exposure as the thesis evolves from an event-driven situation into an ongoing operational compounder."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The core advertising business shows declining revenue ex-TAC and adjusted EBITDA, indicating the turnaround is not yet reflected in operating results.",
+   "Continuing to hold the full position shifts our reliance from an event-driven thesis to a long-term operational growth bet, which carries higher execution risk."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The core advertising business shows declining revenue ex-TAC and adjusted EBITDA",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "issuer block-liquidity terms available",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 2,
+  "share": 0.29
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "With issuer block-liquidity terms available, we are electing to trim our position.",
+ "grader_notes": "The agent correctly identified the trim direction and captured the essential drivers regarding governance realization, liquidity, and maintaining residual upside. The reasoning was closest in its focus on the event-driven catalyst completion and farthest in its emphasis on specific operational metrics (core business turnaround) which were not cited as primary reasons by Loeb.",
+ "run": "2013_yahoo_sell__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

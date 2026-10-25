@@ -1,0 +1,63 @@
+{
+ "trade_id": "2017_nestle_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 5,
+  "matched": [
+   "The best-positioned consumer portfolio was under-earning after years of stalled EPS and peer underperformance. → Despite its premier global brand portfolio, the company maintains a 300–400 basis-point margin gap versus peers such as Kraft Heinz and PepsiCo, representing a clear opportunity for margin expansion [D06].",
+   "An explicit 18–20% margin objective by 2020 could impose accountability and close the operating gap. → Our plan focuses on three pillars: structural margin expansion to 18-19%...",
+   "Monetizing the non-core L'Oréal stake and pruning the portfolio could unlock hidden value. → ...the divestiture of the $25 billion non-core investment stake, and the sale of underperforming assets like US confectionery [D01; D06; D07].",
+   "Outside CEO Mark Schneider and operating adviser Jan Bennink created a credible change window. → With the arrival of CEO Mark Schneider, the firm has the necessary catalyst to move from a bloated, low-margin conglomerate to a lean, efficient powerhouse [D01; D07]."
+  ],
+  "missed": [
+   "An underlevered balance sheet could support repurchases and more efficient capital allocation."
+  ],
+  "extra_agent_drivers": [
+   "At CHF 82.65, the stock trades at an attractive valuation floor supported by a 4.53% free cash flow yield [D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the company maintains a 300–400 basis-point margin gap versus peers such as Kraft Heinz and PepsiCo",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "divestiture of the $25 billion non-core investment stake",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "CEO Mark Schneider is a receptive partner capable of executing an aggressive operational turnaround",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the stock trades at an attractive valuation floor supported by a 4.53% free cash flow yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "target value of CHF 105-110 per share",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 6,
+  "share": 0.55
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "With the arrival of CEO Mark Schneider, the firm has the necessary catalyst to move from a bloated, low-margin conglomerate to a lean, efficient powerhouse [D01; D07].",
+ "grader_notes": "The agent correctly identified the key drivers of margin expansion, the L'Oreal stake divestiture, and the importance of the new CEO. It missed the driver regarding balance sheet leverage/repurchases but provided sufficient coverage of the other major points. The reasoning is well-grounded in the provided pack.",
+ "run": "2017_nestle_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

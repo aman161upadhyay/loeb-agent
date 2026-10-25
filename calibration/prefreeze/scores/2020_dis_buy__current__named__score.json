@@ -1,0 +1,48 @@
+{
+ "trade_id": "2020_dis_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Reinvesting roughly $3bn of annual dividends into original content could accelerate streaming scale. → The suspension of the dividend is the correct move, signaling that management is finally prioritizing capital for the DTC pivot over antiquated payout structures"
+  ],
+  "missed": [
+   "Owned intellectual property and direct consumer relationships created a large global distribution opportunity.",
+   "A larger content budget could make the direct-to-consumer business more compelling and valuable."
+  ],
+  "extra_agent_drivers": [
+   "The market misprices Disney as a declining legacy incumbent",
+   "Normalized post-event earnings power supports a valuation of $155-$175",
+   "Compelling risk/reward skew of approximately 1.5:1"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The suspension of the dividend is the correct move, signaling that management is finally prioritizing capital for the DTC pivot",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market treats Disney as a secularly declining incumbent",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The suspension of the dividend is the correct move, signaling that management is finally prioritizing capital for the DTC pivot over antiquated payout structures.",
+ "grader_notes": "The agent correctly identified the direction and the dividend reinvestment driver. However, it failed to incorporate the specific strategic arguments provided by Loeb regarding owned IP and the direct consumer relationship advantage, instead pivoting to its own proprietary valuation and sum-of-the-parts analysis.",
+ "run": "2020_dis_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

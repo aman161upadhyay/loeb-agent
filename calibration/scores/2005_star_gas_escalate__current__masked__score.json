@@ -1,0 +1,52 @@
+{
+ "trade_id": "2005_star_gas_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Operating deterioration requires a credible plan to restore per-gallon profitability. → With retail volume falling 14.9% and losses mounting, the current leadership has provided no credible path to stabilize the franchise.",
+   "Months of unanswered calls leave public communication as the remaining owner route. → We have historically engaged privately, but our patience is not infinite when the business is hemorrhaging customers and margins are under extreme pressure.",
+   "Independent oversight and replacement of conflicted leadership are needed to stop further value destruction. → If the board is unwilling to implement a swift turnaround and leadership change, we will take our case directly to the other unitholders to ensure this asset is managed for value rather than further destruction."
+  ],
+  "missed": [
+   "Apply propane-sale cash to expensive notes unless management demonstrates a superior use."
+  ],
+  "extra_agent_drivers": [
+   "Secured creditors' risk to asset cushion."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Recent results confirm that the centralization of service and dispatch was a disaster, leading to annual attrition of 6.5%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "retail volume falling 14.9%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "10.25% notes and restrictive covenants in place",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 7,
+  "share": 0.7
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are moving to ESCALATE.",
+ "grader_notes": "The agent correctly matched the ESCALATE direction and identified three out of four drivers provided by Loeb. The reasoning regarding the need for leadership change and the failure of private engagement aligns closely with the key; however, the agent missed the specific driver regarding the allocation of propane-sale proceeds to pay down notes.",
+ "run": "2005_star_gas_escalate__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

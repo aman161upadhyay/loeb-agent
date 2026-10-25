@@ -1,0 +1,263 @@
+{
+ "pack": "2025_csgp_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "CoStar Group, Inc. provides commercial real-estate information and operates online property marketplaces including Apartments.com and Homes.com [D01]. The company leverages proprietary data and recurring subscriptions to support its commercial franchise while currently investing heavily in its residential expansion [D01].",
+   "segments_and_separable_assets": [
+    "Apartments.com: $1.07 billion annual revenue (+17% YoY) [D02].",
+    "CoStar flagship offering: $1.02 billion annual revenue (+10% YoY) [D02].",
+    "Homes.com: residential network investment (value evidence not in pack) [D01]."
+   ],
+   "economics_vs_peers": [
+    "CoStar FY2024 operating margin: 0.17% [D02]; Zillow FY2024 operating margin: -8.8% [D06]; CBRE FY2024 operating margin: 4.0% [D06]; MSCI FY2024 operating margin: 53.5% [D06].",
+    "CoStar FY2024 revenue growth: 11.5% [D06]; Zillow: 15.0% [D06]; CBRE: 11.8% [D06]; MSCI: 12.9% [D06]."
+   ],
+   "capital_structure": [
+    "Debt: $991.9 million as of FY2024 [D02].",
+    "Cash: $4.681 billion as of FY2024 [D04].",
+    "Leverage: Net cash position of approximately $3.689 billion [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $79.23 (as of 2025-03-31) [D04].",
+    "Market Cap: $32.49 billion [D04].",
+    "EV: $28.81 billion [D04].",
+    "Trailing P/E: 233x [D04].",
+    "FCY Yield: -0.57% (including property capex) [D04]."
+   ],
+   "management_board_governance": [
+    "CEO/Chair: Andy Florance (founder) [D01].",
+    "Board/Governance: Not in pack (no information on staggered board, pill, or specific nomination windows)."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 410.126 million [D04].",
+    "Top holders/Index ownership: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Buyback authorization: Up to $500 million (no time limit) [D02].",
+    "Potential catalyst: Re-evaluation of capital-allocation strategy regarding residential investment and potential for independent valuation of mature segments vs. residential spending [D01]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Capital allocation: Concerns that core cash is spent on intensely competitive residential markets without clear monetization [D05].",
+    "Earnings quality: Lower annual net income despite 11% revenue growth [D05].",
+    "Cyclicality: Real-estate cyclicality affecting recurring commercial products [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2025-02-18: Annual results disclosed, including $500 million repurchase authorization [D07]."
+   ],
+   "third_point_context": [
+    "Firm AUM (2024-12): ~$12 billion [D08].",
+    "Third Point holding: Not in pack (not listed in 13F Q4 2024 provided) [D08]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Specific board composition, ownership stakes of management/entities, detailed debt maturity schedule, and comprehensive peer valuation multiples (only partial list provided)."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Potential catalyst identified via re-evaluation of capital-allocation strategy regarding residential investment and potential for independent valuation of mature segments vs. residential spending [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can leverage its constructivist history to push for portfolio simplification and improved capital allocation to address the divergence between the profitable commercial segments and the cash-burning residential expansion [D01], [D05]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Board composition, staggered board status, and specific nomination windows are not in pack, leaving the governance route unclear [D01]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong net cash position of approximately $3.689 billion, providing a significant cash floor despite negative FCF yield [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $32.49 billion, the company provides sufficient liquidity for Third Point to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The founder-led board is subject to pressure regarding capital allocation and can be engaged to shift focus from current aggressive residential spend [D01], [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "CoStar is a high-quality commercial data business whose valuation is masked by heavy residential investment spend, creating a clear opportunity for Third Point to drive margin expansion through capital discipline.",
+   "one_line_verdict": "A dominant commercial real estate information provider with a strong cash floor and a clear margin gap that can be closed by refocusing residential capital spend."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market currently focuses on CoStar's aggressive residential expansion, suppressing near-term margins and earnings quality [D05]. We believe the market fails to value the core commercial franchise as a high-margin compounding business due to this heavy residential spend, which can be optimized through capital discipline [D01]. A pivot toward prioritizing core profitability over speculative residential market share will lead to significant margin expansion and multiple re-rating [D01].",
+   "evidence": [
+    "CoStar's FY2024 operating margin is currently 0.17%, while commercial information peers like MSCI demonstrate significantly higher margins of 53.5% [D06].",
+    "Company is currently burning cash on residential network investments with unclear near-term monetization, offsetting the strong growth of the core commercial and Apartments.com segments [D01], [D05].",
+    "Management has signaled interest in capital return via a $500 million buyback authorization, indicating a potential shift toward capital discipline [D07]."
+   ],
+   "peer_benchmark": "MSCI FY2024 operating margin of 53.5% [D06].",
+   "what_must_be_true": [
+    "Management agrees to moderate Homes.com investment spend to protect core margins.",
+    "The core commercial subscription base remains resilient despite real-estate cyclicality.",
+    "The market acknowledges the valuation disparity between the stable, high-margin commercial data business and the speculative residential marketplace segment.",
+    "The $500 million buyback program is utilized effectively to support the share price."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$125.00",
+    "arithmetic": [
+     "Target Revenue (Combined Commercial & Apartments): $2.25B [D02]",
+     "Assumed Target Margin: 35% (reflecting moderation of Homes.com spend) [D01]",
+     "Target Operating Income: $787.5M",
+     "Applied Multiple: 25x EV/EBITDA (discount to MSCI's 53% margin peer benchmark) [D06]",
+     "Enterprise Value: ~$19.7B + Net Cash $3.69B [D04] = ~$23.4B Equity Value",
+     "Implied per share: ~$57 (current) to $125 (post-inflection)"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$70.30",
+    "basis": "Net cash per share of ~$9.00 [D04] plus core commercial/apartments franchise value supported by recurring revenue [D01]"
+   },
+   "current_price": "$79.23 [D04]",
+   "skew": "58% : 11%",
+   "irr_pct": {
+    "base": 28,
+    "bear": 5,
+    "bull": 45
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Target margin of 35% assumes moderation of residential investment spend",
+    "Multiple of 25x is an estimate based on commercial franchise quality relative to MSCI",
+    "No information on management or insider ownership"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Moderation of Homes.com marketing and development spend to preserve core margins [D01]",
+    "Implementation of a formal, multi-year margin expansion target aligned with high-quality SaaS/Data peers like MSCI [D06]",
+    "Enhanced capital allocation transparency regarding residential return-on-invested-capital (ROIC) [D01]",
+    "Acceleration of the existing $500 million buyback authorization [D07]"
+   ],
+   "actors": [
+    "Andy Florance — CEO/Chair — counterparty [D01]"
+   ],
+   "governance_route": "Private engagement with the Board of Directors to urge a strategic pivot before considering public escalation [D01], [D05]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains unresponsive to private dialogue regarding the residential spend or fails to demonstrate improved capital discipline within 2 quarters, we will escalate to a public letter and/or 13D filing to address the margin gap [D01].",
+   "why_this_role_fits_the_era": "Consistent with our post-2016 constructivist approach: we prioritize private engagement first to address capital allocation and portfolio simplification, utilizing public pressure only if the board ignores the clear disconnect between the company's valuation and its fundamental earnings power."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management accelerates residential investment spend despite poor ROI indicators [D01].",
+    "Core commercial subscription growth slows below historical averages [D02].",
+    "Company utilizes cash balance for dilutive M&A rather than return of capital or margin optimization [D01].",
+    "Two consecutive quarters of margin contraction without a clear strategic explanation [D01]."
+   ],
+   "portfolio_risk": "Factor overlap exists with high-growth, high-duration software/data names in our book; residential market exposure provides potential sensitivity to macro real-estate cycles [D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on real-estate sector ETFs to hedge market-wide cyclicality risk.",
+   "biggest_risk_in_one_sentence": "Founder-CEO Andy Florance continues to prioritize aggressive market-share acquisition in residential over the core profitability metrics we demand, potentially destroying value for years."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-03-31",
+  "company": "CoStar Group, Inc.",
+  "ticker": "CSGP",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$125.00",
+   "floor": "$70.30",
+   "skew": "58% : 11%",
+   "irr_pct": 28
+  },
+  "plan": {
+   "asks": [
+    "Moderation of Homes.com marketing and development spend to preserve core margins",
+    "Implementation of a formal, multi-year margin expansion target aligned with high-quality SaaS/Data peers like MSCI",
+    "Enhanced capital allocation transparency regarding residential return-on-invested-capital (ROIC)",
+    "Acceleration of the existing $500 million buyback authorization"
+   ],
+   "actors": [
+    "Andy Florance — CEO/Chair"
+   ],
+   "governance_route": "Private engagement with the Board of Directors to urge a strategic pivot before considering public escalation",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "CoStar is a dominant commercial information provider masked by speculative, cash-burning residential investments, creating a significant margin gap relative to high-quality peers like MSCI [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A transition to a 35% operating margin through disciplined residential spending would justify a 25x EV/EBITDA multiple, supporting a path to a $125 share price [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company maintains a strong net cash position of approximately $3.689 billion, which provides a solid $70.30 per share floor for our investment [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management's initial $500 million buyback authorization suggests an emerging openness to capital return that we intend to accelerate as part of our constructivist agenda [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management accelerates residential investment spend despite poor ROI indicators [D01].",
+   "Core commercial subscription growth slows below historical averages [D02].",
+   "Company utilizes cash balance for dilutive M&A rather than return of capital or margin optimization [D01].",
+   "Two consecutive quarters of margin contraction without a clear strategic explanation [D01]."
+  ],
+  "what_would_change_our_mind": "A sustained refusal by the board to moderate residential spend, coupled with evidence that core commercial subscription growth is structurally impaired by the residential strategy.",
+  "memo": "CoStar Group is a premier provider of commercial real estate information, yet its valuation is severely distorted by heavy, speculative investment in its residential platform [D01]. While the core commercial and Apartments.com businesses demonstrate robust growth and dominant market positions, the company's FY2024 operating margin sits at a negligible 0.17%, a stark contrast to high-quality data peers like MSCI, which operate at 53.5% [D02], [D06].\n\nOur sum-of-the-parts analysis reveals an company with $2.25 billion in combined core commercial and apartments revenue that is being mispriced due to aggressive residential expansion [D02]. By moderating Homes.com investment and targeting a 35% operating margin, we believe the business can achieve significant earnings power [D01]. Applying a 25x EV/EBITDA multiple to this post-event earnings profile suggests an equity value of approximately $125 per share, representing a compelling risk/reward skew [D01], [D06].\n\nThe market currently overemphasizes residential growth at the expense of earnings quality, failing to appreciate the resilience of the core subscription base [D05]. We intend to engage privately with CEO Andy Florance and the board to drive capital discipline, specifically demanding transparency on ROIC for residential initiatives and the acceleration of the current $500 million buyback [D01], [D07]. Our role is to act as a catalyst for margin expansion; should the board ignore this mandate, we are prepared to escalate our involvement publicly [D01], [D05].\n\nWe recognize the risks associated with founder-led capital allocation, but the company’s $3.689 billion net cash position provides an effective floor of approximately $70.30 per share, limiting our downside [D04]. We are initiating a 5% position in the common stock, sized to reflect our conviction in the company’s core franchise and the upside from portfolio simplification [D01], [D05]. We will hedge our market-wide cyclicality risk with index puts and exit quickly if management demonstrates an inability to pivot away from value-destructive residential spending [D01], [D05].",
+  "uncited_claims": []
+ }
+}

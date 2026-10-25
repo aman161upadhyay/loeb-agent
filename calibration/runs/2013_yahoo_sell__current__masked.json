@@ -1,0 +1,56 @@
+{
+ "pack": "2013_yahoo_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2013-07-22",
+ "stages": {},
+ "final": {
+  "as_of_date": "2013-07-22",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "TRIM",
+  "reason_class": "L1",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Governance intervention: catalyst_realised [D03]",
+   "Asian affiliate value: intact [D01]",
+   "Core business turnaround: ongoing / uncertain [D01]"
+  ],
+  "remaining_skew": "moderate, as the core turnaround remains unproven and dependent on product/mobile engagement [D01, D04]",
+  "next_catalyst_and_timing": "Ongoing operating results and execution on mobile/product strategy [D01, D03]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The original governance catalyst is largely realized following board access and the appointment of a new CEO [D03, D07].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The core advertising business shows declining revenue ex-TAC and adjusted EBITDA, indicating the turnaround is not yet reflected in operating results [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Taking partial liquidity via the available block-trade terms allows us to lock in gains from the governance success while maintaining exposure to the Asian assets [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Continuing to hold the full position shifts our reliance from an event-driven thesis to a long-term operational growth bet, which carries higher execution risk [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Our investment in the Company began with a clear event-driven thesis: closing the gap between the sum-of-the-parts and the implied valuation through a governance intervention [D01, D08]. That catalyst has been realized with the successful appointment of a new CEO and our transition to board representation [D03, D07]. \n\nWhile the Asian assets continue to provide upside optionality, the core domestic advertising business is struggling, with Q2 revenue ex-TAC and adjusted EBITDA both down year-over-year [D03, D04]. We are not in the business of winning arguments or waiting indefinitely for a turnaround that remains unproven in the operating metrics [D03, D04]. \n\nWith issuer block-liquidity terms available, we are electing to trim our position [D04]. This allows us to crystallize value from the successful governance campaign while rightsizing our exposure as the thesis evolves from an event-driven situation into an ongoing operational compounder [D02, D04].",
+  "uncited_claims": []
+ }
+}

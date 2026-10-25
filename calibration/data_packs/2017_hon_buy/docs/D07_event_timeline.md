@@ -1,0 +1,17 @@
+Title: Dated event map and authority to act — Honeywell International Inc.
+Source: https://www.prnewswire.co.uk/news-releases/regulatory-news/honeywell-international-inc---1st-quarter-results-620053493.html (2017-04-21); https://www.insidermonkey.com/blog/third-points-portfolio-struggled-in-the-turbulent-third-quarter-378482/ (2015-10-18); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514617000484-third-point-llc-q4-2016 (2017-02-10)
+Date: 2017-04-27
+
+April 21: first-quarter results, margin expansion and updated EPS guidance are released. April 27 is the current observation date. The management transition to Adamczyk provides a possible strategic-review window; the results emphasize accelerating organic growth, productivity and cash conversion. No subsequent shareholder letter, portfolio-review conclusion or divestiture is admitted. The event path is a board assessment of structure and capital allocation, not an announced mandatory transaction. A timetable must leave room for pension, tax and financing work even if directors accept a conceptual separation case. [S1; analyst timeline]
+
+Event-path discipline. The timeline separates a public report, an announced intention, a legally binding step and actual implementation. These are different milestones. A board may examine an option without approving it; an approved transaction can still face financing, regulatory, tax or execution conditions. Put the authority to decide alongside the event, rather than presume that a minority shareholder can cause it immediately.
+
+The observation cutoff is hard. A later upload location for an older document does not move its underlying publication date, while a later investor retrospective cannot become an earlier desk input. No eventual transaction, operating result or investment outcome is implied here. Where a first transaction day is not publicly recoverable, this document does not invent one from a quarter-end filing. Future calendar items are possibilities to monitor, not completed facts. A realistic timetable should allow multiple quarters when necessary and specify the evidence that would show delay or failure. This avoids confusing a well-written proposal with an executable catalyst and keeps the analyst's expected value separate from the historical answer.
+
+Analyst cross-check: For each prospective milestone, identify who controls the decision, which prerequisite must occur first and whether shareholder approval is sufficient. Regulatory clearance, creditor consent and operational implementation are distinct gates. Delay affects discounted value even if the eventual strategic direction remains economically sensible and legally feasible.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.prnewswire.co.uk/news-releases/regulatory-news/honeywell-international-inc---1st-quarter-results-620053493.html (published 2017-04-21).
+- [S2] https://www.insidermonkey.com/blog/third-points-portfolio-struggled-in-the-turbulent-third-quarter-378482/ (published 2015-10-18).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S4] https://13f.info/13f/000108514617000484-third-point-llc-q4-2016 (published 2017-02-10).

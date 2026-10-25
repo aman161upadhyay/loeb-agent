@@ -1,0 +1,18 @@
+Title: Strong countercase and thesis risks — Sony Corporation
+Source: https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/18q4_sony.pdf (2019-04-26); https://www.sony.com/en/SonyInfo/IR/library/presen/irday/pdf/2019/presen_E.pdf (2019-05-21); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514619001661-third-point-llc-q1-2019 (2019-05-15)
+Date: 2019-06-13
+
+Cloud gaming can alter platform economics, and console transitions can reduce near-term profitability. Music and pictures face content spending, hit risk and distributor bargaining power. Sensors have smartphone exposure, customer concentration and capital intensity; a leading product does not guarantee stable returns through a capex cycle. A split can strand costs and weaken shared R&D or branding. The board can reject structural proposals, as a Japanese governance route is influence rather than control. A bull case must retain value if the group remains integrated, not assume a shareholder presentation creates legal separation. [S1–S2; analyst countercase]
+
+Adversarial underwriting. The countercase above should be allowed to defeat the attractive narrative. Distinguish a temporary cloud from permanent impairment, and distinguish a bad business from a good business burdened by claims or a poor structure. Neither distinction is settled by a share-price decline. A credible risk memo names observable developments that would invalidate earnings, liquidity or governance assumptions rather than treat every setback as a chance to increase exposure.
+
+Useful tests include persistent demand or margin erosion after comparable accounting, inability to finance required investment, a remedy whose cost consumes its value, or a decision-maker with neither incentive nor obligation to act. These are analyst tests, not unreported management statements or documented shareholder instructions. Consider the opposite error as well: excessive caution can crystallize losses or miss a profitable recovery. A hedge can add basis, financing and squeeze risk. The recovered sources do not supply probabilities for each scenario, so no precision is implied. The downside floor must be independently demonstrated in cash flows, assets, contractual rights or capital structure; it must not be assumed merely because the upside plan sounds plausible.
+
+Analyst cross-check: Rank the objections by their transmission to the security: reduced operating cash generation, a larger financing claim, lost governance authority, or delayed realization. A thesis can survive a weak quarter but fail because funding expires first. Identify which risks can be monitored and which remain discontinuous.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sony.com/en/SonyInfo/IR/library/presen/er/pdf/18q4_sony.pdf (published 2019-04-26).
+- [S2] https://www.sony.com/en/SonyInfo/IR/library/presen/irday/pdf/2019/presen_E.pdf (published 2019-05-21).
+- [S3] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S4] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S5] https://13f.info/13f/000108514619001661-third-point-llc-q1-2019 (published 2019-05-15).

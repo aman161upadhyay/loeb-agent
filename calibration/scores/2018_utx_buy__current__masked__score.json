@@ -1,0 +1,52 @@
+{
+ "trade_id": "2018_utx_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Separate Aerospace, Otis and Carrier so each can close the discount to pure-play peers → The Company is a diversified industrial conglomerate whose true potential is masked by its current structure, leading to a persistent and unnecessary conglomerate discount",
+   "Standalone transparency, incentives and capital allocation could surface sum-of-parts value → Transparency as standalone entities will force the market to assign market-appropriate multiples to each business rather than the current depressed conglomerate stub",
+   "Pratt & Whitney's investment phase could give way to a large multi-year free-cash-flow inflection → Our downside risk is limited by the recurring aftermarket revenue in the aerospace division"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts analysis, benchmarking individual units against peers like Kone and Schindler, yields a target value of $160 per share, significantly above the current $120.15 price [D04, D06].",
+   "High-quality aerospace aftermarket revenue provides an operational floor of $115, resulting in a compelling 33%:4% risk/reward skew [D01, D03, D04].",
+   "We will initiate private engagement with Gregory Hayes to propose the separation, with a public escalation plan prepared if ignored [D01, D07]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a diversified industrial conglomerate whose true potential is masked by its current structure, leading to a persistent and unnecessary conglomerate discount",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "By benchmarking the elevator business against peers like Kone and Schindler, and valuing the aerospace and climate units against their respective sectors at an average 14.0x EBITDA multiple, we derive a valuation of $160 per share",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We see a hard valuation floor at $115 per share, based on current EBITDA and a 11.0x multiple",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 5,
+  "share": 0.33
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe that a strategic, tax-efficient separation into three independent, public companies is the necessary catalyst to unlock this value [D01, D06].",
+ "grader_notes": "The agent correctly identified the core thesis of separating the conglomerate to close the valuation discount and captured the inflection point of the aerospace segment. Reasoning overlap was high, covering all three of Loeb's stated drivers. The agent provided significant extra detail regarding specific peer benchmarking and risk-reward metrics not explicitly listed in the answer key, though these remained consistent with the investment opportunity.",
+ "run": "2018_utx_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

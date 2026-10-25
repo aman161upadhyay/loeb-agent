@@ -1,0 +1,53 @@
+{
+  "id": "2013_yahoo_sell",
+  "actual_decision": "TRIM",
+  "conviction": "medium",
+  "size_pct_nav": "40m shares sold; approximately 20m retained per contemporary reporting, not a full exit.",
+  "first_action_date": "2013-07-22",
+  "disclosure_date": "2013-07-22",
+  "reason_class": "L1",
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Yahoo",
+      "Third Point seller vehicles",
+      "Loeb",
+      "Wolf",
+      "Wilson"
+    ],
+    "governance_route": "P0; monitor event or arrange liquidity; no new activist mandate",
+    "timetable_quarters": 1
+  },
+  "drivers": [
+    {
+      "driver": "Monetize part of a substantially repriced position after the governance catalyst has been achieved.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000119312513302766/d572929dex991.htm (2013-07-22)",
+      "quote": null
+    },
+    {
+      "driver": "The issuer's 40m-share block transaction supplies $1.1644bn gross liquidity at $29.11.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000119312513302766/d572929dex991.htm (2013-07-22)",
+      "quote": null
+    },
+    {
+      "driver": "Board participation can end as the ownership threshold falls while a residual investment preserves upside.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000119312513302766/d572929dex991.htm (2013-07-22)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "$29.11 agreed sale price, $1,164,400,000 gross proceeds; not investment profit.",
+  "outcome_note": "Agreement scheduled July 24 closing; issuer July 25 filing confirms actual completion July 25; board resignations effective July 31.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1011006/000119312513302766/d572929dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/1011006/000115752313003338/a50670602-ex991.htm"
+  ],
+  "pack_quality_notes": "Grade C. Explicit event-conditioned internal desk replay: deal terms were signed July 22 and filed July 25. D04/D07 treat terms as authorized internal information, not a pre-disclosure public document. Cannot be a blind prediction of signing that agreement. Directions normalized to TRIM, accepted SELL/TRIM; no falsely backdated July 25 public filing. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label.",
+  "accepted_decisions": [
+    "TRIM",
+    "SELL"
+  ]
+}

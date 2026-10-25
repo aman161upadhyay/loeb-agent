@@ -1,0 +1,58 @@
+{
+ "trade_id": "2018_cpb_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Poor board oversight and acquisition mistakes had damaged operating performance and shareholder value.",
+   "A strategic review should consider a sale rather than preserve the status quo.",
+   "A credible slate and alliance with George Strawbridge created a route to governance change."
+  ],
+  "extra_agent_drivers": [
+   "The company is a classic turnaround situation with highly separable soup and snacks assets obscured by a troubled, loss-making fresh food business",
+   "The current market price of $42.28 reflects extreme pessimism regarding secular volume declines in soup and the debt burden from the Snyder's-Lance acquisition",
+   "Significant Dorrance-family ownership creates a profound governance hurdle",
+   "The board-led strategic review is already in progress, leaving us with no clear edge"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is a classic turnaround situation with highly separable soup and snacks assets",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current market price of $42.28 reflects extreme pessimism",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Significant Dorrance-family ownership creates a profound governance hurdle",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The board-led strategic review is already in progress",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 1,
+  "share": 0.09
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We are passing on the opportunity today given the governance bottleneck and our lack of a clear, value-additive role in the current board-led process.",
+ "grader_notes": "The agent identifies the governance issues correctly but concludes the opposite of Third Point, viewing the Dorrance family as a blocker to activism rather than identifying the path to governance change through the alliance with George Strawbridge. The agent's reasoning is farthest from Loeb's in its assessment of the opportunity to intervene; while Loeb identified a specific path to change, the agent viewed the situation as an insurmountable governance bottleneck.",
+ "run": "2018_cpb_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

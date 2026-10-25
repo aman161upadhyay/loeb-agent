@@ -1,0 +1,52 @@
+{
+ "trade_id": "2003_potlatch_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Shareholder voting rights should not reward four years of enduring poor stewardship. → The company’s governance regime—specifically the multi-vote structure and 80% approval hurdle—is designed to ignore minority voices.",
+   "Persistent operating losses and inferior returns warrant greater board accountability. → Poor financial performance relative to peers, evidenced by significant losses and negative ROE compared to industry benchmarks.",
+   "The $66m towel investment deserves scrutiny while the consumer-products market is oversupplied. → A passive stance is no longer viable when capital is being deployed into a $66 million tissue plant while return on equity is deeply negative."
+  ],
+  "missed": [
+   "Compensation and owner alignment should be tested against the loss record; the full alleged plane/perquisite criticism remains unverified."
+  ],
+  "extra_agent_drivers": [
+   "Persistent management focus on capital-intensive expansion during industry downturns"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company’s governance regime—specifically the multi-vote structure and 80% approval hurdle—is designed to ignore minority voices",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "capital is being deployed into a $66 million tissue plant",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "recent operational improvements, such as the Lewiston labor contract",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 2,
+  "share": 0.25
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We must move from private engagement to public escalation.",
+ "grader_notes": "The agent correctly identified the decision to escalate and captured the three primary drivers related to governance, financial performance, and capital allocation. The reasoning was closest to Loeb's in its critique of the $66m investment and voting structure, though it failed to address the specific driver regarding compensation and executive perks.",
+ "run": "2003_potlatch_escalate__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

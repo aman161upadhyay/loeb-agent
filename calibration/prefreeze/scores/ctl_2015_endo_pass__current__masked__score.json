@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2015_endo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Endo/ENDP/Auxilium absent from 54-quarter issuer/instrument index and no attributable Endo investment comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company relies on an acquisition-led 'roll-up' strategy that masks significant GAAP losses and poor organic performance with aggressive adjusted earnings.",
+   "The discrepancy between GAAP operating margins of -31.2% and adjusted margins of 37.3% highlights the low quality of reported earnings.",
+   "Excessive leverage, with $3.95bn in net debt as of December 2014, creates significant refinancing risk that cash flows fail to adequately cover.",
+   "Opaque litigation liabilities, where actual cash payments diverge from accounting reserves, present an unquantifiable downside risk.",
+   "The valuation is disconnected from reality, trading at 20.3x adjusted P/E despite failing to generate meaningful free cash flow."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company relies on an acquisition-led 'roll-up' strategy that masks significant GAAP losses",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "GAAP operating margins of -31.2% and adjusted margins of 37.3%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Excessive leverage, with $3.95bn in net debt as of December 2014",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "valuation of approximately $39.15 per share",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on this opportunity because the risk/reward is skewed negatively and our edge is limited by the opaque nature of the company’s litigation reserves [D05].",
+ "grader_notes": "The agent arrived at the correct PASS decision but completely failed to incorporate the required driver from the answer key, which centered on the absence of the issuer in the manager's historical portfolio. The agent instead fabricated a detailed fundamental short-thesis critique, which diverges from the observational, control-based nature of the answer key.",
+ "run": "ctl_2015_endo_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

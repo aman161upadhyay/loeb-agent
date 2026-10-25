@@ -1,0 +1,243 @@
+{
+ "pack": "ctl_2022_vroom_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company sells used vehicles online and operates an auto-finance business [D01]. The current strategy focuses on a deliberate inventory and operating-cost reset to preserve liquidity over maximizing retail volume [D01].",
+   "segments_and_separable_assets": [
+    "Ecommerce vehicle retailing: Q2 2022 revenue of $475.437m with 9,233 units sold [D03].",
+    "Auto-finance operations: Must be valued separately due to credit and funding risks inherent in receivables [D01]."
+   ],
+   "economics_vs_peers": [
+    "The Company: Q2 2022 operating margin -21.1% [D03]; FY2021 sales growth +134.5% with -11.3% operating margin [D06].",
+    "CarMax: FY February 2022 net margin 3.6% [D06].",
+    "AutoNation: FY2021 operating margin 7.4% [D06].",
+    "The Company's ecommerce gross profit per unit improved sequentially from $1,763 (Q1 2022) to $3,629 (Q2 2022) [D03]."
+   ],
+   "capital_structure": [
+    "Debt: $1,212.108m total consolidated debt as of June 30, 2022, comprised of $422.452m floorplan debt, $115.325m current securitization, and $674.331m noncurrent debt [D04].",
+    "Liquidity: June 30, 2022 cash of $532.642m [D04]; management forecast year-end 2022 liquidity of $450–$565 million [D03].",
+    "Convertible debt: $610.618m reported as of December 31, 2021 [D02]."
+   ],
+   "price_and_valuation": [
+    "Price: $.88 per share as of November 4, 2022 [D04].",
+    "Market cap: Approximately $121.5m [D04].",
+    "Enterprise Value (EV): Approximately $801.0m [D04].",
+    "Valuation multiples: P/B 0.245x; P/tangible book 0.377x [D04]; P/E NM due to losses [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack: Specific CEO/chair names, board composition, and controller stakes are not provided."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 138.109m [D04].",
+    "Top holders: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Operational turnaround: Deliberate inventory and operating-cost reset intended to preserve liquidity and achieve self-financing [D01, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Race between restructuring and cash depletion [D05].",
+    "Rising interest rates and falling used-car prices potentially exhausting cash before the model becomes self-financing [D03, D05].",
+    "Inventory markdowns, tightening funding lines, and consumer credit deterioration [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "August 8, 2022: Q2 turnaround and liquidity update [D03, D07]."
+   ],
+   "third_point_context": [
+    "Third Point Q2 2022 13F shows $4.225 billion of reportable securities; not in pack whether Third Point holds this company [D08]."
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Current cutoff NAV, cash, and liquid capital available for new investments [D08].",
+    "Specific board composition and governance structure [D07].",
+    "Specific convertible debt trading levels and current funding advance rates [D04]."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "NONE"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The company is undergoing a multi-year operational turnaround as the only lever without a separable asset or defined catalyst [D01, D07]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on unproven management executing a long-term liquidity preservation roadmap, which is a consensus-to-negative outlook [D01, D05]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Specific board composition and governance structures are not provided in the pack, preventing the identification of a viable governance route [D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The company faces a race between restructuring and cash depletion with falling used-car prices, failing the downside floor test for equity [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $121.5m and substantial shares outstanding, a position could theoretically be built, though it does not meet the $300M+ core event threshold [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis depends on unproven management successfully executing a roadmap during a period of consumer credit deterioration and liquidity risk [D05, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The situation represents a speculative turnaround lacking a clear catalyst, actionable governance route, or asset-based downside floor.",
+   "one_line_verdict": "a distressed ecommerce retailer in a race between cash depletion and operational turnaround with no identifiable path for activist intervention"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market correctly prices this company as a distressed entity facing severe liquidity risk amidst deteriorating used-car market conditions. There is no evidence of a mispricing that can be corrected via an activist catalyst, as the current management is already engaged in a liquidity-preservation pivot that lacks a clear path to success. We see no actionable edge here.",
+   "evidence": [
+    "Company is in a race between restructuring and cash depletion [D05]",
+    "Operating margins are significantly negative at -21.1% compared to positive peer margins [D03, D06]",
+    "Lack of separable assets or identified governance route to force change [D07]"
+   ],
+   "peer_benchmark": "CarMax net margin of 3.6% and AutoNation operating margin of 7.4% [D06]",
+   "what_must_be_true": [
+    "Used-car prices stabilize to prevent further inventory markdowns",
+    "Cash burn slows significantly before the depletion of $532.6m in cash",
+    "Funding lines remain accessible despite credit deterioration",
+    "The operational reset succeeds without further dilutive financing"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$0.00",
+    "arithmetic": [
+     "Total Debt: $1,212.108m [D04]",
+     "Total Cash: $532.642m [D04]",
+     "Net Debt Position: $679.466m [D04]",
+     "Enterprise Value: $801.0m [D04]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Cash depletion exceeds liquidation value of inventory in distressed restructuring scenario [D05]"
+   },
+   "current_price": "$0.88 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumption that liquidation value of inventory and auto-finance receivables will be offset by total consolidated debt and potential restructuring costs, leaving no equity value."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "Not applicable — no activist edge [D07].",
+   "timetable_quarters": 0,
+   "escalation_path": "None; position is a pass.",
+   "why_this_role_fits_the_era": "This is a distressed situation with no identifiable catalyst, actionable governance route, or margin of safety, making it a clear pass under Third Point's event-driven mandate [D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Cash depletion exceeds liquidity forecast [D03]",
+    "Used-car prices continue to decline, forcing further inventory markdowns [D05]",
+    "Funding lines restricted or credit availability tightened [D05]",
+    "Restructuring necessity becomes inevitable due to cash burn [D05]"
+   ],
+   "portfolio_risk": "N/A - PASS [D07]",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The company faces a race between cash depletion and operational turnaround with no identifiable path for activist intervention or downside protection [D05, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$0.00",
+   "floor": "$0.00",
+   "skew": "0% : 100%",
+   "irr_pct": -100
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "Not applicable — no activist edge [D07].",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company is engaged in a speculative operational turnaround without a separable asset or identifiable catalyst to drive equity value [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Operating margins of -21.1% significantly trail profitable peers like CarMax (3.6%) and AutoNation (7.4%), indicating deep structural challenges [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The business faces a binary race between cash depletion and reaching self-financing status, leaving no margin of safety for equity holders [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is no actionable governance route or board-level leverage to force the changes required to address the company's liquidity crisis [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Cash depletion exceeds liquidity forecast [D03]",
+   "Used-car prices continue to decline, forcing further inventory markdowns [D05]",
+   "Funding lines restricted or credit availability tightened [D05]",
+   "Restructuring necessity becomes inevitable due to cash burn [D05]"
+  ],
+  "what_would_change_our_mind": "Evidence of a clear, actionable governance path to unlock value through asset separation, or a definitive stabilization of operating margins coupled with a hardened, non-dilutive liquidity floor.",
+  "memo": "The Company is a distressed ecommerce retailer currently attempting an operational reset to preserve liquidity [D01]. With an operating margin of -21.1% compared to positive peer margins at CarMax and AutoNation, the core business remains fundamentally uncompetitive in its current state [D03, D06].\n\nWe see no path to value creation here. The thesis relies entirely on unproven management executing a multi-year turnaround in a deteriorating used-car market where prices are falling and credit availability is tightening [D05, D07]. Without an identifiable separable asset or a catalyst to force structural change, this is simply a race between cash burn and insolvency [D05, D07].\n\nWith total consolidated debt of $1.21 billion against a market capitalization of just $121.5 million, the capital structure offers no protection for equity [D04]. We require a clear margin of safety and a defined governance route to move a board, neither of which exists here [D07]. We are passing on the opportunity.",
+  "uncited_claims": []
+ }
+}

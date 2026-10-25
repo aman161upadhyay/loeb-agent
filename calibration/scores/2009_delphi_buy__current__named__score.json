@@ -1,0 +1,54 @@
+{
+ "trade_id": "2009_delphi_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The GM and bankruptcy process supplies a path to emergence and new ownership. → We believe this ignores the strategic necessity of Delphi's assets to its customers and the firm grip of the court-supervised proceedings [D01, D03]."
+  ],
+  "missed": [
+   "Use senior restructuring paper rather than speculate in the old common stock.",
+   "Underwrite individual auto claims bottom-up while distinguishing plausible survivors from losers.",
+   "Restructuring can reset legacy costs and expose the industrial asset base's earnings power."
+  ],
+  "extra_agent_drivers": [
+   "Market fixation on GM liquidity burn",
+   "Near-term catalyst via June 16 financing hearing",
+   "Mispricing of DIP tranches"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Delphi's operating margins dropped to -21.1% in Q1 2009.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The final financing hearing is scheduled for June 16, 2009.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "First-priority DIP loans are approximately $541 million.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 18,
+  "cited": 6,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a 3% position in Delphi's debt, sized to reflect our conviction in the court-supervised process despite the high-risk environment [D05].",
+ "grader_notes": "The agent correctly identified the decision to buy Delphi debt within the bankruptcy context. However, the reasoning overlap is weak (1/4 matches), as the agent focused on immediate, tactical catalysts like the specific hearing date rather than the long-term, high-level restructuring thesis articulated in the answer key.",
+ "run": "2009_delphi_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

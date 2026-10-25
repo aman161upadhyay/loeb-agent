@@ -1,0 +1,264 @@
+{
+ "pack": "2022_cl_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Colgate-Palmolive is a global consumer products company focusing on oral, personal, and home care, alongside its Hill's pet nutrition business [D01]. The company relies on repeat demand for hygiene staples and growth in premium pet nutrition [D01].",
+   "segments_and_separable_assets": [
+    "Oral, personal, and home care: primary revenue base for the group [D01].",
+    "Hill's pet nutrition: a premium nutrition business with distinct growth and investment characteristics [D01]."
+   ],
+   "economics_vs_peers": [
+    "Colgate-Palmolive: 21.3% operating margin (Q3 2022) [D06].",
+    "Procter & Gamble: 24.0% operating margin (Q3 2022) [D06].",
+    "Church & Dwight: 19.3% operating margin (Q3 2022) [D06].",
+    "Kimberly-Clark: 13.0% operating margin (Q3 2022) [D06]."
+   ],
+   "capital_structure": [
+    "Total debt: $8.232bn [D04].",
+    "Cash: $0.938bn [D04].",
+    "Net debt: $7.294bn [D04].",
+    "Covenants, credit ratings, and specific maturity schedules: not in pack."
+   ],
+   "price_and_valuation": [
+    "Price (2022-10-31): $73.84 [D04].",
+    "Market cap: $61.672bn [D04].",
+    "EV: $68.966bn [D04].",
+    "Trailing P/E: 32.2x [D04].",
+    "EV/EBITDA proxy: 19.1x [D04].",
+    "FCF yield: ~3.9% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO/Chair: Noel Wallace [D01].",
+    "Staggered board, pill, controller stakes, and prior activist history: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders, index ownership, short interest: not in pack.",
+    "Average daily volume: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential separation of Hill's pet nutrition (noted as one possible path) [D01].",
+    "Margin normalization/recovery [D03], [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Gross-margin pressure (down 220bp) [D03].",
+    "Pricing lagging input costs and potential volume impact [D05].",
+    "Strong dollar compressing foreign earnings [D05].",
+    "Premium pet care cost/competitive pressure [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2022-10-28: Reported Q3 2022 results with 7% organic growth but lower base EPS [D03]."
+   ],
+   "third_point_context": [
+    "AUM ~ $14bn (as of 2022-08) [D08].",
+    "Third Point stake in Colgate-Palmolive: not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Verified contemporary forward EPS consensus, Hill's standalone valuation bridge, detailed debt maturity schedule, specific board governance provisions, and exact short interest/shareholder concentration."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The potential separation of the Hill's pet nutrition business from the consumer goods group provides a clear structural catalyst [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply a sum-of-the-parts valuation to the distinct Hill's business against the broader consumer staples peer group to highlight value [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Information on board structure, controller stakes, or potential for settlement is not in pack."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company relies on stable, recurring demand for hygiene staples, which provides a fundamental floor to the valuation [D01]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of over $61bn, the stock offers ample liquidity for Third Point to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management can be pressured to pursue a spin-off to unlock value, which is the standard constructivist approach [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The event is a potential separation of the Hill's pet nutrition business, which we believe is undervalued within the current conglomerate structure compared to peers.",
+   "one_line_verdict": "a consumer staple conglomerate with a high-growth pet nutrition asset that can be separated to unlock a valuation discount."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views Colgate-Palmolive as a low-growth consumer staple facing margin compression from input cost inflation and currency headwinds. We believe this ignores the hidden value of the Hill's pet nutrition business, which warrants a premium multiple, and that operating margins can be expanded through deliberate structural simplification. By separating the high-growth Hill's asset, the market will re-rate the conglomerate into two distinct, high-performing entities.",
+   "evidence": [
+    "Hill's pet nutrition is a premium business with distinct growth characteristics from the consumer staples core [D01].",
+    "Colgate-Palmolive's 21.3% operating margin trails peer Procter & Gamble at 24.0% [D06].",
+    "Gross margins have faced 220bp of pressure due to cost inflation [D03]."
+   ],
+   "peer_benchmark": "Procter & Gamble operating margin of 24.0% [D06].",
+   "what_must_be_true": [
+    "Hill's maintains its premium growth trajectory post-separation.",
+    "The consumer core can stabilize margins through effective pricing actions.",
+    "Management or board can be incentivized to pursue structural separation."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$92.00",
+    "arithmetic": [
+     "Core Consumer EBIT: $3.45bn (Assumed ~21.3% margin on FY22 revenue) [D06]",
+     "Hill's EBIT: $0.95bn (Implied based on segment mix) [Assumed]",
+     "Core Value at 18x EBIT: $62.1bn [Assumed peer multiple based on P&G proximity] [D06]",
+     "Hill's Value at 25x EBIT: $23.75bn [Assumed premium multiple]",
+     "Enterprise Value: $85.85bn - $7.29bn Net Debt [D04] = $78.56bn Equity Value",
+     "Per Share: ~$92.00 (based on ~835m shares)"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$68.00",
+    "basis": "Current FCF yield and downside support from core hygiene demand [D01], [D04]"
+   },
+   "current_price": "$73.84 [D04]",
+   "skew": "25% : 8%",
+   "irr_pct": {
+    "base": 24,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Hill's standalone EBIT contribution not explicitly provided in pack",
+    "Assumed 18x multiple for core consumer business based on P&G benchmarking",
+    "Assumed 25x multiple for Hill's as a high-growth pet nutrition pure-play"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Separate the Hill's Pet Nutrition business from the consumer goods core to unlock a valuation re-rating [D01].",
+    "Implement a margin improvement plan to close the 270bp gap against peer Procter & Gamble [D06]."
+   ],
+   "actors": [
+    "Noel Wallace — CEO/Chair — counterparty [D01]"
+   ],
+   "governance_route": "Private engagement with management and the board to present the sum-of-the-parts case and strategic rationale for separation [D01].",
+   "timetable_quarters": 2,
+   "escalation_path": "If management ignores the proposal after 2 quarters, prepare a public letter to shareholders and consider a nomination slate for the next annual meeting.",
+   "why_this_role_fits_the_era": "Aligned with 2016-onward constructivism: engage privately first, focusing on structural simplification and margin optimization to drive value in a high-quality compounder."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management refuses to initiate a strategic review of the Hill's segment within two quarters.",
+    "Margin improvement plan fails to demonstrate narrowing of the 270bp gap to P&G by Q2 2023.",
+    "Significant loss of market share in the premium pet nutrition segment to competitors.",
+    "Severe deterioration in the macroeconomic pricing environment leading to sustained volume declines."
+   ],
+   "portfolio_risk": "Factor overlap with existing consumer staples and high-quality compounders in the book [D01], [D06]. The position adds defensive exposure to our net long bias, though we remain mindful of interest rate sensitivity for high-multiple assets [D04]. Liquidity is high due to the large market cap [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 6
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts to hedge general market beta exposure given current macro volatility.",
+   "biggest_risk_in_one_sentence": "Management remains entrenched and refuses to unlock the conglomerate discount, leaving us trapped in a slow-growth core business while currency and input cost pressures continue to compress margins."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-10-31",
+  "company": "Colgate-Palmolive Company",
+  "ticker": "CL",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$92.00",
+   "floor": "$68.00",
+   "skew": "25% : 8%",
+   "irr_pct": 24
+  },
+  "plan": {
+   "asks": [
+    "Separate the Hill's Pet Nutrition business from the consumer goods core to unlock a valuation re-rating [D01].",
+    "Implement a margin improvement plan to close the 270bp gap against peer Procter & Gamble [D06]."
+   ],
+   "actors": [
+    "Noel Wallace — CEO/Chair"
+   ],
+   "governance_route": "Private engagement with management and the board to present the sum-of-the-parts case and strategic rationale for separation [D01].",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Colgate-Palmolive is a high-quality consumer staple, but its valuation is suppressed by the conglomerate discount that masks the superior growth profile of the Hill’s Pet Nutrition business [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The core consumer business operates at a 21.3% operating margin, significantly trailing industry benchmarks like Procter & Gamble at 24.0%, indicating substantial room for operational optimization [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "A sum-of-the-parts valuation, applying a 25x multiple to the Hill's asset and 18x to the consumer core, reveals a target price of $92.00 per share [D04], [D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company’s reliance on recurring demand for hygiene staples provides a fundamental valuation floor, offering an asymmetric risk/reward profile with 24% potential IRR [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management refuses to initiate a strategic review of the Hill's segment within two quarters.",
+   "Margin improvement plan fails to demonstrate narrowing of the 270bp gap to P&G by Q2 2023.",
+   "Significant loss of market share in the premium pet nutrition segment to competitors.",
+   "Severe deterioration in the macroeconomic pricing environment leading to sustained volume declines."
+  ],
+  "what_would_change_our_mind": "A persistent refusal by the board to explore structural separation combined with a failure to show margin recovery, signaling an entrenched management team incapable of unlocking value.",
+  "memo": "Colgate-Palmolive is a premier global consumer products franchise [D01]. Yet, the stock remains a classic conglomerate mispricing where the market fails to distinguish the high-growth Hill's Pet Nutrition business from the slower-moving hygiene core [D01].\n\nOur sum-of-the-parts analysis suggests the current market price of $73.84 fails to reflect the intrinsic value of the pieces [D04]. By applying a 25x EBIT multiple to Hill's—a premium justified by its growth characteristics—and an 18x multiple to the consumer core, consistent with Procter & Gamble’s benchmark, we see a path to $92.00 per share [D06].\n\nThe market’s current skepticism is driven by 220bp of gross margin compression and currency headwinds [D03], [D05]. We view this as a transitory issue that can be rectified through operational rigor. Colgate’s 21.3% operating margin sits 270bp below P&G’s 24.0% standard, providing clear evidence that management can do better [D06].\n\nWe are engaging with CEO Noel Wallace to outline a plan for separation and margin enhancement [D01]. Our role is one of private constructivist, pushing for the rationalization of the portfolio to unlock value for all shareholders. If engagement yields no progress within two quarters, we are prepared to escalate our involvement [D01].\n\nWith a fundamental floor supported by stable consumer demand, the downside is protected at approximately $68.00 [D01], [D04]. We are initiating a 5% position in the common stock, supplemented by index puts to hedge our broader market beta exposure as we wait for the catalyst to play out.",
+  "uncited_claims": [
+   "Hill's EBIT: $0.95bn (Implied based on segment mix)"
+  ]
+ }
+}

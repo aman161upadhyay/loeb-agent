@@ -1,0 +1,53 @@
+{
+ "trade_id": "2008_pdl_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Royalty and commercial assets are obscured by excessive mixed-business spending. → Existing royalty cash flows provide a clear valuation floor that is currently obscured by the company's consolidated operating loss [D03; D04]",
+   "A separation should expose distinct commercial and development economics. → As an active investor, our role is to accelerate the divestment of non-core assets to prevent value leakage from further organizational realignment [D07]"
+  ],
+  "missed": [
+   "Independent oversight and leadership accountability are necessary to restrain wasteful spending.",
+   "Credible buyer interest should be evaluated against a disciplined standalone plan."
+  ],
+  "extra_agent_drivers": [
+   "Management’s announced strategic review has been too slow, resulting in continued cash burn and persistent margin underperformance",
+   "The clinical failure of the lead pipeline candidate demonstrates that the 'research' spending is an inefficient use of capital that threatens the royalty floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company's slow-motion restructuring threatens the underlying value of its royalty assets.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current operating margin of -7.0% compared to peer benchmarks highlights an unacceptable drift.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Recent clinical failure in ulcerative-colitis.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 3,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our original thesis was predicated on unlocking the value of the high-margin royalty stream by shedding the high-cost, low-return clinical operations [D07].",
+ "grader_notes": "The agent correctly matched the primary direction and captured the core thesis of separating royalty assets from operating costs. However, the agent included significant extra drivers focused on recent clinical failures and specific margin performance that were not part of Loeb's original April 2007 escalation drivers.",
+ "run": "2008_pdl_escalate__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

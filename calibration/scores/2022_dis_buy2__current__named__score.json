@@ -1,0 +1,53 @@
+{
+ "trade_id": "2022_dis_buy2",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Cut excessive costs and dispose of weak assets → Cost rationalization to close the operating margin gap vs peers",
+   "Accelerate the purchase of Comcast's Hulu minority and integrate the offering with Disney+ → Optimization of Hulu ownership mechanics",
+   "Refresh board skills in technology, advertising and consumer engagement → Review of capital allocation and board composition"
+  ],
+  "missed": [
+   "Reconsider an ESPN separation if contractual synergies can replicate shared ownership.",
+   "Keep dividend suspended to preserve reinvestment, debt-repayment and repurchase flexibility."
+  ],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts analysis valuation of $165"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Disney trails peers like Netflix at 19.8% and Comcast at 21.2%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains high-value, separable assets—most notably ESPN",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have engaged via HSR filing and are seeking direct dialogue with CEO Bob Chapek",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We see a clear path to $165 per share by unlocking value in the ESPN asset and rationalizing the corporate cost structure to reach margin parity [D03, D06, D07].",
+ "grader_notes": "The agent correctly matched the investment direction and a majority of the specific drivers identified by Third Point. The agent failed to cite the dividend suspension as a driver and framed the ESPN separation as a core demand rather than a request to reconsider based on contractual synergies. Overall, the reasoning aligns well with the catalyst-driven strategy.",
+ "run": "2022_dis_buy2__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2020_pcg_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "PIPE/post-reorganization equity exposure; exact entry NAV weight and cost not recovered.",
+  "first_action_date": null,
+  "first_action_window": "Chronology corrected: July 2020 underwriting cannot rely on Patti Poppe's subsequent appointment or performance.",
+  "disclosure_date": "2020-08-06",
+  "reason_class": null,
+  "opportunity_template": [
+    "E2",
+    "E3"
+  ],
+  "catalyst_role": "P5",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Bill Smith",
+      "bankruptcy court",
+      "California Public Utilities Commission",
+      "new PG&E board"
+    ],
+    "governance_route": "P5; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "A good utility business had been impaired by a bad capital structure rather than disappearing demand.",
+      "source": "https://www.gurufocus.com/news/1205100/daniel-loebs-third-point-2ndquarter-investor-letter (2020-08-06, retrospective relative to pack)",
+      "quote": "good business/bad capital structure"
+    },
+    {
+      "driver": "The recapitalization and post-reorganization equity provided a fresh capital-structure entry.",
+      "source": "https://www.gurufocus.com/news/1205100/daniel-loebs-third-point-2ndquarter-investor-letter (2020-08-06, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "Bankruptcy settlements and California's wildfire framework created a path toward financial normalization.",
+      "source": "https://www.gurufocus.com/news/1205100/daniel-loebs-third-point-2ndquarter-investor-letter (2020-08-06, retrospective relative to pack)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "Do not backdate Patti Poppe, later undergrounding results or 2023 valuation targets to July 2020.",
+  "sources": [
+    "https://www.gurufocus.com/news/1205100/daniel-loebs-third-point-2ndquarter-investor-letter (2020-08-06)",
+    "https://www.gurufocus.com/news/1205100/daniel-loebs-third-point-2ndquarter-investor-letter (2020-08-06, retrospective relative to pack)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Chronology corrected: July 2020 underwriting cannot rely on Patti Poppe's subsequent appointment or performance. AUM 12.7bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-ltd-third-point-may-2020-monthly-report-876562038.html (2020-06-03). AUM observation period 2020-05; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

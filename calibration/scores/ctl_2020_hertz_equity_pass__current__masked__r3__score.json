@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2020_hertz_equity_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No pre-reorganization Hertz common row in 2020 reportable history."
+  ],
+  "extra_agent_drivers": [
+   "The market is pricing the equity for a total wipeout, ignoring the potential residual value of the massive vehicle fleet asset base.",
+   "Our analysis of the creditor waterfall suggests that if fleet liquidation values hold, there is a path to equity recovery.",
+   "The Chapter 11 process creates a structured catalyst for asset realization.",
+   "We see an asymmetric risk/reward skew."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is currently trading as a terminal equity event, with the market pricing in a total wipeout following its May 22, 2020, Chapter 11 filing.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our sum-of-the-parts analysis, based on a $17.5 billion estimated fleet liquidation value against $17.1 billion in total debt, suggests residual equity value potential of roughly $411 million.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "The Company is currently trading as a terminal equity event, with the market pricing in a total wipeout following its May 22, 2020, Chapter 11 filing [D03], [D04].",
+ "grader_notes": "The agent proposed a speculative long position based on fleet asset value, whereas the answer key reflects that Third Point did not hold the pre-reorganization common equity during this period. The reasoning was entirely disconnected from the actual passive control status of the manager.",
+ "run": "ctl_2020_hertz_equity_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "BUY",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

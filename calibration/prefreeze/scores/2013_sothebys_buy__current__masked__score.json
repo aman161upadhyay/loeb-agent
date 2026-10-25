@@ -1,0 +1,53 @@
+{
+ "trade_id": "2013_sothebys_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Expenses near prior peak levels despite lower revenue reveal an operational efficiency gap. → The Company suffers from a persistent margin gap versus peers, with FY2012 operating margins at 27.9% despite the premium nature of the franchise [D06].",
+   "Board refresh and CEO succession supply the mechanism for restoration. → The annual director nomination process provides a clear and effective governance route to refresh the board and enforce strategic changes [D03].",
+   "Contemporary art, private sales, digital distribution and international markets provide specific growth routes. → Improvement in capital allocation to rectify poor deployment of cash and art-financing activities"
+  ],
+  "missed": [
+   "The iconic franchise is losing competitive ground because of leadership and strategic weakness.",
+   "CEO perquisites and scant director ownership contrast with an owner's incentives."
+  ],
+  "extra_agent_drivers": [
+   "A transition to 32% operating margins and improved capital stewardship supports a valuation of $64.50 per share [D06]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company suffers from a persistent margin gap versus peers, with FY2012 operating margins at 27.9%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market currently misprices the asset, viewing it as a stagnant, cyclical franchise",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are engaging with the board to request immediate board refreshment",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are engaging with the board to request immediate board refreshment and the installation of directors with specific expertise in strategic planning and capital discipline [D03].",
+ "grader_notes": "The agent correctly identified the direction as a BUY. Reasoning overlap was solid regarding operational efficiency gaps and the board refreshment governance mechanism. The agent failed to explicitly cite the leadership weakness and executive compensation concerns that were central to Loeb's rationale.",
+ "run": "2013_sothebys_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

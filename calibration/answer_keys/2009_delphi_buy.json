@@ -1,0 +1,56 @@
+{
+  "id": "2009_delphi_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Entry-specific NAV weight not recovered; later larger equity ownership is not inception weight.",
+  "first_action_date": null,
+  "disclosure_date": "2009-07-31",
+  "reason_class": null,
+  "opportunity_template": [
+    "E3",
+    "E2"
+  ],
+  "catalyst_role": "P5",
+  "instrument": "loan",
+  "plan": {
+    "actors": [
+      "Delphi debtor",
+      "GM",
+      "DIP lenders",
+      "bankruptcy court"
+    ],
+    "governance_route": "P5; creditor/court/official process, no assumed equity voting control",
+    "timetable_quarters": 3
+  },
+  "drivers": [
+    {
+      "driver": "Use senior restructuring paper rather than speculate in the old common stock.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf (2009-07-31; later stated rationale relative to pack cutoff); case-specific reconstruction from issuer restructuring documents and later July 2012 holding discussion, not recovered as a verbatim June 2009 stated entry reason",
+      "quote": null
+    },
+    {
+      "driver": "Underwrite individual auto claims bottom-up while distinguishing plausible survivors from losers.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf (2009-07-31; later stated rationale relative to pack cutoff)",
+      "quote": "each investment is generated through bottoms-up analysis"
+    },
+    {
+      "driver": "Restructuring can reset legacy costs and expose the industrial asset base's earnings power.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf (2009-07-31; later stated rationale relative to pack cutoff); case-specific reconstruction from issuer restructuring documents and later July 2012 holding discussion, not recovered as a verbatim June 2009 stated entry reason",
+      "quote": null
+    },
+    {
+      "driver": "The GM and bankruptcy process supplies a path to emergence and new ownership.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf (2009-07-31; later stated rationale relative to pack cutoff); case-specific reconstruction from issuer restructuring documents and later July 2012 holding discussion, not recovered as a verbatim June 2009 stated entry reason",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "DIP execution price unavailable. Later $35–40 stock target is a 2012 equity-retention estimate, not June 2009 underwriting.",
+  "outcome_note": "DIP-to-post-reorg equity ownership and later IPO retention documented; 'largest winner' ranking not independently verified.",
+  "sources": [
+    "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf",
+    "https://www.sec.gov/Archives/edgar/data/1072342/000095015209005095/k47832e10vq.htm",
+    "https://www.sec.gov/Archives/edgar/data/1072342/000095015209005732/k47942exv99wa.htm",
+    "https://www.marketfolly.com/2012/08/why-dan-loeb-still-owns-delphi-third.html"
+  ],
+  "pack_quality_notes": "Grade C. June entry identified retrospectively in July 2012 letter. July 2009 statement covers auto book, not every case-specific driver; cost-reset driver partly reconstructed from restructuring documents. Exact first fill, DIP tranche/price and fund AUM not recovered. June 1 announcement is same-day evidence; no later hearing result. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

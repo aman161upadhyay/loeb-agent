@@ -1,0 +1,60 @@
+{
+  "id": "2022_dis_buy2",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Significant economic stake; Sept30 agreement disclosed 6.35m beneficial shares, not the 1.4m Q3 common-only 13F.",
+  "first_action_date": null,
+  "first_action_window": "Purchase/position change predates or coincides with disclosure; exact first transaction date not recovered.",
+  "disclosure_date": "2022-08-15",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2→P3",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Bob Chapek",
+      "Disney board",
+      "Comcast"
+    ],
+    "governance_route": "P2→P3; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Cut excessive costs and dispose of weak assets.",
+      "source": "https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15)",
+      "quote": null
+    },
+    {
+      "driver": "Accelerate the purchase of Comcast's Hulu minority and integrate the offering with Disney+.",
+      "source": "https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15)",
+      "quote": null
+    },
+    {
+      "driver": "Reconsider an ESPN separation if contractual synergies can replicate shared ownership.",
+      "source": "https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15)",
+      "quote": "Can any synergies that exist between the two companies be replicated by contractual arrangements?"
+    },
+    {
+      "driver": "Refresh board skills in technology, advertising and consumer engagement.",
+      "source": "https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15)",
+      "quote": null
+    },
+    {
+      "driver": "Keep dividend suspended to preserve reinvestment, debt-repayment and repurchase flexibility.",
+      "source": "https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "ESPN spinoff call withdrawn Sept11. Sept30 settlement appointed Carolyn Everson with standstill. Common exited Q1 2023; derivative exit unresolved.",
+  "sources": [
+    "https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. AUM 14bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15). AUM observation period 2022-08; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

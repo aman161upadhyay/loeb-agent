@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2019_newell_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Newell/NWL/Jarden absent from complete 54-quarter index; no attributable Third Point public position comment recovered. Replaces Kraft Heinz, which WAS held Q3 2015–Q1 2016 (peak $582.285M)."
+  ],
+  "extra_agent_drivers": [
+   "The company is a conglomerate in a managed liquidation where activists already hold the board seats, leaving no room for our constructivist edge.",
+   "The core business is a melting ice cube with 2018 full-year core sales down 4.0%, raising concerns that divestitures will not outpace operational decay.",
+   "The valuation gap versus peers like Church & Dwight, who trade at significantly higher margins, is recognized by the market but hindered by high execution risk.",
+   "Our current portfolio is already heavily exposed to consumer and conglomerate turnarounds, limiting our capacity for further high-conviction exposure to this segment."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "With seven of eleven board seats controlled by Starboard Value and Carl Icahn, the governance path is already occupied.",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "2018 full-year core sales down 4.0%",
+    "citation": "D09",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We will watch from the sidelines as the incumbent activists execute their plan, but we see no reason to commit capital to a process that is already fully priced and crowded by high-conviction peers.",
+ "grader_notes": "The agent identifies this as a PASS decision, matching the actual observation. However, it fails to cite the index-based reason for the pass (as mandated by the answer key) and instead fabricates independent investment analysis/drivers that Loeb did not provide.",
+ "run": "ctl_2019_newell_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

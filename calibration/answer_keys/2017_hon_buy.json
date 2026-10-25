@@ -1,0 +1,51 @@
+{
+  "id": "2017_hon_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Significant long; original NAV weight not recovered.",
+  "first_action_date": null,
+  "first_action_window": "Requested April27 new-mode underwriting retained as campaign/addition replay, not literal initiation. Contemporary CNBC dates public letter April27 and reports 1.4m shares already owned December2016; April28 is the reproduction date, not first disclosure.",
+  "disclosure_date": "2017-04-27",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P1→P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Darius Adamczyk",
+      "Honeywell board"
+    ],
+    "governance_route": "P1→P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Separating Aerospace could create more than $20 billion in sustained shareholder value.",
+      "source": "https://www.marketfolly.com/2017/04/third-points-q1-letter-thesis-on.html (2017-04-28, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "The remaining company would have a clearer industrial growth identity around automation and productivity.",
+      "source": "https://www.marketfolly.com/2017/04/third-points-q1-letter-thesis-on.html (2017-04-28, retrospective relative to pack)",
+      "quote": "Spinning off Aerospace would transform Honeywell into an industrial growth company with a focus on automation and productivity."
+    },
+    {
+      "driver": "Strong underlying franchises and capital-deployment capacity supported self-help rather than a distress thesis.",
+      "source": "https://www.marketfolly.com/2017/04/third-points-q1-letter-thesis-on.html (2017-04-28, retrospective relative to pack)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "2017 streamlining did not implement the requested aerospace spin. Exact P&L and exit unresolved.",
+  "sources": [
+    "https://www.marketfolly.com/2017/04/third-points-q1-letter-thesis-on.html (2017-04-28)",
+    "https://www.cnbc.com/2017/04/27/honeywell-stock-jumps-more-than-3-percent-on-report-of-third-point-stake.html (2017-04-27; reports 1.4m shares already owned December2016 and a subsequent substantial addition)",
+    "https://www.marketfolly.com/2017/04/third-points-q1-letter-thesis-on.html (2017-04-28, retrospective relative to pack)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested April27 new-mode underwriting retained as campaign/addition replay, not literal initiation. Contemporary CNBC dates public letter April27 and reports 1.4m shares already owned December2016; April28 is the reproduction date, not first disclosure. AUM 17bn is firm/manager capital, not Offshore NAV, per https://www.insidermonkey.com/blog/third-points-portfolio-struggled-in-the-turbulent-third-quarter-378482/ (2015-10-18). AUM observation period 2015-10; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

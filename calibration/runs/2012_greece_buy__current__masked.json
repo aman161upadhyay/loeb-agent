@@ -1,0 +1,247 @@
+{
+ "pack": "2012_greece_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2012-06-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a sovereign entity whose debt obligations consist of newly issued sovereign bond strips following a private-sector debt exchange [D01]. Repayment is contingent upon government revenues, fiscal discipline, official funding, and continued monetary membership in the currency union [D01].",
+   "segments_and_separable_assets": [
+    "Not in pack"
+   ],
+   "economics_vs_peers": [
+    "The Company's social contributions account for 44% of wages compared to an EU average of 30–35% [D06].",
+    "Entry-level minimum wage is 50% above Portugal and 17% above Spain [D06].",
+    "Real GDP contraction of -6.5% year-on-year in Q1 2012 compared to a -6.2% flash estimate [D03, D06]."
+   ],
+   "capital_structure": [
+    "New debt issued as part of a debt exchange involving a 53.5% nominal haircut on old principal [D04].",
+    "New principal represents 31.5% and other securities represent 15% of old principal [D04].",
+    "Maturity ladder: 20 annual maturities from 2023–2042, each representing 5% of new principal [D04].",
+    "Coupon schedule: 2% (2012–2015), 3% (2016–2020), 3.65% (2021), 4.3% thereafter [D04].",
+    "Governing law: English law [D04]."
+   ],
+   "price_and_valuation": [
+    "Broad indicative cash price: approximately 10¢ per EUR1 new-bond face [D04].",
+    "Indicative current cash yield: approximately 20% [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "June 17 election to form a government and determine willingness to implement bailout program conditions [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Political deadlock or election of a government unwilling/unable to meet bailout conditions [D05, D07].",
+    "Deposit flight, funding shortages, potential capital controls, currency redenomination, or further restructuring [D05, D07].",
+    "Risk aversion among hedge funds, with many running only 10–30% of permitted risky-asset exposure [D01, D06]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "New sovereign bond strips under English law with a 53.5% nominal haircut [D04]."
+   ],
+   "recent_events": [
+    "June 8, 2012: Q1 2012 GDP contracted 6.5% year-on-year [D03].",
+    "June 15, 2012: Market reports indicate bond trading near 10 cents on the euro amid pre-election risk reduction [D02, D03]."
+   ],
+   "third_point_context": [
+    "Not in pack"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Current fund AUM, cash, gross/net exposure, sovereign concentration, exact June 15 strip constituents, and reconciled accrued-interest schedules."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The June 17, 2012 election determines the trajectory of sovereign bond recovery and commitment to bailout conditions [D03, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point's edge lies in applying distressed credit recovery analysis to sovereign strips trading at 10 cents on the euro amidst widespread market risk aversion and forced selling [D01, D04, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The process is defined by the official-sector bailout path and the impending June 17 election to establish government fiscal policy [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The new sovereign debt strips are governed by English law and reflect a 53.5% nominal haircut already taken, establishing a basis for recovery [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Distressed sovereign claims allow for position sizing in the $100M-$1B range from forced sellers despite the lack of conventional equity-like daily volume [D01, D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In sovereign distressed situations, the process (bailout conditions and official-sector path) supersedes corporate management credibility [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "We are buying distressed sovereign debt at a massive discount to par because the market is paralyzed by election risk, while we focus on the recovery value inherent in the restructured English-law strips.",
+   "one_line_verdict": "distressed sovereign bonds trading at 10 cents on the euro following a major haircut, where the election outcome determines the path of continued official support"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market views these sovereign bond strips as toxic assets prone to total loss due to election-driven uncertainty and currency risk, leading to forced liquidations. We believe this pricing is irrational as the bonds are governed by English law and already reflect a 53.5% nominal haircut, providing a substantial floor for recovery. The June 17 election serves as a binary catalyst that will clarify the path for continued official-sector support and fiscal commitment [D03, D04, D07].",
+   "evidence": [
+    "Bonds trading at approximately 10 cents on the euro, implying extreme pessimism [D04].",
+    "Widespread market risk aversion with many hedge funds running significantly reduced exposure [D01, D06].",
+    "Bonds feature English law protection and a 53.5% haircut, establishing a solid basis for recovery [D04]."
+   ],
+   "peer_benchmark": "The bonds represent sovereign debt with a 53.5% haircut [D04], while broader EU social contributions average 30–35% compared to the entity's 44% [D06].",
+   "what_must_be_true": [
+    "The June 17 election results in a government committed to bailout program conditions.",
+    "Official-sector funding remains available post-election.",
+    "The currency union membership is maintained.",
+    "English law remains effective for sovereign bond recovery."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "25¢ - 30¢ per EUR1 face",
+    "arithmetic": [
+     "Recovery assumption: 25-30% of new face value based on English law seniority and official-sector support post-election [D04]",
+     "Implied upside: 150% - 200% from current 10¢ price [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "10¢ per EUR1 face",
+    "basis": "Current market price reflecting worst-case political deadlock [D02, D04]"
+   },
+   "current_price": "10¢ per EUR1 face [D04]",
+   "skew": "2.5:1 : 0",
+   "irr_pct": {
+    "base": 35,
+    "bear": 0,
+    "bull": 50
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Recovery value of 25-30% assumes successful negotiation of bailout terms and retention of currency union membership post-election [D03, D07]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Continued adherence to EU/IMF bailout program conditions [D03, D07]"
+   ],
+   "actors": [
+    "Greek Electorate — Sovereign voters — Determinative [D03, D07]",
+    "Political parties (ND/SYRIZA) — Policy-makers — Determinative [D07]"
+   ],
+   "governance_route": "Sovereign electoral process and official-sector bailout negotiations [D03, D07]",
+   "timetable_quarters": 1,
+   "escalation_path": "Monitor adherence to reform benchmarks; reduce exposure if official funding is cut off or program exit is signaled",
+   "why_this_role_fits_the_era": "In distressed sovereign situations, the process is determined by official-sector bailout conditions and the electoral mandate; we act as opportunistic holders of undervalued, English-law restructured paper awaiting fiscal clarity."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Electoral victory of a party platform explicitly committed to repudiating the EU/IMF memorandum",
+    "Formal announcement of Greece's exit from the Eurozone",
+    "Failure of the official-sector to provide liquidity support to the banking system post-election",
+    "Enactment of capital controls that impede the settlement or valuation of the English-law bonds"
+   ],
+   "portfolio_risk": "Significant overlap with the current high-conviction distressed/sovereign credit theme; while these bonds provide diversification from traditional equity, there is heightened correlation to European peripheral volatility and macro contagion [D01, D06].",
+   "instrument": "bond",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 4,
+    "max": 5
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Hedge exposure via EUR/USD short positions or liquid index puts on European financial indices to mitigate currency redenomination and systemic banking contagion risks.",
+   "biggest_risk_in_one_sentence": "The primary risk is a political shift in the June 17 election that leads to a rejection of the bailout framework, potentially triggering a disorderly exit from the monetary union and further impairment of the debt."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-06-15",
+  "company": "The Hellenic Republic",
+  "ticker": "N/A",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 4,
+  "instrument": "bond",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "25¢ - 30¢ per EUR1 face",
+   "floor": "10¢ per EUR1 face",
+   "skew": "2.5:1",
+   "irr_pct": 35
+  },
+  "plan": {
+   "asks": [
+    "Continued adherence to EU/IMF bailout program conditions"
+   ],
+   "actors": [
+    "Greek Electorate",
+    "Political parties (ND/SYRIZA)"
+   ],
+   "governance_route": "Sovereign electoral process and official-sector bailout negotiations",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The sovereign bonds are trading at a distressed 10 cents on the euro, a valuation that ignores the recovery value of English-law debt already subjected to a 53.5% haircut [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The June 17 election acts as a binary catalyst that will resolve the current political paralysis and clarify the commitment to official-sector support [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Recovery value is estimated at 25-30 cents on the euro based on English law seniority and the necessity of maintaining currency union membership [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Current market pricing is driven by forced liquidations and extreme risk aversion rather than fundamental recovery analysis [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Electoral victory of a party platform explicitly committed to repudiating the EU/IMF memorandum",
+   "Formal announcement of Greece's exit from the Eurozone",
+   "Failure of the official-sector to provide liquidity support to the banking system post-election",
+   "Enactment of capital controls that impede the settlement or valuation of the English-law bonds"
+  ],
+  "what_would_change_our_mind": "A definitive break from the official-sector funding path or the electoral victory of a party explicitly committed to exiting the Eurozone would invalidate the recovery thesis.",
+  "memo": "We are initiating a position in Greek sovereign debt strips, which currently trade at 10 cents on the euro [D04]. The market is paralyzed by the upcoming June 17 election, leading to indiscriminate selling by funds running significantly reduced exposure [D01, D06].\n\nThese bonds, governed by English law, already reflect a 53.5% nominal haircut taken during the recent debt exchange [D04]. We view the current pricing as irrational, as it fails to account for the recovery value inherent in the restructured paper, which we estimate at 25-30 cents on the euro [D04].\n\nThe June 17 election serves as the binary catalyst that will determine whether the government remains committed to EU/IMF bailout conditions [D03, D07]. Success in these negotiations is essential to ensure continued liquidity support and the preservation of currency union membership [D03, D07].\n\nOur role is to act as an opportunistic holder of these claims through the transition of fiscal policy, while monitoring reform benchmarks and official funding [D04, D07]. We will move quickly to exit if the official-sector signals an end to the program or if a disorderly exit from the Eurozone becomes imminent [D05, D07].\n\nRisks include systemic contagion and political volatility, which we are managing by hedging our exposure via currency shorts and European financial index puts [D01, D06]. We are sizing the position at 4% of NAV to reflect the high conviction in the recovery math relative to the depressed entry price [D04].",
+  "uncited_claims": []
+ }
+}

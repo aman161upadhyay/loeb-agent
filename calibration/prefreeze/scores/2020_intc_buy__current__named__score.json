@@ -1,0 +1,62 @@
+{
+ "trade_id": "2020_intc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Restore advanced manufacturing competitiveness after losing leadership to Asian foundries. → Intel Corporation stands as one of the world's most important technology companies, yet it is currently a textbook case of a high-quality franchise suffering from profound managerial and technical drift.",
+   "Address engineering talent flight and human-capital management immediately. → A public push for board and management accountability is required to reverse the talent flight and R&D missteps that have plagued recent execution.",
+   "Develop a manufacturing/customer strategy able to serve competitors as customers. → We are issuing a public letter to the board to demand this strategic review, with a specific focus on the potential separation of the foundry operations."
+  ],
+  "missed": [
+   "Retain an adviser to examine strategic alternatives and failed acquisitions."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at a deeply depressed 9.7x P/E multiple and offers a 10% FCF yield."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Intel is a world-class technology franchise whose value has been obscured by a recurring loss of manufacturing leadership and persistent process delays.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company trades at a deeply depressed 9.7x P/E multiple and offers a 10% FCF yield.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "By separating the foundry business from design operations, Intel can address its margin gap.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "CEO Bob Swan and Chair Omar Ishrak must be held accountable for this underperformance.",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Risks remain, particularly regarding the depth of Intel's manufacturing challenges.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 7,
+  "share": 0.47
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe the current board and leadership, including CEO Bob Swan and Chair Omar Ishrak, must be held accountable for this underperformance and be pressured to execute a comprehensive strategic review.",
+ "grader_notes": "The agent correctly identified the core activist thesis, particularly regarding the need for structural change in manufacturing and management accountability. It was farthest from the key by focusing heavily on valuation multiples and internal SOTP analysis, which were not highlighted in the primary drivers listed in Loeb's letter.",
+ "run": "2020_intc_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

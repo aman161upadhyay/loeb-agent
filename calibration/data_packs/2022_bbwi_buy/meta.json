@@ -1,0 +1,25 @@
+{
+  "id": "2022_bbwi_buy",
+  "company": "Bath & Body Works, Inc.",
+  "ticker": "BBWI",
+  "aliases": [
+    "Bath & Body Works",
+    "Bath & Body Works, Inc.",
+    "Bath and Body Works",
+    "BBWI",
+    "L Brands",
+    "LB",
+    "Victoria's Secret",
+    "Victoria’s Secret",
+    "White Barn"
+  ],
+  "as_of_date": "2022-09-30",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Requested Feb1 2022 cutoff corrected to Sep30 2022: company/fund evidence says initiated Q3 2022. Governance settlement was March 2023, not Feb2022.",
+  "fund_aum_usd_bn": 14,
+  "fund_aum_observation_period": "2022-08",
+  "fund_aum_source_date": "2022-08-15",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested Feb1 2022 cutoff corrected to Sep30 2022: company/fund evidence says initiated Q3 2022. Governance settlement was March 2023, not Feb2022. AUM 14bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15). AUM observation period 2022-08; last verified, not asserted current."
+}

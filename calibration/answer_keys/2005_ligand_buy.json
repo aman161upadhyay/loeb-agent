@@ -1,0 +1,52 @@
+{
+  "id": "2005_ligand_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Less than 2% of approximately $4bn firm AUM at cost, per September 30 letter; not an exact fund-NAV measure.",
+  "first_action_date": null,
+  "disclosure_date": "2005-09-30",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "David Robinson",
+      "Ligand board",
+      "BDO Seidman"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Scientific assets and intellectual property retain value despite operating and accounting failures.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000089914005000895/t3006060c.txt (2005-09-30)",
+      "quote": null
+    },
+    {
+      "driver": "A strategic process can test substantial interest from potential product-line acquirers.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000089914005000895/t3006060c.txt (2005-09-30)",
+      "quote": null
+    },
+    {
+      "driver": "More than $600 million of NOLs and unrecognized real estate lift the asset-based downside estimate.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000089914005000895/t3006060c.txt (2005-09-30)",
+      "quote": "we have increased our $14 worst-case valuation of your shares to $17 per share."
+    },
+    {
+      "driver": "An independent committee, current financials and relaxation of the 10% pill can enable value realization.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000089914005000895/t3006060c.txt (2005-09-30)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "$17/share investor worst-case estimate, raised from $14; neither a binding offer nor entry price.",
+  "outcome_note": "Terminal transaction-level fund P&L not recovered.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1040273/000089914005000895/t3006060c.txt",
+    "https://www.sec.gov/Archives/edgar/data/886163/000088616305000029/ex99-1.txt"
+  ],
+  "pack_quality_notes": "Grade B. Requested new-mode snapshot occurs after September 23 disclosure: counterfactual fresh-capital replay, not true pre-first-purchase test. Firm $4bn source is same-day key letter. NOL amount and investor valuation kept out of docs to avoid embedding the answer; asset categories remain supported. December 2006 update describes a December 2, 2005 board arrangement, not first seats in December 2006. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2020_hertz_equity_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No pre-reorganization Hertz common row in 2020 reportable history."
+  ],
+  "extra_agent_drivers": [
+   "Bankruptcy and insolvency impairment",
+   "Absolute priority rules",
+   "Speculative retail-driven anomaly",
+   "Lack of creditor waterfall edge"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company has filed for Chapter 11 bankruptcy, rendering common equity fundamentally impaired by senior debt obligations",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total debt reaching approximately $18.8bn",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Shares close at $5.53 on June 8",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 7,
+  "share": 0.78
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on this opportunity.",
+ "grader_notes": "The agent correctly identified the PASS decision but reached it through independent fundamental analysis of the bankruptcy, whereas the key indicates the PASS is a retrospective observational label based on reportable history. The agent provided detailed valuation-based drivers that Loeb did not state in any official capacity for this control case.",
+ "run": "ctl_2020_hertz_equity_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

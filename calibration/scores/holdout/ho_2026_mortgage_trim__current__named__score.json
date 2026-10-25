@@ -1,0 +1,53 @@
+{
+ "trade_id": "ho_2026_mortgage_trim",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The manager refinanced a residential mortgage transaction in early March, selling over $300 million of risk inside a 5% yield.",
+   "Structural term leverage improved the retained exposure’s return profile.",
+   "Risk was monetized through asset-based financing while retaining upside rather than liquidating every loan."
+  ],
+  "extra_agent_drivers": [
+   "The core thesis remains that seasoned first-lien loans trading at a discount can be monetized as principal is pulled toward par through refinancing.",
+   "Borrower collateral remains robust, with disclosed borrower equity of 40-55% providing a significant cushion for the portfolio.",
+   "The external environment shows a slight decrease in benchmark mortgage rates, which may improve refinancing incentives for underlying borrowers.",
+   "The position serves as a core structured-credit exposure with identifiable operating levers, consistent with our opportunistic approach."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The fundamental thesis remains intact: these seasoned loans, purchased at a discount to par, offer a path to value creation through borrower refinancing",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "borrowers maintaining significant equity in their properties—specifically in the 40–55% range",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "slight decline in the US 30-year mortgage benchmark rate to 5.98%",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We continue to hold our position in the discounted first-lien residential mortgage portfolio.",
+ "grader_notes": "The agent missed the specific trim event occurring in early 2026, opting to hold the position based on the original investment thesis. The reasoning is entirely disconnected from the actual driver of the firm's decision to monetize $300M of risk via refinancing.",
+ "run": "ho_2026_mortgage_trim__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "TRIM",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

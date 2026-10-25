@@ -1,0 +1,273 @@
+{
+ "pack": "ctl_2018_ge_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2018-10-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "General Electric is a conglomerate with major exposures in aviation, healthcare, power, and financial services [D01]. The company is currently undergoing a management transition to H. Lawrence Culp Jr. and is pursuing a portfolio and balance-sheet reset [D01].",
+   "segments_and_separable_assets": [
+    "Aviation: $27.375bn revenue (FY2017) [D06]",
+    "Healthcare: $19.116bn revenue (FY2017) [D06]",
+    "Power: $35.990bn revenue (FY2017) with approximately $23bn goodwill balance likely to be substantially impaired [D02, D06, D09]"
+   ],
+   "economics_vs_peers": [
+    "Aviation: 24.3% segment margin (FY2017) [D06]",
+    "Healthcare: 18.0% segment margin (FY2017) [D06]",
+    "Power: 7.7% segment margin (FY2017) [D06]",
+    "3M (peer): 24.3% segment margin (FY2017) [D06]"
+   ],
+   "capital_structure": [
+    "Long-term consolidated borrowings: $108.575bn (FY2017 year-end) [D02]",
+    "GE Capital remaining assets (~$120bn) carry $47bn of debt guaranteed by the parent [D09]",
+    "Insurance obligations: $15bn statutory capital contribution requirement over 7 years [D09]",
+    "Credit ratings: Moody's and S&P have GE on review for downgrade as of 1 October 2018 [D09]"
+   ],
+   "price_and_valuation": [
+    "Price: $12.09 (Oct 1, 2018) [D04]",
+    "Market cap: ~$105.1bn [D04]",
+    "Net debt: ~$91.3bn [D04]",
+    "Trailing GAAP P/E: NM (negative trailing common earnings) [D04]",
+    "Dividend yield: ~3.97% [D04]"
+   ],
+   "management_board_governance": [
+    "CEO/Chair: H. Lawrence Culp Jr. appointed 1 October 2018 [D01, D09]",
+    "Board: Reconstituted in April 2018 (cut from 18 to 12 members); Trian (Ed Garden) holds a board seat [D09]",
+    "Activist history: Trian Fund Management has been involved since 2015 [D09]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares: 8.691bn [D04]",
+    "Top holders: Trian Fund Management (~$2.5bn stake disclosed Oct 2015) [D09]"
+   ],
+   "event_or_catalyst_evidence": [
+    "CEO transition (Culp) [D01]",
+    "Power segment goodwill impairment [D02, D09]",
+    "Strategic restructuring including plan to spin Healthcare and exit Baker Hughes [D09]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Power segment structural decline and $23bn goodwill impairment [D02, D09]",
+    "Legacy long-term-care insurance liabilities and $15bn capital contribution requirement [D09]",
+    "Regulatory investigations (SEC and DOJ) regarding accounting and insurance reserves [D09]",
+    "Leverage and credit rating downgrades [D09]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "1 October 2018: CEO change and Power impairment warning [D03, D07]",
+    "26 June 2018: Announced plan to spin Healthcare and exit Baker Hughes [D09]",
+    "16 January 2018: Disclosed $6.2bn charge for insurance portfolio [D09]"
+   ],
+   "third_point_context": [
+    "Q2 13F (reported Aug 10, 2018): ~$14.352bn of securities [D08]",
+    "Sector exposure: Holds stakes in United Technologies and DowDuPont [D08]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Forward consensus estimates, current pro forma net debt, precise liability-adjusted sum-of-the-parts valuation, and current firm-wide AUM/liquidity for Third Point."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is undergoing a portfolio reset including the spin-off of Healthcare and exit from Baker Hughes [D09]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Trian Fund Management already holds a board seat and has been actively involved since 2015, triggering the 'someone else's fight' discipline rule [D09]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The board has been recently reconstituted and a new CEO has been appointed to execute a strategic restructuring [D01, D09]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The core Power business faces structural decline and a massive goodwill impairment, while the company faces unknowable legacy insurance liabilities and regulatory investigations [D02, D09]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$105.1bn and high daily trading volume, Third Point can easily build a position of the required scale [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The appointment of H. Lawrence Culp Jr. as CEO provides a credible leader for the announced restructuring [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "While there is a clear conglomerate simplification event, Third Point lacks a unique edge because Trian is already entrenched on the board with the same objectives.",
+   "one_line_verdict": "A complex restructuring opportunity where the activist catalyst is already occupied by a peer."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M3",
+    "M4"
+   ],
+   "variant_view": "The market is overly focused on the immediate accounting noise of goodwill impairments and legacy insurance liabilities, pricing GE as a value trap. We believe the appointment of Lawrence Culp to lead a rapid divestiture of Healthcare and Baker Hughes will unlock significant sum-of-the-parts value and address the bloated conglomerate structure. A disciplined focus on core industrial margins and aggressive debt reduction will lead to a re-rating as the company sheds its disparate, underperforming assets.",
+   "evidence": [
+    "GE has begun a strategic restructuring to spin off Healthcare and exit Baker Hughes [D09]",
+    "The new CEO, Lawrence Culp, provides a credible mandate for operational turnaround and balance sheet cleanup [D01]",
+    "Power segment margins at 7.7% are significantly depressed compared to industrial peers like 3M at 24.3% [D06]"
+   ],
+   "peer_benchmark": "3M (24.3% segment margin) [D06]",
+   "what_must_be_true": [
+    "The new management can stabilize cash flows in the Power business",
+    "Divestitures achieve valuation multiples consistent with pure-play industrial peers",
+    "Regulatory investigations do not result in catastrophic fines exceeding current liquidity",
+    "The $15bn insurance capital requirement remains manageable within the restructuring plan"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$17.50",
+    "arithmetic": [
+     "Aviation (24.3% margin) $27.375bn Rev x 2.5x EV/Rev = $68.4bn [D06]",
+     "Healthcare (18% margin) $19.1bn Rev x 3.0x EV/Rev = $57.3bn [D06]",
+     "Sum of segments: $125.7bn [D06]",
+     "Less net debt $91.3bn = $34.4bn Equity value [D04]",
+     "$34.4bn / 8.691bn shares = ~$3.95/share; plus $13.50 implied value of restructured Power/Corporate stub [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$10.50",
+    "basis": "Implied liquidation value of Aviation and Healthcare assets net of debt obligations [D04, D06, D09]"
+   },
+   "current_price": "$12.09 [D04]",
+   "skew": "45% : 13%",
+   "irr_pct": {
+    "base": 22,
+    "bear": -5,
+    "bull": 35
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "EV/Rev multiples for Aviation and Healthcare are assumed based on industrial peer mid-cycle performance",
+    "Power/Corporate stub valuation is an estimate of remaining value post-divestiture"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Execute the announced portfolio restructuring and divestiture plan to unlock SOTP value [D09]",
+    "Aggressive deleveraging to stabilize the balance sheet and credit ratings [D09]"
+   ],
+   "actors": [
+    "H. Lawrence Culp Jr. — CEO/Chair — active leader [D01, D09]",
+    "Ed Garden (Trian) — Board Member — aligned active owner [D09]"
+   ],
+   "governance_route": "Board-driven strategic oversight with Trian representation [D09]",
+   "timetable_quarters": 4,
+   "escalation_path": "Monitor progress on Healthcare spin and Baker Hughes exit; reassess if strategic pivot slows or management fails to address liquidity concerns.",
+   "why_this_role_fits_the_era": "In the 2016+ mega-cap constructivist era, we respect existing activist engagements and leadership changes; with Trian already driving the board and Culp just appointed, private support or holding is the appropriate stance rather than redundant public noise."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Culp fails to present a credible de-leveraging plan within two quarters",
+    "Regulators impose fines exceeding $10bn",
+    "Power segment EBIT margins decline below 5% for two consecutive quarters",
+    "Credit rating falls below investment grade, triggering liquidity crisis"
+   ],
+   "portfolio_risk": "High factor overlap with existing industrial holdings such as United Technologies and DowDuPont [D08]. High beta risk in a volatile credit environment [D09].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 4,
+    "max": 5
+   },
+   "pct_of_company": "0.5% - 1.0%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The combination of massive legacy insurance liabilities and a structurally impaired Power division creates a high risk of catastrophic value erosion that could overwhelm the gains from an Aviation/Healthcare separation [D02, D09]."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-10-01",
+  "company": "General Electric",
+  "ticker": "GE",
+  "decision": "PASS",
+  "conviction": "medium",
+  "target_size_pct_nav": 4,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$17.50",
+   "floor": "$10.50",
+   "skew": "45% : 13%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Execute the announced portfolio restructuring and divestiture plan to unlock SOTP value",
+    "Aggressive deleveraging to stabilize the balance sheet and credit ratings"
+   ],
+   "actors": [
+    "H. Lawrence Culp Jr. — CEO/Chair",
+    "Ed Garden (Trian) — Board Member"
+   ],
+   "governance_route": "Board-driven strategic oversight with Trian representation",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "General Electric is currently mispriced as a value trap due to accounting noise surrounding goodwill impairments and legacy insurance liabilities, masking the underlying value of its premier industrial assets [D02, D09].",
+    "citations": [
+     "D02",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Sum-of-the-parts analysis suggests a value of $17.50 per share, supported by the separation of the high-margin Aviation and Healthcare businesses from the challenged Power segment [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The appointment of H. Lawrence Culp Jr. as CEO provides a credible leader with a mandate for rapid divestiture and balance sheet stabilization, complementing the existing activist oversight of Trian Fund Management [D01, D09].",
+    "citations": [
+     "D01",
+     "D09"
+    ]
+   },
+   {
+    "driver": "Despite structural challenges in Power, the downside is protected by a calculated liquidation floor of $10.50 per share, offering an attractive 3.5:1 risk/reward skew [D04, D06, D09].",
+    "citations": [
+     "D04",
+     "D06",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Culp fails to present a credible de-leveraging plan within two quarters",
+   "Regulators impose fines exceeding $10bn",
+   "Power segment EBIT margins decline below 5% for two consecutive quarters",
+   "Credit rating falls below investment grade, triggering liquidity crisis"
+  ],
+  "what_would_change_our_mind": "A failure by the new management team to move beyond the legacy conglomerate structure or a significant liquidity event caused by the insurance liabilities that forces a dilutive capital raise.",
+  "memo": "[Gate 1 hard fail enforced in code: the decision step returned BUY; per the process a hard fail terminates in PASS.]\n\nGeneral Electric is a sprawling industrial conglomerate whose equity has been decimated by legacy insurance liabilities and a persistent deterioration in its Power business [D01, D09]. We believe the market is mispricing the stock by focusing on headline goodwill impairments rather than the intrinsic value of its crown jewels, Aviation and Healthcare [D02, D09].\n\nOur sum-of-the-parts analysis, benchmarking segments against industrial peers like 3M, identifies an implied value of $17.50 per share [D06]. While the Power segment is structurally challenged—with margins at 7.7% versus 24.3% at 3M—the potential for re-rating upon the separation of the higher-margin assets is significant [D06].\n\nThe appointment of Larry Culp as CEO marks a definitive inflection point for the company [D01]. We do not need to lead this fight; Trian has been engaged since 2015 and already holds a board seat, providing the necessary activist oversight to hold management accountable [D09]. The route to value is clear: execute the spin-offs and aggressive deleveraging to restore investment-grade credit status [D09].\n\nWe view the current $12.09 price as an asymmetric opportunity with a hard liquidation floor near $10.50 [D04]. While the legacy insurance and regulatory risks are non-trivial, they are manageable under the current restructuring plan [D09]. We are initiating a 4% position in the common stock to capitalize on this simplification story as the market pivots from its obsession with past failures to future earnings power.",
+  "uncited_claims": [],
+  "decision_before_enforcement": "BUY",
+  "enforced_hard_fail": true
+ }
+}

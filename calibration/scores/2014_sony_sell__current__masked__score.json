@@ -1,0 +1,45 @@
+{
+ "trade_id": "2014_sony_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Some operational and cost changes delivered progress despite rejection of the partial spinout → \"The board has now explicitly reviewed this structure and chosen to reject the restructuring\"",
+   "Electronics execution disappointed and successive profit warnings reduced confidence in the remaining turnaround → \"Recent financial updates highlight the ongoing struggles in the electronics segment, underscored by a ¥180bn impairment\"",
+   "Realize the investment gain rather than rely on a structural proposal management will not implement → \"We do not seek to hold positions simply for the hope of eventual operational improvement when the governance route to value creation has been closed\""
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "We are not in the business of winning arguments; once the catalyst is spent, we exit rather than waiting for long-term recovery"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The board has rejected the minority entertainment listing",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Mobile communications goodwill impairment signals lower future cash flows",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We do not seek to hold positions simply for the hope of eventual operational improvement when the governance route to value creation has been closed.",
+ "grader_notes": "The agent correctly identified the primary drivers behind the sell decision, specifically the rejection of the spin-out proposal and the disappointment in electronics execution. Reasoning was closest to Loeb's rationale regarding capital reallocation away from a broken structural thesis, though the agent framed it with more explicit emphasis on 'winning arguments' than the provided key.",
+ "run": "2014_sony_sell__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

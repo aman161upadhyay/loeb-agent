@@ -1,0 +1,249 @@
+{
+ "pack": "2012_greece_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2012-06-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The investment consists of newly issued sovereign bond strips of the Hellenic Republic following the private-sector debt exchange (PSI) [D01]. Repayment is contingent on government revenues, spending discipline, continued official funding, and monetary membership rather than corporate EBITDA [D01].",
+   "segments_and_separable_assets": [
+    "Not in pack"
+   ],
+   "economics_vs_peers": [
+    "Greek social contributions are 44% of wages, significantly higher than the EU average of 30–35% [D06].",
+    "Entry-level minimum wage in Greece is 50% above Portugal and 17% above Spain [D06]."
+   ],
+   "capital_structure": [
+    "Post-PSI debt maturity ladder runs 2023–2042 in 20 annual tranches [D04].",
+    "Coupon schedule is 2% through 2015, 3% through 2020, 3.65% in 2021, and 4.3% thereafter [D04].",
+    "Governing law is English law [D04]."
+   ],
+   "price_and_valuation": [
+    "Broad indicative cash price is approximately 10¢ per EUR1 new-bond face [D04].",
+    "Indicative current cash yield is approximately 20% (based on 2% coupon/10¢ price, assuming payment) [D04].",
+    "S&P 500 trailing P/E as of June 15 is 15.22x [D04]."
+   ],
+   "management_board_governance": [
+    "Not applicable to sovereign debt; political process and willingness to implement bailout programs determine outcomes [D03, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Many hedge funds reported holding only 10–30% of permitted risky-asset exposure [D01, D06].",
+    "Fund-manager cash balances reported at 5.3% [D01, D06]."
+   ],
+   "event_or_catalyst_evidence": [
+    "June 17, 2012 election to determine government formation and willingness to meet bailout conditions [D02, D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential government unwillingness to meet bailout conditions [D05, D07].",
+    "Political deadlock leading to deposit flight, capital controls, redenomination, or further restructuring [D05, D07].",
+    "Sovereign lack of funding creating currency risk [D05, D07]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "New Greek principal received was 31.5% of old eligible principal [D04].",
+    "EFSF securities received were 15% of old principal [D04].",
+    "Nominal haircut on old-face principal was 53.5% [D04]."
+   ],
+   "recent_events": [
+    "June 8, 2012: Q1 2012 GDP contraction reported at -6.5% year-on-year [D03, D06].",
+    "June 15, 2012: Investors reducing risk ahead of upcoming June 17 election [D02, D03]."
+   ],
+   "third_point_context": [
+    "Not in pack"
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Exact June 15 strip constituents, verified executed strip price, fully reconciled June debt stock, government unrestricted cash, and Third Point's specific AUM or exposure levels."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The investment involves sovereign bond strips issued following the PSI debt exchange, with the upcoming June 17, 2012 election serving as a binary catalyst for bailout compliance [D01, D02, D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point’s edge lies in the credit-distressed recovery analysis of post-reorg sovereign paper trading at deep discounts (10¢) amidst forced selling and market-wide risk reduction [D01, D04, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The process is governed by English law and the official-sector bailout path, where adherence to fiscal conditions determines repayment feasibility [D03, D04, D07]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "Repayment is contingent on political willingness and official funding rather than a tangible collateral or asset-based waterfall, making a formal downside floor difficult to quantify [D01, D03]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The distressed nature of sovereign debt allows for significant position building as other hedge funds liquidate risky assets ahead of political uncertainty [D01, D06]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In sovereign distressed situations, the 'management' is the political process and the institutional commitment to the bailout, which is the primary subject of the upcoming election [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The catalyst is the June 2012 Greek election which will determine continued bailout funding for newly issued sovereign strips currently mispriced at approximately 10¢ on the dollar.",
+   "one_line_verdict": "a distressed sovereign credit play on Greek electoral outcomes and bailout continuity."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market is pricing in a high probability of Greek exit from the Eurozone and total default due to the upcoming June 17 election [D05, D07]. We believe the bonds are mispriced at 10¢ because the market ignores the strong political and institutional incentive for the EU to maintain the Eurozone's integrity [D03, D07]. The election will serve as a catalyst for a pro-bailout government to form, ensuring continued official funding and recovery value well above current distressed levels [D02, D03].",
+   "evidence": [
+    "June 17, 2012 election serves as a binary catalyst for bailout compliance [D02, D03, D07].",
+    "Current pricing at 10¢ reflects extreme pessimism regarding sovereign insolvency and currency risk [D04, D05].",
+    "Hedge fund liquidation and low risk-asset exposure indicate forced selling [D01, D06]."
+   ],
+   "peer_benchmark": "EU-wide sovereign debt recovery and historical post-reorg credit benchmarks [D04].",
+   "what_must_be_true": [
+    "A government is formed that is willing to adhere to the terms of the EU/IMF bailout [D03, D07].",
+    "The European Central Bank and EU partners remain committed to providing liquidity to prevent a chaotic redenomination [D03, D07].",
+    "English law governing the new sovereign bond strips remains enforceable in the event of default [D04]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "25¢-30¢",
+    "arithmetic": [
+     "Recovery value estimated at 2.5x-3x current distressed price [D04]",
+     "Implied value based on return to normalized distressed trading levels post-bailout certainty [D03, D07]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "8¢-10¢",
+    "basis": "Current market floor at 10¢ per EUR1 face value [D04]"
+   },
+   "current_price": "10¢ [D04]",
+   "skew": "150%-200% : 0%-20%",
+   "irr_pct": {
+    "base": 40,
+    "bear": -10,
+    "bull": 60
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Recovery value of 25-30¢ assumes successful implementation of bailout program and avoidance of chaotic redenomination [D03, D07]",
+    "No data on specific recovery models provided in pack; valuation relies on distressed market benchmarks [D04]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Not applicable to sovereign debt [D03, D07]"
+   ],
+   "actors": [
+    "Hellenic Republic — sovereign issuer — N/A [D01]",
+    "EU/IMF/ECB — bailout providers — official-sector oversight [D03, D07]"
+   ],
+   "governance_route": "English law and official-sector bailout compliance [D03, D04, D07]",
+   "timetable_quarters": 1,
+   "escalation_path": "No escalation path for sovereign debt; we monitor the June 17 election and subsequent bailout compliance, exiting if the political commitment to official funding breaks.",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point engages in opportunistic distressed sovereign situations where the catalyst is a binary political event and the governance route is defined by the terms of the official-sector bailout, necessitating a passive, analytical holding stance rather than traditional corporate activism [D03, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Formation of a government that explicitly rejects the terms of the EU/IMF bailout [D03, D07].",
+    "Evidence of a sustained deposit flight leading to the immediate implementation of capital controls or redenomination [D05, D07].",
+    "Failure of the ECB or EU partners to provide necessary liquidity to support banking stability post-election [D03, D07]."
+   ],
+   "portfolio_risk": "High correlation with systemic Eurozone risk and sovereign credit sentiment [D05]. We are sensitive to forced liquidation in the hedge fund space [D01, D06]. Liquidity is moderate; while distressed, these are sovereign instruments [D04]. We hedge using broader index shorts or macro currency hedges [D01].",
+   "instrument": "bond",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 3,
+    "max": 5
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 2,
+   "hedge_overlay": "Macro hedge via index shorts to mitigate systemic Eurozone contagion risk.",
+   "biggest_risk_in_one_sentence": "The primary risk is a disorderly Greek exit from the Eurozone or a total repudiation of sovereign obligations by a newly elected anti-bailout government."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-06-15",
+  "company": "Hellenic Republic post-PSI bonds (GGB)",
+  "ticker": "N/A",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 3,
+  "instrument": "bond",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "25¢-30¢",
+   "floor": "8¢-10¢",
+   "skew": "150%-200% : 0%-20%",
+   "irr_pct": 40
+  },
+  "plan": {
+   "asks": [
+    "Not applicable to sovereign debt"
+   ],
+   "actors": [
+    "Hellenic Republic",
+    "EU/IMF/ECB"
+   ],
+   "governance_route": "English law and official-sector bailout compliance",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The market is pricing Greek debt at 10¢ on the dollar, a level that assumes an immediate Eurozone exit and total default [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The June 17 election acts as a binary catalyst, with the high probability of a pro-bailout government ensuring continued official funding and recovery value [D02, D03, D07].",
+    "citations": [
+     "D02",
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Current distressed valuations offer an asymmetric 2.5x-3x upside potential as parity with normalized sovereign credit benchmarks returns [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Forced selling by hedge funds reducing risky-asset exposure has created an artificial floor for entry at 10¢ [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Formation of a government that explicitly rejects the terms of the EU/IMF bailout [D03, D07].",
+   "Evidence of a sustained deposit flight leading to the immediate implementation of capital controls or redenomination [D05, D07].",
+   "Failure of the ECB or EU partners to provide necessary liquidity to support banking stability post-election [D03, D07]."
+  ],
+  "what_would_change_our_mind": "A breakdown in political willingness to adhere to EU/IMF bailout conditions or a clear path toward disorderly redenomination would invalidate our thesis.",
+  "memo": "The Hellenic Republic’s post-PSI sovereign bonds are currently trading at a distressed 10¢ on the dollar, a price that reflects nothing less than the market’s expectation of a total collapse and a chaotic Eurozone exit [D04, D05]. This is a profound mispricing that ignores the strong institutional imperative of the EU and ECB to maintain the integrity of the Eurozone [D03, D07].\n\nWe estimate a recovery value of 25¢-30¢, representing 2.5x-3x our entry price, based on a return to normalized distressed trading benchmarks once the binary risk of the June 17 election is cleared [D03, D04]. This valuation compares favorably against peers, even acknowledging Greece’s structural challenges, such as a minimum wage 50% above Portugal’s and onerous social contributions at 44% of wages [D06].\n\nThe market’s fear is rooted in the possibility of an anti-bailout government, but the outcome of the June 17 election will serve as the immediate catalyst to shift sentiment [D02, D03, D07]. We anticipate the formation of a government willing to adhere to the EU/IMF program, which is the only viable path to securing the liquidity required to sustain the sovereign’s obligations [D03, D07].\n\nOur role here is as an opportunistic investor in a P0 situation, where we rely on the framework of English law governing these instruments and the continued oversight of official-sector bailout providers [D03, D04, D07]. We are not looking for a corporate management change, but for the political process to resolve the current deadlock, with a clear one-quarter timeline for the situation to evolve [D03, D07].\n\nThe risks are significant, headlined by the possibility of total obligation repudiation or a disorderly exit from the Eurozone [D05, D07]. However, the current entry price of 10¢ provides a hard floor against further liquidation, and we have sized our position at 3% of NAV to reflect this risk while maintaining macro hedges via index shorts to mitigate systemic contagion [D01, D04, D05]. We will exit immediately if the political commitment to official funding breaks, as our edge is binary and contingent on bailout compliance [D03, D07].",
+  "uncited_claims": []
+ }
+}

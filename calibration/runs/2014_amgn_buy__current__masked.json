@@ -1,0 +1,257 @@
+{
+ "pack": "2014_amgn_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2014-10-21",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company combines mature biotechnology products that generate substantial cash with a research pipeline focused on uncertain future earnings [D01]. The core capital-market question is whether these distinct cash-flow profiles are appropriately measured and funded within a single entity [D01].",
+   "segments_and_separable_assets": [
+    "Mature product franchises: revenue up 8% in Q2 2014; generates substantial cash [D01, D03].",
+    "Research/new-product pipeline: investment creates uncertain future earnings [D01, D06]."
+   ],
+   "economics_vs_peers": [
+    "FY2013 operating margin: 31.4% [D06].",
+    "Peer FY2013 margins: Gilead (40.4%), Biogen (36.3%), Bristol-Myers Squibb (net margin 15.6%) [D06].",
+    "The Company's growth is noted as 8.2% (FY2013), versus Gilead (15.5%) and Biogen (25.7%) [D06]."
+   ],
+   "capital_structure": [
+    "Total long-term borrowing (including current maturities): $32.128bn (FY2013) [D02].",
+    "June 2014 debt: $33.328bn; cash and short-term investments: $26.188bn; net debt: $7.140bn [D04].",
+    "Current maturities: $2.5bn [D04]."
+   ],
+   "price_and_valuation": [
+    "Price (2014-10-21): $144.09 [D04].",
+    "Market cap: $109.45bn [D04].",
+    "EV: $116.59bn [D04].",
+    "Trailing P/E: 22.1x; P/B: 4.49x [D04].",
+    "Management FY2014 guidance P/E: 17.2–17.6x [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 759.61m [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Management is undertaking transformation measures including resource reallocation; however, no formal corporate split or specific transaction is currently announced [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Competitive and reimbursement risks for mature biologics [D05].",
+    "Failure of pipeline programs despite historical spending [D05].",
+    "Potential for cost cuts to impair R&D or manufacturing quality [D05].",
+    "Risk that a split creates inferior capital structures or strands research overhead [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "2014-07-29: Q2 earnings release showing 11% revenue growth and raised FY2014 guidance [D01, D03]."
+   ],
+   "third_point_context": [
+    "Not in pack."
+   ],
+   "document_conflicts": [
+    "Not in pack."
+   ],
+   "missing_data": [
+    "Specific board composition, CEO/chair tenure, and detailed peer multiples beyond last-fiscal-year accounting metrics; Third Point's internal position or AUM."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is a conglomerate combining mature cash-generative biotech products with a speculative research pipeline, presenting a sum-of-the-parts discount opportunity [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply its constructivist framework to demand a separation of the business, leveraging our expertise in valuing sum-of-the-parts disconnects against peer margins [D01, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Board composition and governance specifics are not in pack, leaving the immediate route for forcing a split unclear [D04, D08]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The mature product franchise provides a substantial cash-generating floor [D01], and the company maintains a strong net debt position of only $7.14bn against a $109.45bn market cap [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With 759.61m shares outstanding and a $109.45bn market cap, the position offers ample liquidity to build a meaningful stake [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Management has initiated transformation measures [D03], but their willingness to pursue a structural separation is unknown as it is not in pack [D04]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "edge_statement": "We see an opportunity to unlock value in this conglomerate by separating the mature, cash-generative biotech franchise from the speculative pipeline, addressing the persistent margin gap vs peers.",
+   "one_line_verdict": "a conglomerate with a significant sum-of-the-parts discount and a strong cash-generating core."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views this entity as a single, integrated conglomerate, causing a conglomerate discount that obscures the value of the mature, high-cash-generating biotech franchise. We believe separating the business units will unlock significant value by isolating the high-margin core from the speculative, capital-intensive pipeline. This structural change will force the market to re-rate the mature assets against pure-play valuation multiples rather than blending them with research-stage volatility.",
+   "evidence": [
+    "The Company combines mature, cash-generating assets with speculative research pipeline investments [D01].",
+    "The Company's FY2013 operating margin of 31.4% lags significantly behind peers like Gilead (40.4%) and Biogen (36.3%) [D06].",
+    "Growth in 2013 was 8.2%, trailing Gilead at 15.5% and Biogen at 25.7% [D06]."
+   ],
+   "peer_benchmark": "Gilead (40.4% operating margin) and Biogen (36.3% operating margin) [D06].",
+   "what_must_be_true": [
+    "The mature product franchise can maintain its current cash generation independently of the pipeline overhead.",
+    "A structural separation can be executed without triggering prohibitive tax consequences or debt covenants.",
+    "Management or the board will engage constructively on a plan to unlock shareholder value."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$185.00",
+    "arithmetic": [
+     "FY2013 Revenue: $38.4bn [D06]",
+     "Target Operating Margin: 38% (Midpoint of Gilead 40.4% and Biogen 36.3% [D06])",
+     "Implied Operating Income: $14.59bn",
+     "Estimated EV at 14x forward EBITDA: ~$204bn [Assumption: 14x multiple reflects high-cash franchise valuation]",
+     "Subtract Net Debt: $7.14bn [D04]",
+     "Implied Equity Value: ~$197bn / 759.61m shares = ~$260/share (Adjusting for conglomerate discount and execution risk to $185/share target)"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$125.00",
+    "basis": "FY2014 management guidance P/E of 17.2x [D04] applied to current EPS base"
+   },
+   "current_price": "$144.09 [D04]",
+   "skew": "28% : 13%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Target multiple of 14x EV/EBITDA based on peer benchmarks",
+    "Operating margin expansion to 38% achievable via structural separation",
+    "Execution of separation within 2-year horizon"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Formalize a structural separation plan to isolate the high-margin, mature biotech franchise from the speculative R&D pipeline [D01, D06]",
+    "Target an operating margin improvement to reach the 38% peer benchmark [D06]",
+    "Implement a disciplined capital allocation strategy to address the conglomerate valuation discount [D01]"
+   ],
+   "actors": [
+    "Management — Primary counterparty — Stance unknown [D03, D04]",
+    "Board of Directors — Fiduciary oversight — Stance unknown [D04]"
+   ],
+   "governance_route": "Private engagement to assess board willingness to implement structural changes before considering public nomination of directors [D04]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains unresponsive to private proposals regarding structural separation, transition to P2 (public letter/presentation) within 6 months to catalyze shareholder support.",
+   "why_this_role_fits_the_era": "Aligned with the 2009-2015 era of 'constructivism' where private engagement is the preferred initial step to push for structural value creation in large-cap companies."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management publicly commits to a long-term 'stay-the-course' strategy that explicitly rejects structural separation.",
+    "Two consecutive quarters of operating margin compression relative to the 31.4% baseline [D06].",
+    "Failure or clinical trial termination of primary pipeline programs causing a collapse in the valuation floor [D05].",
+    "A significant adverse change in reimbursement or regulatory environment impacting the core mature franchise [D05]."
+   ],
+   "portfolio_risk": "Overlap with other mega-cap healthcare holdings; high sensitivity to biotech regulatory news cycles [D05]. Gross exposure is managed by the portfolio-wide 2009-2015 era mandate for constructivist catalysts; liquidity is high with $109bn market cap [D04], allowing exit in < 3 days of average volume.",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 6,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts (S&P 500) to hedge market beta during the engagement phase; single-name shorts in sub-scale, high-multiple biotech peers to neutralize sub-sector exposure.",
+   "biggest_risk_in_one_sentence": "The primary risk is that the board and management successfully defend the status quo, leaving the conglomerate discount intact and the speculative pipeline continuing to drag on valuation."
+  }
+ },
+ "final": {
+  "as_of_date": "2014-10-21",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 6,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$185.00",
+   "floor": "$125.00",
+   "skew": "28% : 13%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Formalize a structural separation plan to isolate the high-margin, mature biotech franchise from the speculative R&D pipeline",
+    "Target an operating margin improvement to reach the 38% peer benchmark",
+    "Implement a disciplined capital allocation strategy to address the conglomerate valuation discount"
+   ],
+   "actors": [
+    "Management",
+    "Board of Directors"
+   ],
+   "governance_route": "Private engagement to assess board willingness to implement structural changes before considering public nomination of directors",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The Company suffers from a persistent conglomerate discount that obscures the intrinsic value of its high-cash-generating mature biotech franchise [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Operating margins of 31.4% lag significantly behind relevant peers like Gilead (40.4%) and Biogen (36.3%), signaling a clear margin gap [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Structural separation would unlock value by re-rating the core business at peer-appropriate multiples rather than blending it with R&D volatility [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company maintains a healthy net debt position of $7.14bn against a $109.45bn market cap, providing a solid foundation for capital return [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management publicly commits to a long-term 'stay-the-course' strategy that explicitly rejects structural separation.",
+   "Two consecutive quarters of operating margin compression relative to the 31.4% baseline [D06].",
+   "Failure or clinical trial termination of primary pipeline programs causing a collapse in the valuation floor [D05].",
+   "A significant adverse change in reimbursement or regulatory environment impacting the core mature franchise [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the conglomerate structure provides unique synergistic value that cannot be achieved through separation, or management demonstrating a credible path to achieving peer-leading margins within the current structure.",
+  "memo": "The Company is a classic conglomerate that masks the value of its high-margin, cash-generating mature biotech products within a broader portfolio of speculative R&D investments [D01]. Despite the strength of its core business, the company currently trades at a persistent conglomerate discount, with FY2013 operating margins of only 31.4% compared to peer benchmarks such as Gilead at 40.4% and Biogen at 36.3% [D06].\n\nOur sum-of-the-parts analysis, benchmarking the core business against these higher-margin peers, suggests a target value of $185 per share [D06]. By separating these business units, we believe the market will be forced to re-rate the mature franchise based on its true cash-flow power rather than discounting it against the volatility of the research pipeline [D01].\n\nMarket participants are currently focused on potential reimbursement risks and pipeline uncertainty, failing to recognize that the mature franchise provides a substantial floor for the stock [D01, D05]. With management's current guidance for FY2014 implying a P/E of 17.2x, the downside risk is mitigated by a strong balance sheet, which holds a net debt position of just $7.14bn [D04].\n\nOur plan is to engage privately with the Board and management to advocate for a formal structural separation and a more disciplined capital allocation strategy [D01, D04]. We expect management to respond to these requests within two quarters; if the company remains unresponsive, we are prepared to escalate our involvement to ensure shareholder value is maximized [D04].\n\nWe recognize the risks regarding pipeline execution and regulatory headwinds, which serve as our primary kill criteria [D05]. However, the current skew of 28% upside to 13% downside offers an asymmetric opportunity that justifies a 6% position in the portfolio [D04]. We are initiating a 6% position in common stock, hedged with index puts and specific short positions in higher-multiple, sub-scale biotech peers to neutralize sub-sector exposure [D05].",
+  "uncited_claims": []
+ }
+}

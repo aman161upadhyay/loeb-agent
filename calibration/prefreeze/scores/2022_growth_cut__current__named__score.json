@@ -1,0 +1,53 @@
+{
+ "trade_id": "2022_growth_cut",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Valuations were incompatible with the changing rate environment → Rising discount rates fundamentally impair the valuation of long-duration growth assets"
+  ],
+  "missed": [
+   "Reduce and substantially hedge the volatile SentinelOne concentration and exit other large equity exposures.",
+   "Increase selective single-name shorts while reducing basket and market hedges.",
+   "Maintain buying power for idiosyncratic events and cash-returning energy/cyclical opportunities."
+  ],
+  "extra_agent_drivers": [
+   "Tightening liquidity conditions jeopardize the funding models for venture and SPAC-related holdings",
+   "High and persistent inflation necessitates a defensive pivot away from speculative growth"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Federal Reserve initiated a rate-hiking cycle on March 16",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "February CPI reached 7.9% YoY",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "VIX rising to 20.56",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 4,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our priority is to cut gross exposure, particularly where cash conversion is weak or business models rely on easy financing [D01; D05].",
+ "grader_notes": "The agent correctly identified the direction to reduce gross exposure in response to the changing macro environment. However, the reasoning overlap was low because the agent focused on general macro drivers rather than the specific portfolio adjustments (SentinelOne hedging, specific shorting strategies, and energy/cyclical rotation) cited in the Third Point investor letter.",
+ "run": "2022_growth_cut__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,26 @@
+{
+  "id": "2020_intc_buy",
+  "company": "Intel Corporation",
+  "ticker": "INTC",
+  "aliases": [
+    "Alder Lake",
+    "INTC",
+    "Intel",
+    "Intel Core",
+    "Intel Corporation",
+    "Intel Foundry",
+    "Mobileye",
+    "NAND",
+    "SK hynix",
+    "Xeon"
+  ],
+  "as_of_date": "2020-12-29",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Purchase/position change predates or coincides with disclosure; exact first transaction date not recovered.",
+  "fund_aum_usd_bn": 14.8,
+  "fund_aum_observation_period": "2020-11",
+  "fund_aum_source_date": "2020-12-03",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. AUM 14.8bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-third-point-november-2020-monthly-report-843373033.html (2020-12-03). AUM observation period 2020-11; last verified, not asserted current."
+}

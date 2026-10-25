@@ -1,0 +1,54 @@
+{
+ "trade_id": "2005_ligand_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Scientific assets and intellectual property retain value despite operating and accounting failures. → The market is discounting Ligand to zero due to accounting chaos, masking the value of its underlying portfolio of marketed pharmaceutical products and IP"
+  ],
+  "missed": [
+   "A strategic process can test substantial interest from potential product-line acquirers.",
+   "More than $600 million of NOLs and unrecognized real estate lift the asset-based downside estimate.",
+   "An independent committee, current financials and relaxation of the 10% pill can enable value realization."
+  ],
+  "extra_agent_drivers": [
+   "Ligand's intellectual property portfolio offers an asset-based floor, with $73.8 million in cash providing tangible downside protection.",
+   "Current operational inefficiency is stark; Ligand’s negative EBIT margins contrast sharply with established peers like Amgen, signaling significant upside from a governance reset.",
+   "The forced accountability from a Nasdaq delisting provides a clear, time-bound window to demand board reforms and transparency."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We value the underlying IP and product portfolio at approximately $650 million.",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "$73.8 million in cash providing an absolute floor.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Amgen, who command healthy EBIT margins near 39%.",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Ligand Pharmaceuticals represents a classic distressed situation where a governance-induced accounting crisis has led the market to abandon a company possessing a legitimate portfolio of pharmaceutical products and intellectual property [D01, D03].",
+ "grader_notes": "The agent correctly identified the BUY direction and recognized the underlying value of the IP amidst accounting turmoil, which aligns with Loeb's sentiment. However, the agent's reasoning was far from Loeb's specific drivers, as it focused heavily on EBIT margin comparisons and cash-based floors rather than Loeb's specific focus on NOLs, strategic acquirers, and the 10% pill removal.",
+ "run": "2005_ligand_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

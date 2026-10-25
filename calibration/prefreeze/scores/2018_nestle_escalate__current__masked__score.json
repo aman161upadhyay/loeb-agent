@@ -1,0 +1,49 @@
+{
+ "trade_id": "2018_nestle_escalate",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "We are publishing a refreshed 'NestléNOW' presentation today to maintain pressure for continued transformation → Today, we are releasing our 'NestléNOW' presentation to reinforce the urgency of this transformation and to sharpen the focus on execution milestones"
+  ],
+  "missed": [
+   "The pace and magnitude of change remained inadequate despite initial management steps.",
+   "Sharpen strategy and add food-and-beverage expertise and transparency.",
+   "Divest up to 15% of sales and the L'Oréal stake to focus the portfolio."
+  ],
+  "extra_agent_drivers": [
+   "Management's adoption of specific margin and capital allocation targets.",
+   "The current CHF20 billion buyback program.",
+   "Persistent margin gap versus potential benchmarks."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Management has now formally committed to an underlying margin target of 17.5–18.5% and a CHF20 billion buyback",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Today, we are releasing our 'NestléNOW' presentation",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We choose to ADD to our position because the catalyst is active and the strategic direction is now institutionalized.",
+ "grader_notes": "The agent identifies the publication of the 'NestléNOW' presentation, which matches the answer key's context. However, the agent incorrectly classifies the action as an 'ADD' (a new purchase) rather than an 'ESCALATE' (an intensification of advocacy for an existing position), and fails to capture the key drivers regarding specific divestiture demands (L'Oréal stake) and the urgency of the transformation pace.",
+ "run": "2018_nestle_escalate__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ADD",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

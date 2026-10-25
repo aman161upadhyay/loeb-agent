@@ -1,0 +1,246 @@
+{
+ "pack": "2009_delphi_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2009-06-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Delphi Corporation is a manufacturer of automotive components and systems currently operating under Chapter 11 bankruptcy protection [D01]. The company maintains significant engineering relationships and customer programs, with General Motors serving as a critical customer and counterparty in its ongoing restructuring [D01].",
+   "segments_and_separable_assets": [
+    "Not in pack: Detailed breakdown of segments or individual asset valuations is unavailable due to the ongoing Chapter 11 process [D01, D02]"
+   ],
+   "economics_vs_peers": [
+    "Operating margin for Q1 2009 was -21.1% compared to -5.1% in Q1 2008 [D03, D06]. The company is compared to other reorganizing auto suppliers rather than debt-free component manufacturers [D01, D06]."
+   ],
+   "capital_structure": [
+    "Debt includes approximately $230m (Tranche A) and $311m (Tranche B) in first-priority DIP loans, and $2.75bn (Tranche C) in second-priority debt [D04]. Compromised liabilities totaled $14,583m at FY2008 [D02]. A $250m incremental subordinated DIP financing from GM is proposed [D03, D04]."
+   ],
+   "price_and_valuation": [
+    "Old common equity is not a meaningful proxy for reorganized equity [D01, D04]. No verified DIP or enterprise value quotes are available for June 1, 2009 [D04]. Equity book deficit was $14,011m as of March 31, 2009 [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack: Specific board composition, executive tenure, and governance defense mechanisms are not provided [D01, D07]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "564,637,307 old common shares were outstanding as of March 31, 2009, which do not represent a prospective reorganized-equity denominator [D01, D02]."
+   ],
+   "event_or_catalyst_evidence": [
+    "A proposed transaction and financing package announced June 1, 2009, with a final financing hearing scheduled for June 16, 2009 [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "GM-related customer and financing correlation [D05, D06]; liquidity burn and potential asset disposal leaving obligations behind [D05]; execution risks regarding Chapter 11 legal proceedings and financing conditions [D03, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Proposed incremental GM subordinated DIP of up to $250m; final financing hearing set for June 16, 2009 [D03, D04]."
+   ],
+   "recent_events": [
+    "June 1, 2009: Announcement of proposed transaction and GM financing support [D03, D07]. May 29, 2009: SEC filing detailing DIP tranches [D04]. May 11, 2009: Filing of Q1 10-Q [D03]."
+   ],
+   "third_point_context": [
+    "Not in pack: Specific fund exposure or prior engagement history with Delphi is not provided [D08]"
+   ],
+   "document_conflicts": [
+    "Revenue for 2008: $16,808m reported per predecessor FY2008 columns [D02], while recasted 2007 sales figures imply a different 2008 comparable trajectory [D02]."
+   ],
+   "missing_data": [
+    "Fully reconciled entry-date recovery waterfall, executable DIP-loan quotations, current fund exposure details, and detailed normalized EBITDA targets."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Delphi is undergoing a Chapter 11 restructuring with a proposed financing package and final hearing scheduled for June 16, 2009 [D03, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point possesses the analytical capability to perform a recovery analysis on the DIP and debt tranches during this distressed, forced-seller environment [D04, D08]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The process is governed by the court-supervised Chapter 11 bankruptcy proceedings and a scheduled final financing hearing [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "While DIP loans are priority debt, a fully reconciled entry-date recovery waterfall and current executable quotations are missing from the pack [D04, missing_data]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Distressed debt markets for Chapter 11 entities involve negotiating large claims, where liquidity is non-traditional but expected [D03, D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In a bankruptcy process, credibility is defined by the adherence to court-driven timelines and successful negotiation of financing, which is actively occurring [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [
+    "2008 revenue reporting: used the reported predecessor FY2008 figure of $16,808m as it represents the documented audit basis for the period [D02]."
+   ],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The event is the Delphi Chapter 11 restructuring; the mispricing lies in the distressed debt tranches, where Third Point's edge is the ability to value complex recoveries while the market focuses on liquidity burn and GM-related risks.",
+   "one_line_verdict": "a distressed restructuring opportunity where court-supervised debt tranches offer potential value amidst a complex GM-linked bankruptcy process"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market views Delphi’s restructuring through a lens of extreme pessimism, focusing on liquidity burn and high correlation to GM’s own precarious financial position [D05, D06]. We believe the market fails to accurately price the recovery value of specific debt tranches by ignoring the strength of the court-supervised process and the strategic necessity of Delphi’s assets to its customers [D03, D04]. The June 16th final financing hearing will serve as the catalyst to validate the reorganization plan and clarify recovery paths [D03, D07].",
+   "evidence": [
+    "Market focus on GM-related customer and financing correlation [D05, D06]",
+    "Liquidity burn and potential asset disposal concerns dominating investor sentiment [D05]",
+    "Court-supervised Chapter 11 proceedings providing a structured framework for recovery [D03, D07]"
+   ],
+   "peer_benchmark": "reorganizing auto suppliers [D01, D06]",
+   "what_must_be_true": [
+    "The June 16, 2009, hearing successfully approves the proposed financing package [D03, D07].",
+    "GM remains a viable counterparty to support the restructuring of critical supply programs [D01].",
+    "The bankruptcy court maintains the priority status of DIP tranches throughout the reorganization [D04].",
+    "Asset values in the reorganized entity exceed current distressed quotations for debt tranches [D04]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "Not in pack",
+    "arithmetic": [
+     "Debt includes $230m (Tranche A) and $311m (Tranche B) first-priority DIP [D04]",
+     "Debt includes $2.75bn (Tranche C) second-priority debt [D04]",
+     "Proposed $250m incremental subordinated DIP financing [D03, D04]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "Not in pack",
+    "basis": "No verified DIP or enterprise value quotes available [D04]"
+   },
+   "current_price": "Not in pack [D04]",
+   "skew": "Not in pack : Not in pack",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "No enterprise value quotes available to calculate recovery; valuation relies on court-supervised confirmation of debt priority."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P5",
+   "asks": [
+    "Approval of the proposed incremental $250m GM-subordinated DIP financing [D03, D04]",
+    "Successful completion of the final financing hearing on June 16, 2009 [D03, D07]"
+   ],
+   "actors": [
+    "General Motors — strategic customer and primary financing provider — supportive of restructuring [D01, D03]",
+    "Delphi Management — debtor-in-possession — executing restructuring plan [D01, D07]",
+    "Bankruptcy Court — oversight authority — presiding over final hearing [D03, D07]"
+   ],
+   "governance_route": "Court-supervised Chapter 11 bankruptcy process [D03, D07]",
+   "timetable_quarters": 1,
+   "escalation_path": "Monitor court filings and hearing outcomes; if financing is denied or terms shift disadvantageously for our tranche, engage with the creditor committee to protect recovery value.",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, we engage in distressed/post-reorg credit situations. P5 is the appropriate role for a bankruptcy process, where our edge lies in rigorous analysis of the recovery waterfall rather than equity-style activism."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Final financing hearing on June 16, 2009, fails to approve the proposed GM-subordinated DIP financing [D03, D07].",
+    "General Motors defaults or ceases support for critical supply programs, undermining Delphi's operating viability [D01].",
+    "Bankruptcy court modifies the priority of existing DIP tranches to our disadvantage [D04].",
+    "Operating performance misses revised reorganization targets by more than two quarters [D03, D06]."
+   ],
+   "portfolio_risk": "High exposure to auto sector and distressed debt volatility, typical of our 2009-era focus on complex, court-driven credit situations [D01, D08].",
+   "instrument": "bond",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 3,
+    "max": 5
+   },
+   "pct_of_company": "N/A - focusing on debt recovery value rather than equity ownership [D04].",
+   "horizon_quarters": 2,
+   "hedge_overlay": "Credit default swaps on index-level automotive exposures to mitigate systemic sector risk.",
+   "biggest_risk_in_one_sentence": "The recovery value of our debt tranche is highly sensitive to the successful conclusion of the GM-linked reorganization process and the risk of further asset impairment during Chapter 11 proceedings [D03, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2009-06-01",
+  "company": "Delphi Corporation",
+  "ticker": "DLPH",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 3,
+  "instrument": "bond",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P5",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "Not in pack",
+   "floor": "Not in pack",
+   "skew": "Not in pack",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "Approval of the proposed incremental $250m GM-subordinated DIP financing",
+    "Successful completion of the final financing hearing on June 16, 2009"
+   ],
+   "actors": [
+    "General Motors",
+    "Delphi Management",
+    "Bankruptcy Court"
+   ],
+   "governance_route": "Court-supervised Chapter 11 bankruptcy process",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The market is fixated on GM-related liquidity burn and bankruptcy execution risk, obscuring the recovery value of Delphi's senior debt tranches [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Delphi's Chapter 11 process, supported by General Motors, provides a structured framework for evaluating the recovery waterfall of DIP debt [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The upcoming June 16, 2009, final financing hearing serves as a near-term catalyst to confirm the reorganization plan and secure critical incremental funding [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The court-supervised nature of the bankruptcy ensures priority status for existing DIP tranches, which we believe are mispriced relative to their post-reorganization recovery potential [D04, D07].",
+    "citations": [
+     "D04",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Final financing hearing on June 16, 2009, fails to approve the proposed GM-subordinated DIP financing",
+   "General Motors defaults or ceases support for critical supply programs",
+   "Bankruptcy court modifies the priority of existing DIP tranches to our disadvantage",
+   "Operating performance misses revised reorganization targets by more than two quarters"
+  ],
+  "what_would_change_our_mind": "A failure to secure the incremental financing or a material shift in the bankruptcy court's stance on the priority of DIP debt tranches would invalidate our thesis.",
+  "memo": "Delphi Corporation is currently navigating a complex Chapter 11 restructuring while maintaining critical operations for General Motors, its primary customer [D01, D03]. The market has largely abandoned the company, fixating on liquidity burn and the perceived risks associated with GM's own financial instability [D05, D06]. This sentiment has created an opportunity to acquire senior debt tranches at a discount that fails to account for the structural protections of the bankruptcy process [D03, D04].\n\nWhile operating margins have faced significant pressure, dropping to -21.1% in Q1 2009, the reorganization is not an exercise in equity valuation but a recovery play on debt [D03, D06]. With first-priority DIP loans of approximately $541 million and a substantial second-priority tier, the enterprise value—supported by the necessity of Delphi's automotive components—should provide meaningful coverage [D04]. We are focused on the recovery waterfall as the company emerges from this restructuring [D04].\n\nMarket participants are currently pricing in a worst-case scenario regarding Delphi’s reliance on GM [D05]. We believe this ignores the strategic necessity of Delphi's assets to its customers and the firm grip of the court-supervised proceedings [D01, D03]. Our analysis suggests that the risk of liquidation is overstated, and the focus should remain on the priority of the debt tranches within the reorganization plan [D04, D07].\n\nThe immediate path forward is defined by the final financing hearing scheduled for June 16, 2009 [D03, D07]. Our primary ask is the successful approval of the proposed $250 million incremental GM-subordinated DIP financing, which would provide the liquidity runway required to finalize the restructuring [D03, D04]. We will monitor the court filings closely and engage with the creditor committee should any terms deviate from the current expectation of preserving our priority status [D04, D07].\n\nRisks remain high, particularly concerning the stability of GM as a counterparty and the inherent volatility of distressed assets [D01, D05]. A failure to secure the June financing would be an immediate trigger to reevaluate our position [D03, D07]. Our downside is protected by the priority of the DIP debt in the court-ordered waterfall [D04].\n\nWe are initiating a 3% position in Delphi's debt, sized to reflect our conviction in the court-supervised process despite the high-risk environment [D05]. We will hedge the broader automotive sector risk via index-level credit default swaps to ensure our exposure remains focused on the idiosyncratic recovery of this credit [D05, D08].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "trade_id": "2005_star_gas_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Independent oversight and replacement of conflicted leadership are needed to stop further value destruction → Management’s inability to stop the bleeding while the peak heating season progresses is unacceptable.",
+   "Apply propane-sale cash to expensive notes unless management demonstrates a superior use → Cash proceeds from the propane disposal are heavily restricted by debt-reduction covenants, limiting management's ability to pivot or return value without oversight"
+  ],
+  "missed": [
+   "Operating deterioration requires a credible plan to restore per-gallon profitability.",
+   "Months of unanswered calls leave public communication as the remaining owner route."
+  ],
+  "extra_agent_drivers": [
+   "Accelerating annual customer attrition has reached 6.5%, up from 1.3% in fiscal 2003, signaling a failure in the core heating-oil franchise",
+   "Management's acknowledged failure to centralize service and dispatch has directly impaired customer retention and unit profitability"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Annual attrition has surged to 6.5%, a level that is fundamentally incompatible with a stable heating-oil distribution franchise",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management's acknowledged failure to centralize service and dispatch has directly impaired customer retention",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Cash proceeds from the propane disposal are heavily restricted by debt-reduction covenants",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 6,
+  "share": 0.75
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are going public to demand a board refresh and an immediate operational overhaul to protect our investment and ensure the remaining assets are managed for value rather than allowed to drift toward further erosion [D03], [D07].",
+ "grader_notes": "The agent correctly identifies the decision to escalate. Reasoning overlaps regarding the need for new leadership and the restricted nature of the cash proceeds from the propane sale. The agent focuses more on the operational causes of the decline (customer attrition and service centralization) than Loeb's specific public demands for a plan and response to communication failures.",
+ "run": "2005_star_gas_escalate__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

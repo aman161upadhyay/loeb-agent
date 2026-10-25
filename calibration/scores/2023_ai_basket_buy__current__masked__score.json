@@ -1,0 +1,49 @@
+{
+ "trade_id": "2023_ai_basket_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "AI represented a transformational platform shift across software and semiconductors.",
+   "Hyperscale cloud providers were picks and shovels benefiting regardless of individual application winners.",
+   "AI features could raise software ARPU and employee productivity.",
+   "Compute intensity and model complexity could create a step change in GPU, memory and manufacturing demand."
+  ],
+  "extra_agent_drivers": [
+   "Market misprices AI as speculative hype",
+   "Path to 22% base-case IRR through margin expansion",
+   "Capex rollouts and resilient cloud growth validate compute demand",
+   "Favorable 2.5:1 risk/reward skew anchored by balance sheets"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The basket offers a favorable 2.5:1 risk/reward skew.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "This infrastructure stack, comprising compute design, fabrication, and hyperscale cloud providers, currently operates with margins ranging from 25.2% to 45.5%.",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 4,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a thematic position in a basket of companies driving the Generative-AI compute and infrastructure cycle.",
+ "grader_notes": "The agent correctly matches the direction (BUY) but completely fails to capture the actual drivers cited by Dan Loeb in the provided answer key. The agent provides its own independent financial-model-driven rationale, resulting in zero overlap with the thematic/platform-shift reasoning Loeb expressed.",
+ "run": "2023_ai_basket_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": false
+}

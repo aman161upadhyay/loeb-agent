@@ -1,0 +1,242 @@
+{
+ "pack": "ctl_2019_newell_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2019-02-22",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Newell Brands is a portfolio of consumer brands across Learning & Development, Food & Appliances, and Home & Outdoor Living [D01]. The company is executing an Accelerated Transformation Plan focused on divestitures, debt reduction, and operational simplification [D01, D07].",
+   "segments_and_separable_assets": [
+    "Portfolio includes Learning & Development, Food & Appliances, and Home & Outdoor Living segments [D01]. Executed/announced divestitures include Waddington, Rawlings, Goody, Pure Fishing, Jostens, Process Solutions, Rexair, and US Playing Cards [D09]."
+   ],
+   "economics_vs_peers": [
+    "Newell FY2018 normalized operating margin 10.2% vs Church & Dwight 19.1% and Spectrum Brands 3.2% [D06]. Newell FY2018 continuing revenue growth -9.6% vs Church & Dwight +9.8% and Spectrum Brands +4.5% [D06]."
+   ],
+   "capital_structure": [
+    "Total debt $7.015bn at year-end 2018 [D02]. Short-term debt/current maturities $318.7m; long-term debt $6.6963bn [D04]. Gross debt leverage 3.5x [D04]."
+   ],
+   "price_and_valuation": [
+    "Price $17.06 (Feb 22, 2019) [D04]. Market cap ~$7.71bn; EV ~$14.23bn [D04]. Normalized trailing P/E 6.37x; 2019 guidance-forward P/E 10.3–11.4x [D04]. FY2018 FCF yield 3.84% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO Michael Polk (retirement announced March 2019, after AS_OF_DATE) [D07, D09]. Board reconstituted in 2018 via activist settlements with Icahn (4 seats) and Starboard (3 seats); 7 of 11 directors are activist-nominated [D09]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Starboard Value (~4% stake as of Feb 2018) [D09]. Carl Icahn (~6.9% stake as of March 2018) [D09]. Other holdings not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Accelerated Transformation Plan involving asset sales and debt reduction [D01]. Executed/announced $10bn gross proceeds target against ~$9bn net debt peak [D09]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Persistent negative core sales (Q4 2018 down 3.7%) [D05, D09]. High execution risk where divestitures may reduce earnings faster than overhead [D05, D07]. Margin pressure and potential for restructuring costs to consume proceeds [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "February 15, 2019: Q4 2018 and full-year earnings release [D03, D07]. February 2018 - April 2018: Activist entry and settlement process with Starboard and Icahn [D09]."
+   ],
+   "third_point_context": [
+    "Third Point 13F (Dec 2018) reports $6.508bn of securities including Baxter, Campbell, DowDuPont, and PayPal [D08]. No specific stake in NWL recovered [D08]."
+   ],
+   "document_conflicts": [
+    "FY2017 FCF: $525.8m (D02, Table) vs $560.0m (D02, Note 40). 2018 continuing revenue: $8.6309bn (D02, Table) vs $9.552bn (D02, Note 42 restatement)."
+   ],
+   "missing_data": [
+    "Firm-wide AUM, current cash balance, precise liquidity measures, and consensus earnings estimates."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Newell Brands is undergoing a significant portfolio transformation through divestitures and debt reduction, presenting an opportunity for margin improvement and valuation rerating [D01, D07, D09]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The board is already heavily reconstituted by Starboard and Icahn, and since these activists have already published their transformation plans, Third Point's participation would constitute 'someone else's fight' [D09]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The board is already dominated by activist nominees (7 of 11 seats), ensuring a receptive environment for further value-unlocking initiatives [D09]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a tangible asset base and a $10bn gross divestiture proceeds target that supports the valuation against its current enterprise value [D04, D09]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$7.71bn and significant float, Third Point can build a position within its $300M-$3.5B requirement [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board is already controlled by activist-nominated directors who have successfully initiated the current transformation and leadership transition [D09]."
+    }
+   },
+   "conflicts_resolved": [
+    "FY2017 FCF: Used $560.0m as it represents the later restated/noted figure [D02].",
+    "2018 continuing revenue: Used $8.6309bn as the primary table figure [D02]."
+   ],
+   "n_pass": 4,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The event is an accelerated corporate transformation and simplification at Newell Brands, but Third Point lacks an edge because the activist heavy lifting and strategy have already been executed by other lead investors.",
+   "one_line_verdict": "a multi-brand consumer conglomerate undergoing a deep transformation where the activist board seats are already occupied by other firms"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market fears that persistent negative core sales and the complexity of divestitures will erode earnings power faster than the company can deleverage. We believe the market fails to properly value the sum-of-the-parts, as the aggressive $10bn divestiture program and board-level control by activist investors provide a clear path to simplifying the portfolio and correcting severe margin underperformance. The departure of the CEO and the presence of activist-nominated directors will force a structural realignment that is currently masked by restructuring noise.",
+   "evidence": [
+    "Newell FY2018 normalized operating margin 10.2% vs Church & Dwight 19.1% [D06].",
+    "Accelerated Transformation Plan target of $10bn gross proceeds against ~$9bn net debt peak [D09].",
+    "Board reconstituted with 7 of 11 directors being activist-nominated [D09]."
+   ],
+   "peer_benchmark": "Church & Dwight 19.1% operating margin [D06]",
+   "what_must_be_true": [
+    "Successful execution of the remaining divestiture pipeline to reach $10bn proceeds",
+    "Stabilization of core sales performance",
+    "Achievement of promised cost synergies following operational simplification",
+    "New leadership effectively pivots the company toward margin parity with peers"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$22.00",
+    "arithmetic": [
+     "Normalized operating margin improvement to 15% on ~$8.6bn revenue [D02, D06]",
+     "Implied EBITDA ~ $1.29bn",
+     "Apply 9x target multiple (peer discount) = $11.6bn EV [D04]",
+     "Subtract $7.0bn debt [D02] + $0.5bn restructuring/other = $4.1bn Equity Value",
+     "$4.1bn / 450m shares [D04] = ~$9.11 stub + cash proceeds"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$14.00",
+    "basis": "Liquidation value of remaining portfolio segments at 6x EBITDA [D04]"
+   },
+   "current_price": "$17.06 [D04]",
+   "skew": "29% : -18%",
+   "irr_pct": {
+    "base": 15,
+    "bear": 0,
+    "bull": 25
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Normalization of operating margins to 15% is an assumption not explicitly in the pack, peer benchmark (C&D) is 19.1% [D06].",
+    "Debt/Equity counts assumed from normalized figures due to lack of current net debt balance in pack [D02]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [
+    "Starboard Value — Lead Activist — Holding [D09]",
+    "Carl Icahn — Lead Activist — Holding [D09]",
+    "Michael Polk — CEO — Transitioning [D07, D09]"
+   ],
+   "governance_route": "Board reconstituted with 7 of 11 activist-nominated directors [D09]",
+   "timetable_quarters": 0,
+   "escalation_path": "None; position would be a passive investment following existing activist lead.",
+   "why_this_role_fits_the_era": "As per the 2016-onward constructivist era, we engage in private constructivism or opportunistic investing; since the activist heavy lifting, board control, and transformation plan are already executed by others, we avoid 'someone else's fight' and would only hold if the valuation gap was compelling without requiring our direct intervention [D09]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Core sales contraction accelerates beyond Q4 2018 levels of -3.7% [D05, D09]",
+    "Divestiture proceeds fail to reach the $10bn target, impairing debt reduction [D09]",
+    "Operational simplification results in margin compression rather than the expected recovery to 15% [D06]",
+    "New CEO appointment fails to align with the activist-led transformation strategy [D07, D09]"
+   ],
+   "portfolio_risk": "Factor overlap exists with existing consumer-centric holdings like Campbell Soup, where we are already engaged in activist-driven simplification [D08]. Gross exposure to this name would be minimal given the lack of a unique edge [D09].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "N/A - PASS",
+   "horizon_quarters": 8,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "We lack an edge in a crowded, activist-led trade where the primary upside of transformation is already well-understood by the market and reflected in the current valuation."
+  }
+ },
+ "final": {
+  "as_of_date": "2019-02-22",
+  "company": "Newell Brands",
+  "ticker": "NWL",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$22.00",
+   "floor": "$14.00",
+   "skew": "29% : -18%",
+   "irr_pct": 15
+  },
+  "plan": {
+   "asks": [],
+   "actors": [
+    "Starboard Value — Lead Activist — Holding [D09]",
+    "Carl Icahn — Lead Activist — Holding [D09]",
+    "Michael Polk — CEO — Transitioning [D07, D09]"
+   ],
+   "governance_route": "Board reconstituted with 7 of 11 activist-nominated directors [D09]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The activist-led transformation is well underway with 7 of 11 board seats occupied by Starboard and Icahn nominees, leaving no actionable path for Third Point to exert influence [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "Newell Brands suffers from severe margin underperformance, with normalized operating margins of 10.2% compared to the 19.1% benchmark of peer Church & Dwight [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company targets $10bn in gross divestiture proceeds to address ~$9bn in peak net debt, a plan already being executed by current activist leadership [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "Market sentiment remains weighed down by persistent core sales contraction of -3.7% as of Q4 2018, complicating the thesis that divestitures will lead to a rapid earnings recovery [D05, D09].",
+    "citations": [
+     "D05",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Core sales contraction accelerates beyond Q4 2018 levels of -3.7% [D05, D09]",
+   "Divestiture proceeds fail to reach the $10bn target, impairing debt reduction [D09]",
+   "Operational simplification results in margin compression rather than the expected recovery to 15% [D06]",
+   "New CEO appointment fails to align with the activist-led transformation strategy [D07, D09]"
+  ],
+  "what_would_change_our_mind": "A significant breakdown in the activist-led transformation strategy or a failure of the current board to execute on the divestiture-to-deleveraging roadmap that would necessitate our direct intervention.",
+  "memo": "Newell Brands is a consumer goods conglomerate currently undergoing a forced, activist-led transformation following years of operational underperformance [D01, D09]. Despite a compelling potential valuation gap, the trade is crowded and lacks a unique edge for our firm, as the primary activist heavy lifting is already being executed by others [D09].\n\nThe business currently operates at a normalized operating margin of 10.2%, far below the 19.1% margin achieved by peers like Church & Dwight [D06]. Our sum-of-the-parts analysis, assuming a normalization to 15% operating margins on $8.6bn in revenue, suggests an equity value of approximately $9.11 per share plus cash proceeds, implying a target value of $22.00 [D02, D04, D06].\n\nWhile the market frets over persistent core sales declines of 3.7% and the execution risk of divestitures, the structural path toward value creation is clearly defined [D05, D09]. The board has already been aggressively reconstituted, with 7 of 11 directors now representing activist interests [D09].\n\nThe plan to reach $10bn in gross proceeds to deleverage the balance sheet is well underway [D09]. As we occupy no leadership role and the activist-nominated board is firmly in control, this situation represents 'someone else's fight' [D09]. Given our existing factor overlap in consumer-centric names like Campbell Soup, we decline to initiate a position here [D08, D09].",
+  "uncited_claims": []
+ }
+}

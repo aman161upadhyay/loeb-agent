@@ -1,0 +1,27 @@
+{
+  "id": "2017_hon_buy",
+  "company": "Honeywell International Inc.",
+  "ticker": "HON",
+  "aliases": [
+    "Aerospace",
+    "Home and Building Technologies",
+    "HON",
+    "Honeywell",
+    "Honeywell International",
+    "Honeywell International Inc.",
+    "Intelligrated",
+    "Performance Materials and Technologies",
+    "Safety and Productivity Solutions",
+    "Solstice",
+    "UOP"
+  ],
+  "as_of_date": "2017-04-27",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Requested April27 new-mode underwriting retained as campaign/addition replay, not literal initiation. Contemporary CNBC dates public letter April27 and reports 1.4m shares already owned December2016; April28 is the reproduction date, not first disclosure.",
+  "fund_aum_usd_bn": 17,
+  "fund_aum_observation_period": "2015-10",
+  "fund_aum_source_date": "2015-10-18",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested April27 new-mode underwriting retained as campaign/addition replay, not literal initiation. Contemporary CNBC dates public letter April27 and reports 1.4m shares already owned December2016; April28 is the reproduction date, not first disclosure. AUM 17bn is firm/manager capital, not Offshore NAV, per https://www.insidermonkey.com/blog/third-points-portfolio-struggled-in-the-turbulent-third-quarter-378482/ (2015-10-18). AUM observation period 2015-10; last verified, not asserted current."
+}

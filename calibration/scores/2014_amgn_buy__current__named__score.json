@@ -1,0 +1,61 @@
+{
+ "trade_id": "2014_amgn_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Mature drugs and growth assets are a hidden-value situation with distinct investor constituencies. → Amgen is a premier biotechnology company whose valuation is currently compressed by its conglomerate structure, which obscures the substantial, high-margin cash flows of its mature product base",
+   "A MatureCo/GrowthCo separation can make the two economic profiles visible. → Structural separation of the cash-generative mature product portfolio from the speculative R&D pipeline offers a clear path to re-rating",
+   "Improve R&D productivity and project-selection discipline rather than assuming spending creates value. → By rationalizing the cost structure to a 38% operating margin and evaluating a structural separation of its mature assets from the R&D pipeline, Amgen can realize an equity value in the $165-$185 per share range",
+   "Operating-margin improvement and capital return can create value even without a split. → We see a clear path to closing this gap through aggressive capital return, margin optimization, and potential structural simplification"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Management is currently receptive to transformation, providing a constructive governance route to influence capital return policies"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Amgen is a high-cash-flow biotechnology conglomerate suffering from a persistent operating margin gap versus peers like Gilead and Biogen",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company's current 31.4% operating margin can be expanded to 38%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Structural separation of the cash-generative mature product portfolio from the speculative R&D pipeline offers a clear path to re-rating",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management is currently receptive to transformation",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "We expect measurable progress on margin targets and capital allocation within four quarters",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 8,
+  "share": 0.67
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Amgen is a premier biotechnology company whose valuation is currently compressed by its conglomerate structure, which obscures the substantial, high-margin cash flows of its mature product base [D01].",
+ "grader_notes": "The agent's reasoning aligns perfectly with the four primary drivers identified by Loeb, particularly regarding the 'hidden value' of the mature portfolio and the necessity of margin improvement and structural separation. The agent's strategy of engagement and the identification of the conglomerate discount are substantively identical to Loeb's stated rationale in the 2014 letter. No significant deviations were observed.",
+ "run": "2014_amgn_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,17 @@
+Title: Business economics and asset map — Soho House & Co Inc.
+Source: https://www.sec.gov/Archives/edgar/data/1846510/000095017024138239/shco-ex99_1.htm (2024-12-19); https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (2025-01-02); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (2023-02-06); https://13f.info/13f/000108514624005927-third-point-llc-q3-2024 (2024-11-14)
+Date: 2025-01-28
+
+Soho House operates a global membership hospitality platform, combining recurring dues with houses, food/beverage, rooms and other activities. The membership brand may support pricing and a waitlist, but physical locations introduce leases, labor, maintenance and expansion capital. Membership growth is not identical to profitable same-house spending. Andrew Carnie is CEO; Ron Burkle's voting influence is relevant to any control transaction. A minority holder must distinguish economic ownership from super-voting control. The current investment question concerns the value and fairness of an ongoing privatization process, not a verified new financing participation. [S1; analyst mapping]
+
+Economic map and evidence limits. Separate the source's business descriptions from an analyst's inference about durability. Revenue scale alone is not a moat: the important distinctions are repeat demand, switching or distribution advantages, reinvestment requirements, and the ability to convert customer value into cash for owners. A strong asset can be an unattractive security when other claims absorb the cash. Conversely, complexity can obscure an otherwise sound franchise. The facts above identify the businesses and the relevant unit of analysis; they do not establish that a particular corporate structure is optimal.
+
+Underwrite the operating case before assuming an event. Identify who pays, why the customer returns, which costs are fixed, and what spending must recur to protect the franchise. Keep operating assets, financial investments and restricted capital separate. Where the recovered source does not provide unit economics, customer retention or segment capital employed, those figures are not available in contemporaneous sources; do not fill them with a current estimate. A downside analysis should test the business with no immediate transaction or valuation rerating. This is an analyst framework, not a statement that management or any shareholder has adopted it.
+
+Analyst cross-check: Map the customer, contractual counterparty and owner of the relevant intellectual property separately. A distributor's access to end demand is not ownership of that demand; likewise, reported group market share does not prove that each operating unit possesses pricing power or recurring revenue.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/1846510/000095017024138239/shco-ex99_1.htm (published 2024-12-19).
+- [S2] https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (published 2025-01-02).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (published 2023-02-06).
+- [S4] https://13f.info/13f/000108514624005927-third-point-llc-q3-2024 (published 2024-11-14).

@@ -1,0 +1,253 @@
+{
+ "pack": "ctl_2015_endo_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Endo International operates as a diversified pharmaceutical company focused on branded drugs, generic products, and international operations [D01]. The company recently expanded its branded platform via the January 29 acquisition of Auxilium [D01].",
+   "segments_and_separable_assets": [
+    "US branded: $969.4m revenue (33.7% of total) [D06]",
+    "US generics: $1,140.8m revenue (39.7% of total) [D06]",
+    "Devices: $496.5m revenue (17.3% of total) [D06]",
+    "AMS Men's/Prostate Health: Sale agreement announced for up to $1.65 billion, including $1.6 billion upfront cash [D03]"
+   ],
+   "economics_vs_peers": [
+    "Endo reported a -31.2% GAAP operating margin and 37.3% adjusted operating margin for FY2014 [D06].",
+    "Peer multiples (P/E): Teva 16.1x, Perrigo 89.0x, Pfizer 24.5x [D04].",
+    "The margin gap vs peers is not provided as a standardized bp figure due to differences in business mix and acquisition accounting [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $4.358bn as of December 31, 2014 [D02, D04].",
+    "Additional debt: $1.2bn, 6% senior notes issued January 20-21, 2015 [D04].",
+    "Cash: Restricted settlement cash of $530.9m [D02]; unrestricted cash of $409m as of December 31, 2014 [D04].",
+    "Leverage: Net debt $3.950bn as of December 31, 2014 [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $87.32 (March 2, 2015) [D04]",
+    "Market cap: ~$15.50bn [D04]",
+    "EV: ~$19.45bn (using Dec 2014 net debt) [D04]",
+    "Adjusted P/E: 20.3x (FY2014); 19.2–20.1x (management guidance) [D04]",
+    "FCF yield: ~1.66% [D04]",
+    "P/B: 6.53x [D04]"
+   ],
+   "management_board_governance": [
+    "CEO: Rajiv De Silva [D01, D07].",
+    "Board/governance: Specific board composition, pill, and nomination window are not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 177.510m [D04].",
+    "Top holders and short interest: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Primary catalyst: Integration of Auxilium following the January 29 acquisition [D01, D07].",
+    "Divestiture: Sale agreement for AMS Men's/Prostate Health for up to $1.65 billion [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Apparent diversification masks common pricing, regulatory, and financing exposures [D05].",
+    "Generic competition may impair branded products before debt repayment [D05].",
+    "Litigation cash payments may not align with accounting reserves [D05].",
+    "Adjusted EPS growth may mask free cash flow disappointment [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "January 2015 issuance: $1.2bn, 6% senior notes [D04]."
+   ],
+   "recent_events": [
+    "January 29, 2015: Auxilium acquisition closed [D03, D07].",
+    "March 2, 2015: Q4 and FY2014 results released; AMS sale agreement announced [D03]."
+   ],
+   "third_point_context": [
+    "Third Point held pharmaceutical exposure (e.g., Actavis) in Q4 2014; no specific Endo stake/basis disclosed in the pack [D08]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Complete litigation reserve analysis, current pro-forma leverage post-Auxilium integration, specific board governance details, and consensus estimates."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is executing a portfolio simplification strategy via the divestiture of the AMS Men's/Prostate Health unit for up to $1.65 billion [D03]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on an ongoing integration of a recent acquisition (Auxilium) and an operational turnaround of a complex, leveraged pharmaceutical business without a differentiated plan or evidence of an under-earning gap compared to specific, named peers [D01, D05, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Specific board composition and nomination window details are missing from the pack, preventing an assessment of the governance route [D01]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The business exhibits potential issues with adjusted EPS masking FCF disappointment and concerns over litigation cash payments not aligning with accounting reserves, which creates uncertainty around the valuation floor [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$15.5bn and significant trading volume typical of a large-cap pharma, a $300M-$3.5B position is achievable [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis currently depends on the execution of a multi-year integration plan post-Auxilium acquisition and managing significant debt, which classifies as a trade-only scenario per the 2022 Intel rule applied retroactively [D01, D04, D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 3,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "Third Point lacks a clear, differentiated governance edge or valuation catalyst for this complex, highly-leveraged roll-up, rendering it a passive exposure rather than an actionable constructivist event.",
+   "one_line_verdict": "a complex and leveraged pharmaceutical company undergoing integration with insufficient evidence of an actionable activist path"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market currently prices the company as a diversified pharmaceutical platform with earnings potential, despite underlying concerns regarding free cash flow conversion and litigation reserves. We find no actionable mispricing or governance-led catalyst, as the current strategy of acquisition-led growth and debt-fueled integration lacks a clear margin-improvement plan. Without evidence of an under-earning gap or specific board-level leverage, the risk/reward profile does not meet our requirements.",
+   "evidence": [
+    "Adjusted EPS masks potential FCF disappointment and litigation payment risks [D05].",
+    "The business lacks a clear margin-gap analysis against specific peers [D06].",
+    "Governance details required to force a change are missing [D01]."
+   ],
+   "peer_benchmark": "Teva (16.1x P/E) and Pfizer (24.5x P/E) [D04]",
+   "what_must_be_true": [
+    "Successful integration of Auxilium without margin erosion",
+    "Litigation cash payments aligning with existing accounting reserves",
+    "FCF yields improving to demonstrate organic earnings power",
+    "Greater transparency regarding capital allocation priorities beyond M&A"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$95.00",
+    "arithmetic": [
+     "Target multiple 22x blended [D04]",
+     "Target EPS based on 2015 guidance midpoint ~ $4.35 [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$70.00",
+    "basis": "Implied asset value adjusted for $1.65bn AMS sale proceeds and restricted cash coverage [D03, D04]"
+   },
+   "current_price": "$87.32 [D04]",
+   "skew": "9% : 20%",
+   "irr_pct": {
+    "base": 8,
+    "bear": -5,
+    "bull": 15
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Assumes no further debt-funded M&A activity",
+    "Assumes full $1.65bn AMS sale proceeds realized"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [
+    "Rajiv De Silva — CEO — no stance [D01]"
+   ],
+   "governance_route": "not in pack [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "n/a",
+   "why_this_role_fits_the_era": "Per the 2015-era framework, we pass on situations lacking a clear governance-led catalyst or margin-improvement plan; as the investment does not meet our return thresholds and lacks an activist path, we take no action. [D01, D05, D06]"
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Debt-funded M&A activity continues post-Auxilium",
+    "Litigation cash settlements materially exceed current accounting reserves [D05]",
+    "Free cash flow conversion fails to improve over two quarters [D05]",
+    "Margin erosion observed during integration of the Auxilium business [D01]"
+   ],
+   "portfolio_risk": "As of 2015-03-02, Third Point holds broader pharmaceutical sector exposure (e.g., Actavis) [D08]. Endo contributes to a concentration risk in levered healthcare, with a potential liquidity profile sufficient for exit, but limited hedging utility via single-name shorts in the pharma space [D04, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The thesis relies on earnings power that appears obscured by aggressive M&A-driven accounting and rising leverage, providing no clear downside protection if cash flow conversion disappoints."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "Endo International",
+  "ticker": "ENDP",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$95.00",
+   "floor": "$70.00",
+   "skew": "9% : 20%",
+   "irr_pct": 8
+  },
+  "plan": {
+   "asks": [],
+   "actors": [
+    "Rajiv De Silva — CEO — no stance"
+   ],
+   "governance_route": "not in pack",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company relies on a complex, debt-fueled M&A strategy that obscures underlying earnings power through aggressive accounting adjustments [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is a lack of a clear, differentiated governance-led catalyst or margin-improvement plan to force value realization [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Valuation appears thin, with an FCF yield of approximately 1.66%, offering an insufficient risk/reward skew for a speculative integration play [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Significant uncertainty exists regarding litigation cash payments potentially exceeding accounting reserves, which threatens the downside floor [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Debt-funded M&A activity continues post-Auxilium",
+   "Litigation cash settlements materially exceed current accounting reserves [D05]",
+   "Free cash flow conversion fails to improve over two quarters [D05]",
+   "Margin erosion observed during integration of the Auxilium business [D01]"
+  ],
+  "what_would_change_our_mind": "Evidence of a concrete margin-improvement plan, a halt to debt-funded acquisitions, and clear proof that FCF conversion is improving, combined with a defined governance path to address shareholder value.",
+  "memo": "Endo International operates as a diversified pharmaceutical company currently engaged in the integration of its recent Auxilium acquisition [D01]. Despite the announced divestiture of its AMS Men's/Prostate Health unit for up to $1.65 billion, the company remains a levered, acquisition-driven platform [D03, D04].\n\nOur assessment of the company’s valuation suggests limited upside, with a target of $95.00 based on a 22x multiple against 2015 guidance of approximately $4.35 in EPS [D04]. This sits against a current trading price of $87.32, failing to meet our required risk/reward thresholds [D04].\n\nMarket concerns regarding the company are well-founded, as adjusted EPS figures likely mask disappointment in free cash flow generation and potential litigation liabilities [D05]. Furthermore, there is no evidence of a systematic margin-gap analysis against peers like Teva or Pfizer to justify a re-rating [D04, D06].\n\nWe see no actionable governance catalyst to drive a turnaround or capital allocation discipline. With the management team focused on the integration of Auxilium, we lack the visibility into a defined governance route that would enable us to influence change [D01, D07].\n\nRisks remain elevated, particularly with respect to litigation reserves and the sustainability of FCF conversion [D05]. Given the absence of an identifiable margin-improvement plan or a concrete activist path, we have no basis to commit capital to this name [D01].\n\nWe are passing on Endo International. The thesis currently lacks the event-driven catalyst and valuation asymmetry required for a Third Point core position.",
+  "uncited_claims": []
+ }
+}

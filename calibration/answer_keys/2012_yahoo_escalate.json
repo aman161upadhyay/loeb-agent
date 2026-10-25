@@ -1,0 +1,53 @@
+{
+  "id": "2012_yahoo_escalate",
+  "actual_decision": "ESCALATE",
+  "conviction": "high",
+  "size_pct_nav": "5.8% issuer ownership; exact NAV weight unavailable.",
+  "first_action_date": "2012-05-03",
+  "disclosure_date": "2012-05-03",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Scott Thompson",
+      "Patti Hart",
+      "Yahoo board",
+      "Third Point nominees"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 1
+  },
+  "drivers": [
+    {
+      "driver": "The CEO's inaccurate credential undermines credibility and raises integrity concerns.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000089914012000299/y7749418b.htm (2012-05-03)",
+      "quote": "Now more than ever Yahoo! investors need a trustworthy CEO."
+    },
+    {
+      "driver": "The search committee's basic diligence and board oversight need an independent investigation.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000089914012000299/y7749418b.htm (2012-05-03)",
+      "quote": null
+    },
+    {
+      "driver": "Similar director-biography discrepancies make this a systemic governance issue, not just one executive's error.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000089914012000299/y7749418b.htm (2012-05-03)",
+      "quote": null
+    },
+    {
+      "driver": "Fresh directors with industry competence and integrity are needed before further delay.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1011006/000089914012000299/y7749418b.htm (2012-05-03)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact execution price and entry multiple not recovered.",
+  "outcome_note": "Terminal transaction-level fund P&L not recovered.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1011006/000089914012000299/y7749418b.htm",
+    "https://www.sec.gov/Archives/edgar/data/1011006/000115752312001850/a50240268ex99-1.htm"
+  ],
+  "pack_quality_notes": "Grade B. Same-day evidence snapshot: the factual checks, code standard and candidate state are included, but all letter demands and action sentences are omitted. Not a pre-discovery blind test; no May 4 or May 13 event in docs. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

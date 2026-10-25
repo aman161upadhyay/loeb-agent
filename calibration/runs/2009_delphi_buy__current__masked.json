@@ -1,0 +1,243 @@
+{
+ "pack": "2009_delphi_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2009-06-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a supplier of automotive components and systems currently operating in Chapter 11 bankruptcy [D01]. It maintains a manufacturing footprint and engineering relationships that may hold going-concern value, though its capital structure is impaired [D01, D06].",
+   "segments_and_separable_assets": [
+    "Not in pack: consolidated reporting is provided but segment-level revenue/EBITDA breakdown is absent [D01, D06]"
+   ],
+   "economics_vs_peers": [
+    "The Company experienced a 51.9% revenue decline in Q1 2009 compared to Q1 2008 [D03, D06]. Operating margin was -21.1% in Q1 2009 compared to -5.1% in Q1 2008 [D03, D06]. Peer comparison is directed toward other reorganizing auto suppliers [D01, D06]."
+   ],
+   "capital_structure": [
+    "Tranche A (approx. $230m, first-priority), Tranche B (approx. $311m, first-priority), Tranche C ($2.75bn, second-priority) [D04]. Up to $250m subordinated DIP financing proposed [D03, D04]. Cash-collateral repayment obligation of $47m triggered May 22 [D04]."
+   ],
+   "price_and_valuation": [
+    "Market cap/EV: not in pack [D04]. Old common equity is not the denominator for prospective reorganized equity; book equity is negative at $14,011m [D02, D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack [D01]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "564,637,307 old common shares outstanding as of March 31, 2009 [D01, D03]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Chapter 11 reorganization, sale/financing transaction pending, final financing hearing scheduled for June 16, 2009 [D03, D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Correlated customer/financing risk [D05], intense cash burn [D05], potential for assets to be stripped while obligations remain [D05], and dilution or priority changes from the financing hearing [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Up to $250m subordinated DIP financing proposal; final financing hearing June 16, 2009 [D03, D07]"
+   ],
+   "recent_events": [
+    "June 1, 2009: Proposed transaction and subordinated DIP financing announced [D03, D07]. May 29, 2009: SEC 8-K filing regarding DIP tranches [D04]. May 11, 2009: Q1 10-Q filing [D03]."
+   ],
+   "third_point_context": [
+    "Not in pack"
+   ],
+   "document_conflicts": [
+    "None identified in provided documents"
+   ],
+   "missing_data": [
+    "Fully reconciled entry-date recovery waterfall, executable DIP-loan quotations, normalized EBITDA, segment-level financials, and current fund-specific holdings or exposures."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is in Chapter 11 reorganization with a final financing hearing scheduled for June 16, 2009 [D03, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point's edge lies in performing the recovery analysis on the credit tranches during the Chapter 11 process, despite the lack of a provided waterfall in the pack [D03, D04]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The restructuring is already in motion through the Chapter 11 court process and the scheduled financing hearing [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "A fully reconciled entry-date recovery waterfall is missing, making it impossible to confirm collateral coverage for specific tranches [D04, missing_data]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "As a distressed credit situation, the ability to acquire claims from forced sellers is expected and standard, and the capital structure is large enough for a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In a Chapter 11 process, the edge is dictated by the court-led restructuring timeline rather than management's operational performance [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The event is a Chapter 11 reorganization with a pending financing hearing, and Third Point’s edge is the ability to value the claims through recovery analysis while others are forced sellers.",
+   "one_line_verdict": "a distressed credit restructuring where the path to recovery is governed by the court and pending financing decisions"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market is paralyzed by the immediate cash burn and the uncertainty of the pending Chapter 11 financing hearing [D05]. We believe the current pricing ignores the underlying going-concern value of the company’s engineering and manufacturing assets, which will be preserved through the court-led restructuring [D01, D06]. The June 16, 2009, hearing provides a concrete timeline to clarify the capital structure and validate the recovery value of the credit tranches [D03, D07].",
+   "evidence": [
+    "Chapter 11 reorganization and final financing hearing set for June 16, 2009 [D03, D07]",
+    "Company maintains critical manufacturing and engineering relationships that represent inherent value [D01, D06]"
+   ],
+   "peer_benchmark": "reorganizing automotive component suppliers with preserved engineering relationships [D01, D06]",
+   "what_must_be_true": [
+    "The court approves the proposed DIP financing or a viable alternative on June 16",
+    "Asset going-concern value exceeds the claims of the senior tranches",
+    "Customer demand stabilizes following the Q1 2009 revenue decline",
+    "The restructuring plan preserves the integrated manufacturing and engineering footprint"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Senior claims total ~$541m (Tranche A $230m + Tranche B $311m) [D04]",
+     "Remaining asset value post-restructuring estimated by potential going-concern enterprise value [D01, D06]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "Liquidated asset value",
+    "basis": "Residual value of manufacturing and engineering assets after senior tranche satisfaction [D01, D06]"
+   },
+   "current_price": "N/A (Equity effectively impaired [D02, D04])",
+   "skew": "N/A : N/A",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Lack of specific enterprise value appraisal or detailed recovery waterfall [D01]",
+    "Assuming senior claims are fully covered by going-concern asset value [D01, D06]",
+    "Assuming June 16 hearing successfully preserves entity integrity [D03, D07]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P5",
+   "asks": [
+    "Approval of the DIP financing to ensure going-concern viability [D03, D07]",
+    "Favorable treatment for credit tranches during reorganization to maximize recovery [D04]"
+   ],
+   "actors": [
+    "Management/Board — debtor — counterparty [D03]",
+    "Bankruptcy Court — regulator — judge of reorganization [D03, D07]",
+    "DIP Lenders — financing providers — critical priority [D03, D04]"
+   ],
+   "governance_route": "Chapter 11 bankruptcy court process, specifically the final financing hearing on June 16, 2009 [D03, D07]",
+   "timetable_quarters": 1,
+   "escalation_path": "Monitor court rulings on financing; if financing is denied or terms are overly dilutive to our tranche, organize creditor committee to challenge the plan or propose an alternative restructuring",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point actively utilized distressed and post-reorg credit expertise to influence outcomes in complex bankruptcy situations, treating the court process as the primary venue for value creation."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Bankruptcy Court denies DIP financing on June 16, 2009 [D03, D07]",
+    "Asset going-concern value proves insufficient to cover Tranche A and B claims [D04]",
+    "Liquidation of assets occurs at prices below recovery model thresholds [D01, D06]",
+    "Customer demand fails to stabilize, further eroding operational value [D03, D06]"
+   ],
+   "portfolio_risk": "High factor overlap with the distressed automotive and broader industrial cyclical space [D03, D05]. Gross/net implications are meaningful given the liquidity constraints of bankrupt issuers. Hedge using index puts to mitigate sector-wide volatility [D05].",
+   "instrument": "bond",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 3,
+    "max": 5
+   },
+   "pct_of_company": "Dependent on total claims held; targeting a meaningful position in the Tranche A/B stack to influence the restructuring outcome [D04].",
+   "horizon_quarters": 2,
+   "hedge_overlay": "Index puts or credit default swaps on automotive peers to hedge sector correlation risk [D05].",
+   "biggest_risk_in_one_sentence": "The primary risk is that the court-led restructuring fails to preserve the going-concern value of the engineering and manufacturing assets, rendering our credit claims subordinate to higher-priority liabilities or liquidation costs [D04, D06]."
+  }
+ },
+ "final": {
+  "as_of_date": "2009-06-01",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 3,
+  "instrument": "bond",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P5",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "Par recovery on senior tranches",
+   "floor": "Liquidation value of manufacturing and engineering assets",
+   "skew": "N/A",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "Approval of the DIP financing to ensure going-concern viability",
+    "Favorable treatment for credit tranches during reorganization"
+   ],
+   "actors": [
+    "Management/Board",
+    "Bankruptcy Court",
+    "DIP Lenders"
+   ],
+   "governance_route": "Chapter 11 bankruptcy court process",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The company is in Chapter 11 with the market ignoring the going-concern value of essential engineering and manufacturing assets due to panic over cash burn.",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The June 16, 2009, financing hearing provides a concrete, short-term catalyst to validate the capital structure and recovery prospects.",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "We have identified a clear path to value through senior credit tranches, specifically targeting the $541m in first-priority claims.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "We will utilize the court-led restructuring process to ensure our tranches are preserved, bypassing the impaired and effectively worthless common equity.",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Bankruptcy Court denies DIP financing on June 16, 2009",
+   "Asset going-concern value proves insufficient to cover Tranche A and B claims",
+   "Liquidation occurs below recovery model thresholds",
+   "Customer demand fails to stabilize"
+  ],
+  "what_would_change_our_mind": "Evidence that the going-concern enterprise value is insufficient to cover the senior claims or a court rejection of the DIP financing that signals a rapid liquidation path.",
+  "memo": "The Company is currently operating in Chapter 11 bankruptcy, representing a distressed credit opportunity where the market has conflated temporary liquidity constraints with terminal impairment [D01, D03]. While the common equity is effectively wiped out by the staggering $14,011m book equity deficit, we see distinct value in the senior credit stack [D02, D04]. The market is paralyzed by the Q1 2009 revenue decline and the immediate cash burn, ignoring the underlying worth of the company’s manufacturing and engineering relationships [D01, D03, D06].\n\nOur recovery analysis focuses on the $541m in first-priority senior claims, specifically Tranches A and B [D04]. We believe the going-concern value of these assets will be protected during the court-supervised reorganization, providing a hard floor for our position that is significantly higher than the current distressed pricing [D01, D06]. By stepping into these senior tranches, we gain a seat at the table during the most critical phase of the restructuring [D04].\n\nThe immediate catalyst is the final financing hearing scheduled for June 16, 2009 [D03, D07]. Our primary ask is the court's approval of the proposed subordinated DIP financing, which is the key to maintaining entity integrity [D03, D07]. Should the court or creditors move to undermine these specific senior tranches, we are prepared to organize a creditor committee to challenge the plan and enforce our seniority [D03, D04]. \n\nWe are sizing this position at 3% of NAV, which is appropriate for a high-conviction distressed credit play [D04, D05]. We intend to hedge the sector-specific volatility and broader automotive correlation by utilizing index puts or credit default swaps [D05]. Our exit strategy is tied to the successful confirmation of a reorganization plan that validates our recovery thesis, allowing us to capture the upside as the capital structure stabilizes [D03, D07].",
+  "uncited_claims": []
+ }
+}

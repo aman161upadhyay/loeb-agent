@@ -1,0 +1,43 @@
+{
+ "trade_id": "2013_sony_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Entertainment value is obscured inside the electronics conglomerate. → Sony Corporation is a classic example of a company suffering from a significant conglomerate discount, where high-quality entertainment assets are hidden behind a struggling electronics business [D01; D03].",
+   "A 15–20% minority entertainment listing can expose value, sharpen incentives and finance electronics. → By forcing a partial IPO of up to 20% of the entertainment division, we believe we can eliminate the conglomerate discount and force the electronics segment to adopt the financial discipline displayed by its peers",
+   "Entertainment peer margins reveal a meaningful efficiency opportunity. → force the electronics segment to adopt the financial discipline displayed by its peers, such as Canon, which generates a 9.3% operating margin compared to Sony's 3.4% [D03; D06]."
+  ],
+  "missed": [
+   "Focused electronics execution and stronger product/currency conditions provide value independent of activist success."
+  ],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts analysis suggests an intrinsic value of ¥2,650 per share",
+   "The company trades at 0.85x book value, offering a solid valuation floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Sony's 3.4% operating margin",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By forcing a partial IPO of up to 20% of the entertainment division, we believe we can eliminate the conglomerate discount and force the electronics segment to adopt the financial discipline displayed by its peers, such as Canon, which generates a 9.3% operating margin compared to Sony's 3.4% [D03; D06].",
+ "grader_notes": "The agent correctly identified the conglomerate discount and the core proposal of a 20% entertainment IPO. It missed the driver regarding independent value from electronics execution, which was a specific component of Loeb's thesis. It provided extra valuation analysis (SOTP and book value) not explicitly cited as Loeb's primary drivers in the answer key.",
+ "run": "2013_sony_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,28 @@
+{
+  "id": "2012_yahoo_escalate",
+  "company": "Yahoo! Inc.",
+  "ticker": "YHOO",
+  "aliases": [
+    "Yahoo! Inc.",
+    "YHOO",
+    "Yahoo",
+    "Yahoo!",
+    "Yahoo Japan",
+    "Alibaba",
+    "Alibaba Group",
+    "Alipay",
+    "SoftBank",
+    "Scott Thompson",
+    "Patti Hart",
+    "Stonehill College",
+    "Illinois State",
+    "valueyahoo"
+  ],
+  "as_of_date": "2012-05-03",
+  "mode": "existing",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2012-05-03; actual first action 2012-05-03. Same-day evidence snapshot: the factual checks, code standard and candidate state are included, but all letter demands and action sentences are omitted. Not a pre-discovery blind test; no May 4 or May 13 event in docs.",
+  "fund_aum_usd_bn": 9.0,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Same-day evidence snapshot: the factual checks, code standard and candidate state are included, but all letter demands and action sentences are omitted. Not a pre-discovery blind test; no May 4 or May 13 event in docs. AUM $9bn is same-day firm disclosure."
+}

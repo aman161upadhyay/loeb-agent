@@ -1,0 +1,47 @@
+{
+ "trade_id": "2015_bax_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The post-spin parent is a focused under-earner with a substantial operational opportunity → The spin-off of Baxalta creates a newly focused medical-products company where operational simplification presents a clear opportunity for margin expansion",
+   "Influence CEO succession and board representation to bring an owner's operating discipline → Our plan involves private engagement with the board and leadership to force a concrete margin improvement roadmap and a disciplined capital allocation strategy",
+   "Better margins and capital allocation can unlock value without relying on an unannounced new breakup → Establishing a rigorous cost-reduction plan and clear capital allocation priorities will drive value toward a target valuation of $55 per share"
+  ],
+  "missed": [
+   "A proven operator can reinvigorate the standalone business; Almeida framing is a later Q3 update, not August appointment evidence."
+  ],
+  "extra_agent_drivers": [
+   "Core renal-care and medical-products cash flows provide a fundamental floor near $38 per share, offering an attractive asymmetric risk/reward profile"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Baxter International is a core medical-products and renal-care business that has recently emerged from the July 1, 2015, spin-off of its bioscience operations",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market currently misprices this newly focused entity by over-weighting transition-related overhead",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 2,
+  "share": 0.18
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Our plan involves private engagement with the board and leadership to force a concrete margin improvement roadmap and a disciplined capital allocation strategy [D03, D07].",
+ "grader_notes": "The agent correctly identified the core thesis regarding operational improvement and board/management engagement as the primary drivers of the investment. It missed the specific driver concerning the replacement of the CEO/proven operator, though it alluded to management engagement. The agent provided a concrete plan that closely aligns with the intent of the Third Point engagement.",
+ "run": "2015_bax_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

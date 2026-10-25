@@ -1,0 +1,65 @@
+{
+ "trade_id": "ho_2025_ebara_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Private board/management engagement targets margin improvement, portfolio simplicity, repurchases and governance → We intend to engage privately with the Board to initiate a strategic review of the corporate structure, advocating for the separation of the Precision Machinery business to unlock shareholder value"
+  ],
+  "missed": [
+   "Advanced logic nodes and AI packaging increase CMP steps, complexity and process time.",
+   "Ebara’s metal-CMP positioning offers a route to share gains.",
+   "An overextended cost base and unnecessarily discounted pricing depress margins despite strong products."
+  ],
+  "extra_agent_drivers": [
+   "Conglomerate discount argument.",
+   "SOTP valuation based on peer-level multiples.",
+   "Margin gap vs. pure-play peers.",
+   "Balance sheet/Net cash floor."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Precision Machinery unit generating JPY 73.9 billion in orders in Q1 2025",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Precision Machinery unit is currently performing at 13.2% [margins]",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Applied Materials and Lam Research achieve margins near 29%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "JPY 20.598 billion in net cash",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "current trading levels of approximately JPY 2,778",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to engage privately with the Board to initiate a strategic review of the corporate structure, advocating for the separation of the Precision Machinery business to unlock shareholder value",
+ "grader_notes": "The agent correctly matched the investment decision and the general methodology of private engagement. However, the agent's reasoning was almost entirely focused on traditional valuation and conglomerate discount arguments derived from financial data, whereas the actual Loeb decision (based on the retrospective disclosure) was driven specifically by the semiconductor-industry-specific thesis of CMP growth and margin optimization.",
+ "run": "ho_2025_ebara_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

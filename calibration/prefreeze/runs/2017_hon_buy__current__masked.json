@@ -1,0 +1,259 @@
+{
+ "pack": "2017_hon_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2017-04-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company comprises four primary segments including industrial, warehouse, and automation/productivity products that generate aftermarket revenue [D01]. The group is led by CEO Darius Adamczyk and balances long-cycle industrial exposures with industrial software growth identities [D01].",
+   "segments_and_separable_assets": [
+    "Segment 1 (37.4% of sales): Q1 2017 revenue $3,546m, -4% reported growth, 22.4% margin [D06]",
+    "Segment 2 (26.9% of sales): Q1 2017 revenue $2,553m, +3% reported growth, 15.2% margin [D06]",
+    "Segment 3 (21.8% of sales): Q1 2017 revenue $2,069m, -9% reported growth, 22.8% margin [D06]",
+    "Segment 4 (13.9% of sales): Q1 2017 revenue $1,324m, +25% reported growth, 14.7% margin [D06]"
+   ],
+   "economics_vs_peers": [
+    "Reported organic growth rates were 0%, 3%, 5%, and 3% for the four segments respectively [D06].",
+    "The company achieved a 70 basis point segment margin improvement in Q1 2017 [D06].",
+    "Peer valuation comparators include Emerson Electric (23.8x P/E), Lockheed Martin (15.3x P/E), and Northrop Grumman (19.5x P/E) based on FY2016 data [D04]."
+   ],
+   "capital_structure": [
+    "Gross debt: $15.87bn; Cash: $7.71bn; Net debt: $8.16bn (as of 2017-03-31) [D04].",
+    "Excludes $1.89bn in short-term investments [D04]."
+   ],
+   "price_and_valuation": [
+    "Share price: $124.87 (2017-03-31) [D04].",
+    "Market cap: $95.19bn; Enterprise Value: $103.35bn [D04].",
+    "Trailing P/E: 19.7x; Guidance P/E: 17.8x (based on $7.00 EPS midpoint) [D04].",
+    "FCF yield: 5.3% (based on $5.05bn trailing FCF) [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Darius Adamczyk [D01].",
+    "Prior activist history: not in pack.",
+    "Governance details (staggered board, pills, etc.): not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 762.34m [D04].",
+    "Top holders and short interest: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Structural analysis potential: market considers whether shared ownership offsets complexity versus potential separation [D01].",
+    "Management transition provides a potential window for strategic review [D07].",
+    "No verified board commitment to a structural remedy or transaction [D05]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential for duplicated overhead and tax/pension complications in a spin-off [D05].",
+    "Cyclical risks from oil-linked processes and commercial aircraft demand [D05].",
+    "Risk that management may choose a different portfolio route than separation [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2017-04-21: Q1 2017 earnings release; FY2017 guidance raised [D03]."
+   ],
+   "third_point_context": [
+    "Firm AUM: ~$17bn (as of 2015-10) [D08].",
+    "Historical exposure (2015-12): 72.3% long, 24.4% short, 47.9% net [D08].",
+    "Existing stake: not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Current Third Point position/basis in the company; detailed governance structure (pill/board composition); precise debt maturity schedule."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company operates a complex industrial conglomerate structure where the market is debating the merits of separation versus shared ownership [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply its expertise in industrial constructivism to pressure management for a portfolio simplification or separation to close the valuation gap vs. peers like Emerson Electric [D01, D04]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Governance details such as board structure are not in pack, and there is no currently verified board commitment to a transaction [D05]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company supports a solid 5.3% FCF yield and strong cash position relative to net debt, providing a fundamental valuation cushion [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a $95.19bn market cap and high liquidity, Third Point can easily build a meaningful position within its $300M-$3.5B sizing range [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The recent CEO transition provides a natural window to influence strategic direction and portfolio review [D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "We see a sum-of-the-parts discount in a complex industrial conglomerate where our constructivist pressure can catalyze a separation or simplification to unlock value vs. peer benchmarks.",
+   "one_line_verdict": "a diversified industrial conglomerate with hidden value in its separable segments and a timely management transition for strategic review"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market views the company as a cohesive conglomerate, discounting the value of its disparate segments due to complexity and lack of focus. We believe the segments are distinct enough to be valued individually at higher multiples, and that a structural separation will eliminate the holdco discount. With a new CEO in place, the company has the optimal window to initiate a portfolio simplification that the market has yet to price in [D01, D07].",
+   "evidence": [
+    "Market debating merits of separation versus shared ownership [D01].",
+    "Recent CEO transition provides a window to influence strategic review [D07].",
+    "Trading at a 17.8x forward P/E compared to industrial peers reaching up to 23.8x [D04]."
+   ],
+   "peer_benchmark": "Emerson Electric (23.8x P/E) [D04]",
+   "what_must_be_true": [
+    "Management acknowledges the valuation gap during the strategic review process",
+    "Separation logic outweighs tax and pension complication concerns",
+    "Operating performance remains stable during potential transition",
+    "Capital allocation strategy prioritizes shareholder value over conglomerate preservation"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$160.00",
+    "arithmetic": [
+     "Target P/E: 22.0x (blended peer multiple of Emerson/Northrop) [D04]",
+     "2017E EPS: $7.25 (estimated based on raised FY2017 guidance) [D03]",
+     "Implied Equity Value: $7.25 * 22.0x * 762.34m shares = $121.5bn [D04]",
+     "Target Price: $121.5bn / 762.34m = $159.38 (~$160)"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$115.00",
+    "basis": "Current FCF yield of 5.3% on $103.35bn EV providing downside support [D04]"
+   },
+   "current_price": "$124.87 [D04]",
+   "skew": "28% : 8%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "2017E EPS of $7.25 assumes mid-to-high end of guidance following Q1 raise [D03]",
+    "Target multiple of 22.0x assumes convergence toward high-quality industrial peers [D04]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Initiate comprehensive portfolio review to evaluate separation of distinct industrial segments [D01]",
+    "Align segment margins with best-in-class industrial peers [D04]",
+    "Adopt capital allocation strategy prioritizing long-term shareholder returns over conglomerate preservation [D02]"
+   ],
+   "actors": [
+    "Darius Adamczyk — CEO — active/new transition [D01]"
+   ],
+   "governance_route": "Engagement during CEO leadership transition to influence strategic review [D01, D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management ignores private engagement or fails to present a credible plan for unlocking sum-of-the-parts value within 6 months, shift to P2 (public letter/presentation) to force board accountability.",
+   "why_this_role_fits_the_era": "In the 2016+ era, Third Point favors private engagement first when a credible management team is in place, especially during a CEO transition, only resorting to public activism if ignored."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management publicly commits to maintaining the current conglomerate structure for a period exceeding 12 months",
+    "Operating margins in Segment 1 and 3 deteriorate by more than 100 bps in back-to-back quarters [D06]",
+    "Macro environment shift leading to a sustained decline in industrial demand, causing a FCF yield compression below 4% [D04]",
+    "The board rejects private engagement and implements defensive measures such as a poison pill"
+   ],
+   "portfolio_risk": "High factor overlap with existing industrial and diversified cyclical holdings; requires monitoring of net exposure to industrial software growth themes [D01]. Sizing should ensure liquidity for exit within 5-10 days of average volume [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts (S&P 500) to offset market beta; consider single-name shorts on lower-quality industrial peers to isolate conglomerate discount alpha.",
+   "biggest_risk_in_one_sentence": "The primary risk is that the new CEO elects to pursue incremental operational improvement rather than a value-unlocking structural separation, causing the valuation gap to persist."
+  }
+ },
+ "final": {
+  "as_of_date": "2017-04-27",
+  "company": "The Company",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$160.00",
+   "floor": "$115.00",
+   "skew": "28% : 8%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Initiate comprehensive portfolio review to evaluate separation of distinct industrial segments [D01]",
+    "Align segment margins with best-in-class industrial peers [D04]",
+    "Adopt capital allocation strategy prioritizing long-term shareholder returns over conglomerate preservation [D02]"
+   ],
+   "actors": [
+    "Darius Adamczyk — CEO"
+   ],
+   "governance_route": "Engagement during CEO leadership transition to influence strategic review [D01, D07]",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company operates as a complex industrial conglomerate where the market undervalues the sum of its distinct, high-quality segments [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "A valuation gap exists, with the company trading at 17.8x forward P/E compared to industrial peers reaching up to 23.8x [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "A recent CEO transition provides a natural window for management to adopt a strategic plan that prioritizes portfolio simplification [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The current 5.3% FCF yield and strong balance sheet provide a solid fundamental floor for the position [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management publicly commits to maintaining the current conglomerate structure for a period exceeding 12 months",
+   "Operating margins in Segment 1 and 3 deteriorate by more than 100 bps in back-to-back quarters [D06]",
+   "Macro environment shift leading to a sustained decline in industrial demand, causing a FCF yield compression below 4% [D04]",
+   "The board rejects private engagement and implements defensive measures such as a poison pill"
+  ],
+  "what_would_change_our_mind": "Evidence that the new CEO and board are committed to permanent conglomerate status, or a significant deterioration in segment-level operating margins that invalidates the SOTP valuation.",
+  "memo": "The Company is a leading industrial conglomerate that the market currently misprices as a stagnant, cohesive whole, failing to recognize the significant underlying value of its separable, high-growth segments [D01]. Despite possessing high-quality assets in warehouse and automation, the company trades at a 17.8x forward P/E, a substantial discount to best-in-class industrial peers like Emerson Electric which trade at 23.8x [D04].\n\nOur sum-of-the-parts analysis, based on a blended peer multiple of 22.0x applied to 2017E EPS of $7.25, suggests a intrinsic value of $160 per share [D03, D04]. With the stock currently trading at $124.87, we believe this presents an asymmetric opportunity with significant upside potential [D04].\n\nThe market’s skepticism stems from perceived complexity and concerns regarding potential tax and pension complications inherent in a spin-off [D05]. We believe these concerns are manageable and are vastly outweighed by the value creation potential of creating pure-play entities with focused capital allocation [D01, D02].\n\nThe recent transition to CEO Darius Adamczyk provides an ideal window for constructive engagement [D01, D07]. We are calling on leadership to initiate a comprehensive strategic review to evaluate the separation of distinct segments and align performance with industrial best-in-class margins [D01, D04]. We expect a clear roadmap for this simplification within the next two quarters [D01].\n\nWe are sizing this position at 5% of NAV given our conviction in the valuation gap and the clear catalyst provided by the management transition [D04]. While we maintain index-level hedges to manage beta, we view the 5.3% FCF yield as a hard floor that limits downside risk [D04]. We will act as a constructive partner, but are prepared to escalate if the board prioritizes conglomerate preservation over long-term shareholder value [D01, D02].",
+  "uncited_claims": []
+ }
+}

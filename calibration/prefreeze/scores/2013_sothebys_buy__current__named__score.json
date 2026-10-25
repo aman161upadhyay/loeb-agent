@@ -1,0 +1,53 @@
+{
+ "trade_id": "2013_sothebys_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Expenses near prior peak levels despite lower revenue reveal an operational efficiency gap. → Our analysis suggests that by rationalizing costs and optimizing capital usage, Sotheby's can move operating margins from their current 27.9% level toward 35% [D03, D06].",
+   "Board refresh and CEO succession supply the mechanism for restoration. → Our plan centers on demanding immediate board refreshment to inject financial expertise and disciplined oversight, alongside a pivot toward more efficient capital return and financing practices [D03, D04].",
+   "The iconic franchise is losing competitive ground because of leadership and strategic weakness. → Sotheby's represents a quintessential constructivist opportunity: an iconic global auction house whose brand equity is obscured by a bloated expense structure and inefficient capital allocation [D01, D03]."
+  ],
+  "missed": [
+   "CEO perquisites and scant director ownership contrast with an owner's incentives.",
+   "Contemporary art, private sales, digital distribution and international markets provide specific growth routes."
+  ],
+  "extra_agent_drivers": [
+   "The company maintains a mechanical net cash position of $180.8m, which is not being utilized effectively to drive shareholder returns [D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Sotheby's can move operating margins from their current 27.9% level toward 35%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains a mechanical net cash position of $180.8m",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At a 15x multiple on normalized post-event earnings, we see a path to a $65 valuation",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 3,
+  "share": 0.27
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a position of 8% of NAV, reflecting our high conviction in the skew and our readiness to escalate if management ignores our calls for operational and governance reform [D03, D08].",
+ "grader_notes": "The agent correctly identified the investment direction and key pillars of the activist thesis, particularly concerning margin expansion and board refreshment. While the agent missed specific drivers regarding CEO perquisites and growth routes like digital/international markets, it captured the core operational efficiency and governance arguments. The agent's extra focus on the net cash position is consistent with the provided materials.",
+ "run": "2013_sothebys_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

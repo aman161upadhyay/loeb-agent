@@ -1,0 +1,24 @@
+{
+  "id": "ho_2025_soho_sell",
+  "company": "Soho House & Co",
+  "ticker": "SHCO",
+  "aliases": [
+    "Soho House",
+    "Soho House & Co",
+    "Soho House & Co Inc.",
+    "SHCO",
+    "Membership Collective Group",
+    "MCG",
+    "Soho Works",
+    "Soho Home",
+    "The Ned",
+    "Scorpios"
+  ],
+  "as_of_date": "2025-08-15",
+  "mode": "existing",
+  "era": "E",
+  "first_action_window": "2025-08-18 event date in 13D/A; exact trade execution unknown",
+  "fund_aum_usd_bn": 19.3,
+  "instrument": "common",
+  "notes": "Sealed Era E by disclosure date, not by company origin. First action dates unknown unless stated. Quarter-end fallback is explicit and may fall inside the action quarter; not a claim of pre-entry foresight. fund_aum_usd_bn=19.3 is stale firm-wide AUM stated in April 2025 report (published May 5); includes all managed/affiliate funds, SMAs and legacy-private participation notes, not Offshore NAV. Effective date of that firm AUM not specified. Authenticated cutoff closes and current consensus/peer multiples generally not recovered; historical filing-implied marks and issuer prices expressly dated. Header Date is the compiled desk-date cutoff, not a claim that all underlying publications share one date. Financial snapshots are intentionally limited to recovered figures; conditional underwriting is labeled separately. Grade C."
+}

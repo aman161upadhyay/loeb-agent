@@ -1,0 +1,43 @@
+{
+ "trade_id": "2014_sony_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Realize the investment gain rather than rely on a structural proposal management will not implement. → With the primary thesis broken and the governance path effectively closed, we are exiting the position to rotate capital into higher-skew opportunities",
+   "Electronics execution disappointed and successive profit warnings reduced confidence in the remaining turnaround. → Furthermore, the fundamental outlook has darkened, evidenced by the substantial ¥180bn impairment of mobile-communications goodwill and downward revisions to operating income guidance",
+   "Some operational and cost changes delivered progress despite rejection of the partial spinout. → The board’s decision to formally reject our proposal for a minority listing of the entertainment division removes the primary catalyst for our involvement"
+  ],
+  "missed": [],
+  "extra_agent_drivers": []
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The board’s decision to formally reject our proposal for a minority listing of the entertainment division removes the primary catalyst for our involvement",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "fundamental outlook has darkened, evidenced by the substantial ¥180bn impairment of mobile-communications goodwill",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 2,
+  "share": 0.29
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "With the primary thesis broken and the governance path effectively closed, we are exiting the position to rotate capital into higher-skew opportunities.",
+ "grader_notes": "The agent correctly identified the core reasons for the exit: the rejection of the structural proposal and the deterioration of the electronics/mobile division's performance. The reasoning aligns closely with Loeb's stated rationale regarding the loss of the primary catalyst and the failure to see the desired structural changes.",
+ "run": "2014_sony_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

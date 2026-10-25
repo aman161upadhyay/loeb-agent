@@ -1,0 +1,53 @@
+{
+ "trade_id": "2021_venture_book",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Years of venture and board knowledge supported underwriting the public-market lifecycle → We have seen the Company successfully transition from our venture portfolio to the public markets",
+   "The IPO was another stage of ownership rather than an automatic exit → As a venture-backed position, the transition to public markets is a milestone rather than an immediate exit signal"
+  ],
+  "missed": [
+   "AI underwriting could price consumer credit more accurately than legacy approaches."
+  ],
+  "extra_agent_drivers": [
+   "The company has demonstrated strong revenue growth and margin expansion as of the latest Q3 2020 reporting [D03].",
+   "Valuation remains stretched following the share price rally to $62.19 post-IPO, requiring caution [D04].",
+   "Significant risks persist regarding credit-cycle resilience and partner concentration [D05]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Q3 2020 results showed 32.1% revenue growth and an improvement in operating margin to 18.7%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company successfully transition from our venture portfolio to the public markets",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Trailing P/E of approximately 807x",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have seen the Company successfully transition from our venture portfolio to the public markets, and its early operating metrics are encouraging [D01, D07].",
+ "grader_notes": "The agent correctly identified the 'HOLD' stance and captured two of the three primary drivers related to the venture-to-public lifecycle transition. The reasoning diverged slightly by focusing heavily on recent short-term operational metrics and valuation concerns, whereas the source material emphasized the long-term thematic utility of the AI underwriting model.",
+ "run": "2021_venture_book__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "HOLD",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

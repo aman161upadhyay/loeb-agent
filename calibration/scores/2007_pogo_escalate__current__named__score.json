@@ -1,0 +1,62 @@
+{
+ "trade_id": "2007_pogo_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "A competitive sale should realize asset value in the whole company or several parts → A partial step is merely an invitation to further value destruction; we are demanding the whole sale",
+   "A majority-board proxy challenge makes the proposed process credible → we will use the proxy process to ensure the board is comprised of directors who represent our interests"
+  ],
+  "missed": [
+   "Ten-year share-price appreciation of 5.8% trails the 11.7% peer rate.",
+   "Northrock's $1.8bn cost plus over $350m investment is difficult to reconcile with production falling from 30,000 to 27,000 boe/day."
+  ],
+  "extra_agent_drivers": [
+   "Persistent operational underperformance versus peer benchmarks necessitates a change in governance"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market’s current valuation of approximately 5.0x trailing earnings does not reflect the underlying NAV of these reserves",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Pogo Producing Company has drifted long enough, hiding behind a disjointed divestiture strategy",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company's operating cash flow and margins have been pressured",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The approaching annual meeting provides an immediate, effective window for director accountability and shareholder action",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Persistent operational underperformance versus peer benchmarks necessitates a change in governance",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "A partial step is merely an invitation to further value destruction; we are demanding the whole sale, and we will use the proxy process to ensure the board is comprised of directors who represent our interests, not the status quo.",
+ "grader_notes": "The agent correctly identified the decision to escalate and the demand for a total sale via the proxy process. The reasoning overlapped on the core catalyst (proxy challenge/sale demand) but failed to reference the specific historical underperformance metrics (stock price vs. peers and Northrock acquisition failures) that underpinned Loeb's initial case.",
+ "run": "2007_pogo_escalate__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

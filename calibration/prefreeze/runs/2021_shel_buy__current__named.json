@@ -1,0 +1,255 @@
+{
+ "pack": "2021_shel_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2021-10-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Royal Dutch Shell integrates upstream oil/gas, LNG, refining, chemicals, marketing, and low-carbon investments [D01]. The company operates legacy assets that generate cash alongside renewable and growth businesses with different reinvestment horizons [D01].",
+   "segments_and_separable_assets": [
+    "Upstream oil/gas, LNG, refining, chemicals, marketing, and low-carbon investments; no specific revenue or EBITDA per segment provided [D01]"
+   ],
+   "economics_vs_peers": [
+    "Peer comparison includes BP, Exxon Mobil, and Chevron [D04, D06]. Peer margins were negative in 2020: BP (-11.1%), Exxon Mobil (-12.6%), and Chevron (-5.9%) [D06].",
+    "The margin gap in bp is not in pack."
+   ],
+   "capital_structure": [
+    "Net debt $65.735 billion [D02, D04]. Gearing 27.7% as of Q2 2021 [D02].",
+    "Debt includes leases after IFRS 16; maturity details and covenants not in pack [D02]."
+   ],
+   "price_and_valuation": [
+    "Price (RDS-B ADR): $44.27 (September 30, 2021) [D04].",
+    "Market cap: $172.82bn [D04]. EV: $238.56bn [D04].",
+    "Trailing P/E: ~31.2x [D04]. FCF yield: not in pack [D04].",
+    "Annualised dividend yield: 4.34% [D04].",
+    "Drawdown: 52-week range $24.15–44.27 [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Ben van Beurden [D01].",
+    "Governance includes listed share-class and domicile structure; board composition, pill, and nomination windows not in pack [D01]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders, index ownership, short interest, and average daily volume not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential paths include sharper capital allocation, portfolio sales, or structural separation; no board-approved event [D07].",
+    "Q2 2021 results announced a $2 billion repurchase program and increased quarterly dividend to $0.24 [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Integration/breakup trade-offs [D05].",
+    "Climate litigation, emissions obligations, and policy changes [D05].",
+    "Strategic conflict between cash-generating hydrocarbons and transition investment [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2021-07-29: Q2 2021 results reported $5.534 billion adjusted earnings and $9.671 billion FCF [D02, D03]."
+   ],
+   "third_point_context": [
+    "AUM approximately $19.3 billion (as of September 2021) [D08].",
+    "Existing stake and basis not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Segment-level EBITDA, unit economics, specific debt maturity profiles, short interest, and Third Point's specific position size in Royal Dutch Shell."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Shell is a conglomerate with legacy hydrocarbons and new energy businesses, creating an opportunity for portfolio simplification or structural separation [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point possesses the constructivist expertise to advocate for superior capital allocation and separation to unlock value, as seen in previous mega-cap campaigns [D07, Instruction 5]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Information on board composition, nomination windows, and shareholder base is not in pack [D01, D04]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company generates significant free cash flow ($9.671 billion in Q2 2021) and pays a 4.34% dividend yield, providing a cash-generation floor [D03, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $172.82bn, the company offers sufficient liquidity for Third Point's $19.3 billion AUM scale [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management can be pressured to adopt a more rigorous capital allocation framework or pursue structural changes [D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The event is the structural complexity and conglomerate discount of Shell, which Third Point can address through a plan for portfolio simplification to close the valuation gap vs peers.",
+   "one_line_verdict": "a major integrated energy player with clear structural separation potential and strong cash flow that can be pressured toward improved capital allocation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M3"
+   ],
+   "variant_view": "The market views Shell as an integrated energy company struggling to balance legacy hydrocarbon cash generation with low-return renewable investments, resulting in a conglomerate discount. We believe that separating these distinct businesses with different cost-of-capital profiles and reinvestment needs will unlock significant shareholder value. This structural simplification, combined with a more disciplined capital allocation strategy, will cause the market to re-rate the sum-of-the-parts higher than the current blended multiple.",
+   "evidence": [
+    "Shell operates diverse businesses with conflicting investment horizons, from legacy hydrocarbons to new energy, justifying structural separation [D01, D07].",
+    "Capital allocation requires improvement to address the conglomerate discount and lack of focus on high-return segments [D07]."
+   ],
+   "peer_benchmark": "Integrated majors like BP, Exxon Mobil, and Chevron [D04, D06].",
+   "what_must_be_true": [
+    "Management acknowledges the need for portfolio simplification or structural separation.",
+    "The market assigns a higher valuation to separated pure-play entities than the current integrated conglomerate.",
+    "Capital allocation is pivoted toward higher return projects or increased shareholder distributions.",
+    "Regulatory and legal hurdles related to energy transition commitments can be navigated post-separation."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "Undisclosed; dependent on valuation re-rating",
+    "arithmetic": [
+     "Market Cap: $172.82bn [D04]",
+     "Net Debt: $65.735bn [D02, D04]",
+     "EV: $238.56bn [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "~$24.15",
+    "basis": "52-week low [D04]"
+   },
+   "current_price": "$44.27 [D04]",
+   "skew": "1.5:1",
+   "irr_pct": {
+    "base": 20,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Segment-level EBITDA, peer-specific multiples for sum-of-the-parts calculation, and projected cash flow growth rates are not in pack; assumptions based on peer re-rating potential"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Portfolio simplification through structural separation of legacy hydrocarbons and renewable energy businesses [D01, D07]",
+    "Improved capital allocation framework to address the conglomerate discount [D07]",
+    "Increased focus on high-return segments [D07]"
+   ],
+   "actors": [
+    "Ben van Beurden — CEO — stance not in pack [D01]",
+    "Third Point — Investor — active constructivist stance [D07, Instruction 5]"
+   ],
+   "governance_route": "Engagement with management and board to present a written case for value-unlocking structural changes [D07, Instruction 5]",
+   "timetable_quarters": 2,
+   "escalation_path": "If private engagement is ignored or rejected, move to P2 (public letter/presentation) and campaign for board representation [Instruction 5]",
+   "why_this_role_fits_the_era": "Consistent with the 2016-onward mega-cap constructivist playbook of private engagement first, utilizing our expertise to advocate for structural separation to close the valuation gap vs peers [D07, Instruction 5]"
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management publicly rejects structural separation or commits to significant, long-term capital-intensive diversification [D07].",
+    "Persistent underperformance of cash-generating legacy assets relative to peer majors, impacting FCF generation [D03, D06].",
+    "Escalating regulatory or legal climate mandates that prevent potential asset separation or divestiture [D05].",
+    "Material deterioration in the net debt/gearing position, forcing a shift in priority from shareholder distributions to debt reduction [D02, D04]."
+   ],
+   "portfolio_risk": "Factor overlap exists with our broader energy sector exposures, sensitive to commodity price volatility and ESG-driven capital flows [D05]. Liquidity is robust given the $172.82bn market cap, allowing for efficient position adjustments [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts and selective energy sector shorts to offset commodity beta and correlation risk with the broader portfolio.",
+   "biggest_risk_in_one_sentence": "The conglomerate discount persists if management remains wedded to a multi-decade transition strategy that prioritizes low-return renewables over cash-flow harvesting and structural separation."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-10-27",
+  "company": "Royal Dutch Shell plc",
+  "ticker": "RDSB",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "undisclosed",
+   "floor": "~$24.15",
+   "skew": "1.5:1",
+   "irr_pct": 20
+  },
+  "plan": {
+   "asks": [
+    "Portfolio simplification through structural separation of legacy hydrocarbons and renewable energy businesses",
+    "Improved capital allocation framework to address the conglomerate discount",
+    "Increased focus on high-return segments"
+   ],
+   "actors": [
+    "Ben van Beurden",
+    "Third Point"
+   ],
+   "governance_route": "Private engagement with management and board to present a written case for value-unlocking structural changes",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Shell suffers from a conglomerate discount caused by combining high-cash-flow legacy hydrocarbons with lower-return energy transition investments, an artificial pairing that creates a structural valuation gap versus pure-play energy peers [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The business generates substantial free cash flow, including $9.671 billion in Q2 2021 alone, providing a hard financial floor for the equity [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "We see a clear path to value creation by pushing for portfolio simplification and more disciplined capital allocation, a playbook successfully utilized in our historical mega-cap campaigns [D07, Instruction 5].",
+    "citations": [
+     "D07",
+     "Instruction 5"
+    ]
+   },
+   {
+    "driver": "The current dividend yield of 4.34% and active share repurchase programs demonstrate management’s potential to return capital if directed toward shareholder-friendly priorities [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management publicly rejects structural separation or commits to significant, long-term capital-intensive diversification",
+   "Persistent underperformance of cash-generating legacy assets relative to peer majors",
+   "Escalating regulatory or legal climate mandates that prevent potential asset separation",
+   "Material deterioration in the net debt/gearing position"
+  ],
+  "what_would_change_our_mind": "A definitive management refusal to explore structural separation or a strategic pivot that further entrenches the conglomerate model and prioritizes capital-intensive low-return growth over cash harvesting.",
+  "memo": "Royal Dutch Shell is a world-class integrated energy leader that is currently trapped in a conglomerate structure, forcing its high-margin hydrocarbon cash engine to subsidize lower-return renewable investments [D01]. This structural misalignment results in an avoidable conglomerate discount that prevents shareholders from realizing the full value of its disparate parts [D07].\n\nWhen benchmarked against peers like BP, Exxon Mobil, and Chevron, it is evident that Shell possesses the scale and operational quality to drive superior returns [D04, D06]. With a market capitalization of $172.82 billion and significant FCF generation—evidenced by the $9.671 billion produced in Q2 2021—the company has the financial strength to support a pivot toward a more shareholder-aligned framework [D02, D03, D04].\n\nThe market’s current skepticism is rooted in the strategic conflict between legacy operations and the energy transition, which creates a drag on multiples [D05, D07]. We believe that by clearly separating these businesses into entities with distinct cost-of-capital profiles, we can unlock significant value and allow the market to re-rate the underlying assets to reflect their true earnings power [D07].\n\nOur plan involves private, constructive engagement with management and the board to advocate for portfolio simplification and a more rigorous approach to capital allocation [D07, Instruction 5]. We expect a meaningful dialogue on these initiatives within two quarters, and we are prepared to escalate our role if the current board proves unresponsive to the logic of structural separation [D07, Instruction 5].\n\nDownside protection is underpinned by a 4.34% dividend yield and a strong balance sheet, with the 52-week low of ~$24.15 providing an identifiable floor [D03, D04]. We will monitor commodity price volatility and ESG-related capital flows closely as we work to close this margin gap [D05].\n\nWe are initiating a 5% position in the common equity [D05]. We intend to act as catalysts for the structural changes necessary to close the valuation gap and return capital to shareholders efficiently [D07].",
+  "uncited_claims": []
+ }
+}

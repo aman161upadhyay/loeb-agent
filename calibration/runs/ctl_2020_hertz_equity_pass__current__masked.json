@@ -1,0 +1,241 @@
+{
+ "pack": "ctl_2020_hertz_equity_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-06-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates rental-car brands supported by a financed vehicle fleet [D01]. It is currently undergoing a bankruptcy restructuring process following a sudden reduction in travel demand and bookings [D03].",
+   "segments_and_separable_assets": [
+    "US rental: Q1 2020 revenue $1,381m, 67% utilization [D06]",
+    "International rental: Q1 2020 revenue $368m, 66% utilization [D06]",
+    "Fleet-leasing segment: Q1 2020 revenue $174m, +13% growth [D06]"
+   ],
+   "economics_vs_peers": [
+    "Peer AMERCO (FY March 2020) achieved a 13.6% operating margin [D06].",
+    "The Company's US rental utilization was 67% in Q1 2020 versus 79% in the prior year period [D03].",
+    "Comparing rental companies requires reconciling fleet leverage, residual values, and debt structure, as industry revenue multiples alone ignore significant capital intensity differences [D06]."
+   ],
+   "capital_structure": [
+    "Total debt as of December 31, 2019: $17,089m [D02].",
+    "Total debt as of March 31, 2020: Approximately $18.8bn [D04].",
+    "Unrestricted cash as of March 31, 2020: $1,017m [D03].",
+    "The Company filed for Chapter 11 bankruptcy on May 22, 2020 [D03].",
+    "Claims hierarchy includes vehicle financing (ABS), corporate debt, leases, and administrative claims senior to common equity [D01, D04]."
+   ],
+   "price_and_valuation": [
+    "Market cap: Approximately $787m (based on $5.53/share close and 142.285m shares) [D04].",
+    "EV: Approximately $18.6bn [D04].",
+    "FY2019 earnings yield: -8.86% [D04].",
+    "Trailing GAAP P/E: NM due to losses [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Trading volume on June 8, 2020: Approximately 533.9m shares [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Chapter 11 filing (May 22, 2020) [D03, D07].",
+    "Potential catalysts: Reopening travel demand, used-vehicle realizations, and bankruptcy court-approved restructuring plan [D01, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Absolute priority: enterprise improvements may accrue entirely to creditors, leaving nothing for common equity [D05].",
+    "Erosion of equity value due to administrative expenses, fleet liquidation losses, and financing restrictions [D05].",
+    "Fragile exit liquidity during a speculative equity rally [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "May 11, 2020: Q1 2020 financial results released [D03].",
+    "May 22, 2020: Voluntary Chapter 11 petitions filed in Delaware [D03].",
+    "June 8, 2020: Speculative equity rally; shares closed at $5.53 (+115.2%) [D04]."
+   ],
+   "third_point_context": [
+    "Third Point Q1 2020 13F reports $6.266bn of securities; April 16 letter reports 16% Q1 Offshore loss and March credit deployment [D08].",
+    "Current specific position or basis in the Company: not in pack."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Detailed creditor waterfall model, appraised liquidation value of vehicle fleet, specific board/governance structure, and current Third Point position or exposure."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is undergoing Chapter 11 bankruptcy restructuring, providing a defined process for asset and liability resolution [D03]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The pack lacks a detailed creditor waterfall analysis or appraised liquidation value of the fleet, which is required to assess recovery in a bankruptcy [Missing data]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The bankruptcy filing in Delaware establishes a formal, court-supervised process for restructuring [D03]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Common equity faces significant risk of total impairment due to absolute priority rules and the seniority of vehicle financing (ABS) and corporate debt [D01, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "High trading volume of 533.9m shares on June 8, 2020, provides sufficient liquidity for position sizing [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Not in pack; governance and management details are unavailable [Missing data]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The event is a Chapter 11 bankruptcy process where common equity is at extreme risk of absolute priority dilution, and Third Point lacks the necessary recovery analysis to justify a position.",
+   "one_line_verdict": "a distressed equity situation with significant bankruptcy risk and no collateral-backed floor for common shareholders"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market is engaging in a speculative rally driven by reopening sentiment, ignoring the reality that the company has filed for Chapter 11 bankruptcy [D03]. We believe the equity will be wiped out as the enterprise value is insufficient to cover senior creditors under the absolute priority rule [D05]. The bankruptcy court process will ultimately force a restructuring that prioritizes debt holders over common shareholders [D03].",
+   "evidence": [
+    "Chapter 11 bankruptcy filing on May 22, 2020 [D03].",
+    "Absolute priority rules dictate that senior creditors must be satisfied before any value accrues to common equity [D05].",
+    "Company holds approximately $18.8bn in debt compared to a market cap of only $787m [D04].",
+    "Equity rally on June 8, 2020, reflects speculative trading rather than fundamental recovery prospects [D04]."
+   ],
+   "peer_benchmark": "AMERCO (FY March 2020) 13.6% operating margin [D06].",
+   "what_must_be_true": [
+    "Enterprise value must be shown to be lower than the total debt claims.",
+    "Court-approved restructuring plan must be confirmed with no residual value for common equity.",
+    "Fleet liquidation values must be insufficient to pay off senior vehicle financing (ABS) and corporate debt."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$0.00",
+    "arithmetic": [
+     "Total debt $18.8bn [D04] > Enterprise Value [D05]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Absolute priority rule in Chapter 11 bankruptcy where senior debt exceeds asset value [D05]"
+   },
+   "current_price": "$5.53 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": -100
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumes no residual value for common equity post-restructuring based on current bankruptcy status [D03, D05]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A",
+   "timetable_quarters": 0,
+   "escalation_path": "No action taken; maintain short exposure or avoid common equity due to absolute priority rule [D05].",
+   "why_this_role_fits_the_era": "In a Chapter 11 process where common equity is fundamentally impaired by senior debt obligations, Third Point's role is to avoid the speculative equity trap and potentially capitalize on the mispricing via the credit/distressed side, rather than engaging in constructivist equity campaigns [D03, D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Enterprise value exceeds senior debt claims rendering equity recovery viable [D05].",
+    "Restructuring plan provides recovery for equity holders [D03, D05].",
+    "Used vehicle market pricing improves significantly above bankruptcy-stressed liquidation assumptions [D01].",
+    "Emergence of a rival bidder or white knight providing liquidity to satisfy junior stakeholders [D03]."
+   ],
+   "portfolio_risk": "High volatility associated with bankruptcy equities creates significant risk of short squeeze during speculative rallies; exposure must be managed to avoid outsized losses in a retail-driven environment [D04].",
+   "instrument": "options",
+   "size_pct_nav": {
+    "initial": 0.5,
+    "target": 1,
+    "max": 2
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 2,
+   "hedge_overlay": "Maintain index puts as a buffer against broader market volatility while holding the short position",
+   "biggest_risk_in_one_sentence": "The primary risk is a short squeeze fueled by retail speculation during the bankruptcy process, which may decouple the stock price from its fundamental value of zero."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-06-08",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$0.00",
+   "floor": "$0.00",
+   "skew": "0% : 100%",
+   "irr_pct": -100
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company has filed for Chapter 11 bankruptcy, rendering common equity fundamentally impaired by senior debt obligations [D03, D05].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Absolute priority rules dictate that enterprise value is insufficient to cover the $18.8bn in senior claims, leaving no residual value for common shareholders [D04, D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The recent 115% rally to a $787m market cap is a speculative retail-driven anomaly detached from the company's insolvent reality [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Third Point lacks a detailed creditor waterfall analysis to justify an opportunistic long position or specific recovery play, necessitating a pass on common equity [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Enterprise value exceeds senior debt claims rendering equity recovery viable [D05].",
+   "Restructuring plan provides recovery for equity holders [D03, D05].",
+   "Used vehicle market pricing improves significantly above bankruptcy-stressed liquidation assumptions [D01].",
+   "Emergence of a rival bidder or white knight providing liquidity to satisfy junior stakeholders [D03]."
+  ],
+  "what_would_change_our_mind": "Evidence that enterprise value exceeds the total debt claims, providing a fundamental basis for equity recovery under the bankruptcy restructuring process.",
+  "memo": "The Company is currently undergoing a Chapter 11 bankruptcy process following a collapse in travel demand, yet the equity continues to trade as if a fundamental recovery were possible [D03]. With total debt reaching approximately $18.8bn against a market capitalization of $787m, the enterprise is clearly insolvent [D04].\n\nUnder absolute priority rules, senior creditors—including vehicle financing and corporate debt holders—must be fully satisfied before any value can accrue to common equity [D05]. The current speculative rally, which saw shares close at $5.53 on June 8, ignores the mathematical reality that the firm's assets are insufficient to cover its liabilities [D04].\n\nWhile we typically seek out dislocations where we can identify a clear path to value, this situation represents an equity trap devoid of a floor [D01]. We have no edge in the creditor waterfall to suggest an alternative recovery outcome, and thus we see no reason to participate in the retail-driven volatility surrounding the common shares [D01].\n\nWe are passing on this opportunity. The risk of a short squeeze during this bankruptcy phase is acute, and we prefer to allocate capital to situations with identifiable earnings power or hard asset backing rather than speculating on the wreckage of a bankrupt rental-car firm [D03, D04].",
+  "uncited_claims": []
+ }
+}

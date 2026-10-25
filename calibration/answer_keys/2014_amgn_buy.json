@@ -1,0 +1,52 @@
+{
+  "id": "2014_amgn_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Among largest shareholders per letter; exact initial stake and NAV weight unavailable.",
+  "first_action_date": null,
+  "disclosure_date": "2014-10-21",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Robert Bradway",
+      "Amgen board",
+      "scientific advisers"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 8
+  },
+  "drivers": [
+    {
+      "driver": "Mature drugs and growth assets are a hidden-value situation with distinct investor constituencies.",
+      "source": "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil... (2014-10-21)",
+      "quote": "hidden value situation"
+    },
+    {
+      "driver": "A MatureCo/GrowthCo separation can make the two economic profiles visible.",
+      "source": "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil... (2014-10-21)",
+      "quote": null
+    },
+    {
+      "driver": "Improve R&D productivity and project-selection discipline rather than assuming spending creates value.",
+      "source": "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil... (2014-10-21)",
+      "quote": null
+    },
+    {
+      "driver": "Operating-margin improvement and capital return can create value even without a split.",
+      "source": "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil... (2014-10-21)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Letter separation scenario around $249/share over two years; forecast, not realized value.",
+  "outcome_note": "Subsequent margin/capital-return commitments; proposed split was not assumed completed.",
+  "sources": [
+    "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil...",
+    "https://www.amgen.com/newsroom/press-releases/2014/07/amgens-second-quarter-2014-revenues-increased-11-percent-to-52-billion-and-adjusted-earnings-per-share-eps-increased-25-percent-to-237"
+  ],
+  "pack_quality_notes": "Grade B. Same-day letter is key-only. Full original October letter text recovered through a spacing-imperfect mirror; quote limited to unambiguous phrase. October close, numeric independent peer valuation and fund exposure missing. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

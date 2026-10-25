@@ -1,0 +1,62 @@
+{
+ "trade_id": "2021_venture_book",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "AI underwriting could price consumer credit more accurately than legacy approaches. → The platform's application of AI to consumer-credit underwriting provides a clear catalyst by potentially offering superior approval and loss outcomes for partner banks [D01].",
+   "Years of venture and board knowledge supported underwriting the public-market lifecycle. → Upstart remains a compelling opportunity where our edge is rooted in deep, long-term familiarity as a venture investor, rather than a speculative public market bet [D01]."
+  ],
+  "missed": [
+   "The IPO was another stage of ownership rather than an automatic exit."
+  ],
+  "extra_agent_drivers": [
+   "The fee-based platform model avoids the capital-intensive nature of traditional lending [D01].",
+   "Rapid post-IPO price appreciation requires disciplined monitoring of valuation against sustainable earnings power [D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The platform's application of AI to consumer-credit underwriting provides a clear catalyst by potentially offering superior approval and loss outcomes for partner banks",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Upstart maintains a capital-light business model that differentiates it from traditional lenders",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock has experienced significant price appreciation, moving well beyond its $20 offering price",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We remain focused on the underlying operating metrics—specifically partner bank retention and the resilience of AI credit models through varied economic cycles",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We maintain our position to observe the upcoming first public earnings report",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Upstart remains a compelling opportunity where our edge is rooted in deep, long-term familiarity as a venture investor, rather than a speculative public market bet [D01].",
+ "grader_notes": "The agent correctly matched the decision to hold and identified the primary drivers regarding venture-origin familiarity and the technical merit of AI underwriting. The agent's reasoning was slightly broader than Loeb's stated drivers, incorporating business model analysis and valuation concerns that were not present in the specific answer key drivers for this decision.",
+ "run": "2021_venture_book__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "HOLD",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

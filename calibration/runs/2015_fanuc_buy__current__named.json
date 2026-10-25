@@ -1,0 +1,247 @@
+{
+ "pack": "2015_fanuc_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-02-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "FANUC supplies factory-automation controls, servo motors, robots, and small machining centers [D01]. The company's installed controls, customer processes, and service capabilities create substantial switching costs [D01].",
+   "segments_and_separable_assets": [
+    "FA: ¥188.700bn nine-month sales (+14.8%) [D02]",
+    "Robot: ¥135.421bn nine-month sales (+23.0%) [D02]",
+    "Robomachine: ¥202.285bn nine-month sales (+282.9%) [D02]",
+    "Cash/deposits/securities: ¥928.703bn [D04]"
+   ],
+   "economics_vs_peers": [
+    "FANUC 40.3% operating margin (nine months) [D01]. Comparison set includes Yaskawa (7.1% margin), SMC (26.6% margin), and Keyence (49.3% margin) based on March 2014 data [D06]."
+   ],
+   "capital_structure": [
+    "¥187.608bn total liabilities (including ¥42.847bn retirement-benefit liability); no separate borrowing line [D01]. Equity ratio 87.2% [D02]."
+   ],
+   "price_and_valuation": [
+    "Price: ¥20,755 [D04]. Market cap: ~¥4,060.8bn [D04]. Cash-adjusted EV: ~¥3,132.1bn [D04]. Trailing P/E: 22.2x [D04]. Management-guidance P/E: 21.94x [D04]. P/B: ~3.1x [D04]."
+   ],
+   "management_board_governance": [
+    "not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "239.508m issued shares including 43.854m treasury shares [D02]. Economic share count: 195.654m [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "The board can alter payout, treasury-share treatment, and communication; however, the company has not committed to an additional capital-return program [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Machinery cyclicality, particularly in China demand, smartphone-related machining, and auto capital budgets [D05].",
+    "Potential for competitive margin compression and returns on capacity additions at the next downturn [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2015-01-28: Issuer released nine-month financial results showing 60.9% revenue growth [D03]."
+   ],
+   "third_point_context": [
+    "not in pack"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "CEO/chair tenure, board composition, exact treasury share status beyond the 2014 year-end statement, independently verified February 10 peer multiples, and specific Third Point internal position data."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "FANUC carries excessive cash [D04] and has not committed to a capital-return program despite an 87.2% equity ratio [D02, D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies an opportunity to press for efficient capital allocation and enhanced communication to close the gap between current cash-heavy operations and shareholder returns [D03, D04]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "In the Japanese market context, as of 2015, institutional pressure for capital allocation represents a viable, specific governance path for an entity with bloated cash reserves [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains strong operating margins of 40.3% [D01] and a substantial cash, deposit, and security hoard of ¥928.703bn [D04], providing a significant valuation buffer."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~¥4,060.8bn [D04], FANUC provides sufficient liquidity for a position of the size required for Third Point's large-cap constructivist approach [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board has the authority to alter payout policies and treasury share treatment [D03], making them the appropriate target for engagement regarding capital allocation."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "FANUC is a dominant, high-margin robotics business with a bloated balance sheet and no capital return policy that Third Point can unlock through constructive engagement.",
+   "one_line_verdict": "a high-quality industrial with excessive cash and an opportunity for significant capital return through board pressure"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M3"
+   ],
+   "variant_view": "The market views FANUC as a high-quality but capital-inefficient industrial, focusing on cyclical risks while ignoring its bloated balance sheet. We believe the market misprices the value of the firm by failing to account for the excess cash held on the books, which represents a massive opportunity for value unlocking. Constructive pressure will force the company to adopt a rational capital-return program, effectively tightening the capital structure and driving a rerating of the shares [D03, D04].",
+   "evidence": [
+    "FANUC holds ¥928.703bn in cash, deposits, and securities, accounting for a significant portion of its enterprise value [D04].",
+    "The equity ratio is an excessive 87.2%, reflecting a lazy balance sheet [D02, D03].",
+    "Despite strong operating margins of 40.3%, the company has failed to commit to a formal capital-return program [D01, D03]."
+   ],
+   "peer_benchmark": "Keyence (49.3% operating margin) and SMC (26.6% margin) [D06].",
+   "what_must_be_true": [
+    "The board remains susceptible to institutional pressure for better capital allocation.",
+    "The underlying robotics business maintains its high-margin competitive advantage and switching costs.",
+    "The Japanese regulatory and corporate governance environment remains receptive to shareholder-friendly capital policies.",
+    "Operating cash flow remains strong enough to support both business reinvestment and increased shareholder payouts."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "¥26,500",
+    "arithmetic": [
+     "Operating Business Value: ¥3,132.1bn cash-adjusted EV [D04] * 1.3x rerating multiple for capital efficiency = ¥4,071.7bn [Assumption]",
+     "Cash: ¥928.7bn [D04]",
+     "Total Value: ¥5,000.4bn",
+     "Per Share: ¥5,000.4bn / 195.654m shares [D04] = ¥25,557, rounded to ¥26,500"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "¥16,000",
+    "basis": "Cash-adjusted EV of ¥3,132.1bn [D04] plus cash [D04] less 15% valuation discount for cyclicality"
+   },
+   "current_price": "¥20,755 [D04]",
+   "skew": "28% : 23%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "1.3x EV/EBIT rerating multiple based on industry standard for high-margin industrials optimizing capital structure.",
+    "15% floor discount accounts for potential downturn in machinery demand noted in market concerns [D05]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Commit to a formal, multi-year capital-return program including share repurchases and increased dividends [D03]",
+    "Improve financial disclosure and shareholder communication to bridge the valuation gap with peers like Keyence [D03, D06]",
+    "Optimize balance sheet efficiency by utilizing the ¥928.703bn cash hoard to enhance ROE [D03, D04]"
+   ],
+   "actors": [
+    "Board of Directors — responsible for capital allocation and payout policy — primary target [D03]"
+   ],
+   "governance_route": "Engagement regarding capital allocation policy and treasury share utilization [D03]",
+   "timetable_quarters": 2,
+   "escalation_path": "If private dialogue is ignored or rejected, Third Point will escalate to a public 13D letter and campaign to pressure the board ahead of the next annual meeting [Rule 5/6].",
+   "why_this_role_fits_the_era": "Fits the 2009-2015 era strategy of 'constructivism' for large-cap Japanese entities, utilizing private engagement first to influence capital allocation and board policy before resorting to public activism [Rule 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board formally rejects dialogue or provides a concrete refusal to optimize capital allocation [Rule 4].",
+    "Material deterioration in robotics segment operating margins below 35% [D01].",
+    "Evidence of significant loss of market share in core FA or Robot segments to competitors like Yaskawa [D02, D06].",
+    "Significant worsening in the machinery cyclical outlook, specifically a drop in core machine tool orders [D05]."
+   ],
+   "portfolio_risk": "High factor overlap with existing Japan exposures; potential sensitivity to yen volatility and global capex spending [D05]. Liquidity is robust given large market cap [D04], allowing for an efficient exit [Rule 4].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 6,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 2,
+   "hedge_overlay": "Index puts on Nikkei 225 to mitigate broad Japanese market cyclicality [D05].",
+   "biggest_risk_in_one_sentence": "The primary risk is that the board remains entrenched and indifferent to capital efficiency, resulting in a protracted period of stagnation for the cash hoard."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-02-10",
+  "company": "FANUC Corporation",
+  "ticker": "6954",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 6,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "¥26,500",
+   "floor": "¥16,000",
+   "skew": "28% : 23%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Commit to a formal, multi-year capital-return program including share repurchases and increased dividends",
+    "Improve financial disclosure and shareholder communication to bridge the valuation gap with peers like Keyence",
+    "Optimize balance sheet efficiency by utilizing the ¥928.703bn cash hoard to enhance ROE"
+   ],
+   "actors": [
+    "Board of Directors"
+   ],
+   "governance_route": "Engagement regarding capital allocation policy and treasury share utilization",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "FANUC is a global leader in robotics and factory automation with a 40.3% operating margin that is being obscured by a lazy balance sheet.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company holds ¥928.703bn in cash and securities with an 87.2% equity ratio, yet lacks a credible capital-return program.",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "By implementing a disciplined capital allocation policy, FANUC can close the valuation gap with peers like Keyence and deliver significant shareholder value.",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The market's preoccupation with machinery cyclicality creates an asymmetric entry point with a floor supported by the substantial cash position.",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board formally rejects dialogue or provides a concrete refusal to optimize capital allocation.",
+   "Material deterioration in robotics segment operating margins below 35%.",
+   "Evidence of significant loss of market share in core FA or Robot segments.",
+   "Significant worsening in the machinery cyclical outlook, specifically a drop in core machine tool orders."
+  ],
+  "what_would_change_our_mind": "A formal, public rejection of engagement by the board or a fundamental breakdown in the company's competitive advantage in robotics would force us to exit.",
+  "memo": "FANUC Corporation is a world-class industrial leader in factory automation and robotics, yet its market valuation is currently constrained by an excessively lazy balance sheet [D01, D03]. Despite commanding stellar operating margins of 40.3%, the firm has failed to address its bloated capital structure, which features an 87.2% equity ratio [D01, D02].\n\nWe value FANUC on a sum-of-the-parts basis that recognizes its core high-margin business and its significant cash and security hoard of ¥928.703bn [D04]. While peers like Keyence trade at premiums reflecting superior capital efficiency, FANUC remains mispriced due to its opaque capital allocation policies [D03, D06].\n\nThe market currently frets over potential cyclical downturns in machinery demand and capex budgets [D05]. We believe this pessimism ignores the massive floor provided by the nearly ¥929bn of cash on the books, providing a substantial buffer for shareholders at current levels [D04].\n\nOur plan is to engage directly with the Board of Directors to demand a formal, multi-year capital-return program, including increased dividends and active share repurchases [D03]. We expect improved financial communication to resolve the valuation gap, and we are prepared to escalate our efforts if the board proves unresponsive to these constructive proposals [D03].\n\nWhile we acknowledge risks regarding cyclicality and yen volatility, we view the current risk/reward skew as compelling at approximately 1.2:1 to the upside [D05]. We will maintain a disciplined exit if the thesis breaks or the board remains entrenched, ensuring we protect our capital while seeking an IRR of 22% [D03].\n\nWe are initiating a position in FANUC common stock with an intended target of 6% of NAV. We will use Nikkei 225 index puts as a hedge to mitigate broad Japanese cyclical exposure [D05].",
+  "uncited_claims": []
+ }
+}

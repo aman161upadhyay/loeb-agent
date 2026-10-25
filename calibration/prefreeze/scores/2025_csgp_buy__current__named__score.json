@@ -1,0 +1,56 @@
+{
+ "trade_id": "2025_csgp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The Bloomberg of commercial real estate possessed recurring data and marketplace economics with pricing power. → CoStar Group is a premier provider of commercial real estate information, yet its valuation is severely distorted by heavy, speculative investment in its residential platform",
+   "Homes.com spending obscured the core and required capital-allocation discipline. → We intend to engage privately with CEO Andy Florance and the board to drive capital discipline, specifically demanding transparency on ROIC for residential initiatives",
+   "Independent board expertise and oversight could improve returns on investment and accountability. → We intend to engage privately with CEO Andy Florance and the board to drive capital discipline"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The company maintains a strong net cash position of approximately $3.689 billion, which provides a solid $70.30 per share floor for our investment",
+   "Management's initial $500 million buyback authorization suggests an emerging openness to capital return"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "CoStar's FY2024 operating margin sits at a negligible 0.17%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "MSCI operates at 53.5% operating margin",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$3.689 billion net cash position",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Applying a 25x EV/EBITDA multiple suggests an equity value of approximately $125",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 12,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We intend to engage privately with CEO Andy Florance and the board to drive capital discipline, specifically demanding transparency on ROIC for residential initiatives and the acceleration of the current $500 million buyback [D01], [D07].",
+ "grader_notes": "The agent correctly identified the direction and the primary drivers of the thesis regarding core commercial strength versus residential spending. The reasoning is well-aligned with Loeb's focus on capital allocation and board accountability. The agent included extra drivers concerning cash position and buybacks which were not explicitly listed in the answer key drivers but align with the general strategic goals.",
+ "run": "2025_csgp_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

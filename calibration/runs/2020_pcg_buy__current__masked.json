@@ -1,0 +1,251 @@
+{
+ "pack": "2020_pcg_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-07-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a regulated Northern California electric and gas utility operating under a court-confirmed Chapter 11 bankruptcy exit plan [D01]. It operates an essential network while managing significant wildfire liability risks and associated safety underwriting [D01].",
+   "segments_and_separable_assets": [
+    "Regulated electric and gas utility operations; specific segment revenue or EBITDA not provided in pack [D01]"
+   ],
+   "economics_vs_peers": [
+    "Historical performance includes wildfire accruals creating severe margin distortion (-58.9% operating margin in 2019) [D02, D06]. Peers like Edison International and American Electric Power demonstrate operating margins of 14.4% and 16.7% respectively [D06]."
+   ],
+   "capital_structure": [
+    "Post-emergence gross-debt forecast is approximately $38.1bn [D04]. The capital structure includes new common stock and equity units issued upon emergence [D01, D02]. Debt remains material; covenants and specific instrument maturities are not in pack [D03, D04]."
+   ],
+   "price_and_valuation": [
+    "Common share close $9.03 [D04]. Public offering price $9.50 [D04]. Fully diluted equity value proxy approx $19.41bn [D04]. TTM P/E and EV/EBITDA are NM due to bankruptcy-related losses [D04].",
+    "Peer P/E multiples: Edison International (16.2x), Sempra Energy (14.7x), American Electric Power (22.0x) [D04]."
+   ],
+   "management_board_governance": [
+    "Interim CEO Bill Smith serves as the public representative at emergence [D01]. New board seated as of July 1, 2020 [D03]. Bankruptcy plan confirmed June 20, 2020 [D03, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Post-emergence fully diluted share proxy approximately 2.150bn [D04]. Trust overhang and dilution conventions apply [D02, D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Bankruptcy emergence finalized July 1, 2020; implementation of court-confirmed plan, new governance, and wildfire fund participation [D01, D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Recurring wildfire exposure and regulatory uncertainty [D05].",
+    "Capital requirements for safety upgrades [D05].",
+    "Potential technical overhang from shares held by the Company's trust [D05].",
+    "Future regulatory disallowances and inability to secure full recovery of investment [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Public common offering of 423,372,629 shares at $9.50 [D02]. Equity units offering of 14,545,455 units at $100 each [D02]."
+   ],
+   "recent_events": [
+    "June 20, 2020: Bankruptcy plan confirmed [D07].",
+    "June 26, 2020: Common stock and equity unit offerings priced [D02, D07].",
+    "July 1, 2020: Company emerges from Chapter 11 [D01, D07]."
+   ],
+   "third_point_context": [
+    "Not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Unit-level economics, customer retention figures, segment capital employed, exact unrestricted cash at emergence, and detailed debt maturity schedules."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is emerging from Chapter 11 bankruptcy on July 1, 2020, with a court-confirmed plan and new equity issued [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point specializes in post-reorganization situations where forced selling and trust overhangs create price dislocations in essential utility assets [D02, D05]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The bankruptcy plan is court-confirmed and effective as of July 1, 2020, establishing the new operational and capital framework [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "As a regulated monopoly utility, the underlying business provides a floor based on its essential network nature, supported by the post-reorganization capital structure [D01]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With 2.150 billion shares and a ~$19.41bn equity value, the market cap and float are sufficient for Third Point to build a significant position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The process is driven by the court-confirmed bankruptcy emergence and a newly seated board of directors [D01, D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The bankruptcy emergence creates a post-reorganization dislocation where the market is discounting the equity due to trust overhang and wildfire risk, allowing us to buy a regulated monopoly at an attractive entry point.",
+   "one_line_verdict": "a post-bankruptcy utility emergence with a clear governance reset and inherent asset floor"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M5",
+    "M7"
+   ],
+   "variant_view": "The market is pricing the equity as a distressed asset burdened by perpetual wildfire liability and trust-related technical selling, ignoring the foundational reset provided by the court-confirmed bankruptcy emergence. We believe the normalized earnings power of this regulated monopoly will become apparent as safety expenditures are integrated and regulatory recovery mechanisms stabilize. The valuation gap versus peers will close as the technical overhang dissipates and the market recognizes the company as a de-risked utility infrastructure play.",
+   "evidence": [
+    "The bankruptcy emergence finalized on July 1, 2020, implementing a court-confirmed plan and new governance [D01, D07].",
+    "Trust overhang and wildfire risk currently create severe price dislocation [D02, D05].",
+    "Peer utility margins range from 14.4% to 16.7%, highlighting the massive disparity created by historical bankruptcy-related wildfire accruals [D06]."
+   ],
+   "peer_benchmark": "Edison International (16.2x P/E) and American Electric Power (22.0x P/E) [D04].",
+   "what_must_be_true": [
+    "Regulatory authorities continue to approve safety cost recovery in rates.",
+    "The new board successfully manages wildfire mitigation and safety underwriting.",
+    "Technical selling pressure from the trust clears without further long-term valuation impairment."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$18.50",
+    "arithmetic": [
+     "Assumed normalized revenue of $18B [Assumption: Based on pre-bankruptcy utility scale]",
+     "Target operating margin 15.5% (midpoint of peers) [D06]",
+     "Operating Income = $2.79B",
+     "Target P/E 17.6x (average of Edison, Sempra, AEP) [D04]",
+     "Equity Value = ~$49B (estimated post-debt/interest adjustments) [D04]",
+     "Per share value ~ $18.50 based on 2.15B shares [D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$7.50",
+    "basis": "Reflects tangible book value floor post-emergence [Assumption: Estimated 20% discount to offering price due to ongoing wildfire liability uncertainty] [D02, D04]"
+   },
+   "current_price": "$9.03 [D04]",
+   "skew": "105% : 17%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalized revenue of $18B assumed for earnings power calculation",
+    "Estimated 20% discount to offering price for floor calculation due to ongoing litigation/trust overhang",
+    "Interest expense normalization modeled based on peer capital structures"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Maintain fiscal discipline and execute on wildfire safety infrastructure programs as mandated by the bankruptcy settlement [D01, D05]"
+   ],
+   "actors": [
+    "Bill Smith — Interim CEO — Newly appointed [D01]",
+    "Board of Directors — Oversight — Newly seated as of July 1, 2020 [D03]"
+   ],
+   "governance_route": "Court-confirmed bankruptcy reorganization plan [D01, D07]",
+   "timetable_quarters": 4,
+   "escalation_path": "Monitor quarterly earnings and safety capex implementation; if management fails to control costs or improve margins toward peer levels, move to private engagement (P1).",
+   "why_this_role_fits_the_era": "Post-2015 era strategy: the company has just undergone a comprehensive governance reset through Chapter 11. Given the new board and the defined regulatory path, the situation is currently a passive investment awaiting execution rather than an active proxy battle."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory commission disallows safety cost recovery in the first two post-emergence rate cases [D05].",
+    "Significant new wildfire event exceeding insurance/fund coverage limits [D05].",
+    "Failure to execute on mandated wildfire mitigation infrastructure benchmarks for two consecutive quarters [D01].",
+    "Subordination of equity holders in any subsequent balance sheet restructuring [D01]."
+   ],
+   "portfolio_risk": "Factor overlap includes regulated utilities exposure and wildfire liability risk; liquidity is high given 2.15B shares outstanding [D04]. Hedge via index puts to offset systemic market volatility [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts (SPX) to manage systemic market exposure while holding a concentrated idiosyncratic utility play.",
+   "biggest_risk_in_one_sentence": "The persistence of wildfire liability and potential regulatory failure to normalize utility returns in the face of political pressure."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-07-01",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$18.50",
+   "floor": "$7.50",
+   "skew": "105% : 17%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Maintain fiscal discipline and execute on wildfire safety infrastructure programs as mandated by the bankruptcy settlement"
+   ],
+   "actors": [
+    "Bill Smith — Interim CEO",
+    "New Board of Directors"
+   ],
+   "governance_route": "Court-confirmed bankruptcy reorganization plan",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The company is a regulated monopoly whose equity is mispriced by the market as a distressed asset due to technical selling and wildfire overhangs, ignoring the foundational reset of a court-confirmed bankruptcy emergence [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Based on a normalized operating margin of 15.5%—aligning with utility peers like AEP and Edison—and a 17.6x target P/E, we see a path to a $18.50 per share valuation [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The governance reset, led by a newly seated board and interim management, provides a clear framework to execute mandated safety infrastructure programs [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The downside is protected by a tangible book value floor estimated at $7.50, providing an asymmetric risk/reward skew of over 3:1 [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory commission disallows safety cost recovery in the first two post-emergence rate cases [D05].",
+   "Significant new wildfire event exceeding insurance/fund coverage limits [D05].",
+   "Failure to execute on mandated wildfire mitigation infrastructure benchmarks for two consecutive quarters [D01].",
+   "Subordination of equity holders in any subsequent balance sheet restructuring [D01]."
+  ],
+  "what_would_change_our_mind": "A failure to secure regulatory recovery for mandated safety expenditures or a material new wildfire event that forces a deviation from the post-reorganization capital structure.",
+  "memo": "We are initiating a position in The Company, a regulated utility that has just emerged from a court-confirmed Chapter 11 process [D01, D07]. The market continues to treat the equity as a distressed, uninvestable liability, creating a significant mispricing between the current $9.03 share price and the fundamental value of an essential, regulated monopoly [D04, D05].\n\nWhen we normalize the business, the disconnect becomes clear. By applying a 15.5% operating margin—consistent with peers like Edison International and American Electric Power—and a 17.6x P/E multiple, we arrive at a valuation of approximately $18.50 per share [D04, D06]. This represents a 105% upside from recent levels, underpinned by an essential network that is now free from its previous balance sheet constraints [D01, D04].\n\nThe market’s pessimism is driven by lingering fears of wildfire liability and potential technical selling from the trust [D05]. We believe these concerns are overblown and that the new governance, led by a fresh board of directors and interim CEO Bill Smith, is positioned to prioritize the safety infrastructure mandates required by the bankruptcy settlement [D01, D03]. As safety expenditures are integrated and regulatory recovery mechanisms stabilize, the valuation gap versus utility peers will dissipate.\n\nOur plan is to monitor the execution of the safety infrastructure program over the next four quarters [D01, D05]. We have a defined floor at $7.50 per share, reflecting a conservative view of tangible book value [D02, D04]. Should management fail to meet safety benchmarks or if regulators impede cost recovery, we will reassess; however, the current risk/reward skew is highly favorable at 3:1 [D01, D04, D05].\n\nWe are sizing this at 5% of NAV, reflecting our conviction in the post-reorganization reset [D04]. We are hedging this idiosyncratic exposure with index puts to protect against broader market volatility [D04].",
+  "uncited_claims": []
+ }
+}

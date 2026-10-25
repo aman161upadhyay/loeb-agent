@@ -1,0 +1,34 @@
+{
+ "trade_id": "2018_utx_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Separate Aerospace, Otis and Carrier so each can close the discount to pure-play peers → We see a clear path to value creation through the separation of distinct business units, which would eliminate the holdco discount and optimize capital allocation",
+   "Standalone transparency, incentives and capital allocation could surface sum-of-parts value → The Company suffers from a persistent conglomerate discount that undervalues its high-margin elevator and aerospace assets relative to their pure-play peers",
+   "Pratt & Whitney's investment phase could give way to a large multi-year free-cash-flow inflection → A sum-of-the-parts analysis values the business at $155 per share, providing a 29% upside from current levels while trading at a supportive 11.0x EV/EBITDA multiple"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The pending acquisition and ongoing portfolio review provide a natural, timely catalyst to initiate constructive private engagement with management."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 4,
+  "share": 0.29
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We see a clear path to value creation through the separation of distinct business units, which would eliminate the holdco discount and optimize capital allocation [D05, D06].",
+ "grader_notes": "The agent correctly identified the core thesis of separating business units to close the conglomerate discount and unlocking value through improved capital allocation and transparency. The agent added specific valuation targets and an engagement plan not present in the investor's brief summary, but the primary drivers align with Third Point's stated rationale.",
+ "run": "2018_utx_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,51 @@
+{
+ "pack": "2020_q1_derisk",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2020-03-16",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-03-16",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The WHO declared a pandemic on March 11 [D03]. The Federal Reserve initiated emergency measures on March 15 in response to disrupted economic activity and global financial stress [D03]. High-yield OAS has widened significantly (838 bp) and the S&P 500 is in a sharp drawdown [D04].",
+  "book_exposure": "As of February 29, total equity long was 105.3% and short was 35.2%, with total fund gross at 139.0% NAV [D02].",
+  "actions": [
+   "Cover cyclical equity shorts to capture basis and reduce squeeze risk",
+   "Reduce gross exposure across the fundamental equity book to preserve liquidity",
+   "Mark private investments to reflect current market stress",
+   "Maintain cash and defensive posture to meet potential margin or redemption requirements"
+  ],
+  "target_gross_net": "Materially lower gross and net exposure than the February 29 levels [D02].",
+  "drivers": [
+   {
+    "driver": "A synchronized global shutdown renders existing earnings guidance and cyclical valuation multiples obsolete [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Correlated markdowns in equity and credit demand immediate liquidity to preserve fund solvency and meet potential obligations [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Financing market impairment creates a risk that sound fundamental theses fail simply due to a lack of available capital [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Historically low volatility and tight spreads at year-end provided no buffer for the current market plumbing crisis [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "memo": "We are facing a systemic liquidity regime change, not a mere market correction. The WHO's pandemic assessment and the Federal Reserve’s emergency response confirm that the economic backdrop has fundamentally shifted [D01, D03]. Our priority is the preservation of capital and liquidity; we will not allow our positions to be liquidated by the market's current plumbing failures. While we remain constructivist on long-term value, we are currently in a defensive posture to survive this discontinuity [D05, D08].\n\nWe are cutting gross exposure aggressively. The February delta-adjusted net equity of 64.4% is too high for a market experiencing 25%+ drawdowns and record volatility [D02, D04]. We are prioritizing the liquidity of our holdings over the retention of long-term themes, acknowledging that in a shutdown, even high-quality businesses can be constrained by financing access [D01, D08]. We remain vigilant for the inflection point when the Fed's liquidity backstop begins to translate into stabilized asset prices, but today we reduce risk to maintain the optionality to play the recovery.",
+  "uncited_claims": []
+ }
+}

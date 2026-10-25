@@ -1,0 +1,52 @@
+{
+ "trade_id": "2011_yahoo_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Asian assets and net cash leave the core at only $2.78/share, or 2.2x estimated EBITDA. → Our sum-of-the-parts valuation reveals that the Asian stakes, combined with net cash, provide a significant floor beneath the core operating business",
+   "Changing only the CEO does not cure the board's record. → The status quo is untenable; the strategic review announced on September 6, 2011, following the removal of CEO Carol Bartz, is a necessary but insufficient step toward unlocking this embedded value",
+   "Repair partner relationships and optimize Asian monetization, buybacks and the capital structure. → We intend to engage constructively to ensure the board acts in the interest of shareholders by monetizing these Asian holdings and implementing a disciplined capital allocation strategy"
+  ],
+  "missed": [
+   "The core franchise is damaged by governance but not irreparably damaged."
+  ],
+  "extra_agent_drivers": [
+   "Market participants are rightfully skeptical given the board's inability to resolve the monetization of these Asian assets"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Yahoo! Inc. is a premier internet media conglomerate that the market has fundamentally mispriced by failing to recognize the value of its separable Asian assets.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The strategic review announced on September 6, 2011, following the removal of CEO Carol Bartz, is a necessary but insufficient step.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Should the current board and interim leadership fail to provide a concrete, value-maximizing plan by the next annual meeting, we are prepared to launch a formal proxy contest to replace directors.",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 8,
+  "share": 0.62
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We intend to engage constructively to ensure the board acts in the interest of shareholders by monetizing these Asian holdings and implementing a disciplined capital allocation strategy.",
+ "grader_notes": "The agent correctly identified the SOTP thesis and the necessity of governance intervention beyond the CEO's departure. It missed the nuanced driver regarding the core franchise being 'damaged but not irreparably damaged', which Loeb highlighted to justify a turnaround rather than a liquidation-only approach.",
+ "run": "2011_yahoo_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

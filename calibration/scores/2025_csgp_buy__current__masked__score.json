@@ -1,0 +1,52 @@
+{
+ "trade_id": "2025_csgp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Homes.com spending obscured the core and required capital-allocation discipline → we are initiating private dialogue with the Board to demand immediate cessation of excessive residential spending",
+   "Independent board expertise and oversight could improve returns on investment and accountability → We expect the board to implement stricter oversight of capital allocation"
+  ],
+  "missed": [
+   "The Bloomberg of commercial real estate possessed recurring data and marketplace economics with pricing power."
+  ],
+  "extra_agent_drivers": [
+   "A substantial net cash position provides a downside floor.",
+   "SOTP valuation analysis."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "company generated 11% revenue growth in 2025",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "consolidated operating margin remains a paltry 0.17%",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "MSCI which command 53.5% margins",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our plan is straightforward: we are initiating private dialogue with the Board to demand immediate cessation of excessive residential spending and an acceleration of capital returns beyond the current $500 million authorization [D02, D07].",
+ "grader_notes": "The agent correctly matched the investment direction and identified the two primary operational drivers regarding residential spending and board-level oversight. However, it missed the core thematic driver describing CoStar as the 'Bloomberg of commercial real estate' and introduced significant idiosyncratic valuation-based drivers not present in the Loeb source material.",
+ "run": "2025_csgp_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

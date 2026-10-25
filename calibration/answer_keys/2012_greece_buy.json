@@ -1,0 +1,54 @@
+{
+  "id": "2012_greece_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Exact issuer NAV weight unavailable; roughly $1bn reported December position has unclear face/market-value basis.",
+  "first_action_date": null,
+  "disclosure_date": "2012-10-03",
+  "reason_class": null,
+  "opportunity_template": [
+    "E3",
+    "E5"
+  ],
+  "catalyst_role": "P5",
+  "instrument": "bond",
+  "plan": {
+    "actors": [
+      "Greek government",
+      "Troika",
+      "private creditors"
+    ],
+    "governance_route": "P5; creditor/court/official process, no assumed equity voting control",
+    "timetable_quarters": 2
+  },
+  "drivers": [
+    {
+      "driver": "The market overstates the probability of default and redenomination relative to the official-sector incentive to keep Greece in the euro.",
+      "source": "https://pdfcoffee.com/third-point-q3-2012-investor-letter-tpoi-pdf-free.html (2012-10-03; later stated rationale relative to pack cutoff)",
+      "quote": "the probability of a Greek default was overstated by the market"
+    },
+    {
+      "driver": "New bonds' legal terms and creditor protections improve the recovery asymmetry.",
+      "source": "https://pdfcoffee.com/third-point-q3-2012-investor-letter-tpoi-pdf-free.html (2012-10-03; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Incremental official funding can produce low-20s pricing, with larger upside as the strip moves to yield valuation.",
+      "source": "https://pdfcoffee.com/third-point-q3-2012-investor-letter-tpoi-pdf-free.html (2012-10-03; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "On-the-ground assessment and policy resolve support willingness to implement the program; this is Q3 hindsight relative to this pack.",
+      "source": "https://pdfcoffee.com/third-point-q3-2012-investor-letter-tpoi-pdf-free.html (2012-10-03; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Investor states entry around 17 cents in Q3; prospective October yield scenarios 30 at 15% or 40 at 12.5%.",
+  "outcome_note": "December buyback profit around $500m reported in press, not audited transaction-level return.",
+  "sources": [
+    "https://pdfcoffee.com/third-point-q3-2012-investor-letter-tpoi-pdf-free.html",
+    "https://greekbonds.pdma.gr/index.php/2012-05-28-15-51-31/2012-05-28-15-52-09/2012-05-28-19-19-51",
+    "https://www.business-standard.com/article/international/investors-seek-shelter-before-greek-vote-112061500187_1.html"
+  ],
+  "pack_quality_notes": "Grade C. Critical timing correction: June 15 is BEFORE June 17 election and late-July policy pledge; original letter explicitly says Q3 entry. Requested June pack is a counterfactual early-entry stress test, not historical first-action prediction. Later election result, Draghi pledge and Athens conclusions are key-only. Primary terms index recovered, not full executed trust deed. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

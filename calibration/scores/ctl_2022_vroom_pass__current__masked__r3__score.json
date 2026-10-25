@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2022_vroom_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Vroom/VRM/UACC absent from complete 54-quarter 13F index; no attributable manager public comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "Terminal liquidity crisis/negative operating margins",
+   "No actionable activist edge",
+   "High debt load/no downside floor",
+   "Macroeconomic headwinds"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company suffers from a terminal liquidity crisis driven by persistent negative operating margins of -21.1%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "debt of $1,212.1m",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 2,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Consequently, we have no role to play in this situation and our decision is to PASS [D07].",
+ "grader_notes": "The agent correctly identified the PASS decision. However, it failed to capture the primary driver provided in the answer key (the absence of the stock in Third Point's 13F index) and instead substituted its own fundamental analysis, which was not the basis for the control label in the provided answer key.",
+ "run": "ctl_2022_vroom_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,17 @@
+Title: Strong countercase and thesis risks — United Technologies Corporation
+Source: https://www.sec.gov/Archives/edgar/data/101829/000010182918000007/a2018-03x318xkerexhibit99.htm (2018-04-24); https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (2017-06-02); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618000853-third-point-llc-q4-2017 (2018-02-14)
+Date: 2018-05-04
+
+A sceptic argues a split is expensive precisely when the group is integrating Rockwell Collins and funding the geared-turbofan ramp. Engine execution, supplier constraints and warranty exposure can absorb cash longer than expected. Otis orders already show weakness. Separation cannot cure poor product execution or weak construction markets. Standalone borrowing costs, pension obligations and stranded corporate expense can offset a conglomerate-discount argument. The current report's strong adjusted growth is real evidence for the bull case, but the small quarterly cash conversion prevents treating earnings as distributable cash without further work. [S1; analyst countercase]
+
+Adversarial underwriting. The countercase above should be allowed to defeat the attractive narrative. Distinguish a temporary cloud from permanent impairment, and distinguish a bad business from a good business burdened by claims or a poor structure. Neither distinction is settled by a share-price decline. A credible risk memo names observable developments that would invalidate earnings, liquidity or governance assumptions rather than treat every setback as a chance to increase exposure.
+
+Useful tests include persistent demand or margin erosion after comparable accounting, inability to finance required investment, a remedy whose cost consumes its value, or a decision-maker with neither incentive nor obligation to act. These are analyst tests, not unreported management statements or documented shareholder instructions. Consider the opposite error as well: excessive caution can crystallize losses or miss a profitable recovery. A hedge can add basis, financing and squeeze risk. The recovered sources do not supply probabilities for each scenario, so no precision is implied. The downside floor must be independently demonstrated in cash flows, assets, contractual rights or capital structure; it must not be assumed merely because the upside plan sounds plausible.
+
+Analyst cross-check: Rank the objections by their transmission to the security: reduced operating cash generation, a larger financing claim, lost governance authority, or delayed realization. A thesis can survive a weak quarter but fail because funding expires first. Identify which risks can be monitored and which remain discontinuous.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/101829/000010182918000007/a2018-03x318xkerexhibit99.htm (published 2018-04-24).
+- [S2] https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (published 2017-06-02).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S4] https://13f.info/13f/000108514618000853-third-point-llc-q4-2017 (published 2018-02-14).

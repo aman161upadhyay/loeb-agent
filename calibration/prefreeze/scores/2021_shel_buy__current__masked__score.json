@@ -1,0 +1,53 @@
+{
+ "trade_id": "2021_shel_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Separate legacy cash-generating businesses from LNG and growth/transition assets. → We intend to pursue this privately at first, though we remain prepared to escalate our involvement if management fails to act on these clear paths to value creation",
+   "Clearer capital allocation and distinct investor constituencies could close a large intrinsic-value discount. → The current integrated model obscures the true earnings power and capital efficiency of the business units, creating a persistent drag on the stock"
+  ],
+  "missed": [
+   "Incompatible investor mandates had created an incoherent strategy and weak performance."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at a persistent conglomerate discount with a 1.03x P/B, significantly trailing integrated peers like Exxon Mobil and Chevron.",
+   "A sum-of-the-parts valuation reveals a potential equity value of $238.45bn, or $60.77 per share, based on a peer-average 1.42x P/B multiple.",
+   "Management has initiated a $2bn buyback, but structural separation is required to catalyze a true re-rating of the company's assets."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a persistent conglomerate discount with a 1.03x P/B, significantly trailing integrated peers like Exxon Mobil and Chevron",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A sum-of-the-parts valuation reveals a potential equity value of $238.45bn, or $60.77 per share",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Management has initiated a $2bn buyback",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our plan is to engage with the board to advocate for portfolio simplification, including the separation of non-core business segments and a more aggressive approach to capital allocation [D01, D07].",
+ "grader_notes": "The agent correctly identified the core strategy of separating business segments to address the conglomerate discount and valuation gap. The reasoning was farthest from Loeb's regarding the specific driver of 'incompatible investor mandates,' which the agent omitted in favor of a quantitative SOTP analysis.",
+ "run": "2021_shel_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

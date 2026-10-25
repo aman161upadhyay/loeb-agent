@@ -1,0 +1,56 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "First Republic/FRC absent from complete 54-quarter index; no attributable named long comment recovered in the local manager-letter/case archive."
+  ],
+  "extra_agent_drivers": [
+   "Existential risk of tangible equity erosion",
+   "Governance dominated by consortium",
+   "Stop-gap liquidity injection",
+   "Lack of fair-value visibility"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The bank faces existential risk of tangible equity erosion from forced asset marks.",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Governance is currently dominated by a consortium of major banks and regulatory bodies.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The $30bn emergency deposit injection is a stop-gap measure.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The lack of visibility into fair-value tangible book equity makes the current $6.38bn market capitalization uninvestable.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Consequently, we are passing on the opportunity and will not participate in the common equity [D05].",
+ "grader_notes": "The agent correctly identified the PASS decision but failed to mirror the key's reasoning, which was strictly based on historical absence from the manager's portfolio rather than independent fundamental analysis. The agent provided detailed fundamental drivers that were not cited in the answer key, resulting in a state of PARTIAL.",
+ "run": "ctl_2023_frc_pass__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

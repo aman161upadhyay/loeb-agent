@@ -1,0 +1,65 @@
+{
+ "trade_id": "2008_pdl_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Royalty and commercial assets are obscured by excessive mixed-business spending. → PDL BioPharma is a classic example of an asset with a valuable, recurring royalty stream being obscured by the heavy cost and poor performance of an integrated biotech business."
+  ],
+  "missed": [
+   "A separation should expose distinct commercial and development economics.",
+   "Independent oversight and leadership accountability are necessary to restrain wasteful spending.",
+   "Credible buyer interest should be evaluated against a disciplined standalone plan."
+  ],
+  "extra_agent_drivers": [
+   "Management’s piecemeal approach to asset sales is suboptimal and destroys value through overhead and tax leakage.",
+   "The clinical failure of Nuvion confirms that the R&D pipeline is a value-destroying use of capital rather than a growth engine.",
+   "The company trades at a persistent discount to the sum-of-the-parts of its royalty assets due to capital misallocation.",
+   "As an Era A/B holding, public escalation is our standard tool to force accountability when a strategic review is underway but moving too slowly."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Separation of valuable royalty assets from operating business: intact",
+    "citation": "D08",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Management effectiveness in executing asset sales: broken/insufficient",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Clinical pipeline value: broken (Nuvion failure)",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company trades at a persistent discount to the sum-of-the-parts",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Appointment of independent directors or announcement of a definitive agreement for asset sale",
+    "citation": "D07",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are moving to ESCALATE because the current market price does not reflect the underlying royalty value, and management’s pace of change is glacial.",
+ "grader_notes": "The agent correctly matched the decision to escalate. However, the reasoning is largely divergent: the agent focuses on specific recent clinical failures and piecemeal sale tactics, whereas Loeb's original drivers were framed around structural separation and general governance oversight.",
+ "run": "2008_pdl_escalate__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,263 @@
+{
+ "pack": "2014_amgn_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2014-10-21",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Amgen combines mature biotechnology products, which generate substantial cash, with a research and new-product pipeline that creates uncertain future earnings [D01]. The core capital-market question is whether these different cash-flow profiles are optimally measured and funded within a single corporate structure [D01].",
+   "segments_and_separable_assets": [
+    "Mature biotechnology products (generating substantial cash) [D01]",
+    "Research and new-product pipeline (uncertain future earnings) [D01]"
+   ],
+   "economics_vs_peers": [
+    "Amgen FY2013: 31.4% operating margin on $18.676bn revenue [D06]",
+    "Gilead FY2013: 40.4% operating margin on $11.201.7m revenue [D06]",
+    "Biogen FY2013: 36.3% operating margin on $6.932.2m revenue [D06]",
+    "Bristol-Myers Squibb FY2013: 15.6% net margin on $16.385bn revenue [D06]"
+   ],
+   "capital_structure": [
+    "Total long-term borrowing including current maturities: $32.128bn (FY2013) [D02]",
+    "Debt / cash and short-term investments / net debt: $33.328bn / $26.188bn / $7.140bn (June 2014) [D04]",
+    "Debt includes $2.5bn current maturities (June 2014) [D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $144.09 (2014-10-21) [D04]",
+    "Market cap: ~$109.45bn [D04]",
+    "EV: ~$116.59bn [D04]",
+    "Trailing P/E: 22.1× [D04]",
+    "Management-guidance P/E (FY2014): 17.2–17.6× [D04]",
+    "FCF (Q2 2014): $2.1bn [D01]"
+   ],
+   "management_board_governance": [
+    "Management is undertaking transformation measures and resource reallocation [D02, D03]",
+    "Board and management control research prioritization and capital return [D03]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Management has raised annual guidance and initiated resource reallocation [D03]",
+    "Possible event: Evaluation of corporate structure/split [D01]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Competitive and reimbursement risks for mature biologics [D05]",
+    "Potential failure of pipeline programs [D05]",
+    "Risk that indiscriminate cost cuts impair research or manufacturing quality [D05]",
+    "Risk that a split creates inferior capital structures or strands research overhead [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "2014-07-29: Q2 earnings release; revenue $5.180bn (+11%), adjusted EPS $2.37 (+25%), annual guidance raised [D01, D03]"
+   ],
+   "third_point_context": [
+    "Not in pack"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Top shareholder list, short interest, average daily volume, full segment-level revenue/EBITDA breakdown, precise post-event earnings power, and internal Third Point position/basis."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Amgen exhibits a potential conglomerate discount where mature, cash-generative biotechnology products are combined with an uncertain R&D pipeline [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies an opportunity to optimize capital structure and resource allocation by pressing management to address the valuation gap relative to higher-margin peers like Gilead and Biogen [D01, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Large-cap constructivism allows for a private engagement approach to pressure management and the board on structural separation and capital return policies [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business generates substantial cash from mature products, supported by strong FCF of $2.1bn in Q2 2014 and a manageable net debt of $7.140bn [D01, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$109.45bn, Amgen provides sufficient liquidity for a multi-hundred million dollar position typical of the 2009-2015 era [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management is currently receptive to transformation measures and resource reallocation, providing a pathway for constructive engagement [D02, D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The event is a potential structural split of Amgen's mature, high-cash-flow assets from its R&D pipeline to close a margin and valuation gap versus peers, utilizing Third Point's large-cap constructivist toolkit.",
+   "one_line_verdict": "a high-cash-flow biotechnology conglomerate with a clear margin gap versus peers and a management team currently engaged in transformation."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views Amgen as a monolithic, R&D-heavy biotechnology firm, failing to value the distinct cash-flow profiles of its mature, cash-generative product base versus its speculative pipeline [D01]. We believe the firm is significantly undervalued due to inefficient capital allocation and a persistent operating margin gap versus best-in-class peers [D01, D06]. Through structural separation and rigorous cost discipline, Amgen can unlock substantial value by allowing these business units to operate with optimal focus and capital structures [D01, D03, D05].",
+   "evidence": [
+    "Amgen operates at a 31.4% margin, trailing peers like Gilead (40.4%) and Biogen (36.3%) [D06].",
+    "The conglomerate structure masks the profitability of mature products, which generated $2.1bn in FCF in Q2 2014 alone [D01].",
+    "Management is already signaling a shift toward resource reallocation and improved capital returns, validating our constructive engagement thesis [D02, D03]."
+   ],
+   "peer_benchmark": "Gilead (40.4% operating margin) and Biogen (36.3% operating margin) [D06].",
+   "what_must_be_true": [
+    "Mature assets continue to deliver steady, high-margin cash flows without significant disruption from reimbursement or competitive pressures.",
+    "Management maintains commitment to the current transformation program and resource reallocation plan.",
+    "A structural separation or operational streamlining is achievable without permanently impairing core research and manufacturing quality.",
+    "The market re-rates the separated or streamlined entities to reflect peer-level operational efficiency."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$185.00",
+    "arithmetic": [
+     "Core mature products FCF annualised: $8.4bn [D01]",
+     "Target operating margin (38% vs current 31.4%): $19.5bn revenue * 38% = $7.4bn EBIT [D06]",
+     "Implied enterprise value at 14x EBIT: $103.6bn",
+     "Add Net Cash/Investments: $19.0bn (derived from $26.2bn cash - $7.2bn net debt) [D04]",
+     "Total Equity Value: $122.6bn / 745m shares ~ $165-$185/share range"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$125.00",
+    "basis": "FY2014 guidance P/E of 17.2x on EPS ~$7.30 [D04]"
+   },
+   "current_price": "$144.09 [D04]",
+   "skew": "28% : 13%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 8,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumption of 38% target operating margin based on peer range midpoint (Gilead 40.4%, Biogen 36.3%) [D06]",
+    "Assumption of 745m shares outstanding based on market cap calculation [D04]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Margin expansion to 38% to align with best-in-class peers [D06]",
+    "Formal evaluation of structural separation of mature product assets from R&D pipeline [D01]",
+    "Increased capital returns funded by high free cash flow generation [D03]"
+   ],
+   "actors": [
+    "Robert Bradway — CEO — Receptive [D02, D03]",
+    "Board of Directors — Oversight — Receptive [D03]"
+   ],
+   "governance_route": "Private engagement with management and the board to influence strategic resource reallocation and capital structure optimization [D03]",
+   "timetable_quarters": 4,
+   "escalation_path": "If private discussions regarding structural separation and margin targets are ignored or if management stalls on capital allocation, move to a public 13D letter and shareholder proposal [D03].",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point utilizes large-cap constructivism; because management is currently demonstrating receptivity to transformation, private engagement is the appropriate initial step to secure board-level alignment before resorting to public pressure [D02, D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management abandons the current transformation and resource reallocation plan [D02, D03].",
+    "Mature product revenue growth turns negative due to sustained reimbursement or competitive pressure [D05].",
+    "Operating margin expansion fails to materialize over two consecutive quarters [D06].",
+    "A major pipeline failure significantly impairs the company's long-term earnings power [D05]."
+   ],
+   "portfolio_risk": "Factor overlap involves large-cap biotech and healthcare exposure; given the 2009-2015 era strategy, this is a core position requiring monitoring of broader market beta and healthcare policy sentiment [D01, D03].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 6,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts or a sector-specific short basket to neutralize beta given the firm's large-cap status [D05].",
+   "biggest_risk_in_one_sentence": "The conglomerate split or operational streamlining impairs the research pipeline or fails to unlock the valuation gap, leaving the position trapped in a low-growth asset [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2014-10-21",
+  "company": "Amgen Inc.",
+  "ticker": "AMGN",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 6,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$185.00",
+   "floor": "$125.00",
+   "skew": "28% : 13%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Margin expansion to 38% to align with best-in-class peers [D06]",
+    "Formal evaluation of structural separation of mature product assets from R&D pipeline [D01]",
+    "Increased capital returns funded by high free cash flow generation [D03]"
+   ],
+   "actors": [
+    "Robert Bradway — CEO",
+    "Board of Directors"
+   ],
+   "governance_route": "Private engagement with management and the board to influence strategic resource reallocation and capital structure optimization [D03].",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "Amgen is a high-cash-flow biotechnology conglomerate suffering from a persistent operating margin gap versus peers like Gilead and Biogen [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company's current 31.4% operating margin can be expanded to 38%, unlocking significant value through operational discipline and capital allocation [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Structural separation of the cash-generative mature product portfolio from the speculative R&D pipeline offers a clear path to re-rating [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Management is currently receptive to transformation, providing a constructive governance route to influence capital return policies [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management abandons the current transformation and resource reallocation plan [D02, D03].",
+   "Mature product revenue growth turns negative due to sustained reimbursement or competitive pressure [D05].",
+   "Operating margin expansion fails to materialize over two consecutive quarters [D06].",
+   "A major pipeline failure significantly impairs the company's long-term earnings power [D05]."
+  ],
+  "what_would_change_our_mind": "The conglomerate split or operational streamlining fails to unlock the valuation gap or impairs the company's research pipeline, leaving the entity trapped as a low-growth asset [D05].",
+  "memo": "Amgen is a premier biotechnology company whose valuation is currently compressed by its conglomerate structure, which obscures the substantial, high-margin cash flows of its mature product base [D01]. Despite strong performance, the company trails best-in-class peers like Gilead and Biogen, operating at a 31.4% margin compared to their 36.3%-40.4% benchmarks [D06].\n\nBy rationalizing the cost structure to a 38% operating margin and evaluating a structural separation of its mature assets from the R&D pipeline, Amgen can realize an equity value in the $165-$185 per share range [D01, D06]. This transformation is supported by a robust financial foundation, evidenced by $2.1 billion in FCF generated in Q2 2014 alone [D01, D04].\n\nMarket participants have mispriced the stock by focusing on monolithic R&D uncertainty rather than the underlying cash-generating power of the firm’s mature portfolio [D01]. We see a clear path to closing this gap through aggressive capital return, margin optimization, and potential structural simplification [D01, D03].\n\nOur plan is to engage privately with CEO Robert Bradway and the Board to accelerate these initiatives [D02, D03]. We expect measurable progress on margin targets and capital allocation within four quarters [D03]. Should management prove unresponsive to these requests, we are prepared to escalate our involvement via a public 13D letter [D03].\n\nDownside remains protected by a $125 floor, supported by current FY2014 earnings guidance and strong cash flows [D04]. We are initiating a position representing 3% of NAV, with a target to grow this to 6% as our engagement progresses, while hedging beta through sector-specific instruments to focus on idiosyncratic value [D05].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "2003_potlatch_escalate",
+  "company": "Potlatch Corporation",
+  "ticker": "PCH",
+  "aliases": [
+    "Potlatch Corporation",
+    "PCH",
+    "Potlatch",
+    "Potlatch Lumber",
+    "L. Pendleton Siegel",
+    "Pendleton Siegel",
+    "Weyerhaeuser",
+    "Las Vegas towel factory"
+  ],
+  "as_of_date": "2003-05-01",
+  "mode": "existing",
+  "era": "A",
+  "first_action_window": "Requested checkpoint 2003-05-01; actual first action not recovered to a unique day; see answer-key dating notes. Requested CEO-plane letter not recovered: primary proxy verifies salary/options and no cash bonus, not aircraft spending. Key does not invent a plane figure or quote. April 7 initial letter precedes May 1 cutoff, so this is continuation/escalation, not pristine first public-letter prediction. No precise action on May 2 is claimed.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Requested CEO-plane letter not recovered: primary proxy verifies salary/options and no cash bonus, not aircraft spending. Key does not invent a plane figure or quote. April 7 initial letter precedes May 1 cutoff, so this is continuation/escalation, not pristine first public-letter prediction. No precise action on May 2 is claimed."
+}

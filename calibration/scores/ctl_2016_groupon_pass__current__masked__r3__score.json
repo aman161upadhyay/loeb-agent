@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2016_groupon_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Groupon/GRPN absent from all 54 quarterly issuer/instrument observations; no manager-specific public investment rationale recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company operates as a 'melting ice cube' with high marketing spend failing to secure durable, profitable customer retention.",
+   "There is no identifiable event, catalyst, or governance path to bridge the significant margin gap between the company's -5.7% operating margin and peers.",
+   "The business suffers from structural net losses and relies on vague operational goals rather than a discrete, value-creating plan.",
+   "Valuation is unattractive given the lack of a catalyst, with implied FY2016 EV/EBITDA multiples of ~14.8x-17.4x despite poor business quality."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "the company reported a -5.7% operating margin in Q2 2016",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "eBay's 25.6% or TripAdvisor's 15.5% [operating margin]",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "market’s skepticism is well-founded... company has failed to demonstrate that its marketing spend creates anything more than temporary deal-seeking behavior",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We exit this analysis with a firm pass, as the current risk-reward profile is fundamentally unattractive for our portfolio.",
+ "grader_notes": "The agent correctly identified the PASS decision but failed to incorporate the specific, empirical reason given in the answer key, which relies on the absence of the issuer from Third Point's historical investment activity. Instead, the agent provided a detailed fundamental investment memo that was not part of the documented Third Point rationale for this control.",
+ "run": "ctl_2016_groupon_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

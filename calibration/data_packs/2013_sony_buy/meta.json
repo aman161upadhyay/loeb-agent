@@ -1,0 +1,28 @@
+{
+  "id": "2013_sony_buy",
+  "company": "Sony Corporation",
+  "ticker": "6758 / SNE",
+  "aliases": [
+    "Sony Corporation",
+    "6758 / SNE",
+    "Sony",
+    "6758",
+    "SNE",
+    "Sony Pictures",
+    "Sony Music",
+    "Sony Entertainment",
+    "PlayStation",
+    "Bravia",
+    "VAIO",
+    "Sony Financial",
+    "Kazuo Hirai",
+    "Columbia Pictures"
+  ],
+  "as_of_date": "2013-05-13",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2013-05-13; actual first action not recovered to a unique day; see answer-key dating notes. Daily quote, cutoff fund AUM, peer numerical margin table and after-tax SOTP not recovered. Instrument metadata common is principal exposure; actual implementation includes cash-settled swaps outside schema vocabulary.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Daily quote, cutoff fund AUM, peer numerical margin table and after-tax SOTP not recovered. Instrument metadata common is principal exposure; actual implementation includes cash-settled swaps outside schema vocabulary."
+}

@@ -1,0 +1,262 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company provides relationship banking, residential lending, and wealth services to affluent households [D01]. The franchise's value depends on the survival of its customer relationships following a recent liquidity crisis [D01].",
+   "segments_and_separable_assets": [
+    "Relationship banking (revenue $5.9bn FY2022) [D02, D06]",
+    "Wealth management services [D01, D06]",
+    "Residential lending franchise [D01]"
+   ],
+   "economics_vs_peers": [
+    "FY2022 ROE 11.60% (vs 14% JPMorgan Chase); Tangible ROE 11.80% (vs 18% JPMorgan Chase); CET1 9.17% (vs 13.2% JPMorgan Chase) [D06].",
+    "The Company experienced 12.9% deposit growth in FY2022, but faces concerns regarding deposit migration and funding costs compared to larger diversified peers [D02, D06]."
+   ],
+   "capital_structure": [
+    "Total deposits: $176.4bn [D02]",
+    "Year-end 2022 borrowings: $15.279bn [D02]",
+    "March 16 liquidity intervention: $30bn deposit placement from eleven banks (120-day term) [D03, D04]",
+    "Common dividend: Suspended as of March 16 [D03]"
+   ],
+   "price_and_valuation": [
+    "Price: $34.27 [D04]",
+    "Market Cap: ~$6.38bn [D04]",
+    "Trailing P/E: 4.15x [D04]",
+    "P/Tangible Book: 0.462x [D04]",
+    "FY2022 Diluted EPS: $8.25 [D02]"
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 186.219m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "March 16 regulatory acknowledgment of a $30bn deposit placement by eleven banks to stabilize funding [D01, D07].",
+    "Dividend suspension [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Expensive funding costs relative to low-yield assets [D05]",
+    "Potential for significant balance-sheet losses and asset marks [D05]",
+    "Uncertain deposit retention and liquidity speed [D02, D05]",
+    "Risk that common equity is diluted or wiped out in a regulatory resolution/forced sale [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$30bn deposit placement; initial 120-day term at market rates [D03]"
+   ],
+   "recent_events": [
+    "January 13, 2023: FY2022 results reported [D01, D07]",
+    "March 9–15, 2023: Significant Fed/FHLB borrowing [D03]",
+    "March 16, 2023: Regulatory joint statement on $30bn deposit support; dividend suspension [D03, D07]"
+   ],
+   "third_point_context": [
+    "December 2022 13F reports $5.968bn in total 13F securities [D08]. The current bank position must compete with existing event positions and credit holdings [D08]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Current deposit retention figures post-March 16",
+    "Reconciled fair-value tangible book value",
+    "Current liquidity/funding cost metrics",
+    "Detailed board composition and management tenure",
+    "Firm-wide AUM and current cash/exposure levels"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is undergoing a liquidity crisis requiring a $30bn intervention by major banks to stabilize funding [D01, D03]."
+    },
+    "edge": {
+     "score": "UNSURE",
+     "evidence": "While Third Point has expertise in distressed situations, the pack lacks specific data on reconciled fair-value tangible book value and deposit retention, preventing a definitive recovery analysis [D05, D08]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The situation is governed by regulatory intervention and liquidity support measures which dictate the immediate process [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The risk that common equity could be wiped out in a regulatory resolution combined with uncertain deposit retention and asset marks makes the floor unquantifiable [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With 186.219m shares outstanding and a market cap of ~$6.38bn, the position size is manageable within the context of the $5.968bn 13F portfolio [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Detailed board composition and management tenure are not in the pack [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 1,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "edge_statement": "The event is a liquidity-driven distress situation where Third Point's edge relies on an unverified recovery analysis of the bank's assets amidst regulatory-managed stabilization.",
+   "one_line_verdict": "a distressed banking franchise in a liquidity crisis where the equity is at risk of dilution or wipeout by regulators"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market is pricing the equity as if it will be wiped out or severely diluted in a regulatory resolution due to a temporary liquidity crunch. We believe the franchise retains significant underlying value and the regulatory intervention provides the necessary runway for an orderly sale or stabilization of deposits. The market is extrapolating panic, whereas we see a viable bank whose assets, once stabilized, significantly exceed current distressed equity valuations [D03, D04, D05].",
+   "evidence": [
+    "Market cap of ~$6.38bn against a P/Tangible Book of 0.462x suggests extreme discount for potential resolution losses [D04, D05].",
+    "Regulatory-led $30bn deposit support indicates the system views the entity as critical and solvable, rather than terminal [D03, D07].",
+    "Stable FY2022 performance metrics prior to the liquidity run suggest the core business remains fundamentally sound [D01, D06]."
+   ],
+   "peer_benchmark": "JPMorgan Chase 18% Tangible ROE compared to company's 11.80% [D06].",
+   "what_must_be_true": [
+    "Deposit outflows stabilize following the $30bn intervention [D03].",
+    "Asset marks at fair value remain significantly above liabilities [D05].",
+    "Regulatory resolution avoids a total common equity wipeout [D05].",
+    "Management or a potential acquirer can maintain core relationship banking and wealth services [D01]."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$74.18",
+    "arithmetic": [
+     "Tangible Book Value per share: $74.18 [D04]",
+     "Implied value at 1.0x P/TBV: $74.18 [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Regulatory resolution risk of common equity wipeout [D05]"
+   },
+   "current_price": "$34.27 [D04]",
+   "skew": "116% : -100%",
+   "irr_pct": {
+    "base": 45,
+    "bear": -100,
+    "bull": 60
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Fair value of assets significantly exceeds liabilities [D05]",
+    "Common equity survives regulatory resolution [D05]",
+    "Management/acquirer maintains core banking franchise [D01]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Stabilization of deposit base as primary condition for franchise preservation [D03]",
+    "Transparency on asset marks and liquidity position post-intervention [D05]"
+   ],
+   "actors": [
+    "Board of Directors — oversight — status unknown [D01]",
+    "Regulatory agencies — liquidity stabilizers — interventionists [D03]"
+   ],
+   "governance_route": "Regulatory stabilization process and liquidity support measures [D03, D07]",
+   "timetable_quarters": 1,
+   "escalation_path": "Monitor liquidity stabilization for 120-day term; if deposit erosion continues or regulatory resolution signals equity impairment, exit position immediately [D03, D05]",
+   "why_this_role_fits_the_era": "In a distressed liquidity event where the firm's survival is dictated by regulatory intervention rather than board governance, P0 is the appropriate stance to observe if the franchise can be salvaged before engaging in public or private constructivism."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Deposit outflows persist beyond the initial intervention period [D03].",
+    "Regulatory authorities initiate a receivership or forced resolution that impairs common equity [D05].",
+    "Asset marks reveal a deficit of fair value against liabilities [D05].",
+    "Management fails to secure long-term stable funding to replace the 120-day deposit window [D03]."
+   ],
+   "portfolio_risk": "High factor overlap with financial sector volatility and interest rate sensitivity; position sizing must account for potential near-total capital loss in a liquidity-driven systemic event [D05, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 2,
+    "max": 3
+   },
+   "pct_of_company": "Less than 1%",
+   "horizon_quarters": 2,
+   "hedge_overlay": "Index puts on financial sector ETFs to mitigate systemic beta risk during the stabilization window.",
+   "biggest_risk_in_one_sentence": "The primary risk is a regulatory-led resolution that wipes out common equity despite the bank's underlying franchise value [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$74.18",
+   "floor": "$0.00",
+   "skew": "116% : -100%",
+   "irr_pct": 45
+  },
+  "plan": {
+   "asks": [
+    "Stabilization of deposit base as primary condition for franchise preservation",
+    "Transparency on asset marks and liquidity position post-intervention"
+   ],
+   "actors": [
+    "Board of Directors",
+    "Regulatory agencies"
+   ],
+   "governance_route": "Regulatory stabilization process and liquidity support measures",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The company suffers from a liquidity-driven crisis where the potential for equity wipeout by regulators remains a binary risk.",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "While the franchise trades at 0.462x Tangible Book Value, the lack of visibility into asset marks and deposit retention makes the floor unquantifiable.",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Regulatory intervention via a $30bn deposit placement provides temporary support, but long-term solvency remains unproven.",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The current valuation skew is theoretical, as the downside risk of a total common equity impairment in a forced resolution scenario is high.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Deposit outflows persist beyond the initial intervention period [D03].",
+   "Regulatory authorities initiate a receivership or forced resolution that impairs common equity [D05].",
+   "Asset marks reveal a deficit of fair value against liabilities [D05].",
+   "Management fails to secure long-term stable funding to replace the 120-day deposit window [D03]."
+  ],
+  "what_would_change_our_mind": "Clear evidence of deposit stabilization and a transparent, reconciled assessment of tangible book value that confirms a significant cushion of assets over liabilities.",
+  "memo": "The Company presents a classic distressed banking situation where the market is currently pricing for a terminal outcome [D03, D05]. With the stock trading at 0.462x tangible book value, the market is betting on a regulatory resolution that wipes out common equity, reflecting fears of significant deposit migration and balance-sheet impairment [D04, D05].\n\nOur analysis suggests the core franchise, which generated $5.9bn in revenue in FY2022, holds intrinsic value that significantly exceeds current market pricing if the business can be stabilized [D02, D06]. However, the $30bn liquidity intervention by major banks is merely a 120-day bridge, and the absence of clear, reconciled asset marks makes it impossible to determine the true margin of safety [D03, D05].\n\nWe have no edge in predicting the ultimate regulatory posture toward the common equity holder in this specific liquidity event [D03, D05]. While the theoretical upside to tangible book value of $74.18 per share is attractive, the binary risk of a zero-floor outcome is non-negligible [D04, D05].\n\nConsequently, we are passing on the opportunity to invest at this time [D05]. We will maintain our capital and monitor whether the franchise succeeds in retaining deposits and securing a sustainable funding path, but we will not allocate to a situation where the floor is dictated by regulatory receivership risk rather than fundamental earnings power [D03, D05].",
+  "uncited_claims": []
+ }
+}

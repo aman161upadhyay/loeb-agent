@@ -1,0 +1,46 @@
+{
+ "trade_id": "2025_shco_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Super-voting control and the proposed insider transaction created conflicts needing scrutiny → Super-voting control structures create a governance gap that necessitates public scrutiny to prevent value leakage"
+  ],
+  "missed": [
+   "An independent sale process should maximize value for all shareholders.",
+   "Qualified outside bidders could offer superior value and a fresh start."
+  ],
+  "extra_agent_drivers": [
+   "Operating results are showing signs of life with positive adjusted EBITDA, justifying a more proactive stance to unlock value."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "13% YoY Soho House growth",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating performance improved to $48.3m Q3 adjusted EBITDA",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Given the influence of super-voting shares and the inherent conflict in any management-led transaction, we believe it is time to move from private monitoring to a more public escalation [D01].",
+ "grader_notes": "The agent correctly identified the direction of ESCALATE. Reasoning overlap is low as the agent focused heavily on the operational performance (EBITDA growth) rather than the key drivers of seeking an open, competitive auction process and qualified outside bidders as explicitly stated by Loeb.",
+ "run": "2025_shco_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

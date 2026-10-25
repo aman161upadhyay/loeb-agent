@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2012_best_buy_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Never held per recovered 13F history: BBY/Best Buy absent from the complete Q3/Q4 2011 and all four 2012 original Third Point 13Fs"
+  ],
+  "extra_agent_drivers": [
+   "Retail 'melting ice cube' secular decline",
+   "Lack of takeover catalyst/governance path",
+   "Operating margin gap vs Walmart",
+   "Modest valuation insufficient due to headwinds"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "entertainment sales falling 19.5% in December",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Company trades at a modest 6.6–7.2x forward P/E",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "operating margins sit at 6.1% compared to The Company’s 4.2%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "As we lack an identifiable governance route or an asset-based catalyst, we are passing on this opportunity to remain disciplined and focused on higher-conviction event-driven situations [D08].",
+ "grader_notes": "The agent correctly identifies the PASS decision but fails to cite the primary evidentiary driver provided in the answer key (historical 13F non-ownership). Instead, the agent constructs an elaborate fundamental thesis that is not reflective of Loeb's specific stated reasoning for this control-case label.",
+ "run": "ctl_2012_best_buy_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

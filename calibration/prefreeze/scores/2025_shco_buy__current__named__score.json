@@ -1,0 +1,46 @@
+{
+ "trade_id": "2025_shco_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Super-voting control and the proposed insider transaction created conflicts needing scrutiny. → The presence of significant voting control by the existing leadership creates a high risk that minority shareholders will be deprived of the full value of the franchise through a non-competitive process",
+   "Qualified outside bidders could offer superior value and a fresh start. → We require an independent special committee and a transparent process to ensure that any transaction or strategic shift reflects the true value of the underlying business"
+  ],
+  "missed": [
+   "An independent sale process should maximize value for all shareholders."
+  ],
+  "extra_agent_drivers": [
+   "Operational performance and membership growth should not justify opportunistic take-private bids."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Membership growth remains robust with 13% YoY Soho House member increase",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Q3 2024 operating margin of 11.4%",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are moving to ESCALATE because the opportunity to realize value is being threatened by a lack of governance [D01].",
+ "grader_notes": "The agent correctly identified the direction as ESCALATE. The reasoning overlaps well regarding the specific conflicts arising from controller voting power and the need for an independent process to protect minority value, though it missed the specific framing that the sale process itself should maximize value for all. The agent included extra drivers related to operational performance which were not explicitly listed in Loeb's primary drivers for this specific escalation.",
+ "run": "2025_shco_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

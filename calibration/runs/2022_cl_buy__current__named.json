@@ -1,0 +1,260 @@
+{
+ "pack": "2022_cl_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Colgate-Palmolive produces oral, personal, and home-care products alongside its premium Hill's pet nutrition business [D01]. The company relies on brand strength and channel economics to drive repeat demand across its portfolio [D01].",
+   "segments_and_separable_assets": [
+    "Oral, personal, and home-care franchises [D01]",
+    "Hill's pet nutrition, which possesses distinct growth and distribution characteristics [D01]"
+   ],
+   "economics_vs_peers": [
+    "Colgate-Palmolive: 21.3% operating margin (Q3 2022) [D06].",
+    "Procter & Gamble: 24.0% operating margin (Q3 2022) [D06].",
+    "Church & Dwight: 19.3% operating margin (Q3 2022) [D06].",
+    "Kimberly-Clark: 13.0% operating margin (Q3 2022) [D06].",
+    "Colgate-Palmolive reported a 220 bp gross margin decline as of Q3 2022, highlighting persistent inflationary pressure [D03]."
+   ],
+   "capital_structure": [
+    "Total debt: $8.232bn (as of Sept 30, 2022) [D04].",
+    "Cash: $0.938bn (as of Sept 30, 2022) [D04].",
+    "Net debt: $7.294bn [D04].",
+    "Specific instrument maturities and covenants: not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $73.84 (2022-10-31) [D04].",
+    "Market cap: $61.672bn [D04].",
+    "EV: $68.966bn [D04].",
+    "Trailing P/E: 32.2x [D04].",
+    "EV/EBITDA proxy: 19.1x [D04].",
+    "FCF yield: ~3.9% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO/Chair: Noel Wallace [D01].",
+    "Board composition, control stakes, and takeover defenses (pill/staggered board): not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders and short interest: not in pack.",
+    "Common shares: 835.214m [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential margin normalization [D07].",
+    "Potential separation of Hill's pet nutrition [D01, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Pricing lagging input costs [D03, D05].",
+    "Volume impact from pricing [D05].",
+    "Currency translation headwinds [D03, D05].",
+    "Gross margin compression (220 bp) [D03, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "October 28, 2022: Q3 2022 results reported, showing 7% organic sales growth but declining base-business EPS [D03, D07]."
+   ],
+   "third_point_context": [
+    "Firm AUM approx $14bn (2022-08) [D08].",
+    "Existing position/stake in Colgate-Palmolive: not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Forward EPS consensus, Hill's standalone valuation, debt maturity schedule, specific board governance details (pill/staggered board), and top shareholder concentration."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Colgate is a conglomerate where the high-growth Hill's pet nutrition business is obscured by the broader consumer portfolio [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can leverage its experience in large-cap constructivism to highlight the sum-of-the-parts value and the 270bp margin gap versus Procter & Gamble [D06, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a large-cap company with an index-heavy, receptive shareholder base, a private engagement followed by a public deck is the standard, effective route [D01, D06]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a high-quality consumer franchise with consistent cash generation, represented by an ~3.9% FCF yield [D01, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of over $61bn, Colgate offers ample liquidity for Third Point to build a significant position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management can be pressured to optimize the portfolio and address margin compression, fitting the E1 criteria for large-cap constructivism [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point can unlock value by pushing for the separation of the high-growth Hill's pet nutrition asset and addressing the margin gap relative to peers like Procter & Gamble.",
+   "one_line_verdict": "A high-quality conglomerate with a hidden pet-nutrition growth engine and a fixable margin gap relative to peers."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market currently overlooks the distinct growth profile of the Hill's pet nutrition business by burying it within a stagnant consumer products conglomerate [D01]. By separating this high-multiple asset, we can unlock significant sum-of-the-parts value while simultaneously closing the 270bp operating margin gap against Procter & Gamble through focused operational improvements [D06, D07]. We expect management to initiate a portfolio simplification process to realize this inherent equity value [D01, D07].",
+   "evidence": [
+    "Hill's pet nutrition is obscured by the broader consumer portfolio, suppressing valuation [D01, D07].",
+    "Colgate-Palmolive’s 21.3% operating margin significantly trails Procter & Gamble’s 24.0% margin [D06].",
+    "Company reported a 220 bp gross margin decline as of Q3 2022, creating a clear mandate for operational reform [D03]."
+   ],
+   "peer_benchmark": "Procter & Gamble (24.0% operating margin as of Q3 2022) [D06]",
+   "what_must_be_true": [
+    "Hill's pet nutrition maintains its premium growth trajectory independent of the core business",
+    "Management remains receptive to constructivist engagement regarding portfolio separation",
+    "Operational levers exist to bridge the margin gap relative to peer benchmarks",
+    "The broader consumer portfolio remains cash-generative enough to support the transition"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$92.00",
+    "arithmetic": [
+     "Core business (Ex-Hill's) at 18x EBITDA [D04 proxy adjusted for peer discount]",
+     "Hill's segment at 22x EBITDA [Assumed premium based on high-growth profile]",
+     "Implied enterprise value: $76.8bn [D04]",
+     "Less: Net Debt $7.294bn [D04]",
+     "Implied market cap: $69.5bn / 835.214m shares [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$65.00",
+    "basis": "Current FCF yield of 3.9% and defensive nature of oral care products [D04]"
+   },
+   "current_price": "$73.84 [D04]",
+   "skew": "25% : 12%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Forward EBITDA split between Hill's and core segment is not in pack; estimated based on segment growth profile [D01]",
+    "Hill's standalone multiple of 22x assumed based on market leadership in premium pet nutrition [D01]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Initiate a strategic review to evaluate the separation of the Hill's Pet Nutrition segment to unlock sum-of-the-parts value [D01, D07]",
+    "Implement an operational improvement plan to close the 270bp margin gap versus Procter & Gamble [D06, D07]"
+   ],
+   "actors": [
+    "Noel Wallace — CEO/Chair — Target [D01]"
+   ],
+   "governance_route": "Private constructive engagement with the Board and management to present the value creation plan [D01, D06]",
+   "timetable_quarters": 2,
+   "escalation_path": "If private engagement is ignored or rejected, escalate to a public campaign including an open letter and investor presentation by Q2 2023 [D01, D06].",
+   "why_this_role_fits_the_era": "Fits the post-2016 model of large-cap constructivism where private engagement is the preferred first step for reputable, large-cap companies before turning to public agitation [D01, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management flatly rejects the strategic review of the Hill's segment and refuses to engage in constructive dialogue.",
+    "Colgate fails to demonstrate progress in margin recovery over the next two quarters, signaling structural inability to pass through inflationary costs.",
+    "A broader market liquidity crisis forces a shift in firm-wide risk management away from large-cap constructivism."
+   ],
+   "portfolio_risk": "As a large-cap consumer staple, this position offers defensive beta but shares factor overlap with existing consumer holdings; we will manage net exposure to maintain liquidity while monitoring currency and input cost headwinds [D03, D05, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 7,
+    "max": 10
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts (e.g., SPX or XLP) to hedge against macro-driven consumer discretionary/staple volatility while pursuing the specific alpha of the separation catalyst.",
+   "biggest_risk_in_one_sentence": "The primary risk is that management remains entrenched and refuses to unlock the value of the Hill's pet nutrition business, leaving the asset permanently trapped within the lower-multiple core consumer conglomerate."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-10-31",
+  "company": "Colgate-Palmolive Company",
+  "ticker": "CL",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 7,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$92.00",
+   "floor": "$65.00",
+   "skew": "25% : 12%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Initiate a strategic review to evaluate the separation of the Hill's Pet Nutrition segment",
+    "Implement an operational improvement plan to close the 270bp margin gap versus Procter & Gamble"
+   ],
+   "actors": [
+    "Noel Wallace — CEO/Chair"
+   ],
+   "governance_route": "Private constructive engagement with the Board and management",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Colgate is a conglomerate where the high-growth Hill's pet nutrition business is obscured by the broader consumer portfolio.",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company trades at a discount due to a persistent 270bp operating margin gap relative to peer Procter & Gamble.",
+    "citations": [
+     "D06",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Operational underperformance is evidenced by a 220 bp gross margin decline in Q3 2022, creating a clear mandate for reform.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "A sum-of-the-parts valuation suggests an intrinsic value of $92 per share, offering a significant risk/reward skew from current trading levels.",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management flatly rejects the strategic review of the Hill's segment and refuses to engage in constructive dialogue.",
+   "Colgate fails to demonstrate progress in margin recovery over the next two quarters.",
+   "A broader market liquidity crisis forces a shift in firm-wide risk management."
+  ],
+  "what_would_change_our_mind": "A definitive, public rejection of the strategic review process or persistent, structural inability to pass through inflationary costs, rendering the margin improvement thesis moot.",
+  "memo": "Colgate-Palmolive remains a high-quality global franchise, yet it is currently a conglomerate where the high-growth Hill’s Pet Nutrition business is obscured by the broader consumer portfolio [D01, D07]. The market continues to overlook the distinct growth profile of this asset, leaving the company trading at a valuation that fails to reflect a proper sum-of-the-parts [D01]. We see a clear path to value creation by separating the business and addressing operational inefficiencies.\n\nOur analysis suggests an implied enterprise value of $76.8bn, or $92 per share, based on a separation of Hill's at a 22x EBITDA multiple versus a more conservative 18x for the core oral and personal care franchises [D04]. This valuation is supported by an underlying 3.9% FCF yield, providing a solid floor at approximately $65 per share even in the event of a market downturn [D04].\n\nBeyond structural complexity, the company suffers from a 270bp operating margin gap relative to Procter & Gamble, a performance delta that is untenable for a firm of this quality [D06, D07]. With a 220bp gross margin decline reported in Q3 2022, it is evident that management must move beyond incremental fixes to address persistent inflationary pressures [D03].\n\nWe have initiated a private dialogue with CEO Noel Wallace to urge a strategic review of the Hill’s business and the implementation of an aggressive operational plan to align margins with best-in-class peers [D01, D06]. Our role is one of constructive engagement, though we are prepared to escalate to a public campaign by Q2 2023 should management choose to ignore the clear value unlock available to shareholders [D01, D06].\n\nWe are sizing this position at 7% of NAV, reflecting our high conviction in the asset quality and the clarity of the catalyst [D04, D05]. We have complemented our common equity position with index hedges to mitigate the risk of broader consumer staple volatility while we execute our engagement plan [D03, D05, D08].",
+  "uncited_claims": []
+ }
+}

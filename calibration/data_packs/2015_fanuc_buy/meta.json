@@ -1,0 +1,26 @@
+{
+  "id": "2015_fanuc_buy",
+  "company": "FANUC Corporation",
+  "ticker": "6954 / FANUY",
+  "aliases": [
+    "FANUC Corporation",
+    "6954 / FANUY",
+    "FANUC",
+    "Fanuc",
+    "6954",
+    "FANUY",
+    "FANUF",
+    "Robodrill",
+    "RoboDrill",
+    "CNC",
+    "Fujitsu",
+    "Mount Fuji"
+  ],
+  "as_of_date": "2015-02-10",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2015-02-10; actual first action not recovered to a unique day; see answer-key dating notes. Actual entry was Q4 2014 and disclosure February 9; requested February 10 new-mode date is counterfactual fresh underwriting. January issuer tables independently extracted: nine-month earnings, cash/securities, shares/treasury stock, divisional growth and full-year guidance included. Cutoff share price, independent peer multiples and fund exposures remain unavailable.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Actual entry was Q4 2014 and disclosure February 9; requested February 10 new-mode date is counterfactual fresh underwriting. January issuer tables independently extracted: nine-month earnings, cash/securities, shares/treasury stock, divisional growth and full-year guidance included. Cutoff share price, independent peer multiples and fund exposures remain unavailable."
+}

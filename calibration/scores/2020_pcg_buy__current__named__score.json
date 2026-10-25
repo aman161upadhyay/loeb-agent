@@ -1,0 +1,53 @@
+{
+ "trade_id": "2020_pcg_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The recapitalization and post-reorganization equity provided a fresh capital-structure entry → PG&E Corporation emerges from Chapter 11 today as a de-risked, regulated utility, yet the market continues to price the equity as distressed paper.",
+   "Bankruptcy settlements and California's wildfire framework created a path toward financial normalization → We believe this ignores the fundamental change: a newly reconstituted board and a court-confirmed reorganization plan that provides a clear, albeit rigorous, path to safety compliance and cost recovery."
+  ],
+  "missed": [
+   "A good utility business had been impaired by a bad capital structure rather than disappearing demand."
+  ],
+  "extra_agent_drivers": [
+   "Specific price target of $18.00/share based on 2022 normalized earnings.",
+   "Fire Victim Trust technical overhang as a primary entry opportunity.",
+   "Downside floor of $7.50 based on adjusted book value."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "PG&E Corporation emerges from Chapter 11 today",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company faces a temporary technical overhang from the 22.19% stake held by the Fire Victim Trust",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The 2019 operating margin of -58.9% is an anomaly caused by past wildfire accruals",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 4,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "PG&E Corporation emerges from Chapter 11 today as a de-risked, regulated utility, yet the market continues to price the equity as distressed paper [D03, D05].",
+ "grader_notes": "The agent correctly identified the investment as a post-reorganization play on a de-risked utility. However, the agent's reasoning was significantly more focused on specific valuation targets and technical market mechanics (the Fire Victim Trust) than the broader capital-structure thesis provided by Loeb.",
+ "run": "2020_pcg_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

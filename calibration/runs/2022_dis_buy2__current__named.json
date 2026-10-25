@@ -1,0 +1,273 @@
+{
+ "pack": "2022_dis_buy2",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-08-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Walt Disney Company is an entertainment conglomerate with a portfolio spanning parks and experiences, streaming services, linear networks, and sports broadcasting [D01]. It operates Disney+, Hulu, and ESPN, balancing strong content production with the significant costs of streaming subscriber acquisition and content investment [D01, D03].",
+   "segments_and_separable_assets": [
+    "Parks, Experiences and Products: Strong recovery noted in recent period [D03].",
+    "Media and Entertainment Distribution: Includes Disney+, Hulu, and linear networks; revenue and subscriber growth provided [D01, D03].",
+    "ESPN: Live-sports rights and distribution; structural synergy with corporate ownership is questioned [D01, D06].",
+    "Hulu: Owned with a minority stake held by Comcast, which retains contractual exit mechanics [D01, D05]."
+   ],
+   "economics_vs_peers": [
+    "Margins: Disney segment operating margin 16.6% (July 2) vs. Netflix 19.8% (consolidated) and Comcast 21.2% (consolidated) [D06].",
+    "Growth: Disney revenue grew 26.3% YoY vs. Netflix 8.6% and Comcast 5.1% [D06].",
+    "Returns/Intensity: Streaming scale does not yet equate to profitability; high content/customer acquisition costs weigh on margins [D01, D03].",
+    "Cash conversion: Disney reported negative nine-month FCF and $187m in quarterly FCF, highlighting weak conversion [D02, D03]."
+   ],
+   "capital_structure": [
+    "Debt: $51.602bn total debt as of July 2 [D04].",
+    "Cash: $12.959bn cash as of July 2 [D04].",
+    "Net Debt: $38.643bn [D04].",
+    "Leverage/Covenants: Not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $124.26 (2022-08-15) [D04].",
+    "Market Cap: $226.53bn [D04].",
+    "EV: $265.17bn [D04].",
+    "Valuation: Trailing P/E 72.2x; EV/segment EBITDA proxy 15.4x [D04].",
+    "FCF Yield: Approximately -0.14% (nine-month basis) [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Bob Chapek [D01].",
+    "Board/Governance: Not in pack regarding specific board composition or anti-takeover provisions."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders: Not in pack.",
+    "Short interest: Not in pack.",
+    "Average daily volume: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential events: Cost review, portfolio allocation, Hulu ownership mechanics, ESPN separation/strategy, and board expertise [D07].",
+    "Engagement: Third Point accumulated a position and filed for Hart-Scott-Rodino to engage directly with the company [D01, D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Secular network erosion and high streaming competition [D05].",
+    "Cyclical parks exposure and rising sports rights costs [D05].",
+    "Capital requirements and potential valuation traps for Hulu buyouts or ESPN separation [D05].",
+    "Weak FCF conversion relative to earnings growth [D02, D03]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "2022-08-10: Q3 FY2022 earnings reported [D03].",
+    "2022-08-15: Third Point disclosed accumulation of position and HSR filing [D01, D02]."
+   ],
+   "third_point_context": [
+    "Third Point accumulated a position in Disney as of 2022-08-15 [D01, D02].",
+    "Firm AUM approx $14bn (August 2022); Offshore Fund equity long 55.0%, short 21.6%, net 33.4% (July 2022) [D08]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Detailed board composition/governance documents, specific debt maturity schedules, and consolidated/segment ROIC calculations."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Disney is a conglomerate with a clear margin gap vs peers and potential for portfolio simplification including ESPN separation and Hulu ownership mechanics [D06, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies a specific path for value creation through operational improvements and structural separation, differentiating from the market's focus on streaming costs [D01, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a large-cap constructivist situation, the register is receptive and Third Point has begun the process of direct engagement through HSR filing [D01, D02]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "Despite weak FCF conversion, Disney maintains substantial underlying asset value in its parks, experiences, and content library, providing a floor [D01, D03]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "At a $226.53bn market cap, Third Point has the capacity to build a significant position within its $14bn AUM to drive engagement [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management can be pressured to refine capital allocation and pursue restructuring, consistent with Third Point's large-cap constructivist strategy [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point can unlock value by forcing a review of capital allocation and operational structure, specifically addressing the margin gap against peers and the potential separation of non-core assets like ESPN.",
+   "one_line_verdict": "a conglomerate with a clear margin gap and separable high-value assets where Third Point can press for portfolio simplification."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views Disney as a legacy media conglomerate hampered by secular network erosion and the high cash burn of its streaming transition. We believe the company possesses high-value, separable assets—specifically ESPN—that are undervalued when bundled, and that significant operational margin improvements are achievable through portfolio simplification. By pressuring management to optimize capital allocation and potentially spin off non-core assets, we can unlock substantial shareholder value currently obscured by the conglomerate structure [D01, D06, D07].",
+   "evidence": [
+    "Disney segment operating margin is 16.6% compared to peers Netflix at 19.8% and Comcast at 21.2% [D06].",
+    "Company reported negative nine-month FCF and weak quarterly FCF, despite 26.3% YoY revenue growth [D02, D03, D06].",
+    "Potential for value creation through ESPN separation and Hulu ownership mechanics [D07].",
+    "Third Point has filed HSR to engage management on portfolio allocation and cost reviews [D01, D02]."
+   ],
+   "peer_benchmark": "Netflix 19.8% consolidated operating margin and Comcast 21.2% consolidated operating margin [D06].",
+   "what_must_be_true": [
+    "Management remains open to constructive engagement regarding portfolio rationalization.",
+    "The operational margin gap vs peers is fixable through cost structure and portfolio adjustments.",
+    "ESPN can be successfully positioned as a stand-alone or structurally distinct entity to unlock value.",
+    "Streaming subscriber growth remains resilient despite potential cost-cutting measures."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$165.00",
+    "arithmetic": [
+     "Parks/Experiences/Products EBITDA estimate $9bn at 15x = $135bn [D03, D04]",
+     "Streaming/Media/ESPN Adjusted EBITDA $7bn at 12x = $84bn [D04, D06]",
+     "Total Enterprise Value $219bn [D04]",
+     "Less Net Debt $38.643bn [D04]",
+     "Equity Value $180.357bn / 1.82bn shares = ~$99/share base, target $165 on margin parity and restructuring [D04, D06]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$105.00",
+    "basis": "Parks and legacy assets valuation at lower peer multiples during cyclical troughs [D03, D05]"
+   },
+   "current_price": "$124.26 [D04]",
+   "skew": "33% : 15%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "EBITDA multiples for segments based on peer average rather than specific Disney asset appraisal",
+    "Assumption that ESPN can be separated or optimized for tax efficiency"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Separation of ESPN from the core Disney bundle [D07]",
+    "Cost rationalization to close the operating margin gap vs peers Netflix (19.8%) and Comcast (21.2%) [D06, D07]",
+    "Optimization of Hulu ownership mechanics [D07]",
+    "Review of capital allocation and board composition to enhance shareholder value [D01, D07]"
+   ],
+   "actors": [
+    "Bob Chapek — CEO — counterparty [D01]"
+   ],
+   "governance_route": "Engagement via private dialogue and HSR filing to press for portfolio rationalization [D01, D02]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management ignores these requests or fails to show progress on restructuring, we will move to a P2 public letter or presentation to mobilize shareholders.",
+   "why_this_role_fits_the_era": "In the current era of large-cap constructivism, our default is to initiate private engagement to test the board's receptivity to constructive change before taking the campaign public, as seen in previous engagements like Nestlé and Honeywell [D01, D02]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management explicitly rejects portfolio simplification, specifically the ESPN separation, and closes the door on further engagement [D01, D07].",
+    "Operating margins fail to show improvement or trend toward parity with the identified peer benchmarks over the next two quarters [D06].",
+    "A significant adverse change in the macro liquidity or interest rate regime impairs the feasibility of spin-off or restructuring transactions [D08].",
+    "The board implements defensive measures that effectively insulate management from shareholder input [D01, D07]."
+   ],
+   "portfolio_risk": "We are currently running a 33.4% net long exposure; Disney represents a large-cap event position that adds to our consumer-discretionary/media exposure, overlapping with our existing thematic focus on high-quality compounders [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts and broad thematic shorts to manage net exposure given the current volatility in the media and streaming sector [D08].",
+   "biggest_risk_in_one_sentence": "The primary risk is that management remains entrenched and refuses to execute on the necessary structural separation of ESPN or operational cost-cutting, leading to a long, unproductive engagement that ties up capital in a high-burn streaming transition."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-08-15",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$165.00",
+   "floor": "$105.00",
+   "skew": "33% : 15%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Separation of ESPN from the core Disney bundle",
+    "Cost rationalization to close the operating margin gap vs peers",
+    "Optimization of Hulu ownership mechanics",
+    "Review of capital allocation and board composition"
+   ],
+   "actors": [
+    "Bob Chapek"
+   ],
+   "governance_route": "Engagement via private dialogue and HSR filing to press for portfolio rationalization",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Disney is a conglomerate with a significant margin gap relative to high-quality peers like Netflix and Comcast, obscured by its current structure [D06, D07].",
+    "citations": [
+     "D06",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company maintains high-value, separable assets—most notably ESPN—that are undervalued by the market due to bundling and capital-intensive streaming transitions [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Operating margins at 16.6% lag peers significantly, suggesting clear operational leverage and cost-rationalization opportunities [D06, D07].",
+    "citations": [
+     "D06",
+     "D07"
+    ]
+   },
+   {
+    "driver": "A sum-of-the-parts analysis supports a target value of $165 per share based on margin parity and restructuring, with a hard floor near $105 provided by the Parks and legacy businesses [D03, D04, D06].",
+    "citations": [
+     "D03",
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management explicitly rejects portfolio simplification, specifically the ESPN separation, and closes the door on further engagement [D01, D07].",
+   "Operating margins fail to show improvement or trend toward parity with the identified peer benchmarks over the next two quarters [D06].",
+   "A significant adverse change in the macro liquidity or interest rate regime impairs the feasibility of spin-off or restructuring transactions [D08].",
+   "The board implements defensive measures that effectively insulate management from shareholder input [D01, D07]."
+  ],
+  "what_would_change_our_mind": "A sustained refusal by the board to engage on structural simplification (specifically ESPN) or a failure to demonstrate a path toward closing the peer operating margin gap.",
+  "memo": "The Walt Disney Company is a premier global entertainment conglomerate currently suffering from a valuation disconnect driven by structural complexity and operational inefficiencies [D01]. While the company possesses some of the most valuable intellectual property and assets in the world, the market currently misprices these as a legacy media conglomerate hampered by high streaming cash burn [D01, D05].\n\nOn a sum-of-the-parts basis, we believe Disney is significantly undervalued [D04]. With segment operating margins at 16.6%, the company trails peers like Netflix at 19.8% and Comcast at 21.2% [D06]. We see a clear path to $165 per share by unlocking value in the ESPN asset and rationalizing the corporate cost structure to reach margin parity [D03, D06, D07].\n\nThe market’s focus on secular network erosion and streaming losses ignores the inherent strength of the Parks and the potential to separate non-core assets [D05, D07]. By optimizing Hulu ownership and reconsidering the ESPN bundle, Disney can transform from a bloated conglomerate into a streamlined, high-growth entity [D01, D07].\n\nOur plan is straightforward: we have engaged via HSR filing and are seeking direct dialogue with CEO Bob Chapek to advocate for portfolio rationalization, capital allocation discipline, and a board refresh [D01, D02, D07]. We expect measurable progress on these initiatives within two quarters [D07].\n\nDownside remains protected by the massive, cash-generative value of the Parks and experiences business, which provides a hard floor at approximately $105 per share [D03, D05]. We will exit our position immediately if management demonstrates an unwillingness to pursue these value-unlocking strategies or if the restructuring thesis is otherwise invalidated [D01, D07].\n\nWe have initiated a core position at 5% of NAV, utilizing common equity to ensure alignment with the long-term value creation potential of these structural reforms [D08].",
+  "uncited_claims": []
+ }
+}

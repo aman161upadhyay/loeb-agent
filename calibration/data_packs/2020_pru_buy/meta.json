@@ -1,0 +1,31 @@
+{
+  "id": "2020_pru_buy",
+  "company": "Prudential plc",
+  "ticker": "PRU LN / PUK",
+  "aliases": [
+    "2378",
+    "Eastspring",
+    "Jackson",
+    "Jackson National",
+    "Jackson National Life",
+    "M&G",
+    "M&GPrudential",
+    "PRU LN",
+    "PRU LN / PUK",
+    "PRU.L",
+    "PruAsia",
+    "Prudential",
+    "Prudential Corporation Asia",
+    "Prudential plc",
+    "PUK"
+  ],
+  "as_of_date": "2020-02-24",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Ticker identity corrected: Prudential plc PRU.L/PUK, not US Prudential Financial PRU.",
+  "fund_aum_usd_bn": 14,
+  "fund_aum_observation_period": "2020-02",
+  "fund_aum_source_date": "2020-02-24",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Ticker identity corrected: Prudential plc PRU.L/PUK, not US Prudential Financial PRU. AUM 14bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24). AUM observation period 2020-02; last verified, not asserted current."
+}

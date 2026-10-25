@@ -1,0 +1,55 @@
+{
+  "id": "2019_sony_buy2",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Approximately $1.5bn reported campaign exposure; derivative mix and single-fund NAV denominator unresolved.",
+  "first_action_date": null,
+  "first_action_window": "Purchase/position change predates or coincides with disclosure; exact first transaction date not recovered.",
+  "disclosure_date": "2019-06-13",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1",
+    "E4"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Kenichiro Yoshida",
+      "Sony board"
+    ],
+    "governance_route": "P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Recurring gaming and entertainment assets were misunderstood and undervalued.",
+      "source": "https://www.10xebitda.com/wp-content/uploads/2020/03/Third-Point-Sony-Presentation-June-2019.pdf (2019-06-13)",
+      "quote": null
+    },
+    {
+      "driver": "Separate the world-class image-sensor franchise to create two focused investment propositions.",
+      "source": "https://www.10xebitda.com/wp-content/uploads/2020/03/Third-Point-Sony-Presentation-June-2019.pdf (2019-06-13)",
+      "quote": null
+    },
+    {
+      "driver": "Sell non-core listed stakes and redeploy proceeds into disciplined investment and buybacks.",
+      "source": "https://www.10xebitda.com/wp-content/uploads/2020/03/Third-Point-Sony-Presentation-June-2019.pdf (2019-06-13)",
+      "quote": null
+    },
+    {
+      "driver": "A roughly 8x EV/EBIT valuation implied a large discount to the stated sum of parts.",
+      "source": "https://www.10xebitda.com/wp-content/uploads/2020/03/Third-Point-Sony-Presentation-June-2019.pdf (2019-06-13)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "June deck estimates 8x EV/EBIT and about 50% discount to its intrinsic-value estimate.",
+  "outcome_note": "Sensor separation rejected in 2019; interim gains did not prove adoption. August 2020 ADR sale was not a complete Tokyo-stock exit.",
+  "sources": [
+    "https://www.10xebitda.com/wp-content/uploads/2020/03/Third-Point-Sony-Presentation-June-2019.pdf (2019-06-13)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. AUM 18bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01). AUM observation period 2018-07; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

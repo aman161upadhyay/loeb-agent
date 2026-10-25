@@ -1,0 +1,255 @@
+{
+ "pack": "ctl_2020_hertz_equity_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-06-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates rental-car brands supported by a financed vehicle fleet [D01]. It is currently undergoing a Chapter 11 bankruptcy restructuring process [D03].",
+   "segments_and_separable_assets": [
+    "US rental: Q1 2020 revenue $1,381m, 67% utilization [D06]",
+    "International rental: Q1 2020 revenue $368m, 66% utilization [D06]",
+    "Fleet-leasing: Q1 2020 revenue $174m [D06]"
+   ],
+   "economics_vs_peers": [
+    "US rental utilization of 67% vs 79% prior year [D03]",
+    "International rental utilization of 66% vs 74% prior year [D03]",
+    "AMERCO FY2020 operating margin 13.6% [D06]"
+   ],
+   "capital_structure": [
+    "Total debt $17.089bn (FY2019) [D02]",
+    "Unrestricted cash $1.017bn as of March 31, 2020 [D03]",
+    "Vehicle ABS, corporate debt, leases, and administrative claims sit senior to common equity [D02], [D03]"
+   ],
+   "price_and_valuation": [
+    "Price $5.53/share as of June 8, 2020 [D04]",
+    "Market cap ~$787m [D04]",
+    "Trailing GAAP P/E NM [D04]",
+    "P/B ~0.57x [D04]"
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Trading volume ~533.9m shares on June 8, 2020 [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Voluntary Chapter 11 filing May 22, 2020 [D03]",
+    "Potential catalysts: recovering travel demand, used-vehicle realizations, and bankruptcy court creditor waterfall outcomes [D01], [D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Absolute priority: enterprise improvements may accrue to creditors rather than equity [D05]",
+    "Erosion of option value via administrative expenses, fleet liquidation losses, and financing restrictions [D05]",
+    "Fragility of exit liquidity during speculative rally [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "May 11, 2020: Q1 2020 results reported [D03]",
+    "May 22, 2020: Chapter 11 bankruptcy filing [D03]",
+    "June 8, 2020: Speculative equity rally [D04]"
+   ],
+   "third_point_context": [
+    "Q1 2020 13F reported $6.266bn of securities; April 16 letter reported 16% offshore loss [D08]"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Complete creditor waterfall, appraised vehicle values, specific nomination windows, and board composition"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is in Chapter 11 bankruptcy restructuring, providing a clear process-driven event [D03]."
+    },
+    "edge": {
+     "score": "UNSURE",
+     "evidence": "While bankruptcy is a core competency, the lack of a detailed creditor waterfall and appraised vehicle values prevents a definitive recovery analysis [D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The bankruptcy court process provides a formal, binding mechanism for claim resolution and asset recovery [D03]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Administrative claims, vehicle ABS, and corporate debt sit senior to common equity, and the absolute priority rule suggests value may not reach shareholders [D02], [D03], [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "High trading volume of 533.9m shares on June 8, 2020, indicates sufficient liquidity for a position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In a Chapter 11 restructuring, the thesis relies on the bankruptcy process rather than management execution [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 1,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The event is a Chapter 11 restructuring where Third Point can apply its expertise in credit and waterfall analysis to determine if equity retains value despite senior creditor preference.",
+   "one_line_verdict": "a speculative bankruptcy situation with significant senior claims that likely impair the equity floor.",
+   "hard_fail_model": false,
+   "hard_fail_recomputed": true
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market currently prices the equity as a speculative option, ignoring that senior administrative claims and massive debt obligations likely create an insurmountable hurdle for common shareholders under the absolute priority rule. We believe the bankruptcy process will demonstrate that the enterprise value is insufficient to cover senior debt, rendering the current equity valuation a trap driven by retail speculation rather than fundamental recovery potential. The catalyst will be the court-mandated creditor waterfall analysis which will clarify the severe impairment of equity.",
+   "evidence": [
+    "Absolute priority rule suggests value may not reach shareholders [D02], [D03], [D05]",
+    "Total debt of $17.089bn significantly outweighs equity value [D02], [D04]",
+    "Erosion of option value via administrative expenses and fleet liquidation [D05]"
+   ],
+   "peer_benchmark": "AMERCO operating margin of 13.6% [D06]",
+   "what_must_be_true": [
+    "The enterprise value remains below the threshold of total senior debt and administrative claims",
+    "Used vehicle realizations come in at or below current depressed estimates",
+    "Travel demand recovery is insufficient to alter the bankruptcy recovery waterfall",
+    "The court enforces strict absolute priority during the reorganization process"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$0.00",
+    "arithmetic": [
+     "Total debt $17.089bn [D02]",
+     "Equity value $0.787bn [D04]",
+     "Recovery for equity requires enterprise value > $17.089bn [D02], [D05]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Absolute priority rule dictates equity is wiped out before senior debt is satisfied [D02], [D03], [D05]"
+   },
+   "current_price": "$5.53 [D04]",
+   "skew": "0% : -100%",
+   "irr_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": -100
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumes the bankruptcy court enforces strict absolute priority as per standard reorganization procedures [D05]",
+    "Assumes total debt burden exceeds realizable fleet and operational asset values [D02]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P5",
+   "asks": [
+    "Strict adherence to the absolute priority rule in the bankruptcy reorganization plan [D03], [D05]"
+   ],
+   "actors": [
+    "Bankruptcy Court — Overseeing authority — Neutral [D03]",
+    "Senior Creditors (ABS and corporate debt holders) — Primary beneficiaries of the waterfall — Interested [D02], [D03]"
+   ],
+   "governance_route": "Chapter 11 bankruptcy court process, which supersedes standard corporate governance mechanisms [D03]",
+   "timetable_quarters": 2,
+   "escalation_path": "Short the equity to capture the delta as the market realizes the bankruptcy process wipes out common shareholders per the absolute priority rule.",
+   "why_this_role_fits_the_era": "Fits the post-2016 model of utilizing a standing credit book and thematic shorts to exploit speculative mispricings in distressed situations where the fundamental outcome is recovery-negative for equity holders [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Court confirmation of a plan that provides zero recovery to equity holders [D03], [D05]",
+    "Market correction leads to collapse in speculative trading volume [D04]",
+    "Liquidity constraints force acceleration of fleet liquidation at lower-than-projected prices [D05]"
+   ],
+   "portfolio_risk": "Shorting this equity presents a high-gamma risk during retail-driven speculative rallies, though it provides a hedge against potential broader market downturns or travel demand weakness [D04], [D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0.5,
+    "target": 1,
+    "max": 2
+   },
+   "pct_of_company": "N/A - Short position",
+   "horizon_quarters": 2,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a short squeeze fueled by retail speculation that ignores the fundamental mathematical certainty of equity impairment under the absolute priority rule."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-06-08",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 1,
+  "instrument": "common",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P5",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$0.00",
+   "floor": "$0.00",
+   "skew": "0% : -100%",
+   "irr_pct": -100
+  },
+  "plan": {
+   "asks": [
+    "Strict adherence to the absolute priority rule in the bankruptcy reorganization plan"
+   ],
+   "actors": [
+    "Bankruptcy Court",
+    "Senior Creditors"
+   ],
+   "governance_route": "Chapter 11 bankruptcy court process",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The current equity market valuation is a speculative trap that ignores the fundamental mathematical certainty of equity wipeout under the absolute priority rule.",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Total debt of $17.089bn vastly exceeds the enterprise value, ensuring that no value reaches common shareholders after senior claims are satisfied.",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The Chapter 11 bankruptcy process serves as a definitive catalyst that will force a creditor waterfall analysis, exposing the lack of equity recovery potential.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Administrative expenses and fleet liquidation losses continue to erode any theoretical option value, further impairing the equity holder's position.",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Court confirmation of a plan that provides zero recovery to equity holders",
+   "Market correction leads to collapse in speculative trading volume",
+   "Liquidity constraints force acceleration of fleet liquidation at lower-than-projected prices"
+  ],
+  "what_would_change_our_mind": "A significant, unexpected improvement in used vehicle realizations or a restructuring plan that inexplicably provides for common equity recovery, contrary to the absolute priority rule.",
+  "memo": "[Gate 1 hard fail enforced in code: the decision step returned SHORT; per the process a hard fail terminates in PASS.]\n\nThe Company is currently trading as a speculative vehicle, with retail investors seemingly ignoring the dire reality of its Chapter 11 bankruptcy filing [D03], [D04]. While the market cap currently sits at approximately $787m, the company’s capital structure is burdened by $17.089bn in total debt [D02], [D04]. \n\nUnder the absolute priority rule, common equity must be completely wiped out before senior administrative, ABS, and corporate debt holders are satisfied [D02], [D03], [D05]. It is a simple matter of math: the enterprise value is nowhere near sufficient to cover the massive senior debt load, rendering the common stock effectively worthless [D02], [D05].\n\nMarket participants seem to be caught in a speculative frenzy, perhaps ignoring the fact that the bankruptcy process is designed specifically to resolve this insolvency to the detriment of equity [D03], [D04]. We expect the court-mandated creditor waterfall analysis to act as the primary catalyst, clarifying the severe impairment of equity and bringing the share price toward our $0.00 target [D03], [D05]. \n\nOur plan is to maintain a short position to capture the delta as the market inevitably reconciles the current $5.53 share price with the company's terminal reality [D04]. We are sizing this at 1% of NAV; while the risk of a retail-driven short squeeze exists, the fundamental skew toward zero is compelling and the exit route via the bankruptcy process is clearly defined [D03], [D04], [D05].",
+  "uncited_claims": [],
+  "decision_before_enforcement": "SHORT",
+  "enforced_hard_fail": true
+ }
+}

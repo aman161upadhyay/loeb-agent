@@ -1,0 +1,63 @@
+{
+ "trade_id": "2022_bbwi_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The standalone brand had a credible path to global direct-to-consumer growth.",
+   "Capital-allocation and governance improvements could unlock growth and efficiency.",
+   "Leadership and operating changes could restore margins at a low earnings valuation."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at a significant discount of 5.5x EV/EBITDA, masking a strong 10% FCF yield.",
+   "An identifiable operating margin gap suggests room for operational improvement.",
+   "Current interim leadership provides a window for a strategic reset.",
+   "Management’s focus on merchandise-margin initiatives offers a path to restoring historical margins."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company represents a classic event-driven opportunity: a standalone retailer with a clear margin gap, interim leadership, and a significant valuation discount relative to high-performing peers.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company generates a 10% FCF yield that the market fails to value.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our analysis targets an 18.0% operating margin, consistent with the 17.0-19.7% peer average.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are initiating a private engagement to advocate for the immediate appointment of a permanent CEO.",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Risks include macro-driven demand destruction in discretionary spending.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The Company represents a classic event-driven opportunity: a standalone retailer with a clear margin gap, interim leadership, and a significant valuation discount relative to high-performing peers [D01, D06].",
+ "grader_notes": "The agent correctly identified the BUY direction but failed to cite any of the specific, high-level strategic drivers provided by Loeb in the retrospective letter (growth path, capital allocation/governance, valuation/margin restoration). Instead, the agent focused on quantitative valuation metrics and operational margin gaps, which, while logically sound for an investor, do not overlap with the specific drivers identified in the answer key.",
+ "run": "2022_bbwi_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,53 @@
+{
+  "id": "2015_bax_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Nearly 10% of common shares including stock equivalents, worth over $2bn, per August 5 letter; issuer ownership is not NAV weight.",
+  "first_action_date": null,
+  "disclosure_date": "2015-08-05",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Baxter board",
+      "Robert Parkinson",
+      "Third Point"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "The post-spin parent is a focused under-earner with a substantial operational opportunity.",
+      "source": "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/ (2015-11-02; later stated rationale relative to pack cutoff; August 5 letter separately verifies stake and CEO-search/board engagement)",
+      "quote": null
+    },
+    {
+      "driver": "Influence CEO succession and board representation to bring an owner's operating discipline.",
+      "source": "https://www.sec.gov/Archives/edgar/data/10456/000119312515278325/d61600dex3.htm (2015-08-05)",
+      "quote": null
+    },
+    {
+      "driver": "Better margins and capital allocation can unlock value without relying on an unannounced new breakup.",
+      "source": "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/ (2015-11-02; later stated rationale relative to pack cutoff; August 5 letter separately verifies stake and CEO-search/board engagement)",
+      "quote": null
+    },
+    {
+      "driver": "A proven operator can reinvigorate the standalone business; Almeida framing is a later Q3 update, not August appointment evidence.",
+      "source": "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/ (2015-11-02; later stated rationale relative to pack cutoff; August 5 letter separately verifies stake and CEO-search/board engagement)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact execution price and entry multiple not recovered.",
+  "outcome_note": "Board arrangement and later Almeida appointment followed. Common position remained until Q3 2020, not a 2018/2019 complete exit.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/10456/000119312515278325/d61600dex3.htm",
+    "https://www.sec.gov/Archives/edgar/data/10456/000119312515268288/d23201dex991.htm",
+    "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/"
+  ],
+  "pack_quality_notes": "Grade B. Original August SEC letter anchors engagement; detailed margin/operator rationale also in Q3 letter published November 2, explicitly hindsight. No future CEO identity treated as known in docs. Full standalone metrics, current price and fund exposures missing. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

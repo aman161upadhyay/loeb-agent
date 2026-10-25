@@ -1,0 +1,58 @@
+{
+ "trade_id": "2022_cl_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Hill's pet nutrition represented hidden sum-of-parts value → The company suffers from a conglomerate discount that obscures the high-growth, distinct value of its premium pet nutrition business",
+   "Defensive demand and significant pricing power were valuable under inflation → The market’s focus on near-term gross margin contraction and FX headwinds provides an entry point into a business with durable, recurring demand"
+  ],
+  "missed": [
+   "Attractive valuation preceded a prospective earnings inflection.",
+   "Consumer-health consolidation and portfolio action supplied additional optionality."
+  ],
+  "extra_agent_drivers": [
+   "A 270 basis point operating margin gap relative to peer P&G indicates clear room for operational efficiency and earnings power expansion",
+   "The company's dominant global market shares in essential franchises provide a reliable FCF floor, supporting a favorable 2-3:1 skew"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Colgate-Palmolive is a premier global consumer staples business, yet it trades at a valuation that fails to reflect the true worth of its distinct, high-growth pet nutrition segment",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "270 basis point margin gap against P&G",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "target price of $90 per share",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "fundamental FCF yield floor of approximately 3.9%",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Colgate-Palmolive is a premier global consumer staples business, yet it trades at a valuation that fails to reflect the true worth of its distinct, high-growth pet nutrition segment [D01, D06].",
+ "grader_notes": "The agent correctly identified the core thesis of pet nutrition value and the defensive nature of the business. However, it failed to capture the drivers related to broader consumer-health consolidation/optionality and prospective earnings inflection, relying instead on specific (and extra) operational margin gap analysis.",
+ "run": "2022_cl_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

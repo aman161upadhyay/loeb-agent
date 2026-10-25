@@ -1,0 +1,53 @@
+{
+ "pack": "2013_yahoo_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2013-07-22",
+ "stages": {},
+ "final": {
+  "as_of_date": "2013-07-22",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "TRIM",
+  "reason_class": "L1",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Governance intervention: catalyst_realised_target_reached, as the campaign yielded board access and a new CEO [D03, D07]",
+   "Core operating turnaround: thesis_on_track, though evidence of margin acceleration is not yet demonstrated [D03, D07]",
+   "Asian affiliate value: intact, remains a distinct source of upside [D01, D06]"
+  ],
+  "remaining_skew": "Upside remains through Asian asset optionality and product turnaround, but core advertising fundamentals remain challenged versus peers [D04, D06]",
+  "next_catalyst_and_timing": "Demonstration of sustained core growth/mobile engagement inflection; timing uncertain [D01, D03]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The initial governance catalyst has been achieved with board representation and a leadership change, necessitating a re-evaluation of the position [D03, D07]",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Core revenue and adjusted EBITDA remain under pressure, shifting the thesis toward a fundamental operating turnaround rather than governance [D03, D05]",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The availability of issuer block-liquidity terms allows for crystallization of value without exiting the entire stake [D02, D04]",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "Risk of foregone upside exists if Asian affiliate growth continues, but current exposure requires a fresh earnings-inflection judgment [D04, D06]",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "memo": "Our original governance campaign for the Company has been a success, resulting in board representation and the appointment of a new CEO [D03, D07]. With the primary governance catalyst realized, we are transitioning from an activist posture to an investor assessing the merits of the core business turnaround and the optionality of our Asian affiliates [D01, D08]. \n\nWhile the company has accelerated product development across its core suite, revenue and adjusted operating measures have yet to show a meaningful inflection [D03, D07]. The current economic reality of the core advertising business remains challenged, with second-quarter GAAP revenue down 7% and non-GAAP operating income falling 13% [D03]. \n\nWe have the opportunity to utilize issuer block-liquidity terms to harvest a portion of our gain [D02, D04]. This allows us to manage risk and lock in profits crystallized by our successful governance intervention while maintaining residual exposure to the long-term potential of the Asian assets [D02, D04]. We remain cognizant that holding the remaining equity now relies on the product turnaround compounding, rather than just board-level changes [D04, D05].",
+  "uncited_claims": []
+ }
+}

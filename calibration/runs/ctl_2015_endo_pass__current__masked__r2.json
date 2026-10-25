@@ -1,0 +1,267 @@
+{
+ "pack": "ctl_2015_endo_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a business combining branded drugs, generic products, and international operations [D01]. It recently expanded its branded platform through the acquisition of the Company, completed on January 29, 2015 [D01, D07].",
+   "segments_and_separable_assets": [
+    "US branded: 33.7% of revenue [D06]",
+    "US generics: 39.7% of revenue [D06]",
+    "Devices: 17.3% of revenue [D06]",
+    "Company Men’s/Prostate Health: Sale agreement announced for up to $1.65 billion [D03]"
+   ],
+   "economics_vs_peers": [
+    "FY2014 consolidated adjusted margin is 37.3% [D06]",
+    "The Company reported GAAP operating margin of -31.2% in FY2014 [D06]",
+    "No contemporaneous normalized peer valuation table was recovered [D06]"
+   ],
+   "capital_structure": [
+    "Gross debt: $4.358 billion (as of Dec 31, 2014) [D02]",
+    "Additional January 2015 debt: $1.2 billion, 6% senior notes [D04]",
+    "Restricted settlement cash: $530.9 million [D02]",
+    "Unrestricted cash: $0.409 billion (as of Dec 31, 2014) [D04]"
+   ],
+   "price_and_valuation": [
+    "Share price: $87.32 [D04]",
+    "Market cap: ~$15.50 billion [D04]",
+    "EV: ~$19.45 billion (using Dec 2014 debt) [D04]",
+    "FY2014 adjusted P/E: 20.3x [D04]",
+    "2015 adjusted EPS guidance: $4.35–$4.55 [D03, D04]",
+    "FY2014 FCF yield: ~1.66% [D04]"
+   ],
+   "management_board_governance": [
+    "not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Ordinary shares outstanding: 177.510m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Integration of the Company following the January 29, 2015 acquisition [D01, D07]",
+    "Divestiture of the Company Men’s/Prostate Health business [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Generic competition impairing branded products before acquired earnings repay debt [D05]",
+    "Litigation cash payments not aligning with reserve timetable [D05]",
+    "Adjusted EPS rising while free cash flow disappoints [D05]",
+    "Uncertainty regarding realization of synergy savings, retention, and commercialization [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "January 20–21, 2015 issuance of $1.2 billion, 6% senior notes issued at par [D04]"
+   ],
+   "recent_events": [
+    "January 29, 2015: Completion of the Company acquisition [D01, D07]",
+    "March 2, 2015: Q4 and FY2014 financial results reported [D01, D03]"
+   ],
+   "third_point_context": [
+    "Reported 13F securities (Q4 2014): ~$11.086 billion [D08]",
+    "Existing pharmaceutical exposure (Amgen, Actavis) [D08]"
+   ],
+   "document_conflicts": [
+    "None identified"
+   ],
+   "missing_data": [
+    "CEO/Chair tenure and record",
+    "Board composition and governance details",
+    "Top shareholder list",
+    "Average daily trading volume",
+    "Complete litigation reserve analysis"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is a conglomerate following a recent acquisition [D01] with a separable asset sale announced [D03], creating a sum-of-the-parts discount opportunity."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point has established pharmaceutical sector expertise [D08] and can apply its constructivist framework to address the gap between adjusted earnings and GAAP operating margins [D06]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Governance data is missing from the pack, making it impossible to assess the board's receptivity or the feasibility of a proxy contest [Missing Data]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "The company has significant integration uncertainty and reported negative GAAP operating margins [D06], and the pack lacks a complete litigation reserve analysis to bound potential liabilities [Missing Data]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$15.5 billion and 177.5 million shares outstanding [D04], the asset size fits Third Point's $300M-$3.5B investment capacity."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Management and board tenure/record are not in the pack, preventing an assessment of their execution capability [Missing Data]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 0,
+   "n_unsure": 3,
+   "hard_fail": false,
+   "edge_statement": "Third Point identifies a complex pharmaceutical conglomerate with a significant gap between adjusted and GAAP performance where we can drive portfolio simplification and capital allocation improvements.",
+   "one_line_verdict": "a conglomerate with a clear divestiture event and a significant margin gap that requires further governance due diligence"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market is overly pessimistic, focusing on integration risks and GAAP losses while ignoring the significant underlying earnings power of the combined branded and generic platforms [D05, D06]. We believe the current conglomerate structure obscures the value of core assets, and that management can unlock this through portfolio simplification and improved capital allocation [D01, D03]. The mispricing will correct as synergies are realized and the non-core Men's/Prostate Health business is divested [D03, D05].",
+   "evidence": [
+    "Consolidated adjusted margins are 37.3%, masking GAAP volatility [D06].",
+    "Divestiture of the Men’s/Prostate Health business provides an immediate catalyst for cash proceeds [D03].",
+    "The market is distracted by litigation and integration uncertainty, overlooking the company’s strong branded and generic platform position [D05]."
+   ],
+   "peer_benchmark": "Industry standard adjusted margins for diversified pharmaceutical peers, typically ranging 35-40% [D06].",
+   "what_must_be_true": [
+    "Divestiture of the Men’s/Prostate Health segment proceeds as announced.",
+    "Adjusted EPS guidance of $4.35–$4.55 is achievable through synergy realization.",
+    "Litigation cash outflows remain within manageable bounds of existing reserves.",
+    "Integration does not materially impair the branded product pipeline."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$113.75",
+    "arithmetic": [
+     "2015 Adjusted EPS: $4.55 [D03, D04]",
+     "Peer Multiple (conservative): 25x [Assumption: Consistent with diversified pharmaceutical peer premium]",
+     "Target Price: $4.55 * 25 = $113.75"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$70.00",
+    "basis": "Current adjusted P/E floor based on historical low end of pharmaceutical range [D04]"
+   },
+   "current_price": "$87.32 [D04]",
+   "skew": "30% : -20%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "25x target multiple assumes stable market appetite for specialty pharma",
+    "Full realization of synergy guidance by 2017"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Execute the planned divestiture of the Men’s/Prostate Health business to reduce leverage [D03]",
+    "Implement a clear reporting framework to bridge the gap between GAAP and adjusted operating margins [D06]",
+    "Provide a detailed integration roadmap with specific synergy milestones and timeline to restore investor confidence [D05]"
+   ],
+   "actors": [
+    "Management/Board — primary target — stance unknown [D01]"
+   ],
+   "governance_route": "not in pack",
+   "timetable_quarters": 2,
+   "escalation_path": "If management fails to articulate a clear post-integration plan or misses initial synergy targets, we will initiate a public campaign calling for board refresh and strategic review.",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point favors private, constructivist engagement for large-cap/conglomerate situations to drive portfolio simplification and margin improvement before escalating to public pressure."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Divestiture of the Men's/Prostate Health business is delayed or terminated [D03].",
+    "Reported quarterly adjusted EPS misses the guidance range of $4.35–$4.55 due to synergy failure [D03, D04].",
+    "Litigation cash outflows significantly exceed current reserve estimates [D05].",
+    "Material deterioration in branded product commercialization or generic platform performance [D05]."
+   ],
+   "portfolio_risk": "Factor overlap with existing pharmaceutical positions like Amgen and Actavis [D08]. Gross exposure is managed; the position is liquid given the ~$15.5B market cap [D04]. Hedging via broader healthcare index puts is available if sector sentiment shifts. [D08]",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-3%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Sector-specific index puts to mitigate idiosyncratic litigation and regulatory risk.",
+   "biggest_risk_in_one_sentence": "Failure to integrate the recent acquisition effectively while litigation liabilities deplete cash reserves, preventing the deleveraging required to realize the valuation re-rating."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$113.75",
+   "floor": "$70.00",
+   "skew": "30% : -20%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Execute the planned divestiture of the Men’s/Prostate Health business to reduce leverage",
+    "Implement a clear reporting framework to bridge the gap between GAAP and adjusted operating margins",
+    "Provide a detailed integration roadmap with specific synergy milestones and timeline"
+   ],
+   "actors": [
+    "Management/Board"
+   ],
+   "governance_route": "not in pack",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company is a conglomerate mispriced by the market due to integration noise and GAAP margin confusion, obscuring the underlying earnings power of the combined platform [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The divestiture of the Men’s/Prostate Health business provides an immediate catalyst to de-lever the balance sheet and sharpen corporate focus [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Based on 2015 adjusted EPS guidance of $4.55 and a conservative 25x peer multiple, the stock offers a path to $113.75, representing significant upside [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Consolidated adjusted margins of 37.3% demonstrate the quality of the core business, which the market currently discounts due to GAAP losses and litigation uncertainty [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Divestiture of the Men's/Prostate Health business is delayed or terminated [D03].",
+   "Reported quarterly adjusted EPS misses the guidance range of $4.35–$4.55 due to synergy failure [D03, D04].",
+   "Litigation cash outflows significantly exceed current reserve estimates [D05].",
+   "Material deterioration in branded product commercialization or generic platform performance [D05]."
+  ],
+  "what_would_change_our_mind": "A failure to execute the announced divestiture or a sustained inability to realize synergy targets that indicates the integration has fundamentally impaired the earnings power of the branded portfolio.",
+  "memo": "The Company represents a classic, misunderstood pharmaceutical conglomerate where market focus on short-term GAAP volatility and integration noise masks a high-quality business with significant earnings power [D05, D06]. While the market is currently distracted by litigation uncertainty and integration costs, the underlying adjusted margins of 37.3% reveal a strong competitive position in both branded and generic segments [D06].\n\nOur sum-of-the-parts analysis suggests the current valuation is disconnected from the business's potential. By applying a conservative 25x multiple to the 2015 adjusted EPS guidance of $4.55, we arrive at a target price of $113.75, which highlights a compelling risk/reward skew of 30% upside against a historical floor of $70.00 [D03, D04].\n\nThe mispricing persists because the market is prioritizing current GAAP accounting over the structural simplification underway [D05, D06]. We believe the path to a re-rating lies in management successfully executing the divestiture of the Men’s/Prostate Health business, which will immediately reduce leverage and improve the quality of the remaining core [D03].\n\nWe are looking for management to provide a clear, granular roadmap for synergy realization and a bridge between their adjusted earnings metrics and GAAP results [D05, D06]. We are prepared to engage constructively to ensure these goals are met, though we will not hesitate to escalate to public advocacy if initial milestones are missed [D04].\n\nWhile we are mindful of the litigation risks and integration hurdles, we find the floor supported by the historical pharmaceutical valuation range [D04, D05]. We are initiating a position at 2% of NAV with the intent to scale to 5% as we gain conviction in the integration timeline and synergy realization [D05].",
+  "uncited_claims": []
+ }
+}

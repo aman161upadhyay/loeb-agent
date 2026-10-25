@@ -1,0 +1,51 @@
+{
+  "id": "2013_sony_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Approximately $1.1bn exposure: about $700m direct plus $440m cash-settled swaps; not all cash common.",
+  "first_action_date": null,
+  "disclosure_date": "2013-05-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Kazuo Hirai",
+      "Sony board"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Entertainment value is obscured inside the electronics conglomerate.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2013/05/14/Third%20Point%20Letter%20to%20Sony%20May%2014.pdf (2013-05-14; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "A 15–20% minority entertainment listing can expose value, sharpen incentives and finance electronics.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2013/05/14/Third%20Point%20Letter%20to%20Sony%20May%2014.pdf (2013-05-14; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Entertainment peer margins reveal a meaningful efficiency opportunity.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2013/05/14/Third%20Point%20Letter%20to%20Sony%20May%2014.pdf (2013-05-14; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Focused electronics execution and stronger product/currency conditions provide value independent of activist success.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2013/05/14/Third%20Point%20Letter%20to%20Sony%20May%2014.pdf (2013-05-14; later stated rationale relative to pack cutoff)",
+      "quote": "For Sony to Change, Sony Must Focus."
+    }
+  ],
+  "entry_valuation_stated": "Letter estimates electronics near 8x management FY13 EBIT guidance; modeled upside up to 60%, not execution price.",
+  "outcome_note": "Partial listing rejected; later letter reports nearly 20% investment return, not annualized or fund-net.",
+  "sources": [
+    "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2013/05/14/Third%20Point%20Letter%20to%20Sony%20May%2014.pdf",
+    "https://www.sony.com/en/SonyInfo/IR/library/presen/er/12q4_sony.pdf"
+  ],
+  "pack_quality_notes": "Grade B. Daily quote, cutoff fund AUM, peer numerical margin table and after-tax SOTP not recovered. Instrument metadata common is principal exposure; actual implementation includes cash-settled swaps outside schema vocabulary. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

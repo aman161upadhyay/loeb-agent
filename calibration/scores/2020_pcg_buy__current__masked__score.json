@@ -1,0 +1,57 @@
+{
+ "trade_id": "2020_pcg_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "A good utility business had been impaired by a bad capital structure rather than disappearing demand. → The market continues to treat the equity as a distressed, uninvestable liability, creating a significant mispricing between the current $9.03 share price and the fundamental value of an essential, regulated monopoly.",
+   "The recapitalization and post-reorganization equity provided a fresh capital-structure entry. → This represents a 105% upside from recent levels, underpinned by an essential network that is now free from its previous balance sheet constraints."
+  ],
+  "missed": [
+   "Bankruptcy settlements and California's wildfire framework created a path toward financial normalization."
+  ],
+  "extra_agent_drivers": [
+   "Normalized operating margins and peer-based valuation.",
+   "Downside protection via tangible book value."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is a regulated monopoly whose equity is mispriced by the market as a distressed asset due to technical selling and wildfire overhangs, ignoring the foundational reset of a court-confirmed bankruptcy emergence",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Based on a normalized operating margin of 15.5%—aligning with utility peers like AEP and Edison—and a 17.6x target P/E, we see a path to a $18.50 per share valuation",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The governance reset, led by a newly seated board and interim management, provides a clear framework to execute mandated safety infrastructure programs",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The downside is protected by a tangible book value floor estimated at $7.50, providing an asymmetric risk/reward skew of over 3:1",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 4,
+  "share": 0.29
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "This represents a 105% upside from recent levels, underpinned by an essential network that is now free from its previous balance sheet constraints.",
+ "grader_notes": "The agent correctly identifies the investment as a recapitalized utility play following bankruptcy, matching Loeb's core thesis of a good business freed from a bad capital structure. However, the agent relies heavily on detailed DCF/multiple-based valuation modeling and specific price targets, whereas Loeb's own commentary was centered on the structural catalyst and the normalization of the business post-bankruptcy.",
+ "run": "2020_pcg_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

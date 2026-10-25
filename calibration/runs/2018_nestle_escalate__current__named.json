@@ -1,0 +1,51 @@
+{
+ "pack": "2018_nestle_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2018-07-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2018-07-01",
+  "company": "Nestlé S.A.",
+  "ticker": "NESN",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Operating underperformance: intact, with organic growth at 2.4% [D02, D07]",
+   "Capital efficiency: progress made via buyback and portfolio adjustments [D03, D07]",
+   "Margin improvement: management has set targets, but has not yet met our higher aspiration [D03]"
+  ],
+  "remaining_skew": "Significant upside potential remains through continued portfolio optimization and closing the margin gap vs peers [D03, D06]",
+  "next_catalyst_and_timing": "Ongoing execution of the margin plan and portfolio simplification over the next 1-3 years [D03, D07]",
+  "asks_if_escalating": [
+   "Aggressive portfolio simplification",
+   "Accelerated margin expansion to 17.5–18.5% and beyond",
+   "Enhanced capital allocation discipline"
+  ],
+  "drivers": [
+   {
+    "driver": "Persistent margin and growth underperformance relative to category potential despite initial engagement [D02, D03, D06]",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management's targets are a positive start but remain insufficient to reach the full value of the franchise [D03]",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The opportunity to push for more rapid operational change given the company's decentralized structure [D01, D07]",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "Since our initial engagement in June 2017, Nestlé has taken positive steps, including a new margin objective, a substantial share repurchase program, and portfolio adjustments [D07]. However, the pace of change remains inadequate to unlock the full potential of this high-quality franchise [D03]. With organic growth at a modest 2.4% and the margin gap vs. peers still significant, it is time to move from private engagement to public pressure to ensure management delivers on a more aggressive timeline [D02, D03, D06, D07].\n\nOur original thesis centered on the belief that Nestlé is a strong asset burdened by a complex, decentralized structure and suboptimal capital allocation [D01]. While CEO Schneider has acknowledged these challenges, our analysis of recent results shows that the company continues to lag [D03]. We must now publicly articulate the 'NestléNOW' plan to accelerate portfolio simplification and margin improvement to reach the 17.5–18.5% target and beyond [D03].\n\nWe are escalating because the mispricing persists and our private requests for more urgent action have not yielded sufficient momentum [D03, D07]. By going public today, we aim to increase the sense of urgency and provide a clear roadmap for the company's evolution into a more focused, efficient leader in its categories [D03, D07]. We will continue to monitor the execution of the CHF 20 billion buyback and further divestitures as critical milestones [D03, D07].",
+  "uncited_claims": []
+ }
+}

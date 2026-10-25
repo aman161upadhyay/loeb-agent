@@ -1,0 +1,63 @@
+{
+ "trade_id": "2020_q1_derisk",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The fund had assigned inadequate probability to a full global pandemic.",
+   "Concentrated and correlated cyclical exposures amplified shutdown losses.",
+   "Reducing equity exposure and preserving liquidity allowed rotation into more asymmetric credit."
+  ],
+  "extra_agent_drivers": [
+   "Liquidity and financing availability have become the primary constraint for corporate holdings, overriding previous event-driven investment theses.",
+   "Synchronized global economic interruption from the pandemic invalidates standard cyclical earnings and valuation models.",
+   "The fund must preserve capital to meet potential redemptions and margin calls in a regime characterized by extreme volatility and bid/ask widening.",
+   "History dictates that in liquidity regime changes, one must cut gross early rather than wait for thesis validation."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The WHO declared a pandemic on March 11",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the Federal Reserve initiated emergency intervention on March 15",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "S&P 500 down 29.5% from its February high",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "VIX at 82.69",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "High-yield spreads have widened dramatically by 478bp since year-end",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are reducing gross exposure across the board to ensure that our portfolio remains resilient against further correlated markdowns and to protect against the violent potential for short-hedge reversals [D05].",
+ "grader_notes": "The agent correctly identified the direction of the trade but completely missed the retrospective drivers provided by Loeb in the answer key. The agent constructed a forward-looking logic based on the provided documents instead of mirroring the post-hoc explanation of the fund's failure to anticipate the pandemic that Loeb emphasized.",
+ "run": "2020_q1_derisk__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

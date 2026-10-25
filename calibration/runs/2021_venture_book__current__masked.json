@@ -1,0 +1,53 @@
+{
+ "pack": "2021_venture_book",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2021-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2021-01-31",
+  "company": "the Company",
+  "ticker": "the Company",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Venture relationship remains intact as lifecycle underwriting [D01, D07].",
+   "AI-driven credit underwriting model continues to demonstrate operational progress with Q3 2020 revenue growth of 32.1% [D03, D06].",
+   "Transition from venture to public market completed with IPO [D01, D07]."
+  ],
+  "remaining_skew": "Significant uncertainty remains due to the early stage of public reporting, with valuation metrics like P/E currently influenced by small and volatile trailing denominators [D04].",
+  "next_catalyst_and_timing": "First full post-IPO quarterly earnings reports and loan cohort performance data [D03, D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The company has demonstrated strong revenue growth and margin expansion as of the latest Q3 2020 reporting [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "As a venture-backed position, the transition to public markets is a milestone rather than an immediate exit signal [D07].",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "Valuation remains stretched following the share price rally to $62.19 post-IPO, requiring caution [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Significant risks persist regarding credit-cycle resilience and partner concentration [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We have seen the Company successfully transition from our venture portfolio to the public markets, and its early operating metrics are encouraging [D01, D07]. The Q3 2020 results showed 32.1% revenue growth and an improvement in operating margin to 18.7% compared to the prior-year period [D03]. This validates our initial underwriting that the platform’s AI models could differentiate credit outcomes, though we remain disciplined in monitoring this against a broader credit cycle not yet represented in training data [D03, D05].\n\nWhile the stock has performed well since the IPO, rising to $62.19, this price movement reflects market sentiment and liquidity events rather than a long-term earnings inflection [D04, D07]. We recognize that the current trailing P/E of approximately 807x is a function of a small and volatile earnings denominator and is not a basis for further expansion [D04]. We are maintaining our position to observe the upcoming quarterly reports, which will provide the necessary data on loan cohorts and partner retention to confirm our thesis.\n\nOur focus remains on the sustainability of the fee-based platform and its sensitivity to funding market conditions [D01, D05]. We will continue to evaluate the Company based on fundamental unit economics and performance against peers like Enova and LendingTree, rather than succumbing to the volatility of its early public trading days [D04, D06].",
+  "uncited_claims": []
+ }
+}

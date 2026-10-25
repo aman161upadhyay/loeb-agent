@@ -1,0 +1,19 @@
+Title: Latest recovered results and live expectations — Nestlé S.A.
+Source: https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2017 (2018-02-15); https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25); https://www.valuewalk.com/wp-content/uploads/2018/01/Third-Point-Q4-Investor-Letter-TPOI.pdf (2018-01-22); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (2018-05-15)
+Date: 2018-07-01
+
+Schneider says growth was below expectations, particularly late in the year, while cost savings produced margin improvement despite commodity inflation. Management expects organic growth to improve and says its medium-term margin plan remains on track. Existing public commitments include a 17.5–18.5% underlying-margin objective and CHF20 billion buyback. These are positive actions relative to the starting point, but they are not identical to the initial owner's higher margin aspiration. A fair review must credit delivered improvement and then assess whether the remaining organizational response is sufficient. [S1; S3]
+
+Results versus forecast. Management guidance is attributed to management and remains a forecast. A report above expectations is evidence about one reporting period, not proof of an enduring earnings inflection. Look separately at pricing, units, mix, currency, acquisitions and costs; the same revenue increase can have very different implications depending on its source. Likewise, a decline can reflect a temporary comparison base, a deliberate investment or a genuinely weaker business.
+
+For the next decision, translate each proposed improvement into an observable milestone: organic demand, margin after necessary spending, cash conversion, financing access or a specific legal step. The source set does not establish future delivery simply because a management plan has been announced. Analyst forecasts are not supplied as though they were consensus. Where the most recent independently recovered financial release is stale, the limitation is stated above; no subsequent quarter is silently substituted. The material question is what this dated evidence changes about sustainable earnings and downside, including evidence that contradicts an attractive narrative. An existing-position review must compare with its original premise, not only with the previous share price.
+
+Analyst cross-check: The next useful update should distinguish a change in demand from a change in reported accounting and a change in expectations. Ask what information would invalidate each interpretation. A quarter that beats an unusually weak comparator is not necessarily evidence of a durable improvement in normalized economics.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2017 (published 2018-02-15).
+- [S2] https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (published 2017-06-25).
+- [S3] https://www.valuewalk.com/wp-content/uploads/2018/01/Third-Point-Q4-Investor-Letter-TPOI.pdf (published 2018-01-22).
+- [S4] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S5] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S6] https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (published 2018-05-15).

@@ -1,0 +1,60 @@
+{
+ "trade_id": "2005_star_gas_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Apply propane-sale cash to expensive notes unless management demonstrates a superior use → we will not permit management to squander our remaining value on failed operating strategies"
+  ],
+  "missed": [
+   "Operating deterioration requires a credible plan to restore per-gallon profitability.",
+   "Months of unanswered calls leave public communication as the remaining owner route.",
+   "Independent oversight and replacement of conflicted leadership are needed to stop further value destruction."
+  ],
+  "extra_agent_drivers": [
+   "Customer attrition of 6.5% due to service-centralization",
+   "Distribution suspension",
+   "Deteriorating core operating metrics",
+   "High wholesale oil costs and route density issues"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "customer attrition accelerating to 6.5%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "suspension of the common distribution",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "propane disposal proceeds sit under an asset-sale covenant",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "6% holder",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 7,
+  "share": 0.7
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are escalating our position to demand a board refresh and a concrete strategy to stem the operational rot.",
+ "grader_notes": "The agent correctly identified the decision to escalate, but its reasoning was largely disconnected from the specific drivers Loeb documented in his February 14th letter. While the agent correctly focused on the risk of capital misallocation, it failed to cite the lack of communication or the specific mandate for independent oversight as central drivers.",
+ "run": "2005_star_gas_escalate__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

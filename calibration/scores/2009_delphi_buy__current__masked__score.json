@@ -1,0 +1,52 @@
+{
+ "trade_id": "2009_delphi_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Use senior restructuring paper rather than speculate in the old common stock → We will utilize the court-led restructuring process to ensure our tranches are preserved, bypassing the impaired and effectively worthless common equity.",
+   "Restructuring can reset legacy costs and expose the industrial asset base's earnings power → The market is paralyzed by the Q1 2009 revenue decline and the immediate cash burn, ignoring the underlying worth of the company’s manufacturing and engineering relationships.",
+   "The GM and bankruptcy process supplies a path to emergence and new ownership → The June 16, 2009, financing hearing provides a concrete, short-term catalyst to validate the capital structure and recovery prospects."
+  ],
+  "missed": [
+   "Underwrite individual auto claims bottom-up while distinguishing plausible survivors from losers."
+  ],
+  "extra_agent_drivers": [
+   "The company is in Chapter 11 with the market ignoring the going-concern value of essential engineering and manufacturing assets due to panic over cash burn."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is in Chapter 11",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "financing hearing scheduled for June 16, 2009",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$541m in first-priority claims",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By stepping into these senior tranches, we gain a seat at the table during the most critical phase of the restructuring.",
+ "grader_notes": "The agent correctly identified the direction and successfully captured three of the four core drivers from the key, specifically focusing on the senior credit stack over the equity. It diverged from the key by adding its own bottom-up manufacturing value driver rather than explicitly mentioning the 'underwrite individual auto claims' driver cited by Loeb.",
+ "run": "2009_delphi_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

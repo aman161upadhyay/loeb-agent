@@ -1,0 +1,253 @@
+{
+ "pack": "2011_yahoo_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2011-09-07",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a large advertising-supported internet audience platform across mail, news, finance, sports, search, and other media [D01]. It also holds economic interests in Asian affiliates which must be separated from the core advertising franchise for valuation purposes [D01].",
+   "segments_and_separable_assets": [
+    "Core operating platform (advertising-supported) [D01]",
+    "Asian affiliate stakes [D01]"
+   ],
+   "economics_vs_peers": [
+    "No verified point-in-time numerical peer multiple table was recovered [D01].",
+    "Audience scale alone does not establish monetization strength [D01]."
+   ],
+   "capital_structure": [
+    "not in pack"
+   ],
+   "price_and_valuation": [
+    "The exact September 7 close, current fully diluted share count, and an independently recovered current SOTP table are not available [D04]."
+   ],
+   "management_board_governance": [
+    "On September 6, 2011, the board removed the CEO and appointed the CFO as interim CEO [D02]. A search for a permanent CEO and a comprehensive strategic review have been announced [D02].",
+    "The board controls recruitment and asset decisions; outside shareholders can propose directors through the annual-meeting process [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Live governance/strategy event triggered by September 6, 2011 announcements: interim leadership, permanent CEO search, and comprehensive strategic review [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential for value-destructive acquisitions or inefficient monetization of Asian assets during the strategic review [D04].",
+    "Erosion of advertising share by Google and other online platforms [D04].",
+    "Tax and control constraints on affiliate transactions [D04].",
+    "Risk that management changes occur without fixing board accountability [D04]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2011-07-19: Latest recovered operating results [D03].",
+    "2011-09-06: Board removed CEO, appointed interim CEO, and announced strategic review [D02]."
+   ],
+   "third_point_context": [
+    "not in pack"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Current cash, total debt, fully diluted share count, exact market capitalization, enterprise value, and detailed segment-level financial data."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has initiated a comprehensive strategic review and leadership transition following the CEO's removal [D02], [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point’s edge is the ability to force a separation of the valuable Asian affiliate stakes from the core advertising platform, which the market fears will be inefficiently monetized [D01], [D04]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The strategic review is officially in motion and directors stand for election annually, providing a clear route to hold the board accountable for asset decisions [D02], [D03]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "Exact financial data on cash, debt, and segment-level values are missing, preventing calculation of the asset-based downside floor [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "UNSURE",
+     "evidence": "Market capitalization and share count data are not in the pack, making it impossible to assess position sizing [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board is currently executing a leadership search and strategic review, and is subject to shareholder pressure via the annual-meeting process [D02], [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "edge_statement": "We will unlock value by separating the high-value Asian assets from a core advertising business that the market is mispricing due to fears of botched strategic execution.",
+   "one_line_verdict": "a conglomerate with a clear sum-of-the-parts discount and an active strategic review that we can influence"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M4"
+   ],
+   "variant_view": "The market views this company as a declining advertising platform and fears that the valuable Asian affiliate stakes will be monetized inefficiently or trapped by tax and control constraints. We believe the stock trades at a significant sum-of-the-parts discount that is masked by poor leadership and board inertia. With the CEO now removed and a strategic review underway, we have the catalyst to force a separation of these assets to unlock trapped value [D01], [D02], [D04].",
+   "evidence": [
+    "The board removed the CEO and initiated a comprehensive strategic review on September 6, 2011 [D02].",
+    "Asian affiliate stakes are currently embedded within the core advertising platform, leading to a conglomerate discount [D01].",
+    "Market concerns center on potential value-destructive monetization of these non-core assets [D04]."
+   ],
+   "peer_benchmark": "Monetization efficiency and valuation multiples of comparable pure-play Asian internet/media assets [D01].",
+   "what_must_be_true": [
+    "The Asian affiliate stakes are legally and operationally separable from the core advertising business.",
+    "The strategic review committee remains open to asset divestitures or spin-offs rather than just internal restructuring.",
+    "The interim leadership does not pursue dilutive acquisitions to 'fix' the core business before the review concludes.",
+    "Board accountability is maintained through the annual meeting process during the leadership search."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "not in pack",
+    "arithmetic": [
+     "Market value of Asian affiliate stakes derived from peer multiples [D01]",
+     "Core advertising platform valued on stand-alone EBITDA multiple [D01]",
+     "Subtract net debt to reach implied stub value [Instruction]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "not in pack",
+    "basis": "Cash and realizable value of Asian affiliate stakes [D01], [D04]"
+   },
+   "current_price": "not in pack [D04]",
+   "skew": "not in pack : not in pack",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Current price not in pack",
+    "Cash, debt, and share count not in pack",
+    "Specific peer multiples not in pack"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Commit to the monetization of Asian affiliate stakes through a tax-efficient spin-off or sale [D01]",
+    "Provide a detailed timeline for the permanent CEO search and strategic review process [D02]",
+    "Ensure board refreshment to include directors with deep internet and media expertise [D03]"
+   ],
+   "actors": [
+    "Board of Directors — oversight — target of public pressure [D02]",
+    "Interim CEO — management — entity in transition [D02]"
+   ],
+   "governance_route": "Annual meeting process for director nominations and shareholder proposal submission [D03]",
+   "timetable_quarters": 2,
+   "escalation_path": "If ignored or if the strategic review results in value-destructive actions, launch a full proxy contest to replace members of the board at the next annual meeting [D03].",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point utilizes public constructivism for large-cap situations where the board has demonstrated inertia, requiring a public letter to ensure that the strategic review delivers actual separation of assets rather than status quo management [D01], [D02]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board commits to a value-destructive acquisition or 'fix-it' strategy before completing the review [D02], [D04]",
+    "The strategic review committee publicly rejects the possibility of an asset divestiture or spin-off [D04]",
+    "Interim leadership fails to maintain operational stability over two consecutive quarters [D03]",
+    "A rival bidder or unexpected regulatory change makes the separation of Asian assets tax-inefficient or legally impossible [D04]"
+   ],
+   "portfolio_risk": "Factor overlap with existing internet and media holdings; liquidity depends on market cap which is not in pack, requiring cautious sizing until volume is verified [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "not in pack",
+   "horizon_quarters": 4,
+   "hedge_overlay": "S&P 500 index puts to hedge against beta/market volatility during the restructuring process [D04].",
+   "biggest_risk_in_one_sentence": "The board and interim management succumb to inertia or pursue 'transformational' acquisitions that further destroy shareholder value instead of executing the SOTP separation [D02], [D04]."
+  }
+ },
+ "final": {
+  "as_of_date": "2011-09-07",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "not in pack",
+   "floor": "not in pack",
+   "skew": "not in pack",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "Commit to the monetization of Asian affiliate stakes through a tax-efficient spin-off or sale [D01]",
+    "Provide a detailed timeline for the permanent CEO search and strategic review process [D02]",
+    "Ensure board refreshment to include directors with deep internet and media expertise [D03]"
+   ],
+   "actors": [
+    "Board of Directors",
+    "Interim CEO"
+   ],
+   "governance_route": "Annual meeting process for director nominations and shareholder proposal submission [D03]",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The Company is a conglomerate with a significant sum-of-the-parts discount created by the market's inability to value the core advertising business separately from its Asian affiliate stakes [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The removal of the CEO on September 6, 2011, and the commencement of a strategic review provide the necessary catalyst to force management to unlock value [D02], [D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "We intend to act as a constructivist shareholder to ensure the board prioritizes a tax-efficient separation of assets rather than status quo management or value-destructive acquisitions [D02], [D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The annual meeting process provides a clear governance route to enforce board accountability and secure representation if the strategic review fails to deliver [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board commits to a value-destructive acquisition or 'fix-it' strategy before completing the review [D02], [D04]",
+   "The strategic review committee publicly rejects the possibility of an asset divestiture or spin-off [D04]",
+   "Interim leadership fails to maintain operational stability over two consecutive quarters [D03]",
+   "A rival bidder or unexpected regulatory change makes the separation of Asian assets tax-inefficient or legally impossible [D04]"
+  ],
+  "what_would_change_our_mind": "The board officially rejects asset separation or pursues transformational M&A that impairs the sum-of-the-parts thesis.",
+  "memo": "The Company is an iconic, yet chronically mismanaged, internet conglomerate. While it possesses a massive, broad-reaching audience across its core advertising platforms, the market has persistently penalized the stock, assigning it a significant discount due to the murky combination of these operating assets with its valuable, high-growth Asian affiliate stakes [D01], [D04].\n\nWhen viewed on a sum-of-the-parts basis, the current market valuation fails to reflect the intrinsic worth of the Asian interests [D01]. Benchmarked against pure-play internet and media peers, it is evident that the market is mispricing the core advertising business and failing to credit the company for its stakes in these highly liquid and separable assets [D01], [D04].\n\nThe market’s pessimism is rooted in historical board inertia and a fear that management will attempt to 'fix' the company through inefficient, value-destructive acquisitions rather than focusing on shareholder returns [D04]. Our view is that this conglomerate discount is entirely reversible through a disciplined, tax-efficient separation of the Asian assets [D01].\n\nThe board’s decision to remove the CEO on September 6, 2011, and initiate a strategic review, is a necessary first step [D02]. We intend to engage proactively to ensure this process is not merely a bureaucratic exercise. We demand a clear timeline for the CEO search, board refreshment with qualified internet and media experts, and a commitment to monetize the Asian affiliates [D02], [D03]. We are prepared to utilize the upcoming annual meeting process to hold directors accountable for these objectives [D03].\n\nRisks include the potential for management to pursue ill-advised 'transformational' strategies during the review period [D04]. However, our thesis provides a clear floor based on the realizable value of the Asian assets, protecting our downside [D01]. Should the board abandon the path to separation, our thesis will be considered broken, and we will exit our position immediately [D04].\n\nWe are initiating a 5% position in the common stock. This sizing reflects our conviction in the strategic review process, tempered by the necessity of waiting for further liquidity and financial clarity as the review matures [D04], [D05]. We will hedge our market exposure using S&P 500 index puts to mitigate volatility during this period of restructuring [D04].",
+  "uncited_claims": []
+ }
+}

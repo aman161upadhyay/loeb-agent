@@ -1,0 +1,63 @@
+{
+ "trade_id": "2020_dis_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Reinvesting roughly $3bn of annual dividends into original content could accelerate streaming scale.",
+   "Owned intellectual property and direct consumer relationships created a large global distribution opportunity.",
+   "A larger content budget could make the direct-to-consumer business more compelling and valuable."
+  ],
+  "extra_agent_drivers": [
+   "Mispriced streaming giant vs legacy disruption",
+   "Sum-of-the-parts valuation",
+   "Portfolio simplification/re-rating",
+   "Valuation floor from legacy assets"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "101.5 million subscriber milestone",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Streaming segment valued at $150 per subscriber",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Parks segment -199.4% margin",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Direct-to-consumer segment -17.8% margin",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Share price of $122.91",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 13,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are engaging with CEO Bob Chapek and CFO Christine McCarthy to advocate for a permanent suspension of the dividend to accelerate content production and to set formal margin targets for the DTC business [D01].",
+ "grader_notes": "The agent identifies the correct direction but relies on an entirely different set of arguments (SOTP valuation, margin analysis, and peer-based re-rating) than the specific dividend-reinvestment thesis articulated by Loeb in the provided source. While the agent correctly identifies the dividend suspension as a goal, the underlying investment drivers are essentially fabricated from the perspective of Loeb's published public rationale.",
+ "run": "2020_dis_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

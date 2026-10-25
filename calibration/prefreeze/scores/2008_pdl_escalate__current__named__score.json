@@ -1,0 +1,58 @@
+{
+ "trade_id": "2008_pdl_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Royalty and commercial assets are obscured by excessive mixed-business spending. → The company remains a sprawling mix of valuable royalty assets and value-destructive operating activities that require urgent simplification [D01, D06].",
+   "A separation should expose distinct commercial and development economics. → PDL BioPharma currently functions as a disparate collection of high-quality royalty assets trapped within a failing, cash-burning operating shell [D01, D06].",
+   "Independent oversight and leadership accountability are necessary to restrain wasteful spending. → Board refreshment to ensure oversight of the strategic wind-down and cost control"
+  ],
+  "missed": [
+   "Credible buyer interest should be evaluated against a disciplined standalone plan."
+  ],
+  "extra_agent_drivers": [
+   "Management’s history of R&D failure, exemplified by the Nuvion termination, necessitates a pivot away from internal development toward royalty monetization [D02]",
+   "Management's announced sale plan is an insufficient half-measure that lacks the rigor of a full commitment to shareholder-friendly capital return [D05, D07]",
+   "As an activist in the Era A/B framework, we must escalate to force a comprehensive strategic review and prevent further capital dissipation [D07]"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "PDL BioPharma currently functions as a disparate collection of high-quality royalty assets trapped within a failing, cash-burning operating shell",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The clinical failure of Nuvion underscores our conviction that the company should exit the drug-development business entirely",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company's operating margin struggling and R&D spend remaining a significant drain on cash",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We demand clear, binding terms for the divestitures and an explicit, immediate policy regarding the distribution of proceeds",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 0,
+  "cited": 0,
+  "share": 0
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are escalating our involvement to ensure that the ongoing strategic review results in a complete separation of the royalty business from the commercial operating segment.",
+ "grader_notes": "The agent correctly identified the core thesis of separating royalty assets from operating business, matching the primary driver of the original escalation. It captured the need for oversight and separation, though it added several specific, later-dated tactical drivers (such as the Nuvion failure) that were not part of the original Loeb rationale in the 2007 letter. The reasoning is closest in its focus on asset simplification and farthest in its reliance on specific 2008 clinical failures to justify the historical stance.",
+ "run": "2008_pdl_escalate__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

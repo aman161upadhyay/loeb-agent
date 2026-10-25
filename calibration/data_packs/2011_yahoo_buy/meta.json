@@ -1,0 +1,29 @@
+{
+  "id": "2011_yahoo_buy",
+  "company": "Yahoo! Inc.",
+  "ticker": "YHOO",
+  "aliases": [
+    "Yahoo! Inc.",
+    "YHOO",
+    "Yahoo",
+    "Yahoo!",
+    "Yahoo Japan",
+    "Alibaba",
+    "Alibaba Group",
+    "Taobao",
+    "Alipay",
+    "Softbank",
+    "SoftBank",
+    "Carol Bartz",
+    "Roy Bostock",
+    "Tim Morse",
+    "Jerry Yang"
+  ],
+  "as_of_date": "2011-09-07",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2011-09-07; actual first action not recovered to a unique day; see answer-key dating notes. Exact first fill and September 7 closing quote not recovered. AUM $8bn is next-day firm disclosure, metadata only. Driver valuation is next-day investor model, not a falsely dated pack table.",
+  "fund_aum_usd_bn": 8.0,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Exact first fill and September 7 closing quote not recovered. AUM $8bn is next-day firm disclosure, metadata only. Driver valuation is next-day investor model, not a falsely dated pack table."
+}

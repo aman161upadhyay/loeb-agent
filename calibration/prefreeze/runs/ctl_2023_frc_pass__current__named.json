@@ -1,0 +1,250 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "First Republic Bank provides relationship banking, residential lending, and wealth management services to affluent households [D01]. The institution operates as a deposit-funded bank currently navigating a significant liquidity stabilization process [D01, D04].",
+   "segments_and_separable_assets": [
+    "Wealth Management: provides fee income but lacks loss-absorbing capital for the balance sheet [D06].",
+    "Residential Lending: primary asset base; recovery value depends on loan realizations after senior claims [D01, D05].",
+    "Deposit Franchise: value dependent on customer relationship survival and retention [D01]."
+   ],
+   "economics_vs_peers": [
+    "FY2022 ROE 11.60% and CET1 9.17% [D06]. Margin gap and direct comparison vs JPMorgan (14% ROE / 13.2% CET1) and Bank of America are hindered by different business mixes and recent funding instability [D06]. Deposit growth was 12.9% in 2022, but Q4 2022 NIM fell to 2.45% from 2.71% in Q3 [D02, D03]."
+   ],
+   "capital_structure": [
+    "Includes $30bn in uninsured term deposits (initial 120-day term) provided by a banking consortium [D03, D04]. Year-end 2022 borrowings were $15.279bn with cash of $4.283bn [D02]. March 10-15 Fed borrowing range was $20-109bn [D03]. Common equity is junior to depositors, secured creditors, and preferred holders [D05]."
+   ],
+   "price_and_valuation": [
+    "Price: $34.27 (March 16 close) [D04]. Market cap: ~$6.38bn [D04]. P/E: 4.15x [D04]. P/TBV: 0.462x [D04]. Dividend: Suspended post-cutoff [D03, D04].",
+    "Valuation is highly sensitive to fair-value stress on assets and replacement funding costs; historical multiples (e.g., P/B) are not reliable without current marks [D04, D05]."
+   ],
+   "management_board_governance": [
+    "Management and board are currently managing the stabilization process in coordination with regulators and an eleven-bank consortium [D01, D03]. No specific information provided on staggered boards, pill, or prior activist history [not in pack]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "186.219m shares outstanding [D04]. Short interest, index ownership, and average daily volume [not in pack]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Stabilization of deposit base via $30bn consortium placement [D01, D03]. Potential for asset sale or further regulatory resolution [D05]. Suspension of common dividend [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Liquidity assistance protects depositors but exposes common equity to asset marks and expensive replacement funding [D03, D05].",
+    "Risk of forced asset sale or regulatory intervention transferring franchise value away from common shareholders [D05].",
+    "Lack of current deposit retention data [D02, D03]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$30bn uninsured deposit placement, initial 120-day term at market rates [D03, D04]."
+   ],
+   "recent_events": [
+    "January 13, 2023: FY2022 results [D03].",
+    "March 9-16, 2023: Significant liquidity pressure and Fed/FHLB borrowing [D03].",
+    "March 16, 2023: Announcement of $30bn consortium deposit placement and dividend suspension [D03]."
+   ],
+   "third_point_context": [
+    "Third Point held ~$5.968bn in securities (December 2022 13F); FRC position [not in pack]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Current tangible common equity under fair-value stress, exact March 16 deposit mix, current liquidity position, and consensus earnings estimates."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The bank is undergoing a liquidity stabilization process involving a $30bn consortium deposit placement and potential regulatory resolution [D01, D03, D05]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The situation involves extreme uncertainty regarding asset marks, replacement funding costs, and deposit retention that cannot be bounded from the provided data [D04, D05]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Management and regulators control the stabilization process, leaving common equity shareholders with no clear governance lever to influence outcomes [D01, D03]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Common equity is junior to depositors and creditors, and the absence of fair-value marks on assets under current liquidity stress makes a floor impossible to determine [D04, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The firm has 186.219m shares outstanding and a market cap of $6.38bn, allowing for position sizing within typical Third Point mandates [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis depends entirely on a stabilization roadmap currently managed by an eleven-bank consortium and regulators, which constitutes an unproven process for the equity [D01, D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "Third Point lacks a structural edge in this liquidity event because the valuation is highly sensitive to unknown fair-value marks and the common equity sits behind layers of priority capital with no governance control.",
+   "one_line_verdict": "A banking franchise in a liquidity-driven stabilization process where the common equity is effectively a subordinated call option with no floor."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M5"
+   ],
+   "variant_view": "The market prices First Republic as a viable franchise undergoing standard liquidity stabilization, failing to account for the catastrophic impairment of common equity under fair-value stress and high-cost replacement funding. We believe the common equity is effectively a subordinated call option with no floor, as any regulatory resolution or asset sale will likely prioritize senior claims and leave little to no residual value for shareholders [D04, D05].",
+   "evidence": [
+    "Common equity is junior to depositors and secured creditors [D05].",
+    "Valuation is highly sensitive to unknown fair-value marks on assets and replacement funding costs [D04, D05].",
+    "Management and regulators control the stabilization process, offering no governance leverage to shareholders [D01, D03]."
+   ],
+   "peer_benchmark": "JPMorgan (14% ROE / 13.2% CET1) [D06]",
+   "what_must_be_true": [
+    "Asset fair-value marks must be significantly higher than current market fears to preserve book value.",
+    "Deposit retention rates must stabilize without further emergency borrowing.",
+    "Regulatory intervention must not result in a forced sale or dilution of common equity."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$0.00",
+    "arithmetic": [
+     "Market cap $6.38bn [D04] - implied total liabilities (including Fed/consortium debt) > asset fair value [D03, D04, D05]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Common equity is junior to depositors, secured creditors, and preferred holders in a potential resolution or asset sale [D05]."
+   },
+   "current_price": "$34.27 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": -100
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumes current fair-value stress on loan portfolio and high-cost funding obligations result in a total impairment of common equity."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "N/A — No constructive intervention possible due to regulatory and consortium control [D01, D03]"
+   ],
+   "actors": [
+    "Management — Bank Management — Managing liquidity [D01]",
+    "Regulators — Resolution Authority — Overseeing stability [D03]",
+    "Eleven-Bank Consortium — Liquidity Providers — Providing $30bn deposit placement [D03]"
+   ],
+   "governance_route": "None; shareholder governance is effectively suspended by the regulatory-led stabilization process [D01, D03]",
+   "timetable_quarters": 0,
+   "escalation_path": "None; the thesis is a short or avoid, not an engagement. If held, exit position.",
+   "why_this_role_fits_the_era": "In a liquidity-driven distress situation where the common equity is effectively a subordinated call option with no floor and governance is held by regulators, there is no constructive role for an activist. The appropriate stance is to avoid or maintain a short position, rather than attempt to influence the board."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory intervention leads to receivership or common equity dilution [D03, D05]",
+    "Deposit outflows accelerate following the consortium liquidity injection [D03, D04]",
+    "Asset fire-sales required to meet liquidity demands [D05]",
+    "Failure to secure long-term replacement funding [D04, D05]"
+   ],
+   "portfolio_risk": "High overlap with sector-specific financial volatility; creates gross exposure to systemic banking instability [D03, D05].",
+   "instrument": "short",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 3,
+    "max": 3
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 1,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "A sudden regulatory seizure or intervention could cause the common equity to trade to zero instantly, catching a short position in a liquidity squeeze."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "First Republic Bank",
+  "ticker": "FRC",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$0.00",
+   "floor": "$0.00",
+   "skew": "0% : 100%",
+   "irr_pct": -100
+  },
+  "plan": {
+   "asks": [
+    "N/A — No constructive intervention possible due to regulatory and consortium control [D01, D03]"
+   ],
+   "actors": [
+    "Management — Bank Management — Managing liquidity [D01]",
+    "Regulators — Resolution Authority — Overseeing stability [D03]",
+    "Eleven-Bank Consortium — Liquidity Providers — Providing $30bn deposit placement [D03]"
+   ],
+   "governance_route": "None; shareholder governance is effectively suspended by the regulatory-led stabilization process [D01, D03]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The common equity is effectively a subordinated call option with no floor, as any regulatory resolution or asset sale will likely prioritize senior claims and leave little to no residual value for shareholders [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The situation involves extreme uncertainty regarding asset marks, replacement funding costs, and deposit retention that cannot be bounded from the provided data [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Management and regulators control the stabilization process, leaving common equity shareholders with no clear governance lever to influence outcomes [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Third Point lacks a structural edge because the valuation is highly sensitive to unknown fair-value marks and the common equity sits behind layers of priority capital [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory intervention leads to receivership or common equity dilution [D03, D05]",
+   "Deposit outflows accelerate following the consortium liquidity injection [D03, D04]",
+   "Asset fire-sales required to meet liquidity demands [D05]",
+   "Failure to secure long-term replacement funding [D04, D05]"
+  ],
+  "what_would_change_our_mind": "Evidence of clear, protected residual value for common equity shareholders following a transparent asset valuation process and permanent capital stabilization, which currently does not exist.",
+  "memo": "First Republic Bank is a relationship-based financial institution currently navigating a severe liquidity crisis that has rendered the common equity a highly speculative and likely worthless instrument [D01, D04]. While the market may view the $30 billion consortium deposit placement as a lifeline, we view it as a bridge that fails to address the underlying asset-liability mismatch [D03, D04].\n\nWhen we assess the post-event earnings power of the remaining franchise, it is clear that the common equity sits behind senior depositors, secured creditors, and preferred holders [D05]. With valuation highly sensitive to unknown fair-value marks on the residential loan portfolio, the theoretical book value is decoupled from reality [D04, D05].\n\nMarket participants are attempting to price a viable going concern, but they fail to account for the catastrophic impairment of common equity under stress and the prohibitively high cost of replacement funding [D04, D05]. The dividend suspension is a tacit admission of the capital pressures the bank faces [D03, D04].\n\nThe current plan is managed entirely by an eleven-bank consortium and regulatory authorities, leaving common shareholders with no governance levers to protect their interests [D01, D03]. Because we identify no constructive role for an activist and no path to influence management or regulators, there is no viable route for us to participate [D01, D03].\n\nThe risks here are binary: a regulatory seizure or forced asset sale would likely result in total equity impairment [D03, D05]. Given the absence of a hard floor and the lack of a clear governance path to extract value, we see no investment opportunity here.\n\nWe have determined that this situation is a pass. We will not be participating in the equity, and we find the risk profile incompatible with our mandate.",
+  "uncited_claims": [
+   "No specific information provided on staggered boards, pill, or prior activist history [not in pack].",
+   "Short interest, index ownership, and average daily volume [not in pack].",
+   "Third Point held ~$5.968bn in securities (December 2022 13F); FRC position [not in pack]."
+  ]
+ }
+}

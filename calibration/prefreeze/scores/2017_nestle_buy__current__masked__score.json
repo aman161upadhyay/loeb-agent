@@ -1,0 +1,58 @@
+{
+ "trade_id": "2017_nestle_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "An explicit 18–20% margin objective by 2020 could impose accountability and close the operating gap. → The company suffers from a 300–400 basis-point margin gap compared to peers like Kraft Heinz, which can be closed through operational discipline [D06].",
+   "Monetizing the non-core L'Oréal stake and pruning the portfolio could unlock hidden value. → Management carries a massive, non-core financial stake in L'Oreal that serves as a drag on valuation and should be divested to simplify the portfolio [D01].",
+   "Outside CEO Mark Schneider and operating adviser Jan Bennink created a credible change window. → The arrival of new CEO Mark Schneider creates a unique window for constructive engagement to drive portfolio rationalization and margin expansion [D01, D07]."
+  ],
+  "missed": [
+   "The best-positioned consumer portfolio was under-earning after years of stalled EPS and peer underperformance.",
+   "An underlevered balance sheet could support repurchases and more efficient capital allocation."
+  ],
+  "extra_agent_drivers": [
+   "With an underlying P/E of 24.3x and a FCF yield of 4.53%, the downside risk is mitigated by a hard floor of approximately CHF 75 per share [D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company suffers from a 300–400 basis-point margin gap compared to peers",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management carries a massive, non-core financial stake in L'Oreal",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The arrival of new CEO Mark Schneider creates a unique window for constructive engagement",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Downside risk is mitigated by a hard floor of approximately CHF 75 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Management has entered a critical period of strategic transition under new CEO Mark Schneider, who we view as a receptive partner for necessary, constructivist change [D01, D07].",
+ "grader_notes": "The agent correctly identified the core activist thesis regarding margin expansion, the L'Oreal divestiture, and the leadership change window. However, it failed to mention the underlevered balance sheet as a primary driver for repurchases/capital allocation efficiency, which was a specific component of Loeb's investment case.",
+ "run": "2017_nestle_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

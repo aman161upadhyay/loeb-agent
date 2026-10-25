@@ -1,0 +1,54 @@
+{
+  "id": "2013_hlf_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "8.24% issuer ownership measured January 3; not an exact NAV weight.",
+  "first_action_date": null,
+  "disclosure_date": "2013-01-09",
+  "reason_class": null,
+  "opportunity_template": [
+    "E2",
+    "E5"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Herbalife management",
+      "distributors",
+      "regulators",
+      "short sellers"
+    ],
+    "governance_route": "P0; monitor event or arrange liquidity; no new activist mandate",
+    "timetable_quarters": 1
+  },
+  "drivers": [
+    {
+      "driver": "Independent diligence does not support the short seller's pyramid characterization; this is the investor's conclusion, not a legal finding.",
+      "source": "https://www.marketfolly.com/2013/01/dan-loeb-buys-herbalife-morgan-stanley.html (2013-01-09; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "The business is a cash-generative compounder temporarily discounted by the short attack.",
+      "source": "https://www.marketfolly.com/2013/01/dan-loeb-buys-herbalife-morgan-stanley.html (2013-01-09; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "A modest 10–12x earnings multiple supports $55–68 value and 40–70% upside.",
+      "source": "https://www.marketfolly.com/2013/01/dan-loeb-buys-herbalife-morgan-stanley.html (2013-01-09; later stated rationale relative to pack cutoff)",
+      "quote": "Applying a modest 10-12x earnings multiple suggests Herbalife's shares are worth $55-68, offering 40-70% upside from here and making the company a compelling long investment"
+    },
+    {
+      "driver": "The analyst-day rebuttal and significant short interest provide near-term rerating catalysts.",
+      "source": "https://www.marketfolly.com/2013/01/dan-loeb-buys-herbalife-morgan-stanley.html (2013-01-09; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Investor target 10–12x earnings / $55–68; exact execution VWAP unknown.",
+  "outcome_note": "Profitable short-duration Q1 trade reported; complete realized dollars unknown.",
+  "sources": [
+    "https://www.marketfolly.com/2013/01/dan-loeb-buys-herbalife-morgan-stanley.html",
+    "https://ir.herbalife.com/sec-filings/all-sec-filings/content/0001157523-12-005483/0001157523-12-005483.pdf"
+  ],
+  "pack_quality_notes": "Grade B. January 8 new-mode date follows January 3 measured holding; not true pre-first-purchase test. Financial release verified; complete original December short deck and historical short-interest count not recovered. Bear analysis explicitly analytical, not invented quoted regulator comment. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

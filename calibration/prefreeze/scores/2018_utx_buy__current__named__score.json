@@ -1,0 +1,51 @@
+{
+ "trade_id": "2018_utx_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Separate Aerospace, Otis and Carrier so each can close the discount to pure-play peers → A transparent, segment-level capital allocation strategy—or better yet, a formal separation—would allow these distinct businesses to trade at multiples commensurate with their competitive positioning",
+   "Pratt & Whitney's investment phase could give way to a large multi-year free-cash-flow inflection → We believe these near-term operational distractions, while real, hide the underlying quality of the Otis service business and the aerospace systems segment",
+   "Standalone transparency, incentives and capital allocation could surface sum-of-parts value → Our asks are simple: a formal commitment to separating the Otis and Carrier units from the aerospace business and improved transparency on segment performance"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "At a current valuation of 11.0x EV/EBITDA, the market fails to reflect the higher standalone multiples achievable by the Otis service business and the core aerospace units",
+   "The company holds high-quality, market-leading assets that provide a solid valuation floor near $110, resulting in a favorable risk/reward skew for shareholders"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "United Technologies is a classic conglomerate whose true value is masked by a structural discount",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company currently trades at 11.0x EV/EBITDA",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market’s current skepticism is driven by the complexity of the Rockwell Collins integration",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 14,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "A transparent, segment-level capital allocation strategy—or better yet, a formal separation—would allow these distinct businesses to trade at multiples commensurate with their competitive positioning.",
+ "grader_notes": "The agent correctly matched the investment direction and identified all three core drivers provided by Third Point. The agent's reasoning aligned well with Loeb's focus on conglomerate discount removal and segment transparency. The agent included additional valuation-based arguments that were not explicitly cited as Loeb's primary drivers in the answer key.",
+ "run": "2018_utx_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,54 @@
+{
+ "trade_id": "2020_intc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Retain an adviser to examine strategic alternatives and failed acquisitions → We are demanding that CEO Bob Swan and Chair Omar Ishrak evaluate structural alternatives, including the separation of design and manufacturing, and pivot capital allocation back toward core R&D"
+  ],
+  "missed": [
+   "Restore advanced manufacturing competitiveness after losing leadership to Asian foundries.",
+   "Address engineering talent flight and human-capital management immediately.",
+   "Develop a manufacturing/customer strategy able to serve competitors as customers."
+  ],
+  "extra_agent_drivers": [
+   "The Company is a deeply undervalued technology incumbent suffering from a broken, inefficient integrated manufacturing model that masks the intrinsic value of its core design business.",
+   "Trading at 9.7x TTM P/E with a 10.04% FCF yield, the stock provides a hard valuation floor and an asymmetric risk/reward skew of nearly 3:1.",
+   "We are initiating a public campaign to press the board to evaluate structural alternatives and restore engineering execution, leveraging our experience in mega-cap constructivism."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Intel has lost its manufacturing edge and faces a widening margin gap compared to fabless peers",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market values this business at a depressed 9.7x TTM P/E",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Intel is a world-class engineering institution currently suffering from a severe crisis of leadership",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 5,
+  "share": 0.42
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our engagement plan is direct: we are demanding that CEO Bob Swan and Chair Omar Ishrak evaluate structural alternatives, including the separation of design and manufacturing, and pivot capital allocation back toward core R&D.",
+ "grader_notes": "The agent correctly identified the BUY direction and engaged the same key leadership figures (Swan and Ishrak). However, the agent's reasoning was heavily focused on financial valuation metrics (P/E, FCF yield) and SOTP modeling, whereas Loeb's specific drivers provided in the key centered on human capital management, manufacturing competitiveness, and the explicit strategy to serve competitors as customers.",
+ "run": "2020_intc_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

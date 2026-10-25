@@ -1,0 +1,49 @@
+{
+ "trade_id": "2018_nestle_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The pace and magnitude of change remained inadequate despite initial management steps → Our decision to escalate is a direct response to the persistence of the mispricing and the inadequacy of the current pace of execution",
+   "Divest up to 15% of sales and the L'Oréal stake to focus the portfolio → Today, we publish 'NestléNOW' to highlight the clear margin gap vs. best-in-class peers and to demand a more aggressive approach to portfolio simplification",
+   "Simplify the organization and move faster against nimble competitors → We are not content to wait for slow-motion recovery when the levers for value creation—portfolio rationalization and operational sharpening—are visible and underutilized"
+  ],
+  "missed": [
+   "Sharpen strategy and add food-and-beverage expertise and transparency."
+  ],
+  "extra_agent_drivers": [
+   "Persistent organic growth deceleration with fourth-quarter growth down to 1.9%",
+   "Operating margins continue to lag behind category peers",
+   "Complexity of current decentralized structure"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Fourth-quarter organic growth slowed to 1.9%",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins continue to lag behind category peers",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Our decision to escalate is a direct response to the persistence of the mispricing and the inadequacy of the current pace of execution.",
+ "grader_notes": "The agent correctly identified the decision to escalate and captured the primary driver concerning the inadequacy of management's current pace of execution. It diverged by focusing more on granular operational performance metrics like organic growth and margin gaps, whereas the official Third Point rationale emphasized the strategic pivot towards portfolio divestiture and the specific call for urgency in the NestléNOW presentation.",
+ "run": "2018_nestle_escalate__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

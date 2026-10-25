@@ -1,0 +1,245 @@
+{
+ "pack": "2020_pcg_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-07-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "PG&E Corporation is a regulated Northern California electric and gas utility [D01]. The company recently implemented a court-confirmed Chapter 11 bankruptcy reorganization plan, which includes new governance and wildfire settlement obligations [D01, D03].",
+   "segments_and_separable_assets": [
+    "Regulated electric and gas utility operations in Northern California; specific unit revenue or EBITDA not provided in contemporaneous sources [D01]."
+   ],
+   "economics_vs_peers": [
+    "Historical operating margins for FY2015-2019 were heavily impacted by wildfire accruals, resulting in -58.9% margin in 2019 [D02]. Regulated peers like Edison International and American Electric Power reported FY2019 operating margins of 14.4% and 16.7% respectively [D06]."
+   ],
+   "capital_structure": [
+    "Post-emergence gross debt forecast is approximately $38.1bn [D04]. Capital structure includes new common stock and equity units issued upon emergence [D02]. Dividends are suspended [D02, D04].",
+    "The Fire Victim Trust holds 22.19% of ownership [D04]."
+   ],
+   "price_and_valuation": [
+    "Common close on 2020-07-01: $9.03 [D04]. Public offering price: $9.50 [D04]. Fully diluted equity value proxy: ~ $19.41bn [D04]. TTM P/E: NM [D04]."
+   ],
+   "management_board_governance": [
+    "Interim CEO Bill Smith serves as the leader at the 2020-07-01 cutoff [D01]. The company has seated a new board as part of the bankruptcy emergence [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Fire Victim Trust holds 22.19% [D04]. Emergence fully diluted share proxy is approximately 2.150bn shares [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Emergence from Chapter 11 bankruptcy (effective 2020-07-01), implementation of wildfire settlements, and funding of the Fire Victim Trust [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Recurring wildfire exposure under California liability and regulatory uncertainty [D05].",
+    "Potential technical overhang from the Fire Victim Trust's need to monetize shares [D05].",
+    "High leverage and the requirement for safety upgrades to consume capital [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Equity units have specified settlement ratios, with maximum contract rates of 10.5263 shares and minimum 8.5929 shares [D04]."
+   ],
+   "recent_events": [
+    "2020-06-20: Bankruptcy plan confirmed [D03].",
+    "2020-06-26: Pricing of common stock and equity units [D02].",
+    "2020-07-01: PG&E emerges from Chapter 11 [D03]."
+   ],
+   "third_point_context": [
+    "Firm AUM approx. $12.7bn as of 2020-05 [D08]. Specific PG&E stake or basis not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Post-plan pro-forma net debt, exact unrestricted cash at emergence, and segment-level unit economics."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "PG&E has emerged from Chapter 11 bankruptcy on 2020-07-01, creating a post-reorganization situation with a significant overhang from the Fire Victim Trust [D03, D04, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point's edge lies in the willingness to hold through the post-emergence distribution and technical overhang, accepting the volatility from forced sellers to realize value in the core regulated utility [D05]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The process is already in motion with the court-confirmed bankruptcy plan and the newly seated board of directors [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "Despite regulatory uncertainty, the company operates as a regulated utility with asset-backed value, and the equity is emerging from a finalized, court-approved restructuring [D01, D03]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately $19.41bn and significant liquidity post-emergence, Third Point can build a position within its target range [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board has been newly reconstituted as part of the bankruptcy emergence to oversee the new regulatory and safety requirements [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The event is the emergence from bankruptcy and the associated technical overhang from the Fire Victim Trust, providing Third Point the opportunity to acquire a regulated utility asset at a discount to long-term value.",
+   "one_line_verdict": "a post-reorganization utility with a technical share overhang and a newly seated board that can be held through the market's initial volatility"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M5",
+    "M7"
+   ],
+   "variant_view": "The market is currently pricing in extreme pessimism due to the technical overhang of the Fire Victim Trust and ongoing wildfire liability fears, ignoring the value of a newly regulated and de-risked utility. We believe the bankruptcy exit has successfully reset the balance sheet and governance, allowing for a re-rating as the company demonstrates operational stability and safety compliance. As the technical selling from the Trust abates, the equity will reflect the underlying earnings power of a monopoly utility rather than distressed paper.",
+   "evidence": [
+    "PG&E emerged from Chapter 11 on 2020-07-01 with a newly seated board and confirmed reorganization plan [D03].",
+    "The Fire Victim Trust controls a 22.19% stake, creating a significant technical overhang that drives forced selling [D04, D05].",
+    "Market sentiment is suppressed by fears of recurring wildfire liability and regulatory uncertainty despite the new safety mandate [D05]."
+   ],
+   "peer_benchmark": "Edison International and American Electric Power (FY2019 operating margins of 14.4% and 16.7% respectively) [D06].",
+   "what_must_be_true": [
+    "The California regulatory environment must provide a stable path for cost recovery on safety investments.",
+    "The Fire Victim Trust must execute its share liquidation in an orderly manner to minimize price volatility.",
+    "The company must avoid major new catastrophic wildfire events during the initial post-emergence recovery period.",
+    "Management must successfully implement the safety and operational protocols mandated by the court-confirmed plan."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$18.00",
+    "arithmetic": [
+     "Projected 2022 normalized earnings $1.50/share [Assumed based on utility sector mid-teens margin recovery [D06]]",
+     "Multiple 12x (Peer avg: EIX/AEP) [D06]",
+     "$1.50 * 12 = $18.00 [Assumed based on D06]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$7.50",
+    "basis": "Book value of equity adjusted for litigation contingencies at emergence [D04]"
+   },
+   "current_price": "$9.03 [D04]",
+   "skew": "100% : 17%",
+   "irr_pct": {
+    "base": 41,
+    "bear": -8,
+    "bull": 65
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalized earnings of $1.50/share assumes successful transition to regulated utility margin structure as per peer benchmarks [D06]",
+    "Target multiple of 12x derived from peer average [D06]",
+    "Book value floor assumes successful settlement of wildfire claims as per reorganization plan [D03]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [
+    "Bill Smith — Interim CEO — Oversight [D01]",
+    "Newly seated board — Board of Directors — Governance and safety oversight [D03]",
+    "Fire Victim Trust — 22.19% shareholder — Technical seller [D04]"
+   ],
+   "governance_route": "Court-confirmed Chapter 11 reorganization plan [D03]",
+   "timetable_quarters": 0,
+   "escalation_path": "Monitor for deviations from safety/operational protocols; evaluate conversion to P1 or P2 if regulatory cost recovery path stalls or if management fails to address technical overhang-driven volatility.",
+   "why_this_role_fits_the_era": "Post-2016 mega-cap constructivism approach favors allowing a newly reconstituted board to execute the court-mandated plan first; as an E2 event, the primary task is to absorb technical supply-driven volatility and wait for the market to re-rate the asset as a stable, regulated utility."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "New catastrophic wildfire event occurring within 18 months of emergence [D05].",
+    "Regulatory commission denies required cost recovery for safety infrastructure investments [D02].",
+    "Fire Victim Trust liquidation results in prolonged, non-orderly downward price pressure [D05].",
+    "Operational failure leading to a breach of the court-mandated safety protocols [D03]."
+   ],
+   "portfolio_risk": "Factor overlap with existing regulated utility and distressed credit holdings; potential for high volatility due to technical overhang and ongoing wildfire sensitivity; liquidity is high given equity float, but price sensitive to Fire Victim Trust selling [D04, D05, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 4,
+    "max": 6
+   },
+   "pct_of_company": "Less than 1%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts or utility-sector short baskets to neutralize broader market and sector-specific wildfire risk during the stabilization period.",
+   "biggest_risk_in_one_sentence": "The primary risk is the occurrence of another major wildfire which would re-trigger liability concerns and negate the bankruptcy-induced fresh start."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-07-01",
+  "company": "PG&E Corporation",
+  "ticker": "PCG",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 4,
+  "instrument": "common",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$18.00",
+   "floor": "$7.50",
+   "skew": "100% : 17%",
+   "irr_pct": 41
+  },
+  "plan": {
+   "asks": [],
+   "actors": [
+    "Bill Smith — Interim CEO — Oversight [D01]",
+    "Newly seated board — Board of Directors — Governance and safety oversight [D03]",
+    "Fire Victim Trust — 22.19% shareholder — Technical seller [D04]"
+   ],
+   "governance_route": "Court-confirmed Chapter 11 reorganization plan [D03]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "PG&E has emerged from bankruptcy as a regulated utility with a reset balance sheet, yet trades at a deep discount due to temporary technical overhang from the Fire Victim Trust [D03, D04, D05].",
+    "citations": [
+     "D03",
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We see a path to $18.00 per share by 2022, assuming a normalized earnings power of $1.50/share and a re-rating to the 12x multiple observed in regulated peers like Edison International and American Electric Power [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The newly seated board and court-confirmed plan provide a governance framework for executing necessary safety protocols, which is the primary requirement to restore utility-level margin stability [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The $7.50 floor, based on adjusted book value, offers an attractive 100% upside to our target against limited downside risk, provided wildfire liability concerns are managed under the new regulatory regime [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "New catastrophic wildfire event occurring within 18 months of emergence [D05].",
+   "Regulatory commission denies required cost recovery for safety infrastructure investments [D02].",
+   "Fire Victim Trust liquidation results in prolonged, non-orderly downward price pressure [D05].",
+   "Operational failure leading to a breach of the court-mandated safety protocols [D03]."
+  ],
+  "what_would_change_our_mind": "Another major wildfire event would re-trigger liability concerns and effectively break the thesis of a fresh start for the utility, requiring immediate exit.",
+  "memo": "PG&E Corporation emerges from Chapter 11 today as a de-risked, regulated utility, yet the market continues to price the equity as distressed paper [D03, D05]. While the company faces a temporary technical overhang from the 22.19% stake held by the Fire Victim Trust, this creates an asymmetric entry point for investors willing to look past the forced selling [D04, D05].\n\nOur analysis points to a target of $18.00 per share, derived from a normalized 2022 earnings power of $1.50 per share and a 12x multiple, consistent with regulated peers like Edison International and American Electric Power [D06]. The 2019 operating margin of -58.9% is an anomaly caused by past wildfire accruals; once the company operates as a standard utility, we expect margins to trend toward the mid-teens, closing the gap with regional peers [D02, D06].\n\nMarket pessimism remains anchored to lingering wildfire liability fears and the volume of shares coming to market from the Trust [D04, D05]. We believe this ignores the fundamental change: a newly reconstituted board and a court-confirmed reorganization plan that provides a clear, albeit rigorous, path to safety compliance and cost recovery [D03].\n\nOur role at this stage is P0; we support the new board’s execution of the mandated safety protocols and the systematic liquidation of the Trust’s position [D03, D04]. We will monitor progress on regulatory cost recovery and operational performance closely, standing ready to escalate should the utility stray from its recovery path [D02, D03].\n\nThe floor, calculated at $7.50 per share, provides significant downside protection, leaving a compelling 100% upside skew [D03, D04]. Should a new wildfire event occur within the next 18 months, our thesis would be invalidated, and we would exit immediately [D05]. We are initiating a 4% position in the common stock, sized to reflect high conviction in the utility’s re-rating potential while using index hedges to dampen sector-specific wildfire volatility [D04, D05, D08].",
+  "uncited_claims": []
+ }
+}

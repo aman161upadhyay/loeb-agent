@@ -1,0 +1,63 @@
+{
+ "trade_id": "2014_amgn_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Mature drugs and growth assets are a hidden-value situation with distinct investor constituencies. → Amgen is a classic example of a high-quality business buried within a bloated conglomerate structure, where the market conflates cash-generative mature assets with an uncertain R&D pipeline.",
+   "A MatureCo/GrowthCo separation can make the two economic profiles visible. → Market participants are currently fixated on potential competitive risks and pipeline uncertainty, missing the opportunity for management to unlock value through a formal split.",
+   "Operating-margin improvement and capital return can create value even without a split. → With a 2013 operating margin of 31.4% lagging peers like Gilead at 40.4% and Biogen at 36.3%, the path to value creation through operational efficiency and structural separation is clear."
+  ],
+  "missed": [
+   "Improve R&D productivity and project-selection discipline rather than assuming spending creates value."
+  ],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts valuation analysis",
+   "Downside protection via balance sheet and cash flow"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Amgen suffers from a conglomerate discount, as the market fails to distinguish between its high-margin, cash-generative mature products and the riskier, lower-margin R&D pipeline",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A sum-of-the-parts valuation suggests a target of $185 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company’s 2013 operating margin of 31.4% sits significantly below peer benchmarks",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management is currently receptive to transformation measures",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The downside is protected by a solid balance sheet with net debt of only $7.14bn",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 2,
+  "share": 0.18
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Amgen is a classic example of a high-quality business buried within a bloated conglomerate structure, where the market conflates cash-generative mature assets with an uncertain R&D pipeline.",
+ "grader_notes": "The agent correctly identified the core thesis of separating mature assets from the R&D pipeline and the focus on margin improvement. It failed to explicitly mention the driver regarding R&D project-selection discipline, focusing instead on valuation mechanics and downside protection.",
+ "run": "2014_amgn_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

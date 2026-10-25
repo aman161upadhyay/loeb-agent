@@ -1,0 +1,257 @@
+{
+ "pack": "ctl_2012_best_buy_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2012-02-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Best Buy is a global multichannel consumer-electronics retailer operating stores, online distribution, mobile products, and technology services [D01]. The company is currently undergoing an operating reset to leverage its physical footprint and product expertise against online rivals [D01].",
+   "segments_and_separable_assets": [
+    "Domestic: $6.5 billion in December revenue [D02]",
+    "International: $1.9 billion in December revenue [D02]",
+    "Retail inventory, services, and franchise cash flows (value not specified) [D01, D05]"
+   ],
+   "economics_vs_peers": [
+    "Best Buy FY2011: 4.2% operating margin, 1.2% growth [D06]",
+    "Walmart (FY ended Jan 2011): 6.1% operating margin, 3.4% growth [D06]",
+    "Amazon (FY2011): 1.8% operating margin, 40.6% growth [D06]"
+   ],
+   "capital_structure": [
+    "Gross debt: $2.541bn [D04]",
+    "Cash: $2.392bn [D04]",
+    "Net debt: $0.149bn [D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $24.18 [D04]",
+    "Market cap: ~$8.47bn [D04]",
+    "Enterprise value: ~$8.62bn [D04]",
+    "Trailing P/E: ~8.6x [D04]",
+    "FY2011 FCF yield: 5.3% [D04]",
+    "Guidance forward P/E: 6.6–7.2x [D04]"
+   ],
+   "management_board_governance": [
+    "CEO: Brian Dunn [D01, D07]",
+    "Board/management record: The board is identified as a relevant actor for approval/delays [D01, D07]. Prior activist history not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 350.317m [D04]",
+    "Other holders/short interest: not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Turnaround strategy: Connected-product growth and online operating reset [D01, D03]. No announced spin, sale, or management change [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Structurally pressured store network [D05]",
+    "Online price competition and weak legacy categories potentially making restructuring a permanent cash expense [D05]",
+    "Declining comparable sales in entertainment and consumer electronics [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Dec 13, 2011: Q3 results reported [D03]",
+    "Jan 6, 2012: Holiday trading update and EPS guidance reaffirmation [D03, D07]"
+   ],
+   "third_point_context": [
+    "AUM/Exposure: not in pack [D08]",
+    "Existing stake: not in pack [D08]"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Specific firm AUM, gross/net exposure, current stake size, full details on covenants, and precise historical debt maturities."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "Best Buy is a large-cap retail business undergoing an operational turnaround [D01], which constitutes an unproven multi-year management execution without a separable asset or defined capital-allocation catalyst [D07]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Third Point lacks a differentiated plan beyond general operational improvement, and the business faces significant competitive pressures from online rivals [D01, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a large-cap company, the board is reachable for private engagement to demand changes in capital allocation or board composition [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Best Buy's store network is considered structurally pressured with declining sales in core categories, failing the 'melting ice cube' discipline test without a named buyer or liquidation plan [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With an $8.47bn market cap and high daily trading volume, building a meaningful position is achievable [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The current thesis relies solely on an unproven management team executing a long-term turnaround, which is a failing criteria per the 2022 Intel rule applied to trade-like situations [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "Best Buy is a structurally challenged retailer in the middle of an unproven multi-year turnaround with no immediate catalyst or asset-based floor to justify Third Point's capital.",
+   "one_line_verdict": "a retail business in secular decline relying on a multi-year turnaround without a clear governance route or asset-based floor"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market correctly prices Best Buy as a structurally challenged retailer facing secular decline from online competition. There is no evidence of a mispricing or actionable catalyst, as the current turnaround is an unproven internal management exercise lacking a plan for asset separation or capital structure optimization. We see no compelling path to generate the required IRR in this situation.",
+   "evidence": [
+    "Best Buy faces structurally pressured store networks and declining comparable sales in core categories [D05].",
+    "Operating margins at 4.2% lag broader retail peers like Walmart [D06].",
+    "There is no announced spin, sale, or management change to provide a defined catalyst [D07]."
+   ],
+   "peer_benchmark": "Walmart (6.1% operating margin) [D06]",
+   "what_must_be_true": [
+    "Management must prove execution viability in a high-competition environment",
+    "The company must identify and monetize separable assets to create a floor valuation",
+    "A tangible governance catalyst must be introduced to force value realization"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "$25.00",
+    "arithmetic": [
+     "FY2011 FCF $0.45bn [D04]",
+     "Target FCF yield 6.0% (premium to current due to execution risk) [D04]",
+     "Implied EV ~$7.5bn [D04]",
+     "Net debt $0.149bn [D04]",
+     "Implied Market Cap $7.35bn / 350.317m shares [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$2.24bn",
+    "basis": "Net cash/liquidity position and liquidation value of inventory/real estate [D01, D04]"
+   },
+   "current_price": "$24.18 [D04]",
+   "skew": "3.4% : 73%",
+   "irr_pct": {
+    "base": 2,
+    "bear": -15,
+    "bull": 8
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Target FCF yield and liquidation value of inventory are estimated based on peer retail benchmarks and company guidance [D01, D06]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "PASS: The situation fails to meet the threshold for Third Point involvement due to the lack of an actionable event or catalyst [D01, D07]."
+   ],
+   "actors": [
+    "Brian Dunn — CEO — incumbent [D01]",
+    "Board of Directors — oversight — incumbent [D01]"
+   ],
+   "governance_route": "Not applicable as we are passing on the opportunity [D07].",
+   "timetable_quarters": 0,
+   "escalation_path": "None; we are not initiating a position.",
+   "why_this_role_fits_the_era": "Per the 1995-2008 and 2009-2015 era criteria, we require an identifiable event or catalyst for constructivist or event-driven value plays [Rule 4]. As Best Buy is a structurally challenged business without an announced spin, sale, or management change to provide a defined catalyst, it remains a 'cheap' stock without an event, which is a mandatory PASS [Rule 4, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued decline in comparable sales in core categories for two consecutive quarters [D05]",
+    "Operating margins failing to show improvement toward the 6% peer benchmark [D06]",
+    "Failure to announce a concrete capital allocation plan or board-level change within the next two quarters [D07]",
+    "Emergence of a liquidity shortfall or inability to maintain current net debt levels [D04]"
+   ],
+   "portfolio_risk": "High factor overlap with consumer discretionary and retail retail, sensitive to broader macroeconomic consumer spending shifts [D01, D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "Best Buy is a structurally challenged business in secular decline lacking a clear catalyst to unlock value, making it a 'cheap' stock that is a mandatory pass per Third Point’s discipline [Rule 4, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-02-01",
+  "company": "Best Buy",
+  "ticker": "BBY",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "$25.00",
+   "floor": "$2.24bn",
+   "skew": "3.4% : 73%",
+   "irr_pct": 2
+  },
+  "plan": {
+   "asks": [
+    "PASS: The situation fails to meet the threshold for Third Point involvement due to the lack of an actionable event or catalyst"
+   ],
+   "actors": [
+    "Brian Dunn — CEO — incumbent",
+    "Board of Directors — oversight — incumbent"
+   ],
+   "governance_route": "Not applicable as we are passing on the opportunity",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "Best Buy is a structurally challenged retailer in secular decline that lacks the necessary event or catalyst to justify an investment.",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company's operating margin of 4.2% significantly lags behind industry peers like Walmart, reflecting the competitive pressure on its store network.",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Current management's turnaround strategy is unproven and lacks a clear path to value realization via asset separation or capital structure optimization.",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The valuation presents a thin risk/reward skew, with the absence of a hard, asset-based floor to protect against the secular risks facing the business.",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued decline in comparable sales in core categories for two consecutive quarters [D05]",
+   "Operating margins failing to show improvement toward the 6% peer benchmark [D06]",
+   "Failure to announce a concrete capital allocation plan or board-level change within the next two quarters [D07]",
+   "Emergence of a liquidity shortfall or inability to maintain current net debt levels [D04]"
+  ],
+  "what_would_change_our_mind": "The initiation of a concrete, board-supported plan for a spin-off, sale of non-core assets, or a definitive change in governance that demonstrates a path to closing the margin gap against peers.",
+  "memo": "We have reviewed Best Buy and decided to pass [D01]. While the stock may appear inexpensive at an 8.6x P/E ratio, it is a structurally challenged business facing secular decline from online competition, not a mispriced asset with a clear catalyst [D04, D05].\n\nBest Buy operates with an operating margin of 4.2%, which compares poorly to the 6.1% margin delivered by peers like Walmart [D06]. Relying on an unproven management team to execute a multi-year turnaround in a high-competition environment does not meet our requirement for a defined, event-driven opportunity [D01, D07].\n\nOur process demands an identifiable catalyst—such as a spin-off, sale, or radical capital reallocation—to unlock value, none of which exist here [D04, D07]. Without such an event, we view the store network as a melting ice cube and decline to commit capital to a management plan that lacks a concrete, board-led route to realization [D05, D07].",
+  "uncited_claims": []
+ }
+}

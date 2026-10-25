@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2024_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Boeing/BA absent from complete 54-quarter issuer/instrument index and no attributable named common-stock comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The Company faces an acute safety and quality crisis following the January 5 door-plug incident, resulting in significant franchise dislocation.",
+   "There is no clear governance lever for an activist to influence the outcome, as resolution is currently dictated by FAA mandates and technical quality control.",
+   "The business lacks a credible asset floor due to negative tangible equity, suspended dividends, and $38.9bn in net debt.",
+   "Operational performance significantly lags defense peers, with the Commercial and Defense segments reporting negative operating margins."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company carries $38.9bn in net debt",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Lockheed Martin and General Dynamics maintain positive operating margins in the 10-13% range",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We exit this opportunity before it begins, as the lack of a clear governance path and the absence of a margin of safety make this an unsuitable risk for our capital [D01, D07].",
+ "grader_notes": "The agent correctly matched the PASS decision. However, the agent's reasoning was entirely disconnected from the answer key, as it constructed a fundamental bear case rather than citing the lack of historical Third Point ownership as the driver for the PASS label.",
+ "run": "ctl_2024_ba_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

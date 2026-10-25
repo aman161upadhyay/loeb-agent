@@ -1,0 +1,61 @@
+{
+ "trade_id": "2013_hlf_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Independent diligence does not support the short seller's pyramid characterization → we see a fundamentally sound enterprise currently experiencing a technical short squeeze fueled by crowded and incorrect bear positioning [D01], [D03].",
+   "The business is a cash-generative compounder temporarily discounted by the short attack → Herbalife is a highly cash-generative business that the market has mispriced as a result of a noisy, high-profile short campaign [D01], [D03].",
+   "A modest 10–12x earnings multiple supports $55–68 value and 40–70% upside → By applying a 15x multiple to our earnings power estimate of $4.33 per share, we see a path to a $65.00 stock price [D03], [D04].",
+   "The analyst-day rebuttal and significant short interest provide near-term rerating catalysts → we will capitalize on this mispricing and the inevitable cover-up of the large, advertised short position [D01], [D03]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The stock trades at a depressed trailing P/E of 9.88x, providing a compelling valuation floor that limits downside [D04], [D06]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company is generating significant cash flow, yet it trades at a trailing P/E of just 9.88x",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our plan is straightforward: we will capitalize on this mispricing and the inevitable cover-up of the large, advertised short position",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The primary risk, of course, is an adverse regulatory finding that defines the network as a pyramid scheme, which would destroy the business model",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are initiating a 5% position in the common equity",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "we see a path to a $65.00 stock price",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 13,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Herbalife is a highly cash-generative business that the market has mispriced as a result of a noisy, high-profile short campaign [D01], [D03].",
+ "grader_notes": "The agent correctly identified all four of Loeb's investment drivers and mapped them effectively to the provided sources. The direction is marked PARTIAL because the agent sized the position at 5% NAV, whereas Loeb's actual ownership was approximately 8.24%.",
+ "run": "2013_hlf_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

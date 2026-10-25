@@ -1,0 +1,53 @@
+{
+ "trade_id": "2017_hon_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Separating Aerospace could create more than $20 billion in sustained shareholder value.",
+   "The remaining company would have a clearer industrial growth identity around automation and productivity.",
+   "Strong underlying franchises and capital-deployment capacity supported self-help rather than a distress thesis."
+  ],
+  "extra_agent_drivers": [
+   "The company operates as a complex industrial conglomerate where the market undervalues the sum of its distinct, high-quality segments.",
+   "A valuation gap exists, with the company trading at 17.8x forward P/E compared to industrial peers reaching up to 23.8x.",
+   "A recent CEO transition provides a natural window for management to adopt a strategic plan that prioritizes portfolio simplification.",
+   "The current 5.3% FCF yield and strong balance sheet provide a solid fundamental floor for the position."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a 17.8x forward P/E, a substantial discount to best-in-class industrial peers like Emerson Electric which trade at 23.8x.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The recent transition to CEO Darius Adamczyk provides an ideal window for constructive engagement.",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The 5.3% FCF yield as a hard floor that limits downside risk.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 8,
+  "share": 0.62
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are calling on leadership to initiate a comprehensive strategic review to evaluate the separation of distinct segments and align performance with industrial best-in-class margins [D01, D04].",
+ "grader_notes": "The agent correctly identifies the buy decision but fails to capture any of the specific, thesis-critical drivers provided by Loeb regarding the Aerospace spin-off. Instead, the agent focuses on a general sum-of-the-parts conglomerate discount and valuation metrics which were not the drivers Loeb cited in his 2017 public campaign.",
+ "run": "2017_hon_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

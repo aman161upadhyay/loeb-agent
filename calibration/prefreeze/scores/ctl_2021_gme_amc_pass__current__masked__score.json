@@ -1,0 +1,62 @@
+{
+ "trade_id": "ctl_2021_gme_amc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Neither GME nor AMC appears in any of the 54 reportable quarterly tables.",
+   "Retrospective 2021-02-10 crowded-short discipline comment."
+  ],
+  "extra_agent_drivers": [
+   "Market price driven by retail-led short squeeze",
+   "Negative operating margins",
+   "No identifiable governance catalyst",
+   "Lack of valuation floor and asymmetric risk"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The current market price is driven by a technical retail-led short squeeze rather than fundamental value",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins are negative at -6.2% for game retail and only 2.5% for cinema exhibition",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At market capitalizations of $24.24bn and $8.01bn, the valuations are completely detached from underlying earnings power",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We prioritize event-driven opportunities where we can influence capital allocation",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "There is no margin of safety or identifiable floor to protect capital",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 7,
+  "share": 0.78
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this situation in its entirety, as it represents a speculative technical phenomenon rather than the high-conviction, fundamental event-driven value for which we are known [D01], [D03].",
+ "grader_notes": "The agent correctly identifies the PASS decision but fails to mirror the specific retrospective justification provided in the answer key, opting instead for a fundamental critique of the companies' valuations. The reasoning is farthest from Loeb's because it relies on fundamental analysis of the businesses, whereas the actual 'reasoning' for the PASS label is a lack of historical exposure and general discipline regarding crowded shorts.",
+ "run": "ctl_2021_gme_amc_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 2,
+ "reasoning_scorable": false
+}

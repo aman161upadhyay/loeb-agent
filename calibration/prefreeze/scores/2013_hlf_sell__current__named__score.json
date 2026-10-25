@@ -1,0 +1,56 @@
+{
+ "trade_id": "2013_hlf_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The investment was successful as a short-duration repricing trade, so monetize gains rather than remain in the controversy indefinitely. → The stock has since repriced from our entry in the low $30s, and the technical catalyst associated with the short squeeze has played out.",
+   "The initial operating/valuation case did not require holding through every subsequent legal or investor confrontation. → While the company reported strong Q4 results, we are not in the business of winning arguments.",
+   "Reduce or close the position after the immediate catalyst rather than equating a compounder assessment with permanent ownership. → The original thesis was a controversy-driven discount, not a permanent long-term holding."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Stock has moved significantly from the low $30s entry.",
+   "Operating results cannot eliminate long-term regulatory and business-model uncertainty."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We entered this position to exploit a controversy-driven discount and the technical dynamics of a crowded short",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock has since repriced from our entry in the low $30s",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "technical catalyst associated with the short squeeze has played out",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "results demonstrate growth but do not resolve the underlying legal and business-model criticisms",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 4,
+  "share": 0.57
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are exiting the position to rotate into higher-skew events where our edge is clearer and the path to IRR is not dependent on the outcome of a public debate.",
+ "grader_notes": "The agent accurately identified that the trade was a tactical, catalyst-driven position rather than a long-term fundamental investment, matching Loeb's reasoning for exiting a successful short-squeeze trade. The reasoning is very close in its recognition that the firm does not need to hold through perpetual controversy once the alpha event is exhausted. It is farthest from the key in its specific focus on 'rotating' into other IRR-focused opportunities, which, while logical, was not explicitly documented in the Loeb summary.",
+ "run": "2013_hlf_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

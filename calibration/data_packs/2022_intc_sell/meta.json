@@ -1,0 +1,26 @@
+{
+  "id": "2022_intc_sell",
+  "company": "Intel Corporation",
+  "ticker": "INTC",
+  "aliases": [
+    "Alder Lake",
+    "INTC",
+    "Intel",
+    "Intel Core",
+    "Intel Corporation",
+    "Intel Foundry",
+    "Mobileye",
+    "NAND",
+    "SK hynix",
+    "Xeon"
+  ],
+  "as_of_date": "2022-01-31",
+  "mode": "existing",
+  "era": "C",
+  "first_action_window": "Requested SELL/L2 on Jan31 is not supported as an economic exit. Common exit occurred Q4 2021, disclosed Feb14; bullish Feb16 commentary conflicts. Excluded from strict directional/reason scoring.",
+  "fund_aum_usd_bn": 19.3,
+  "fund_aum_observation_period": "2021-09",
+  "fund_aum_source_date": "2021-10-05",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested SELL/L2 on Jan31 is not supported as an economic exit. Common exit occurred Q4 2021, disclosed Feb14; bullish Feb16 commentary conflicts. Excluded from strict directional/reason scoring. AUM 19.3bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (2021-10-05). AUM observation period 2021-09; last verified, not asserted current."
+}

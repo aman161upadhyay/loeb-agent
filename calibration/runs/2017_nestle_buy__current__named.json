@@ -1,0 +1,267 @@
+{
+ "pack": "2017_nestle_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2017-06-25",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Nestlé S.A. operates as a global consumer packaged goods company selling products including coffee, infant nutrition, pet food, and bottled water [D01]. The company leverages global brands and local distribution, with coffee and pet-care franchises characterized by repeat purchases and brand investment [D01].",
+   "segments_and_separable_assets": [
+    "L'Oréal stake (approximately 23% ownership, valued at >$25 billion) [D01, D04]",
+    "US confectionery business (annual sales of approximately $900 million) [D07]"
+   ],
+   "economics_vs_peers": [
+    "Management guidance indicates a roughly 300–400 basis-point margin gap versus selected peers [D06]",
+    "2016 reported trading operating margin was 15.3% [D02]"
+   ],
+   "capital_structure": [
+    "FY2016 gross debt: CHF 23,209 million [D02]",
+    "FY2016 net debt: CHF 12.3 billion [D04]",
+    "Parent book equity (FY2016): CHF 64,590 million [D02, D04]"
+   ],
+   "price_and_valuation": [
+    "Price (2017-05-31): CHF 82.65 [D04]",
+    "Market cap: approx. CHF 255.5 billion [D04]",
+    "Trailing P/E: 30.1x [D04]",
+    "Underlying P/E: 24.3x [D04]",
+    "FCF yield: 4.53% [D04]"
+   ],
+   "management_board_governance": [
+    "CEO: Mark Schneider, joined at the start of 2017 from Fresenius [D01, D07]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Third Point advises selling the L'Oréal holding [D01, D03]",
+    "Company has indicated it may sell its US confectionery business [D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Consumer shift toward fresher/local products and changing retail channels [D05]",
+    "Smaller competitors innovating faster than the global bureaucracy [D05]",
+    "Aggressive margin targets potentially damaging brands by shifting costs out of marketing [D05]",
+    "Tax implications and loss of compounding asset from selling the cosmetics stake [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2017-02-16: FY2016 results published [D07]",
+    "2017-04-20: Q1 2017 sales conference call [D03]",
+    "2017-06-25: Third Point discloses stake and strategy [D01, D07]"
+   ],
+   "third_point_context": [
+    "Firm AUM approx. $16 billion (as of 2017-05) [D08]",
+    "Third Point has taken a stake and advises selling the L'Oréal holding [D01, D03]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "top shareholder list",
+    "short interest",
+    "average daily volume",
+    "specific credit ratings",
+    "debt maturity schedule",
+    "covenants"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Third Point identifies a 300-400 basis-point margin gap versus peers and advocates for the divestiture of the L'Oréal stake and US confectionery business [D01, D03, D06, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point provides a specific plan to unlock value via margin improvement and portfolio simplification compared to the current operating model [D01, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a large-cap company with a receptive register, the path involves private engagement and, if necessary, a public deck to press for capital allocation changes [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with net debt of CHF 12.3 billion against CHF 64.6 billion in book equity and generates a 4.53% FCF yield [D02, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Given the market capitalization of CHF 255.5 billion, a multi-billion dollar position is achievable for Third Point [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "New CEO Mark Schneider, having joined in 2017, provides a window to influence the strategic direction regarding margin targets and portfolio optimization [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point identifies a structural margin gap and an opportunity to unlock value by monetizing non-core assets like the L'Oréal stake, providing a disciplined roadmap for a new CEO.",
+   "one_line_verdict": "a conglomerate with a clear 300-400bps margin gap, separable high-value assets, and an opportunity for portfolio simplification under new management"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views Nestlé as a defensive, low-growth consumer staple hampered by a bloated conglomerate structure and aging assets, resulting in a persistent discount to higher-performing peers. Third Point believes that new management, under Mark Schneider, can drive a significant margin expansion of 300-400 basis points through aggressive portfolio pruning—specifically divesting the non-core L'Oréal stake and the struggling US confectionery unit—and by adopting a more disciplined capital allocation policy [D01, D06, D07]. This transformation will reveal the underlying value of its core coffee and pet-care franchises, which are currently obscured by corporate complexity [D01].",
+   "evidence": [
+    "Management guidance acknowledges a 300-400 basis-point margin gap relative to peer benchmarks [D06].",
+    "Third Point explicitly advocates for the monetization of the ~23% L'Oréal stake, valued at over $25 billion [D01, D04].",
+    "The US confectionery business, with $900 million in sales, is identified as a prime candidate for divestiture [D07]."
+   ],
+   "peer_benchmark": "Selected high-performing consumer packaged goods peers with operating margins significantly above Nestlé's 15.3% reported 2016 level [D02, D06].",
+   "what_must_be_true": [
+    "New CEO Mark Schneider remains committed to a mandate of portfolio optimization and operational efficiency.",
+    "The Board supports the divestiture of the L'Oréal stake despite tax or long-term compounding concerns.",
+    "Margin improvement initiatives do not inadvertently erode core brand equity through excessive cost-cutting.",
+    "The conglomerate discount narrows as the market gains confidence in the simplified business model."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "CHF 105.00",
+    "arithmetic": [
+     "Core business: 15.3% margin + 400bps improvement = 19.3% operating margin [D02, D06]",
+     "Peer average multiple applied to optimized FCF: ~25x [D04]",
+     "Monetization of L'Oreal stake (>CHF 25B): ~CHF 10.00/share [D01, D04]",
+     "Target price represents a ~27% upside from CHF 82.65 [D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "CHF 75.00",
+    "basis": "CHF 64.59 billion book equity plus resilient cash flows from coffee and pet-care franchises [D02, D04]"
+   },
+   "current_price": "CHF 82.65 [D04]",
+   "skew": "27% : 9%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Target multiple of 25x assumes market re-rating of core business following successful margin expansion and portfolio simplification",
+    "Tax leakage from potential L'Oreal disposal is not explicitly quantified in the pack"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Divest the ~23% L'Oréal stake to unlock capital for buybacks or core investment [D01, D04]",
+    "Divest the non-core US confectionery business [D07]",
+    "Implement a margin improvement plan to close the 300-400bps gap versus peers [D01, D06]"
+   ],
+   "actors": [
+    "Mark Schneider — CEO — Receptive [D01, D07]",
+    "Nestlé Board of Directors — Board — Target of engagement [D01]"
+   ],
+   "governance_route": "Private constructive engagement with new leadership to influence strategic direction and capital allocation [D01, D07]",
+   "timetable_quarters": 4,
+   "escalation_path": "If private dialogue fails to yield a concrete margin improvement plan or commitment to asset monetization within 2-3 quarters, transition to a public campaign including shareholder letters and presentations [D01].",
+   "why_this_role_fits_the_era": "Fits the 2016+ strategy of private engagement first with mega-cap companies that have new leadership, reserving public confrontation for when initial strategic recommendations are ignored [D01, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Mark Schneider rejects the necessity of a margin improvement plan or confirms a permanent retention of the L'Oréal stake [D01].",
+    "Company reports two consecutive quarters of margin contraction instead of the planned expansion [D06].",
+    "Structural shift in the coffee or pet-care markets impairs the core franchise profitability [D01].",
+    "Increased regulatory or tax-related hurdles render the divestiture of the US confectionery unit or L'Oréal stake value-destructive [D07]."
+   ],
+   "portfolio_risk": "Factor overlap exists with other global mega-cap consumer staples; as a large-cap position, liquidity is sufficient for entry and exit, though we must manage gross exposure in the context of a $16B AUM fund [D04, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 8,
+    "max": 10
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts or consumer sector-specific short baskets to mitigate market beta risk while pursuing idiosyncratic margin-expansion catalysts.",
+   "biggest_risk_in_one_sentence": "Execution risk regarding margin improvement and the board's reluctance to monetize the L'Oréal stake could lead to a prolonged period of stagnant performance despite a compelling valuation floor."
+  }
+ },
+ "final": {
+  "as_of_date": "2017-06-25",
+  "company": "Nestlé S.A.",
+  "ticker": "NESN",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "CHF 105.00",
+   "floor": "CHF 75.00",
+   "skew": "3:1",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Divest the ~23% L'Oréal stake",
+    "Divest the non-core US confectionery business",
+    "Implement a margin improvement plan to close the 300-400bps gap versus peers"
+   ],
+   "actors": [
+    "Mark Schneider — CEO",
+    "Nestlé Board of Directors"
+   ],
+   "governance_route": "Private constructive engagement",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "Nestlé is a world-class consumer conglomerate trading at a discount because of a persistent 300-400bps margin gap versus its peers [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company holds a non-core ~23% stake in L'Oréal valued at over $25 billion, which should be monetized to unlock capital [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "New CEO Mark Schneider represents an inflection point for the organization to adopt a more disciplined capital allocation and operational strategy [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The US confectionery business, with $900 million in annual sales, is an identified candidate for divestiture to further simplify the portfolio [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Mark Schneider rejects the necessity of a margin improvement plan.",
+   "Company confirms permanent retention of the L'Oréal stake.",
+   "Two consecutive quarters of margin contraction.",
+   "Structural impairment of the core coffee or pet-care franchises."
+  ],
+  "what_would_change_our_mind": "A definitive rejection of portfolio simplification by the Board or a breakdown in the core growth franchises which would erode the long-term margin target potential.",
+  "memo": "Nestlé is a global powerhouse in coffee, infant nutrition, and pet care, yet its performance is obscured by a bloat-prone conglomerate structure that leaves a 300-400 basis-point operating margin gap against its peers [D01, D06]. At a trailing P/E of 30.1x, the market is failing to credit the company for its potential for operational excellence [D04].\n\nBy applying a 19.3% operating margin to the core business and factoring in the monetization of the ~23% L'Oréal stake—worth over $25 billion—we see a clear path to a valuation of CHF 105.00 per share [D01, D02, D04, D06]. This represents a compelling ~27% upside from the recent price of CHF 82.65 [D04].\n\nWith new CEO Mark Schneider at the helm, the company has a unique window to transition toward a leaner model [D01, D07]. Our plan is straightforward: we are pushing for the divestiture of the L'Oréal holding and the non-core US confectionery business to catalyze a rerating of the core assets [D01, D07].\n\nWe engage privately as constructive partners, though we are prepared to escalate if progress on margin targets or asset monetization is not observed within 2-3 quarters [D01]. We view the CHF 75.00 level as a hard floor supported by the strength of the underlying coffee and pet-care franchises [D02, D04]. We are initiating a position at 5% of NAV, with a target of 8% as our engagement progresses [D05].",
+  "uncited_claims": []
+ }
+}

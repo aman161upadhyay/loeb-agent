@@ -1,0 +1,54 @@
+{
+ "trade_id": "2020_pru_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Removing unnecessary group costs and complexity could unlock higher valuation → Prudential plc is a premier global insurance franchise currently obscured by its own structural complexity."
+  ],
+  "missed": [
+   "Asia and Jackson shared no discernible benefit from the same corporate umbrella.",
+   "Independent Asian capital allocation could fund a high-ROE franchise with structural growth.",
+   "Jackson could invest and manage its own capital needs without obscuring Asian value."
+  ],
+  "extra_agent_drivers": [
+   "A sum-of-the-parts valuation implies a target of 2,200p, based on 15x earnings for the Asian operations and appropriate peer multiples for Jackson.",
+   "The company possesses high-quality assets including £169.5bn in Eastspring FUM and a £16.7bn Solvency II group surplus, providing a hard floor near 1,200p.",
+   "Following the M&G demerger, there is a clear operational precedent for further simplification that management must now execute to close the conglomerate discount."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Prudential plc is a premier global insurance franchise currently obscured by its own structural complexity.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company possesses high-quality assets including £169.5bn in Eastspring FUM and a £16.7bn Solvency II group surplus.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are initiating a 5% position in the common equity.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 9,
+  "share": 0.64
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a 5% position in the common equity [D05].",
+ "grader_notes": "The agent correctly identified the BUY direction and the 5% target size. However, the reasoning overlap is poor; the agent focused heavily on internal SOTP modeling and historical M&G precedents, whereas the investor-agent (Third Point) focused specifically on the lack of synergy between Jackson and the Asian business and the benefits of independent capital allocation.",
+ "run": "2020_pru_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

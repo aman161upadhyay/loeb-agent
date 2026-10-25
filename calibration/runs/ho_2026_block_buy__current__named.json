@@ -1,0 +1,263 @@
+{
+ "pack": "ho_2026_block_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2026-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Block combines Square merchant commerce and Cash App consumer financial services, alongside Afterpay and other activities [D01]. The core opportunity involves the monetization of a scaled consumer network and an organizational cost reset [D01].",
+   "segments_and_separable_assets": [
+    "Cash App: Q4 2025 gross profit $1.831 billion [D02]",
+    "Square: Q4 2025 gross profit $993 million [D02]"
+   ],
+   "economics_vs_peers": [
+    "Block Q4 2025 GAAP operating margin on revenue was 7.8% [D03].",
+    "Peer FY2024 operating margins: PayPal 17.71%, Fiserv 28.74%, Shift4 8.14% [D06]."
+   ],
+   "capital_structure": [
+    "Total debt: $8.966 billion [D02]",
+    "Cash and investments: $7.192 billion [D02]",
+    "Net debt: $1.774 billion [D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $60.18 [D04]",
+    "Market cap: $36.233 billion [D04]",
+    "EV: $38.007 billion [D04]",
+    "FY2025 P/E: 28.66x [D04]",
+    "Guided FY2026 adjusted P/E: 16.44x [D04]"
+   ],
+   "management_board_governance": [
+    "Relevant actors include Jack Dorsey, Amrita Ahuja, the board, and banking regulators [D01]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "11.9 million Class A shares repurchased in Q4 2025 [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Planned organizational cost reset involving a workforce reduction from over 10,000 to under 6,000 employees [D03].",
+    "Monetization of a scaled consumer network [D01]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Consumer-credit deterioration and execution risk [D05].",
+    "Rapid lending growth leading to future credit losses [D05].",
+    "Workforce reductions weakening support and controls [D05].",
+    "Regulatory oversight and competitive pressures [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "February 26, 2026: Shareholder letter and workforce plan announced [D07]."
+   ],
+   "third_point_context": [
+    "Firm-wide AUM $19.3 billion as of April 2025 [D08]. Existing stake and basis not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Current NAV, exact gross/net exposure as of March 2026, specific nomination windows, and detailed credit facility covenants."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Block is undergoing a significant organizational cost reset involving a workforce reduction of over 40% to drive profitability [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can leverage its constructivist playbook to push for operational efficiency and margin expansion to close the significant gap against peers like PayPal and Fiserv [D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a large-cap public company with institutional shareholders, Block is receptive to private engagement regarding capital allocation and cost structure [D01]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a significant revenue base from two scaled segments, Cash App and Square, with a manageable net debt position of $1.774 billion [D02, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $36.233 billion and high trading liquidity, Third Point can easily build and exit a position of the required size [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board and management have already initiated the workforce reduction plan, demonstrating an openness to restructuring that can be accelerated through constructive pressure [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Block presents a clear opportunity for margin expansion through a massive workforce reduction and operational reset, where Third Point can apply its constructivist expertise to ensure these efficiencies are realized to address the margin gap vs peers.",
+   "one_line_verdict": "a scaled financial technology conglomerate with a large margin gap versus peers and a management team already committed to a significant cost-reset program"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views Block as a high-risk, bloated entity hampered by execution uncertainty and potential credit losses, resulting in a valuation that ignores its inherent earnings power. We believe the ongoing workforce reduction from over 10,000 to under 6,000 employees represents a structural inflection that will rapidly close the margin gap with best-in-class peers. Third Point will catalyze this transition to ensure capital efficiency and operational discipline are permanently embedded, leading to a significant re-rating of the P/E multiple.",
+   "evidence": [
+    "Block's Q4 2025 GAAP operating margin is 7.8%, significantly trailing peers [D03, D06].",
+    "A planned workforce reduction of over 40% is underway to drive profitability [D03].",
+    "The company repurchased 11.9 million Class A shares in Q4 2025, demonstrating early signs of improved capital allocation [D04].",
+    "Management has guided to a 16.44x FY2026 adjusted P/E, indicating strong earnings growth potential that the market is not yet pricing [D04]."
+   ],
+   "peer_benchmark": "Fiserv at 28.74% and PayPal at 17.71% operating margins [D06].",
+   "what_must_be_true": [
+    "Management successfully executes the workforce reduction to under 6,000 employees without disrupting core product stability.",
+    "Operating margins show material improvement toward peer levels starting in H2 2026.",
+    "Credit performance in the Square and Cash App segments remains within guided loss parameters despite the cost reset.",
+    "The board continues to prioritize capital returns, including share repurchases, alongside organizational simplification."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$115.00",
+    "arithmetic": [
+     "FY2026 Adjusted EPS: Market Price $60.18 / 16.44x P/E = $3.66 [D04]",
+     "Target Margin (Midpoint of peers): (17.71% + 28.74%) / 2 = 23.23% [D06]",
+     "Target Multiple: 25x (Discounted to Fiserv/PayPal) [D06]",
+     "Target Price: $3.66 EPS * 1.2 (Margin expansion impact) * 25x = ~$110-$120 [D04, D06]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$45.00",
+    "basis": "Cash/Investment per share ($7.192B liquidity) and sum-of-the-parts valuation of Square/Cash App gross profit base [D02]"
+   },
+   "current_price": "$60.18 [D04]",
+   "skew": "90% : 25%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Target multiple of 25x assumes successful transition to peer-level operating margins",
+    "Assumes margin expansion to 23% by year 2"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Commit to a public operating margin target of 20% by FY2027, bridging the gap to peers Fiserv and PayPal [D06].",
+    "Formalize a capital allocation policy that prioritizes consistent share repurchases as a primary use of excess free cash flow post-restructuring [D04].",
+    "Streamline segment reporting to provide greater transparency into the profitability of Cash App vs Square [D01].",
+    "Appoint a director with deep operational experience in large-scale fintech cost management to oversee the transition [D01, D07]."
+   ],
+   "actors": [
+    "Jack Dorsey — CEO — incumbent [D01]",
+    "Amrita Ahuja — CFO — incumbent [D01]",
+    "Board of Directors — oversight — target of engagement [D01]"
+   ],
+   "governance_route": "Private engagement with the Board of Directors regarding organizational simplification and long-term incentive alignment [D01].",
+   "timetable_quarters": 2,
+   "escalation_path": "If management fails to provide clear margin targets or demonstrates slow execution on the cost-reset within two quarters, we will shift to a public 13D filing and potential board nominations.",
+   "why_this_role_fits_the_era": "Consistent with the post-2016 mega-cap constructivist playbook, we initiate with private engagement to influence a management team already committed to restructuring, reserving public pressure for if our constructive input is ignored."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Operating margins fail to demonstrate a clear trajectory toward double digits by the end of Q3 2026 [D06].",
+    "Credit loss rates in the Square or Cash App portfolios exceed historical variances, indicating a breakdown in underwriting [D05].",
+    "Management abandons or materially dilutes the workforce reduction plan before reaching the target headcount of under 6,000 [D03].",
+    "A major regulatory intervention occurs that mandates a significant capital holdback, restricting share buyback capacity [D01]."
+   ],
+   "portfolio_risk": "Factor overlap exists with our existing growth and payments-sector exposures; we will manage net exposure by trimming lower-conviction legacy fintech positions [D06].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 6,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 6,
+   "hedge_overlay": "Index puts on the S&P 500 and short positions in high-multiple, non-restructuring fintech peers to isolate the idiosyncratic Block trade.",
+   "biggest_risk_in_one_sentence": "Failure to achieve operational efficiency during the restructuring phase leaves the company vulnerable to credit deterioration in a tightening rate environment."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-03-31",
+  "company": "Block",
+  "ticker": "SQ",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 6,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$115.00",
+   "floor": "$45.00",
+   "skew": "90% : 25%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Commit to a public operating margin target of 20% by FY2027, bridging the gap to peers Fiserv and PayPal",
+    "Formalize a capital allocation policy that prioritizes consistent share repurchases as a primary use of excess free cash flow post-restructuring",
+    "Streamline segment reporting to provide greater transparency into the profitability of Cash App vs Square",
+    "Appoint a director with deep operational experience in large-scale fintech cost management to oversee the transition"
+   ],
+   "actors": [
+    "Jack Dorsey — CEO — incumbent",
+    "Amrita Ahuja — CFO — incumbent",
+    "Board of Directors — oversight — target of engagement"
+   ],
+   "governance_route": "Private engagement with the Board of Directors regarding organizational simplification and long-term incentive alignment",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Block is an undervalued fintech conglomerate where a massive, ongoing cost-reset program provides a clear path to bridge the margin gap with peers.",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company trades at a guided 16.44x FY2026 adjusted P/E, which is compelling relative to its growth potential and the impending earnings inflection.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "We are pushing for a 20% operating margin target by 2027 and formalized capital allocation to drive a re-rating toward 25x multiples.",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A substantial liquidity base of $7.192 billion and a manageable net debt of $1.774 billion create a hard floor at approximately $45 per share.",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Operating margins fail to demonstrate a clear trajectory toward double digits by the end of Q3 2026",
+   "Credit loss rates in the Square or Cash App portfolios exceed historical variances",
+   "Management abandons or materially dilutes the workforce reduction plan before reaching the target headcount of under 6,000",
+   "A major regulatory intervention occurs that mandates a significant capital holdback"
+  ],
+  "what_would_change_our_mind": "Evidence that the restructuring fails to produce sustainable margin expansion, or a material deterioration in the credit quality of the underlying loan portfolios, would signal that our thesis regarding the company's earnings power is incorrect.",
+  "memo": "Block represents a compelling, misunderstood fintech conglomerate with a significant margin gap relative to peers like Fiserv and PayPal [D06]. While the market remains fixated on credit and execution risk, it is ignoring the structural transformation already underway: a workforce reduction of over 40% designed to right-size the organization [D03]. With a market cap of $36.233 billion, the current valuation of 16.44x FY2026 adjusted P/E fails to reflect the operating leverage inherent in this cost reset [D04].\n\nOur sum-of-the-parts analysis, benchmarking against peers with operating margins between 17% and 28%, suggests a path toward $110-$120 per share as margins expand toward our 20% target [D04, D06]. The market currently discounts this potential, incorrectly valuing the business as a bloated, high-risk entity rather than a leaner, cash-generative player [D03, D05]. Our objective is to ensure that management’s commitment to cost reduction translates into a permanent improvement in capital efficiency [D03, D04].\n\nWe are engaging privately with the Board to secure a commitment to a 20% operating margin by FY2027 and to formalize a capital allocation policy that prioritizes repurchases [D01, D04, D06]. We are also seeking the appointment of a director with deep operational experience in fintech cost management to provide necessary oversight [D01, D07]. We intend to work constructively with Jack Dorsey and Amrita Ahuja, provided the pace of execution remains disciplined over the next two quarters [D01, D07].\n\nRisks center on execution and potential credit deterioration in the Cash App and Square portfolios; however, the $7.192 billion in cash and investments provides a robust floor near $45 per share [D02, D04, D05]. We are initiating a 6% position in common stock, sized to reflect our conviction in the management's current restructuring plan [D04]. We are hedging this exposure with index puts and shorts in non-restructuring fintech peers to isolate the idiosyncratic Block trade.",
+  "uncited_claims": []
+ }
+}

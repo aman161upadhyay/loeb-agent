@@ -1,0 +1,61 @@
+{
+ "trade_id": "ctl_2022_vroom_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Vroom/VRM/UACC absent from complete 54-quarter 13F index; no attributable manager public comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "Vroom is a cash-burning entity in a multi-year turnaround with no identifiable catalyst or hidden asset to unlock",
+   "Operating margins are deeply negative at -21.1%, reflecting a significant margin gap compared to peers like CarMax and AutoNation",
+   "The capital structure is precarious, with a net debt position of $679.5m and an FCF yield of approximately -491%",
+   "The thesis depends entirely on unproven management executing an operational roadmap, failing our core event-driven criteria"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Vroom is a cash-burning entity in a multi-year turnaround",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins are deeply negative at -21.1%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net debt position of $679.5m",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "FCF yield of approximately -491%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Vroom lacks a separable asset or hidden business unit to unlock",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 7,
+  "share": 0.78
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this opportunity due to the lack of an identifiable event, a negative valuation, and the absence of a margin of safety [D01, D04].",
+ "grader_notes": "The agent correctly identified the PASS decision label but provided fundamental research reasoning rather than the negative-evidence/absence-of-reporting reasoning provided in the key. The key for this control is an observational label based on 13F data, whereas the agent attempted to perform original fundamental analysis to justify the lack of an investment.",
+ "run": "ctl_2022_vroom_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2021_gme_amc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Neither GME nor AMC appears in any of the 54 reportable quarterly tables.",
+   "Retrospective 2021-02-10 crowded-short discipline comment."
+  ],
+  "extra_agent_drivers": [
+   "The current share price is driven by a retail-fueled short squeeze.",
+   "The underlying businesses face significant secular headwinds.",
+   "Operating margins are deeply negative.",
+   "Significant senior lease obligations and debt claims take precedence over common equity."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The videogame retailer generated -6.2% operating margins in FY2019",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The cinema operator (2.5% margin) lags significantly behind Cinemark (10.3%) and IMAX (19.5%)",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this situation entirely [D01, D05].",
+ "grader_notes": "The agent correctly identified the PASS decision but failed to utilize Loeb's actual drivers. The agent hallucinated a fundamental investment analysis instead of acknowledging the retrospective nature of the control, which was based on the absence of holdings in historical 13F filings and later comments regarding crowded-short risk management.",
+ "run": "ctl_2021_gme_amc_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 2,
+ "reasoning_scorable": false
+}

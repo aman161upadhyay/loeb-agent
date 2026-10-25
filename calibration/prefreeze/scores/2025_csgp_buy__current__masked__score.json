@@ -1,0 +1,53 @@
+{
+ "trade_id": "2025_csgp_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The Bloomberg of commercial real estate possessed recurring data and marketplace economics with pricing power. → The Company represents a classic conglomerate discount opportunity where a world-class, 43% margin commercial information franchise is being obscured by aggressive, capital-intensive reinvestment in residential market expansion.",
+   "Independent board expertise and oversight could improve returns on investment and accountability. → We intend to engage privately to advocate for a structural separation and a more disciplined use of the company’s $3.689 billion net cash position, which currently serves as a meaningful, albeit underutilized, valuation floor."
+  ],
+  "missed": [
+   "Homes.com spending obscured the core and required capital-allocation discipline."
+  ],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts valuation analysis",
+   "Separation of businesses to unlock value",
+   "Cash position as a valuation floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company represents a classic conglomerate discount opportunity where a world-class, 43% margin commercial information franchise is being obscured by aggressive, capital-intensive reinvestment in residential market expansion.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The commercial segment generates 43% margins",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A $3.689 billion net cash position provides a significant valuation floor",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The Company represents a classic conglomerate discount opportunity where a world-class, 43% margin commercial information franchise is being obscured by aggressive, capital-intensive reinvestment in residential market expansion [D01, D02].",
+ "grader_notes": "The agent correctly identified the investment direction. The reasoning overlap is moderate; the agent correctly captured the core commercial business quality and the need for better capital allocation, though it framed the thesis through an SOTP lens not explicitly emphasized in the Loeb drivers. The agent failed to cite the specific 'Homes.com' spending driver.",
+ "run": "2025_csgp_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

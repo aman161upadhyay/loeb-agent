@@ -1,0 +1,24 @@
+{
+  "id": "2013_hlf_buy",
+  "company": "Herbalife Ltd.",
+  "ticker": "HLF",
+  "aliases": [
+    "Herbalife Ltd.",
+    "HLF",
+    "Herbalife",
+    "Herbalife Ltd",
+    "Formula 1",
+    "Michael Johnson",
+    "Michael O. Johnson",
+    "Pershing Square",
+    "Bill Ackman",
+    "nutrition clubs"
+  ],
+  "as_of_date": "2013-01-08",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2013-01-08; actual first action not recovered to a unique day; see answer-key dating notes. January 8 new-mode date follows January 3 measured holding; not true pre-first-purchase test. Financial release verified; complete original December short deck and historical short-interest count not recovered. Bear analysis explicitly analytical, not invented quoted regulator comment.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. January 8 new-mode date follows January 3 measured holding; not true pre-first-purchase test. Financial release verified; complete original December short deck and historical short-interest count not recovered. Bear analysis explicitly analytical, not invented quoted regulator comment."
+}

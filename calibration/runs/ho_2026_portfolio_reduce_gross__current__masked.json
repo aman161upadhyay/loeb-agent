@@ -1,0 +1,51 @@
+{
+ "pack": "ho_2026_portfolio_reduce_gross",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2026-01-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-01-30",
+  "decision": "HEDGE",
+  "conviction": "medium",
+  "regime_evidence": "Market leadership is highly concentrated in AI-related themes, presenting a risk of correlated liquidation if momentum falters [D01], [D05]. Broad-market earnings yield is 3.57% against a 10-year Treasury yield of 4.26%, signaling a tight equity risk premium [D04], [D06].",
+  "book_exposure": "Total fund exposure as of December 31, 2025, was 162.2% long and 48.4% short, with 71.6% net equity and 34.2% net credit exposure [D02].",
+  "actions": [
+   "Increase index-level hedges to protect against correlated momentum reversals in AI-concentrated long positions",
+   "Tighten stop-loss triggers on single-name shorts to mitigate squeeze risk",
+   "Maintain high liquidity buffers in the credit and equity portfolios to account for potential factor-driven volatility"
+  ],
+  "target_gross_net": "Maintain net exposure between 60-75% while reducing gross exposure to lower sensitivity to shared momentum factors.",
+  "drivers": [
+   {
+    "driver": "Concentration in AI-related winners creates significant downside risk if the sector's momentum and capital-spending cycle shift simultaneously [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The equity risk premium has compressed, as implied by the 3.57% earnings yield versus 4.26% 10-year Treasury yield, reducing the margin of safety [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Market breadth remains narrow, increasing susceptibility to sudden, correlated liquidation losses across thematic baskets [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Historical performance at year-end provides a base of +8.9% for 2025, allowing for a defensive posture to preserve capital during potential regime shifts [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "memo": "We remain constructive on AI and earnings inflections, but the market environment as of January 30 necessitates a defensive pivot. Our portfolio currently leans heavily into a narrow set of winners, which creates a dangerous shared factor sensitivity; a reversal in this momentum could trigger correlated liquidation losses across both our long and short books [D05]. We are not calling for a broad exit, but we are acknowledging that the current concentration levels leave us exposed to binary volatility [D01]. \n\nWe are shifting to a HEDGE posture to dampen this factor correlation. While our thematic longs remain strong businesses, the valuation environment—defined by a 3.57% earnings yield that sits below the 4.26% risk-free rate—offers little cushion for error [D04]. By increasing our index hedges and ensuring our liquidity remains flexible, we position ourselves to survive a potential correction and deploy capital when the inevitable valuation dispersion returns. We exit when the regime changes, not when we hope for a recovery.",
+  "uncited_claims": []
+ }
+}

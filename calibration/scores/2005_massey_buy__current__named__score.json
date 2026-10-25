@@ -1,0 +1,64 @@
+{
+ "trade_id": "2005_massey_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "Valuable coal assets trade at a management discount caused by repeated operating disappointments.",
+   "Higher realizations and normalized production support $800–900m prospective EBITDA versus roughly $750m consensus.",
+   "With $300–350m capital spending, excess prospective cash should fund repurchases or a Dutch tender.",
+   "Shareholder alignment and a board challenge can force capital-allocation accountability."
+  ],
+  "extra_agent_drivers": [
+   "There is no identifiable event or catalyst present to justify an activist or event-driven investment.",
+   "The pack lacks essential data including current market price, enterprise value, and peer valuation benchmarks to identify a mispricing.",
+   "Operating challenges are industry-wide conditions rather than company-specific issues that could be resolved through constructivist engagement.",
+   "Financial results are clouded by non-recurring items such as reserve-exchange gains and legal-reserve benefits."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Massey Energy Company is a producer of steam and metallurgical coal operating in Central Appalachia",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have conducted a review of the company's position and find no evidence of a mispricing that would warrant our involvement",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The company faces standard industry headwinds including labor shortages and infrastructure constraints",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the valuation data is insufficient",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Recent financial performance also includes non-cash gains and legal reserve benefits",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 8,
+  "share": 0.8
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Given the lack of a catalyst and insufficient data to construct a thesis, we are passing on the opportunity.",
+ "grader_notes": "The agent failed to identify the investment opportunity entirely, resulting in a MISS direction. The reasoning was farthest from Loeb's as the agent claimed a lack of catalyst and insufficient data, whereas Loeb's thesis was explicitly built on the 'Blankenship discount' and a clear plan for shareholder-forced capital allocation.",
+ "run": "2005_massey_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

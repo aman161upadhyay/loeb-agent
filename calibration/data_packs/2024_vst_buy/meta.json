@@ -1,0 +1,27 @@
+{
+  "id": "2024_vst_buy",
+  "company": "Vistra Corp.",
+  "ticker": "VST",
+  "aliases": [
+    "Dynegy",
+    "Energy Harbor",
+    "ERCOT",
+    "Luminant",
+    "PJM",
+    "TXU",
+    "TXU Energy",
+    "Vistra",
+    "Vistra Corp.",
+    "Vistra Vision",
+    "VST"
+  ],
+  "as_of_date": "2024-04-30",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Requested April2024 initiation corrected in key: letter identifies March2023 Energy Harbor deal as original catalyst. April30 snapshot is a disclosure-window re-underwriting, not first purchase.",
+  "fund_aum_usd_bn": 12.7,
+  "fund_aum_observation_period": "2023-01",
+  "fund_aum_source_date": "2023-02-06",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested April2024 initiation corrected in key: letter identifies March2023 Energy Harbor deal as original catalyst. April30 snapshot is a disclosure-window re-underwriting, not first purchase. AUM 12.7bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (2023-02-06). AUM observation period 2023-01; last verified, not asserted current."
+}

@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2022_vroom_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Vroom/VRM/UACC absent from complete 54-quarter 13F index; no attributable manager public comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "Structural operating margin and FCF yield",
+   "Revenue decline and lack of capital-light efficiency",
+   "Debt burden and liquidity risk",
+   "Lack of catalyst or governance lever"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Q2 2022 operating margin of -21.1% and a FCF yield of -491%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Revenue has cratered 37.6% YoY",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total debt of $1,212.108m",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have decided to pass on this opportunity.",
+ "grader_notes": "The agent correctly identified the PASS decision but provided a completely different set of fundamental drivers than the actual investor. Loeb's pass was based on index absence/lack of public attribution, whereas the agent constructed a hypothetical fundamental rejection memo.",
+ "run": "ctl_2022_vroom_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

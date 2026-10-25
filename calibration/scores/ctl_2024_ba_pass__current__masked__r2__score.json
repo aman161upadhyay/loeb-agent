@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2024_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Boeing/BA absent from complete 54-quarter issuer/instrument index and no attributable named common-stock comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "systemic quality crisis",
+   "margin gap relative to peers",
+   "net debt and persistent losses",
+   "unproven management execution",
+   "market volatility following FAA grounding"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "consolidated operating margin of -4.5% compared to peers",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "FAA grounding 171 MAX 9 aircraft",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We remain on the sidelines because the current thesis rests entirely on an unproven management team executing a complex multi-year turnaround under heavy regulatory scrutiny [D05, D07].",
+ "grader_notes": "The agent reached the correct PASS decision but completely failed to align its reasoning with the provided answer key. While Loeb's decision is defined by the absence of historical holdings and public commentary, the agent fabricated a fundamental investment thesis based on operational and governance concerns.",
+ "run": "ctl_2024_ba_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

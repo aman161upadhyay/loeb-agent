@@ -1,0 +1,56 @@
+{
+ "pack": "2023_dis_sell2",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2023-02-08",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-02-08",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "HOLD",
+  "reason_class": "L5",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Cost action: strengthened [D03]",
+   "Hulu ownership/integration: intact [D01]",
+   "Sports-portfolio review: intact [D01]",
+   "Board expertise: strengthened via appointment [D03]"
+  ],
+  "remaining_skew": "Unquantified upside based on margin improvement and structural simplification; floor dependent on parks durability [D01, D04]",
+  "next_catalyst_and_timing": "Execution of $5.5bn cost reduction program; Q2-Q4 FY2023 [D03]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "Support agreement provides board representation and active governance oversight, warranting patience through the implementation of the cost program.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The $5.5 billion cost-savings target, announced concurrently with the Q1 FY2023 results, provides a clear, measurable operating catalyst.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Secular network erosion and high streaming content spend necessitate operational discipline over immediate radical restructuring.",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Standstill obligations from the September agreement constrain immediate escalation, making the current focus on execution appropriate.",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Third Point’s engagement with Disney has transitioned from the initial public advocacy phase to a constructive period of board-level oversight. The September 2022 support agreement, which included the appointment of Carolyn Everson to the board, provides us with a seat at the table to monitor management's execution of the strategic agenda [D03]. We retain our position to oversee the realization of the $5.5 billion cost-savings target announced in the Q1 FY2023 earnings release [D03].\n\nWhile the Q1 FY2023 results showed revenue growth of 7.8%, segment operating income declined by 6.6%, highlighting the ongoing pressure from streaming investment and secular linear network erosion [D03, D06]. Our thesis remains centered on rationalizing the cost structure and optimizing capital allocation across the streaming and sports portfolios [D01]. We are not in the business of waiting indefinitely for results; however, given the standstill obligations and the recent announcement of a concrete savings plan, we remain focused on the company’s operating path [D03, D05].\n\nWe value Disney’s underlying franchises, but we remain disciplined regarding the potential for margin improvement versus the necessary reinvestment requirements [D01, D06]. The current valuation, with a trailing P/E of 61.4x and minimal FCF yield, leaves little room for error if the operating inflection fails to materialize [D04]. We will continue to evaluate the firm’s ability to convert revenue scale into durable cash flow for shareholders, maintaining our position while the governance agreement provides the structure for management to act [D01, D03].",
+  "uncited_claims": []
+ }
+}

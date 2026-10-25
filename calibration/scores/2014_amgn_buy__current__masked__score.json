@@ -1,0 +1,62 @@
+{
+ "trade_id": "2014_amgn_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Mature drugs and growth assets are a hidden-value situation with distinct investor constituencies. → The Company is a classic conglomerate that masks the value of its high-margin, cash-generating mature biotech products within a broader portfolio of speculative R&D investments.",
+   "A MatureCo/GrowthCo separation can make the two economic profiles visible. → By separating these business units, we believe the market will be forced to re-rate the mature franchise based on its true cash-flow power rather than discounting it against the volatility of the research pipeline.",
+   "Operating-margin improvement and capital return can create value even without a split. → Our plan is to engage privately with the Board and management to advocate for a formal structural separation and a more disciplined capital allocation strategy."
+  ],
+  "missed": [
+   "Improve R&D productivity and project-selection discipline rather than assuming spending creates value."
+  ],
+  "extra_agent_drivers": [
+   "The company maintains a healthy net debt position of $7.14bn against a $109.45bn market cap, providing a solid foundation for capital return."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company suffers from a persistent conglomerate discount that obscures the intrinsic value of its high-cash-generating mature biotech franchise.",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Operating margins of 31.4% lag significantly behind relevant peers like Gilead (40.4%) and Biogen (36.3%).",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The company maintains a healthy net debt position of $7.14bn against a $109.45bn market cap.",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Market participants are currently focused on potential reimbursement risks.",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "We are initiating a 6% position in common stock, hedged with index puts.",
+    "citation": "D05",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 10,
+  "share": 0.83
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By separating these business units, we believe the market will be forced to re-rate the mature franchise based on its true cash-flow power rather than discounting it against the volatility of the research pipeline [D01].",
+ "grader_notes": "The agent correctly identified the primary investment thesis involving the 'hidden value' of a separation. The reasoning is closest to Loeb's regarding the valuation of the mature franchise versus the R&D pipeline. The reasoning is furthest from Loeb's in its focus on specific peer margin benchmarks and balance sheet debt levels, which were not cited as primary drivers in the provided answer key.",
+ "run": "2014_amgn_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

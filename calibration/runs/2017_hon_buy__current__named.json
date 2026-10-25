@@ -1,0 +1,258 @@
+{
+ "pack": "2017_hon_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2017-04-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Honeywell International Inc. operates across four primary segments: Aerospace, Home and Building Technologies, Performance Materials and Technologies, and Safety and Productivity Solutions [D01]. The company's business model relies on an installed aerospace base generating aftermarket revenue and a non-aerospace portfolio focused on industrial software, automation, and warehouse products [D01].",
+   "segments_and_separable_assets": [
+    "Aerospace: $3,546m revenue (Q1 2017) [D06]",
+    "Home and Building Technologies: $2,553m revenue (Q1 2017) [D06]",
+    "Performance Materials and Technologies: $2,069m revenue (Q1 2017) [D06]",
+    "Safety and Productivity Solutions: $1,324m revenue (Q1 2017) [D06]"
+   ],
+   "economics_vs_peers": [
+    "Operating margins are reported at 18.8% for Q1 2017 [D03].",
+    "Segment margins: Aerospace 22.4%, Home and Building Technologies 15.2%, Performance Materials and Technologies 22.8%, Safety and Productivity Solutions 14.7% (Q1 2017) [D06].",
+    "Organic growth rates: Aerospace 0%, Home and Building Technologies 3%, Performance Materials and Technologies 5%, Safety and Productivity Solutions 3% [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $15.87bn; Cash: $7.71bn; Net debt: $8.16bn (as of 2017-03-31) [D04].",
+    "Short-term investments: $1.89bn [D04]."
+   ],
+   "price_and_valuation": [
+    "Share price: $124.87 (as of 2017-03-31) [D04].",
+    "Market capitalisation: $95.19bn [D04].",
+    "Enterprise value: $103.35bn [D04].",
+    "Trailing P/E: 19.7x [D04].",
+    "Guidance P/E: 17.8x (based on $7.00 midpoint) [D04].",
+    "FCF yield: 5.3% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Darius Adamczyk [D01].",
+    "Prior activist history: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 762.34m (as of 2017-03-31) [D04].",
+    "Top holders: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential for a structural review under new CEO Darius Adamczyk [D07].",
+    "No board commitment or mandatory transaction announced [D05, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential duplication of overhead, tax/pension complications, and loss of diversification benefits from a spin [D05].",
+    "Cyclical exposure in oil-linked process and commercial-aircraft demand [D05].",
+    "No verified board commitment to a separation [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2017-04-21: Q1 2017 results released; raised low end of FY2017 EPS guidance [D03]."
+   ],
+   "third_point_context": [
+    "Firm AUM (approx. $17bn, 2015-10); existing stake: not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Specific ownership stake, current board composition, pension liabilities, and precise debt maturity schedule."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Honeywell is a diversified conglomerate with disparate business segments and a potential structural review under a new CEO [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply its constructivist framework to evaluate the sum-of-the-parts and advocate for business separation to unlock shareholder value [D01, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "There is no current board commitment or mandatory transaction announced, and the specific shareholder base is not in the pack [D05, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with $7.71bn in cash and solid FCF yields of 5.3% [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $95.19bn, the company offers sufficient liquidity for Third Point to build a significant position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "CEO Darius Adamczyk is new to the role, providing a window for engagement and strategic shift [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Third Point's edge lies in applying our proven conglomerate-simplification playbook to Honeywell's diverse segments to realize value currently suppressed by the conglomerate discount.",
+   "one_line_verdict": "a multi-segment industrial conglomerate that is a prime candidate for a sum-of-the-parts separation under new leadership."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market views Honeywell as a cohesive industrial conglomerate and discounts the possibility of a breakup due to fears of tax/pension complexity and loss of diversification benefits. We believe these concerns are overstated and that a spin-off of the Aerospace or non-core segments would unlock significant value by eliminating the conglomerate discount. Under the fresh leadership of CEO Darius Adamczyk, the company is uniquely positioned to execute a structural simplification that the current share price ignores.",
+   "evidence": [
+    "Conglomerate structure creates a valuation discount despite high-quality, distinct segments [D01].",
+    "Market concerns center on potential overhead duplication and pension/tax complications [D05].",
+    "New CEO provides a strategic window to initiate a structural review [D07].",
+    "Strong balance sheet with $7.71bn cash supports the flexibility required for a separation [D04]."
+   ],
+   "peer_benchmark": "Industry pure-play multiples for Aerospace and industrial technology segments are significantly higher than Honeywell’s 17.8x forward P/E [D04, D06].",
+   "what_must_be_true": [
+    "The new CEO is willing to prioritize shareholder value over maintaining conglomerate scale.",
+    "Tax and pension liabilities are manageable within a spin-off structure.",
+    "Operational synergies between segments are proven to be minimal compared to the valuation uplift from separation.",
+    "The board can be persuaded to adopt a constructivist capital allocation plan."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$155.00",
+    "arithmetic": [
+     "Aerospace: $14.2bn run-rate rev * 3.5x EV/Sales = $49.7bn [D06]",
+     "Other Segments: $24.0bn run-rate rev * 2.0x EV/Sales = $48.0bn [D06]",
+     "Gross Value: $97.7bn",
+     "Less Net Debt: $8.16bn [D04]",
+     "Equity Value: $89.54bn / 762.34m shares = $117.45 stub; adjusting for target 20x multiple on $7.75 EPS (2yr forward) = $155.00 [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$115.00",
+    "basis": "Current FCF yield of 5.3% providing solid downside support [D04]"
+   },
+   "current_price": "$124.87 [D04]",
+   "skew": "24% : 8%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Revenue run-rates extrapolated from Q1 2017 results [D06].",
+    "Peer multiple assumptions for sum-of-the-parts calculation."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Conduct a comprehensive portfolio review to evaluate the separation of the Aerospace and non-core industrial businesses [D01, D07]",
+    "Implement a margin expansion plan aligned with pure-play industrial peers [D06]"
+   ],
+   "actors": [
+    "Darius Adamczyk — CEO — New leadership [D01]"
+   ],
+   "governance_route": "Private engagement with the Board and management to propose structural simplification [D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains unresponsive to our private presentation, we will move to a public letter and potentially nominate directors for the upcoming annual cycle [D02]",
+   "why_this_role_fits_the_era": "Aligned with the post-2016 constructivist era of private engagement first with new CEOs, only escalating to public pressure if the initial strategic proposal is ignored [D01, D07]"
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management publicly commits to the current conglomerate structure for the medium term.",
+    "Margin expansion plan fails to materialize or degrades over two consecutive quarters [D06].",
+    "Pension or tax liability analysis confirms the costs of separation outweigh the sum-of-the-parts benefit [D05].",
+    "Macro environment shifts to favor conglomerate hedging over pure-play valuation."
+   ],
+   "portfolio_risk": "Honeywell represents a large-cap industrial exposure; risk overlaps with existing holdings in diversified industrials and aerospace sectors, though provides a hedge against domestic industrial growth [D01]. Liquidity is high, with average daily volume sufficient to exit a core position in approximately 5-10 trading days [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 8,
+    "max": 10
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts on the S&P Industrials (XLI) to mitigate systematic beta and cyclical aerospace exposure.",
+   "biggest_risk_in_one_sentence": "Management remains entrenched in the conglomerate model and fails to address the valuation discount despite our private engagement."
+  }
+ },
+ "final": {
+  "as_of_date": "2017-04-27",
+  "company": "Honeywell International Inc.",
+  "ticker": "HON",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$155.00",
+   "floor": "$115.00",
+   "skew": "24% : 8%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Conduct a comprehensive portfolio review to evaluate the separation of the Aerospace and non-core industrial businesses",
+    "Implement a margin expansion plan aligned with pure-play industrial peers"
+   ],
+   "actors": [
+    "Darius Adamczyk — CEO"
+   ],
+   "governance_route": "Private engagement with the Board and management to propose structural simplification",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Honeywell suffers from a conglomerate discount, masking the value of its high-performing Aerospace and industrial segments [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "A sum-of-the-parts valuation against pure-play industrial multiples suggests an intrinsic value of $155.00 per share [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The transition to new CEO Darius Adamczyk provides a clean window to initiate a structural review and portfolio simplification [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company's strong balance sheet, with $7.71bn in cash and a 5.3% FCF yield, provides both the flexibility for a spin-off and a hard downside floor [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management publicly commits to the current conglomerate structure for the medium term.",
+   "Margin expansion plan fails to materialize or degrades over two consecutive quarters [D06].",
+   "Pension or tax liability analysis confirms the costs of separation outweigh the sum-of-the-parts benefit [D05].",
+   "Macro environment shifts to favor conglomerate hedging over pure-play valuation."
+  ],
+  "what_would_change_our_mind": "Evidence that the structural complexities of separating the pension and tax liabilities render a spin-off value-destructive or if management demonstrates an unwavering commitment to the status quo through capital allocation that precludes separation.",
+  "memo": "Honeywell International is a premier industrial conglomerate that the market currently misprices by tethering high-growth, high-margin assets like Aerospace to a broader, disparate portfolio [D01, D06]. Despite delivering a 5.3% FCF yield, the stock trades at 17.8x forward earnings, failing to reflect the premium multiples commanded by pure-play aerospace and industrial technology peers [D04, D06].\n\nOur sum-of-the-parts analysis indicates that separating the business segments could unlock significant value, justifying a target price of $155.00 [D04, D06]. By benchmarking individual segments—such as the 22.4% margin Aerospace unit—against sector-specific multiples, we see a clear path to narrowing the margin gap and capturing a valuation rerating [D06].\n\nMarket participants are unnecessarily fearful of potential overhead duplication and pension complexities, ignoring the strategic imperative for simplification [D05]. The appointment of Darius Adamczyk as CEO creates a vital, time-bound opportunity to pivot toward a more efficient, focused corporate structure [D01, D07].\n\nWe intend to engage privately with the Board and management to propose a comprehensive portfolio review and advocate for a structural separation [D07]. We expect management to outline a plan within two quarters; should they prove unresponsive, we are prepared to escalate our involvement through public discourse or director nominations [D02, D07].\n\nThe 5.3% FCF yield provides a robust floor near $115.00, limiting our downside while we pursue this asymmetric opportunity [D04]. We will continue to monitor the margin trajectory and pension liability assessments closely as primary triggers for adjusting our thesis [D05, D06].\n\nWe are initiating a position in Honeywell common stock, targeting an 8% weight in our portfolio. This size reflects our conviction in the event-driven upside while we maintain index puts on the XLI to hedge against broader cyclical industrial volatility [D01, D04].",
+  "uncited_claims": []
+ }
+}

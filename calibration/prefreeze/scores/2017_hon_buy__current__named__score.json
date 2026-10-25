@@ -1,0 +1,53 @@
+{
+ "trade_id": "2017_hon_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Strong underlying franchises and capital-deployment capacity supported self-help rather than a distress thesis. → The company’s 5.3% FCF yield and strong balance sheet provide a solid downside floor"
+  ],
+  "missed": [
+   "Separating Aerospace could create more than $20 billion in sustained shareholder value.",
+   "The remaining company would have a clearer industrial growth identity around automation and productivity."
+  ],
+  "extra_agent_drivers": [
+   "Conglomerate structure hides intrinsic value due to complexity",
+   "Sum-of-the-parts valuation suggests $155 target",
+   "New CEO provides immediate catalyst"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Honeywell's sprawling conglomerate structure hides the intrinsic value of high-performing segments",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "sum-of-the-parts valuation implies a target share price of $155.00",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "5.3% FCF yield provides a hard floor near $115.00",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 12,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to engage privately with CEO Darius Adamczyk and the board to initiate a formal strategic review of the conglomerate structure [D01][D07].",
+ "grader_notes": "The agent correctly identified the intent to buy and the core catalyst (separation/strategic review). However, it failed to capture Loeb's specific drivers regarding the $20B value creation and the focus on an 'industrial growth company' identity, relying instead on its own SOTP valuation analysis. The reasoning was closest in its assessment of the downside protection provided by strong financials.",
+ "run": "2017_hon_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

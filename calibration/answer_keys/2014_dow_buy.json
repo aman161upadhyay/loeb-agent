@@ -1,0 +1,52 @@
+{
+  "id": "2014_dow_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Largest investment per January letter; requested $1.3bn not independently recovered from primary excerpt.",
+  "first_action_date": null,
+  "disclosure_date": "2014-01-21",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Andrew Liveris",
+      "Dow board",
+      "independent advisers"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Petrochemicals under-earn despite shale feedstock advantages, indicating a self-help opportunity.",
+      "source": "https://ftalphaville-cdn.ft.com/wp-content/uploads/2014/01/Third-Point-Q4-2013-Investor-Letter-TPOI.pdf (2014-01-21)",
+      "quote": null
+    },
+    {
+      "driver": "Commodity and specialty businesses merit an objective strategic review and potential separation.",
+      "source": "https://ftalphaville-cdn.ft.com/wp-content/uploads/2014/01/Third-Point-Q4-2013-Investor-Letter-TPOI.pdf (2014-01-21)",
+      "quote": "The review should explicitly explore whether separating Dow's petrochemical businesses via a spin-off would drive greater stakeholder value."
+    },
+    {
+      "driver": "Transparent transfer pricing and operating benchmarks expose cross-subsidy and accountability gaps.",
+      "source": "https://ftalphaville-cdn.ft.com/wp-content/uploads/2014/01/Third-Point-Q4-2013-Investor-Letter-TPOI.pdf (2014-01-21)",
+      "quote": null
+    },
+    {
+      "driver": "A stronger balance sheet and disciplined capital return complement operating improvement.",
+      "source": "https://ftalphaville-cdn.ft.com/wp-content/uploads/2014/01/Third-Point-Q4-2013-Investor-Letter-TPOI.pdf (2014-01-21)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Letter models future petrochemical EBITDA >$9bn and specialty $4–5bn; not 2013 actual profits or execution multiple.",
+  "outcome_note": "November 2014 independent-director agreement; position evolved into merger/breakup sequence. Final original-lot P&L unknown.",
+  "sources": [
+    "https://ftalphaville-cdn.ft.com/wp-content/uploads/2014/01/Third-Point-Q4-2013-Investor-Letter-TPOI.pdf",
+    "https://www.sec.gov/Archives/edgar/data/29915/000002991513000031/ex991dow09302013er.htm"
+  ],
+  "pack_quality_notes": "Grade B. Same-day disclosure excluded from docs to avoid revealing action. Exact $1.3bn request not certified; daily close/AUM and complete independent SOTP missing. Plan separates specialty from integrated petrochemical chain, not upstream from downstream. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

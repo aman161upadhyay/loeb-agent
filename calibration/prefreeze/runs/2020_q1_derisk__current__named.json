@@ -1,0 +1,53 @@
+{
+ "pack": "2020_q1_derisk",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2020-03-16",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-03-16",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The WHO has declared a pandemic [D01], and the Federal Reserve has initiated emergency interventions, signaling severe market disruption and liquidity stress [D01, D03]. Market volatility (VIX) has reached 82.69 and high-yield spreads have widened 478bp since year-end, reflecting a rapid collapse in financing conditions [D02, D04].",
+  "book_exposure": "As of February 29, 2020, total portfolio gross exposure was 174.3% (139.0% long / 35.3% short), with a net exposure of 103.7% [D02].",
+  "actions": [
+   "Reduce gross equity exposure across cyclicals, specifically in Aerospace, travel, and autos, to preserve liquidity [D01]",
+   "Trim or exit long positions in consumer discretionary and industrial sectors where revenue is not durable or relies on financing availability [D01, D06]",
+   "Maintain or increase hedge effectiveness against further systemic liquidity shocks, despite potential volatility in short positions [D05]"
+  ],
+  "target_gross_net": "Significant reduction in gross and net exposure to prioritize capital preservation and liquidity in an uncertain regime.",
+  "drivers": [
+   {
+    "driver": "The onset of a global pandemic and extreme market volatility necessitates immediate reduction of gross exposure to avoid forced selling [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "High-yield spread widening and Fed emergency measures confirm a liquidity regime shift that renders previous event-driven long theses secondary to solvency [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Concentration in cyclicals and event-driven equities creates excessive risk in a market where transaction financing may evaporate [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Lessons from 2008 underscore the imperative to cut gross exposure early when liquidity, rather than just valuation, becomes the primary risk [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "We are operating in a regime of extreme, systemic liquidity risk. The WHO’s pandemic declaration [D01] and the Federal Reserve’s emergency response [D03] are not mere market signals; they indicate a synchronized, global interruption of economic activity that threatens to overwhelm even the most robust event-driven theses. When financing markets freeze, a merger or separation catalyst is secondary to the fund's ability to maintain liquidity and meet obligations [D01, D05].\n\nOur current gross exposure of 174.3% [D02] is too high for a market characterized by an 82.69 VIX and massive high-yield spread widening [D04]. We are cutting exposure in sensitive sectors—aerospace, travel, and autos—where revenue streams are essentially halted and refinancing risk is paramount [D01]. We will not be caught in a cycle of forced selling. The strategy now is defensive: prioritize liquidity, preserve capital, and test every remaining long for its ability to generate cash independent of market-wide financing [D01, D05].\n\nWe hold our constructivist conviction, but we recognize that without liquidity, there is no event to play. We will exit positions quickly where the thesis breaks due to funding expiration, rather than waiting for price recovery [D05]. We are acting to protect the NAV, not to guess the bottom of the macro cycle.",
+  "uncited_claims": []
+ }
+}

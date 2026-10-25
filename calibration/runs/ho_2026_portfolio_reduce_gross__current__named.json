@@ -1,0 +1,50 @@
+{
+ "pack": "ho_2026_portfolio_reduce_gross",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2026-01-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-01-30",
+  "decision": "HEDGE",
+  "conviction": "medium",
+  "regime_evidence": "Market leadership is highly concentrated in AI-related themes, presenting a risk of correlated liquidation [D03], [D05]. Current equity-market valuations are elevated (27.98x trailing P/E) [D04], while Treasury yields (4.26% on 10-year) provide a competitive opportunity cost [D04].",
+  "book_exposure": "As of December 31, 2025, total equity gross exposure was 168.4% with 71.6% net; credit net exposure was 34.2% [D02].",
+  "actions": [
+   "Increase index-level hedges to neutralize concentration risk in the AI/hyperscaler long book [D05].",
+   "Reduce gross exposure by trimming highly correlated thematic winners that have reached valuation targets [D01], [D05].",
+   "Maintain high-conviction event-driven credit and equity positions while monitoring liquidity and factor sensitivity [D01], [D02]."
+  ],
+  "target_gross_net": "Targeting a reduction in gross equity exposure to below 160% and maintaining net equity exposure near 60-65% to protect against potential market corrections [D01], [D02].",
+  "drivers": [
+   {
+    "driver": "Mitigate correlated drawdown risk from highly concentrated AI-thematic long positions [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "High S&P 500 trailing earnings multiple suggests limited margin for error in a slowing earnings growth environment [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Increase portfolio liquidity to preserve capital for future event-driven opportunities [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Protect against potential financing risk if market volatility increases [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We remain constructive on our core earnings-inflection thesis, yet the current market tape demands discipline. Our portfolio is currently weighted toward concentrated AI-linked winners, a theme that has delivered returns but now carries significant correlation risk [D03], [D05]. When individual winners share a single capital-spending and momentum factor, diversification becomes an illusion; a sell-off in one can trigger a liquidity-driven liquidation across the entire basket [D05].\n\nGiven the S&P 500's trailing multiple of nearly 28x and the tightening equity risk premium against the 10-year Treasury, the risk-reward skew has narrowed [D04]. We are moving to HEDGE, not out of a lack of conviction in our individual event-driven catalysts, but to ensure that our gross exposure does not leave us vulnerable to a thematic squeeze [D01], [D05]. We will trim winners that have hit our valuation targets and deploy index-level protection to anchor the portfolio against broad market volatility [D01], [D04]. This is a defensive recalibration to ensure we remain liquid and ready to capitalize when the inevitable regime volatility creates a wider discount in our target names.",
+  "uncited_claims": []
+ }
+}

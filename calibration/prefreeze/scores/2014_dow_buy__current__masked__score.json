@@ -1,0 +1,64 @@
+{
+ "trade_id": "2014_dow_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Commodity and specialty businesses merit an objective strategic review and potential separation. → We intend to engage the board via a public letter during their ongoing strategic review to demand a formal, full-scale separation [D03].",
+   "Petrochemicals under-earn despite shale feedstock advantages, indicating a self-help opportunity. → While it benefits from favorable North American feedstock economics, its true potential is suffocated by a bloated structure and a 2.1% net margin that pales in comparison to peers [D01, D06]."
+  ],
+  "missed": [
+   "Transparent transfer pricing and operating benchmarks expose cross-subsidy and accountability gaps.",
+   "A stronger balance sheet and disciplined capital return complement operating improvement."
+  ],
+  "extra_agent_drivers": [
+   "The Company is a classic conglomerate discount story",
+   "We have identified a clear path to $62.50 per share",
+   "The ongoing strategic review provides the perfect governance opening"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company's net margin of 2.1% is abysmal compared to peer benchmarks like DuPont at 13.9% and LyondellBasell at 12.9%.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Company is a classic conglomerate discount story.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The $42.00 floor supported by underlying book value and feedstock advantages provides a robust cushion.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We intend to engage the board via a public letter during their ongoing strategic review to demand a formal, full-scale separation.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market currently misprices the asset, fearing that separation would destroy integration benefits.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 7,
+  "share": 0.58
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to engage the board via a public letter during their ongoing strategic review to demand a formal, full-scale separation [D03].",
+ "grader_notes": "The agent correctly identified the core catalyst (structural separation) and the underlying economic driver (under-earning petrochemicals). The reasoning diverged where the agent focused heavily on a specific SOTP valuation model and conglomerate discount terminology, whereas Loeb's primary drivers emphasized specific accounting gaps (transfer pricing) and balance sheet discipline.",
+ "run": "2014_dow_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

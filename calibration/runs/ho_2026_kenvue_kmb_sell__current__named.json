@@ -1,0 +1,54 @@
+{
+ "pack": "ho_2026_kenvue_kmb_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2026-01-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-01-30",
+  "company": "Kenvue",
+  "ticker": "KVUE",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Original operating thesis: Event-driven value in consumer-health brand owner [D01].",
+   "Transition: Definitive acquisition agreement with Kimberly-Clark announced November 3, 2025 [D01, D07].",
+   "Status: Thesis is intact as an event-driven merger arbitrage/strategic acquisition play [D03, D07]."
+  ],
+  "remaining_skew": "Market-implied gross spread of 4.16% at January 30 prices [D04]; upside exists if transaction closes as agreed while managing integration and financing risks [D05].",
+  "next_catalyst_and_timing": "Regulatory and shareholder approvals; transaction closure timeline [D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The definitive acquisition agreement announced on November 3, 2025, provides a clear structural event for the investment [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The position functions as event-driven exposure rather than a standalone operating equity, justifying a HOLD through the merger process [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Market-implied spread reflects current deal consideration of $3.50 cash plus 0.14625 Kimberly-Clark shares [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Ongoing monitoring focuses on execution risks including financing and regulatory clearance, which have not yet broken the thesis [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "Our investment in Kenvue has transitioned from a standalone event-driven operating thesis to a merger-arbitrage play following the November 3, 2025, definitive acquisition agreement with Kimberly-Clark [D01, D07]. The deal, structured as $3.50 in cash plus 0.14625 Kimberly-Clark shares, creates a clear, observable event path [D04]. We remain focused on the deal consideration and the progress of regulatory and shareholder approvals, rather than the standalone volatility of the consumer-health sector [D03, D07].\n\nWhile the market-implied gross spread is 4.16% as of January 30, this reflects the current valuation of the acquisition consideration [D04]. The primary risks—merger execution, potential financing hurdles, and integration challenges—remain within the scope of our original underwriting for this event-driven exposure [D05]. We acknowledge the skeptic’s view that merger risk can offset the defensive brand value, but the current facts do not indicate a broken thesis requiring immediate exit [D05, D166]. We continue to hold while tracking the contractual event calendar [D07].",
+  "uncited_claims": []
+ }
+}

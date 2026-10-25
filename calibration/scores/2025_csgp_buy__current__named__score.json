@@ -1,0 +1,53 @@
+{
+ "trade_id": "2025_csgp_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Homes.com spending obscured the core and required capital-allocation discipline → A rationalization of the residential segment’s burn rate would immediately reveal a significantly more profitable enterprise than the market currently rewards at its 233x trailing P/E"
+  ],
+  "missed": [
+   "The Bloomberg of commercial real estate possessed recurring data and marketplace economics with pricing power.",
+   "Independent board expertise and oversight could improve returns on investment and accountability."
+  ],
+  "extra_agent_drivers": [
+   "High-margin compounder characteristics similar to MSCI",
+   "Founder-CEO control as a barrier to near-term governance",
+   "Net cash floor valuation support"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at a distressed GAAP margin of 0.17% due to residential spending",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Core commercial information products generate 43% margins",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A $3.689 billion net cash position",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "As we lack an actionable governance route to enforce this change, we are passing on the opportunity.",
+ "grader_notes": "The agent correctly identified the residential spending as an earnings headwind and the potential for improved capital allocation, aligning with one of Loeb's drivers. However, the agent reached the opposite conclusion on the trade (PASS vs BUY) and completely missed the core strategic drivers related to the business's 'Bloomberg-like' quality and the role of independent board oversight, which were central to Loeb's actual activist intervention.",
+ "run": "2025_csgp_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

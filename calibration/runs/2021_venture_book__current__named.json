@@ -1,0 +1,53 @@
+{
+ "pack": "2021_venture_book",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2021-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2021-01-31",
+  "company": "Upstart Holdings, Inc.",
+  "ticker": "UPST",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Venture relationship / lifecycle familiarity: intact [D01]",
+   "AI model credit-risk pricing efficacy: intact, pending cohort performance verification [D03]",
+   "Marketplace fee-based distribution model: intact, dependent on continued bank/investor demand [D01]"
+  ],
+  "remaining_skew": "Current valuation reflects significant post-IPO appreciation to ~$4.5bn market cap; upside remains contingent on proven sustainable fee-revenue growth and credit-cycle resilience vs. downside risk from potential model failure in untested environments [D03, D04]",
+  "next_catalyst_and_timing": "First full-year earnings reporting following IPO to provide transparency on loan cohorts and funding stability [D03, D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The company is a known venture holding with a differentiated AI-underwriting platform, maintaining its core value proposition post-IPO [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Recent Q3 2020 results showed strong revenue growth and margin expansion, validating the initial operating thesis [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The stock has experienced rapid post-IPO appreciation, necessitating disciplined monitoring of valuation vs. fundamentals rather than immediate exit or expansion [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Key risks remain regarding credit-cycle performance of the AI model and funding concentration; we retain the position to observe post-IPO reporting consistency [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Our investment in Upstart began in the venture stage, providing us with a deep understanding of their AI-driven credit-underwriting technology [D01]. Unlike a transient public-market bet, this position reflects our comfort with the company’s ability to improve approval and loss outcomes via its partner-bank ecosystem [D01]. \n\nFollowing the IPO, the business has demonstrated promising operating momentum, with Q3 2020 revenues reaching $65.36 million, a 32.1% increase over the prior-year period [D03]. Operating margins have improved significantly, though we remain focused on the durability of this fee-based model through a full credit cycle [D03, D06]. \n\nThe rapid rerating of the share price to $62.19, roughly three times the IPO price, has reduced the immediate margin of safety [D04]. While we are pleased with the market’s reception, we are not adding at these levels; we prefer to wait for additional public disclosures regarding loan-cohort performance and funding stability before sizing up [D03, D05]. We maintain a HOLD position to allow the management team to execute against their stated objectives while we monitor the risks of model sensitivity in untested economic conditions [D03, D05].",
+  "uncited_claims": []
+ }
+}

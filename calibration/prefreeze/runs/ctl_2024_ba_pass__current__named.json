@@ -1,0 +1,265 @@
+{
+ "pack": "ctl_2024_ba_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2024-01-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Boeing manufactures commercial aircraft, defense systems, and related services [D01]. The business is currently focused on an installed fleet and long order backlog, with performance dependent on resolving acute quality/safety shocks and normalizing deliveries to convert backlog to cash [D01].",
+   "segments_and_separable_assets": [
+    "Commercial Airplanes: Q3 2023 revenue $7.876bn, -8.6% operating margin, 105 deliveries, $392bn backlog [D06]",
+    "Defense, Space & Security: Q3 2023 revenue $5.481bn, -16.9% operating margin, $58bn backlog [D06]",
+    "Global Services: Q3 2023 revenue $4.747bn, 18.3% operating margin, $18bn backlog [D06]"
+   ],
+   "economics_vs_peers": [
+    "Lockheed Martin (FY2022): 12.7% operating margin, -1.6% growth [D06]",
+    "General Dynamics (FY2022): 10.7% operating margin, +2.4% growth [D06]",
+    "Boeing Q3 2023 consolidated margin was -4.5%, representing a significant margin gap compared to peer defense contractors [D03, D06]"
+   ],
+   "capital_structure": [
+    "Gross debt: $52.3bn as of September 30, 2023 [D03, D04]",
+    "Cash and marketable securities: $13.4bn as of September 30, 2023 [D03, D04]",
+    "Net debt: $38.9bn [D04]",
+    "Dividends: Suspended since March 2020 [D02, D04]"
+   ],
+   "price_and_valuation": [
+    "Price (Jan 8, 2024): $229.00 [D04]",
+    "Market cap: ~$138.54bn [D04]",
+    "Enterprise value: ~$177.44bn [D04]",
+    "FY2022 FCF yield: 1.65% [D04]",
+    "Trailing P/E: NM (losses) [D04]",
+    "P/B: NM (negative equity) [D04]"
+   ],
+   "management_board_governance": [
+    "CEO: Dave Calhoun [D01, D07]",
+    "Board/Governance: Not in pack",
+    "Prior activist history: Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares: 604.977m [D04]",
+    "Short interest: Not in pack",
+    "Average daily volume: Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Catalyst: January 5, 2024 Alaska Airlines door-plug incident and subsequent FAA grounding of 171 MAX 9 aircraft [D03, D07]",
+    "Required evidence: Approved inspections, return to service, and durable production-quality control milestones [D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Systemic quality and certification failures [D05]",
+    "Regulatory production constraints and delivery delays [D05, D07]",
+    "Customer compensation and cash consumption [D05, D07]",
+    "Seniority of debt/obligations relative to common equity [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": "not in pack",
+   "recent_events": [
+    "October 25, 2023: Q3 earnings release [D03, D07]",
+    "January 5, 2024: Alaska Airlines MAX 9 door-plug incident [D03, D07]",
+    "January 8, 2024: FAA grounds 171 MAX 9 aircraft; shares decline 8% [D03, D07]"
+   ],
+   "third_point_context": [
+    "Third Point Q3 2023 13F: Reportable securities total $6.593bn [D08]",
+    "Existing stake: Not in pack",
+    "Sector exposure: No other aerospace/defense holdings disclosed in D08"
+   ],
+   "document_conflicts": [
+    "Debt: FY2022 gross debt cited as $57.0bn [D02] vs Q3 2023 gross debt of $52.3bn [D03, D04]"
+   ],
+   "missing_data": [
+    "Current firm AUM, net exposure, and specific hedge ratios for Third Point [D08]; precise 2023/2024 liquidity measures; post-incident consensus earnings revisions; board nomination windows"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company faces an acute quality/safety shock necessitating a rigorous overhaul of production-quality controls to convert its $392bn commercial backlog into cash [D01, D03, D07]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The thesis depends on a multi-year operational turnaround under regulatory oversight with no clear separable asset, capital-return capacity, or board-level governance path identified [D01, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "The board and governance specifics are not in the pack, and there is no evidence of an actionable governance route or settlement precedent [D01]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The company faces systemic quality failures and regulatory production constraints, and the negative equity position and $52.3bn gross debt make the equity floor unreliable during a safety-related grounding [D03, D04, D05, D07]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$138.54bn and significant trading activity, Third Point can build a position within its $300M-$3.5B mandate [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on a long roadmap of operational and quality execution under intense regulatory scrutiny, which constitutes an unproven turnaround effort [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [
+    "Debt: Used $52.3bn Q3 2023 gross debt [D03, D04] over FY2022 figure [D02] as it is the most recent data point."
+   ],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The event is a production and quality crisis requiring extensive remediation, but Third Point lacks a differentiated edge to force the necessary operational changes or ensure downside protection.",
+   "one_line_verdict": "a complex operational turnaround with systemic safety issues and no clear governance path for intervention"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market currently prices the equity at a discount due to acute quality control failures and resulting regulatory grounding of the MAX 9 fleet. While the margin gap relative to peers is significant, this is a systemic operational and safety crisis rather than a simple mispricing, and we lack a clear catalyst to force a turnaround. The current price reflects the high degree of uncertainty regarding cash consumption and regulatory outcomes, which we cannot refute given the information available.",
+   "evidence": [
+    "Systemic quality and certification failures necessitate an overhaul of production-quality controls [D01, D05].",
+    "FAA grounding of 171 MAX 9 aircraft creates immediate delivery delays and potential customer compensation liabilities [D03, D07].",
+    "Consolidated operating margin of -4.5% compared to peer defense contractors demonstrates a substantial margin gap [D03, D06]."
+   ],
+   "peer_benchmark": "Lockheed Martin (12.7% operating margin) and General Dynamics (10.7% operating margin) [D06].",
+   "what_must_be_true": [
+    "Successful resolution of FAA safety audits and return to service for the grounded fleet.",
+    "Stabilization of manufacturing quality controls to prevent future production stops.",
+    "Ability to convert the $392bn commercial backlog into cash without further capital raises or excessive dilution.",
+    "Clear path to narrowing the operating margin gap with aerospace/defense peers."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Market Cap: $138.54bn [D04]",
+     "Net Debt: $38.9bn [D04]",
+     "Enterprise Value: $177.44bn [D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "Negative",
+    "basis": "Negative equity and high net debt of $38.9bn [D04]"
+   },
+   "current_price": "$229.00 [D04]",
+   "skew": "Unknown : High",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "No edge found due to lack of visibility on regulatory outcomes and quality control resolution [Gate 2]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Not applicable [Gate 1]"
+   ],
+   "actors": [
+    "Dave Calhoun — CEO — Stance: Unknown [D01, D07]"
+   ],
+   "governance_route": "Not in pack [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "Not applicable; the investment is a PASS due to lack of edge and excessive operational risk.",
+   "why_this_role_fits_the_era": "Third Point prioritizes event-driven situations with a clear catalyst and edge. As identified in Gate 1 and Gate 2, this is a systemic operational and safety crisis where we lack an actionable governance path or differentiated visibility, necessitating a PASS rather than intervention."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent impairment of production certifications by the FAA",
+    "Evidence of systemic, non-remediable manufacturing culture failure",
+    "Requirement for material equity dilution to service debt load",
+    "Protracted grounding of the 737 MAX fleet beyond 6 months"
+   ],
+   "portfolio_risk": "High exposure to industrial and quality-control risk; limited overlap with current 13F holdings [D08]; limited downside protection due to negative equity [D04].",
+   "instrument": "none",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "We lack an actionable governance path to force the structural and cultural changes required to solve systemic quality failures, making the downside floor unreliable."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-01-08",
+  "company": "Boeing",
+  "ticker": "BA",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "N/A",
+   "floor": "Negative",
+   "skew": "Unknown : High",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "Not applicable"
+   ],
+   "actors": [
+    "Dave Calhoun"
+   ],
+   "governance_route": "Not in pack",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company is undergoing an acute, systemic production and safety crisis following the Alaska Airlines door-plug incident and subsequent FAA grounding of 171 MAX 9 aircraft [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "We lack an actionable edge or identified governance path to force the operational and cultural changes necessary to convert a $392bn commercial backlog into reliable cash flow [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The business operates with a significant margin gap relative to peers like Lockheed Martin and General Dynamics, with consolidated operating margins at -4.5% as of Q3 2023 [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The downside floor is unreliable due to the company's negative equity position and $52.3bn of gross debt, which creates excessive risk during a prolonged safety-related grounding [D03, D04, D07].",
+    "citations": [
+     "D03",
+     "D04",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent impairment of production certifications by the FAA",
+   "Evidence of systemic, non-remediable manufacturing culture failure",
+   "Requirement for material equity dilution to service debt load",
+   "Protracted grounding of the 737 MAX fleet beyond 6 months"
+  ],
+  "what_would_change_our_mind": "Evidence of stabilized manufacturing quality controls, a clear regulatory path to full fleet return-to-service, and the emergence of an identifiable governance intervention that provides an asymmetric risk-reward profile.",
+  "memo": "Boeing is a foundational aerospace manufacturer currently mired in a systemic quality and safety crisis that obscures the value of its $392bn commercial backlog [D01, D03, D07]. The market is correctly pricing in the uncertainty surrounding the recent FAA grounding of 171 MAX 9 aircraft, which threatens to disrupt cash conversion and further erode shareholder equity [D03, D05, D07].\n\nWhen viewed against peer defense contractors like Lockheed Martin and General Dynamics, which maintain operating margins of 12.7% and 10.7% respectively, Boeing’s consolidated -4.5% margin reveals a profound operational deficit [D03, D06]. While the scale of the business is massive, the current earnings power is negative, and there is no simple sum-of-the-parts math that compensates for the immediate regulatory and operational risks [D04, D06].\n\nOur investment process requires an identifiable event with a clear edge and a visible path to a 20-30% IRR; here, the path depends on a multi-year turnaround under intensive regulatory oversight [D01, D07]. We lack an actionable governance route to intervene in the company’s management or board structure, leaving us without a mechanism to force the necessary cultural and production changes [D01, D07].\n\nGiven the $52.3bn gross debt load and the precarious state of the equity, the margin of safety is insufficient to justify an entry during this period of high volatility [D03, D04, D07]. We choose to pass on the opportunity, as the lack of a hard floor and the speculative nature of the operational recovery do not meet our criteria for a core event-driven position [D01, D03, D07].",
+  "uncited_claims": [
+   "None"
+  ]
+ }
+}

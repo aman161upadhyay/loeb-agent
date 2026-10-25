@@ -1,0 +1,246 @@
+{
+ "pack": "ctl_2016_groupon_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2016-10-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Groupon connects consumers with local merchants through discounted offers and operates Goods activities [D01]. The core of the business is a local-commerce network, with management currently pursuing a turnaround strategy focused on local activity and operating leverage [D01].",
+   "segments_and_separable_assets": [
+    "Local: North American Local billings grew 9% in Q2 2016 [D03].",
+    "Goods: Operates physical inventory and retail discounting [D01, D06].",
+    "Cash: $780.1 million in unrestricted cash as of June 30, 2016 [D04]."
+   ],
+   "economics_vs_peers": [
+    "Groupon Q2 2016 operating margin was -5.7% [D06].",
+    "Peers (FY2015): eBay (25.6% operating margin), Amazon (2.1% operating margin), TripAdvisor (15.5% operating margin) [D06].",
+    "Groupon's revenue includes gross physical goods sales vs. net marketplace fees for some peers [D06]."
+   ],
+   "capital_structure": [
+    "$250 million principal in convertible notes issued April 4, 2016 [D04].",
+    "$780.1 million unrestricted cash [D04].",
+    "No dividend policy [D04].",
+    "Debt/leverage/covenants: not in pack."
+   ],
+   "price_and_valuation": [
+    "Share price: $5.17 (Oct 10, 2016) [D04].",
+    "Market cap: ~$2.97 billion [D04].",
+    "Enterprise value: ~$2.44 billion [D04].",
+    "FY2015 FCF yield: ~5.75% [D04].",
+    "P/E: NM [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Rich Williams, leading the turnaround [D01].",
+    "Staggered board/pill/nomination window: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 574.590 million [D04].",
+    "Top holders/index ownership: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Identifiable catalyst is improvement in local activity and operating leverage under Rich Williams [D01].",
+    "No signed sale agreement [D01]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Marketing expense may drive headline growth without profitable retention [D05].",
+    "Discounts may attract deal-seekers rather than durable merchant relationships [D05].",
+    "Goods inventory and international restructuring may consume cash [D05].",
+    "Reported net losses [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": "not in pack",
+   "recent_events": [
+    "Q2 2016 earnings released July 27, 2016 [D03].",
+    "Amended Q2 10-Q filed August 5, 2016 [D03]."
+   ],
+   "third_point_context": [
+    "Third Point reported $10.492 billion in securities in Q2 13F [D08].",
+    "Existing stake: not in pack."
+   ],
+   "document_conflicts": [
+    "Revenue growth/figures in D02 vs D03: D02 reports 2015 revenue of $3,119.5m; D03 reports Q2 2016 revenue of $756m vs $738.4m prior year."
+   ],
+   "missing_data": [
+    "Actual gross/net exposure for Third Point, debt covenants, current consensus estimates, and granular segment-level EBITDA."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The turnaround strategy is a multi-year operational plan with no clear separable assets or governance-driven catalyst identified [D01]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The investment relies on a long-term management turnaround without differentiated Third Point insight or a clear path to value realization [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Information on board structure, nomination windows, and shareholder receptivity is missing, and no specific activist asks are defined [D01, D04]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The business operates with negative margins and faces structural risks regarding profitability, marketing spend, and inventory, failing the melting ice cube discipline test [D05, D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$2.97 billion and sufficient float, Third Point could build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis depends on unproven management executing a multi-year operational roadmap, which constitutes a trade-only scenario per the 2022 Intel/Turnaround rule [D01]."
+    }
+   },
+   "conflicts_resolved": [
+    "D02 vs D03: Used D03 for the most recent quarterly growth context to assess current turnaround progress."
+   ],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The business lacks a definable event or catalyst to bridge the margin gap, representing an unproven operational turnaround without a margin of safety.",
+   "one_line_verdict": "a low-margin business in a secularly challenged space relying solely on an unproven long-term operational turnaround."
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market correctly identifies that Groupon is a low-margin, capital-intensive business struggling with a lack of profitability and structural headwinds [D05, D06]. We find no evidence of a tangible catalyst or separable asset that would unlock value, and the current management-led turnaround is speculative at best [D01]. Without a clear path to material earnings improvement or structural change, the business does not meet our event-driven investment threshold [D01].",
+   "evidence": [
+    "Operating margin of -5.7% versus significantly higher peer benchmarks [D06].",
+    "Lack of identifiable event or governance-driven catalyst [D01].",
+    "Business model concerns regarding marketing spend and customer retention [D05]."
+   ],
+   "peer_benchmark": "TripAdvisor (15.5% operating margin) and eBay (25.6% operating margin) [D06].",
+   "what_must_be_true": [
+    "Immediate cessation of capital-draining activities.",
+    "Evidence of sustainable, non-promotional customer retention.",
+    "Concrete shift toward a pure, high-margin marketplace model.",
+    "Active board engagement or strategic review to address valuation gap."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Market cap $2.97B [D04]",
+     "Net cash ~$0.53B ($780.1M cash - $250M debt) [D04]",
+     "EV ~$2.44B [D04]"
+    ],
+    "horizon_years": 0
+   },
+   "floor": {
+    "value": "$0.92 per share",
+    "basis": "Net cash per share ($530M / 574.59M shares) [D04]"
+   },
+   "current_price": "$5.17 [D04]",
+   "skew": "N/A : N/A",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "No catalyst or identifiable path to sustainable profitability found to support upside targets"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "not in pack",
+   "timetable_quarters": 0,
+   "escalation_path": "n/a",
+   "why_this_role_fits_the_era": "The situation is a PASS. There is no event, no catalyst, and no edge in the business, which contradicts our requirement for an event-driven investment [D01, D06]. As we do not hold and will not initiate a position, no action is required."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Lack of clear event or catalyst for value realization [D01]",
+    "Persistent negative operating margins versus peer benchmarks [D06]",
+    "Execution failure of the long-term operational turnaround plan [D01]",
+    "Inability to achieve sustainable, profitable customer retention [D05]"
+   ],
+   "portfolio_risk": "High overlap with general retail and tech-turnaround exposure; no significant liquidity constraints given the $2.97B market cap, but the lack of an event makes this a 'value trap' risk [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The thesis relies on an unproven operational turnaround in a low-margin, capital-intensive business without a defined catalyst to bridge the valuation gap."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-10",
+  "company": "Groupon",
+  "ticker": "GRPN",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "N/A",
+   "floor": "$0.92 per share",
+   "skew": "N/A : N/A",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "not in pack",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "Groupon operates as a low-margin business in a secularly challenged space, failing our requirement for a clear event-driven catalyst [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The current investment thesis relies entirely on an unproven long-term operational turnaround rather than a definable event or separable asset [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Operating margins of -5.7% compare poorly to marketplace peers such as eBay at 25.6% and TripAdvisor at 15.5% [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Significant structural risks remain regarding marketing spend efficiency, inventory management, and the ability to retain customers profitably [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Lack of clear event or catalyst for value realization",
+   "Persistent negative operating margins versus peer benchmarks",
+   "Execution failure of the long-term operational turnaround plan",
+   "Inability to achieve sustainable, profitable customer retention"
+  ],
+  "what_would_change_our_mind": "A fundamental shift toward a high-margin pure-play marketplace model with verifiable evidence of sustainable, non-promotional customer retention and active board engagement to unlock value.",
+  "memo": "Groupon connects consumers with local merchants through discounted offers and a broader Goods business, yet the company currently functions as a low-margin, capital-intensive operation with a -5.7% operating margin [D01, D06]. We find no evidence of a tangible catalyst or separable asset that would bridge the performance gap between Groupon and superior marketplace peers like eBay, which maintains a 25.6% operating margin [D06].\n\nThe market’s skepticism is well-founded, as the current thesis rests on an unproven, multi-year operational turnaround led by management [D01]. Without a specific, event-driven catalyst or a clear governance-led path to value realization, the stock represents a speculative bet on execution rather than an opportunistic investment with an identifiable margin of safety [D01, D05].\n\nOur investment discipline requires an event-driven catalyst that provides a 2-3:1 risk/reward skew, which is absent here [D01]. Given the reliance on unproven operational improvements and the persistent structural headwinds facing the business model, we elect to pass [D01, D06].",
+  "uncited_claims": []
+ }
+}

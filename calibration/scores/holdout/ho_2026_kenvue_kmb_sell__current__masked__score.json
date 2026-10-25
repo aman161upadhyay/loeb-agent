@@ -1,0 +1,47 @@
+{
+ "trade_id": "ho_2026_kenvue_kmb_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The manager says the Kimberly-Clark exposure, described as successor to the prior Kenvue position, was completely exited in February.",
+   "Demand for defensive securities provided a favorable exit opportunity.",
+   "The exposure cuts followed target attainment or factor rotation rather than a stated change in company fundamentals."
+  ],
+  "extra_agent_drivers": [
+   "The position is an event-driven trade following a definitive merger agreement, where the primary catalyst is the successful closing of the transaction.",
+   "The current market price reflects a 4.16% gross spread, which compensates for execution and financing risk rather than offering substantial excess value.",
+   "As an event-driven investment, the strategy is to hold through the pending transaction while monitoring for any integration or financing risks that could jeopardize the deal."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "definitive agreement signed November 3, 2025",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "market pricing reflects a modest gross spread of 4.16%",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We are currently holding the position as the market pricing reflects a modest gross spread of 4.16%, which accounts for the inherent risks of merger execution and financing [D04].",
+ "grader_notes": "The agent failed to capture the actual event, which was a full exit of the position, incorrectly identifying it as a hold for a merger spread. The reasoning provided by the agent pertains to an event-driven merger thesis that is completely disconnected from the actual driver of the exit (factor rotation and defensive demand).",
+ "run": "ho_2026_kenvue_kmb_sell__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

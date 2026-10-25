@@ -1,0 +1,60 @@
+{
+ "pack": "2005_star_gas_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2005-02-13",
+ "stages": {},
+ "final": {
+  "as_of_date": "2005-02-13",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "original thesis: recovery after distribution suspension [D07], [D08]",
+   "now: broken - operational performance is deteriorating with significant customer attrition, and there is no completed leadership remedy despite private engagement [D03], [D07]"
+  ],
+  "remaining_skew": "downside risk is high due to potential consumption of asset cushion by secured creditors; upside depends on immediate leadership and operational turnaround [D04], [D05]",
+  "next_catalyst_and_timing": "the peak January–March heating season and the 360-day asset-sale covenant use-of-proceeds period [D03], [D07]",
+  "asks_if_escalating": [
+   "immediate board refresh to address failed service centralization and operational mismanagement",
+   "comprehensive strategic review to stop value destruction",
+   "clarity on capital allocation regarding the propane disposal proceeds"
+  ],
+  "drivers": [
+   {
+    "driver": "operational mismanagement evidenced by significant customer attrition and service-centralization failures",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "suspension of common distributions and continued operating losses in the core business",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "lack of a credible leadership remedy in the current operating update",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "risk that secured creditors will consume the remaining asset cushion before common unitholders receive value",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Our investment in the Company, thesis-ed on a turnaround following the distribution suspension, is being severely tested by management's inability to execute. Recent results confirm that the centralization of service and dispatch was a disaster, leading to annual attrition of 6.5%—a staggering increase from 1.3% in fiscal 2003 [D02], [D03]. With retail volume falling 14.9% and losses mounting, the current leadership has provided no credible path to stabilize the franchise [D03], [D07].\n\nWe have historically engaged privately, but our patience is not infinite when the business is hemorrhaging customers and margins are under extreme pressure from wholesale cost volatility [D03], [D08]. The propane sale, while providing liquidity, does not excuse the lack of operational focus; furthermore, with 10.25% notes and restrictive covenants in place, the margin for error is razor-thin [D02], [D04]. Secured creditors are positioned to capture value should this decline continue, leaving little for the common unitholders [D04], [D05].\n\nWe are moving to ESCALATE. We will not sit by while management hides behind stale guidance and fails to address the underlying structural rot in the distribution business. The next few months, covering the tail end of the peak heating season and the use-of-proceeds window, are critical [D03], [D07]. If the board is unwilling to implement a swift turnaround and leadership change, we will take our case directly to the other unitholders to ensure this asset is managed for value rather than further destruction [D07], [D08].",
+  "uncited_claims": []
+ }
+}

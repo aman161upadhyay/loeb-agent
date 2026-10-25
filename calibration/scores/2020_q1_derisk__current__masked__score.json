@@ -1,0 +1,63 @@
+{
+ "trade_id": "2020_q1_derisk",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The fund had assigned inadequate probability to a full global pandemic.",
+   "Concentrated and correlated cyclical exposures amplified shutdown losses.",
+   "Reducing equity exposure and preserving liquidity allowed rotation into more asymmetric credit."
+  ],
+  "extra_agent_drivers": [
+   "A synchronized global shutdown renders existing earnings guidance and cyclical valuation multiples obsolete",
+   "Correlated markdowns in equity and credit demand immediate liquidity to preserve fund solvency and meet potential obligations",
+   "Financing market impairment creates a risk that sound fundamental theses fail simply due to a lack of available capital",
+   "Historically low volatility and tight spreads at year-end provided no buffer for the current market plumbing crisis"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The WHO declared a pandemic on March 11",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Federal Reserve initiated emergency measures on March 15",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "High-yield OAS has widened significantly (838 bp)",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "total equity long was 105.3% and short was 35.2%, with total fund gross at 139.0% NAV",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "February delta-adjusted net equity of 64.4% is too high",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 1,
+  "share": 0.11
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are cutting gross exposure aggressively.",
+ "grader_notes": "The agent identifies the correct direction (reducing exposure) but provides entirely different reasoning than the actual Third Point retrospect. While the agent focuses on proactive liquidity management and systemic risk based on available data, the actual investor admitted to a hindsight failure regarding the pandemic's probability and portfolio concentration.",
+ "run": "2020_q1_derisk__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

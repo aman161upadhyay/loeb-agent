@@ -1,0 +1,48 @@
+{
+ "trade_id": "ho_2026_costar_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "The board remedy failed to restrain continued Homes.com spending and related acquisitions.",
+   "The manager believed the CEO was entrenched through golden-parachute terms rather than held accountable.",
+   "Reporting changes appeared to obscure residential results, while attention to core Apartments.com and CoStar Suite and AI competition was inadequate.",
+   "The original governance/capital-allocation thesis no longer held, prompting complete disposal."
+  ],
+  "extra_agent_drivers": [
+   "Governance framework established in April remains the primary mechanism for enforcing spending discipline",
+   "Current operating data shows strong revenue and booking growth, but fails to demonstrate the inflection to sustainable cash earnings",
+   "The risk of management prioritizing platform expansion over shareholder returns persists, requiring continued monitoring of the capital-allocation committee"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The April governance settlement provided the essential catalyst to oversee this shift, particularly regarding the residential investment segment",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "management continues to report strong booking numbers, such as the $84 million in net new bookings reported for Q3 2025",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 3,
+  "share": 0.27
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We maintain our position (HOLD) to see how the refreshed board and its capital-allocation committee execute the next phase of the plan [D01, D07].",
+ "grader_notes": "The agent was fundamentally misaligned with the actual outcome, maintaining a HOLD thesis based on monitoring governance effectiveness when Loeb had already concluded the governance remedy failed and exited the position. The agent's reasoning was farthest from Loeb's because it interpreted the governance framework as a 'catalyst to oversee' the shift, whereas the actual decision was driven by the failure of that very same framework to restrain spending.",
+ "run": "ho_2026_costar_sell__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,259 @@
+{
+ "pack": "2024_vst_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2024-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Vistra is an independent power generator and retail electricity provider operating in competitive markets including ERCOT and PJM [D01]. Its fleet includes gas, nuclear, and coal generation assets, with the Energy Harbor acquisition adding significant nuclear scale [D01].",
+   "segments_and_separable_assets": [
+    "Generation and retail electricity business, including gas, nuclear, and coal assets [D01]. No specific revenue or EBITDA breakout per segment provided in pack [D01]."
+   ],
+   "economics_vs_peers": [
+    "FY2023 operating margin of 18.0% [D03]. Peers: NRG Energy 1.4%, Constellation Energy 7.7%, Duke Energy 24.7% [D06].",
+    "The margin gap in bp versus NRG is 1660bp and versus Constellation is 1030bp [D06]."
+   ],
+   "capital_structure": [
+    "Debt of $14.402bn as of FY2023 [D02].",
+    "Capital structure includes tax-receivable-agreement interests; 98% have been repurchased to simplify the structure [D02].",
+    "Covenants, specific maturities, and fulcrum security details are not in pack [D02]."
+   ],
+   "price_and_valuation": [
+    "Price: $75.84 (2024-04-30) [D04].",
+    "Market cap: $26.38bn [D04].",
+    "EV: $37.30bn [D04].",
+    "Trailing P/E: 21.2x [D04].",
+    "EV/GAAP EBITDA proxy: 9.0x [D04].",
+    "FCF yield: 14.3% (GAAP CFO-capex) / 9.4% (adjusted FCF before growth) [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Jim Burke [D01].",
+    "Board composition, controller stakes, pill, or nomination window details are not in pack [D01]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders, index ownership, short interest, and average daily volume are not in pack [D08]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Energy Harbor acquisition (closed March 1, 2024) [D03].",
+    "Additional $1.5bn share repurchase authorization [D02].",
+    "Tax-receivable-agreement simplification [D02].",
+    "Potential AI/data-center electricity demand as an incremental driver [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Merchant-power cyclicality, commodity price volatility, and regulatory shifts [D05].",
+    "Execution risk regarding Energy Harbor integration [D05].",
+    "Hedge rolloffs potentially delaying upside [D05].",
+    "Nuclear outage costs and competition from renewables [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Energy Harbor acquisition closed March 1, 2024 [D03]. No further instrument terms in pack."
+   ],
+   "recent_events": [
+    "2024-02-28: Annual results released, FERC approval for Energy Harbor confirmed [D03].",
+    "2024-03-01: Expected closing of Energy Harbor acquisition [D03]."
+   ],
+   "third_point_context": [
+    "Not in pack [D08]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Segment-level EBITDA and revenue, exact debt maturity schedule, fully diluted share count, detailed governance provisions, and current institutional ownership/short interest data."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E4"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Vistra is experiencing a quality and earnings inflection driven by the Energy Harbor nuclear scale acquisition and tailwinds from incremental AI/data-center electricity demand [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies a significant margin gap of 1660bp and 1030bp versus peer generators NRG and Constellation, respectively, highlighting an under-earning profile post-acquisition [D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The earnings inflection is already in motion with the recent close of the Energy Harbor deal and announced $1.5bn share repurchase authorization, requiring no activist governance intervention [D02], [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business exhibits strong cash generation with a 9.4% adjusted FCF yield before growth and a simplified capital structure following the buyback of tax-receivable-agreement interests [D02], [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "UNSURE",
+     "evidence": "Average daily volume and institutional ownership data are not in pack, making it impossible to confirm size-and-liquidity constraints [D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management has successfully executed the Energy Harbor acquisition and structural simplification, demonstrating the capacity to execute the current capital return and integration roadmap [D02], [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Third Point sees a high-quality energy platform with a significant margin gap to peers and a clear path to earnings growth from nuclear scale and AI-driven power demand.",
+   "one_line_verdict": "a cash-generative power generator with a clear margin gap to peers and structural earnings growth from recent nuclear consolidation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2",
+    "M7"
+   ],
+   "variant_view": "The market views Vistra as a volatile merchant power player subject to commodity cycles and integration risk, leading to an under-recognition of its high-quality nuclear scale and AI-driven growth. We believe the stock is mispriced because the market ignores the clear earnings inflection from the Energy Harbor acquisition and fails to credit Vistra's superior margin profile relative to peers. As the margin gap closes and nuclear power demand from data centers materializes, the valuation will re-rate toward utility-like multiples.",
+   "evidence": [
+    "Vistra's 18.0% FY2023 operating margin significantly exceeds peers NRG (1.4%) and Constellation (7.7%) [D06].",
+    "Incremental electricity demand from AI and data centers acts as a significant long-term growth catalyst [D03].",
+    "Successful execution of the $1.5bn share repurchase and structural simplification via the tax-receivable-agreement buyback demonstrates disciplined capital allocation [D02]."
+   ],
+   "peer_benchmark": "NRG Energy (1.4% operating margin) and Constellation Energy (7.7% operating margin) [D06].",
+   "what_must_be_true": [
+    "Successful integration of Energy Harbor without significant operational outages.",
+    "Realization of sustained pricing power in the ERCOT and PJM markets to support margins.",
+    "Increased institutional recognition of Vistra's nuclear assets as a strategic benefit for AI data center power needs."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "$125.00",
+    "arithmetic": [
+     "Projected FY2026 EBITDA: ~$5.0bn (assuming Energy Harbor synergy realization and margin expansion toward utility-like levels, extrapolated from [D03])",
+     "Target Multiple: 12.0x EV/EBITDA (discounted from regulated utility peers but premium to current 9.0x [D04])",
+     "Target EV: $60.0bn",
+     "Less Net Debt: $14.4bn [D02]",
+     "Implied Equity Value: $45.6bn",
+     "Implied Price: ~$125.00/share (assuming ~365m shares)"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$55.00",
+    "basis": "Current adjusted FCF yield of 9.4% and asset floor support at ~7.0x current EBITDA [D04]"
+   },
+   "current_price": "$75.84 [D04]",
+   "skew": "65% : 27%",
+   "irr_pct": {
+    "base": 28,
+    "bear": 5,
+    "bull": 45
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "FY2026 EBITDA projection of $5.0bn is a management-implied trajectory based on Energy Harbor integration [D03].",
+    "Target multiple of 12.0x is an assumption based on re-rating potential to utility-like peers.",
+    "Share count of 365m is an estimate as exact fully diluted count is missing."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [
+    "Jim Burke — CEO — supportive [D01]"
+   ],
+   "governance_route": "not in pack [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "Monitor integration of Energy Harbor and realization of nuclear synergies; if margins fail to expand toward utility-level peers, re-evaluate engagement [D03], [D06].",
+   "why_this_role_fits_the_era": "Management is already executing a clear strategy of structural simplification and capital return following the Energy Harbor acquisition; as an earnings-inflection play, the catalyst is internal and currently in progress [D02], [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Operational failure or significant unplanned outages at newly acquired Energy Harbor nuclear facilities [D05].",
+    "Failure of operating margins to expand toward peer utility levels over the next two quarters [D06].",
+    "Sustained downturn in merchant power pricing within ERCOT/PJM markets [D05].",
+    "Material departure from the announced capital return and deleveraging roadmap [D02]."
+   ],
+   "portfolio_risk": "Factor overlap exists with broader utilities and commodity-sensitive energy equities; potential duration risk if power demand catalysts are delayed [D03], [D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 6
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts to offset broad market volatility and sector-specific short positions in weaker merchant power peers to isolate the Vistra margin-gap alpha.",
+   "biggest_risk_in_one_sentence": "The thesis relies on the successful integration of Energy Harbor and a structural valuation re-rating, both of which are susceptible to commodity cycle volatility and operational execution risks."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-04-30",
+  "company": "Vistra Corp.",
+  "ticker": "VST",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E4"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "$125.00",
+   "floor": "$55.00",
+   "skew": "65% : 27%",
+   "irr_pct": 28
+  },
+  "plan": {
+   "asks": [],
+   "actors": [
+    "Jim Burke — CEO — supportive"
+   ],
+   "governance_route": "not in pack",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "Vistra is currently mispriced as a volatile merchant power player, ignoring the structural earnings inflection following the Energy Harbor acquisition [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The company maintains a significant margin gap, with an 18.0% operating margin that trails utility-like peers such as Duke Energy (24.7%) and substantially exceeds peers like NRG (1.4%) [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Incremental demand from AI and data centers provides a long-term tailwind that is not yet fully reflected in the current 9.0x EV/EBITDA multiple [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management's disciplined execution, including structural simplification and a $1.5bn share repurchase program, provides a high-conviction path to shareholder value [D02], [D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The risk/reward is protected by a 9.4% adjusted FCF yield and an asset floor support at approximately 7.0x current EBITDA [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Operational failure or significant unplanned outages at newly acquired Energy Harbor nuclear facilities [D05].",
+   "Failure of operating margins to expand toward peer utility levels over the next two quarters [D06].",
+   "Sustained downturn in merchant power pricing within ERCOT/PJM markets [D05].",
+   "Material departure from the announced capital return and deleveraging roadmap [D02]."
+  ],
+  "what_would_change_our_mind": "A failure to realize nuclear synergies or a deterioration in the competitive margin environment relative to utility peers would break the thesis.",
+  "memo": "Vistra Corp. represents a unique opportunity to own a high-quality, cash-generative power platform currently mispriced by a market that views it as a cyclical merchant player [D01], [D03]. While investors fear commodity volatility, they ignore the structural earnings inflection created by the March 2024 Energy Harbor acquisition [D03], [D05].\n\nWe calculate a path to $125 per share based on a 12.0x multiple applied to our FY2026 EBITDA estimate of approximately $5.0 billion [D03]. This re-rating assumes Vistra begins to trade more in line with utility-like multiples as it closes its margin gap; currently, Vistra’s 18.0% operating margin leaves a 1660bp deficit to NRG and 1030bp to Constellation [D06].\n\nThe market’s skepticism toward merchant power ignores the durable, secular demand growth driven by AI and data-center power requirements [D03]. With the structural simplification largely complete—including the repurchase of tax-receivable-agreement interests—the business is now positioned to pivot toward aggressive capital returns, evidenced by the $1.5 billion share repurchase authorization [D02].\n\nWe view CEO Jim Burke as a highly capable operator who is already executing the integration roadmap [D01], [D03]. We do not need to play an activist role here; instead, we will monitor the integration and margin expansion closely [D03], [D06].\n\nDownside is protected by a 9.4% adjusted FCF yield and a valuation floor near $55 per share [D04]. We are initiating a 5% position in the common stock, managed with index puts and sector-specific shorts to isolate our idiosyncratic margin-gap thesis and mitigate broad market exposure [D05].",
+  "uncited_claims": []
+ }
+}

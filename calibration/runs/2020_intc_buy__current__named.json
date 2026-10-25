@@ -1,0 +1,270 @@
+{
+ "pack": "2020_intc_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-12-29",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Intel designs and manufactures PC and server processors while owning an extensive semiconductor fabrication base [D01]. The firm faces strategic challenges regarding engineering execution and competitive pressures from fabless rivals using external foundries [D01].",
+   "segments_and_separable_assets": [
+    "Data-center and PC segments (revenue dynamics noted but segment breakdown not in pack) [D01]",
+    "NAND memory/storage business ($9 billion sale agreement announced) [D03]"
+   ],
+   "economics_vs_peers": [
+    "Gross margin: 53.1% GAAP (declining from 58.9% prior year) [D03, D06]",
+    "Operating margin: 27.6% (Q3 2020) vs 33.6% (Q3 2019) [D03]",
+    "Peer comparison: AMD (9.4% margin), Nvidia (26.1% margin), Texas Instruments (39.8% margin) [D06]"
+   ],
+   "capital_structure": [
+    "Gross debt: $36.56bn [D04]",
+    "Cash and cash equivalents: $3.36bn (cash-only) or $18.253bn (total cash investments including short-term) [D04]",
+    "Leverage: Net debt $33.21bn (cash-only basis) [D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $49.39 [D04]",
+    "Market cap: $202.40bn [D04]",
+    "EV: $235.61bn (cash-only) or $220.71bn (broader) [D04]",
+    "P/E: 9.70x TTM; 10.08x adjusted guidance [D04]",
+    "FCF yield: 10.04% TTM [D04]"
+   ],
+   "management_board_governance": [
+    "CEO: Bob Swan [D03, D07]",
+    "Chair: Omar Ishrak [D07]",
+    "Governance/Board: Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders: Not in pack",
+    "Index ownership: Not in pack",
+    "Short interest: Not in pack",
+    "Average daily volume: Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential events: Management change, strategic review, asset sales, or external manufacturing usage [D07]",
+    "Recent actions: $9 billion NAND divestiture, $10 billion accelerated share repurchase [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Loss of technological leadership and process delays [D05]",
+    "Heavy capex depressing FCF [D05]",
+    "Potential dependence on rivals through outsourcing and transition costs [D05]",
+    "Customer base (cloud/device makers) designing their own chips [D01, D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$9 billion agreement to sell NAND memory/storage to SK hynix, subject to conditions [D03]"
+   ],
+   "recent_events": [
+    "2020-10-22: Q3 2020 financial results released [D03]",
+    "2020-11-13: 13F filing published [D01]",
+    "2020-12-03: Monthly investor report published [D01]"
+   ],
+   "third_point_context": [
+    "Firm AUM: ~$14.8 billion (as of 2020-11) [D08]",
+    "Exposure: Equity long 108.7%, short 35.5%, net 73.2% (as of 2020-11) [D08]",
+    "Existing stake: Not in pack"
+   ],
+   "document_conflicts": [
+    "Debt/Cash figures: D04 lists cash-only debt/cash as $36.56bn/$3.36bn and broader cash investments as $18.253bn."
+   ],
+   "missing_data": [
+    "Detailed segment-level financial data, specific board composition details, short interest data, and precise internal cost of manufacturing separation."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Intel faces a strategic crossroads involving engineering execution, potential asset divestitures, and board-level intervention to address competitive process delays [D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can leverage its experience in large-cap constructivism to advocate for a strategic review, including potential foundry separation or outsourcing, to unlock value from a market cap of $202.40bn [D04, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "The pack contains no information regarding board composition, nomination windows, or shareholder support, making the governance path indeterminate [D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company trades at a 10.04% FCF yield and has initiated a $9 billion divestiture of its NAND business, providing a cash-generative valuation floor [D03, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $202.40bn, Intel provides sufficient scale for a position sized within Third Point's $300M-$3.5B Era C target range [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on a multi-year turnaround of technological leadership and process execution under the current management team, which is flagged as a risk [D05, D07]."
+    }
+   },
+   "conflicts_resolved": [
+    "Debt/Cash: Used cash-only basis ($36.56bn debt, $3.36bn cash) for a conservative net debt assessment per standard Third Point risk analysis [D04]."
+   ],
+   "n_pass": 4,
+   "n_fail": 1,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Intel is a conglomerate with separable assets and a clear performance gap versus peers that can be addressed through strategic board-level pressure on capital allocation and manufacturing structure.",
+   "one_line_verdict": "a semiconductor giant with a 10% FCF yield facing execution issues that can be unlocked via strategic review and potential business separation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M4"
+   ],
+   "variant_view": "The market believes Intel is a legacy incumbent in terminal decline due to lost manufacturing leadership and ballooning capex. We believe the firm possesses highly valuable, separable business units and that current operational underperformance is fixable through strategic governance and a focus on foundry independence. A push for a strategic review will force the board to address the massive conglomerate discount and restore competitiveness against fabless peers.",
+   "evidence": [
+    "Intel's gross margin has declined to 53.1% from 58.9% [D03, D06].",
+    "Current operating margins of 27.6% lag behind high-performing peers [D03, D06].",
+    "Intel faces a strategic crossroads regarding engineering execution and potential divestitures [D07].",
+    "Market valuation reflects a 10.04% FCF yield, suggesting a low expectation for future turnaround [D04]."
+   ],
+   "peer_benchmark": "Texas Instruments operating margin of 39.8% [D06]",
+   "what_must_be_true": [
+    "The board initiates a formal strategic review of manufacturing versus design separation.",
+    "The firm stabilizes process technology to prevent further market share loss to competitors like AMD.",
+    "Management executes on capital allocation discipline beyond one-off divestitures.",
+    "Foundry outsourcing is proven to be a viable path to improve cost structure."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "$75.00",
+    "arithmetic": [
+     "Projected earnings: $6.00/share [Assumed based on margin recovery toward 35%] [D06]",
+     "Target P/E multiple: 12.5x (vs current 9.7x) [Assumed reflective of foundry/design separation] [D04]",
+     "$6.00 * 12.5 = $75.00"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$40.00",
+    "basis": "Current FCF yield of 10.04% provides significant downside support at $49.39 [D04]"
+   },
+   "current_price": "$49.39 [D04]",
+   "skew": "52% : 19%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "EPS recovery to $6.00 based on margin improvement toward peer benchmarks",
+    "Target multiple expansion to 12.5x following structural separation",
+    "Specific segment-level earnings data not available"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Conduct a strategic review of manufacturing vs. design separation [D07]",
+    "Improve capital allocation discipline [D07]",
+    "Restore process technology leadership [D07]"
+   ],
+   "actors": [
+    "Bob Swan — CEO — stance [D03, D07]",
+    "Omar Ishrak — Chair — stance [D07]"
+   ],
+   "governance_route": "Public letter to the board identifying the performance gap and the need for a strategic review [D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If the board ignores the public request for a strategic review, prepare to nominate independent director candidates for the upcoming annual meeting cycle.",
+   "why_this_role_fits_the_era": "In the 2016-onward era, mega-cap constructivism is our standard for situations where management performance lags peers; public pressure is necessary here because the engineering and margin failures are profound and require an immediate, transparent strategic pivot."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board rejects formal strategic review or denies opportunity for independent design/foundry evaluation [D07].",
+    "Failure to stabilize process technology node roadmap over two consecutive quarters [D05, D07].",
+    "Operating margins continue to contract below the 25% threshold [D06].",
+    "Engagement in value-destructive M&A that increases leverage or delays structural simplification [D07]."
+   ],
+   "portfolio_risk": "Intel introduces significant exposure to semiconductor cyclicality and high-capex infrastructure, which may overlap with existing TMT growth holdings; however, its low FCF yield-based valuation provides a defensive counterbalance to high-growth tech beta in the current portfolio [D04, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "S&P 500 index puts to mitigate broad market downside risk while Intel-specific idiosyncratic alpha plays out.",
+   "biggest_risk_in_one_sentence": "Intel's chronic manufacturing execution failures under current leadership may prove structural rather than tactical, leading to further market share loss that no amount of capital allocation or restructuring can reverse."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-12-29",
+  "company": "Intel Corporation",
+  "ticker": "INTC",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "$75.00",
+   "floor": "$40.00",
+   "skew": "52% : 19%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Conduct a strategic review of manufacturing vs. design separation",
+    "Improve capital allocation discipline",
+    "Restore process technology leadership"
+   ],
+   "actors": [
+    "Bob Swan (CEO)",
+    "Omar Ishrak (Chair)"
+   ],
+   "governance_route": "Public letter to the board",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Intel suffers from a conglomerate discount caused by persistent manufacturing execution failures and a lack of focus that masks the inherent value of its design business.",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "The stock trades at a 10.04% FCF yield, which provides a hard valuation floor and significant margin of safety for an investor.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Operating margins have contracted to 27.6%, leaving substantial room for improvement toward peer benchmarks like Texas Instruments at 39.8%.",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A strategic review to separate the design and foundry businesses would unlock value and restore competitive focus against fabless rivals.",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board rejects formal strategic review",
+   "Failure to stabilize process technology node roadmap over two consecutive quarters",
+   "Operating margins contract below 25%",
+   "Engagement in value-destructive M&A"
+  ],
+  "what_would_change_our_mind": "Evidence that the manufacturing execution failures are structural and irreversible, rendering the company permanently uncompetitive regardless of governance or capital allocation changes.",
+  "memo": "Intel Corporation represents one of the most compelling opportunities in the semiconductor sector, currently trading at a 10.04% FCF yield [D04]. Despite its historical dominance, the company has suffered from a series of self-inflicted manufacturing delays that have resulted in a significant loss of technological leadership and a widening margin gap versus peers like Texas Instruments [D03, D06, D07]. \n\nWe value Intel based on a restoration of earnings power to $6.00 per share, assuming margin recovery and structural simplification [D06]. Applying a 12.5x multiple—reflective of a more efficient, potentially separated design and foundry business—we see a clear path to a $75 per share valuation, offering an asymmetric risk/reward profile [D04]. \n\nMarket participants have priced Intel for terminal decline, ignoring the optionality of its assets [D05]. Our thesis hinges on the board acknowledging that the status quo is untenable; a formal strategic review of the manufacturing-versus-design structure is the necessary catalyst to narrow the discount [D07]. \n\nWe are calling for an immediate strategic review led by Chair Omar Ishrak and CEO Bob Swan [D03, D07]. Our role as constructivists is to provide the external pressure required to force these changes, with a willingness to escalate to a board nomination contest if the current leadership fails to initiate a transparent pivot [D07]. \n\nDownside is protected by the company's strong cash generation and recent capital return initiatives, such as the $9 billion NAND divestiture [D03, D04]. We will monitor the process node roadmap and operating margins closely, exiting if management demonstrates an inability to execute or engages in value-destructive M&A [D06, D07]. \n\nWe are initiating a 5% position in Intel common shares, sized for high conviction in the catalyst, while utilizing index puts to hedge against broad market beta [D04, D08].",
+  "uncited_claims": []
+ }
+}

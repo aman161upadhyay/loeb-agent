@@ -1,0 +1,57 @@
+{
+ "trade_id": "ctl_2021_gme_amc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Neither GME nor AMC appears in any of the 54 reportable quarterly tables.",
+   "Retrospective 2021-02-10 crowded-short discipline comment, not a named common-stock long rejection and not available on the desk date."
+  ],
+  "extra_agent_drivers": [
+   "reflexive retail-driven short squeeze decoupled from fundamentals",
+   "poor operating margins",
+   "transient technical anomaly",
+   "lack of fundamental floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "GameStop operates with an operating margin of -6.3%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "AMC suffers from a -565.2% operating margin",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Neither company possesses a fundamental floor",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "AMC exhibiting a negative book value",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on these names to protect capital and focus on disciplined, event-driven opportunities elsewhere [D03, D04].",
+ "grader_notes": "The agent reached the correct PASS decision but completely failed to capture the reasoning provided in the answer key. The agent invented a fundamental-analysis-based rejection, whereas the answer key specifies that Third Point did not issue a public rejection and that the PASS label is a retrospective observational artifact based on 13F records and later commentary.",
+ "run": "ctl_2021_gme_amc_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 2,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,61 @@
+{
+ "trade_id": "ctl_2019_newell_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Newell/NWL/Jarden absent from complete 54-quarter index; no attributable Third Point public position comment recovered. Replaces Kraft Heinz, which WAS held Q3 2015–Q1 2016 (peak $582.285M)."
+  ],
+  "extra_agent_drivers": [
+   "The activist-led transformation is well underway with 7 of 11 board seats occupied by Starboard and Icahn nominees, leaving no actionable path for Third Point to exert influence [D09].",
+   "Newell Brands suffers from severe margin underperformance, with normalized operating margins of 10.2% compared to the 19.1% benchmark of peer Church & Dwight [D06].",
+   "The company targets $10bn in gross divestiture proceeds to address ~$9bn in peak net debt, a plan already being executed by current activist leadership [D09].",
+   "Market sentiment remains weighed down by persistent core sales contraction of -3.7% as of Q4 2018, complicating the thesis that divestitures will lead to a rapid earnings recovery [D05, D09]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "7 of 11 board seats occupied by Starboard and Icahn nominees",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "normalized operating margins of 10.2%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "19.1% benchmark of peer Church & Dwight",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "targets $10bn in gross divestiture proceeds",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "core sales contraction of -3.7% as of Q4 2018",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "As we occupy no leadership role and the activist-nominated board is firmly in control, this situation represents 'someone else's fight' [D09].",
+ "grader_notes": "The agent correctly identified the PASS decision. However, the agent manufactured a detailed investment thesis based on fundamental analysis, whereas the actual Third Point decision was simply an observational absence of the stock in the portfolio, lacking any documented rejection rationale from Loeb.",
+ "run": "ctl_2019_newell_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,243 @@
+{
+ "pack": "ctl_2022_vroom_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2022-11-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Vroom operates as an online used vehicle retailer that also owns auto-finance operations [D01]. The company is currently executing a turnaround strategy that prioritizes unit economics and liquidity over maximum retail volume [D01].",
+   "segments_and_separable_assets": [
+    "Ecommerce vehicle retail: Revenue reported as $475.437m in Q2 2022 [D03]; ecommerce gross profit per unit reported as $3,629 in Q2 2022 [D03].",
+    "Auto-finance operations: Must be valued separately due to credit and funding risks [D01]."
+   ],
+   "economics_vs_peers": [
+    "Operating margin: Vroom reported -21.1% in Q2 2022 [D06], compared to CarMax (3.6% net margin) and AutoNation (7.4% operating margin) [D06].",
+    "Growth: Vroom revenue declined 37.6% in Q2 2022; peer growth trends vary by business model [D06].",
+    "Capital intensity: Used-car retail requires inventory ownership and reconditioning capacity, distinct from capital-light marketplaces [D06]."
+   ],
+   "capital_structure": [
+    "Total debt: $1,212.108m as of June 30, 2022, comprising $422.452m floorplan debt, $115.325m current securitization, and $674.331m noncurrent debt [D04].",
+    "Cash: $532.642m as of June 30, 2022 [D04].",
+    "Convertible debt: $610.618m reported as long-term convertible debt at end of FY2021 [D02].",
+    "Fulcrum: Unrestricted liquidity and realizable inventory net of floorplan debt/corporate obligations [D01, D05]."
+   ],
+   "price_and_valuation": [
+    "Price: $.88 per share as of 2022-11-04 [D04].",
+    "Market cap: Approximately $121.5m as of 2022-11-04 [D04].",
+    "EV: Approximately $801.0m as of 2022-11-04 [D04].",
+    "P/Tangible Book: .377x as of June 2022 [D04].",
+    "FCF Yield: Approximately -491% based on FY2021 FCF [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Thomas Shortt [D01, D07].",
+    "Governance: Relevant actors include the board, warehouse lenders, and convertible holders [D01, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 138.109m as of August 4, 2022 [D04].",
+    "Other data: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Turnaround strategy: Deliberate inventory and operating-cost reset intended to preserve liquidity [D01, D07].",
+    "Liquidity outlook: Management forecasted year-end liquidity of $450-$565 million as of August 8, 2022 [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Cash depletion: Race between restructuring efforts and cash burn [D05].",
+    "Macro/Market factors: Rising interest rates, falling used-car prices, and potential tightening of funding lines [D05].",
+    "Operating absorption: Lower volumes may improve per-unit gross profit but worsen overhead absorption [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "August 8, 2022: Q2 earnings release reporting turnaround updates and liquidity forecast [D03, D07].",
+    "November 4, 2022: Investment cutoff [D07]."
+   ],
+   "third_point_context": [
+    "AUM/Exposure: Third Point's Q2 2022 13F reported $4.225 billion in securities [D08].",
+    "Existing position: Not in pack."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Specific convertible trading levels, exact funding advance rates, and current firm-wide liquid capital available for new ideas."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E7"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "Vroom is a cash-burning business undergoing a multi-year operational turnaround with no identifiable separable asset or capital-return catalyst [D01, D05]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The turnaround is a generalized operational effort without a differentiated Third Point process or structural expert position [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "There is no identifiable governance route to force value creation; the company is focused on a long-term liquidity and volume reset [D01]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The company has significant debt, high cash burn, and a negative FCF yield, failing the discipline test for a business with no separable asset [D01, D04, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "FAIL",
+     "evidence": "Given the lack of a clear investment event, the market cap of ~$121.5m makes it too small for a meaningful Third Point position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on an unproven management team executing a multi-year operational turnaround, which the 2022 Intel rule classifies as a trade or pass [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 6,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "Third Point has no edge in a struggling online retailer with no clear governance path, separable assets, or tangible downside floor.",
+   "one_line_verdict": "a cash-burning, shrinking business in a multi-year turnaround with no actionable catalyst."
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market correctly prices Vroom as a distressed, cash-burning entity in the midst of an unproven multi-year operational turnaround [D01, D05]. There is no hidden asset or separable business unit to unlock, and the company lacks the scale or governance path for a constructivist intervention [D01]. Consequently, the market reflects the high probability of liquidity depletion rather than a mispriced opportunity [D05].",
+   "evidence": [
+    "Operating margin of -21.1% in Q2 2022 compared to peer profitability [D06].",
+    "FCF yield of approximately -491% based on FY2021 results [D04].",
+    "Significant debt load exceeding $1.2 billion against $532.6 million in cash [D04]."
+   ],
+   "peer_benchmark": "CarMax (3.6% net margin) and AutoNation (7.4% operating margin) [D06].",
+   "what_must_be_true": [
+    "Management must successfully achieve positive cash flow before liquidity is exhausted.",
+    "Used vehicle pricing must stabilize to prevent further erosion of unit economics.",
+    "Funding lines must remain available despite the deteriorating operational profile."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Cash $532.6m [D04]",
+     "Total Debt $1,212.1m [D04]",
+     "Net Debt: $679.5m [D04]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "Zero",
+    "basis": "Negative net cash position and persistent negative operating margins [D04, D06]"
+   },
+   "current_price": "$0.88 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumes liquidation of assets fails to cover debt obligations due to potential inventory impairment and floorplan debt priority."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "N/A",
+   "why_this_role_fits_the_era": "No action is taken because the investment fails to meet Third Point's core criteria for an event-driven opportunity; it is a PASS due to the lack of a catalyst, negative valuation, and absence of an edge [D01, D04]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Liquidity depletion below management's forecast of $450m",
+    "Inability to secure or roll warehouse funding lines",
+    "Operating cash burn accelerating in subsequent quarters",
+    "Covenant breach on credit facilities"
+   ],
+   "portfolio_risk": "High factor overlap with consumer discretionary and interest-rate sensitive business models, though negligible due to small size [D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The company is a cash-burning entity in a deteriorating macro environment with no identified catalyst to bridge the gap to sustainable profitability."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-11-04",
+  "company": "Vroom",
+  "ticker": "VRM",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E7"
+  ],
+  "catalyst_role": "N/A",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "N/A",
+   "floor": "Zero",
+   "skew": "0% : 100%",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "Vroom is a cash-burning entity in a multi-year turnaround with no identifiable catalyst or hidden asset to unlock [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Operating margins are deeply negative at -21.1%, reflecting a significant margin gap compared to peers like CarMax and AutoNation [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The capital structure is precarious, with a net debt position of $679.5m and an FCF yield of approximately -491% [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The thesis depends entirely on unproven management executing an operational roadmap, failing our core event-driven criteria [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Liquidity depletion below management's forecast of $450m",
+   "Inability to secure or roll warehouse funding lines",
+   "Operating cash burn accelerating in subsequent quarters",
+   "Covenant breach on credit facilities"
+  ],
+  "what_would_change_our_mind": "Evidence of a clear, actionable governance path to value creation, such as a strategic sale of separable assets or a definitive capital restructuring plan that creates an asymmetric risk/reward skew.",
+  "memo": "Vroom is an online used vehicle retailer currently struggling through a high-cash-burn, multi-year operational turnaround [D01]. The market correctly prices the company as a distressed entity, reflecting the fundamental risks of liquidity depletion rather than an overlooked opportunity [D05].\n\nUnlike our core event-driven investments, Vroom lacks a separable asset or hidden business unit to unlock, and its operating margin of -21.1% stands in stark contrast to the profitability of peers such as CarMax and AutoNation [D06]. With a net debt position of approximately $679.5m and a free cash flow yield of -491%, the company lacks the financial stability required for our investment criteria [D04].\n\nManagement is focused on a long-term liquidity and volume reset, but there is no identifiable governance route for a constructivist intervention to accelerate or pivot this plan [D01]. Our process requires a catalyst and a high-conviction path to value creation, neither of which is present here [D01, D05].\n\nWe pass on this opportunity due to the lack of an identifiable event, a negative valuation, and the absence of a margin of safety [D01, D04]. We remain disciplined in avoiding speculative turnarounds that rely on unproven management roadmaps without a clear, hard-floor valuation [D01].",
+  "uncited_claims": []
+ }
+}

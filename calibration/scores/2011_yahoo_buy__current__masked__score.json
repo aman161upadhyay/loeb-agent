@@ -1,0 +1,49 @@
+{
+ "trade_id": "2011_yahoo_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Repair partner relationships and optimize Asian monetization, buybacks and the capital structure. → We intend to act as a constructivist shareholder to ensure the board prioritizes a tax-efficient separation of assets rather than status quo management or value-destructive acquisitions [D02], [D03]."
+  ],
+  "missed": [
+   "Asian assets and net cash leave the core at only $2.78/share, or 2.2x estimated EBITDA.",
+   "The core franchise is damaged by governance but not irreparably damaged.",
+   "Changing only the CEO does not cure the board's record."
+  ],
+  "extra_agent_drivers": [
+   "Significant sum-of-the-parts discount due to market inability to value core advertising separately from Asian assets.",
+   "CEO removal and strategic review provide a necessary catalyst.",
+   "Annual meeting process as a governance route for board accountability."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a conglomerate with a significant sum-of-the-parts discount.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The removal of the CEO on September 6, 2011, and the commencement of a strategic review provide the necessary catalyst.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 17,
+  "cited": 14,
+  "share": 0.82
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to act as a constructivist shareholder to ensure the board prioritizes a tax-efficient separation of assets rather than status quo management or value-destructive acquisitions [D02], [D03].",
+ "grader_notes": "The agent correctly identifies the BUY decision and the core necessity of engaging with the board/strategic review process. However, the agent fails to articulate Loeb's specific valuation-based investment thesis (the $2.78/share core valuation), focusing instead on a generalized sum-of-the-parts discount argument. The reasoning overlap is limited as the agent emphasizes different primary drivers than those cited in the official investor letter.",
+ "run": "2011_yahoo_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

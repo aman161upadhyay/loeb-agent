@@ -1,0 +1,48 @@
+{
+ "trade_id": "2017_hon_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Separating Aerospace could create more than $20 billion in sustained shareholder value. → Our sum-of-the-parts analysis indicates that separating the business segments could unlock significant value",
+   "The remaining company would have a clearer industrial growth identity around automation and productivity. → The appointment of Darius Adamczyk as CEO creates a vital, time-bound opportunity to pivot toward a more efficient, focused corporate structure"
+  ],
+  "missed": [
+   "Strong underlying franchises and capital-deployment capacity supported self-help rather than a distress thesis."
+  ],
+  "extra_agent_drivers": [
+   "Conglomerate discount argument.",
+   "Valuation-specific target price ($155.00).",
+   "FCF yield and cash position providing a downside floor."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company's strong balance sheet, with $7.71bn in cash and a 5.3% FCF yield, provides both the flexibility for a spin-off and a hard downside floor",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The appointment of Darius Adamczyk as CEO creates a vital, time-bound opportunity to pivot toward a more efficient, focused corporate structure",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our sum-of-the-parts analysis indicates that separating the business segments could unlock significant value, justifying a target price of $155.00.",
+ "grader_notes": "The agent correctly matched the buy direction and captured the core thesis regarding value creation through separation and the leadership transition opportunity. However, the agent included specific valuation targets and balance sheet metrics that were not part of Loeb's stated drivers in the answer key. The agent failed to explicitly cite the 'self-help' vs 'distress' thesis, which was a specific driver in the key.",
+ "run": "2017_hon_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

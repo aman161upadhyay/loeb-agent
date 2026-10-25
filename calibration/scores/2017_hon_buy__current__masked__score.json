@@ -1,0 +1,58 @@
+{
+ "trade_id": "2017_hon_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Separating Aerospace could create more than $20 billion in sustained shareholder value.",
+   "The remaining company would have a clearer industrial growth identity around automation and productivity.",
+   "Strong underlying franchises and capital-deployment capacity supported self-help rather than a distress thesis."
+  ],
+  "extra_agent_drivers": [
+   "Conglomerate discount argument",
+   "Peer-derived SOTP valuation",
+   "CEO transition catalyst",
+   "Q1 2017 operational momentum"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a diversified industrial conglomerate currently hindered by structural overhead and cyclicality, trading at a persistent discount to its intrinsic sum-of-the-parts.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operational momentum is evident in the 70-basis-point segment-margin improvement reported in Q1 2017.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The transition to CEO Darius Adamczyk provides a timely catalyst to initiate a strategic portfolio review.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "This valuation is supported by a 5.3% free cash flow yield.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We believe the transition to CEO Darius Adamczyk creates a unique window for a strategic portfolio review, allowing the company to shed unnecessary complexity and align its margins with industry leaders [D01, D07].",
+ "grader_notes": "The agent correctly identified the BUY direction but failed to mirror Loeb's specific thesis drivers, which were centered on an Aerospace spin-off. The agent focused instead on a general conglomerate breakup of four units and external valuation metrics not cited in the key. The reasoning overlap is zero as the agent pursued a different tactical justification.",
+ "run": "2017_hon_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

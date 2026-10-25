@@ -1,0 +1,16 @@
+Title: Dated event map and authority to act — Royal Dutch Shell plc
+Source: https://www.globenewswire.com/news-release/2021/07/29/2270900/0/en/royal-dutch-shell-plc-2nd-quarter-2021-and-half-year-unaudited-results.html (2021-07-29); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (2021-10-05); https://13f.info/13f/000108514621002609-third-point-llc-q2-2021 (2021-08-16)
+Date: 2021-10-27
+
+July 29: results document commodity-led earnings recovery, debt reduction, higher dividend and repurchase plans. October 27 is the present cutoff; the next earnings release is outside this set. Possible event paths include sharper allocation, portfolio sales or structural separation, but each requires directors and management to decide. Regulatory and climate obligations impose a timetable different from a normal discretionary buyback. The current investor recommendation and any company response to it are excluded. The analyst must decide whether operating cash flow supports value without assuming the most ambitious structural route succeeds. [S1; analyst timeline]
+
+Event-path discipline. The timeline separates a public report, an announced intention, a legally binding step and actual implementation. These are different milestones. A board may examine an option without approving it; an approved transaction can still face financing, regulatory, tax or execution conditions. Put the authority to decide alongside the event, rather than presume that a minority shareholder can cause it immediately.
+
+The observation cutoff is hard. A later upload location for an older document does not move its underlying publication date, while a later investor retrospective cannot become an earlier desk input. No eventual transaction, operating result or investment outcome is implied here. Where a first transaction day is not publicly recoverable, this document does not invent one from a quarter-end filing. Future calendar items are possibilities to monitor, not completed facts. A realistic timetable should allow multiple quarters when necessary and specify the evidence that would show delay or failure. This avoids confusing a well-written proposal with an executable catalyst and keeps the analyst's expected value separate from the historical answer.
+
+Analyst cross-check: For each prospective milestone, identify who controls the decision, which prerequisite must occur first and whether shareholder approval is sufficient. Regulatory clearance, creditor consent and operational implementation are distinct gates. Delay affects discounted value even if the eventual strategic direction remains economically sensible and legally feasible.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.globenewswire.com/news-release/2021/07/29/2270900/0/en/royal-dutch-shell-plc-2nd-quarter-2021-and-half-year-unaudited-results.html (published 2021-07-29).
+- [S2] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (published 2021-10-05).
+- [S3] https://13f.info/13f/000108514621002609-third-point-llc-q2-2021 (published 2021-08-16).

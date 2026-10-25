@@ -1,0 +1,28 @@
+{
+  "id": "2025_shco_buy",
+  "company": "Soho House & Co Inc.",
+  "ticker": "SHCO",
+  "aliases": [
+    "Babington House",
+    "MCG",
+    "Membership Collective Group",
+    "Ron Burkle",
+    "SHCO",
+    "Soho House",
+    "Soho House & Co",
+    "Soho House & Co Inc.",
+    "Soho Mews",
+    "Soho Mews House",
+    "Soho Works",
+    "Yucaipa"
+  ],
+  "as_of_date": "2025-01-28",
+  "mode": "existing",
+  "era": "C",
+  "first_action_window": "Requested June1 new BUY/participation contradicted by primary Jan29 letter: existing 2021 IPO investor publicly escalated a fair-process campaign. Corrected to Jan28 existing → ESCALATE; no buy fabrication.",
+  "fund_aum_usd_bn": 12,
+  "fund_aum_observation_period": "2024-12",
+  "fund_aum_source_date": "2025-01-02",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested June1 new BUY/participation contradicted by primary Jan29 letter: existing 2021 IPO investor publicly escalated a fair-process campaign. Corrected to Jan28 existing → ESCALATE; no buy fabrication. AUM 12bn is firm/manager capital, not Offshore NAV, per https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (2025-01-02). AUM observation period 2024-12; last verified, not asserted current."
+}

@@ -1,0 +1,48 @@
+{
+ "trade_id": "2015_seven_i_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Best-in-class convenience-store economics are hidden by weaker retail operations. → The company operates a world-class convenience store business whose value is obscured by a conglomerate discount caused by underperforming, low-margin superstore segments [D01; D03].",
+   "Stop subsidizing Ito Yokado and permit it to restructure outside the group. → Separation of high-performing convenience-store franchise from underperforming superstore segments",
+   "An underlevered balance sheet and slowing growth capex create a capital-return opportunity. → The company maintains a lazy balance sheet with ¥1,000.762bn in cash that earns negligible returns instead of being deployed for dividends or buybacks [D02; D04]."
+  ],
+  "missed": [
+   "A global convenience-store pure-play should command a meaningful rerating."
+  ],
+  "extra_agent_drivers": [
+   "Operating margins of 5.7% lag significantly behind peers like Fast Retailing at 9.8%, signaling substantial room for efficiency gains [D06].",
+   "A sum-of-the-parts valuation suggests a target of ¥7,850 per share, offering a significant upside skew from the current price of ¥5,375 [D03; D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company maintains a lazy balance sheet with ¥1,000.762bn in cash",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins of 5.7% lag significantly behind peers like Fast Retailing at 9.8%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We have initiated a position in the Company, a Japanese retail conglomerate whose high-quality, high-margin convenience store franchise is currently obscured by a conglomerate discount [D01; D03].",
+ "grader_notes": "The agent correctly identified the core investment thesis of separating the convenience store business from underperforming retail and addressing balance sheet inefficiencies. The reasoning is closest to Loeb's on the structural conglomerate discount and capital allocation, but it diverges by focusing on a specific SOTP valuation target and peer margin comparisons not explicitly detailed in the answer key.",
+ "run": "2015_seven_i_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

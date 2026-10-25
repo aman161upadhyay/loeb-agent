@@ -1,0 +1,55 @@
+{
+ "pack": "2023_dis_sell2",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2023-02-08",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-02-08",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "HOLD",
+  "reason_class": "L5",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Cost action: strengthened [D03]",
+   "Hulu ownership/integration: intact [D01]",
+   "Sports-portfolio review: intact [D01]",
+   "Board expertise: strengthened [D03]"
+  ],
+  "remaining_skew": "Moderate upside as the company executes the $5.5bn cost savings target against a challenged streaming margin profile [D03; D04]",
+  "next_catalyst_and_timing": "Operational execution of the announced cost program and clarity on the strategic role of ESPN and Hulu [D03; D05]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The September support agreement provided a board seat and governance input, necessitating a period of holding to evaluate management's execution of the strategic plan [D03; D05].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management has initiated a significant $5.5 billion cost-savings program, which is a critical step toward the operational turnaround we originally envisioned [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Direct-to-consumer operating losses have widened, placing pressure on the core business model and making the achievement of streaming profitability a primary performance hurdle [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The standstill obligations from the settlement limit our ability to move to an immediate public escalation, requiring patience while the board acts [D03; D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We maintain our position in Disney as the company enters a crucial phase of operational restructuring. Following our private engagement, the September support agreement successfully secured a board seat, which provides us with institutional influence to monitor and guide management’s capital allocation and strategic priorities [D03; D07]. The current priority is to hold and observe the execution of the recently announced $5.5 billion cost-savings program, which addresses one of the key pillars of our initial thesis [D03].\n\nWhile the company’s revenue grew 7.8% in Q1 FY2023, the underlying margin pressure in the direct-to-consumer segment—where losses worsened by approximately $0.5 billion—highlights the scale of the challenge in transitioning to a streaming-first model [D03; D06]. We are closely watching how management balances the necessary reinvestment in streaming against the secular decline in linear networks, particularly within the ESPN portfolio, which remains a complex asset linked to broader distribution and advertising economics [D01; D05].\n\nOur standstill obligations under the current governance agreement restrict further public agitation at this time, aligning our interests with a disciplined evaluation of the board’s progress [D03; D05]. We remain focused on whether these operating actions will meaningfully improve cash conversion and shareholder value over the next 1-3 years. If the company fails to deliver on these commitments, or if the streaming economics prove permanently impaired despite our intervention, we will reassess our capital commitment without hesitation [D05; D08].",
+  "uncited_claims": []
+ }
+}

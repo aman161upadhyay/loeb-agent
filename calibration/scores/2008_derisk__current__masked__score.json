@@ -1,0 +1,45 @@
+{
+ "trade_id": "2008_derisk",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Fundamental value is insufficient protection when crowded exposures become correlated and liquidity disappears. → The events of this summer serve as a stark reminder that in a regime defined by systemic stress, our 'hedged' structures are only as robust as the liquidity of the underlying assets.",
+   "Reduce the chance that funding or redemptions force sales before event value can be realized. → Thin liquidity and rising market volatility increase the risk of forced liquidation at distressed prices before event catalysts can play out.",
+   "Preserve the ability to redeploy into distressed opportunities rather than defend every prior mark. → Preserving capital to deploy into higher-conviction, post-reorganization, or distressed situations as the cycle progresses is preferable to riding out systemic beta risk."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The lack of current, transparent data on counterparty haircuts, leverage, and specific position-level risk necessitates a defensive posture [D01], [D03]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Market volatility is surging with the VIX reaching 39.39",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "July reporting high-single-digit losses due to sharp, correlated factor reversals",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 3,
+  "share": 0.5
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We will aggressively trim gross exposure to clean up the ledger, reduce leverage, and ensure we have the dry powder to move when the dust settles and true value dislocations emerge.",
+ "grader_notes": "The agent correctly identified the direction of the trade and captured all three core drivers identified in the retrospective analysis, demonstrating a strong understanding of the de-risking motive. The agent provided an extra driver regarding counterparty risk which, while speculative based on the provided documents, was consistent with the cautious tone of the era.",
+ "run": "2008_derisk__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

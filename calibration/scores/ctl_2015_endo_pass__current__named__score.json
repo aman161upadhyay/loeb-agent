@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2015_endo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Endo/ENDP/Auxilium absent from 54-quarter issuer/instrument index and no attributable Endo investment comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "Endo exhibits the classic signs of an adjusted-earnings roll-up that obscures underlying cash flow weakness.",
+   "The GAAP operating margin of -31.2% stands in stark contrast to the 37.3% adjusted margin reported by management.",
+   "Litigation reserves remain opaque and actual cash payments are not aligning with accounting provisions.",
+   "Acquisition-led growth masks deteriorating organic demand and poor cash conversion, resulting in a low 1.66% FCF yield."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "GAAP operating margins are deeply negative at -31.2%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "management promotes an adjusted margin of 37.3%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company generates a meager 1.66% FCF yield",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on this opportunity.",
+ "grader_notes": "The agent correctly identified a PASS decision, matching the actual observation. However, the agent fabricated a fundamental analysis thesis to justify the PASS, whereas the actual reason for the PASS was simply the absence of any historical Third Point position in the issuer.",
+ "run": "ctl_2015_endo_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

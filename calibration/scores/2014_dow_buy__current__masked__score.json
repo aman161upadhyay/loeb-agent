@@ -1,0 +1,53 @@
+{
+ "trade_id": "2014_dow_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Petrochemicals under-earn despite shale feedstock advantages, indicating a self-help opportunity. → Despite enjoying a structural advantage from North American feedstock, the company produces a meager 2.1% net margin, a figure that is starkly inferior to the 9.9%-13.9% margins delivered by peers like DuPont and LyondellBasell.",
+   "Commodity and specialty businesses merit an objective strategic review and potential separation. → Management has already signaled an openness to change by initiating a strategic review and commencing the divestiture of non-core segments."
+  ],
+  "missed": [
+   "Transparent transfer pricing and operating benchmarks expose cross-subsidy and accountability gaps.",
+   "A stronger balance sheet and disciplined capital return complement operating improvement."
+  ],
+  "extra_agent_drivers": [
+   "The Company suffers from a persistent, massive margin gap, with net margins of 2.1% compared to peer benchmarks ranging from 9.9% to 13.9%.",
+   "The complex, opaque conglomerate structure masks underlying asset value and suppresses shareholder returns."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a sprawling industrial giant that currently trades as a broken conglomerate, masking the inherent value of its high-quality petrochemical and specialty materials assets",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the company produces a meager 2.1% net margin, a figure that is starkly inferior to the 9.9%-13.9% margins delivered by peers",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company’s downside is protected by a solid floor at $42.00, anchored by its tangible asset base",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are establishing an 8% position in the common equity [D05].",
+ "grader_notes": "The agent correctly identified the BUY direction and the core thesis regarding petrochemical self-help and the strategic review. It failed to address the specific drivers of transfer pricing transparency and balance sheet/capital return, which were highlighted in Loeb's letter.",
+ "run": "2014_dow_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

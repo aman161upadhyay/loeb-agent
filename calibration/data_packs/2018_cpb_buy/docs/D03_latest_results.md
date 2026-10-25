@@ -1,0 +1,18 @@
+Title: Latest recovered results and live expectations — Campbell Soup Company
+Source: https://www.sec.gov/Archives/edgar/data/16732/000001673218000045/exhibit991-q32018.htm (2018-05-18); https://www.sec.gov/Archives/edgar/data/16732/000114420418043237/tv500575_ex99-1.htm (2018-08-09); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (2018-05-15)
+Date: 2018-08-09
+
+CFO Anthony DiSilvestro says gross-margin performance fell below expectations and lowers the earnings outlook. Management identifies both execution-related and external challenges and plans to review strategy and portfolio composition, with findings expected in late August. The company credits some progress stabilizing soup sales and expanding into snacks. The correct comparison is not simply acquisition-driven top-line growth versus a stagnant peer: integration cost, leverage and category mix must be included. A large impairment confirms the fresh strategy has disappointed; it does not establish that all remaining intangible value is zero. [S1]
+
+Results versus forecast. Management guidance is attributed to management and remains a forecast. A report above expectations is evidence about one reporting period, not proof of an enduring earnings inflection. Look separately at pricing, units, mix, currency, acquisitions and costs; the same revenue increase can have very different implications depending on its source. Likewise, a decline can reflect a temporary comparison base, a deliberate investment or a genuinely weaker business.
+
+For the next decision, translate each proposed improvement into an observable milestone: organic demand, margin after necessary spending, cash conversion, financing access or a specific legal step. The source set does not establish future delivery simply because a management plan has been announced. Analyst forecasts are not supplied as though they were consensus. Where the most recent independently recovered financial release is stale, the limitation is stated above; no subsequent quarter is silently substituted. The material question is what this dated evidence changes about sustainable earnings and downside, including evidence that contradicts an attractive narrative. An existing-position review must compare with its original premise, not only with the previous share price.
+
+Analyst cross-check: The next useful update should distinguish a change in demand from a change in reported accounting and a change in expectations. Ask what information would invalidate each interpretation. A quarter that beats an unusually weak comparator is not necessarily evidence of a durable improvement in normalized economics.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/16732/000001673218000045/exhibit991-q32018.htm (published 2018-05-18).
+- [S2] https://www.sec.gov/Archives/edgar/data/16732/000114420418043237/tv500575_ex99-1.htm (published 2018-08-09).
+- [S3] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S4] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S5] https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (published 2018-05-15).

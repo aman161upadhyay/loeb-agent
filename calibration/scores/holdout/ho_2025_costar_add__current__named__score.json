@@ -1,0 +1,52 @@
+{
+ "trade_id": "ho_2025_costar_add",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "April governance and capital-allocation oversight provide a documented pathway → The central event-driven catalyst—the April 2025 governance settlement—is currently in the implementation phase",
+   "The April original thesis was a valuable recurring commercial franchise obscured by Homes.com spending → The fundamental underwriting challenge is separating this high-margin, recurring commercial business from the cash-intensive, loss-making residential strategy"
+  ],
+  "missed": [
+   "Reported common shares rose from 1.975 million to 3.085 million during Q2; the exact size-change rationale is not publicly stated."
+  ],
+  "extra_agent_drivers": [
+   "Residential marketplace investment remains a persistent drag on profitability, requiring ongoing verification of management discipline",
+   "The governance package is in its early stages of implementation, and we await tangible evidence of reduced burn rate in the residential segment"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The April settlement introduced new board members to oversee capital allocation and compensation",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company continues to generate high-margin recurring commercial data and marketplace earnings that support the core valuation case",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Homes.com investment will continue to consume commercial profits indefinitely",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We are in a holding pattern while the new directors establish their oversight.",
+ "grader_notes": "The agent missed the ADD action entirely, characterizing the decision as a HOLD. The reasoning overlap is moderate, as the agent correctly identified the core thesis drivers regarding the commercial franchise and governance oversight, but failed to incorporate the quantitative signal of the share increase.",
+ "run": "ho_2025_costar_add__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "ADD",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

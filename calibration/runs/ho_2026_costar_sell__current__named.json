@@ -1,0 +1,47 @@
+{
+ "pack": "ho_2026_costar_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-12-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-12-31",
+  "company": "CoStar Group",
+  "ticker": "CSGP",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Governance catalyst: intact; April settlement established the oversight route for residential investment [D01, D07]",
+   "Operating indicators: monitoring; management reports record bookings but cash earnings remain unproven against residential spend [D02, D03]"
+  ],
+  "remaining_skew": "Unquantified due to missing consolidated cash-flow transparency; requires resolution of residential vs. commercial segment margins [D01, D02]",
+  "next_catalyst_and_timing": "Q4 2025 earnings release; early 2026 reporting of annual segment cash-flow bridge [D03]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "Governance framework established in April remains the primary mechanism for enforcing spending discipline [D01, D07]",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Current operating data shows strong revenue and booking growth, but fails to demonstrate the inflection to sustainable cash earnings [D02, D03]",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The risk of management prioritizing platform expansion over shareholder returns persists, requiring continued monitoring of the capital-allocation committee [D05]",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Our thesis for CoStar Group rests on the transition from an aggressive, acquisition-heavy growth model to one defined by spending accountability and the disciplined allocation of commercial cash flows [D01]. The April governance settlement provided the essential catalyst to oversee this shift, particularly regarding the residential investment segment [D01, D07]. As of year-end 2025, the framework is active, and management continues to report strong booking numbers, such as the $84 million in net new bookings reported for Q3 2025 [D03].\n\nHowever, we remain in a period of patient observation. While revenue growth is evident, headline figures are insufficient to determine whether the residential business is becoming a profitable franchise or merely a permanent subsidy funded by the commercial segment [D02, D06]. We require a clearer bridge between bookings and segment cash earnings to validate the original thesis [D02, D03]. The skepticism remains that management may attempt to obscure segment-level returns to continue its current trajectory [D05, D06].\n\nWe maintain our position (HOLD) to see how the refreshed board and its capital-allocation committee execute the next phase of the plan [D01, D07]. We have not yet reached the point where the catalyst is spent, nor has the thesis been broken by a definitive refusal to act [D03, D05]. We will continue to monitor net new bookings and evidence of improved spending accountability as the primary gauges for whether the governance intervention is effectively constraining capital intensity [D02, D03].",
+  "uncited_claims": []
+ }
+}

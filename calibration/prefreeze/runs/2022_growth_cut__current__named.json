@@ -1,0 +1,46 @@
+{
+ "pack": "2022_growth_cut",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2022-03-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2022-03-31",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The Federal Reserve initiated a rate-hiking cycle on March 16 [D01], and February CPI reached 7.9% YoY [D03]. Growth-oriented assets face disproportionate valuation pressure from rising discount rates [D01], compounded by liquidity and funding risks in venture and SPAC positions [D01]. Market volatility has increased, with the VIX rising to 20.56 [D04].",
+  "book_exposure": "The portfolio carries significant exposure to public growth equities, venture holdings, and SPACs [D01]. High inflation and tighter monetary policy fundamentally challenge the financing models of these long-duration assets [D01; D03].",
+  "actions": [
+   "Trim high-duration, cash-burning venture and SPAC positions to protect liquidity",
+   "Reduce overall gross exposure to mitigate interest rate sensitivity",
+   "Tighten risk parameters on credit and structured products exposed to rate-related spread widening"
+  ],
+  "target_gross_net": "Lower than the Q3 2021 reported 149.7% gross / 77.6% net [D08].",
+  "drivers": [
+   {
+    "driver": "Rising discount rates fundamentally impair the valuation of long-duration growth assets [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Tightening liquidity conditions jeopardize the funding models for venture and SPAC-related holdings [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "High and persistent inflation necessitates a defensive pivot away from speculative growth [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "memo": "We are operating in a regime shift. The transition from a period of abundant, cheap liquidity to one of active monetary tightening and persistent inflation is not a temporary cloud; it is a fundamental revaluation event. Our portfolio of long-duration growth, venture, and SPAC assets, while containing high-quality underlying products, is structurally vulnerable to this rates-led repricing [D01]. We do not wait for the market to prove us right; we act to preserve capital now. \n\nOur priority is to cut gross exposure, particularly where cash conversion is weak or business models rely on easy financing [D01; D05]. We are separating our durable franchises from those that are merely masquerading as growth while absorbing excess capital [D01]. By reducing our footprint in speculative instruments and addressing our duration risk, we create the dry powder necessary to act when more attractive, event-driven opportunities emerge in this new, higher-rate environment [D07].",
+  "uncited_claims": [
+   "The decision to pivot is driven by an internal risk-assessment framework rather than a specific realized event outcome."
+  ]
+ }
+}

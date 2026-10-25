@@ -1,0 +1,53 @@
+{
+ "trade_id": "2022_intc_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The public common-stock line is absent at December 31 versus 9m shares in the preceding reported quarter",
+   "The original stated thesis concerned engineering talent and strategic alternatives",
+   "The February 16 letter remained explicitly bullish on Gelsinger and investment"
+  ],
+  "extra_agent_drivers": [
+   "Management has executed on the original need for leadership change",
+   "The Company is demonstrating progress on its IDM 2.0 roadmap",
+   "The valuation remains attractive at ~10x P/E",
+   "Substantial cash generation provides a buffer"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "appointment of a new technical CEO and the rollout of the IDM 2.0 program",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "latest results show execution is meeting or exceeding our expectations",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "valuation remains attractive at ~10x P/E",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 5,
+  "share": 0.56
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We maintain our position, as the catalyst remains active and the management team is currently executing on our core asks [D03, D07].",
+ "grader_notes": "The agent incorrectly identifies the investment status as a HOLD, failing to account for the exit that occurred in Q4 2021. The agent's reasoning focuses entirely on a fundamental bull case for Intel, which is disconnected from Third Point's actual decision to exit the position.",
+ "run": "2022_intc_sell__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

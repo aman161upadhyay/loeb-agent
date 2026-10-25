@@ -1,0 +1,269 @@
+{
+ "pack": "2020_intc_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-12-29",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company designs and manufactures PC and server processors and maintains an extensive semiconductor fabrication base [D01]. It faces challenges from fabless competitors due to manufacturing delays and customer-designed chip initiatives [D01].",
+   "segments_and_separable_assets": [
+    "Core processor design and manufacturing operations (Q3 2020 revenue $18.3 billion) [D03].",
+    "NAND memory/storage business, subject to a $9 billion sale agreement [D03]."
+   ],
+   "economics_vs_peers": [
+    "Gross margin: 53.1% GAAP (down from 58.9% in the prior year) [D06].",
+    "Margins/Returns: Operating margin 27.6% (Q3 2020) [D03]. Peer operating margins: AMD (9.4%), Nvidia (26.1%), Texas Instruments (39.8%) [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $36.56 billion [D04].",
+    "Cash and short-term investments: $3.36 billion (cash-only) or $18.253 billion (total cash/investments) [D04].",
+    "Net debt: $33.21 billion (cash-only basis) [D04]."
+   ],
+   "price_and_valuation": [
+    "Closing price: $49.39 [D04].",
+    "Market cap: $202.40 billion [D04].",
+    "EV: $235.61 billion (cash-only) [D04].",
+    "TTM P/E: 9.70x [D04].",
+    "Guidance P/E: 10.08x (adjusted) / 10.85x (GAAP) [D04].",
+    "FCF yield: 10.04% (TTM) [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Bob Swan; Chair: Omar Ishrak [D07].",
+    "Recent actions: $10 billion accelerated share repurchase [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 4,098 million [D04].",
+    "Top holders: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Divestiture: $9 billion agreement to sell memory/storage business [D03].",
+    "Capital return: $10 billion accelerated share repurchase [D03].",
+    "Operational: Potential management change, strategic review, or outsourcing manufacturing [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Loss of technological leadership and process delays [D05].",
+    "High capex requirements depressing FCF [D05].",
+    "Transition costs and dependency on rivals if outsourcing occurs [D05].",
+    "Customer loss as data-center and PC customers build their own chips [D05].",
+    "Talent flight [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$9 billion sale of memory/storage business, subject to transaction conditions [D03]."
+   ],
+   "recent_events": [
+    "Q3 2020 earnings (2020-10-22): $18.3 billion revenue, GAAP EPS $1.02 [D03].",
+    "$10 billion accelerated share repurchase (2020-10-22) [D03]."
+   ],
+   "third_point_context": [
+    "Firm AUM: ~$14.8 billion (as of 2020-11) [D08].",
+    "Fund exposure (2020-11): Equity long 108.7%, short 35.5%, net 73.2% [D08].",
+    "Existing stake: not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Segment-level profitability, detailed debt maturity schedule, and current exact Third Point position/basis."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has a significant margin gap versus peers and structural manufacturing delays [D01], [D06], with clear paths for strategic review or outsourcing to restore leadership [D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "We bring a constructivist approach to demand specific structural changes—such as separation of fabrication from design—to close the valuation gap created by market skepticism of management's turnaround plan [D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The company is a large-cap entity with a broad shareholder base, making it susceptible to constructive pressure, private engagement, and potential board refreshment to oversee strategic changes [D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The stock trades at a depressed TTM P/E of 9.70x with a 10.04% FCF yield, supported by a $9 billion divestiture of the memory business and a strong core processor franchise [D03], [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $202.4 billion, Third Point can build a significant, liquid position consistent with our strategy for large-cap constructivism [D04], [D08]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "Management is currently overseeing an uncertain multi-year operational turnaround and loss of technological leadership, necessitating active pressure to ensure execution or leadership change [D05], [D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 1,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "We are targeting an iconic but underperforming semiconductor leader by pressuring the board to pursue structural separation of its struggling fabrication unit to unlock value obscured by manufacturing delays.",
+   "one_line_verdict": "A high-quality but mismanaged semiconductor incumbent trading at a low multiple with clear, fixable structural bottlenecks."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views the company as a terminal loser suffering from irreparable loss of technological leadership and unsustainable capital intensity. We believe the market fails to value the potential for structural separation of fabrication from design, which would unlock the true value of the world-class processor franchise. By separating these businesses, the company can address its manufacturing bottlenecks while restoring competitive margins and leadership.",
+   "evidence": [
+    "Significant margin gap: Operating margins are 27.6% compared to peers like Texas Instruments at 39.8% [D06].",
+    "The company faces structural manufacturing delays causing a loss of technological leadership [D01], [D06].",
+    "Market skepticism reflected in a depressed TTM P/E of 9.70x [D04]."
+   ],
+   "peer_benchmark": "Texas Instruments (39.8% operating margin) [D06]",
+   "what_must_be_true": [
+    "The board must be willing to entertain strategic alternatives including fabrication outsourcing or separation.",
+    "The core design franchise remains fundamentally competitive if unencumbered by internal fabrication failures.",
+    "Operational turnaround can be accelerated through governance changes or leadership replacement."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$75.00",
+    "arithmetic": [
+     "Core design segment estimated FCF power: $16B [D03]",
+     "Implied earnings multiple: 15x (peer discount to TI 39.8% margin) [D06]",
+     "Implied EV of core design: $240B",
+     "Plus $9B NAND sale proceeds [D03]",
+     "Minus $33.21B net debt [D04]",
+     "Equity value: $215.79B / 4.098B shares [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$40.00",
+    "basis": "Current FCF yield of 10.04% and $9B asset divestiture proceeds [D03], [D04]"
+   },
+   "current_price": "$49.39 [D04]",
+   "skew": "50% : 19%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assignment of 15x multiple to design-only business based on margin expansion potential",
+    "NAND sale successfully closes as planned",
+    "Core design FCF is sustainable excluding fabrication capex"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Strategic review of manufacturing operations to potentially separate fabrication from design [D07]",
+    "Management and board accountability for addressing the operational margin gap vs peers [D06], [D07]",
+    "Improved capital allocation focused on returning value to shareholders rather than inefficient internal capex [D05], [D07]"
+   ],
+   "actors": [
+    "Bob Swan — CEO — Target of performance pressure [D07]",
+    "Omar Ishrak — Chair — Targeted for governance oversight [D07]"
+   ],
+   "governance_route": "Constructive private engagement with the Board of Directors to demand strategic alternatives; as a large-cap entity with broad ownership, the company is susceptible to private pressure for board refreshment or strategic shifts before requiring a public letter [D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If private engagement is ignored or rejected by the board, prepare a public letter and presentation (P2) to mobilize the shareholder base before the next proxy nomination window.",
+   "why_this_role_fits_the_era": "In the 2016-onward era, Third Point prioritizes private engagement for mega-cap constructivism to drive strategic change, moving to public letters only if management or the board fails to respond to a well-reasoned, written case for value creation."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board rejects strategic review or commits to long-term internal manufacturing capex without independent validation",
+    "Fabrication margin compression accelerates beyond current trend, indicating permanent loss of competitive advantage",
+    "Successful shift to competitive foundry pricing by rivals that renders separation value moot",
+    "Macro liquidity regime change significantly impairs the company's ability to finance a restructuring or share buyback program"
+   ],
+   "portfolio_risk": "Factor overlap exists with our existing mega-cap tech and semi exposure; however, the position size is scaled to reflect liquidity and our ability to hedge via broad tech index shorts [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 8,
+    "max": 10
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on the SOX (PHLX Semiconductor Sector) to mitigate sector-wide systematic volatility during the engagement period.",
+   "biggest_risk_in_one_sentence": "The board refuses to acknowledge the structural manufacturing bottleneck, forcing us into a long, potentially value-destructive proxy fight for board control."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-12-29",
+  "company": "The Company (Intel)",
+  "ticker": "INTC",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$75.00",
+   "floor": "$40.00",
+   "skew": "50% : 19%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Strategic review of manufacturing operations to potentially separate fabrication from design",
+    "Management and board accountability for addressing the operational margin gap vs peers",
+    "Improved capital allocation focused on returning value to shareholders"
+   ],
+   "actors": [
+    "Bob Swan",
+    "Omar Ishrak"
+   ],
+   "governance_route": "Constructive private engagement with the Board of Directors",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a depressed TTM P/E of 9.70x despite owning a world-class processor design franchise, with value obscured by structural manufacturing bottlenecks [D04], [D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Operating margins of 27.6% lag significantly behind peers like Texas Instruments at 39.8%, creating a clear margin gap that can be closed through operational discipline or structural separation [D03], [D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A sum-of-the-parts valuation implies a target share price of $75.00, derived from $16B in core FCF and a 15x multiple, providing a compelling 50% upside [D03], [D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The $9 billion NAND divestiture and a strong 10.04% FCF yield establish a hard valuation floor of $40.00 [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board rejects strategic review or commits to long-term internal manufacturing capex without independent validation",
+   "Fabrication margin compression accelerates beyond current trend",
+   "Successful shift to competitive foundry pricing by rivals that renders separation value moot",
+   "Macro liquidity regime change significantly impairs the ability to finance restructuring"
+  ],
+  "what_would_change_our_mind": "The board refuses to acknowledge the structural manufacturing bottleneck, forcing us into a long, potentially value-destructive proxy fight for board control.",
+  "memo": "The Company is an iconic American institution that has unfortunately lost its way, suffering from persistent manufacturing delays and an erosion of its technological leadership. Despite this, it trades at an absurd valuation of 9.70x TTM P/E, with the market pricing it as a terminal loser rather than a dominant semiconductor franchise [D04], [D05]. We see a clear, actionable path to unlock value by addressing the structural disconnect between its design and fabrication operations.\n\nOur sum-of-the-parts analysis values the core design business at $240 billion, based on $16 billion of FCF power and a 15x multiple, which is a conservative discount to peers like Texas Instruments, who enjoy operating margins of 39.8% [D03], [D06]. When adjusting for the $9 billion NAND divestiture proceeds and net debt of $33.21 billion, the equity value per share significantly exceeds the current trading price of $49.39 [D03], [D04].\n\nFor too long, management has allowed operational performance to slide, with operating margins at 27.6% trailing far behind competitive benchmarks [D03], [D06]. The market is currently paralyzed by skepticism toward the existing multi-year turnaround plan, which is failing to address the fundamental manufacturing bottlenecks that plague the company [D05], [D07]. Change is not optional; it is required to restore the company to its rightful place as a leader in the semiconductor industry.\n\nWe have initiated constructive private engagement with the board, led by Omar Ishrak, to demand a strategic review of fabrication operations [D07]. Our asks include immediate accountability for the margin gap, a hard look at separating fabrication from design, and a shift in capital allocation away from inefficient internal capex toward shareholder returns [D05], [D06], [D07]. We expect the board to act decisively within the next two quarters; if not, we are prepared to escalate our efforts to ensure shareholders are not left holding the bag [D07].\n\nThe downside is protected by a 10.04% FCF yield and the $9 billion cash infusion from the memory divestiture, providing a hard floor near $40.00 [D03], [D04]. While we are cognizant of the risks of a protracted turnaround, the current risk/reward skew is highly asymmetric at 3:1. We are establishing an 8% position in the common stock, sized to reflect our conviction in the event-driven catalyst, and have implemented an index hedge on the SOX to mitigate broader systematic semiconductor volatility [D05], [D08].",
+  "uncited_claims": []
+ }
+}

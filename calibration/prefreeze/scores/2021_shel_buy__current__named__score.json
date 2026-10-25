@@ -1,0 +1,47 @@
+{
+ "trade_id": "2021_shel_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Separate legacy cash-generating businesses from LNG and growth/transition assets. → Royal Dutch Shell is a world-class integrated energy leader that is currently trapped in a conglomerate structure, forcing its high-margin hydrocarbon cash engine to subsidize lower-return renewable investments",
+   "Clearer capital allocation and distinct investor constituencies could close a large intrinsic-value discount. → We believe that by clearly separating these businesses into entities with distinct cost-of-capital profiles, we can unlock significant value and allow the market to re-rate the underlying assets to reflect their true earnings power"
+  ],
+  "missed": [
+   "Incompatible investor mandates had created an incoherent strategy and weak performance."
+  ],
+  "extra_agent_drivers": [
+   "The business generates substantial free cash flow, including $9.671 billion in Q2 2021 alone, providing a hard financial floor for the equity",
+   "The current dividend yield of 4.34% and active share repurchase programs demonstrate management’s potential to return capital if directed toward shareholder-friendly priorities"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Shell possesses the scale and operational quality to drive superior returns.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Shell produced $9.671 billion in Q2 2021.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We believe that by clearly separating these businesses into entities with distinct cost-of-capital profiles, we can unlock significant value and allow the market to re-rate the underlying assets to reflect their true earnings power.",
+ "grader_notes": "The agent correctly identified the core thesis of structural separation and capital allocation improvement, matching two of the three drivers given by Loeb. It failed to include the specific critique regarding 'incompatible investor mandates' as a driver of the existing strategy. The agent added several financial metrics as drivers (dividend yield, FCF) that were not emphasized in Loeb's stated drivers.",
+ "run": "2021_shel_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

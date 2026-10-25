@@ -1,0 +1,48 @@
+{
+ "trade_id": "ho_2026_costar_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "The board remedy failed to restrain continued Homes.com spending and related acquisitions.",
+   "The manager believed the CEO was entrenched through golden-parachute terms rather than held accountable.",
+   "Reporting changes appeared to obscure residential results, while attention to core Apartments.com and CoStar Suite and AI competition was inadequate.",
+   "The original governance/capital-allocation thesis no longer held, prompting complete disposal."
+  ],
+  "extra_agent_drivers": [
+   "The April governance settlement established the framework for oversight, but we require further operating disclosures to confirm capital allocation discipline.",
+   "Reported revenue growth remains ambiguous as it lacks a clear bridge to free-cash-flow generation.",
+   "The core commercial franchise remains a valuable potential source of recovery."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The April governance settlement established the framework for oversight",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are in the valuation-validation phase of the event",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We remain holders of our position as we monitor the effectiveness of the board settlement initiated in April [D07].",
+ "grader_notes": "The agent incorrectly held the position, whereas the actual decision was a complete exit. Reasoning is entirely divergent as the agent is in a monitoring/valuation-validation phase while the actual investor had already concluded the thesis was broken and exited.",
+ "run": "ho_2026_costar_sell__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

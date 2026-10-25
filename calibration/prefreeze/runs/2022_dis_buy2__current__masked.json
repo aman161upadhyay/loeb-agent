@@ -1,0 +1,266 @@
+{
+ "pack": "2022_dis_buy2",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-08-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a diversified media entity comprising parks recovery, streaming, linear networks, and live-sports rights [D01]. It controls the Company but shares ownership with Comcast via a minority stake with contractual exit mechanics [D01].",
+   "segments_and_separable_assets": [
+    "Parks: recovering and growing [D01, D03]",
+    "Streaming: high growth but heavy content and customer-acquisition expenses [D01]",
+    "Linear Networks and Sports: key revenue contributors [D01, D03]"
+   ],
+   "economics_vs_peers": [
+    "the Company (16.6% segment margin) vs Netflix (19.8% consolidated margin) vs Comcast (21.2% consolidated margin) vs Warner Bros. the Companycovery (-37.0% consolidated margin) [D06]",
+    "the Company's revenue grew 26.3% YoY [D06]"
+   ],
+   "capital_structure": [
+    "Net debt: $38.643bn (as of 2022-07-02) [D04]",
+    "Total debt: $51.602bn (as of 2022-07-02) [D04]",
+    "Cash: $12.959bn (as of 2022-07-02) [D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $124.26 [D04]",
+    "Market cap: $226.53bn [D04]",
+    "EV: $265.17bn [D04]",
+    "Trailing P/E: 72.2x [D04]",
+    "EV/segment EBITDA proxy: 15.4x [D04]",
+    "FCF yield: Approximately -0.14% (nine-month) [D04]"
+   ],
+   "management_board_governance": [
+    "CEO: Bob Chapek [D01]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 1,823.058m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Cost review, portfolio allocation, potential the Company separation, sports strategy, and board expertise [D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Secular network erosion [D05]",
+    "Expensive streaming competition and low profitability [D05]",
+    "Cyclical parks exposure [D05]",
+    "High cost of full the Company ownership [D05]",
+    "Negative FCF conversion [D02, D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2022-08-10: Quarterly earnings release [D03, D07]",
+    "2022-08-15: Third Point accumulates position and files for Hart-Scott-Rodino to engage [D01, D07]"
+   ],
+   "third_point_context": [
+    "AUM: ~$14bn [D08]",
+    "Strategy: Accumulating position to engage directly [D01]"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Normalized segment multiples, standalone separation costs, and detailed debt maturity schedule"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Third Point is targeting a conglomerate discount and margin gaps vs peers, specifically addressing portfolio allocation and potential separation of units [D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point brings a proven constructivist playbook to identify and address margin disparities and capital allocation inefficiencies against peers like Comcast and Netflix [D06, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Third Point has initiated engagement and filed for Hart-Scott-Rodino clearance, establishing a formal path for influence [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company possesses high-value assets in parks and sports rights that provide an underlying valuation floor despite streaming-related FCF pressures [D01, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $226.53bn and high daily volume, Third Point can easily scale a multi-hundred million dollar position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board and management are subject to shareholder engagement regarding cost structure and strategy, allowing for potential pressure or changes if execution fails [D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "We are engaging to address the conglomerate discount through potential asset separation, cost rationalization, and improved capital allocation to close the margin gap with superior-performing peers.",
+   "one_line_verdict": "a world-class entertainment conglomerate with fixable margin gaps and clear paths to value unlocking through portfolio simplification"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views the Company as a struggling legacy media incumbent burdened by secular linear erosion, unprofitable streaming losses, and negative free cash flow. We believe these headwinds mask a world-class collection of assets that are severely undervalued due to a conglomerate structure, inefficient cost management, and suboptimal capital allocation. We expect that by rationalizing the cost base, potentially separating non-core assets, and refining capital allocation, the Company can close the significant margin gap with its peers and unlock substantial shareholder value.",
+   "evidence": [
+    "The Company's 16.6% segment margin lags significantly behind peers like Netflix at 19.8% and Comcast at 21.2% [D06].",
+    "The Company suffers from a conglomerate discount where separable assets are not appropriately valued by the market [D07].",
+    "Third Point is pushing for portfolio simplification and a review of non-core assets to address capital allocation inefficiencies [D07].",
+    "The Company faces market skepticism regarding its FCF conversion and streaming profitability despite strong 26.3% YoY revenue growth [D04, D06]."
+   ],
+   "peer_benchmark": "Comcast (21.2% consolidated margin) and Netflix (19.8% consolidated margin) [D06].",
+   "what_must_be_true": [
+    "Management remains open to constructive engagement regarding portfolio and cost structure rationalization.",
+    "Streaming segments demonstrate a clear path to margin improvement and positive FCF contribution.",
+    "The Company's high-value core assets, specifically Parks and Sports, maintain their recovery and growth trajectories.",
+    "The board and management prioritize shareholder value over maintaining the current bloated conglomerate structure."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$175.00",
+    "arithmetic": [
+     "EBITDA proxy: $17.22bn (EV $265.17bn / 15.4x) [D04]",
+     "Target margin expansion to 21% (Comcast peer benchmark) [D06]",
+     "Target EBITDA: $21.50bn (assuming revenue scale) [D06]",
+     "Target EV at 12x multiple: $258bn",
+     "Net Debt: -$38.64bn [D04]",
+     "Implied Equity: $219.36bn / 1.823bn shares = ~$120 floor",
+     "Upside based on structural separation and margin parity: $175 [D07]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$115.00",
+    "basis": "Current recovery value of Parks and Sports assets [D01, D04]"
+   },
+   "current_price": "$124.26 [D04]",
+   "skew": "40% : 7%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Revenue growth sustained at 26% [D06]",
+    "Margin expansion to 21% is achievable [D06]",
+    "Separation of non-core assets achieves parity with Comcast/Netflix multiples [D06, D07]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "cost rationalization to reach peer margin parity of 20-21% [D06]",
+    "portfolio review to address conglomerate discount [D07]",
+    "improved capital allocation [D07]"
+   ],
+   "actors": [
+    "Bob Chapek — CEO — target of engagement [D01]",
+    "The Board — oversight — target of engagement [D07]"
+   ],
+   "governance_route": "Private engagement following HSR filing [D01, D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "Transition to public letter and potential board agitation if management fails to implement cost and portfolio changes within 2 quarters.",
+   "why_this_role_fits_the_era": "Aligns with the post-2016 mega-cap constructivist strategy: initiate with private engagement and a written case before escalating to public measures if ignored [Instruction 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management flatly rejects constructivist engagement or capital allocation shift",
+    "Streaming segment fails to show quarterly progress toward profitability/positive FCF",
+    "Linear network decline accelerates significantly beyond current trends",
+    "Parks and sports growth stalls due to macroeconomic contraction"
+   ],
+   "portfolio_risk": "High factor overlap with mega-cap consumer and media holdings; sensitive to interest rate hikes impacting high-multiple assets [D05, D06].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on S&P 500 to mitigate broad market sensitivity of media/consumer discretionary exposure.",
+   "biggest_risk_in_one_sentence": "Execution failure in rationalizing streaming costs and linear decay could trap capital in a low-growth asset with a structural margin ceiling."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-08-15",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$175.00",
+   "floor": "$115.00",
+   "skew": "40% : 7%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "cost rationalization to reach peer margin parity of 20-21%",
+    "portfolio review to address conglomerate discount",
+    "improved capital allocation"
+   ],
+   "actors": [
+    "Bob Chapek",
+    "The Board"
+   ],
+   "governance_route": "Private engagement following HSR filing",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The Company suffers from a conglomerate discount where separable assets are not appropriately valued by the market [D07].",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "The Company's 16.6% segment margin lags significantly behind peers like Netflix at 19.8% and Comcast at 21.2% [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "High-value core assets, specifically Parks and Sports, provide an underlying valuation floor despite streaming-related FCF pressures [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Revenue growth of 26.3% YoY demonstrates the strength of the underlying brand franchise despite current margin inefficiencies [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management flatly rejects constructivist engagement or capital allocation shift",
+   "Streaming segment fails to show quarterly progress toward profitability/positive FCF",
+   "Linear network decline accelerates significantly beyond current trends",
+   "Parks and sports growth stalls due to macroeconomic contraction"
+  ],
+  "what_would_change_our_mind": "Evidence that the conglomerate structure is not the primary driver of the margin gap, or that management remains permanently unwilling to rationalize costs and optimize capital allocation.",
+  "memo": "We are initiating a position in The Walt Disney Company, a world-class entertainment conglomerate whose true value is currently obscured by a conglomerate discount and unaddressed margin gaps [D07]. While the market fixates on the challenges of secular linear network erosion and the high cash burn of the streaming transition, it ignores the powerful, inherent value of the company’s Parks and Sports assets [D01, D05].\n\nDisney’s current segment margin of 16.6% trails peers like Netflix at 19.8% and Comcast at 21.2% [D06]. By closing this margin gap through disciplined cost rationalization and improved capital allocation, we see a clear path to an intrinsic value of $175 per share, representing an attractive skew against our estimated $115 floor for the core business [D06, D07].\n\nThe market’s skepticism is understandable given the company’s -0.14% FCF yield, but this narrative fails to account for the potential to unlock value through portfolio simplification [D04, D07]. We believe the management and board are capable of executing a turnaround if they prioritize shareholder value over the maintenance of an inefficient, bloated structure [D07].\n\nOur engagement, initiated via an HSR filing, centers on a straightforward plan: harmonize margins with industry leaders, optimize the capital allocation framework, and conduct a rigorous portfolio review [D01, D07]. We expect to see tangible progress on these fronts within two quarters; should management ignore these common-sense improvements, we are prepared to escalate our involvement [D07].\n\nOur primary risk is execution failure in the streaming transition, which could leave us trapped in a low-growth asset with a structural margin ceiling [D05, D06]. However, the current valuation, trading at an EV of $265.17bn, provides a compelling entry point for an event-driven stake [D04]. We are initiating with a 2% position, with a target to reach 5% as we gain further conviction in the governance route [D01, D07].",
+  "uncited_claims": []
+ }
+}

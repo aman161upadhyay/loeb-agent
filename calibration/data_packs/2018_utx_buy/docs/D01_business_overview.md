@@ -1,0 +1,17 @@
+Title: Business economics and asset map — United Technologies Corporation
+Source: https://www.sec.gov/Archives/edgar/data/101829/000010182918000007/a2018-03x318xkerexhibit99.htm (2018-04-24); https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (2017-06-02); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618000853-third-point-llc-q4-2017 (2018-02-14)
+Date: 2018-05-04
+
+UTC owns Pratt & Whitney engines, aerospace systems, Otis elevators and climate/control businesses including Carrier. Engine aftermarket economics differ from new-equipment ramp costs, elevator installations and climate replacement demand. An engine platform can consume cash during early deliveries before generating service revenue over many years. Otis combines installed-base service with construction-sensitive new units. Gregory Hayes chairs and leads the company. A three-part operating map—Aerospace, Otis and Carrier—permits separate underwriting without assuming that a legal split is already approved. The pending Rockwell Collins acquisition adds integration and financing complexity. [S1; analyst mapping]
+
+Economic map and evidence limits. Separate the source's business descriptions from an analyst's inference about durability. Revenue scale alone is not a moat: the important distinctions are repeat demand, switching or distribution advantages, reinvestment requirements, and the ability to convert customer value into cash for owners. A strong asset can be an unattractive security when other claims absorb the cash. Conversely, complexity can obscure an otherwise sound franchise. The facts above identify the businesses and the relevant unit of analysis; they do not establish that a particular corporate structure is optimal.
+
+Underwrite the operating case before assuming an event. Identify who pays, why the customer returns, which costs are fixed, and what spending must recur to protect the franchise. Keep operating assets, financial investments and restricted capital separate. Where the recovered source does not provide unit economics, customer retention or segment capital employed, those figures are not available in contemporaneous sources; do not fill them with a current estimate. A downside analysis should test the business with no immediate transaction or valuation rerating. This is an analyst framework, not a statement that management or any shareholder has adopted it.
+
+Analyst cross-check: Map the customer, contractual counterparty and owner of the relevant intellectual property separately. A distributor's access to end demand is not ownership of that demand; likewise, reported group market share does not prove that each operating unit possesses pricing power or recurring revenue.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/101829/000010182918000007/a2018-03x318xkerexhibit99.htm (published 2018-04-24).
+- [S2] https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (published 2017-06-02).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S4] https://13f.info/13f/000108514618000853-third-point-llc-q4-2017 (published 2018-02-14).

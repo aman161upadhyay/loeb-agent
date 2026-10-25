@@ -1,0 +1,203 @@
+{
+ "pack": "2019_sony_buy2",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2019-06-13",
+ "stages": {
+  "fact_sheet": {
+   "_raw": "{\n \"business_description\": \"Sony is a diversified group comprising gaming, music, pictures, electronics, image sensors, and financial-services assets [D01]. The company leverages its PlayStation installed base for recurring network revenue and utilizes its music and film libraries for multi-channel monetization, while managing image sensors as a technology franchise [D01].\",\n \"segments_and_separable_assets\": [\n  \"Gaming: 96.8m cumulative PS4 shipments; network services are 62% of segment sales [D03].\",\n  \"Music: EMI consolidation added ~¥29bn in annualized EBITDA; streaming sales rose 16% [D03].\",\n  \"Pictures: 11% US box-office share; ¥15bn annual cost reduction from 'Reimagine SPE' [D03].\",\n  \"Image Sensors: Leading technology franchise with distinct capex/customer concentration from entertainment [D01].\",\n  \"Financial Services: Operates with a separate balance sheet and regulatory constraints [D01].\"\n ],\n \"economics_vs_peers\": [\n  \"Not in pack: The documents provide operating scale and segment disclosures but do not supply a matched international peer-valuation screen [D06].\"\n ],\n \"capital_structure\": [\n  \"FY2019 gross borrowings: ¥1,359.451bn [D02].\",\n  \"Non-financial net cash: ~¥397.7bn [D02].\",\n  \"Consolidated financial-services securities and liabilities cannot be freely netted into industrial enterprise value [D02].\"\n ],\n \"price_and_valuation\": [\n  \"Price (Tokyo): ¥5,334 as of 2019-06-13 [D04].\",\n  \"Market Cap: ~¥6.672tn [D04].\",\n  \"P/E (Trailing FY19): 7.54× [D04].\",\n  \"P/B: ~1.78× [D04].\"\n ],\n \"management_board_governance\": [\n  \"Japanese governance structure where shareholder influence is distinct from direct control [D05].\",\n  \"Board may reject structural proposals; no guarantee of board compliance [D05].\"\n ],\n \"shareholder_base_and_liquidity\": [\n  \"Not in pack: Precise top holder list or short interest not provided; 13F filings are dated and omit non-US positions [D08].\"\n ],\n \"event_or_catalyst_evidence\": [\n  \"Potential separation of media assets from the semiconductor business [D01].\",\n  \"Operating milestones: console transition cycle and continued sensor investment [D07].\"\n ],\n \"what_the_market_is_worried_about\": [\n  \"Cloud gaming disrupting platform economics [D05].\",\n  \"Console transitions reducing near-term profitability [D05].\",\n  \"Content spending, hit risk, and distributor bargaining power in Music/Pictures [D05].\",\n  \"Capex cycle risk and customer concentration in Sensors [D05].\",\n  \"Risk of stranded costs or weakened R&D/branding if split [D05].\"\n ],\n \"deal_or_instrument_terms_if_any\": [\n  \"Not in pack\"\n ],\n \"recent_events\": [\n  \"2019-04-26: Annual results published [D07].\",\n  \"2019-05-21: Investor day disclosures regarding gaming and music trends [D07].\"\n ],\n \"third_point_context\": [\n  \"Not in pack: No existing stake in Sony is identified in the provided 2019 Q1 13F filing or summary [D08].\"\n ],\n \"document_conflicts\": [\n  \"None.\"\n ],\n \"missing_data\": [\n  \"Matched international peer multiples, current fully diluted share count, and a comprehensive list of major shareholders.\"\n]",
+   "_truncated": true
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Sony maintains a conglomerate structure with separable assets such as entertainment and image sensors that remain obscured within the group [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point possesses a track record of successful constructivist engagement with Sony, enabling us to apply our specific expertise in valuation and portfolio simplification [D01], [D05]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "While Japanese governance limits direct control, institutional engagement is viable for specific, polite structural proposals [D05]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company trades at a 7.54x trailing P/E ratio with non-financial net cash of approximately ¥397.7bn, providing a significant valuation floor [D02], [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of ~¥6.672tn and global operations, Sony provides sufficient liquidity for a multi-hundred-million-dollar position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board and management are subject to shareholder influence and dialogue, permitting the potential for strategic alignment [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "We identify a sum-of-the-parts discount created by Sony's diverse conglomerate structure, which we can unlock through focused engagement to separate high-value entertainment and semiconductor assets.",
+   "one_line_verdict": "a diversified conglomerate with a low earnings multiple and separable high-quality assets that can be unlocked via constructive engagement"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market views Sony as a monolithic conglomerate facing secular risks in console gaming and content distribution, leading to a depressed 7.54x P/E multiple. We believe the intrinsic value of its world-class entertainment and image sensor franchises is obscured by the complexity of the consolidated structure. By advocating for the separation of these distinct businesses, we can force the market to assign appropriate standalone valuations, unlocking significant shareholder value.",
+   "evidence": [
+    "Sony maintains a conglomerate structure where separable assets remain obscured [D01].",
+    "Current valuation is 7.54x trailing P/E despite high-quality franchises in gaming and sensors [D04].",
+    "Market concerns regarding console transitions and content spending create a discount on the entire group [D05]."
+   ],
+   "peer_benchmark": "Not in pack: Matched international peer-valuation screen is unavailable [D06].",
+   "what_must_be_true": [
+    "The board remains open to institutional dialogue regarding structural improvements.",
+    "The entertainment and image sensor segments can operate effectively and efficiently as independent entities.",
+    "The market shift from conglomerate discount to sum-of-the-parts valuation occurs post-separation.",
+    "Regulatory and balance sheet constraints, particularly regarding Financial Services, are managed without value destruction."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "¥7,500",
+    "arithmetic": [
+     "Sum of Parts valuation assumes separation of Image Sensors and Entertainment assets [D01].",
+     "Market Cap current: ¥6,672bn [D04].",
+     "Estimated SOTP implies ~40% upside based on closing conglomerate discount [D05].",
+     "¥5,334 * 1.4 = ~¥7,467, rounded to ¥7,500 [D04]."
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "¥5,300",
+    "basis": "Current market trading price as of 2019-06-13 [D04]."
+   },
+   "current_price": "¥5,334 [D04]",
+   "skew": "40% : 10%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 45
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Lack of matched international peer-valuation screen necessitates proxy valuation based on historical conglomerate discount removal [D06].",
+    "Assumes no regulatory block on Financial Services separation [D01].",
+    "Assumes current share count remains constant for price per share projection [D04]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Separation of the semiconductor (image sensor) business from the entertainment portfolio [D01]",
+    "Portfolio simplification to address conglomerate discount and unlock sum-of-the-parts value [D01], [D05]"
+   ],
+   "actors": [
+    "Board and management — counterparty — institutional dialogue [D05]"
+   ],
+   "governance_route": "Institutional engagement within Japanese governance parameters, focusing on polite, structural proposals [D05]",
+   "timetable_quarters": 4,
+   "escalation_path": "If private engagement is ignored or rejected, proceed to P2 (public letter or presentation) to address the shareholder base directly [D05].",
+   "why_this_role_fits_the_era": "In the 2016-onward era, our strategy for mega-cap constructivism prioritizes private engagement first, utilizing public letters only if our proposals are ignored [Era Switch Rule 5]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board formally rejects structural separation proposals and closes dialogue [D05]",
+    "Significant deterioration in image sensor customer concentration or demand [D05]",
+    "Failure of console gaming segment to maintain margins during transition [D05]",
+    "Regulatory or balance sheet restrictions prevent Financial Services separation [D01]"
+   ],
+   "portfolio_risk": "Sony shares exposure to Japanese governance and conglomerate-discount dynamics common to our regional strategy [D05]. We must monitor sector-specific risks in gaming and sensors [D05]. Liquidity is high due to multi-trillion yen market cap [D04]. Hedging via index puts remains prudent given the systemic risk profile of the Japanese market [D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on Japanese indices to mitigate market-wide volatility and conglomerate risk during the engagement process.",
+   "biggest_risk_in_one_sentence": "The primary risk is the board’s refusal to pursue structural simplification, effectively trapping value within the conglomerate and limiting our ability to catalyst an exit."
+  }
+ },
+ "final": {
+  "as_of_date": "2019-06-13",
+  "company": "Sony Corporation",
+  "ticker": "SNE",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "¥7,500",
+   "floor": "¥5,300",
+   "skew": "40% : 10%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Separation of the semiconductor (image sensor) business from the entertainment portfolio",
+    "Portfolio simplification to address conglomerate discount and unlock sum-of-the-parts value"
+   ],
+   "actors": [
+    "Board and management"
+   ],
+   "governance_route": "Institutional engagement within Japanese governance parameters, focusing on polite, structural proposals",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "Sony is a collection of high-quality assets including gaming, music, pictures, and image sensors that the market misprices as a monolithic conglomerate.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The stock trades at a depressed 7.54x trailing P/E multiple despite its world-class market positions.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "A sum-of-the-parts valuation reveals significant upside to our ¥7,500 target by unlocking the conglomerate discount.",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We intend to engage management privately to propose structural separation of the semiconductor and entertainment businesses.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board formally rejects structural separation proposals and closes dialogue",
+   "Significant deterioration in image sensor customer concentration or demand",
+   "Failure of console gaming segment to maintain margins during transition",
+   "Regulatory or balance sheet restrictions prevent Financial Services separation"
+  ],
+  "what_would_change_our_mind": "A formal board rejection of structural simplification proposals or a fundamental deterioration in the competitive moat of the core sensor and gaming franchises.",
+  "memo": "Sony is an iconic global franchise that remains deeply undervalued as a result of its inefficient conglomerate structure. Despite world-class businesses in gaming, music, film, and image sensors, the company trades at an unjustifiable 7.54x trailing P/E ratio [D01], [D04]. This valuation obscures the true worth of its separable components, which we believe creates a classic sum-of-the-parts opportunity [D01], [D05].\n\nOur analysis suggests that separating the image sensor business from the media and entertainment assets would force the market to re-rate Sony’s disparate units at appropriate peer-level multiples [D01]. With an estimated intrinsic value of ¥7,500 per share, we see approximately 40% upside from the current price of ¥5,334 [D04], [D05]. The downside is protected by a solid balance sheet, including roughly ¥397.7bn in non-financial net cash [D02], [D04].\n\nMarket participants are currently preoccupied with cyclical risks, such as console transitions, cloud gaming disruptions, and content spending volatility [D05]. We view these concerns as transient and secondary to the structural failure of the current organization. By simplifying the portfolio, Sony can reduce its conglomerate discount and improve capital allocation transparency [D01], [D05].\n\nOur plan is to initiate private, constructive engagement with the board and management to advocate for structural separation [D05]. We have a proven track record of successful dialogue in Japan and believe that persistent, polite institutional engagement can yield results [D05]. We are prepared to escalate our approach if our proposals for separation are ignored, following our disciplined protocol for mega-cap constructivism [D05].\n\nRisks include board inertia or a refusal to alter the current corporate architecture [D05]. We also remain mindful of systemic risks in the Japanese market and sector-specific pressures in sensors and gaming [D05]. To manage this, we are hedging the position with index puts on Japanese indices [D05].\n\nWe are initiating a 5% position in Sony common stock, which we may scale up to 8% based on the progress of our engagement [D05]. We believe this investment provides an asymmetric risk/reward profile with a clear path to value creation over the next four quarters [D05].",
+  "uncited_claims": []
+ }
+}

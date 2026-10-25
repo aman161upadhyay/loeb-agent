@@ -1,0 +1,53 @@
+{
+ "pack": "2013_hlf_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2013-03-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2013-03-01",
+  "company": "Herbalife Ltd.",
+  "ticker": "HLF",
+  "decision": "SELL",
+  "reason_class": "L1",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Original driver: Profitable business at a controversy-driven discount [D01]; intact, but repriced [D04].",
+   "Technical event: Squeeze of a crowded short [D01]; catalyst is largely spent as stock has repriced [D04]."
+  ],
+  "remaining_skew": "The trade's edge was the technical event; remaining upside is diminished as the stock has repriced toward historical ranges [D04].",
+  "next_catalyst_and_timing": "None; technical squeeze has run, and fundamental regulatory risk remains [D01, D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The technical squeeze trade has run its course, and we are not in the business of winning arguments [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Stock has moved significantly from the low $30s entry [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Operating results cannot eliminate long-term regulatory and business-model uncertainty [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The original thesis was a controversy-driven discount, not a permanent long-term holding [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "We entered this position to exploit a controversy-driven discount and the technical dynamics of a crowded short [D01]. The stock has since repriced from our entry in the low $30s, and the technical catalyst associated with the short squeeze has played out [D01, D04]. \n\nWhile the company reported strong Q4 results, we are not in the business of winning arguments [D01]. These results demonstrate growth but do not resolve the underlying legal and business-model criticisms, nor do they turn a volatile, regulatory-sensitive asset into a low-risk staple [D01, D03]. \n\nWe value our capital and recognize that an E2 technical event, once exhausted, no longer justifies the risk of holding through unresolved regulatory clouds [D01, D05]. We are exiting the position to rotate into higher-skew events where our edge is clearer and the path to IRR is not dependent on the outcome of a public debate [D01].",
+  "uncited_claims": []
+ }
+}

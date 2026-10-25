@@ -1,0 +1,51 @@
+{
+ "pack": "2020_q1_derisk",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2020-03-16",
+ "stages": {},
+ "final": {
+  "as_of_date": "2020-03-16",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The WHO declared a pandemic on March 11 [S2] and the Federal Reserve initiated emergency intervention on March 15 due to global financial disruption [S1]. Markets are experiencing extreme stress with the S&P 500 down 29.5% from its February high and the VIX at 82.69 [D04]. High-yield spreads have widened dramatically by 478bp since year-end [D02].",
+  "book_exposure": "As of February 29, equity gross exposure was 140.5% (105.3% long / 35.2% short) and total fund gross was 174.3% [D02]. Net equity exposure was 70.1% [D02].",
+  "actions": [
+   "Reduce equity gross exposure by covering long positions in cyclicals (Aerospace, Auto, Travel) and correlated consumer discretionary stocks",
+   "Close or trim event-driven positions where financing or transaction certainty is impaired by market conditions",
+   "Maintain or increase defensive hedges to protect against further volatility, while reducing directional beta"
+  ],
+  "target_gross_net": "Materially lower gross exposure to improve liquidity and reduce sensitivity to correlated market sell-offs.",
+  "drivers": [
+   {
+    "driver": "Liquidity and financing availability have become the primary constraint for corporate holdings, overriding previous event-driven investment theses [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Synchronized global economic interruption from the pandemic invalidates standard cyclical earnings and valuation models [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The fund must preserve capital to meet potential redemptions and margin calls in a regime characterized by extreme volatility and bid/ask widening [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "History dictates that in liquidity regime changes, one must cut gross early rather than wait for thesis validation [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We are facing a fundamental regime change. The WHO's pandemic assessment and the Federal Reserve’s emergency response confirm that the environment for capital allocation has shifted from idiosyncratic event-driven opportunities to a broad-based liquidity crisis [D01, D03]. Our priority is the preservation of capital and the maintenance of liquidity to meet obligations under extreme market stress [D02].\n\nExisting theses regarding corporate events or sum-of-the-parts valuations are now secondary to the risk of forced selling. We will not be caught holding high-beta cyclicals or illiquid credit as financing markets tighten. We are reducing gross exposure across the board to ensure that our portfolio remains resilient against further correlated markdowns and to protect against the violent potential for short-hedge reversals [D05].\n\nWe recognize that selling into a liquidity event may crystallize losses, but holding positions that rely on stable financing or consistent consumer demand is a greater threat to our fund's solvency. We will continue to evaluate the portfolio, prioritizing assets that offer genuine downside protection through cash flows or contractual rights over those that merely appear cheap on stale P/E multiples [D04].",
+  "uncited_claims": []
+ }
+}

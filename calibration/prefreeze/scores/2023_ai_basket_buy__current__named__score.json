@@ -1,0 +1,64 @@
+{
+ "trade_id": "2023_ai_basket_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "AI represented a transformational platform shift across software and semiconductors.",
+   "Hyperscale cloud providers were picks and shovels benefiting regardless of individual application winners.",
+   "AI features could raise software ARPU and employee productivity.",
+   "Compute intensity and model complexity could create a step change in GPU, memory and manufacturing demand."
+  ],
+  "extra_agent_drivers": [
+   "Market mispricing of AI transformation scale and speed",
+   "Margin disparity across the stack",
+   "Hard floor from aggregate net cash positions",
+   "Demand inflections for natural-language interfaces and AI compute"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The AI infrastructure super-cycle is currently mispriced by a market distracted by cyclical noise and short-term capital expenditure anxiety",
+    "citation": "D01",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Significant margin disparity exists across the stack, such as the gap between TSMC's 45.5% operating margin and Alphabet Cloud's 2.6%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The basket offers a hard floor supported by strong aggregate net cash positions of +$195.127bn",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Target is a 25% CAGR over the next three years",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "We have sized this position at 5% of NAV to provide sufficient exposure to the theme while utilizing index puts to hedge against systemic volatility",
+    "citation": "D05",
+    "verdict": "unsupported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 11,
+  "share": 0.85
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The AI infrastructure super-cycle is currently mispriced by a market distracted by cyclical noise and short-term capital expenditure anxiety [D01, D05].",
+ "grader_notes": "The agent identifies the correct investment direction but fails to cite any of Loeb's actual drivers, instead substituting its own thematic arguments. The agent's reasoning is entirely distinct from the drivers provided in the answer key, which focused on platform shifts and specific business utility (ARPU, productivity) rather than the agent's focus on margin convergence and balance sheet strength.",
+ "run": "2023_ai_basket_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": false
+}

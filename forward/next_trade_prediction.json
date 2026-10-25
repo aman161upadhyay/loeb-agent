@@ -1,0 +1,530 @@
+{
+ "as_of_date": "2026-10-25",
+ "prompt_version": "v1.5+era_e_addendum",
+ "runs": {
+  "run1_overview": {
+   "as_of_date": "2026-10-25",
+   "regime_decision": "REDUCE_GROSS",
+   "expected_new_positions_next_90_days": 1.5,
+   "candidates": [
+    {
+     "rank": 1,
+     "company": "Solstice Advanced Materials Inc.",
+     "ticker": "SOLS",
+     "action": "NEW_BUY",
+     "probability_90d": 0.6,
+     "template": "E1",
+     "instrument": "Common Equity",
+     "trigger": "Starboard activist agenda [E2] provides platform for SOTP value capture in refrigerants/nuclear; nomination window approaching [E3].",
+     "valuation": "120bp margin gap vs Eaton peer [F03]; 3:1 skew to SOTP intrinsic value.",
+     "size_pct_nav": 3,
+     "thesis_paragraph": "Solstice represents a textbook event-driven setup where a focused activist has identified substantial margin and portfolio optimization potential [F04]. With a pending nomination window and a clear path to rationalizing the refrigerant and nuclear asset mix, the company presents an asymmetric opportunity to address the historical discount and margin gap versus industrial peers [F03]. We will initiate as a core constructivist position, leveraging our experience in spin-offs and asset-heavy industrial turnarounds to force the board's hand.",
+     "what_would_confirm": "13D filing or public letter regarding board nominees."
+    },
+    {
+     "rank": 2,
+     "company": "FedEx",
+     "ticker": "FDX",
+     "action": "NEW_BUY",
+     "probability_90d": 0.45,
+     "template": "E2",
+     "instrument": "Common Equity",
+     "trigger": "Residual parcel company post-freight spin [E4] showing operational margin gap; upcoming earnings review [F03].",
+     "valuation": "132bp operating margin gap vs UPS [F03]; 2.5:1 skew.",
+     "size_pct_nav": 4,
+     "thesis_paragraph": "Following the freight spin-off, FedEx is now a simplified, pure-play parcel business with significant latent earnings power [F03]. The current valuation fails to credit the company for the potential margin convergence with UPS, which remains obscured by legacy freight complexity and cost structures [F03]. We see a clear catalyst in the upcoming earnings calls where a renewed commitment to asset productivity and disciplined capital allocation should catalyze a re-rating toward peer multiples.",
+     "what_would_confirm": "13F disclosure or private engagement dialogue reported in industry notes."
+    },
+    {
+     "rank": 3,
+     "company": "Telephone & Data Systems",
+     "ticker": "TDS",
+     "action": "ADD",
+     "probability_90d": 0.4,
+     "template": "E2",
+     "instrument": "Common Equity",
+     "trigger": "Ongoing SOTP value unlocking; spectrum sale completed, tower/fiber remains [E7].",
+     "valuation": "SOTP discount vs peers; opportunistic entry.",
+     "size_pct_nav": 2,
+     "thesis_paragraph": "TDS remains a compelling SOTP situation where the market continues to undervalue the individual components of the tower, spectrum, and fiber assets [F03]. Following the successful Verizon spectrum sale, management must now focus on further value realization through fiber or tower separation. We are adding to our conviction as the thesis approaches an inflection point, with potential for further capital upstreaming or divestment announcements.",
+     "what_would_confirm": "8-K announcement of further asset sale or separation process."
+    },
+    {
+     "rank": 4,
+     "company": "3M",
+     "ticker": "MMM",
+     "action": "NEW_BUY",
+     "probability_90d": 0.35,
+     "template": "E1",
+     "instrument": "Common Equity",
+     "trigger": "Post-Solventum simplification; board nomination window opens Nov 25 [F04].",
+     "valuation": "17bp margin gap vs Eaton; 2:1 skew.",
+     "size_pct_nav": 3,
+     "thesis_paragraph": "3M is a classic industrial complex that has failed to capitalize on the simplification post-Solventum spin [F04]. With the nomination window opening in late November, there is a clear route to address lingering governance and execution issues [F04]. We believe a constructivist approach focusing on portfolio discipline and cost management will unlock the hidden asset value currently masked by a conglomerate structure trading at a discount.",
+     "what_would_confirm": "13D filing during the nomination window."
+    },
+    {
+     "rank": 5,
+     "company": "Flex",
+     "ticker": "FLEX",
+     "action": "ADD",
+     "probability_90d": 0.3,
+     "template": "E2",
+     "instrument": "Common Equity",
+     "trigger": "Innovation Day Nov 10; Q1 2027 spin-off catalyst [F04].",
+     "valuation": "Mix transition potential; 2:1 skew.",
+     "size_pct_nav": 3,
+     "thesis_paragraph": "Flex's planned spin-off of its cloud and power infrastructure business is a high-conviction catalyst that remains misunderstood by the market [F04]. The recent acquisition of EPC Power further validates the strategic pivot [F04]. As we approach the Innovation Day, we are adding to our position to capture the valuation unlock of the infrastructure-focused entity, which should command a significantly higher multiple than the legacy EMS operations.",
+     "what_would_confirm": "Innovation Day presentations or filing of registration statements."
+    },
+    {
+     "rank": 6,
+     "company": "Bausch Health",
+     "ticker": "BHC",
+     "action": "NEW_BUY",
+     "probability_90d": 0.25,
+     "template": "E3",
+     "instrument": "Corporate Bonds",
+     "trigger": "Complex capital structure following divestitures [F06].",
+     "valuation": "Pricing discount to recovery value; 3:1 skew.",
+     "size_pct_nav": 2,
+     "thesis_paragraph": "Bausch Health presents a classic distressed-credit opportunity where the complexity of the capital stack provides a mispricing versus the underlying asset recovery value. We are underwriting the debt with a focus on BLCO stake leakage and litigation resolution [F06]. Our position is sized to conviction, as we expect the company to address maturity walls through restructuring or refinancing, creating a path to 20-30% IRR as the debt recovers toward par.",
+     "what_would_confirm": "Refinancing announcement or debt exchange offer."
+    },
+    {
+     "rank": 7,
+     "company": "Unum",
+     "ticker": "UNM",
+     "action": "TRIM",
+     "probability_90d": 0.2,
+     "template": "E4",
+     "instrument": "Common Equity",
+     "trigger": "Strong performance, valuation target reached [F02].",
+     "valuation": "Margin parity; target price hit.",
+     "size_pct_nav": -1,
+     "thesis_paragraph": "Unum has performed in line with our expectations as a quality earnings inflection compounder, but the current valuation now reflects much of the upside [F03]. Following the dividend record date and strong quarterly results, we are trimming to lock in gains and rotate capital into higher-conviction event-driven opportunities [F03].",
+     "what_would_confirm": "13F showing reduced position size."
+    },
+    {
+     "rank": 8,
+     "company": "Norfolk Southern",
+     "ticker": "NSC",
+     "action": "TRIM",
+     "probability_90d": 0.2,
+     "template": "E2",
+     "instrument": "Common Equity",
+     "trigger": "Merger spread compression; STB uncertainty [F04].",
+     "valuation": "722bp margin gap; downside risk increases with STB delay.",
+     "size_pct_nav": -2,
+     "thesis_paragraph": "The Norfolk Southern/Union Pacific merger spread has tightened while uncertainty regarding STB approval remains elevated [F04]. Given the current regulatory regime and the slow progress of the merger application, the risk/reward skew has deteriorated [F04]. We are trimming our position to reduce exposure to this specific arb-dependent event while maintaining a smaller core until clearer regulatory signals emerge.",
+     "what_would_confirm": "13F reduction or exit announcement."
+    }
+   ],
+   "existing_position_changes": [
+    {
+     "company": "Meta",
+     "action": "HOLD",
+     "probability_90d": 0.5,
+     "reason_class": "L4",
+     "why": "High conviction earnings inflection; holding as core AI compounder [F01, F02]."
+    },
+    {
+     "company": "Nvidia",
+     "action": "HOLD",
+     "probability_90d": 0.5,
+     "reason_class": "L4",
+     "why": "Core long in AI infrastructure; awaiting November earnings to validate product cycle [F01, F03]."
+    },
+    {
+     "company": "CoStar",
+     "action": "SELL",
+     "probability_90d": 0,
+     "reason_class": "L1",
+     "why": "Thesis break exit completed in April [F02]."
+    },
+    {
+     "company": "WBD",
+     "action": "SELL",
+     "probability_90d": 0,
+     "reason_class": "L3",
+     "why": "Deal closed Oct 6; exit complete [F01, F04]."
+    },
+    {
+     "company": "CRH",
+     "action": "HOLD",
+     "probability_90d": 0.4,
+     "reason_class": "L4",
+     "why": "Synergy realization from Arcosa integration supports core position [F02, F03]."
+    }
+   ],
+   "uncited_claims": []
+  },
+  "run2_existing": {
+   "as_of_date": "2026-10-25",
+   "regime_decision": "NO_CHANGE",
+   "expected_new_positions_next_90_days": 1.5,
+   "candidates": [
+    {
+     "rank": 1,
+     "company": "Honeywell",
+     "ticker": "HON",
+     "action": "NEW_BUY",
+     "probability_90d": 0.5,
+     "template": "E2",
+     "instrument": "Common Equity",
+     "trigger": "Post-separation industrial simplification and portfolio focus [F03]",
+     "valuation": "9x trailing EV/EBITDA is an attractive entry for a high-quality industrial compounder; target 13-14x on improved margins [F03]",
+     "size_pct_nav": 3,
+     "thesis_paragraph": "Honeywell represents a classic event-driven simplification story. Post-separation, the market continues to misprice the remaining business, applying an indiscriminate 9x EV/EBITDA multiple that ignores the structural improvements in operating efficiency and portfolio focus. We see a clear path to rerating as the company demonstrates standalone margin expansion against an Industrial peer median of 18%+ [F03].",
+     "what_would_confirm": "13F/13D filing or announcement of board/capital allocation engagement."
+    }
+   ],
+   "existing_position_changes": [
+    {
+     "company": "Meta",
+     "action": "ADD",
+     "probability_90d": 0.4,
+     "reason_class": "L4",
+     "why": "Renewed gross long presence in September report suggests high conviction in AI-driven efficiency and ad-spend recovery; requires monitoring of capex versus monetization [F01, F02, F03]."
+    },
+    {
+     "company": "Nvidia",
+     "action": "HOLD",
+     "probability_90d": 0.3,
+     "reason_class": "L4",
+     "why": "Top-tier long position as of September; wait for November earnings to validate compute product cycle strength against elevated crowding and supply-side funding concerns [F01, F03]."
+    },
+    {
+     "company": "Union Pacific",
+     "action": "TRIM",
+     "probability_90d": 0.3,
+     "reason_class": "L3",
+     "why": "STB process on NSC merger remains in flux; wait for outcome clarity while exposure is significant [F04]."
+    },
+    {
+     "company": "Bausch Health",
+     "action": "HOLD",
+     "probability_90d": 0.2,
+     "reason_class": "L1",
+     "why": "Core credit position; remain held pending specific waterfall analysis of legal/litigation priority versus capital structure complexity [F06]."
+    }
+   ],
+   "uncited_claims": [
+    "Expected probability of new positions assumes continued market volatility despite the absence of an explicit systemic credit crisis."
+   ]
+  },
+  "run3_activist": {
+   "as_of_date": "2026-10-25",
+   "regime_decision": "NO_CHANGE",
+   "expected_new_positions_next_90_days": 1,
+   "candidates": [
+    {
+     "rank": 1,
+     "company": "Solstice Advanced Materials",
+     "ticker": "SOLS",
+     "action": "NEW_BUY",
+     "probability_90d": 0.5,
+     "template": "E1",
+     "instrument": "Common Equity",
+     "trigger": "Starboard campaign targeting cost/portfolio/governance [F04]; proxy access window open Nov 3–Dec 3, 2026 [F03,F04]",
+     "valuation": "120bp margin gap vs Eaton; SOTP discount across refrigerants/electronics/nuclear assets [F03,F04]",
+     "size_pct_nav": 3,
+     "thesis_paragraph": "Solstice presents a classic E1 setup with a clear margin gap of 120bp versus Industrial peers [F03]. Following Starboard's October 20 presentation on the company's fragmented portfolio and cost bloat [F04], the governance route is active through the upcoming proxy access window [F04]. We see an asymmetric risk/reward in capturing the value of the nuclear assets and refrigerant franchise while driving operating discipline, provided we execute our own underwriting of the competitor-activist overhang [F03].",
+     "what_would_confirm": "13D filing by Third Point or significant accumulation in 13F/monthly reports."
+    },
+    {
+     "rank": 2,
+     "company": "3M",
+     "ticker": "MMM",
+     "action": "NEW_BUY",
+     "probability_90d": 0.2,
+     "template": "E1",
+     "instrument": "Common Equity",
+     "trigger": "Nomination window Nov 25–Dec 25, 2026 [F04]",
+     "valuation": "15x forward EV/EBITDA, margin improvement potential post-Solventum [F03]",
+     "size_pct_nav": 2,
+     "thesis_paragraph": "3M remains a logical candidate for post-simplification operational review [F03]. While no verified Third Point engagement exists, the upcoming November nomination window [F04] and the firm's history of targeting lazy conglomerate balance sheets make this a mandatory watch item. We require evidence of board discontent before moving to an active position.",
+     "what_would_confirm": "Engagement letter or private dialogue disclosure."
+    },
+    {
+     "rank": 3,
+     "company": "PepsiCo",
+     "ticker": "PEP",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "N/A",
+     "trigger": "N/A",
+     "valuation": "N/A",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Pass. Despite historical interest in the sector and Elliott's prior agenda, current governance changes (Duato board appointment) [F04] and the absence of a confirmed Third Point campaign mean the catalyst is spent or non-existent for our purposes.",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 4,
+     "company": "Lululemon",
+     "ticker": "LULU",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "N/A",
+     "trigger": "N/A",
+     "valuation": "N/A",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Pass. The Wilson settlement and standstill agreement [F04] limit our maneuverability as a constructivist actor, and the stock's high short interest [F03] suggests a crowded trade that does not fit our current event-driven threshold.",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 5,
+     "company": "Phillips 66",
+     "ticker": "PSX",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "N/A",
+     "trigger": "N/A",
+     "valuation": "N/A",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Pass. Refining-mix volatility makes a simple peer-gap target unsafe without a proprietary edge in commodity cycle timing, which we do not possess [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 6,
+     "company": "CoStar",
+     "ticker": "CSGP",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "N/A",
+     "trigger": "N/A",
+     "valuation": "N/A",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Pass. Explicit thesis-break exit [F01,F02]. Re-entry requires new evidence that the Homes.com drain is resolved, which is currently absent [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 7,
+     "company": "Honeywell",
+     "ticker": "HON",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "N/A",
+     "trigger": "N/A",
+     "valuation": "N/A",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Pass. Post-separation automation/portfolio focus is an E2 setup, but without an active nomination window or board friction to exploit, this is a passive observation rather than an activist target [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 8,
+     "company": "Kraft Heinz",
+     "ticker": "KHC",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "N/A",
+     "trigger": "N/A",
+     "valuation": "N/A",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Pass. Split is paused [F04], and there is no current event or activist catalyst to trigger value realization [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 9,
+     "company": "Live Nation",
+     "ticker": "LYV",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "N/A",
+     "trigger": "N/A",
+     "valuation": "N/A",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Pass. High short interest and complex regulatory environment without a clear governance route make this a low-probability activist target [F03].",
+     "what_would_confirm": "N/A"
+    },
+    {
+     "rank": 10,
+     "company": "FedEx",
+     "ticker": "FDX",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "N/A",
+     "trigger": "N/A",
+     "valuation": "N/A",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Pass. Following the freight spin, we lack a clear activist angle to force further productivity improvements that aren't already priced into the cost-productivity review [F03].",
+     "what_would_confirm": "N/A"
+    }
+   ],
+   "existing_position_changes": [],
+   "uncited_claims": []
+  },
+  "run4_event_credit": {
+   "as_of_date": "2026-10-25",
+   "regime_decision": "NO_CHANGE",
+   "expected_new_positions_next_90_days": 2,
+   "candidates": [
+    {
+     "rank": 1,
+     "company": "Honeywell",
+     "ticker": "HON",
+     "action": "NEW_BUY",
+     "probability_90d": 0.65,
+     "template": "E4",
+     "instrument": "Common Equity",
+     "trigger": "Post-separation earnings reality check following June aerospace spin; focus on automation and portfolio simplification [F03, F04]",
+     "valuation": "Skew > 2:1; rebuild pro-forma earnings to avoid 9x optical traps; trading at 9.00x EV/EBITDA [F03]",
+     "size_pct_nav": 3,
+     "thesis_paragraph": "Following the June aerospace separation, Honeywell is an classic E4 earnings-inflection candidate. We are looking past the messy post-spin financials to focus on core margin expansion within the automation and portfolio-focused segments. Unlike the optical 9x EV/EBITDA multiple suggests, our sum-of-the-parts valuation reveals hidden asset power if the board commits to further simplification [F03, F04].",
+     "what_would_confirm": "13F disclosure or private engagement reports surfaced in Q1 2027 filings."
+    },
+    {
+     "rank": 2,
+     "company": "3M",
+     "ticker": "MMM",
+     "action": "NEW_BUY",
+     "probability_90d": 0.45,
+     "template": "E1",
+     "instrument": "Common Equity",
+     "trigger": "Upcoming ordinary nomination window Nov 25–Dec 25, 2026 [F04]",
+     "valuation": "Skew 2.5:1; target valuation based on successful Solventum-like simplification and margin-gap closure [F03]",
+     "size_pct_nav": 2,
+     "thesis_paragraph": "3M remains a conglomerate with a lazy balance sheet post-Solventum. With the ordinary nomination window opening in late November, there is a clear governance route to demand further operating execution or asset separation [F04]. We see a significant margin gap versus industrial peers and will evaluate the candidate's commitment to unlocking value through rigorous capital allocation [F03].",
+     "what_would_confirm": "13D filing or public letter regarding board nominees."
+    },
+    {
+     "rank": 3,
+     "company": "Solstice Advanced Materials",
+     "ticker": "SOLS",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E1",
+     "instrument": "Common Equity",
+     "trigger": "Activist entry by Starboard [F04]",
+     "valuation": "12.46x EV/EBITDA; margin gap 120bp [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "While Starboard has initiated a cost and portfolio agenda, the failed Element deal creates an overhang and competitor presence limits our edge. We prefer to monitor the situation for improved valuation skew before considering a stake [F03, F04].",
+     "what_would_confirm": "Termination of competitor activist campaigns or significant valuation dislocation."
+    },
+    {
+     "rank": 4,
+     "company": "FedEx Freight",
+     "ticker": "FDXF",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E4",
+     "instrument": "Common Equity",
+     "trigger": "Post-spin standalone economics [F03]",
+     "valuation": "22.82x EV/EBITDA; gap to peer ODFL is 1,928bp [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "FedEx Freight is a compelling orphan, but the cycle and balance sheet concerns may overwhelm the standalone thesis. We are not yet convinced that the current margin gap is bridgeable without significant structural change that the board has not yet committed to [F03].",
+     "what_would_confirm": "Strong Q3 earnings execution and evidence of cost productivity."
+    },
+    {
+     "rank": 5,
+     "company": "Kraft Heinz",
+     "ticker": "KHC",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E5",
+     "instrument": "Common Equity",
+     "trigger": "Potential spin restart [F03]",
+     "valuation": "8.32x EV/EBITDA [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "With the spin paused since February, there is no active catalyst [F03, F04]. We pass on a quality business without an identifiable earnings inflection or current engagement plan [F04].",
+     "what_would_confirm": "Firm restart of the spin process or new CEO strategic pivot."
+    },
+    {
+     "rank": 6,
+     "company": "Live Nation",
+     "ticker": "LYV",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E4",
+     "instrument": "Common Equity",
+     "trigger": "Cash generation review [F03]",
+     "valuation": "27.48x EV/EBITDA; high short interest [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "While Live Nation generates strong cash, the regulatory calendar is uncertain and the lack of a clean peer makes valuation difficult [F03]. We wait for a more asymmetric entry point.",
+     "what_would_confirm": "Regulatory clarity and reduced short interest."
+    },
+    {
+     "rank": 7,
+     "company": "Hut 8",
+     "ticker": "HUT",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E4",
+     "instrument": "Common Equity",
+     "trigger": "Infrastructure monetization [F03]",
+     "valuation": "Negative earnings; 18.46% SI [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "The combination of negative earnings, leverage, and high short interest threatens the floor of this infrastructure-monetization thesis [F03]. It does not meet our quality/earnings-inflection standard for a core position.",
+     "what_would_confirm": "Consistent positive cash flow from AI infrastructure monetization."
+    },
+    {
+     "rank": 8,
+     "company": "Wolfspeed",
+     "ticker": "WOLF",
+     "action": "PASS",
+     "probability_90d": 0,
+     "template": "E2",
+     "instrument": "Common Equity",
+     "trigger": "Post-reorg utilization [F03]",
+     "valuation": "N/M multiples [F03]",
+     "size_pct_nav": 0,
+     "thesis_paragraph": "Despite reducing debt, the company remains loss-making and lacks a squeeze thesis for an activist investor. We stay away from loss-making post-reorg paper without a proven path to profitability [F03].",
+     "what_would_confirm": "Evidence of SiC capacity utilization improvement and clear positive FCF path."
+    }
+   ],
+   "existing_position_changes": [
+    {
+     "company": "Meta",
+     "action": "HOLD",
+     "probability_90d": 0.8,
+     "reason_class": "L1",
+     "why": "Renewed gross long status in September report; conviction remains high on efficiency and AI monetization despite capex spending [F01, F03]."
+    },
+    {
+     "company": "Nvidia",
+     "action": "TRIM",
+     "probability_90d": 0.5,
+     "reason_class": "L2",
+     "why": "Scaling back exposure as the AI/Korea momentum unwinds and crowding impacts liquidity [F01, F02]."
+    }
+   ],
+   "uncited_claims": []
+  }
+ },
+ "principal_reconciliation": {
+  "top": [
+   {
+    "company": "Honeywell",
+    "action": "NEW_BUY",
+    "p": 0.5
+   },
+   {
+    "company": "3M",
+    "action": "NEW_BUY",
+    "p": 0.25
+   },
+   {
+    "company": "FedEx",
+    "action": "NEW_BUY",
+    "p": 0.25
+   },
+   {
+    "company": "Solstice Advanced Materials",
+    "action": "NEW_BUY",
+    "p": 0.15,
+    "note": "Starboard campaign — someone else's fight"
+   }
+  ],
+  "existing": "one trim among Nvidia / Unum / Union Pacific, p=0.6 for at least one",
+  "public_e1_campaign_p": 0.25,
+  "expected_new_names": "1-2"
+ }
+}

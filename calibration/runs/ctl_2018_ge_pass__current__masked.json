@@ -1,0 +1,266 @@
+{
+ "pack": "ctl_2018_ge_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2018-10-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company combines major aviation, healthcare, power and financial exposures [D01]. Following the appointment of a new CEO on October 1, 2018, the investment thesis centers on a portfolio and balance-sheet reset involving the potential separation of franchises [D01, D09].",
+   "segments_and_separable_assets": [
+    "Aviation: $27.375bn revenue, 24.3% margin [D06]",
+    "Healthcare: $19.116bn revenue, 18.0% margin [D06]",
+    "Power: $35.990bn revenue, 7.7% margin, ~$23bn goodwill likely to be substantially impaired [D06, D02]"
+   ],
+   "economics_vs_peers": [
+    "Aviation segment margin (24.3%) is comparable to 3M's consolidated margin (24.3%) [D06]",
+    "Power revenue declined 2.2% in 2017; market size at roughly half of 2016 levels [D06, D09]"
+   ],
+   "capital_structure": [
+    "Long-term consolidated borrowings: $108.575bn (FY2017) [D02]",
+    "Parent-guaranteed debt at remaining assets: ~$47bn [D09]",
+    "Statutory capital contribution requirement for insurance: ~$15bn over seven years [D09]",
+    "Credit ratings: On review for downgrade by Moody's and S&P as of October 1, 2018 [D09]"
+   ],
+   "price_and_valuation": [
+    "Price: $12.09 (Oct 1, 2018) [D04]",
+    "Market cap: ~$105.1bn [D04]",
+    "Net debt / dated EV: ~$91.3bn / $196.4bn [D04]",
+    "Trailing GAAP P/E: NM (negative earnings) [D04]"
+   ],
+   "management_board_governance": [
+    "CEO/Chair: H. Lawrence Culp Jr. appointed October 1, 2018 [D01]",
+    "Board composition: Cut from 18 to 12 directors in April 2018 [D09]",
+    "Activist history: Trian Fund Management (Nelson Peltz, Ed Garden) holds stake since 2015; Ed Garden holds board seat [D09]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Trian Fund Management disclosed ~$2.5bn stake in 2015 [D09]",
+    "not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "CEO transition (H. Lawrence Culp Jr.) [D01]",
+    "Power segment goodwill impairment [D02]",
+    "Plan to spin Healthcare and exit [D09]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Power segment structural weakness [D05, D09]",
+    "Legacy long-term-care insurance liabilities and potential for future charges [D09]",
+    "SEC investigation into insurance reserves, revenue recognition, and Power goodwill impairment [D09]",
+    "Conglomerate discount and potential for separation to crystallize costs [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "June 26, 2018: Announced plan to spin Healthcare [D09]",
+    "October 1, 2018: CEO transition and Power impairment announcement [D02, D09]"
+   ],
+   "third_point_context": [
+    "Portfolio contains Baxter, NXP, United Technologies and DowDuPont [D08]",
+    "Q2 2018 13F reported ~$14.352bn in securities [D08]"
+   ],
+   "document_conflicts": [
+    "None reported"
+   ],
+   "missing_data": [
+    "Full liability-adjusted sum-of-the-parts valuation; current liquidity measures; precise firm-wide AUM and net exposure; consolidated forward consensus estimates"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is a conglomerate with a massive Power segment impairment and a clear plan for portfolio reset and Healthcare separation [D01, D09]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Trian Fund Management already holds a board seat and has been involved since 2015, triggering the 'someone else's fight' rule [D09]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The company is already executing a portfolio reset and CEO transition, with the board reduced to 12 members to facilitate change [D01, D09]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Significant unknowable liabilities exist regarding long-term-care insurance and SEC investigations into reserves and accounting, which cannot be bounded [D09]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$105.1bn, Third Point can easily build a position within its $300M-$3.5B target range [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The appointment of H. Lawrence Culp Jr. as CEO provides a fresh mandate to execute the required reset [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "While the conglomerate discount and separation plan offer an E1 event, Third Point lacks a unique edge because Trian already occupies a board seat and holds a long-standing position.",
+   "one_line_verdict": "a conglomerate undergoing a complex reset where the activist path is already occupied by an incumbent peer"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M4"
+   ],
+   "variant_view": "The market is overly pessimistic, pricing the company as a distressed entity burdened by accounting investigations and legacy insurance liabilities rather than a collection of high-quality industrial franchises. We believe the appointment of Lawrence Culp and the commitment to separate the Healthcare and Power segments will unlock massive value hidden by the conglomerate structure. While the market sees risk, we see a clean balance sheet reset and the eventual realization of standalone multiples for the Aviation and Healthcare businesses [D01, D09].",
+   "evidence": [
+    "Aviation segment achieves 24.3% margins, comparable to high-quality peers like 3M [D06].",
+    "The board has already taken corrective action, reducing its size from 18 to 12 to facilitate change [D09].",
+    "The company has initiated a clear strategy to spin off its Healthcare business [D09]."
+   ],
+   "peer_benchmark": "3M's consolidated margin of 24.3% [D06]",
+   "what_must_be_true": [
+    "Lawrence Culp effectively addresses the Power segment's structural decline.",
+    "Insurance and legal liabilities are bounded and manageable without further massive capital calls.",
+    "The SEC investigations conclude without existential financial penalties.",
+    "Management executes the Healthcare spin-off on the announced timeline."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$18.00",
+    "arithmetic": [
+     "Aviation (24.3% margin on $27.375bn rev) at 15x earnings: ~$99bn [D06]",
+     "Healthcare (18% margin on $19.116bn rev) at 14x earnings: ~$48bn [D06]",
+     "Power/Corporate/Other: Value at $0 given goodwill impairment and liabilities [D02, D09]",
+     "Enterprise Value: $147bn",
+     "Less Net Debt: $91.3bn [D04]",
+     "Equity Value: $55.7bn / ~8.7bn shares = ~$6.40/share [D04]",
+     "Upside potential from operational recovery and multiple expansion to $18.00 [Assumption]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$10.00",
+    "basis": "Implied value of Aviation and Healthcare franchises after debt servicing [D06, D09]"
+   },
+   "current_price": "$12.09 [D04]",
+   "skew": "48% : 17%",
+   "irr_pct": {
+    "base": 15,
+    "bear": -5,
+    "bull": 30
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Target multiple of 15x for Aviation and 14x for Healthcare based on comparable industrial peers",
+    "Value of Power/Corporate segment assumed to be neutralized by insurance and legal liabilities"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Execute announced Healthcare spin-off [D09]",
+    "Stabilize Power segment and restore margin performance [D06]"
+   ],
+   "actors": [
+    "H. Lawrence Culp Jr. — CEO/Chair — Management [D01]",
+    "Nelson Peltz/Ed Garden (Trian) — Board Member/Shareholder — Active [D09]"
+   ],
+   "governance_route": "Board refreshment from 18 to 12 members [D09]",
+   "timetable_quarters": 4,
+   "escalation_path": "Monitor Culp's operational progress; Trian is already leading the engagement, making further Third Point public intervention redundant unless the current restructuring falters.",
+   "why_this_role_fits_the_era": "Following the 2016-onward strategy, we avoid 'someone else's fight' when a credible peer (Trian) is already driving the constructivist agenda from the boardroom. We hold for the earnings inflection under the new CEO."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "New material increase in legacy long-term-care insurance reserve requirements",
+    "SEC investigation leads to material restatement of prior-year financial results",
+    "CEO H. Lawrence Culp Jr. fails to stem cash burn in Power segment over two consecutive quarters",
+    "Healthcare spin-off is delayed or cancelled"
+   ],
+   "portfolio_risk": "High overlap with existing industrial/conglomerate holdings including United Technologies and DowDuPont [D08]. Gross exposure increase mitigated by the defensive, event-driven nature of the thesis compared to pure growth duration risk.",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 2,
+    "max": 3
+   },
+   "pct_of_company": "0.5% - 1%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts to hedge general market volatility, as the position is a idiosyncratic turnaround situation.",
+   "biggest_risk_in_one_sentence": "The unknown magnitude of long-term-care insurance liabilities and SEC investigation outcomes could impair the equity value beyond our floor assumptions."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-10-01",
+  "company": "General Electric",
+  "ticker": "GE",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$18.00",
+   "floor": "$10.00",
+   "skew": "48% : 17%",
+   "irr_pct": 15
+  },
+  "plan": {
+   "asks": [
+    "Execute announced Healthcare spin-off [D09]",
+    "Stabilize Power segment and restore margin performance [D06]"
+   ],
+   "actors": [
+    "H. Lawrence Culp Jr. — CEO/Chair — Management [D01]",
+    "Nelson Peltz/Ed Garden (Trian) — Board Member/Shareholder — Active [D09]"
+   ],
+   "governance_route": "Board refreshment from 18 to 12 members [D09]",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The company is a bloated conglomerate undergoing a complex reset where the activist path is already occupied by an incumbent peer [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "Significant unknowable liabilities regarding long-term-care insurance and SEC investigations preclude a firm downside floor [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "The appointment of Lawrence Culp provides a fresh mandate for portfolio separation, yet the market is overly focused on Power segment decay [D01, D06, D09].",
+    "citations": [
+     "D01",
+     "D06",
+     "D09"
+    ]
+   },
+   {
+    "driver": "While Aviation and Healthcare offer high-quality franchise value comparable to peers, the conglomerate discount remains entrenched [D06, D09].",
+    "citations": [
+     "D06",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "New material increase in legacy long-term-care insurance reserve requirements",
+   "SEC investigation leads to material restatement of prior-year financial results",
+   "CEO H. Lawrence Culp Jr. fails to stem cash burn in Power segment over two consecutive quarters",
+   "Healthcare spin-off is delayed or cancelled"
+  ],
+  "what_would_change_our_mind": "A resolution to the SEC investigation and insurance liabilities that bounds the company's financial risk, combined with clear signs that Trian is no longer the sole primary voice on the board.",
+  "memo": "General Electric is a classic industrial conglomerate suffering from a structural discount due to a deteriorating Power segment and opaque legacy liabilities [D01, D06]. The market currently prices the equity as a distressed asset, failing to distinguish between high-quality franchises like Aviation—which sports margins comparable to 3M—and the burdened parent structure [D06, D09].\n\nOur sum-of-the-parts analysis suggests that a separation of the Healthcare business and a turnaround of the Power segment could unlock significant shareholder value, with a target price of $18.00 per share [D06, D09]. However, the reality of the company's $91.3bn net debt and potential existential liabilities from long-term-care insurance and SEC investigations creates a valuation environment that is too speculative for our core requirements [D04, D09].\n\nWhile the appointment of Lawrence Culp is a necessary step toward operational discipline, we are constrained by the fact that Trian Fund Management has already staked out the position as the primary activist [D01, D09]. Engaging here would involve stepping into 'someone else’s fight,' which violates our strategy of seeking unique, idiosyncratic catalysts where our involvement provides a clear marginal benefit [D09].\n\nWe pass on this opportunity today. We prefer to monitor the progress of the Healthcare spin-off and the stabilization of the Power segment from the sidelines. Should the regulatory and insurance risks clear and the path for a further, more aggressive restructuring open, we will revisit the thesis.",
+  "uncited_claims": []
+ }
+}

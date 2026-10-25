@@ -1,0 +1,50 @@
+{
+ "trade_id": "2021_shel_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Incompatible investor mandates had created an incoherent strategy and weak performance. → The valuation is constrained by structural complexity and conflicting shareholder objectives regarding cash returns versus decarbonization spending [D05, D07].",
+   "Separate legacy cash-generating businesses from LNG and growth/transition assets. → A decoupling of transition assets from the legacy business will allow the market to revalue the company based on the superior earnings power of the upstream/LNG franchise, mirroring peers like Chevron [D02, D07].",
+   "Clearer capital allocation and distinct investor constituencies could close a large intrinsic-value discount. → Shell’s sprawling, integrated structure masks the value of its core cash-generative upstream and LNG assets, resulting in a persistent conglomerate discount [D01, D07]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "We see a path to 25% base IRR by enforcing capital discipline and prioritizing shareholder returns over sub-scale energy transition projects [D03, D07]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Shell reported a negative 12.7% net margin in 2020, compared to Chevron’s -5.9%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market’s pessimism stems from concerns over stranded liabilities and an incoherent capital allocation policy",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are initiating a 5% position in the common shares to capitalize on this event-driven opportunity",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 4,
+  "share": 0.33
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By simplifying the portfolio and decoupling lower-return, capital-intensive transition assets from these high-margin, cash-generative core businesses, we believe the stock can trade toward a valuation of $65-$70 per share, representing meaningful upside from our $44.27 entry point [D01, D04, D07].",
+ "grader_notes": "The agent correctly identified the core components of the Third Point thesis: the conglomerate discount, the need to separate transition assets from cash-generative businesses, and the mandate conflict. Reasoning was aligned with Loeb's strategic objectives. The agent provided an extra driver regarding IRR, which was not explicitly stated in the primary news coverage of the event but fits the broader context of the firm's activist style.",
+ "run": "2021_shel_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,47 @@
+{
+ "pack": "2016_energy_shorts_cover",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2016-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2016-01-31",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "EIA reports indicate a continued oversupply of oil with Brent trading at approximately $33/bbl, down significantly from 2014 levels, and implied volatility is elevated [D03, D06]. Market conditions reflect systemic pressure from weak Chinese demand expectations and commodity-sensitive industrial exposures [D05].",
+  "book_exposure": "As of December 2015, the Offshore fund reported 72.3% long and 24.4% short, with 96.7% gross exposure [D08].",
+  "actions": [
+   "Cover thematic energy short positions to crystallize gains and reduce exposure to potential squeeze risk as volatility persists [D05, D06].",
+   "Reduce gross exposure across the portfolio to manage liquidity risks in a turbulent regime [D08]."
+  ],
+  "target_gross_net": "Materially reduce gross exposure from current 96.7% level; maintain net exposure at a defensive, opportunistic setting.",
+  "drivers": [
+   {
+    "driver": "Excess supply and inventory liquidation in the oil market are creating high volatility and potential for short-covering squeezes [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Macro-factor correlation in commodity and currency-sensitive positions increases risk of concurrent losses despite name-level diversification [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The current equity market environment exhibits elevated uncertainty, warranting a reduction in gross leverage to preserve liquidity [D04, D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We are operating in a regime where the commodity and industrial landscape has undergone a violent repricing, evidenced by Brent falling to the low $30s [D06]. While our thematic shorts have performed, the risk of a technical squeeze—or a shift in policy intervention—requires us to act decisively to bank gains rather than wait for the final leg of an insolvency scenario [D05]. We do not trade on hope; we trade on catalysts, and the current volatility suggests it is prudent to move to a more defensive footing [D03, D05].\n\nOur portfolio construction must prioritize liquidity in these periods of high implied volatility [D06, D08]. We are reducing gross exposure to protect the fund against the potential for correlated market shocks where 'diversified' positions behave like a single macro factor [D01, D08]. We remain vigilant for asymmetric opportunities, but we will not force conviction in a market where the cost of liquidity is rising [D04, D08].",
+  "uncited_claims": [
+   "None"
+  ]
+ }
+}

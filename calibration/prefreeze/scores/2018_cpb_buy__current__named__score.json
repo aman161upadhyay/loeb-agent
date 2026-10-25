@@ -1,0 +1,52 @@
+{
+ "trade_id": "2018_cpb_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Poor board oversight and acquisition mistakes had damaged operating performance and shareholder value. → The company's troubled fresh-food segment has masked the cash-generative power of the core US soup and the newly acquired snacks portfolio",
+   "A credible slate and alliance with George Strawbridge created a route to governance change. → While the Dorrance family’s ownership presents a clear governance hurdle, we believe the internal pressure for change is mounting, particularly with voices like George Strawbridge potentially aligned with reform"
+  ],
+  "missed": [
+   "A strategic review should consider a sale rather than preserve the status quo."
+  ],
+  "extra_agent_drivers": [
+   "SOTP valuation justification",
+   "CEO departure as a specific management inefficiency driver"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Campbell Soup Company is a classic example of a business where the market is mispricing a solid core franchise due to the noise of a poorly executed acquisition strategy and an ill-fated foray into fresh foods",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management and the board have finally acknowledged these inefficiencies, as evidenced by the departure of the CEO and the initiation of a strategic review",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We believe the internal pressure for change is mounting, particularly with voices like George Strawbridge potentially aligned with reform",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 3,
+  "share": 0.27
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are prepared to use our constructive influence to advocate for the removal of the fresh-food anchor to refocus management on high-return, core categories [D05, D07].",
+ "grader_notes": "The agent correctly identified the direction and key governance drivers regarding Strawbridge and board oversight. However, it placed heavy emphasis on SOTP valuation and specific divestiture requests (Campbell Fresh) which were not explicitly listed as Third Point's core drivers in the answer key. Reasoning overlap is sufficient, but the agent's internal analysis is more granular than Loeb's stated high-level drivers.",
+ "run": "2018_cpb_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

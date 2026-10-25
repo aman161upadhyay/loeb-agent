@@ -1,0 +1,58 @@
+{
+ "trade_id": "2017_nestle_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 5,
+  "matched": [
+   "The best-positioned consumer portfolio was under-earning after years of stalled EPS and peer underperformance. → Nestlé is a world-class consumer conglomerate currently burdened by an inefficient portfolio and a 300-400bps margin gap versus its peers [D01, D06].",
+   "Monetizing the non-core L'Oréal stake and pruning the portfolio could unlock hidden value. → The company holds a ~23% stake in L'Oréal valued at over $25 billion, representing a significant hidden asset that obscures the core business's performance [D01, D04].",
+   "Outside CEO Mark Schneider and operating adviser Jan Bennink created a credible change window. → New CEO Mark Schneider represents a vital opportunity to pivot the company toward rigorous capital allocation and operational discipline [D01].",
+   "An explicit 18–20% margin objective by 2020 could impose accountability and close the operating gap. → Simplifying the portfolio through targeted divestments and closing the margin gap provides a clear path to re-rating the stock from its current underlying P/E of 24.3x toward a 25x multiple on expanded earnings [D04, D06]."
+  ],
+  "missed": [
+   "An underlevered balance sheet could support repurchases and more efficient capital allocation."
+  ],
+  "extra_agent_drivers": [
+   "Re-rating the stock based on expanded earnings multiple."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Nestlé... burdened by a 300-400bps margin gap when compared to peers such as Kraft Heinz and General Mills",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "monetization of the ~23% stake in L'Oréal... worth over $25 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "arrival of new CEO Mark Schneider",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "US confectionery business",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Central to our thesis is the monetization of the ~23% stake in L'Oréal, a financial investment worth over $25 billion that is entirely separate from Nestlé's core operations [D01, D04].",
+ "grader_notes": "The agent correctly identified the core activist pillars: L'Oreal divestment, operational/margin improvement, and CEO-led change. It missed the specific focus on balance sheet leverage for share repurchases, which was a distinct driver in Loeb's letter. Overall, the reasoning logic is highly aligned with the provided answer key.",
+ "run": "2017_nestle_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

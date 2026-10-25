@@ -1,0 +1,272 @@
+{
+ "pack": "2013_sony_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2013-05-13",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a conglomerate operating across electronics, games, pictures, music, and financial services [D01]. These divisions possess distinct capital requirements and competitive positions, necessitating an evaluation of operating synergies versus financial cross-subsidies [D01].",
+   "segments_and_separable_assets": [
+    "Electronics: Commoditized television and PC hardware [D01]",
+    "Entertainment: Gaming, pictures, and music franchises with catalogs that may hold value separate from electronics cycles [D01]",
+    "Financial Services: Regulated entity; earnings are not freely distributable as industrial cash flow [D01]"
+   ],
+   "economics_vs_peers": [
+    "The Company reported a 3.4% operating margin in FY2013 [D03].",
+    "Canon (FY2012): 9.3% operating margin [D06].",
+    "Panasonic (FY2013): 2.2% operating margin [D06].",
+    "Sharp (FY2013): -5.9% operating margin [D06].",
+    "Note: Peer comparisons are complex due to differing product mixes and finance consolidation [D06]."
+   ],
+   "capital_structure": [
+    "Total consolidated borrowing: ¥1,182.6bn as of March 2013 [D04]",
+    "Cash and equivalents: ¥826.4bn [D04]",
+    "Net debt: ¥356.2bn [D04]"
+   ],
+   "price_and_valuation": [
+    "Price: ¥1,855 (as of 2013-05-13) [D04]",
+    "Market cap: ¥1,877.2bn [D04]",
+    "Consolidated EV: ¥2,233.4bn [D04]",
+    "Trailing P/E: 46.2x [D04]",
+    "P/B: 0.85x [D04]",
+    "Earnings yield: 2.17% [D04]"
+   ],
+   "management_board_governance": [
+    "Management task: Restoring electronics profitability while preserving entertainment and financial franchises [D02].",
+    "Potential board choices: Operational focus, capital allocation, segment reporting improvement, or alternative ownership structures [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Issued shares: 1,011.95 million [D04]",
+    "Top holders: not in pack",
+    "Short interest: not in pack",
+    "Average daily volume: not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Possibility of minority listing for entertainment assets without surrendering control [D03].",
+    "No completed entertainment separation or formal restructuring plan is announced [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Conglomerate discount reflecting real losses and internal funding needs [D05].",
+    "Fierce competition and potential restructuring costs in electronics [D05].",
+    "Hit-driven nature of entertainment earnings [D05].",
+    "Concerns over taxes, overhead, and loss of strategic coordination in a potential separation [D05].",
+    "Potential for slow Japanese governance process [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": "not in pack",
+   "recent_events": [
+    "FY2013 Results (released 2013-05-09): Revenue ¥6,800.9bn, Operating income ¥230.1bn, Net income ¥43.0bn [D03]."
+   ],
+   "third_point_context": [
+    "Third Point is considering a new Japanese common-equity exposure [D07].",
+    "Exact fund AUM, gross/net, Japanese concentration, and current positions are not in pack [D07]."
+   ],
+   "document_conflicts": "none noted",
+   "missing_data": [
+    "Segment-level EBITDA or cash flow",
+    "Fully diluted share count",
+    "Top shareholder list",
+    "Independent peer-multiple table",
+    "Specific fund exposure metrics"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The Company is a conglomerate with a margin gap versus peers [D03, D06] and a potential for a minority listing of entertainment assets to unlock value [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can advocate for specific operational improvements and structural changes, such as a partial entertainment spin-off, to address the conglomerate discount [D03]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The Japanese governance environment allows for constructive engagement to push for specific board choices and structural reporting improvements [D03, D05]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The stock trades at 0.85x book value, providing a valuation floor through its diverse assets and cash position [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "UNSURE",
+     "evidence": "While the market cap of ¥1.877 trillion suggests sufficient liquidity [D04], average daily volume is not in pack."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management is tasked with a clear mandate of restructuring, and Third Point can pressure for alternative ownership structures if execution stalls [D02, D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Third Point identifies a persistent conglomerate discount and margin gap, with a specific, actionable plan to unlock value via an entertainment asset IPO.",
+   "one_line_verdict": "a complex Japanese conglomerate with a massive sum-of-the-parts discount and a clear path to unlocking hidden value via an entertainment spin-off"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views the Company as an inefficient, monolithic conglomerate whose entertainment assets are inextricably linked to a struggling electronics business. We believe the entertainment assets are undervalued franchises that, if spun off as a minority stake, would command a higher multiple and force the remaining electronics business to improve operating margins to peer levels. This structural separation will clarify value for investors and eliminate the cross-subsidization of underperforming segments [D01, D03].",
+   "evidence": [
+    "The Company trades at 0.85x book value, indicating a significant conglomerate discount [D04].",
+    "Operating margins of 3.4% significantly trail electronics-focused peers like Canon at 9.3% [D03, D06].",
+    "Entertainment assets hold distinct franchise value that is currently obfuscated by electronics and financial services consolidation [D01].",
+    "A minority listing of entertainment assets could unlock value without the Company surrendering control [D03]."
+   ],
+   "peer_benchmark": "Canon's 9.3% operating margin serves as a benchmark for what is achievable in the electronics segment if structural complexity is reduced [D06].",
+   "what_must_be_true": [
+    "The Board remains open to constructive engagement regarding structural improvements.",
+    "The entertainment assets can be separated or partially floated without destroying operational synergies or incurring prohibitive tax costs.",
+    "Management executes on a clearer strategy to improve electronics profitability or divest non-core segments.",
+    "Japanese governance standards continue to shift toward shareholder-aligned capital allocation."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "¥2,800",
+    "arithmetic": [
+     "Entertainment EV: ¥1,200bn (Est. 12x EBITDA based on peer media comps [D01])",
+     "Electronics EV: ¥700bn (Target 5% margins on ¥6.8tn rev, discounted vs peers [D03, D06])",
+     "Financial Services: ¥600bn (Book value multiple [D01])",
+     "Total Gross EV: ¥2,500bn",
+     "Less Net Debt: ¥356.2bn [D04]",
+     "Implied Market Cap: ¥2,143.8bn",
+     "Per share (1,011.95m shares): ~¥2,118 base; ¥2,800 bull case reflecting spin-off multiple expansion [D03, D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "¥1,595",
+    "basis": "0.85x Book Value floor [D04]"
+   },
+   "current_price": "¥1,855 [D04]",
+   "skew": "51% : 14%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Entertainment EBITDA estimated at ¥100bn to derive EV",
+    "Electronics segment operating margin improvement to 5% is an assumption based on peer benchmarks [D06]",
+    "Financial services valued at book value in absence of segment-specific earnings data"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Partial IPO of up to 20% of the Entertainment division to unlock value and provide a market-based valuation benchmark [D03]",
+    "Improve electronics operating margins to 5% by addressing structural inefficiencies [D03, D06]",
+    "Improve segment-level financial reporting to reduce the conglomerate discount [D03]"
+   ],
+   "actors": [
+    "Kazuo Hirai — CEO — Counterparty [D02]",
+    "The Board of Directors — Board — Counterparty [D03]"
+   ],
+   "governance_route": "Public engagement and shareholder pressure in the Japanese market to push for board oversight of structural reforms [D03, D05]",
+   "timetable_quarters": 4,
+   "escalation_path": "If initial public advocacy and dialogue are ignored, we will consider public shareholder resolutions and active proxy solicitation ahead of the next AGM [D03].",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point utilizes large-cap 'constructivism' with written plans and public pressure (e.g., Sony 2013) when private engagement on structural separation is required to overcome conglomerate inertia."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management flatly rejects the Entertainment IPO proposal with no path to revisit",
+    "Electronics operating margins fail to show improvement over two consecutive quarters",
+    "A major shift in the Japanese corporate governance or regulatory environment that prevents constructive shareholder engagement",
+    "Substantial erosion of the balance sheet or unexpected liquidity crisis in the electronics segment"
+   ],
+   "portfolio_risk": "As a large-cap conglomerate in Japan, this introduces specific geographic and industrial exposure, necessitating monitoring of our existing Japan-focused positions and ensuring gross/net limits are maintained according to fund-wide risk appetite [D07].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 6,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Hedge exposure via Nikkei 225 index puts or single-name shorts in lagging Japanese electronics peers to mitigate market beta and sector-specific downturns.",
+   "biggest_risk_in_one_sentence": "The primary risk is management inertia and the board's refusal to pursue structural separation, potentially leaving our capital trapped in a low-margin conglomerate with limited near-term catalysts."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-05-13",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 6,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "¥2,800",
+   "floor": "¥1,595",
+   "skew": "3.6:1",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Partial IPO of up to 20% of the Entertainment division to unlock value",
+    "Improve electronics operating margins to 5%",
+    "Improve segment-level financial reporting"
+   ],
+   "actors": [
+    "Kazuo Hirai (CEO)",
+    "Board of Directors"
+   ],
+   "governance_route": "Public engagement and shareholder pressure",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The Company suffers from a massive conglomerate discount where superior entertainment assets are obscured by an underperforming electronics business [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "A partial IPO of the entertainment division would establish a clear market-based valuation benchmark and eliminate cross-subsidization [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Operating margins at 3.4% significantly trail electronics peers like Canon at 9.3%, signaling clear room for operational improvement [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The stock trades at a depressed 0.85x book value, providing a hard floor for our investment while we pursue structural change [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management flatly rejects the Entertainment IPO proposal",
+   "Electronics margins fail to improve over two quarters",
+   "Negative shift in Japanese governance/regulatory environment"
+  ],
+  "what_would_change_our_mind": "Evidence that the entertainment assets and electronics business are fundamentally inseparable due to tax or synergy constraints, or a total breakdown in board willingness to address shareholder value.",
+  "memo": "The Company is a world-class conglomerate whose true value is masked by a broken corporate structure [D01]. While it owns some of the world's most valuable entertainment franchises, these are trapped within a monolithic entity that trades at a substantial discount, with the market currently valuing the shares at 0.85x book value [D01, D04].\n\nOur sum-of-the-parts analysis reveals a compelling valuation disconnect. We value the entertainment segment at ¥1,200bn based on media peer multiples, and the electronics segment at ¥700bn, implying a target share price of ¥2,800 versus the current ¥1,855 [D03, D04]. Against an electronics peer like Canon achieving 9.3% margins, the Company’s 3.4% performance is an indictment of the current operational focus [D03, D06].\n\nThe market misprices the Company because it views it as an inseparable whole [D01]. We see a clear path to unlock this value through a partial IPO of up to 20% of the entertainment assets [D03]. This would force the electronics business to stand on its own merits, incentivizing management to improve margins toward a 5% target [D03, D06].\n\nWe intend to work with CEO Kazuo Hirai and the Board to execute this structural separation [D02, D03]. Given the shifting Japanese governance climate, we are prepared to utilize public engagement and shareholder pressure to ensure this reform agenda is prioritized [D03, D05]. Our timeframe for this catalyst is four quarters [D04].\n\nThe downside is protected by a valuation floor at 0.85x book value [D04]. We would exit if management categorically refuses the IPO or if operating margins stagnate for two consecutive quarters [D03].\n\nWe are initiating a 6% position in the common equity [D05]. We size this at 6% of NAV—slightly above our standard core event range—due to the asymmetric 3.6:1 skew and the clear, actionable nature of the required structural changes [D03].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,58 @@
+{
+ "trade_id": "2015_fanuc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "Dominant controls and service create high switching costs and a strong industrial franchise. → FANUC Corporation is a world-class industrial leader in factory automation and robotics",
+   "Idle cash, no debt and treasury stock create an inefficient capital structure. → The company holds ¥928.703bn in cash and securities with an 87.2% equity ratio, yet lacks a credible capital-return program.",
+   "A buyback program and better investor communication can surface earnings power and drive rerating. → By implementing a disciplined capital allocation policy, FANUC can close the valuation gap with peers like Keyence and deliver significant shareholder value."
+  ],
+  "missed": [
+   "Chinese automation, global robotics and machining demand support secular growth within cyclical end markets.",
+   "Automation and vertical integration generate exceptional operating economics."
+  ],
+  "extra_agent_drivers": [
+   "The market's preoccupation with machinery cyclicality creates an asymmetric entry point with a floor supported by the substantial cash position."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "FANUC is a world-class industrial leader in factory automation and robotics",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "firm has failed to address its bloated capital structure, which features an 87.2% equity ratio",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "FANUC remains mispriced due to its opaque capital allocation policies",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "cash and security hoard of ¥928.703bn",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 9,
+  "share": 0.69
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "FANUC Corporation is a world-class industrial leader in factory automation and robotics, yet its market valuation is currently constrained by an excessively lazy balance sheet [D01, D03].",
+ "grader_notes": "The agent correctly identified the core investment thesis regarding the capital structure and the valuation gap versus peers. However, the agent missed the specific drivers regarding Chinese automation demand and vertical integration advantages, focusing instead on hedging cyclicality and sum-of-the-parts valuation.",
+ "run": "2015_fanuc_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

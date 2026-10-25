@@ -1,0 +1,17 @@
+Title: Business economics and asset map — Upstart Holdings, Inc. post-IPO
+Source: https://www.sec.gov/Archives/edgar/data/1647639/000119312520319050/d867925d424b4.htm (2020-12-15); https://a.storyblok.com/f/166217/x/d9fcfd4dd1/third-point-q3-2020-investor-letter-tpoi.pdf (2020-10-15); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-third-point-november-2020-monthly-report-843373033.html (2020-12-03); https://13f.info/13f/000108514620002962-third-point-llc-q3-2020 (2020-11-13)
+Date: 2021-01-31
+
+Upstart applies AI models to consumer-credit underwriting and distributes loans through partner banks and funding channels. The platform seeks to improve approval and loss outcomes beyond traditional scoring, earning fees rather than requiring every loan to remain on its own balance sheet. That model still depends on investor/bank demand and loan performance. Dave Girouard leads the company. Third Point's venture relationship predates the public listing, so this is lifecycle underwriting rather than an uninformed public-market bet on a fashionable label. SentinelOne is a separate cybersecurity company, not an Upstart subsidiary or a public January basket constituent. [S1–S2]
+
+Economic map and evidence limits. Separate the source's business descriptions from an analyst's inference about durability. Revenue scale alone is not a moat: the important distinctions are repeat demand, switching or distribution advantages, reinvestment requirements, and the ability to convert customer value into cash for owners. A strong asset can be an unattractive security when other claims absorb the cash. Conversely, complexity can obscure an otherwise sound franchise. The facts above identify the businesses and the relevant unit of analysis; they do not establish that a particular corporate structure is optimal.
+
+Underwrite the operating case before assuming an event. Identify who pays, why the customer returns, which costs are fixed, and what spending must recur to protect the franchise. Keep operating assets, financial investments and restricted capital separate. Where the recovered source does not provide unit economics, customer retention or segment capital employed, those figures are not available in contemporaneous sources; do not fill them with a current estimate. A downside analysis should test the business with no immediate transaction or valuation rerating. This is an analyst framework, not a statement that management or any shareholder has adopted it.
+
+Analyst cross-check: Map the customer, contractual counterparty and owner of the relevant intellectual property separately. A distributor's access to end demand is not ownership of that demand; likewise, reported group market share does not prove that each operating unit possesses pricing power or recurring revenue.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/1647639/000119312520319050/d867925d424b4.htm (published 2020-12-15).
+- [S2] https://a.storyblok.com/f/166217/x/d9fcfd4dd1/third-point-q3-2020-investor-letter-tpoi.pdf (published 2020-10-15).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-third-point-november-2020-monthly-report-843373033.html (published 2020-12-03).
+- [S4] https://13f.info/13f/000108514620002962-third-point-llc-q3-2020 (published 2020-11-13).

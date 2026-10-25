@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2012_best_buy_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Never held per recovered 13F history: BBY/Best Buy absent from the complete Q3/Q4 2011 and all four 2012 original Third Point 13Fs (plus Q2 amendment), and from the 54-quarter 2013–Q2 2026 index. No attributable manager public comment recovered. Replaces JCP: Q2 2012 original filing reports puts on 9,000,000 JCP shares and value 6480 in the table's $000 column. The reported value's option-versus-underlying convention is unresolved; no premium, delta, NAV risk or return is inferred."
+  ],
+  "extra_agent_drivers": [
+   "Structural margin gap of 190 basis points",
+   "Secular pressure from online competition",
+   "No governance route/catalyst",
+   "Unproven management team"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "structural margin gap of 190 basis points compared to efficient retailers like Walmart",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Best Buy faces secular pressure on its store network from online competition",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "revenue growth stagnate at just 1.2% in FY2011",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We require an identifiable event or a transparent governance path to justify a core activist position, neither of which is present here [D01].",
+ "grader_notes": "The agent correctly reached a PASS decision, aligning with the actual historical record of no Third Point position. However, the agent's reasoning was entirely speculative and fabricative; while the actual 'reason' was an absence of ownership and public commentary, the agent invented a fundamental activist-short thesis to justify the pass.",
+ "run": "ctl_2012_best_buy_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

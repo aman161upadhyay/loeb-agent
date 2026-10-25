@@ -1,0 +1,25 @@
+{
+  "id": "ctl_2012_best_buy_pass",
+  "company": "Best Buy",
+  "ticker": "BBY",
+  "aliases": [
+    "bestbuy",
+    "Brian Dunn",
+    "Best Buy",
+    "Best Buy Co.",
+    "BBY",
+    "Best Buy Mobile",
+    "Geek Squad",
+    "Carphone Warehouse",
+    "CPW",
+    "Best Buy Europe",
+    "Future Shop"
+  ],
+  "as_of_date": "2012-02-01",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Hypothetical desk decision 2012-02-01; no actual trade assigned.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Replaces ctl_2012_jcp_pass after full 2012 primary tables revealed Q2 JCP puts on 9M shares. BBY absent in Q3/Q4 2011 and all 2012 original/amended tables and the 2013–Q2 2026 index. Missing cutoff price/current peer multiples and firm AUM; AUM null is an intentional missing-data/schema exception. Header dates denote compiled desk-date cutoffs. Grade C. Negative filing evidence cannot exclude intraperiod, swaps, shorts or unreported credit."
+}

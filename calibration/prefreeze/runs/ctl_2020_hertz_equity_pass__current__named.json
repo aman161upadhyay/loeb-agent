@@ -1,0 +1,258 @@
+{
+ "pack": "ctl_2020_hertz_equity_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-06-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Hertz operates rental-car brands supported by a financed vehicle fleet [D01]. It is currently in a Chapter 11 restructuring process initiated on May 22, 2020, to address travel demand shocks and manage its liability and lease obligations [D01, D03].",
+   "segments_and_separable_assets": [
+    "US Rental: Q1 2020 revenue $1,381m, 67% utilization [D06]",
+    "International Rental: Q1 2020 revenue $368m, 66% utilization [D06]",
+    "Fleet-leasing: Q1 2020 revenue $174m, +13% growth [D06]"
+   ],
+   "economics_vs_peers": [
+    "Hertz Q1 2020 US rental utilization was 67% vs 79% prior year [D03]. AMERCO (a peer) reported 13.6% operating margin for FY March 2020 [D06].",
+    "Comparison is complicated by differing fleet leverage, capital structures, and accounting perimeters [D06]."
+   ],
+   "capital_structure": [
+    "Total debt approximately $17.089bn as of YE2019 [D02].",
+    "Debt includes vehicle ABS with collateral protections and corporate debt [D02].",
+    "May 22, 2020 filing triggered Chapter 11 restructuring; liquidity includes ~$1bn in unrestricted cash available as of May 22 to support operations [D02, D03].",
+    "The fulcrum security is not defined in the pack, but equity is a residual claim junior to vehicle financing, corporate debt, leases, and administrative claims [D01, D05]."
+   ],
+   "price_and_valuation": [
+    "Price: $5.53 (June 8, 2020) [D04].",
+    "Market Cap: ~$787m [D04].",
+    "EV/EBITDA, P/E: NM due to losses [D04].",
+    "P/B: ~0.57x [D04].",
+    "Valuation is highly contingent on residual value after senior creditor claims [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack: specific CEO/chair tenure or detailed board composition.",
+    "Management is currently navigating a Chapter 11 bankruptcy filing process [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 142.285m (as of April 29, 2020) [D04].",
+    "Daily trading volume: ~533.9m shares on June 8, 2020 [D04].",
+    "Top holders: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Chapter 11 bankruptcy filing (May 22, 2020) [D03].",
+    "Catalyst mechanism identified as a 'bankrupt-equity rally' reflecting travel reopening and residual-option speculation [D01, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Absolute priority: Enterprise improvements may accrue entirely to creditors [D05].",
+    "Liquidity erosion from administrative expenses, fleet liquidation losses, and financing restrictions [D05].",
+    "Fragility of the 'exit bid' and potential for residual value to be zero [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack (no approved equity recovery plan or finalized reorganization terms)"
+   ],
+   "recent_events": [
+    "May 11, 2020: Q1 2020 financial results reported [D03].",
+    "May 22, 2020: Voluntary Chapter 11 bankruptcy petitions filed [D03].",
+    "June 8, 2020: Significant speculative rally in common equity [D04]."
+   ],
+   "third_point_context": [
+    "Q1 2020 13F filed May 15, 2020; April 16, 2020 letter reported 16% Q1 loss [D08].",
+    "Current position in HTZ: Not in pack."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Current firm-wide gross/net exposure, current cash position, creditor waterfall model, appraised vehicle liquidation values, and specific debt covenant details."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Hertz initiated a Chapter 11 restructuring process on May 22, 2020, to address travel demand shocks [D01, D03]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The pack lacks a creditor waterfall analysis or appraised vehicle liquidation values, leaving the recovery potential for equity as speculative [D04, D05]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The bankruptcy filing provides a clear court-supervised process for restructuring debt and determining residual value [D01, D03]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Equity is a residual claim junior to extensive vehicle financing and corporate debt, with a significant risk of zero recovery [D01, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Trading volumes are highly elevated (533.9m shares on June 8, 2020), providing ample liquidity to enter or exit [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "In a distressed restructuring, the process is managed by court oversight and creditor negotiations rather than current management's strategic execution [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The bankruptcy event creates a highly volatile equity instrument trading on residual value speculation, but we lack the fundamental waterfall analysis to justify a position.",
+   "one_line_verdict": "a distressed restructuring where the equity is a junior, speculative option with no documented floor to support the current valuation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market is pricing the equity as a speculative call option on a post-COVID travel recovery, ignoring the absolute priority rule in bankruptcy. In reality, the equity is likely to be wiped out as the value of the firm's assets is insufficient to satisfy senior creditors and vehicle financing [D01, D05]. We view the current rally as a technical anomaly driven by retail speculation rather than fundamental recovery prospects [D04, D07].",
+   "evidence": [
+    "Equity is a residual claim junior to $17bn in debt and vehicle financing [D01, D02, D05].",
+    "Market pricing reflects speculative interest rather than fundamental reorganization outcomes [D04, D07].",
+    "High daily trading volume indicates excessive retail speculation during the restructuring process [D04]."
+   ],
+   "peer_benchmark": "AMERCO operating margin of 13.6% [D06].",
+   "what_must_be_true": [
+    "The enterprise value must exceed the total claims of all senior creditors and administrative expenses.",
+    "The restructuring plan must provide for a recovery to equity holders.",
+    "Vehicle fleet liquidation values must exceed the associated ABS debt and liabilities."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$0.00",
+    "arithmetic": [
+     "Senior claims > $17.089bn [D02]",
+     "Enterprise value < senior claims [D05]",
+     "Equity is residual claim [D01]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Absolute priority rule and insolvency [D05]"
+   },
+   "current_price": "$5.53 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": -100
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumed current enterprise value is insufficient to cover senior debt, consistent with Chapter 11 status [D05]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "No action taken; monitor for opportunistic entry in fulcrum debt should the risk/reward profile improve post-reorganization [D01, D05]."
+   ],
+   "actors": [
+    "Hertz Management — Debtor-in-Possession — Managing bankruptcy [D03]"
+   ],
+   "governance_route": "Chapter 11 Bankruptcy Court process [D01, D03]",
+   "timetable_quarters": 4,
+   "escalation_path": "Not applicable; this is a pass on the equity due to zero-recovery risk and a failure of the risk/reward hurdle.",
+   "why_this_role_fits_the_era": "Consistent with Third Point’s opportunistic event-driven strategy, we avoid speculative retail-driven equity rallies in bankruptcy where the capital structure indicates the equity is likely to be wiped out; we maintain discipline by avoiding positions without a clear path to value [D01, D05, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Absolute priority rule enforcement rendering common equity worthless [D05]",
+    "Enterprise value failing to cover senior debt and vehicle ABS claims [D01, D05]",
+    "Administrative expenses and liquidation costs eroding all residual assets [D05]",
+    "Court-approved restructuring plan explicitly wiping out existing shareholders [D01]"
+   ],
+   "portfolio_risk": "Factor overlap with high-beta, retail-sensitive equities; potential for negative signaling if perceived to be chasing speculative rallies; liquidity is high but position serves no fundamental purpose [D04, D07].",
+   "instrument": "none",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The equity represents a residual claim in a bankruptcy process where the senior capital stack significantly exceeds the enterprise value, creating a high probability of total loss."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-06-08",
+  "company": "Hertz Global Holdings",
+  "ticker": "HTZ",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$0.00",
+   "floor": "$0.00",
+   "skew": "0% : 100%",
+   "irr_pct": -100
+  },
+  "plan": {
+   "asks": [
+    "No action taken; monitor for opportunistic entry in fulcrum debt should the risk/reward profile improve post-reorganization"
+   ],
+   "actors": [
+    "Hertz Management — Debtor-in-Possession — Managing bankruptcy"
+   ],
+   "governance_route": "Chapter 11 Bankruptcy Court process",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The equity is a residual claim junior to over $17 billion in vehicle financing and corporate debt, making a recovery highly improbable [D01, D02, D05].",
+    "citations": [
+     "D01",
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The market is pricing the equity as a speculative call option on a travel recovery, ignoring the absolute priority rule in bankruptcy [D01, D05, D07].",
+    "citations": [
+     "D01",
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Current price action is driven by technical anomalies and retail speculation rather than fundamental reorganization outcomes [D04, D07].",
+    "citations": [
+     "D04",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The lack of an appraised vehicle liquidation value or a clear creditor waterfall creates no floor to support the current valuation [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Absolute priority rule enforcement rendering common equity worthless",
+   "Enterprise value failing to cover senior debt and vehicle ABS claims",
+   "Administrative expenses and liquidation costs eroding all residual assets",
+   "Court-approved restructuring plan explicitly wiping out existing shareholders"
+  ],
+  "what_would_change_our_mind": "A definitive restructuring plan that provides for a tangible recovery to equity holders, supported by an appraisal showing enterprise value significantly in excess of all senior claims.",
+  "memo": "Hertz Global Holdings is currently navigating a Chapter 11 restructuring process initiated to address severe travel demand shocks and unsustainable liability obligations [D01, D03]. The current equity price of $5.53 reflects a speculative retail-driven rally that completely ignores the company’s insolvency and the reality of its capital structure [D04, D07].\n\nWith total debt obligations exceeding $17 billion as of year-end 2019, the common equity sits at the very bottom of the capital stack, junior to vehicle ABS, corporate debt, and administrative claims [D01, D02]. Absent a radical improvement in enterprise value that far exceeds these senior liabilities—a scenario not supported by current fundamentals—the equity represents a residual claim with a likely recovery of zero [D05].\n\nWe view the recent trading volume, which reached over 533 million shares on June 8, 2020, as a classic example of a bankrupt-equity rally untethered from value [D04]. While we are active participants in event-driven situations, we maintain strict discipline by avoiding speculative instruments where the math dictates a permanent impairment of capital [D01, D05].\n\nThe bankruptcy court process will ultimately enforce the absolute priority rule, leaving little room for existing shareholders in the absence of a surplus that we cannot identify [D01, D05]. We have no edge in speculating on retail sentiment and find the current risk/reward profile non-existent [D07].\n\nAccordingly, we are passing on the common equity and will continue to monitor the situation only for potential opportunistic entry points in the fulcrum debt should the reorganization terms improve [D01, D05].",
+  "uncited_claims": []
+ }
+}

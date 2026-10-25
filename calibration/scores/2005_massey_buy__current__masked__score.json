@@ -1,0 +1,49 @@
+{
+ "trade_id": "2005_massey_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "Valuable coal assets trade at a management discount caused by repeated operating disappointments.",
+   "Higher realizations and normalized production support $800–900m prospective EBITDA versus roughly $750m consensus.",
+   "With $300–350m capital spending, excess prospective cash should fund repurchases or a Dutch tender.",
+   "Shareholder alignment and a board challenge can force capital-allocation accountability."
+  ],
+  "extra_agent_drivers": [
+   "The company is a commoditized coal producer lacking an identifiable event-driven catalyst",
+   "Operational performance is failing, characterized by declining underground production despite favorable market conditions",
+   "The company exhibits negative free cash flow of $(120.5) million, providing no safety margin or asset floor",
+   "No differentiated plan exists to address margin gaps or structural inefficiencies compared to industry peers"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "reporting negative free cash flow of $(120.5) million for fiscal year 2004",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "production levels in underground operations have trended downward",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 2,
+  "share": 0.29
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We pass on this position and continue to allocate our capital toward opportunities with verifiable catalysts and superior risk-adjusted return profiles.",
+ "grader_notes": "The agent completely missed the activist thesis held by Loeb, which centered on unlocking value through management changes and capital allocation accountability. Instead, the agent performed a fundamental value analysis and concluded the business was a trap due to operating decay, failing to recognize the specific catalyst potential identified by the investor.",
+ "run": "2005_massey_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

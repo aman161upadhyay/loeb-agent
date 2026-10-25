@@ -1,0 +1,47 @@
+{
+ "trade_id": "2014_sony_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Electronics execution disappointed and successive profit warnings reduced confidence in the remaining turnaround. → The mobile division's substantial goodwill impairment signals lower future cash flows and prolonged electronics risk [D01, D03].",
+   "Realize the investment gain rather than rely on a structural proposal management will not implement. → We exit to rotate capital into higher-skew events now that the original governance path is closed [D04, D08]."
+  ],
+  "missed": [
+   "Some operational and cost changes delivered progress despite rejection of the partial spinout."
+  ],
+  "extra_agent_drivers": [
+   "The core thesis of an entertainment spin-off was rejected by the board, rendering the primary structural catalyst spent [D07, D08].",
+   "Management's shift toward a revised mobile plan offers no immediate path to re-rating, and the dividend has been eliminated [D03, D04]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The core thesis of an entertainment spin-off was rejected by the board",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "¥180bn impairment of mobile goodwill",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We adhere to our discipline of exiting when the catalyst is spent or the thesis breaks [D04, D08].",
+ "grader_notes": "The agent correctly identified the primary drivers regarding management's rejection of the structural proposal and the disappointing electronics performance. It failed to acknowledge the nuance in Loeb's note that the company had made some progress on operational changes despite the rejection. Reasoning is highly aligned with the core decision to exit after the primary catalyst failed.",
+ "run": "2014_sony_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "SELL",
+ "agent_decision": "SELL",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

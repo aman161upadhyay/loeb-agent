@@ -1,0 +1,58 @@
+{
+ "trade_id": "2015_fanuc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 5,
+  "matched": [
+   "Idle cash, no debt and treasury stock create an inefficient capital structure. → FANUC is a world-class automation leader hampered by a bloated balance sheet containing ¥928bn in unproductive cash and securities [D02], [D03].",
+   "A buyback program and better investor communication can surface earnings power and drive rerating. → We see a path to ¥26,200 per share by forcing a re-rating toward capital-efficient global peers through board engagement for share buybacks and dividends [D03].",
+   "Chinese automation, global robotics and machining demand support secular growth within cyclical end markets. → The market misprices FANUC as a purely cyclical machinery company while ignoring its 36.4% operating margin and massive net cash position of ¥741bn [D02], [D06].",
+   "Automation and vertical integration generate exceptional operating economics. → The market misprices FANUC as a purely cyclical machinery company while ignoring its 36.4% operating margin and massive net cash position of ¥741bn [D02], [D06]."
+  ],
+  "missed": [
+   "Dominant controls and service create high switching costs and a strong industrial franchise."
+  ],
+  "extra_agent_drivers": [
+   "The fortress balance sheet provides a hard valuation floor at ¥16,078, offering a compelling asymmetric risk/reward profile [D02], [D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "FANUC is a world-class automation leader hampered by a bloated balance sheet containing ¥928bn in unproductive cash and securities.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market misprices FANUC as a purely cyclical machinery company while ignoring its 36.4% operating margin.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We see a path to ¥26,200 per share by forcing a re-rating toward capital-efficient global peers.",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "The fortress balance sheet provides a hard valuation floor at ¥16,078.",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We believe that by engaging with the board to initiate a rigorous capital return policy—including share repurchases and elevated dividends—the company can unlock substantial trapped value [D03].",
+ "grader_notes": "The agent correctly identified the core thesis of capital structure inefficiency and the catalyst of board engagement. It was farthest from Loeb's reasoning regarding the 'switching costs' driver, which it omitted entirely, choosing instead to focus on valuation floors and SOTP arithmetic not explicitly detailed in the answer key.",
+ "run": "2015_fanuc_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

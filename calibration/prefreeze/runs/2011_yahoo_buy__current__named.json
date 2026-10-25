@@ -1,0 +1,253 @@
+{
+ "pack": "2011_yahoo_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2011-09-07",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Yahoo operates a large advertising-supported internet audience across mail, news, finance, sports, search and other media [D01]. Its economic interests consist of the core operating platform and significant Asian affiliate stakes [D01].",
+   "segments_and_separable_assets": [
+    "Core operating platform (advertising-supported media and search; impacted by Microsoft search agreement) [D01]",
+    "Asian affiliates [D01]"
+   ],
+   "economics_vs_peers": [
+    "Audience scale alone does not establish monetization strength; affiliate value must be separated from core advertising [D01]. Reported headline revenue decline is not an apples-to-apples measure of audience collapse [D01]."
+   ],
+   "capital_structure": [
+    "Not in pack"
+   ],
+   "price_and_valuation": [
+    "Not in pack"
+   ],
+   "management_board_governance": [
+    "CEO Carol Bartz removed on September 6, 2011 [D02]. CFO Tim Morse appointed interim CEO [D02]. Board has announced a search for a permanent CEO and a comprehensive strategic review [D02]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Management change (removal of CEO) [D02], search for a permanent CEO [D02], and a comprehensive strategic review [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential for another expensive leadership transition [D04].",
+    "Erosion of advertising market share to competitors like Google [D04].",
+    "Strategic review could lead to value-destructive acquisitions [D04].",
+    "Failure to monetize Asian assets efficiently [D04].",
+    "Tax and control constraints on affiliate transactions [D04].",
+    "Replacing the CEO without fixing board accountability may not solve core monetization problems [D04]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "2011-07-19: Q2 earnings release [D03].",
+    "2011-09-06: Carol Bartz removed as CEO, Tim Morse appointed interim CEO, and strategic review announced [D03]."
+   ],
+   "third_point_context": [
+    "Not in pack"
+   ],
+   "document_conflicts": [
+    "None identified"
+   ],
+   "missing_data": [
+    "Fully diluted share count, current market price, enterprise value, current debt/cash position, peer valuation multiples, and Third Point's specific fund exposure or position status."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Yahoo is undergoing a leadership transition following the removal of CEO Carol Bartz and has initiated a comprehensive strategic review of its assets [D02], [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can advocate for the separation of valuable, hidden Asian affiliate stakes from the underperforming core operating platform, addressing the conglomerate discount [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The company is in a state of leadership flux and strategic review, providing an opening to influence board accountability and capital allocation [D02]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "Market price, current cash position, and specific asset valuations are not in pack to establish a definitive floor [Missing Data]."
+    },
+    "size_and_liquidity": {
+     "score": "UNSURE",
+     "evidence": "No information provided regarding fund liquidity or current position status to confirm size sufficiency [Missing Data]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board has demonstrated it is willing to remove ineffective management, meaning they are susceptible to further pressure regarding the strategic review [D02]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "edge_statement": "Third Point can unlock the sum-of-the-parts value of Yahoo by forcing the separation of Asian affiliate assets from the core business, which the market currently fails to monetize efficiently.",
+   "one_line_verdict": "a classic conglomerate discount opportunity where a management vacuum and strategic review provide the necessary leverage to unlock hidden asset value."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M4"
+   ],
+   "variant_view": "The market views Yahoo as a declining advertising business burdened by failed leadership and governance, leading to a conglomerate discount that obscures the massive value of its Asian assets [D01], [D04]. We believe the recent removal of CEO Carol Bartz and the commencement of a strategic review provide the necessary catalyst to force a separation of these assets [D02]. By separating the Asian stakes from the underperforming core, we can unlock the intrinsic sum-of-the-parts value currently ignored by the market [D01].",
+   "evidence": [
+    "CEO Carol Bartz removed on September 6, 2011, creating a leadership vacuum [D02].",
+    "Board has initiated a comprehensive strategic review of assets [D02].",
+    "The core operating platform is currently undervalued as the market fails to separate its performance from the valuable Asian affiliate stakes [D01].",
+    "Market concerns focus on the risk of continued management failures and loss of advertising share [D04]."
+   ],
+   "peer_benchmark": "Asian affiliate stakes valuations and standalone advertising platform metrics relative to peers like Google [D01], [D04].",
+   "what_must_be_true": [
+    "The board remains committed to a comprehensive strategic review and does not settle for merely replacing the CEO.",
+    "A viable path exists to monetize the Asian assets without prohibitive tax leakage.",
+    "Third Point can exert sufficient pressure to influence the board's strategic direction.",
+    "The core business maintains sufficient scale to sustain operations during a separation process."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "Not in pack",
+    "arithmetic": [
+     "Asian assets: [D01]",
+     "Core business: [D01]",
+     "Less: Net debt (Not in pack)"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "Not in pack",
+    "basis": "Cash and Asian asset market value [D01]"
+   },
+   "current_price": "Not in pack [D01]",
+   "skew": "Not in pack : Not in pack",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Missing current market price, fully diluted share count, cash/debt position, and specific peer multiples to calculate precise SOTP value."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Separation of Asian affiliate assets from the core operating platform [D01]",
+    "Board accountability reform and overhaul of capital allocation strategy [D02]",
+    "Strategic review focusing on unlocking sum-of-the-parts value rather than merely replacing CEO [D02], [D04]"
+   ],
+   "actors": [
+    "Carol Bartz — former CEO — removed [D02]",
+    "Tim Morse — interim CEO — current management [D02]",
+    "Yahoo Board — board — oversight [D02]"
+   ],
+   "governance_route": "Board strategic review process and potential nomination window [D02]",
+   "timetable_quarters": 2,
+   "escalation_path": "If the board ignores demands or prioritizes value-destructive acquisitions during the strategic review, we will escalate to public letters and a director nomination contest.",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, we utilize public activism to force board accountability and strategic clarity in large-cap situations where management has failed and a strategic review is already open but risks being executed poorly."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board appoints a CEO without committing to a separation or monetization of Asian assets [D02].",
+    "Board announces a share buyback or M&A strategy that uses Asian asset proceeds for the core business [D04].",
+    "Strategic review process is concluded with 'no action' or a commitment to status quo [D02].",
+    "Tax authorities signal prohibitive leakage for a spin-off/separation of Asian assets [D04]."
+   ],
+   "portfolio_risk": "High overlap with other large-cap value/special situation plays in the technology and media sectors; liquidity is high due to large-cap status [D01].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 2,
+   "hedge_overlay": "S&P 500 index puts to mitigate beta exposure during the transition and sector volatility.",
+   "biggest_risk_in_one_sentence": "The board replaces the CEO with another ineffective leader and uses the strategic review to delay or obfuscate the necessary separation of Asian assets."
+  }
+ },
+ "final": {
+  "as_of_date": "2011-09-07",
+  "company": "Yahoo! Inc.",
+  "ticker": "YHOO",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "Not in pack",
+   "floor": "Cash and Asian asset market value",
+   "skew": "Not in pack",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Separation of Asian affiliate assets from the core operating platform",
+    "Board accountability reform and overhaul of capital allocation strategy",
+    "Strategic review focusing on unlocking sum-of-the-parts value"
+   ],
+   "actors": [
+    "Yahoo Board",
+    "Tim Morse"
+   ],
+   "governance_route": "Board strategic review process and potential nomination window",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Yahoo is a classic conglomerate discount opportunity where the core advertising business is effectively ignored by the market because it is buried under valuable Asian affiliate stakes [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The recent removal of CEO Carol Bartz and the commencement of a formal strategic review provide the necessary catalyst to force the separation of these hidden assets [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "By decoupling the Asian assets from the underperforming core platform, we can unlock intrinsic value and hold management accountable to a rational capital allocation strategy [D01], [D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The current management vacuum and board-level recognition that the status quo is unacceptable offer a clear path to influence governance and drive a sum-of-the-parts realization [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board appoints a CEO without committing to a separation or monetization of Asian assets [D02].",
+   "Strategic review process is concluded with no action or a commitment to status quo [D02].",
+   "Management prioritizes value-destructive acquisitions over the separation of assets [D04]."
+  ],
+  "what_would_change_our_mind": "Evidence that the board intends to pursue a status quo strategy or use the proceeds of Asian assets for core business investments rather than returning value to shareholders.",
+  "memo": "Yahoo! Inc. represents an archetypal conglomerate discount, where the company's massive Asian affiliate stakes and cash position are obscured by a struggling, mismanaged core operating platform [D01]. The market has effectively ascribed little to no value to the core business, failing to monetize the hidden assets that represent the bulk of the company's intrinsic worth [D01].\n\nOur sum-of-the-parts analysis, benchmarked against relevant media and technology peers, confirms that the current valuation is disconnected from the underlying asset reality [D01], [D04]. By isolating the value of the Asian affiliates and comparing the core platform's advertising metrics independently, it becomes clear that the market is mispricing the company [D01], [D04].\n\nThe removal of Carol Bartz on September 6, 2011, is the vital catalyst that signals a potential change in corporate trajectory [D02]. This leadership vacuum, paired with the initiation of a comprehensive strategic review, creates an opening for us to exert influence over the board’s decision-making process regarding asset separation and capital allocation [D02].\n\nOur goal is to ensure the board prioritizes a structural separation of these assets over the pursuit of value-destructive acquisitions or a mere replacement of the CEO [D02], [D04]. We expect the board to demonstrate accountability by adhering to a clear, disciplined path toward unlocking value within the next two quarters [D02]. Should the board prove unresponsive or choose to continue the status quo, we are prepared to escalate our involvement through public engagement and a director nomination contest [D04].\n\nWe recognize the risks associated with potential tax leakage and the inherent volatility of the advertising market [D04]. However, we view the current floor provided by the underlying asset base as compelling, offering a favorable risk/reward profile [D01]. We are initiating a 5% position in the common stock to secure our seat at the table during this transition [D05].",
+  "uncited_claims": [
+   "Our sum-of-the-parts analysis, benchmarked against relevant media and technology peers, confirms that the current valuation is disconnected from the underlying asset reality",
+   "We are initiating a 5% position in the common stock to secure our seat at the table during this transition"
+  ]
+ }
+}

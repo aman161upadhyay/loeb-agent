@@ -1,0 +1,64 @@
+{
+ "trade_id": "2009_chrysler_finco_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The government-set bankruptcy deadline can resolve ambiguity over the claims. → Government-mandated viability plans provide a clearly defined resolution process that prioritizes orderly restructuring over chaotic liquidation"
+  ],
+  "missed": [
+   "Finco is legally ring-fenced from the insolvent manufacturing company.",
+   "First liens in the 50s and second liens in the 30s are covered by the finance company's assets.",
+   "Subsequent runoff creates a repayment catalyst; this is a later thesis update, not initial entry evidence."
+  ],
+  "extra_agent_drivers": [
+   "The market is mispricing Chrysler Financial debt due to systemic fears of automaker-related contagion, ignoring the structural seniority provided by the Treasury-backed SPV.",
+   "The $1.5bn Treasury-backed finance-SPV facility acts as a hard structural floor for recovery, insulating senior creditors from the parent's operating distress.",
+   "Recovery analysis confirms that asset coverage on the underlying loan book significantly exceeds current claim values, providing a favorable risk-reward skew toward par."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market is mispricing Chrysler Financial debt due to systemic fears of automaker-related contagion, ignoring the structural seniority provided by the Treasury-backed SPV.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The $1.5 billion Treasury-backed finance-SPV facility reveals that senior creditors are insulated by contractual seniority and collateral coverage.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Recovery analysis confirms that asset coverage on the underlying loan book significantly exceeds current claim values, providing a favorable risk-reward skew toward par.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Government-mandated viability plans provide a clearly defined resolution process.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Our claims are legally distinct and backed by specific, high-quality assets.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Chrysler Financial currently represents a mispriced opportunity where the market is conflating the bankruptcy risks of the automaker with the robust, secured credit structure of the finance subsidiary.",
+ "grader_notes": "The agent correctly identified the BUY direction but failed to match the key drivers. The agent focused on Treasury-backed SPV facility dynamics and systemic mispricing, whereas the actual investor (Loeb) focused on legal ring-fencing, specific lien-level recovery (50s/30s pricing), and the specific catalyst of debt runoff, which were largely absent from the agent's reasoning.",
+ "run": "2009_chrysler_finco_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,52 @@
+{
+ "trade_id": "2005_star_gas_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Operating deterioration requires a credible plan to restore per-gallon profitability → We expect a concrete plan for operational improvement immediately",
+   "Independent oversight and replacement of conflicted leadership are needed to stop further value destruction → We are escalating our position to force a change in leadership and governance",
+   "Apply propane-sale cash to expensive notes unless management demonstrates a superior use → Transparent capital allocation regarding use of propane disposal proceeds"
+  ],
+  "missed": [
+   "Months of unanswered calls leave public communication as the remaining owner route."
+  ],
+  "extra_agent_drivers": [
+   "The agent emphasized specific operational failure regarding service-centralization and customer churn."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "6.5% annual attrition rate",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has failed to remedy operational dysfunction, specifically service-centralization problems",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Real risk that senior creditors will erode the equity cushion",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 5,
+  "cited": 3,
+  "share": 0.6
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are escalating our position to force a change in leadership and governance.",
+ "grader_notes": "The agent correctly identified the decision and captured the core drivers regarding the need for a management plan, leadership overhaul, and capital allocation transparency. It fell short only on explicitly stating the frustration with the lack of private response (unanswered calls), focusing instead on the tangible outcomes of that failed communication.",
+ "run": "2005_star_gas_escalate__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,54 @@
+{
+ "trade_id": "2008_pdl_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Independent oversight and leadership accountability are necessary to restrain wasteful spending. → The company continues to burn cash on R&D while operating margins remain negative, necessitating governance intervention to stop value destruction [D02, D03]."
+  ],
+  "missed": [
+   "Royalty and commercial assets are obscured by excessive mixed-business spending.",
+   "A separation should expose distinct commercial and development economics.",
+   "Credible buyer interest should be evaluated against a disciplined standalone plan."
+  ],
+  "extra_agent_drivers": [
+   "Management's announced strategy remains a plan without the binding terms or distribution policy required to unlock value for shareholders [D07].",
+   "Clinical failure in ulcerative-colitis trial invalidates the prior growth-pipeline thesis and necessitates an immediate pivot to a cash-generative royalty model [D02, D05].",
+   "A 13D-style escalation is appropriate as private engagement is ongoing but lacks the urgency required to protect our capital and resolve the valuation discount [D07, D08]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Recent clinical failure in the ulcerative-colitis trial",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Persistent operating losses",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has acknowledged the need to divest commercial assets",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 1,
+  "share": 0.1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are escalating our involvement to demand accountability.",
+ "grader_notes": "The agent correctly identified the decision to ESCALATE but relied on a significantly different set of drivers than the original 2007 thesis. The agent focused on updated clinical failures and specific demands for cash return, whereas the historical key was based on structural separation and general oversight of wasteful spending.",
+ "run": "2008_pdl_escalate__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

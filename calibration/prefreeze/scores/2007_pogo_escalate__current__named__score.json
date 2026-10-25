@@ -1,0 +1,62 @@
+{
+ "trade_id": "2007_pogo_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "A competitive sale should realize asset value in the whole company or several parts → We are escalating our position to publicly advocate for the only outcome that makes sense: a clean break and a sale of the company to a strategic buyer",
+   "A majority-board proxy challenge makes the proposed process credible → With the annual meeting cycle approaching, the time for private engagement has passed."
+  ],
+  "missed": [
+   "Ten-year share-price appreciation of 5.8% trails the 11.7% peer rate.",
+   "Northrock's $1.8bn cost plus over $350m investment is difficult to reconcile with production falling from 30,000 to 27,000 boe/day."
+  ],
+  "extra_agent_drivers": [
+   "Management's current plan of partial, phased divestitures is an inadequate response to the persistent mispricing and margin underperformance versus peers."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Realizable reserve value: intact",
+    "citation": "D07",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "partial divestitures are insufficient",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company trades at a significant discount to likely reserve NAV",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "annual meeting cycle provides a critical governance lever",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are escalating our position to publicly advocate for... a sale of the company",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are escalating our position to publicly advocate for the only outcome that makes sense: a clean break and a sale of the company to a strategic buyer who can manage these assets with the scale and focus they require.",
+ "grader_notes": "The agent correctly identified the decision to escalate and captured the core demand for a full sale process and the use of the proxy/meeting cycle as a governance lever. However, it missed the specific quantitative drivers cited by Loeb regarding the 10-year share price underperformance and the failed Northrock acquisition metrics, opting instead for general qualitative criticisms of capital allocation.",
+ "run": "2007_pogo_escalate__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

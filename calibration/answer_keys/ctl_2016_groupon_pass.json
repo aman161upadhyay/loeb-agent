@@ -1,0 +1,41 @@
+{
+  "id": "ctl_2016_groupon_pass",
+  "actual_decision": "PASS",
+  "conviction": "medium",
+  "size_pct_nav": 0,
+  "first_action_date": "2016-10-10",
+  "disclosure_date": null,
+  "reason_class": null,
+  "opportunity_template": [
+    "E1",
+    "E4"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [],
+    "governance_route": "No public Third Point action established for the scoped common-stock opportunity; PASS is a retrospective observational label.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "Groupon/GRPN absent from all 54 quarterly issuer/instrument observations; no manager-specific public investment rationale recovered. Replaces Twitter, which WAS held Q3 2022 ($241.12M), although not in the 2016 window.",
+      "source": "loeb-agent/compendium/all_positions_index.md (54 quarterly tables, 2013–Q2 2026; accessed 2026-10-25)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "No Third Point entry: this is a common-stock discipline control, not an actual rejected-idea memo. Cutoff price/valuation gaps are identified in the pack.",
+  "outcome_note": "PASS labels absence of a reported long in the specified window, not a public statement of rejection, zero economic exposure across all instruments, or proof of no intraperiod trade. No forward return is used to justify the label.",
+  "sources": [
+    "https://13f.info/manager/0001040273-third-point-llc",
+    "loeb-agent/compendium/all_positions_index.md",
+    "https://www.sec.gov/Archives/edgar/data/1490281/000149028116000178/exhibit991-q22016.htm"
+  ],
+  "pack_quality_notes": "Grade C. Replacement for ctl_2016_twtr_pass. Negative evidence is scoped to reportable quarter-end holdings plus recovered public comments, not private investment records. Silent controls intentionally have one documented driver instead of fabricating three manager reasons. Most current share prices, peer tables and fund AUM were not recovered. Null fund AUM is an intentional metadata schema exception. Firm-wide/Offshore capital is not inferred from 13F value. No exhaustive historical X or letter review is claimed.",
+  "control_verification": {
+    "scope": "Complete 54-quarter reportable issuer/instrument index 2013–Q2 2026, including the requested decision window.",
+    "verified_reportable_absence": true,
+    "absolute_economic_nonownership_verified": false,
+    "replaced_requested_id": "ctl_2016_twtr_pass"
+  }
+}

@@ -1,0 +1,48 @@
+{
+ "trade_id": "2020_dis_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Reinvesting roughly $3bn of annual dividends into original content could accelerate streaming scale. → Aggressive reallocation of capital from legacy dividends to DTC content and tech is required to bridge the valuation gap with pure-play peers like Netflix"
+  ],
+  "missed": [
+   "Owned intellectual property and direct consumer relationships created a large global distribution opportunity.",
+   "A larger content budget could make the direct-to-consumer business more compelling and valuable."
+  ],
+  "extra_agent_drivers": [
+   "The market misprices the Company as a legacy conglomerate",
+   "Valuation math shows a path to $185/share",
+   "The Company possesses a vast library of intellectual property and diversified assets that provide a hard floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "streaming business... has already reached 101.5 million subscribers",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "valuing the streaming business at a 40x multiple",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "By prioritizing direct-to-consumer growth, the Company is positioning itself to capture the recurring, high-margin revenue streams that the market currently assigns to pure-play streaming peers trading at significantly higher multiples.",
+ "grader_notes": "The agent correctly identified the direction as a buy. While the agent correctly captured the core driver of reallocating dividend capital into streaming, the agent relied heavily on its own proprietary valuation and sum-of-the-parts modeling which were not present in the answer key. The agent focused on valuation metrics and share price targets, whereas Loeb's documented rationale centered specifically on the strategic reinvestment of dividends and IP-leveraged growth.",
+ "run": "2020_dis_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

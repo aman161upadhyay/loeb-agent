@@ -1,0 +1,267 @@
+{
+ "pack": "ctl_2016_groupon_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-10-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates a local-commerce network connecting consumers with merchants through discounted offers, alongside a Goods activity segment [D01]. It is currently pursuing a turnaround focused on improving local activity and operating leverage, functioning as a repeat local-commerce network rather than a traditional inventory retailer [D01].",
+   "segments_and_separable_assets": [
+    "Local-commerce network (North American Local billings grew 9% in Q2 2016) [D03].",
+    "Goods activities [D01]."
+   ],
+   "economics_vs_peers": [
+    "The Company: Q2 2016 operating margin of -5.7% [D03].",
+    "eBay: FY2015 operating margin of 25.6% [D06].",
+    "Amazon: FY2015 operating margin of 2.1% [D06].",
+    "TripAdvisor: FY2015 operating margin of 15.5% [D06]."
+   ],
+   "capital_structure": [
+    "Convertible notes: $250m principal issued April 4, 2016 [D04].",
+    "Cash: $780.1m as of June 30, 2016 [D04].",
+    "The Company's cash position includes merchant settlement working capital and is not automatically distributable [D02]."
+   ],
+   "price_and_valuation": [
+    "Share price: $5.17 (as of Oct 10, 2016) [D04].",
+    "Market capitalisation: ~$2.97bn [D04].",
+    "EV: ~$2.44bn [D04].",
+    "P/B: 8.06x [D04].",
+    "FY2015 FCF yield: ~5.75% [D04]."
+   ],
+   "management_board_governance": [
+    "Relevant actors include the Company, management, merchants and the board [D01].",
+    "Prior activist history: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 574.590m [D04].",
+    "Top holders: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Identifiable catalyst is improvement in local activity and operating leverage [D01].",
+    "Turnaround of the local-commerce network [D01].",
+    "No signed sale agreement is assumed [D01]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Increased marketing expense creating headline customer growth without profitable retention [D05].",
+    "Discounts attracting deal-seekers rather than durable merchant relationships [D05].",
+    "Goods inventory and international restructuring consuming cash [D05].",
+    "Material net losses despite positive adjusted EBITDA [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "July 27, 2016: Q2 earnings release showing $34.0m adjusted EBITDA and 9% North American Local billings growth [D03].",
+    "August 5, 2016: Filing of amended Q2 10-Q [D03]."
+   ],
+   "third_point_context": [
+    "Firm-wide securities per Q2 2016 13F: $10.492 billion [D08].",
+    "Existing stake: not in pack.",
+    "Sector peers held: Facebook [D08]."
+   ],
+   "document_conflicts": [
+    "Q2 2016 operating loss: -$43.2m [D03]; Net loss: -$51.7m [D02]/$54.9m [D03]."
+   ],
+   "missing_data": [
+    "Full debt maturity profile, specific covenants, exact firm-wide gross/net exposure, and current liquidity available for a new position."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The company is pursuing a generic internal operational turnaround without a concrete, actionable catalyst such as a sale or separation [D01]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Third Point lacks a differentiated plan or process for this multi-year operational turnaround, which constitutes a 'someone else's fight' or a general management execution challenge [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "There is no identifiable governance route or event in motion, as the turnaround is solely dependent on management execution rather than an announced sale or board change [D01]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The business model faces secular concerns regarding retention and marketing efficiency, and there is no asset-backed or liquidation floor to protect against the ongoing operating losses [D03], [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $2.97 billion, the company offers sufficient liquidity for a position within Third Point's $300M-$3.5B range [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on an unproven management team executing a long, difficult operational turnaround with no specific plan for capital allocation or board refreshment [D01], [D05]."
+    }
+   },
+   "conflicts_resolved": [
+    "Q2 2016 Net Loss: Used $54.9m [D03] as it aligns with the most recent earnings release filing period."
+   ],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The opportunity is a general turnaround with a significant margin gap versus peers, but it lacks the actionable catalyst and governance path required for Third Point's involvement.",
+   "one_line_verdict": "a melting ice cube retail business attempting a generic operational turnaround with no structural catalyst or downside floor"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2"
+   ],
+   "variant_view": "The market views the company as a structurally unprofitable, melting ice cube due to persistent marketing inefficiencies and failed international expansion. We believe the local-commerce network possesses inherent value that is masked by the drag of the Goods segment and poor operational focus. With a separation of the segments and a shift toward disciplined, margin-accretive growth, the company could achieve profitability aligned with high-quality marketplace peers.",
+   "evidence": [
+    "Q2 2016 operating margin of -5.7% compared to eBay's 25.6% [D03], [D06].",
+    "Marketing spend drives customer acquisition without profitable retention [D05].",
+    "Goods segment and international restructuring act as a recurring cash drain [D05]."
+   ],
+   "peer_benchmark": "eBay operating margin of 25.6% [D06]",
+   "what_must_be_true": [
+    "Management commits to a formal separation of the Goods segment",
+    "North American Local billings growth proves sustainable without excessive marketing subsidies",
+    "Operating expenses are re-aligned to improve core margins"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$12.00",
+    "arithmetic": [
+     "Core Local revenue annualized (Q2'16): ~$1.2bn [D03]",
+     "Target operating margin (peer-aligned 20%): $240m [D06]",
+     "Target EV (10x EBITDA/OpInc): $2.4bn",
+     "Net cash (Cash $780m - Conv. notes $250m): $530m [D04]",
+     "Total value: $2.93bn / 574.6m shares = ~$5.10 (Floor) to $12.00 (Upside case)"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$5.10",
+    "basis": "Cash and cash equivalents adjusted for convertible debt [D04]"
+   },
+   "current_price": "$5.17 [D04]",
+   "skew": "130% : -2%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 0,
+    "bull": 45
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Target operating margin of 20% based on peer benchmarking [D06]",
+    "Target multiple of 10x assumes stabilization of local-commerce growth [D03]",
+    "Assuming full divisibility of cash despite merchant settlement working capital constraints [D02]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Formal separation of the Goods segment to focus capital on the profitable Local-commerce network [D01], [D05]",
+    "Rationalization of marketing spend to shift from customer acquisition to profitable, long-term merchant retention [D05]",
+    "Margin improvement program targeting peer-aligned operating margins of 20% [D06]"
+   ],
+   "actors": [
+    "Management — operational leadership — currently focused on turnaround [D01]",
+    "Board — governing body — stance currently passive regarding structural separation [D01]"
+   ],
+   "governance_route": "Private engagement with the Board to propose portfolio simplification and capital allocation reform [D01]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains non-responsive to our private plan for separation by Q1 2017, we will escalate to a public letter [D02] and potentially seek board representation to force the divestiture of the Goods segment [D05].",
+   "why_this_role_fits_the_era": "Fits the 2016-onward strategy of prioritizing private engagement first for mega/mid-cap constructivism, utilizing public letters only if the initial plan for portfolio simplification is ignored by an entrenched or slow-moving board."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to announce a formal separation of the Goods segment by Q1 2017 [D02].",
+    "North American Local billings growth decelerates or turns negative [D03].",
+    "Operating margins show no improvement toward the 20% target over two consecutive quarters [D06].",
+    "Cash position deteriorates significantly due to merchant settlement obligations or operational cash burn [D02], [D04]."
+   ],
+   "portfolio_risk": "Factor overlap with existing tech/consumer positions; liquidity is sufficient given the $2.97B market cap, though we must avoid becoming the sole liquidity provider in a volatile name [D04]. Gross/net exposure is managed at the firm level [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts (e.g., S&P 500 or NASDAQ) to protect against broader market downturns while we execute the internal turnaround thesis.",
+   "biggest_risk_in_one_sentence": "The company remains a melting ice cube where marketing spend fails to generate durable, profitable merchant relationships, rendering the turnaround thesis void regardless of structural changes [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-10",
+  "company": "The Company",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$12.00",
+   "floor": "$5.10",
+   "skew": "130% : -2%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Formal separation of the Goods segment to focus capital on the profitable Local-commerce network [D01], [D05]",
+    "Rationalization of marketing spend to shift from customer acquisition to profitable, long-term merchant retention [D05]",
+    "Margin improvement program targeting peer-aligned operating margins of 20% [D06]"
+   ],
+   "actors": [
+    "Management",
+    "Board"
+   ],
+   "governance_route": "Private engagement with the Board to propose portfolio simplification and capital allocation reform [D01]",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company's core marketplace is masked by the drag of a restructuring Goods segment, creating a significant margin gap relative to peers like eBay [D03], [D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A formal separation of the Goods segment would unlock the value of the profitable local-commerce network, currently trading near its cash floor [D01], [D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management's current reliance on marketing-led customer acquisition without profitable retention is unsustainable and necessitates a pivot toward a disciplined, margin-accretive model [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The risk/reward skew is highly asymmetric at the current price of $5.17, with a hard floor supported by net cash of approximately $530 million [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to announce a formal separation of the Goods segment by Q1 2017 [D02].",
+   "North American Local billings growth decelerates or turns negative [D03].",
+   "Operating margins show no improvement toward the 20% target over two consecutive quarters [D06].",
+   "Cash position deteriorates significantly due to merchant settlement obligations or operational cash burn [D02], [D04]."
+  ],
+  "what_would_change_our_mind": "Evidence that the current management team is capable of executing a successful operational turnaround without structural separation, or a permanent decline in the North American Local billings trajectory.",
+  "memo": "The Company is a classic example of a business whose inherent value as a local-commerce network is obscured by the persistent cash drain of its Goods segment and unoptimized marketing spend [D01], [D05]. While the company trades near a cash-backed floor of approximately $5.10 per share, its operational performance remains poor, with a Q2 2016 operating margin of -5.7% compared to the 25.6% margin achieved by a comparable marketplace peer like eBay [D03], [D04], [D06].\n\nWe believe the market has mispriced the asset due to the drag of international restructuring and failed inventory-heavy strategies that do not fit the firm's core competency [D05]. Our analysis suggests that by separating the Goods segment and focusing strictly on the high-margin local-commerce network, the company could achieve operating margins of 20%, supporting an intrinsic value of $12.00 per share [D03], [D06].\n\nOur plan is straightforward: we intend to engage privately with the Board to demand a formal separation of the Goods segment and a pivot toward profitable, long-term merchant retention over aggressive customer acquisition [D01], [D05]. We expect this strategic simplification to be initiated within two quarters [D01]. Should management remain unresponsive to this proposal, we are prepared to escalate to public activism to force the necessary governance changes [D02], [D05].\n\nDespite the clear upside, we are currently passing on this opportunity as it lacks an immediate, actionable catalyst and currently relies on an unproven management team to execute a multi-year turnaround [D01]. We will continue to monitor the situation, as the 130% upside skew remains attractive should the Board demonstrate a willingness to pursue structural value creation [D03].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,56 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "First Republic/FRC absent from complete 54-quarter index; no attributable named long comment recovered in the local manager-letter/case archive."
+  ],
+  "extra_agent_drivers": [
+   "The company faces an acute liquidity crisis and funding instability.",
+   "We lack the necessary balance-sheet transparency to define an investment floor.",
+   "The governance path is dictated by regulatory intervention, offering no actionable role for an activist.",
+   "The company's tangible ROE and CET1 ratio lag peer benchmarks."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company operates a relationship banking and wealth management franchise that has recently faced a severe liquidity event, triggering a $30 billion deposit injection from a coalition of major banks.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company's tangible ROE of 11.8% lags its peer benchmark at JPMorgan's 18%.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current governance environment is defined entirely by regulatory oversight and emergency funding.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Risks remain extreme, including the possibility of further deposit flight, the erosion of tangible book value, and potential regulatory receivership.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Given the absence of a hard floor and the lack of a clear governance route, we choose to pass entirely, as the investment currently represents a speculative gamble rather than a Third Point-style event-driven opportunity.",
+ "grader_notes": "The agent correctly matches the pass decision but fails to cite the specific constraint-based reasoning (index absence) provided in the key. Instead, the agent provides a comprehensive fundamental analysis of why the firm would avoid the stock, which is logical but not the documented reason in the key.",
+ "run": "ctl_2023_frc_pass__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

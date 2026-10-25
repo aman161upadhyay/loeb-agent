@@ -1,0 +1,17 @@
+Title: Dated event map and authority to act — United Technologies Corporation
+Source: https://www.sec.gov/Archives/edgar/data/101829/000010182918000007/a2018-03x318xkerexhibit99.htm (2018-04-24); https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (2017-06-02); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618000853-third-point-llc-q4-2017 (2018-02-14)
+Date: 2018-05-04
+
+April 24: UTC publishes strong first-quarter results and raises sales/EPS expectations. The current observation date is May 4. Rockwell Collins integration and review of portfolio structure remain identifiable corporate events; no subsequent separation or merger announcement is in the information set. A plausible governance timetable passes through board review, debt/tax design and detailed standalone financial reporting. The operating calendar must separately monitor geared-turbofan deliveries, aftermarket cash generation and elevator orders. Shareholder engagement can influence these discussions but does not replace execution by Hayes and his board. [S1; analyst timeline]
+
+Event-path discipline. The timeline separates a public report, an announced intention, a legally binding step and actual implementation. These are different milestones. A board may examine an option without approving it; an approved transaction can still face financing, regulatory, tax or execution conditions. Put the authority to decide alongside the event, rather than presume that a minority shareholder can cause it immediately.
+
+The observation cutoff is hard. A later upload location for an older document does not move its underlying publication date, while a later investor retrospective cannot become an earlier desk input. No eventual transaction, operating result or investment outcome is implied here. Where a first transaction day is not publicly recoverable, this document does not invent one from a quarter-end filing. Future calendar items are possibilities to monitor, not completed facts. A realistic timetable should allow multiple quarters when necessary and specify the evidence that would show delay or failure. This avoids confusing a well-written proposal with an executable catalyst and keeps the analyst's expected value separate from the historical answer.
+
+Analyst cross-check: For each prospective milestone, identify who controls the decision, which prerequisite must occur first and whether shareholder approval is sufficient. Regulatory clearance, creditor consent and operational implementation are distinct gates. Delay affects discounted value even if the eventual strategic direction remains economically sensible and legally feasible.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/101829/000010182918000007/a2018-03x318xkerexhibit99.htm (published 2018-04-24).
+- [S2] https://hedgeco.net/news/06/2017/third-point-hedge-funds-gain-in-may.html (published 2017-06-02).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S4] https://13f.info/13f/000108514618000853-third-point-llc-q4-2017 (published 2018-02-14).

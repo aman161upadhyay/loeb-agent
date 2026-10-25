@@ -1,0 +1,59 @@
+{
+ "pack": "2012_yahoo_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2012-05-03",
+ "stages": {},
+ "final": {
+  "as_of_date": "2012-05-03",
+  "company": "Yahoo! Inc.",
+  "ticker": "YHOO",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Asian-asset value: intact [D08]",
+   "Core-business stewardship: broken due to leadership credibility issues [D01, D08]"
+  ],
+  "remaining_skew": "Significant upside remains via monetization of Asian assets and core business turnaround [D01, D08]",
+  "next_catalyst_and_timing": "Annual meeting of shareholders; imminent [D07]",
+  "asks_if_escalating": [
+   "Immediate board refresh and appointment of our four nominees to oversee governance [D07, D08]",
+   "Full investigation into CEO and director biographical discrepancies [D02, D03]",
+   "Commitment to intelligent monetization of non-core Asian affiliate stakes [D01, D06]"
+  ],
+  "drivers": [
+   {
+    "driver": "Leadership credibility has been compromised by the discovery of inaccurate biographical disclosures regarding academic degrees [D02, D07].",
+    "citations": [
+     "D02",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The original thesis of unlocking Asian-asset value and improving core stewardship remains valid but requires superior oversight [D01, D08].",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The proxy contest is already underway, providing a clear path to force the necessary board changes [D07].",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "Governance practice has become as critical as the core business itself, necessitating a direct intervention to protect shareholder value [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "memo": "The situation at Yahoo! has reached a point where passive ownership is no longer tenable. Our initial thesis focused on the substantial value trapped in Asian assets and the need for a rigorous steward of the core business; while the value of those assets remains, the credibility of the current leadership has been severely undermined by the recent revelations of biographical inaccuracies [D01, D08]. \n\nWe have identified material discrepancies between the CEO’s stated academic credentials and the university’s records, a pattern that extends to the board itself [D02, D07]. A company cannot claim to value accuracy and truthfulness while maintaining a leadership team with such fundamental disclosure failures [D01, D12]. This is not merely a character issue; it is a governance crisis that distracts from the operational turnaround required to improve advertising economics [D04, D06].\n\nWe have already taken the necessary step of nominating four highly qualified directors to the board [D07]. With the annual meeting approaching, we are escalating our engagement to ensure that these candidates are seated [D07]. We intend to hold management accountable and drive the monetization of assets that continue to be obscured by poor corporate stewardship [D01, D08].",
+  "uncited_claims": []
+ }
+}

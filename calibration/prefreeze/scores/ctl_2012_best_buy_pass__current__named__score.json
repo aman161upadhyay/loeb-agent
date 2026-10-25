@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2012_best_buy_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Never held per recovered 13F history: BBY/Best Buy absent from the complete Q3/Q4 2011 and all four 2012 original Third Point 13Fs (plus Q2 amendment), and from the 54-quarter 2013–Q2 2026 index."
+  ],
+  "extra_agent_drivers": [
+   "Best Buy is a structurally challenged retailer in secular decline that lacks the necessary event or catalyst to justify an investment.",
+   "The company's operating margin of 4.2% significantly lags behind industry peers like Walmart, reflecting the competitive pressure on its store network.",
+   "Current management's turnaround strategy is unproven and lacks a clear path to value realization via asset separation or capital structure optimization.",
+   "The valuation presents a thin risk/reward skew, with the absence of a hard, asset-based floor to protect against the secular risks facing the business."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Best Buy operates with an operating margin of 4.2%, which compares poorly to the 6.1% margin delivered by peers like Walmart",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The stock may appear inexpensive at an 8.6x P/E ratio",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 3,
+  "share": 0.43
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have reviewed Best Buy and decided to pass [D01].",
+ "grader_notes": "The agent correctly reached the PASS conclusion, which matches the historical record of no Third Point position. However, the agent's reasoning was entirely fabricated; it constructed a fundamental bear case for why an investor might reject the stock, whereas the 'actual' decision was a structural control based on the absence of any public investment activity.",
+ "run": "ctl_2012_best_buy_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

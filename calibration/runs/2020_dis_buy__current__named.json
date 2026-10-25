@@ -1,0 +1,265 @@
+{
+ "pack": "2020_dis_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-10-07",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Disney operates a diversified portfolio of theme parks, film studios, consumer products, television networks, and streaming services [D01]. The company is currently transitioning its consumer relationship from wholesale carriage and licensing toward direct-to-consumer subscriptions via Disney+ [D01].",
+   "segments_and_separable_assets": [
+    "Media Networks: $6,562m revenue in Q3 FY2020, 48.1% segment margin [D06]",
+    "Parks, Experiences and Products: $983m revenue in Q3 FY2020, -199.4% segment margin [D06]",
+    "Studio Entertainment: $1,738m revenue in Q3 FY2020, 38.4% segment margin [D06]",
+    "Direct-to-Consumer & International: $3,969m revenue in Q3 FY2020, -17.8% segment margin [D06]"
+   ],
+   "economics_vs_peers": [
+    "Netflix (TTM P/E 90.3x) provides a direct streaming subscription reference [D04, D06]",
+    "Comcast (TTM P/E 18.1x) and Charter Communications (TTM P/E 59.8x) offer different capital and cash profiles [D04, D06]",
+    "Margin gap analysis is limited by disparate capital/cash profiles and the ongoing transition from high-margin linear networks to investment-heavy streaming [D06]"
+   ],
+   "capital_structure": [
+    "Gross debt: $64.42bn; Cash: $23.12bn; Net debt: $41.31bn as of 2020-06-27 [D04]",
+    "Leverage and fixed operating costs constrain capital returns [D05]"
+   ],
+   "price_and_valuation": [
+    "Price: $122.91 as of 2020-10-07 [D04]",
+    "Market cap: $222.11bn [D04]",
+    "EV: $263.42bn [D04]",
+    "TTM P/E: NM (due to negative EPS) [D04]",
+    "FCF yield: 1.38% (TTM FCF $3.065bn) [D04]"
+   ],
+   "management_board_governance": [
+    "CEO: Bob Chapek; CFO: Christine McCarthy [D01]",
+    "Prior activist history not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 1,807.06m [D04]",
+    "Average daily volume: not in pack",
+    "Top holders: not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Strategic transition to direct-to-consumer streaming [D01, D07]",
+    "Potential for capital allocation shifts regarding dividends and content reinvestment [D01, D07]",
+    "Reopening of parks and cruises remains uncertain [D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Streaming cannibalization of high-margin legacy networks [D05]",
+    "Cash burn associated with streaming platform investment during pandemic-related pressure on parks/cinemas [D05]",
+    "Fixed operating costs and debt constraints [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2020-08-04: Q3 FY2020 earnings released showing 42% revenue decline and 101.5m aggregate streaming subs [D03]",
+    "2020-05: First-half FY2020 dividend forgone [D04]"
+   ],
+   "third_point_context": [
+    "Firm AUM approx $12.7bn as of 2020-05 [D08]",
+    "Third Point Q2 2020 13F reported $7.305bn in US long holdings, but Disney is not listed as a specific large holding in the illustrative text provided [D08]",
+    "Existing stake: not in pack"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Detailed segment capital employed, specific subscriber ARPU, churn, acquisition costs, and current board governance specifics/anti-takeover provisions."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E4"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Disney is undergoing a strategic shift to direct-to-consumer streaming as a core business driver, representing a high-stakes earnings inflection during the pandemic [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point possesses the analytical framework to value streaming-heavy business models and assess the trade-off between legacy network cash flows and long-term D2C growth versus peer multiples like Netflix [D04, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a mega-cap with a broad index-heavy register, the transition and capital allocation path are open to shareholder dialogue regarding the balance of streaming investment and dividend policy [D01, D05, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "Despite temporary pandemic-related margin pressure in Parks and Media, the company maintains a massive asset base and established market position in content and IP that provides a floor [D01, D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a $222bn market cap, Disney provides ample liquidity for a multi-hundred million dollar position consistent with Third Point's large-cap constructivist strategy [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board and management are operating under clear strategic imperatives, and there is no evidence of a dual-class structure or controller preventing engagement [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "We are capitalizing on the market's mispricing of Disney's streaming transition, leveraging our experience in evaluating high-growth platforms against legacy media assets to drive superior capital allocation.",
+   "one_line_verdict": "a world-class IP owner navigating a critical earnings inflection toward direct-to-consumer streaming that is currently obscured by temporary pandemic headwinds"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M7"
+   ],
+   "variant_view": "The market is overly focused on pandemic-related headwinds in the Parks segment and is discounting the potential of the direct-to-consumer (D2C) transition [D01, D05]. We believe the market is misjudging the long-term earnings power of the streaming business, failing to recognize the valuation shift as Disney moves from a legacy wholesale model to a high-growth subscription platform [D01, D07]. The catalyst for a rerating will be the stabilization of D2C margins and a strategic prioritization of capital toward content reinvestment over legacy dividends [D01, D07].",
+   "evidence": [
+    "Disney is undergoing a strategic shift to D2C streaming as a core business driver [D01, D07]",
+    "Streaming services saw strong adoption with 101.5m aggregate subscribers as of Q3 FY2020 [D03]",
+    "The market worries about streaming cannibalization and pandemic-related cash burn [D05]"
+   ],
+   "peer_benchmark": "Netflix (TTM P/E 90.3x) [D04, D06]",
+   "what_must_be_true": [
+    "D2C subscriber growth continues its current trajectory",
+    "Parks and Experiences segment recovers as pandemic restrictions ease",
+    "Disney successfully manages the migration of content and ad dollars from linear networks to D2C",
+    "Capital allocation strategy balances debt reduction with necessary streaming investment"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$175.00",
+    "arithmetic": [
+     "Projected normalized FY2023 EPS: $5.00 [Assumption: normalized post-pandemic margins in Parks/Studios + D2C profitability]",
+     "Target P/E: 35x [Discounted from Netflix 90x to account for legacy business weight] [D04, D06]",
+     "Target Price: $5.00 * 35 = $175 [D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$100.00",
+    "basis": "Sum-of-the-parts estimate based on historical asset value of Parks/Studios and linear networks [D06]"
+   },
+   "current_price": "$122.91 [D04]",
+   "skew": "42% : 19%",
+   "irr_pct": {
+    "base": 28,
+    "bear": -6,
+    "bull": 45
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Normalized FY2023 EPS of $5.00",
+    "Target P/E multiple of 35x",
+    "Recovery of Parks and Experiences to pre-pandemic profitability levels"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Prioritize capital allocation toward content production for the D2C segment by permanently suspending the legacy dividend [D01, D07]",
+    "Increase transparency and disclosure regarding D2C unit economics, specifically customer acquisition costs and churn rates [D06, missing_data]",
+    "Focus on accelerating the transition from legacy wholesale carriage models to a pure-play D2C streaming growth strategy [D01]"
+   ],
+   "actors": [
+    "Bob Chapek — CEO — target of engagement [D01]",
+    "Christine McCarthy — CFO — target of engagement [D01]"
+   ],
+   "governance_route": "Engagement with the board and management on capital allocation policy and long-term streaming growth strategy [D01, D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains wedded to legacy dividend policies or fails to adequately prioritize D2C reinvestment, we will move to a public letter to articulate the valuation gap versus pure-play streaming peers [D02, D07].",
+   "why_this_role_fits_the_era": "In the 2016-onward era, we prioritize private engagement for large-cap compounders and streaming transitions, only resorting to public activism if initial strategic dialogue is ignored [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management permanently commits to maintaining the legacy dividend despite streaming investment needs [D01, D07]",
+    "D2C subscriber growth slows materially below guidance for two consecutive quarters [D03, D07]",
+    "Parks and Experiences segment structural recovery fails to materialize as global mobility resumes [D06, D07]",
+    "Significant debt issuance or credit profile deterioration forces a curtailment of content production [D05]"
+   ],
+   "portfolio_risk": "As a mega-cap, this position increases exposure to the consumer discretionary and media sectors; it adds correlation to the broader S&P 500 index recovery and is distinct from our Japan or distressed credit books [D01, D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "Less than 1%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on the S&P 500 to hedge against macroeconomic volatility and potential delays in park re-openings.",
+   "biggest_risk_in_one_sentence": "The primary risk is that the cash burn from the D2C transition coincides with a protracted inability to monetize the Parks and Studio segments, forcing the company to take on excessive leverage."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-10-07",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E4"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$175.00",
+   "floor": "$100.00",
+   "skew": "42% : 19%",
+   "irr_pct": 28
+  },
+  "plan": {
+   "asks": [
+    "Prioritize capital allocation toward content production for the D2C segment by permanently suspending the legacy dividend",
+    "Increase transparency and disclosure regarding D2C unit economics, specifically customer acquisition costs and churn rates",
+    "Focus on accelerating the transition from legacy wholesale carriage models to a pure-play D2C streaming growth strategy"
+   ],
+   "actors": [
+    "Bob Chapek — CEO",
+    "Christine McCarthy — CFO"
+   ],
+   "governance_route": "Engagement with the board and management on capital allocation policy and long-term streaming growth strategy",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The market is mispricing Disney by focusing on temporary pandemic-related headwinds in the Parks segment while ignoring the high-growth potential of the D2C streaming transition [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "We value Disney at $175 per share, based on a 35x multiple on projected FY2023 EPS of $5.00, reflecting a significant discount to pure-play streaming peers like Netflix [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management must pivot capital allocation away from legacy dividends to prioritize content reinvestment for the Disney+ streaming platform [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "A hard floor of $100 exists based on the sum-of-the-parts value of the underlying Parks, Studios, and linear networks, providing an asymmetric risk/reward profile [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management permanently commits to maintaining the legacy dividend despite streaming investment needs [D01, D07]",
+   "D2C subscriber growth slows materially below guidance for two consecutive quarters [D03, D07]",
+   "Parks and Experiences segment structural recovery fails to materialize as global mobility resumes [D06, D07]",
+   "Significant debt issuance or credit profile deterioration forces a curtailment of content production [D05]"
+  ],
+  "what_would_change_our_mind": "Evidence that the D2C transition is failing to capture scale or that legacy network declines are structurally unmanageable, leading to permanent erosion of the company's IP value.",
+  "memo": "The Walt Disney Company is a premier global content owner whose valuation is currently distorted by temporary, pandemic-induced pressures on its Parks and Media segments [D01, D06]. While the market fixates on current cash burn, it fails to recognize that Disney is effectively transitioning from a wholesale carriage model to a high-growth, direct-to-consumer platform with over 101 million aggregate subscribers [D01, D03, D05].\n\nOur sum-of-the-parts analysis suggests a path to $175 per share by 2023, assuming a normalized EPS of $5.00 and a 35x P/E multiple [D04]. This valuation is conservative when benchmarked against Netflix’s TTM P/E of 90.3x, accounting for the inherent weight of Disney’s legacy operations [D04, D06].\n\nThe market’s pessimism ignores the inherent power of the Disney brand and the unique, compounding nature of its IP portfolio [D01, D06]. The mispricing stems from a failure to account for the long-term earnings inflection that occurs as streaming becomes the primary vehicle for Disney’s content monetization [D01, D07].\n\nWe are engaging with CEO Bob Chapek and CFO Christine McCarthy to advocate for a rigid prioritization of capital toward D2C content reinvestment over legacy dividends [D01, D07]. We expect increased transparency on D2C unit economics and a full commitment to the streaming transition, with a 6-month timetable to observe management's progress [D01, D06].\n\nDownside risk is protected by a solid $100 floor supported by the underlying asset value of the Parks and Studio businesses [D06]. We will exit the position if subscriber growth stalls or if management prioritizes dividends over the long-term streaming opportunity, signaling a failure of the current strategy [D03, D07].\n\nWe are initiating a 5% position in Disney common stock [D04]. We remain disciplined in our sizing and will employ index puts on the S&P 500 to hedge against broader market volatility while our thesis plays out [D04, D05].",
+  "uncited_claims": []
+ }
+}

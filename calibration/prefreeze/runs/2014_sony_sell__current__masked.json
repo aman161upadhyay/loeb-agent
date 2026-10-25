@@ -1,0 +1,57 @@
+{
+ "pack": "2014_sony_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2014-10-20",
+ "stages": {},
+ "final": {
+  "as_of_date": "2014-10-20",
+  "company": "the Company (Sony)",
+  "ticker": "6758.T",
+  "decision": "SELL",
+  "reason_class": "L1",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Entertainment separation: broken; board rejected minority listing [D01, D07]",
+   "Electronics recovery: broken; mobile goodwill impairment reflects lower expected future cash flows [D01, D03]",
+   "Structural catalyst: broken; original governance path rejected by board [D04, D07]"
+  ],
+  "remaining_skew": "downside risk of repeated electronics disappointment consuming asset cushion [D04]",
+  "next_catalyst_and_timing": "none; no accepted restructuring timetable exists [D03, D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The core investment catalyst—the separation of entertainment and electronics—has been explicitly rejected by the board [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Mobile business performance has deteriorated, evidenced by a ¥180bn goodwill impairment and a shift to a loss-making outlook [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The company has suspended its dividend, signaling restricted capital return prospects in the near term [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Operational recovery in the electronics division remains inconsistent, creating ongoing risks to the asset base [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Our original thesis for the Company was built upon a clear catalyst: the potential for a separation of the content-franchise value from the struggling electronics business to unlock hidden asset value [D07, D08]. With the board having officially rejected the proposed entertainment listing, this primary event-driven thesis is now broken [D03, D07]. We are unwilling to remain long based on hope for future management self-help when the governance path we identified has been explicitly closed [D04, D07].\n\nRecent financial disclosures further degrade the investment case. The ¥180bn impairment of the mobile-communications business highlights a significant failure in the electronics division’s ability to generate reliable cash flows [D01, D03]. The downward revision of the full-year forecast from a ¥140bn profit to a ¥40bn loss underscores the reality that the business remains caught in a cycle of repeated disappointments [D01, D03, D04].\n\nWe do not wait to be proved right in the long run when the fundamental drivers of our exit strategy are spent [D04, D07]. The absence of an accepted IPO timetable or a viable plan to address the remaining sum-of-the-parts discount leaves us with inadequate upside relative to the risks of further capital erosion in the mobile segment [D03, D07]. We exit now to reallocate capital into higher-skew events where our edge is better defined and the catalyst remains intact [D04, D08].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,229 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company provides relationship banking, residential lending, and wealth services to affluent households [D01]. The franchise's value depends on the retention of customer relationships, which currently face funding instability [D01].",
+   "segments_and_separable_assets": [
+    "Relationship banking, residential lending, and wealth services [D01]. Revenue for FY2022 was approximately $5.9bn [D02, D06]. No individual segment EBITDA or specific peer multiples for these segments are in pack."
+   ],
+   "economics_vs_peers": [
+    "FY2022 ROE: 11.60% (the Company) vs 14% (JPMorgan) [D06]. Tangible ROE: 11.80% (the Company) vs 18% (JPMorgan) [D06]. CET1: 9.17% (the Company) vs 13.2% (JPMorgan) [D06]. Margin gap: not in pack."
+   ],
+   "capital_structure": [
+    "Total deposits: $176.4bn (FY2022) [D02]. Year-end 2022 borrowings: $15.279bn [D02]. March 16 event: $30bn uninsured deposit placement by eleven banks (120-day term) [D03]. Common dividend: suspended [D03]. Leverage/covenants: not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $34.27 (March 16) [D04]. Market cap: ~$6.38bn [D04]. P/E: 4.15x [D04]. P/TBV: 0.462x [D04]. No reconciled cutoff fair-value tangible book or SOTP analysis in pack."
+   ],
+   "management_board_governance": [
+    "CEO/chair/board composition: not in pack. Prior activist history: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 186.219m [D04]. Top holders/index ownership/short interest: not in pack. Average daily volume: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "$30 billion deposit placement by eleven banks to stabilize funding [D01, D03]. Catalyst: requires deposit retention, liquidity stabilization, and eventual balance-sheet solution [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Expensive funding against low-yield assets [D05]. Exposure of common equity to asset marks, funding costs, and senior claims [D05]. Risk of regulatory resolution or forced asset sale [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$30bn uninsured deposit placement, 120-day term, market rates [D03]."
+   ],
+   "recent_events": [
+    "Jan 13, 2023: Reported FY2022 results [D03]. March 16, 2023: Regulatory joint statement confirming $30bn deposit placement [D03]. March 16, 2023: Suspension of common dividend [D03]."
+   ],
+   "third_point_context": [
+    "Third Point Dec 2022 13F reports $5.968bn in securities [D08]. Existing stake/basis/engagement: not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Current tangible common equity under fair-value stress, current uninsured deposit balances, detailed segment EBITDA, current liquidity measures (post-March 15), and reconciled balance sheet."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is undergoing a liquidity crisis necessitating a $30bn deposit infusion from major banks and dividend suspension, creating a high-volatility structural event [D01, D03]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on stabilizing a volatile funding base without internal data on tangible common equity under stress or a clear balance-sheet solution, providing no differentiated edge [D01, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "The situation is currently governed by regulatory intervention and liquidity stabilization, with no clear path for an activist to force a specific outcome [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The business faces severe funding instability and asset mark risks, and without a reconciled fair-value tangible book analysis, the equity floor is indeterminate [D01, D05, D07]."
+    },
+    "size_and_liquidity": {
+     "score": "UNSURE",
+     "evidence": "Average daily volume and shareholder base composition are not in pack, preventing an assessment of position-sizing capability [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "Management's ability to navigate the funding crisis is unproven and the position would depend on their execution through a volatile regulatory period [D01, D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The event is a liquidity-driven structural crisis, but we lack the balance-sheet transparency and governance leverage to justify a position.",
+   "one_line_verdict": "a volatile, funding-constrained bank with no clear floor or governance path, requiring a pass."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M5"
+   ],
+   "variant_view": "The market believes the company faces an existential liquidity crisis and potential insolvency, leading to indiscriminate selling of the equity [D05]. We believe this price reflects extreme fear regarding funding instability rather than a grounded assessment of the franchise's long-term tangible book value [D01, D07]. The situation will stabilize as deposit outflows are arrested and the balance sheet is restructured to address the funding-cost mismatch [D03, D07].",
+   "evidence": [
+    "$30 billion deposit placement by major banks signals a coordinated effort to prevent immediate collapse [D03].",
+    "P/TBV of 0.462x indicates the market is pricing in significant asset impairment or dilution [D04]."
+   ],
+   "peer_benchmark": "JPMorgan (18% Tangible ROE vs 11.8% for the Company) [D06].",
+   "what_must_be_true": [
+    "Deposit flight ceases following the $30bn infusion",
+    "Tangible common equity remains positive under stress-tested fair value asset marks",
+    "Regulatory authorities provide a clear path for balance sheet stabilization"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "Not calculable",
+    "arithmetic": [
+     "Market cap $6.38bn [D04]",
+     "P/TBV 0.462x [D04]",
+     "Target value requires estimated fair value of tangible book under stress which is missing from pack [D04, D07]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "Indeterminate",
+    "basis": "Missing fair-value stress test of tangible book [D07]"
+   },
+   "current_price": "$34.27 [D04]",
+   "skew": "Unknown : Unknown",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Current tangible common equity under fair-value stress test",
+    "Current uninsured deposit levels post-March 16",
+    "Reconciled balance sheet and liquidity position"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A [D03]",
+   "timetable_quarters": 0,
+   "escalation_path": "N/A - Pass position [GATE 1]",
+   "why_this_role_fits_the_era": "The situation is a liquidity-driven structural crisis where we lack the balance-sheet transparency and governance leverage to intervene; we elect to pass rather than attempt a constructivist role [GATE 1]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory intervention leads to receivership",
+    "Further material deposit outflows despite industry support",
+    "Tangible common equity eroded to zero under fair-value stress marks",
+    "Inability to refinance the 120-day $30bn deposit facility"
+   ],
+   "portfolio_risk": "High overlap with financial sector volatility and broader market systemic risk concerns [D05, D07].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The absence of balance-sheet transparency regarding tangible common equity under stress makes it impossible to define a floor, rendering the investment a binary gamble on regulatory and funding stability."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "The Company",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "Not calculable",
+   "floor": "Indeterminate",
+   "skew": "Unknown : Unknown",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company faces an acute liquidity crisis and funding instability, necessitating a $30bn deposit infusion and dividend suspension [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "We lack the necessary balance-sheet transparency, specifically reconciled tangible common equity under fair-value stress, to define an investment floor [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The governance path is currently dictated by regulatory intervention and liquidity stabilization, offering no actionable role for an activist [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company's tangible ROE of 11.8% lags its peer benchmark at JPMorgan's 18%, and its CET1 ratio of 9.17% is significantly below the peer level of 13.2% [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory intervention leads to receivership",
+   "Further material deposit outflows despite industry support",
+   "Tangible common equity eroded to zero under fair-value stress marks",
+   "Inability to refinance the 120-day $30bn deposit facility"
+  ],
+  "what_would_change_our_mind": "Clear evidence of stabilized deposit flows, a reconciled fair-value balance sheet proving the integrity of tangible common equity, and a defined path to institutional viability independent of emergency liquidity support.",
+  "memo": "The Company operates a relationship banking and wealth management franchise that has recently faced a severe liquidity event, triggering a $30 billion deposit injection from a coalition of major banks [D01, D03]. While the market has sold off the equity to 0.462x price-to-tangible book value, the situation remains a binary, high-volatility structural crisis rather than an opportunistic mispricing [D03, D04].\n\nOur evaluation of the business economics confirms a clear performance gap, with a 11.8% tangible ROE compared to the 18% achieved by JPMorgan, and a capital position characterized by a 9.17% CET1 ratio versus 13.2% for the peer benchmark [D06]. Without granular data on tangible common equity under stress and the current level of uninsured deposits, the math does not support a high-conviction entry [D04, D07].\n\nThe current governance environment is defined entirely by regulatory oversight and emergency funding, which precludes the kind of constructive engagement we require to force a turnaround [D03, D07]. We see no clear path to influence the board or management in a way that would reliably unlock value or protect against further dilution [GATE 1].\n\nRisks remain extreme, including the possibility of further deposit flight, the erosion of tangible book value, and potential regulatory receivership [D03, D05]. Given the absence of a hard floor and the lack of a clear governance route, we choose to pass entirely, as the investment currently represents a speculative gamble rather than a Third Point-style event-driven opportunity [GATE 1, GATE 5].",
+  "uncited_claims": []
+ }
+}

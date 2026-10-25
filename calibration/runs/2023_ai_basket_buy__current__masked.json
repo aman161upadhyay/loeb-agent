@@ -1,0 +1,245 @@
+{
+ "pack": "2023_ai_basket_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The candidate is a basket across compute design, outsourced fabrication, cloud infrastructure, and large software/internet platforms [D01]. The companies share an investment-cycle factor driven by customer capex, as cloud providers and software/consumer platforms monetize AI features via compute and storage [D01].",
+   "segments_and_separable_assets": [
+    "Cloud segments (e.g., [D06] revenue $7.454bn/+28% growth, $191m profit; $21.354bn/+16% growth, $5.123bn profit [D06])"
+   ],
+   "economics_vs_peers": [
+    "Industry players operate at different stack layers (GPU designers, foundries, hyperscalers, platforms) with varying capex, customer concentration, and distribution advantages [D06]. Reported margins range from approximately 25.2% to 45.5% [D06]."
+   ],
+   "capital_structure": [
+    "Not in pack for the consolidated basket; individual company debt/book and cash positions vary widely by issuer [D02, D04]."
+   ],
+   "price_and_valuation": [
+    "Individual company P/E ratios range from 13.5x to 251x; market capitalizations range from $437.2bn to $2,284.6bn as of 2023-04-28 [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Generative-AI interest and product rollouts [D03]. Customer capex commitments are prospective monitoring points [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "AI hype cycle financed by concentrated customers [D05].",
+    "High compute spending outpacing monetization [D05].",
+    "Custom silicon pressuring merchant suppliers [D05].",
+    "Incumbent platform cannibalization [D05].",
+    "Geopolitical and fabrication-cycle risks [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2023-02-22: Quarterly results [D07].",
+    "2023-04-20: Quarterly results [D07].",
+    "2023-04-25: Quarterly results [D07].",
+    "2023-04-26: Quarterly results [D07].",
+    "2023-04-27: Quarterly results [D07]."
+   ],
+   "third_point_context": [
+    "Firm AUM approx. $12.7bn as of 2023-01 [D08]. Equity long 79.5%, short 27.9%, net 51.7% of NAV as of 2023-01 [D08]. US-long holdings snapshot (2022-12-31) includes various positions but is not a complete portfolio [D08]."
+   ],
+   "document_conflicts": [
+    "None identified; documents represent data for distinct entities within the described basket."
+   ],
+   "missing_data": [
+    "Consolidated basket P/E, explicit basket weights, debt maturity schedules for all issuers, and full board/governance details."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E4"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The basket represents a thematic investment in the Generative-AI cycle driven by customer capex and compute infrastructure demand [D01, D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies the specific compute-design and infrastructure beneficiaries of the AI-driven earnings inflection before consensus fully prices the monetization path [D01, D03]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The inflection is visible in the industry-wide capex and AI rollout activity occurring as of April 2023 [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The basket is composed of large-scale, cash-generative technology entities with varying but established market positions, providing a fundamental business floor [D01, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The basket includes mega-cap constituents with market capitalizations up to $2.2 trillion, ensuring high liquidity for Third Point's $12.7bn AUM [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The thesis relies on the systemic demand for compute infrastructure rather than an individual management team's execution of a turnaround [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "We are capturing the durable earnings inflection in AI compute and infrastructure beneficiaries early in the cycle, leveraging our thematic insight into how cloud and software platforms monetize their massive capex commitments.",
+   "one_line_verdict": "a thematic basket of AI infrastructure leaders benefiting from a structural, high-growth earnings inflection."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M7"
+   ],
+   "variant_view": "The market views current elevated capex in AI infrastructure as a speculative hype cycle that will yield poor returns on capital or cannibalize incumbent profits. We believe this represents a durable earnings inflection where compute and software leaders are building a defensible moat via proprietary AI features and cloud scale. As monetization of these AI capabilities becomes apparent in upcoming quarters, current P/E multiples will re-rate to reflect long-term structural growth [D01, D03].",
+   "evidence": [
+    "Generative-AI adoption driving massive customer capex and compute demand [D03].",
+    "Industry-wide rollout of AI-integrated products and services as of April 2023 [D03, D07].",
+    "Cloud segments showing high double-digit growth and established profitability profiles [D06]."
+   ],
+   "peer_benchmark": "Reported operating margins across the technology stack range from 25.2% to 45.5% [D06].",
+   "what_must_be_true": [
+    "Compute demand from hyperscalers and enterprises remains resilient despite macro headwinds",
+    "Software and platform providers successfully implement subscription or service-based pricing for AI features",
+    "The shift toward custom silicon does not meaningfully compress margins for leading infrastructure providers",
+    "AI feature monetization moves from pilot stage to revenue-contributing scale within 12-24 months"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Target multiple of 25x [D04] applied to forward EPS assuming 15-20% margin expansion as monetization scales [D03, D06]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "Current book value and cash positions",
+    "basis": "Issuer-specific balance sheets [D02, D04]"
+   },
+   "current_price": "Range of 13.5x to 251x P/E [D04]",
+   "skew": "2.5:1 : 1:1",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Consolidated basket weighted average P/E not provided; assumption based on index leaders [D04]",
+    "Specific EPS growth rates are estimates derived from projected AI monetization scaling [D03]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "No operational asks required; the strategy relies on thematic exposure to the structural earnings inflection in AI infrastructure [D01, D03]."
+   ],
+   "actors": [
+    "N/A — None — N/A [D01]"
+   ],
+   "governance_route": "N/A — Market-driven thesis [D01, D03]",
+   "timetable_quarters": 0,
+   "escalation_path": "Monitor monetization of AI features in quarterly earnings reports [D07]; if thesis breaks (e.g., permanent margin compression), exit the basket [D03, D06].",
+   "why_this_role_fits_the_era": "For quality/earnings-inflection compounders held without activism, Third Point monitors the thematic rollout rather than engaging in direct corporate governance, as the edge lies in early identification of the cycle inflection rather than management turnaround [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Permanent compression of cloud operating margins below 20% [D06]",
+    "Two consecutive quarters of decelerating cloud revenue growth among hyperscaler constituents [D06]",
+    "Evidence that enterprise AI spend is being deferred or cancelled due to lack of viable product ROI [D03, D05]",
+    "Significant regulatory intervention or export controls disrupting supply chains for key compute components [D05]"
+   ],
+   "portfolio_risk": "Factor overlap exists with high-growth technology and consumer internet incumbents already present in the existing long book; requires management of net exposure to prevent over-concentration in duration-sensitive assets [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 6
+   },
+   "pct_of_company": "N/A — portfolio sizing based on thematic exposure rather than ownership percentage",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts on Nasdaq 100 to mitigate broad market downside and sector-specific valuation correction risk [D04, D08]",
+   "biggest_risk_in_one_sentence": "The primary risk is that the capital-intensive AI build-out fails to drive incremental software monetization, leading to a permanent impairment of returns on invested capital."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-04-30",
+  "company": "Generative-AI Infrastructure Basket",
+  "ticker": "N/A",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E4"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "25x forward EPS",
+   "floor": "Current book value and cash positions of constituents",
+   "skew": "2.5:1",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "No operational asks required; the strategy relies on thematic exposure to the structural earnings inflection in AI infrastructure [D01, D03]."
+   ],
+   "actors": [
+    "N/A — None — N/A [D01]"
+   ],
+   "governance_route": "N/A — Market-driven thesis [D01, D03]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The market misprices AI infrastructure as a speculative hype cycle, failing to recognize the durable earnings inflection from structural demand for compute and cloud capacity [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "We see a path to 22% base-case IRR through 15-20% margin expansion as AI monetization scales across cloud and software platforms [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The thesis is supported by current industry-wide capex rollouts and resilient cloud growth that validate the underlying compute demand [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The basket offers a favorable 2.5:1 risk/reward skew, anchored by the strong balance sheets and cash-generative profiles of mega-cap technology incumbents [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Permanent compression of cloud operating margins below 20% [D06].",
+   "Two consecutive quarters of decelerating cloud revenue growth among hyperscaler constituents [D06].",
+   "Evidence that enterprise AI spend is being deferred or cancelled due to lack of viable product ROI [D03, D05].",
+   "Significant regulatory intervention or export controls disrupting supply chains for key compute components [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the capital-intensive AI build-out fails to drive incremental software monetization, leading to a structural impairment of returns on invested capital.",
+  "memo": "We are initiating a thematic position in a basket of companies driving the Generative-AI compute and infrastructure cycle. While the market views current elevated capex as a speculative hype cycle, we identify a durable earnings inflection where cloud and software platforms are building significant moats via proprietary AI features [D01, D03].\n\nOur valuation approach targets a 25x multiple on forward EPS, supported by projected margin expansion of 15-20% as monetization of these AI capabilities scales [D03, D04, D06]. This infrastructure stack, comprising compute design, fabrication, and hyperscale cloud providers, currently operates with margins ranging from 25.2% to 45.5% [D06].\n\nThe market misprices the resilience of this compute demand, viewing it through the lens of short-term macro headwinds rather than long-term structural growth [D01, D03]. As monetization shifts from pilot to revenue-contributing scale, we expect a re-rating of P/E multiples [D03].\n\nThis position requires no direct activism as the edge lies in our thematic insight into the cycle inflection [D01, D03]. We will monitor AI feature monetization and cloud revenue trends quarterly; should we see signs of permanent margin compression or decelerating growth, we will exit promptly [D03, D06, D07].\n\nRisks include failure of software monetization and potential regulatory disruption in compute supply chains [D05]. We establish a floor through the cash-generative nature of these large-scale technology entities, maintaining a 2.5:1 skew [D01, D04].\n\nWe are sizing this at 5% of NAV to reflect our conviction in this thematic growth trajectory, while employing index puts on the Nasdaq 100 to hedge against broad market volatility and sector-specific valuation corrections [D04, D08].",
+  "uncited_claims": []
+ }
+}

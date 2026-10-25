@@ -1,0 +1,25 @@
+{
+  "id": "2013_hlf_sell",
+  "company": "Herbalife Ltd.",
+  "ticker": "HLF",
+  "aliases": [
+    "Herbalife Ltd.",
+    "HLF",
+    "Herbalife",
+    "Herbalife Ltd",
+    "Formula 1",
+    "Michael Johnson",
+    "Michael O. Johnson",
+    "Pershing Square",
+    "Bill Ackman",
+    "Carl Icahn",
+    "nutrition clubs"
+  ],
+  "as_of_date": "2013-03-01",
+  "mode": "existing",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2013-03-01; actual first action not recovered to a unique day; see answer-key dating notes. March 1 is a replay checkpoint, not a verified sale day. Original complete Q1 letter exit passage was not recovered; key drivers are cautious reconstruction from secondary letter coverage, not verbatim investor claims. Do not score this as a proven L2 admission the business thesis broke.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. March 1 is a replay checkpoint, not a verified sale day. Original complete Q1 letter exit passage was not recovered; key drivers are cautious reconstruction from secondary letter coverage, not verbatim investor claims. Do not score this as a proven L2 admission the business thesis broke."
+}

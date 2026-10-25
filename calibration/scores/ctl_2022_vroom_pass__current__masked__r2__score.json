@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2022_vroom_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Vroom/VRM/UACC absent from complete 54-quarter 13F index; no attributable manager public comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company is engaged in a speculative operational turnaround without a separable asset or identifiable catalyst to drive equity value.",
+   "Operating margins of -21.1% significantly trail profitable peers like CarMax (3.6%) and AutoNation (7.4%), indicating deep structural challenges.",
+   "The business faces a binary race between cash depletion and reaching self-financing status, leaving no margin of safety for equity holders.",
+   "There is no actionable governance route or board-level leverage to force the changes required to address the company's liquidity crisis."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Operating margins of -21.1%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total consolidated debt of $1.21 billion",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market capitalization of $121.5 million",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on the opportunity.",
+ "grader_notes": "The agent arrived at the correct 'PASS' decision for a control ticker but failed to ground its reasoning in the specific evidence provided in the answer key, which centers on the absence of the ticker from historical 13F filings. Instead, the agent fabricated a fundamental research memo. Consequently, there is zero overlap in the reasoning drivers.",
+ "run": "ctl_2022_vroom_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

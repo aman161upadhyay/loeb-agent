@@ -1,0 +1,255 @@
+{
+ "pack": "2022_bbwi_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-09-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a standalone personal care and home fragrance retailer operating through stores and direct channels, having recently undergone a separation from a former retail group [D01]. It utilizes a predominantly North American vertically integrated supply chain to facilitate rapid assortment responses [D01].",
+   "segments_and_separable_assets": [
+    "Not in pack"
+   ],
+   "economics_vs_peers": [
+    "Operating margin for Q2 FY2022 was 15.0%, trailing peers such as Church & Dwight (19.7%), Estée Lauder (17.9%), and Ulta Beauty (17.0%) [D06].",
+    "Revenue growth for Q2 FY2022 was -5.0% compared to peer growth rates of 16.8% (Ulta), 9.4% (Estée Lauder), and 4.2% (Church & Dwight) [D06]."
+   ],
+   "capital_structure": [
+    "Net debt is $4.406 billion, calculated from July 30 debt of $4.858 billion less cash of $0.452 billion [D04].",
+    "Debt figures exclude operating leases [D02].",
+    "Specific maturities, credit ratings, and covenants are not in pack."
+   ],
+   "price_and_valuation": [
+    "Share price: $32.60 (2022-09-30) [D04].",
+    "Market cap: $7.445 billion (based on 228.374m shares) [D04].",
+    "EV: $11.851 billion [D04].",
+    "Trailing P/E: ~7.8x [D04].",
+    "EV/EBITDA proxy: 5.5x [D04].",
+    "FCF yield: 10.0% [D04].",
+    "Dividend yield: 2.45% [D04]."
+   ],
+   "management_board_governance": [
+    "Sarah Nash is the executive chair and interim CEO [D01].",
+    "Leadership succession is an active focus; no future appointment or settlement is assumed [D01]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Ongoing turnaround following separation, including organizational simplification, cost controls, merchandise-margin initiatives, and the launch of a nationwide loyalty program [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Discretionary retail exposure with pandemic pull-forward and promotion risk [D05].",
+    "Inflation-squeezed consumer spending [D05].",
+    "Operating leverage working in the wrong direction (sales decline of 5% with significant income decline) [D05].",
+    "Leadership uncertainty [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "2022-08-17: Q2 FY2022 earnings release showing revenue of $1.618 billion and operating income of $242 million [D03].",
+    "2022-08-15: Third Point accumulates a position in the Company and files for Hart-Scott-Rodino to engage directly [D01]."
+   ],
+   "third_point_context": [
+    "Third Point firm AUM approximately $14 billion as of 2022-08 [D08].",
+    "Third Point reported holding a position in the Company as of August 2022 [D01]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Unit economics, customer retention, segment capital employed, detailed debt maturity schedule, and verified forward analyst consensus."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company suffers from a notable margin gap versus peers (15.0% vs. 17.0-19.7%) and negative revenue growth, presenting an opportunity for operational simplification and margin improvement [D06]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on an ongoing multi-year operational turnaround led by an interim CEO, which falls under the '2022 Intel rule' where relying on unproven management execution is not a sufficient edge [D01], [D05]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a large-cap company, the register is likely index-heavy and receptive to engagement regarding the management transition and margin optimization [D01]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The company faces a -5.0% revenue decline and operating leverage working in the wrong direction; without a separable asset or defined liquidation value, a low multiple on falling earnings does not constitute a floor [D05], [D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $7.445 billion, the company offers sufficient liquidity for a position within Third Point's $300M-$3.5B range [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The company is led by an interim CEO with no settled path for succession, failing the requirement for a proven or replaceable leadership roadmap [D01], [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 3,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The event is an operational turnaround to close a persistent margin gap, but the absence of a hard asset floor or clear management execution path makes this a pass under the 2022 Intel rule.",
+   "one_line_verdict": "a retail turnaround with a margin gap but no floor, failing the 2022 Intel rule for large-cap operational turnarounds"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2"
+   ],
+   "variant_view": "The market fears discretionary retail exposure and leadership uncertainty, causing a depressed valuation that ignores the potential for operational normalization. We believe that closing the persistent margin gap through organizational simplification and merchandise initiatives will drive significant earnings recovery. The transition to a permanent CEO and execution of the loyalty program will catalyze a re-rating toward peer valuation multiples.",
+   "evidence": [
+    "Operating margin of 15.0% trails peers at 17.0-19.7% [D06].",
+    "Revenue growth of -5.0% vs peer average [D06].",
+    "Active turnaround initiatives including cost controls and loyalty program launch [D03]."
+   ],
+   "peer_benchmark": "Ulta Beauty (17.0%), Estée Lauder (17.9%), Church & Dwight (19.7%) [D06].",
+   "what_must_be_true": [
+    "Appointment of a permanent CEO with a clear operational track record",
+    "Successful stabilization of revenue growth trends",
+    "Achievement of at least 200-400bps in operating margin expansion",
+    "Consumer spending remains resilient despite inflationary pressures"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$52.80",
+    "arithmetic": [
+     "FY2022 Revenue: $6.472B (annualized Q2) [D03]",
+     "Target Operating Margin: 17.5% (midpoint of peers 17.0%-19.7%) [D06]",
+     "Target Operating Income: $1.133B",
+     "Estimated Interest/Tax/Shares: Assumption $0.25B interest/tax, 228.37M shares [D04]",
+     "Implied EPS: $3.87",
+     "Target Multiple: 13.6x (peer average) [D06]",
+     "Implied Price: $52.80"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$27.50",
+    "basis": "Current FCF yield 10% on Enterprise Value base [D04]"
+   },
+   "current_price": "$32.60 [D04]",
+   "skew": "62% : 16%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Interest and tax expenses estimated at $0.25B for normalized earnings power calculation",
+    "Peer average multiple used as proxy for target exit valuation"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Not applicable [L1]"
+   ],
+   "actors": [
+    "Sarah Nash — Executive Chair and Interim CEO — Incumbent [D01]"
+   ],
+   "governance_route": "N/A [L1]",
+   "timetable_quarters": 0,
+   "escalation_path": "Given the 'NO_EDGE' verdict in Gate 2 and the failure of multiple criteria in Gate 1, we should pass on this investment and exit the position immediately, as the thesis relies on unproven management and lacks a hard asset floor [D01], [D05].",
+   "why_this_role_fits_the_era": "The 2022 Intel rule dictates that we do not engage in turnarounds relying on unproven leadership or absent floor valuations; since this situation fails our edge and floor requirements, we do not initiate a formal plan and instead exit [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Appointment of a permanent CEO fails to improve operating margins by at least 200bps within two quarters [D01], [D06]",
+    "Revenue growth trends fail to stabilize compared to peer benchmarks [D06]",
+    "Consumer spending deterioration leads to further compression of operating margins below 15% [D05], [D06]"
+   ],
+   "portfolio_risk": "High overlap with discretionary retail and consumer-facing segments already sensitive to inflation and potential recessionary pressure in the current portfolio [D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "not in pack",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The thesis relies on a turnaround execution by interim management during a period of macroeconomic pressure without a proven floor or clear catalyst."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-09-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$52.80",
+   "floor": "$27.50",
+   "skew": "62% : 16%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Not applicable [L1]"
+   ],
+   "actors": [
+    "Sarah Nash — Executive Chair and Interim CEO — Incumbent [D01]"
+   ],
+   "governance_route": "N/A [L1]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The Company is a retail turnaround with a significant 15.0% operating margin gap relative to peer benchmarks of 17.0%-19.7% [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The thesis relies on unproven management execution during an interim leadership period, failing our edge requirement [D01], [D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The absence of a defined hard asset floor or separable business unit creates excessive downside risk in a negative growth environment [D05], [D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Revenue growth is declining at 5.0% while operating leverage is moving in the wrong direction, complicating the path to re-rating [D05], [D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Appointment of a permanent CEO fails to improve operating margins by at least 200bps within two quarters [D01], [D06]",
+   "Revenue growth trends fail to stabilize compared to peer benchmarks [D06]",
+   "Consumer spending deterioration leads to further compression of operating margins below 15% [D05], [D06]"
+  ],
+  "what_would_change_our_mind": "The appointment of a proven permanent CEO with a clear, credible roadmap for operational margin expansion and stabilization of revenue growth.",
+  "memo": "The Company is a leading personal care and home fragrance retailer currently struggling with an operating margin of 15.0%, which lags behind peers such as Ulta Beauty at 17.0% and Church & Dwight at 19.7% [D06]. While the business benefits from a vertically integrated supply chain, the current 5.0% decline in revenue growth reflects operational headwinds that the market has penalized [D01], [D06].\n\nOur analysis of post-event earnings power suggests an implied value of $52.80, assuming a target operating margin of 17.5% and a peer-aligned multiple of 13.6x [D06]. However, this valuation is highly sensitive to macro-driven consumer spending and lacks a structural floor, as we do not see a separable asset to anchor the downside [D05], [D06].\n\nWhile the company has initiated cost controls and a loyalty program, the thesis remains contingent on the execution of interim leadership [D03]. Consistent with our 2022 Intel rule, we avoid turnarounds that rely on unproven management and lack a hard asset floor [D01]. Consequently, we find no actionable edge and elect to pass on the opportunity [D01].",
+  "uncited_claims": []
+ }
+}

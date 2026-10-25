@@ -1,0 +1,30 @@
+{
+  "id": "2015_seven_i_buy",
+  "company": "Seven & i Holdings Co., Ltd.",
+  "ticker": "3382",
+  "aliases": [
+    "Seven & i Holdings Co., Ltd.",
+    "3382",
+    "Seven & i",
+    "Seven and i",
+    "Seven & i Holdings",
+    "Seven Eleven",
+    "Seven-Eleven",
+    "7-Eleven",
+    "7 Eleven",
+    "Ito Yokado",
+    "Ito-Yokado",
+    "Sogo",
+    "Seibu",
+    "Denny's Japan",
+    "Toshifumi Suzuki",
+    "Ryuichi Isaka"
+  ],
+  "as_of_date": "2015-10-26",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2015-10-26; actual first action not recovered to a unique day; see answer-key dating notes. Requested October 27 letter date not authenticated in retrieved source: preserved full excerpt is published November 2. Drivers use that later Q3 text, marked retrospective. Actual Q3 additions predate this new-mode cutoff; fresh-capital counterfactual. Numeric peer and current net cash missing.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Requested October 27 letter date not authenticated in retrieved source: preserved full excerpt is published November 2. Drivers use that later Q3 text, marked retrospective. Actual Q3 additions predate this new-mode cutoff; fresh-capital counterfactual. Numeric peer and current net cash missing."
+}

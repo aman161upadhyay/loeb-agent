@@ -1,0 +1,239 @@
+{
+ "pack": "2021_shel_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2021-10-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company integrates upstream oil/gas, LNG, refining, chemicals, and marketing alongside low-carbon investments [D01]. It operates with a complex listed share-class and domicile structure, making capital-allocation priorities difficult to observe [D01].",
+   "segments_and_separable_assets": [
+    "Upstream oil/gas, LNG, refining, chemicals, and low-carbon investments; no specific revenue or EBITDA segment breakdowns provided in pack [D01, D03]"
+   ],
+   "economics_vs_peers": [
+    "No direct margin gap analysis vs peers provided in pack; peer comparisons are complicated by differences in capital returns, emissions targets, commodity exposure, and reinvestment needs [D06]"
+   ],
+   "capital_structure": [
+    "Net debt $65.735 billion as of 2021-06-30 [D02]; gearing 27.7% as of Q2 2021 [D02]. Debt includes leases after IFRS 16 [D02]. No credit ratings or specific covenant details in pack [D01, D02]"
+   ],
+   "price_and_valuation": [
+    "ADR close (2021-09-30): $44.27 [D04]; Market cap proxy: $172.82bn [D04]; TTM P/E: ~31.2x [D04]; Annualized dividend yield: 4.34% [D04]; EV: $238.56bn [D04]"
+   ],
+   "management_board_governance": [
+    "CEO: Ben van Beurden [D01]; Listed share-class and domicile structure adds a governance layer [D01]; no details on board composition, pills, or nomination windows in pack [D01]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential paths include portfolio sales, structural separation, or sharper capital allocation [D07]. $2 billion repurchase program and dividend increase announced 2021-07-29 [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Integration/breakup conflict: integration provides trading/supply/balance-sheet advantages vs potential for stranded liabilities, climate litigation, emissions obligations, and inconsistent investor objectives for cash vs decarbonization [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "Q2 2021 results released 2021-07-29 [D03]; Repurchase program of $2bn and dividend hike announced 2021-07-29 [D03]"
+   ],
+   "third_point_context": [
+    "Firm AUM approx $19.3bn as of 2021-09 [D08]; Offshore Fund equity long 113.6%, short 36.1% as of 2021-09 [D08]. No mention of position in 'the Company' in pack [D08]"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Segment-level EBITDA, capital employed, unit economics, specific board composition/governance details, and confirmation of Third Point position in 'the Company'"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company suffers from a conglomerate discount and complex structure that obscures value, with identified paths for portfolio simplification or structural separation [D01, D07]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The pack lacks segment-level EBITDA, peer margin gap analysis, or specific governance data necessary to construct a differentiated, actionable thesis [D01, D03, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "There is no information on board composition, nomination windows, or settlement precedents to provide a path to force change [D01]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company generates significant FCF, provides a 4.34% dividend yield, and has initiated a $2bn share repurchase program [D03, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $172.82bn, the company offers sufficient liquidity for a position within Third Point's $300M-$3.5B mandate [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "The lack of detail regarding the board and specific governance structures makes assessing the feasibility of leadership pressure impossible [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The event is a potential structural simplification of an integrated energy conglomerate, but we lack the granular segment data to prove the hidden value or the governance details to execute on it.",
+   "one_line_verdict": "a complex, integrated energy conglomerate where the lack of segment disclosure and governance transparency prevents a high-conviction activist entry."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market views the company as an integrated energy giant where the benefits of vertical integration, such as trading and supply advantages, outweigh the conglomerate discount. We disagree, believing the complex structure and disparate investor objectives regarding cash returns versus decarbonization necessitate a structural separation to unlock value [D01, D05]. A transition toward portfolio simplification or the separation of low-carbon assets would clarify the equity story and re-rate the stock [D07].",
+   "evidence": [
+    "Conglomerate structure and complex domicile obscure underlying asset value [D01].",
+    "Market concerns over stranded liabilities and climate litigation conflict with the value of operational integration [D05].",
+    "Management has begun initial capital allocation shifts, including a $2bn repurchase program and dividend increase [D03]."
+   ],
+   "peer_benchmark": "Peer valuation gap is not explicitly quantified in the pack due to varied emissions targets and reinvestment profiles [D06].",
+   "what_must_be_true": [
+    "Management proves willing to pivot from an integrated model toward portfolio simplification.",
+    "The sum-of-the-parts valuation for individual segments significantly exceeds the current trading multiple.",
+    "The company can sustain high FCF yields while funding energy transition capital requirements."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "Not calculable",
+    "arithmetic": [
+     "Market cap $172.82bn [D04] - Net debt $65.735bn [D02] = Equity value",
+     "Missing segment-level EBITDA [D01] to apply peer multiples [D06]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$65.735bn",
+    "basis": "Net debt [D02]"
+   },
+   "current_price": "$44.27 [D04]",
+   "skew": "Not calculable : Not calculable",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Missing segment-level EBITDA to perform SOTP valuation",
+    "Missing peer margin gap analysis",
+    "Missing specific board governance details to evaluate activism path"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Increase capital returns to shareholders to narrow the valuation gap [D03]",
+    "Initiate formal portfolio simplification or structural separation of low-carbon assets to re-rate the equity [D07]"
+   ],
+   "actors": [
+    "Ben van Beurden — CEO — stance unknown [D01]"
+   ],
+   "governance_route": "Engagement on capital allocation and portfolio structure due to missing data on board/nomination windows [D01]",
+   "timetable_quarters": 4,
+   "escalation_path": "If private engagement regarding structural separation is ignored, evaluate public disclosure or potential shareholder letter once governance data is secured",
+   "why_this_role_fits_the_era": "Fits the post-2016 model of private engagement first for mega-cap situations before considering public pressure, especially given the lack of specific governance data to support an immediate hostile move."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management maintains total rejection of structural separation or portfolio simplification",
+    "Company fails to meet announced capital return targets (repurchase/dividend) over two consecutive quarters",
+    "Significant deterioration in FCF generation compromising the energy transition funding",
+    "Evidence of management entrenchment through regulatory or governance-linked protective measures"
+   ],
+   "portfolio_risk": "High factor overlap with existing energy and large-cap holdings in the portfolio, necessitating careful sizing to maintain overall net exposure limits [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 2,
+    "max": 3
+   },
+   "pct_of_company": "Less than 1%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts or single-name energy sector shorts to offset exposure to commodity price volatility and systemic market risk",
+   "biggest_risk_in_one_sentence": "The lack of granular segment-level data and governance transparency prevents a high-conviction activist entry and leaves the thesis reliant on management's voluntary cooperation."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-10-27",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "Not calculable",
+   "floor": "$65.735bn",
+   "skew": "Not calculable : Not calculable",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "Increase capital returns to shareholders to narrow the valuation gap",
+    "Initiate formal portfolio simplification or structural separation of low-carbon assets to re-rate the equity"
+   ],
+   "actors": [
+    "Ben van Beurden — CEO"
+   ],
+   "governance_route": "Engagement on capital allocation and portfolio structure due to missing data on board/nomination windows",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The company suffers from a conglomerate discount and complex structure that obscures underlying asset value [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The lack of granular segment-level EBITDA prevents a verifiable sum-of-the-parts analysis [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Governance transparency is insufficient to evaluate a credible path to forcing structural change [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business benefits from significant FCF generation and a 4.34% dividend yield, providing a fundamental floor [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management maintains total rejection of structural separation or portfolio simplification",
+   "Company fails to meet announced capital return targets (repurchase/dividend) over two consecutive quarters",
+   "Significant deterioration in FCF generation compromising the energy transition funding",
+   "Evidence of management entrenchment through regulatory or governance-linked protective measures"
+  ],
+  "what_would_change_our_mind": "Access to granular segment-level financial data and board composition/governance details allowing for the construction of a high-conviction, actionable activist thesis.",
+  "memo": "The Company represents a classic, yet opaque, integrated energy conglomerate where a complex domicile and share structure obscure the underlying value of its disparate assets [D01]. While the market is currently divided on whether the benefits of vertical integration outweigh the conglomerate discount, we believe structural simplification is the most logical path to re-rate the stock [D01, D05].\n\nOur valuation efforts are currently hindered by a lack of segment-level EBITDA disclosure and peer margin gap analysis, making it impossible to confidently calculate a sum-of-the-parts valuation or target price [D01, D06]. Without this granular data, the potential for a 3:1 skew remains purely speculative [D03, D06].\n\nManagement has taken initial steps to improve shareholder returns, including a $2 billion share repurchase program and a dividend increase [D03]. However, without a clear governance map—such as board composition, nomination windows, or settlement precedents—we have no tangible route to influence leadership or force an acceleration of the portfolio separation strategy [D01, D07].\n\nConsequently, we are passing on this opportunity. While the business generates significant FCF and provides a solid 4.34% dividend yield, the lack of an identifiable edge and the absence of a defined activist governance process leave us without the conviction required to initiate a position [D01, D03, D04].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,53 @@
+{
+ "pack": "ho_2025_soho_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-08-15",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-08-15",
+  "company": "Soho House & Co",
+  "ticker": "SHCO",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Original Thesis: Membership scarcity and brand value warrant a higher valuation than the listed equity reflects [D01].",
+   "Current Status: Intact; our January 29 public letter continues to press for an independent and fair sale process to address the governance discount [D01], [D07].",
+   "Operating Progress: Q2 2025 results showed revenue growth of 8.9% YoY and positive operating income [D03], though recurring economics must be separated from one-time FX gains [D03]."
+  ],
+  "remaining_skew": "Unquantified; value depends on the mechanics of a potential sale process and the resolution of the governance discount vs. controller constraints [D04], [D05].",
+  "next_catalyst_and_timing": "Process milestones: formation and actions of a special committee, genuine bidder access, and independent advice [D07]. Timing is uncertain [D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The core investment thesis remains an event-driven trade centered on achieving an independent and fair sale process for minority shareholders [D01], [D07].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Governance remains the primary risk; we require evidence of process independence and competing offers to ensure minority holders receive adequate consideration [D05], [D07].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Recent financial results show top-line growth, but we remain focused on actual cash flow generation after accounting for leases, debt, and funding needs [D02], [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "As an existing activist situation, we maintain our position to ensure our public demands for minority protections are effectively prosecuted [D01], [D07].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "Our position in Soho House & Co is a clear-cut case of governance-driven mispricing. The asset—a membership-based platform with genuine brand scarcity—continues to be obscured by a capital structure and ownership arrangement that threatens to disenfranchise minority holders [D01], [D05]. As we argued in our January 29 letter, the primary investable event here is not merely operating improvement, but the execution of an independent, fair sale process that maximizes proceeds for all shareholders [D01], [D07].\n\nOperating performance for the second quarter of 2025 shows revenue growth of 8.9% and a shift to positive operating income [D03]. However, we are wary of extrapolating these figures, as the reported results include a $47.4 million foreign-exchange gain that must be stripped out to understand the underlying recurring economics of the clubs [D03]. We continue to evaluate the business through the lens of cash flow after club leases, debt, and necessary capital commitments rather than headline-grabbing adjusted metrics [D02], [D04].\n\nOur current stance is to hold while we monitor the board and special committee for signs of a genuine, competitive bidding environment [D07]. The bear case remains that a controlling shareholder may limit competition; therefore, we are closely watching for concrete milestones: independent advice, legitimate bidder access, and terms that treat minority interests fairly [D05], [D07]. We are not in the business of waiting indefinitely for long-term growth if the governance mechanism is broken, but the event remains active and the case for a sale is compelling [D01], [D05].",
+  "uncited_claims": []
+ }
+}

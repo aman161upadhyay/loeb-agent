@@ -1,0 +1,48 @@
+{
+ "trade_id": "2011_yahoo_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Changing only the CEO does not cure the board's record → Our goal is to ensure the board prioritizes a structural separation of these assets over the pursuit of value-destructive acquisitions or a mere replacement of the CEO",
+   "Repair partner relationships and optimize Asian monetization, buybacks and the capital structure → By decoupling the Asian assets from the underperforming core platform, we can unlock intrinsic value and hold management accountable to a rational capital allocation strategy"
+  ],
+  "missed": [
+   "Asian assets and net cash leave the core at only $2.78/share, or 2.2x estimated EBITDA.",
+   "The core franchise is damaged by governance but not irreparably damaged."
+  ],
+  "extra_agent_drivers": [
+   "The recent removal of CEO Carol Bartz and the commencement of a formal strategic review provide the necessary catalyst to force the separation of these hidden assets.",
+   "The current management vacuum and board-level recognition that the status quo is unacceptable offer a clear path to influence governance and drive a sum-of-the-parts realization."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The removal of Carol Bartz on September 6, 2011, is the vital catalyst",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are initiating a 5% position in the common stock",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 13,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our goal is to ensure the board prioritizes a structural separation of these assets over the pursuit of value-destructive acquisitions or a mere replacement of the CEO [D02], [D04].",
+ "grader_notes": "The agent correctly identifies the investment thesis as a conglomerate discount play and recognizes the governance vacuum post-CEO removal as a catalyst. The reasoning is closest to Loeb's regarding the insufficiency of merely replacing the CEO and the need to focus on Asian asset monetization. It is farthest from Loeb's in failing to articulate the specific core EBITDA valuation methodology as the primary margin of safety driver.",
+ "run": "2011_yahoo_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

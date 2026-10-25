@@ -1,0 +1,51 @@
+{
+ "pack": "2003_potlatch_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2003-05-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2003-05-01",
+  "company": "Potlatch Corporation",
+  "ticker": "PCH",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Asset stewardship: broken; persistent underperformance and capital allocation to new capacity during a downturn [D01, D06]",
+   "Operating recovery: intact; labor cost savings initiated, but insufficient to offset long-term value destruction [D02, D03]",
+   "Equal voting rights: broken; entrenched governance with 80% hurdle for change continues to insulate management [D03, D07]"
+  ],
+  "remaining_skew": "Significant upside through potential sum-of-the-parts realization vs floor of tangible assets [D01, D04]",
+  "next_catalyst_and_timing": "Annual meeting on May 12, 2003; ongoing agitation for voting rights and asset separation [D03, D07]",
+  "asks_if_escalating": [
+   "Immediate termination of non-core capital expenditure projects like the Las Vegas towel plant [D01]",
+   "Strategic review to separate high-value timber assets from loss-making consumer manufacturing [D01]",
+   "Elimination of the dual-class voting structure and staggered board to align governance with shareholder interests [D07]"
+  ],
+  "drivers": [
+   {
+    "driver": "Persistent ROE underperformance versus peers highlights poor capital stewardship [D01, D06].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Misguided capital allocation into new capacity during a market downturn demonstrates lack of accountability [D01, D05].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Entrenched governance mechanisms protect management from necessary change despite clear failure [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "memo": "Potlatch represents a classic case of a company squandering valuable timber assets to fund a struggling, capital-intensive manufacturing operation that destroys shareholder wealth. While the company faces a cyclical downturn, management's decision to press forward with a $66 million investment in a Las Vegas towel plant during a supply glut is an unacceptable misuse of capital that underscores a fundamental lack of discipline [D01]. The company's own data confirms the severity of this mismanagement, with a 2002 return on equity of negative 33.1% compared to negative 4.1% for the peer group [D02].\n\nManagement attempts to justify this 'empire building' by pointing to future industry cycles, but shareholders cannot afford to subsidize this optimism indefinitely [D01, D06]. The existing governance structure, which utilizes a staggered board and high voting hurdles to shield directors, acts as a barrier to the necessary strategic shift [D03, D07]. We must move beyond private engagement and escalate our opposition publicly. The goal is to force a separation of the timber assets from the manufacturing business and demand a cessation of all non-essential capital projects.\n\nThird Point is already the seventh-largest shareholder, and our position as an active participant in this annual cycle gives us the platform to challenge the current board's inertia [D07]. We will not wait for the long-term industry recovery while management continues to erode the value of the underlying assets. We require an immediate commitment to portfolio simplification and a governance refresh to restore the value that our 3% stake is entitled to [D07, D08].",
+  "uncited_claims": []
+ }
+}

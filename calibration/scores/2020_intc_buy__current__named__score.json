@@ -1,0 +1,55 @@
+{
+ "trade_id": "2020_intc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Restore advanced manufacturing competitiveness after losing leadership to Asian foundries. → Despite its historical dominance, the company has suffered from a series of self-inflicted manufacturing delays that have resulted in a significant loss of technological leadership and a widening margin gap versus peers"
+  ],
+  "missed": [
+   "Address engineering talent flight and human-capital management immediately.",
+   "Retain an adviser to examine strategic alternatives and failed acquisitions.",
+   "Develop a manufacturing/customer strategy able to serve competitors as customers."
+  ],
+  "extra_agent_drivers": [
+   "Conglomerate discount argument.",
+   "FCF yield valuation.",
+   "Margin contraction vs peers.",
+   "Strategic review for separation of design/foundry."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Intel Corporation represents one of the most compelling opportunities in the semiconductor sector, currently trading at a 10.04% FCF yield.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins have contracted to 27.6%, leaving substantial room for improvement toward peer benchmarks like Texas Instruments at 39.8%.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are calling for an immediate strategic review led by Chair Omar Ishrak and CEO Bob Swan.",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 7,
+  "share": 0.58
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our thesis hinges on the board acknowledging that the status quo is untenable; a formal strategic review of the manufacturing-versus-design structure is the necessary catalyst to narrow the discount.",
+ "grader_notes": "The agent correctly identified the BUY direction and engaged the same key actors (Ishrak and Swan). However, the reasoning overlap is poor; the agent focused on financial engineering (conglomerate discount, FCF yield, margin expansion) whereas Loeb's letter was focused on operational governance, human capital management, and a specific customer-manufacturing strategy.",
+ "run": "2020_intc_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

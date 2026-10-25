@@ -1,0 +1,58 @@
+{
+ "trade_id": "2020_pru_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Asia and Jackson shared no discernible benefit from the same corporate umbrella. → The market currently penalizes the Company for complexity and perceived diversification benefits that simply do not exist in a modern, streamlined capital environment.",
+   "Independent Asian capital allocation could fund a high-ROE franchise with structural growth. → By separating these segments, the Company can unlock substantial value, as the market will finally be able to assign appropriate, market-leading multiples to the Asian growth engine independent of US capital constraints.",
+   "Jackson could invest and manage its own capital needs without obscuring Asian value. → By separating these segments, the Company can unlock substantial value, as the market will finally be able to assign appropriate, market-leading multiples to the Asian growth engine independent of US capital constraints.",
+   "Removing unnecessary group costs and complexity could unlock higher valuation. → The market currently penalizes the Company for complexity and perceived diversification benefits that simply do not exist in a modern, streamlined capital environment."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Conglomerate discount",
+   "Sum-of-the-parts valuation analysis",
+   "Group Solvency II surplus / downside floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company suffers from a persistent conglomerate discount that masks the distinct valuation multiples of its high-growth Asian insurance business and capital-intensive US annuity segment",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A formal separation would allow the Asian business to re-rate toward AIA Group's valuation",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Company maintains a hard floor near 1250p",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "We are initiating a position in the Company because it is a classic, mispriced conglomerate.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 9,
+  "share": 0.64
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By separating these segments, the Company can unlock substantial value, as the market will finally be able to assign appropriate, market-leading multiples to the Asian growth engine independent of US capital constraints.",
+ "grader_notes": "The agent correctly matched the investment decision and all primary strategic drivers cited by Loeb in the public letter. While the agent included additional quantitative valuation drivers (SOTP, solvency floor) not explicitly detailed in the prompt's answer key for Loeb's reasoning, these do not contradict the core thesis and the alignment on the catalyst (separation) is precise.",
+ "run": "2020_pru_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,63 @@
+{
+ "trade_id": "2005_ligand_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Scientific assets and intellectual property retain value despite operating and accounting failures. → The Company is a classic example of a high-potential biotechnology firm currently incapacitated by a broken governance structure and a cloud of accounting uncertainty."
+  ],
+  "missed": [
+   "A strategic process can test substantial interest from potential product-line acquirers.",
+   "More than $600 million of NOLs and unrecognized real estate lift the asset-based downside estimate.",
+   "An independent committee, current financials and relaxation of the 10% pill can enable value realization."
+  ],
+  "extra_agent_drivers": [
+   "The company’s -22.9% EBIT margin is a failure of governance; we see a clear margin gap versus peers like Amgen, which posts 38.9% margins.",
+   "A hard floor of approximately $7.00 per share exists, supported by $73.8M in cash and the liquidation value of marketed pharmaceutical products."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company’s -22.9% EBIT margin is a failure of governance",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company is a deeply mispriced, asset-rich biotech currently trading at a sharp discount due to accounting opacity",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A sum-of-the-parts valuation yields $22.50 per share",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "A hard floor of approximately $7.00 per share exists",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We will file a 13D to demand an immediate board refresh",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 13,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a position to force the change that management has proven unable to execute [D07].",
+ "grader_notes": "The agent correctly identified the BUY direction and recognized that the investment thesis centered on unlocking value from intellectual property assets. However, the agent failed to capture Loeb's specific strategic drivers regarding NOLs and the 10% pill, instead focusing on peer-benchmarking and a bespoke liquidation-floor calculation not present in the key. The reasoning overlap is limited as the agent prioritized its own valuation model over Loeb's specific stated rationales.",
+ "run": "2005_ligand_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

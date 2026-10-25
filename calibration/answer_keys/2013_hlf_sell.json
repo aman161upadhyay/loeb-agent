@@ -1,0 +1,52 @@
+{
+  "id": "2013_hlf_sell",
+  "actual_decision": "TRIM",
+  "conviction": "medium",
+  "size_pct_nav": "Most sold during Q1; later filing coverage reports no quarter-end holding. Exact March 1 weight unknown.",
+  "first_action_date": null,
+  "disclosure_date": "2013-04-10",
+  "reason_class": "L1",
+  "opportunity_template": [
+    "E2",
+    "E5"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Herbalife",
+      "Third Point"
+    ],
+    "governance_route": "P0; monitor event or arrange liquidity; no new activist mandate",
+    "timetable_quarters": 1
+  },
+  "drivers": [
+    {
+      "driver": "The investment was successful as a short-duration repricing trade, so monetize gains rather than remain in the controversy indefinitely.",
+      "source": "https://www.streetinsider.com/13Gs/Herbalife+%28HLF%29+Bet+Was+a+Big+Winner+for+Third+Point+in+Q1/8246303.html (2013-04-10; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "The initial operating/valuation case did not require holding through every subsequent legal or investor confrontation.",
+      "source": "https://www.streetinsider.com/13Gs/Herbalife+%28HLF%29+Bet+Was+a+Big+Winner+for+Third+Point+in+Q1/8246303.html (2013-04-10; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Reduce or close the position after the immediate catalyst rather than equating a compounder assessment with permanent ownership.",
+      "source": "https://www.streetinsider.com/13Gs/Herbalife+%28HLF%29+Bet+Was+a+Big+Winner+for+Third+Point+in+Q1/8246303.html (2013-04-10; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact execution price and entry multiple not recovered.",
+  "outcome_note": "Q1 profitable disposition reported; full-quarter exit confirmed in May filing coverage. Not a bet held through all later proceedings.",
+  "sources": [
+    "https://www.streetinsider.com/13Gs/Herbalife+%28HLF%29+Bet+Was+a+Big+Winner+for+Third+Point+in+Q1/8246303.html",
+    "https://www.sec.gov/Archives/edgar/data/1180262/000115752313000873/0001157523-13-000873.txt",
+    "https://www.marketfolly.com/2013/01/dan-loeb-buys-herbalife-morgan-stanley.html"
+  ],
+  "pack_quality_notes": "Grade C. March 1 is a replay checkpoint, not a verified sale day. Original complete Q1 letter exit passage was not recovered; key drivers are cautious reconstruction from secondary letter coverage, not verbatim investor claims. Do not score this as a proven L2 admission the business thesis broke. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label.",
+  "accepted_decisions": [
+    "TRIM",
+    "SELL"
+  ]
+}

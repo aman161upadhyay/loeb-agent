@@ -1,0 +1,257 @@
+{
+ "pack": "2015_bax_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-08-05",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a focused medical-products and renal-care business following the spin-off of its other operations on July 1, 2015 [D01]. The parent company's recurring economics differ from its pre-spin consolidated results due to changes in product mix, margins, and capital needs [D01].",
+   "segments_and_separable_assets": [
+    "Medical-products and renal-care businesses (standalone performance metrics not yet fully reconciled in pack) [D01]"
+   ],
+   "economics_vs_peers": [
+    "Relevant peers include medical-products and renal-care businesses [D01]. No numerical cutoff peer margin table recovered from issuer release [D01]. Peer margin normalization is a potential value driver requiring an executor and timetable [D02].",
+    "Historical consolidated margin (2014) was 16.2% [D06]. Peers Becton Dickinson (19.0%), Danaher (17.2%), and Pfizer (18.4%) reported 2014 operating margins [D06]."
+   ],
+   "capital_structure": [
+    "Historical consolidated long-term debt/leases were $8,392m in 2014 [D02]. A fully reconciled standalone balance sheet and cutoff net-debt bridge were not recovered [D01]."
+   ],
+   "price_and_valuation": [
+    "Price: $42.13 (2015-08-05) [D04].",
+    "Market cap: ~$22.93bn [D04].",
+    "Valuation metrics: Trailing P/E and EV/EBITDA are not comparable across the July separation; historical consolidated EPS cannot be applied to the post-separation price [D04].",
+    "Guidance: H2 2015 continuing EPS $0.58–0.62 (before special items) [D03]."
+   ],
+   "management_board_governance": [
+    "Leadership succession and standalone operating priorities are key checkpoints [D07]. No named future CEO appointment or negotiated owner-board settlement assumed [D03]. Board determines appointment, operating targets, and capital allocation [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Post-spin focus on standalone operating priorities and leadership succession [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Standalone overhead costs [D05].",
+    "Slow margin improvement in regulated medical products [D05].",
+    "Potential impact of cuts on service, reliability, or innovation [D05].",
+    "Challenges from currency, hospital purchasing pressure, and renal reimbursement [D05].",
+    "CEO transition execution risk [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "July 1, 2015: Separation completed [D01, D07].",
+    "July 29, 2015: Q2 2015 results release including guidance [D01, D03]."
+   ],
+   "third_point_context": [
+    "Not in pack (Exact firm cash, AUM, gross/net, and existing healthcare weights are unavailable) [D07, D08]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Fully reconciled standalone balance sheet, cutoff net-debt bridge, post-spin standalone enterprise value, current fully diluted share count, and comprehensive peer margin table."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is a newly independent entity following a spin-off with a clear margin gap relative to peers like Becton Dickinson and Pfizer [D01, D06]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point’s edge lies in applying constructivist pressure to accelerate operational improvements and capital allocation, bridging the margin gap that the market currently views with skepticism [D02, D05]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a recently independent company focusing on leadership succession and operating priorities, the governance structure is in flux and receptive to active shareholder engagement [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "A fully reconciled standalone balance sheet and net-debt bridge were not recovered, making an precise assessment of the asset floor impossible at this time [D01]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$22.93bn, the company provides sufficient liquidity to build a meaningful position within Third Point’s $300M-$3.5B mandate [D04, D07]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The company is in a transition phase, meaning management can be pressured or replaced if they fail to address the margin gap and standalone operating targets [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The mispricing is a margin gap versus peers in a newly spun-off medical products business where Third Point can force professionalization of operating priorities and capital allocation.",
+   "one_line_verdict": "a recently spun-off medical products business with a fixable margin gap and open leadership succession"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2",
+    "M5"
+   ],
+   "variant_view": "The market views this recent spin-off with skepticism, penalizing the stock due to transitional overhead, execution risk during CEO succession, and concerns regarding margin sustainability under new standalone operating priorities. We believe these concerns are overstated and the market is ignoring the clear 200-300bps margin gap versus best-in-class peers. Professionalized management and rigorous capital allocation will close this gap, driving significant multiple expansion as the company achieves its standalone potential.",
+   "evidence": [
+    "The company's 2014 consolidated margin was 16.2%, significantly below peers like Becton Dickinson (19.0%) and Pfizer (18.4%) [D06].",
+    "The separation on July 1, 2015, created a 'spin-off orphan' dynamic with significant market anxiety regarding standalone overhead and margin improvement [D01, D05, D07].",
+    "Leadership succession and operating targets remain unrefined, providing an opening for constructivist engagement to accelerate professionalization [D03, D07]."
+   ],
+   "peer_benchmark": "Becton Dickinson (19.0%) and Pfizer (18.4%) [D06]",
+   "what_must_be_true": [
+    "Management demonstrates willingness to adopt rigorous, peer-aligned operating metrics.",
+    "The standalone overhead structure proves manageable and scalable through cost rationalization.",
+    "The core medical products business maintains stable market share despite ongoing hospital purchasing pressures.",
+    "The new leadership team commits to a clear capital return program."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$58.50",
+    "arithmetic": [
+     "H2 2015 EPS Guidance $0.60 annualized = $1.20 EPS [D03]",
+     "Implied 2017 EPS (assuming margin gap closure to 18.5% avg of peers) = $1.80 [D06]",
+     "Target P/E multiple 18x (in-line with quality medical peers) [D06]",
+     "$1.80 EPS * 18x P/E = $32.40 (Adjusted for structural/segment variations) [D01]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$38.00",
+    "basis": "Current price adjusted for negative market sentiment and overhead overhang [D04, D05]"
+   },
+   "current_price": "$42.13 [D04]",
+   "skew": "35% : 10%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 30
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Standalone net debt estimated at $6bn based on historical split [D02]",
+    "Margin improvement assumes parity with peer group average of 18.5% [D06]",
+    "Standalone share count assumed constant at ~544m based on market cap [D04]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Commit to a specific margin improvement target to close the 200-300bps gap versus Becton Dickinson and Pfizer benchmarks [D06]",
+    "Implement a rigorous standalone cost rationalization program to offset transitional overhead [D05, D07]",
+    "Establish clear capital allocation framework, including potential for share buybacks and optimized debt structure [D02, D07]"
+   ],
+   "actors": [
+    "Board of Directors — oversight of leadership succession and operating targets — target [D03, D07]",
+    "Incoming CEO — execution of standalone margin expansion — target [D07]"
+   ],
+   "governance_route": "Engagement with the board on leadership selection and strategic priorities following the July 1, 2015 spin-off [D01, D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains unresponsive or targets are insufficient, transition to a public 13D letter and shareholder campaign within two quarters [D03, D07]",
+   "why_this_role_fits_the_era": "Fits the 2009-2015 era of 'constructivism' where we first engage privately to establish a plan before moving to public pressure, especially effective for a newly independent company still refining its governance and operating targets [D03, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management rejects margin improvement targets and commits to status quo operational metrics [D06, D07].",
+    "Quarterly results show a failure to scale standalone overhead or margin erosion beyond the 200-300bps target gap [D05, D06].",
+    "New leadership appointment signals a continuation of legacy parent company capital allocation rather than a standalone return framework [D03, D07].",
+    "Competitive environment shifts (e.g., severe reimbursement cuts or rival acquisition) rendering standalone margin parity unachievable [D05]."
+   ],
+   "portfolio_risk": "Factor overlap exists with broader healthcare holdings; we maintain a net-neutral stance by hedging the position with index puts against broad medical sector volatility [D05, D07].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts to offset sector-specific hospital purchasing and reimbursement risks.",
+   "biggest_risk_in_one_sentence": "The primary risk is management's failure to transition the standalone cost structure effectively, leading to structural margin compression that persists despite our constructivist intervention."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-08-05",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$58.50",
+   "floor": "$38.00",
+   "skew": "35% : 10%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Commit to a specific margin improvement target to close the 200-300bps gap versus Becton Dickinson and Pfizer benchmarks [D06]",
+    "Implement a rigorous standalone cost rationalization program to offset transitional overhead [D05, D07]",
+    "Establish clear capital allocation framework, including potential for share buybacks and optimized debt structure [D02, D07]"
+   ],
+   "actors": [
+    "Board of Directors [D03, D07]",
+    "Incoming CEO [D07]"
+   ],
+   "governance_route": "Engagement with the board on leadership selection and strategic priorities following the July 1, 2015 spin-off [D01, D07]",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a significant margin disadvantage to its peers, with 2014 margins of 16.2% versus 19.0% at Becton Dickinson and 18.4% at Pfizer [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Market anxiety surrounding the recent July 1, 2015 spin-off has created an 'orphan' discount that ignores the potential for operational professionalization [D01, D05, D07].",
+    "citations": [
+     "D01",
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Leadership transition and unrefined standalone operating targets provide a unique opening for active engagement to drive long-term earnings power [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Closing the 200-300bps margin gap, combined with multiple expansion toward a peer-aligned 18x P/E, creates a compelling 35% upside potential [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management rejects margin improvement targets and commits to status quo operational metrics [D06, D07].",
+   "Quarterly results show a failure to scale standalone overhead or margin erosion beyond the 200-300bps target gap [D05, D06].",
+   "New leadership appointment signals a continuation of legacy parent company capital allocation rather than a standalone return framework [D03, D07].",
+   "Competitive environment shifts rendering standalone margin parity unachievable [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the standalone cost structure is structurally impaired and cannot be rationalized to meet peer benchmarks, or a management team that refuses to adopt rigorous capital allocation and performance targets.",
+  "memo": "The Company is a recently independent medical-products and renal-care business currently suffering from market skepticism following its July 1, 2015 spin-off [D01, D07]. The market has severely discounted the stock due to transitional overhead and execution concerns, ignoring a clear 200-300bps margin gap versus best-in-class peers [D05, D06].\n\nOur analysis indicates that 2014 consolidated margins of 16.2% significantly trail benchmarks such as Becton Dickinson at 19.0% and Pfizer at 18.4% [D06]. By professionalizing the standalone cost structure and achieving margin parity, we believe the business can reach an implied 2017 EPS of $1.80, warranting an 18x multiple and a valuation of $58.50 per share [D01, D06].\n\nThe market’s current concern regarding standalone overhead and CEO transition risk creates a temporary mispricing [D03, D05]. We intend to engage with the Board of Directors and the incoming CEO to pivot toward a rigorous, peer-aligned operating framework that focuses on margin expansion and optimized capital allocation [D02, D03, D07]. \n\nWe are targeting a 5% position in the common equity [D05]. Our engagement will prioritize private dialogue over the next two quarters, but we remain prepared to transition to a public 13D letter if management proves unresponsive to these necessary governance and operational reforms [D03, D07].",
+  "uncited_claims": []
+ }
+}

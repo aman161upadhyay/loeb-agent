@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2018_ge_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No General Electric/GE issuer row in complete 2013–Q2 2026 13F index; reviewed local letters/case archive yields no attributable common-stock comment. Do not confuse GE with separately held industrial issuers or with a credit exposure that 13F cannot exclude."
+  ],
+  "extra_agent_drivers": [
+   "General Electric is currently mispriced as a value trap due to accounting noise surrounding goodwill impairments and legacy insurance liabilities, masking the underlying value of its premier industrial assets.",
+   "Sum-of-the-parts analysis suggests a value of $17.50 per share, supported by the separation of the high-margin Aviation and Healthcare businesses from the challenged Power segment.",
+   "The appointment of H. Lawrence Culp Jr. as CEO provides a credible leader with a mandate for rapid divestiture and balance sheet stabilization, complementing the existing activist oversight of Trian Fund Management.",
+   "Despite structural challenges in Power, the downside is protected by a calculated liquidation floor of $10.50 per share, offering an attractive 3.5:1 risk/reward skew."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "General Electric is a sprawling industrial conglomerate whose equity has been decimated by legacy insurance liabilities and a persistent deterioration in its Power business",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The appointment of Larry Culp as CEO marks a definitive inflection point for the company",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Trian has been engaged since 2015 and already holds a board seat",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 9,
+  "share": 0.75
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a 4% position in the common stock to capitalize on this simplification story as the market pivots from its obsession with past failures to future earnings power.",
+ "grader_notes": "The agent correctly reached the PASS decision due to a hard-fail enforcement, although its underlying reasoning was entirely fabricated as an investment thesis rather than reflecting the fact that Third Point never held a position. The agent's reasoning was farthest from Loeb's, as it constructed a detailed activist plan where none existed for the firm.",
+ "run": "ctl_2018_ge_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false,
+ "enforced_hard_fail": true
+}

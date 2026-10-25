@@ -1,0 +1,46 @@
+{
+ "trade_id": "2018_utx_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Separate Aerospace, Otis and Carrier so each can close the discount to pure-play peers. → separate the aerospace and elevator units to eliminate the conglomerate discount",
+   "Pratt & Whitney's investment phase could give way to a large multi-year free-cash-flow inflection. → it ignores the high recurring revenue profile of these businesses and their clear path to margin expansion",
+   "Standalone transparency, incentives and capital allocation could surface sum-of-parts value. → The current conglomerate structure hides the intrinsic value of high-growth segments like Otis and Pratt & Whitney"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Management's focus on the Rockwell Collins integration is currently misaligned with long-term shareholder value creation, which necessitates portfolio simplification",
+   "The company offers a strong FCF yield of 3.19% and high-barrier-to-entry businesses, providing a solid floor at $105.00 even in bear scenarios"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "UTC trades at an 11.0x EV/EBITDA multiple",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "UTC segment benchmarking against Kone, Schindler",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We intend to engage privately with CEO Gregory Hayes and the Board to advocate for a formal strategic review and portfolio separation [D01, D05].",
+ "grader_notes": "The agent correctly identified the primary investment thesis centered on the sum-of-the-parts discount and the necessity of separating the business units to unlock value, which aligns precisely with Third Point's public commentary. The agent's reasoning was farthest from Loeb's in its focus on specific valuation multiples ($160 target) and explicit margin targets, which were not cited as specific, numerical drivers in the provided Third Point letter.",
+ "run": "2018_utx_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

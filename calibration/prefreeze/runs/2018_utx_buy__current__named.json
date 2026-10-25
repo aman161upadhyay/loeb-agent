@@ -1,0 +1,266 @@
+{
+ "pack": "2018_utx_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2018-05-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "United Technologies Corporation (UTC) is a conglomerate comprising Pratt & Whitney engines, aerospace systems, Otis elevators, and climate/control businesses including Carrier [D01]. The company's operating performance is currently characterized by integration and financing complexity from the pending Rockwell Collins acquisition alongside geared-turbofan engine delivery and service cycles [D01][D06].",
+   "segments_and_separable_assets": [
+    "Otis: $3,037m Q1 2018 sales, 14.8% margin [D06]",
+    "Climate, Controls & Security: $4,376m Q1 2018 sales, 13.5% margin [D06]",
+    "Pratt & Whitney: $4,329m Q1 2018 sales, 9.5% margin [D06]",
+    "UTC Aerospace Systems: $3,817m Q1 2018 sales, 15.4% margin [D06]"
+   ],
+   "economics_vs_peers": [
+    "Otis service business competes with Kone and Schindler [D06].",
+    "Aerospace segments face propulsion/systems supply peer competition [D06].",
+    "Reported consolidated growth obscures divergent segment forward indicators, such as Otis new-equipment order declines [D03][D06].",
+    "Margin comparisons require adjustments for one-time gains and pension accounting [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $27.35bn as of 2018-03-31 [D04].",
+    "Cash: $7.67bn as of 2018-03-31 [D04].",
+    "Net debt: $19.68bn as of 2018-03-31 [D04].",
+    "Credit ratings, covenants, and instrument-specific maturity schedules: not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $120.15 (2018-04-30) [D04].",
+    "Market cap: $96.13bn [D04].",
+    "Enterprise value: $115.81bn [D04].",
+    "EV/EBITDA: 11.0x [D04].",
+    "P/E (Guidance): 17.0x based on $7.05 midpoint [D04].",
+    "Trailing FCF yield: 3.19% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO/Chair: Gregory Hayes [D01].",
+    "Nomination window, pill, staggered board: not in pack.",
+    "Prior activist history: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 800.06m [D04].",
+    "Short interest, index ownership, top holders: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Portfolio structure review and Rockwell Collins integration are ongoing [D07].",
+    "No formal spin or restructuring plan is confirmed [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Integration of Rockwell Collins and geared-turbofan engine ramp costs [D05].",
+    "Otis new-equipment order weakness [D03][D05].",
+    "Potential for separation to be costly or offset by pension/stranded corporate expenses [D05].",
+    "Low FCF conversion in early 2018 due to working capital [D03][D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2018-04-24: Q1 2018 results released; sales/EPS guidance raised [D03][D07]."
+   ],
+   "third_point_context": [
+    "Firm AUM approx $16bn (2017-05 report) [D08].",
+    "Existing stake/basis: not in pack.",
+    "Other sector positions: not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Detailed segment capital employed, specific credit rating/covenant details, and current fund-level position sizing."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "UTC is a conglomerate with distinct aerospace and elevator businesses where a portfolio review is underway, providing a clear opportunity to advocate for separation to unlock value [D01][D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply its experience in large-cap constructivism to push for a formal separation of the Otis and Carrier businesses from the aerospace units, addressing the conglomerate discount [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "The pack does not contain information on the nomination window or current governance provisions, making it unclear if a board refresh can be forced [D01]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains high-quality, market-leading industrial assets with significant recurring revenue streams in elevators and aerospace, providing a stable valuation floor [D01][D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of over $96 billion and significant daily trading volume, Third Point can easily build and exit a position of several hundred million dollars [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management is currently overseeing an integration process, and their strategy can be pressured or steered by active investors regarding the optimal capital structure and portfolio alignment [D01][D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The event is the potential separation of a complex industrial conglomerate where Third Point can apply its constructivist framework to narrow the valuation gap by unlocking the sum-of-the-parts value obscured by the current diversified structure.",
+   "one_line_verdict": "a conglomerate with high-quality separable business units that can be unlocked through a disciplined portfolio separation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market believes UTC's conglomerate structure is necessary for operational synergy or is distracted by near-term integration risks of the Rockwell Collins acquisition. We believe the diversified structure obscures the individual potential of the aerospace and elevator businesses, which, if separated, would command higher standalone multiples. A formal separation or strategic portfolio alignment will eliminate the conglomerate discount and unlock significant shareholder value.",
+   "evidence": [
+    "UTC is a conglomerate with distinct aerospace and elevator businesses [D01].",
+    "Reported consolidated growth obscures divergent segment forward indicators [D03].",
+    "Current valuation is 11.0x EV/EBITDA, which fails to reflect sum-of-the-parts potential [D04]."
+   ],
+   "peer_benchmark": "Otis service business competes with pure-play peers like Kone and Schindler [D06].",
+   "what_must_be_true": [
+    "The cost of separation is manageable and not prohibitive due to pension or stranded costs.",
+    "The Rockwell Collins integration remains on track to allow for future portfolio actions.",
+    "Aerospace and elevator business units can function efficiently and competitively as standalone entities.",
+    "Management can be persuaded or pressured to prioritize a portfolio simplification strategy."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$155.00",
+    "arithmetic": [
+     "Aerospace (P&W + UTAS): $8.15bn Q1 sales annualized [D06] * 4 = $32.6bn; apply 13x EBITDA [Assumed peer avg]",
+     "Otis: $3.04bn Q1 sales annualized [D06] * 4 = $12.16bn; apply 15x EBITDA [Assumed Kone/Schindler premium]",
+     "CCS: $4.38bn Q1 sales annualized [D06] * 4 = $17.52bn; apply 11x EBITDA [Assumed peer parity]",
+     "Implied Asset Value: ~$140bn total segment value - $19.68bn net debt [D04] = $120.32bn equity value",
+     "Per share: $120.32bn / 800.06m shares [D04] = ~$150.39 base, adjust for growth/synergy unlock to $155"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$110.00",
+    "basis": "Current EV/EBITDA 11.0x on base earnings power [D04]"
+   },
+   "current_price": "$120.15 [D04]",
+   "skew": "29% : 8%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Peer average EBITDA multiples assumed for segment sum-of-the-parts calculation due to lack of specific peer valuation tables in pack.",
+    "EBITDA margins for segments assumed at current Q1 levels extrapolated annually."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Commit to a formal separation of Otis and Carrier from the aerospace business to eliminate the conglomerate discount [D01]",
+    "Provide transparent segment-level margin targets and capital allocation plans post-Rockwell Collins integration [D01][D07]"
+   ],
+   "actors": [
+    "Gregory Hayes — CEO/Chair — counterparty [D01]"
+   ],
+   "governance_route": "Engagement regarding portfolio simplification and capital allocation [D01]",
+   "timetable_quarters": 4,
+   "escalation_path": "If management remains intransigent regarding the separation of units, escalate to a public campaign including a white paper or 13D letter within 6 months [D01].",
+   "why_this_role_fits_the_era": "Following our 2016-onward practice, we begin with private engagement for mega-cap constructivism to pressure for portfolio simplification while acknowledging the complexity of the ongoing Rockwell Collins acquisition; we reserve public escalation for when management ignores the merits of separating the aerospace and elevator businesses [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Rockwell Collins integration significantly misses operational milestones, triggering debt covenant concerns [D01][D05]",
+    "Management explicitly confirms a long-term commitment to the conglomerate structure and refuses to explore separation options [D01]",
+    "Pension liabilities or stranded costs are disclosed as being substantially higher than current estimates, rendering a spin-off value-destructive [D05]",
+    "Significant deterioration in Otis new-equipment order trends threatens the valuation floor [D03][D06]"
+   ],
+   "portfolio_risk": "High exposure to general industrial cyclicality and merger arbitrage risk; liquidity is robust given the $96bn market cap, allowing for efficient position adjustments [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts to hedge broad market beta and potential sector-wide sell-offs during the Rockwell Collins integration phase.",
+   "biggest_risk_in_one_sentence": "Management delays portfolio simplification indefinitely, forcing us to hold through integration-related volatility that obscures the SOTP value."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-05-04",
+  "company": "United Technologies Corporation",
+  "ticker": "UTX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$155.00",
+   "floor": "$110.00",
+   "skew": "29% : 8%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Commit to a formal separation of Otis and Carrier from the aerospace business to eliminate the conglomerate discount [D01]",
+    "Provide transparent segment-level margin targets and capital allocation plans post-Rockwell Collins integration [D01][D07]"
+   ],
+   "actors": [
+    "Gregory Hayes — CEO/Chair"
+   ],
+   "governance_route": "Engagement regarding portfolio simplification and capital allocation",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "United Technologies is a classic conglomerate whose true value is masked by a structural discount that a disciplined separation of its disparate Otis and aerospace units would unlock [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "At a current valuation of 11.0x EV/EBITDA, the market fails to reflect the higher standalone multiples achievable by the Otis service business and the core aerospace units [D04][D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management's ongoing portfolio review provides a clear opening for us to advocate for a formal spin-off of Otis and Carrier, creating a path to our $155 per share target [D01][D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company holds high-quality, market-leading assets that provide a solid valuation floor near $110, resulting in a favorable risk/reward skew for shareholders [D01][D04][D06].",
+    "citations": [
+     "D01",
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Rockwell Collins integration significantly misses operational milestones, triggering debt covenant concerns [D01][D05]",
+   "Management explicitly confirms a long-term commitment to the conglomerate structure and refuses to explore separation options [D01]",
+   "Pension liabilities or stranded costs are disclosed as being substantially higher than current estimates, rendering a spin-off value-destructive [D05]",
+   "Significant deterioration in Otis new-equipment order trends threatens the valuation floor [D03][D06]"
+  ],
+  "what_would_change_our_mind": "Evidence that the costs of separation (pension/stranded costs) outweigh the value unlock, or management successfully pivots to a high-growth, synergistic conglomerate model that renders a spin-off value-destructive.",
+  "memo": "United Technologies Corporation (UTX) represents a classic, albeit massive, opportunity to unlock value by dismantling an antiquated conglomerate structure [D01]. Despite holding premier assets in aerospace and elevators, the company currently trades at 11.0x EV/EBITDA, a multiple that ignores the disparate growth and margin profiles of its individual business units [D04][D06]. Our sum-of-the-parts analysis, which benchmarks Otis against pure-play peers like Kone and Schindler and applies conservative aerospace multiples, suggests a path to $155 per share, representing a significant upside from current levels [D04][D06].\n\nThe market’s current skepticism is driven by the complexity of the Rockwell Collins integration and the obscuring effect of consolidated financial reporting [D03][D05]. We believe these near-term operational distractions, while real, hide the underlying quality of the Otis service business and the aerospace systems segment [D03][D06]. A transparent, segment-level capital allocation strategy—or better yet, a formal separation—would allow these distinct businesses to trade at multiples commensurate with their competitive positioning [D01].\n\nWe are engaging with CEO Gregory Hayes to advocate for a clear portfolio simplification roadmap [D01]. Our asks are simple: a formal commitment to separating the Otis and Carrier units from the aerospace business and improved transparency on segment performance [D01][D07]. We view this as a primary, private engagement, though we remain prepared to escalate to a public campaign if management remains intransigent regarding these value-maximizing steps [D01].\n\nOur downside is protected by the company’s stable cash flows and market-leading positions, which provide a floor around $110 per share [D04][D06]. The skew of approximately 3:1 toward our target is compelling for an industrial of this scale [D04]. We are initiating a 5% position in the common stock, supplemented by index puts to hedge against broad sector volatility during the integration phase [D04][D05]. We intend to hold for 4 quarters to see this process through to a logical conclusion [D05].",
+  "uncited_claims": []
+ }
+}

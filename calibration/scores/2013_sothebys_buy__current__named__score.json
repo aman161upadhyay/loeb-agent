@@ -1,0 +1,49 @@
+{
+ "trade_id": "2013_sothebys_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 5,
+  "matched": [
+   "The iconic franchise is losing competitive ground because of leadership and strategic weakness. → Sotheby’s is an iconic global brand... yet today it functions as a mismanaged conglomerate where the true value of its auction franchise is obscured by a bloated cost structure and an inefficient balance sheet.",
+   "Expenses near prior peak levels despite lower revenue reveal an operational efficiency gap. → By optimizing the expense base and streamlining operations, we project normalized EPS of $4.00, supporting a valuation of $65 per share.",
+   "Board refresh and CEO succession supply the mechanism for restoration. → We will utilize the upcoming annual meeting nomination window to ensure our asks are addressed by CEO William Ruprecht and the incumbent board."
+  ],
+  "missed": [
+   "CEO perquisites and scant director ownership contrast with an owner's incentives.",
+   "Contemporary art, private sales, digital distribution and international markets provide specific growth routes."
+  ],
+  "extra_agent_drivers": [
+   "Significant cash position underutilized",
+   "Valuation floor based on net cash"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Sotheby's maintains a significant cash position of $180.8m as of June 2013.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Sotheby's can achieve operating margins of 35%.",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a position in Sotheby's common stock with an 8% target allocation of our NAV.",
+ "grader_notes": "The agent correctly identified the investment direction and high conviction. Reasoning overlap is moderate, as the agent focused heavily on the balance sheet and specific margin expansion targets, whereas the actual Loeb rationale prioritized leadership/strategy critiques and specific growth levers like digital and international expansion.",
+ "run": "2013_sothebys_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

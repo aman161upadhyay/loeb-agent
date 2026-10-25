@@ -1,0 +1,48 @@
+{
+ "pack": "2013_hlf_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2013-03-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2013-03-01",
+  "company": "Herbalife Ltd.",
+  "ticker": "HLF",
+  "decision": "TRIM",
+  "reason_class": "L1",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Original driver: Profitable business at a controversy-driven discount [D01].",
+   "Current status: The stock has repriced following the short attack, fulfilling the technical catalyst [D01, D07].",
+   "Operating results: Continued growth [D03], but legal/regulatory uncertainty remains [D01, D05]."
+  ],
+  "remaining_skew": "The valuation framework (originally 10-12x) has been pressured by the technical repricing; current P/E is 9.9x [D04]. Remaining upside is compressed as the catalyst matures [D05].",
+  "next_catalyst_and_timing": "Ongoing regulatory/legal resolution; timing uncertain [D03, D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The technical event of the short-squeeze has largely played out following the repricing [D01, D07].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Third Point is not in the business of winning public arguments once the trade's edge is spent [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Continued operating success is noted but does not remove the long-term regulatory risk profile [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "memo": "Our original thesis for Herbalife was premised on a profitable business being mispriced due to a public controversy and a technical short attack [D01]. This investment was never intended to be a long-term commitment to hold through years of regulatory debate [D01, D06]. \n\nAs of March 1, 2013, the stock has undergone a significant repricing following the initial controversy, and the management rebuttal and latest earnings release are now well-digested by the market [D03, D07]. While the company reported strong sales and volume growth in Q4, this operating performance does not mitigate the underlying legal and business-model criticisms [D01, D03]. \n\nWe have achieved our initial objective. We are not in the business of winning public arguments or waiting indefinitely for regulatory resolution; once the technical squeeze has run its course, our edge is spent [D01]. We choose to take the gain now and rotate capital into more attractive event-driven opportunities [D01, D05].",
+  "uncited_claims": []
+ }
+}

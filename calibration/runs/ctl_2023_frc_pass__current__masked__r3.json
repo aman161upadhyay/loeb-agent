@@ -1,0 +1,255 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a relationship-based bank serving affluent households with residential lending and wealth services [D01]. It operates as a customer-focused franchise that currently relies on a $30 billion deposit placement from eleven major banks to stabilize funding [D01, D03].",
+   "segments_and_separable_assets": [
+    "Wealth management services: contributes to fee income, though balance-sheet loss-absorbing capacity is limited [D06].",
+    "Residential lending franchise: core operating asset; value contingent on customer retention and deposit stability [D01, D03]."
+   ],
+   "economics_vs_peers": [
+    "FY2022 ROE: 11.60% vs JPMorgan Chase 14% [D06].",
+    "FY2022 Tangible ROE: 11.80% vs JPMorgan Chase 18% [D06].",
+    "FY2022 CET1: 9.17% vs JPMorgan Chase 13.2% [D06].",
+    "Deposit growth: 12.9% vs JPMorgan Chase 5.8% [D06]."
+   ],
+   "capital_structure": [
+    "Deposits: $176.4 billion [D02].",
+    "Borrowings: $15.279 billion (as of Dec 31, 2022) [D02].",
+    "Additional liquidity: $30 billion uninsured term deposits (initial 120-day term) [D03].",
+    "Common dividend: suspended as of March 16, 2023 [D03]."
+   ],
+   "price_and_valuation": [
+    "Price: $34.27 [D04].",
+    "Market cap: ~$6.38 billion [D04].",
+    "P/E: 4.15x [D04].",
+    "P/B / P/tangible book: .455x / .462x [D04].",
+    "EV/EBITDA: not a meaningful measure for this bank [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares: 186.219 million [D04].",
+    "Average daily volume: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Regulatory-backed $30 billion deposit placement by eleven banks to stabilize funding [D01, D03].",
+    "Suspension of common dividend [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Expensive funding costs vs low-yield assets [D05].",
+    "Asset marks and potential balance-sheet losses exceeding common equity [D05].",
+    "Deposit migration and liquidity withdrawal speed [D02, D03]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$30 billion uninsured deposits with an initial 120-day term at market rates [D03]."
+   ],
+   "recent_events": [
+    "January 13, 2023: Reported FY2022 results [D03].",
+    "March 16, 2023: Regulators announced $30 billion deposit placement; issuer suspended common dividend [D03, D07]."
+   ],
+   "third_point_context": [
+    "December 2022 13F reports $5.968 billion in securities [D08].",
+    "Third Point has existing event positions and a credit book; specific stake in the Company not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Current liquidity/deposit retention post-March 16; current tangible-equity adjustment; peer CDS spreads; specific board governance/nomination details."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is undergoing a liquidity crisis necessitating a $30 billion deposit injection from major banks and dividend suspension [D03, D07]."
+    },
+    "edge": {
+     "score": "UNSURE",
+     "evidence": "While Third Point has a credit book, the pack lacks the necessary detailed recovery/waterfall analysis or current tangible-equity adjustments to confirm a differentiated edge [D03, D05, D08]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The event is governed by an ongoing regulatory and banking sector intervention to stabilize funding [D01, D03]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "The pack highlights concerns regarding asset marks potentially exceeding common equity, but provides no concrete data to bound these liabilities [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The market cap of ~$6.38 billion allows for meaningful positioning within Third Point's $300M-$3.5B mandate [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Management credibility is currently secondary to the regulatory and liquidity process, and board details are not in the pack [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 0,
+   "n_unsure": 4,
+   "hard_fail": false,
+   "edge_statement": "The event is a liquidity crisis requiring stabilization, where the edge would derive from a recovery analysis of the bank's assets versus the deposit and debt structure.",
+   "one_line_verdict": "a distressed banking situation requiring a granular assessment of asset marks and liquidity survival that is currently too speculative for a high-conviction equity position"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market views this as a terminal liquidity event where asset marks potentially exceed equity, justifying the current P/TBV of ~0.46x. We believe the regulatory intervention and the $30 billion bank-led deposit injection provide a floor for systemic stabilization that the market is currently discounting in a panic. The situation will change as the bank successfully stabilizes its deposit base and clarity emerges on the maturity profile of its asset portfolio versus the term deposit injection [D03, D05].",
+   "evidence": [
+    "Regulatory-led $30 billion deposit injection to stabilize funding [D03, D07]",
+    "Suspension of common dividend to preserve capital [D03]",
+    "Current valuation at 0.462x tangible book value reflects high skepticism regarding asset marks [D04]"
+   ],
+   "peer_benchmark": "JPMorgan Chase FY2022 Tangible ROE of 18% vs Company's 11.8% [D06]",
+   "what_must_be_true": [
+    "The $30 billion deposit injection proves sufficient to stem deposit outflows",
+    "Asset marks do not reveal a solvency hole exceeding the common equity buffer",
+    "Management or regulators can successfully orchestrate a strategic path for the wealth/lending franchises"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$74.00",
+    "arithmetic": [
+     "Tangible Book Value per share ~ $74 [D04] (1/0.462 * $34.27)",
+     "Target at 1.0x P/TBV to reflect recovery of asset marks [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$15.00",
+    "basis": "Assumes ~20% haircut to TBV due to asset mark-to-market losses on AFS/HTM securities [D05]"
+   },
+   "current_price": "$34.27 [D04]",
+   "skew": "116% : 56%",
+   "irr_pct": {
+    "base": 35,
+    "bear": -50,
+    "bull": 60
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "TBV recovery relies on stabilization of deposit base and holding HTM assets to maturity",
+    "Assumed 20% TBV write-down for bear case floor as specific impairment data is not in pack"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "none — wait for stabilization [D03]"
+   ],
+   "actors": [
+    "Major Banks — liquidity providers — active [D03]",
+    "Regulators — oversight — active [D03]"
+   ],
+   "governance_route": "Regulatory and banking sector intervention [D03]",
+   "timetable_quarters": 1,
+   "escalation_path": "Not applicable; Third Point is not an active participant in this systemic stabilization.",
+   "why_this_role_fits_the_era": "The situation is a systemically sensitive liquidity crisis managed by federal regulators and large institutions; Third Point's role is to monitor from the sidelines, as we lack the necessary edge to intervene in a government-orchestrated banking stabilization [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Deposit outflows exceed the liquidity provided by the $30 billion bank-led injection [D03].",
+    "Regulatory or central bank intervention necessitates a full write-down of common equity to protect depositors [D03].",
+    "Asset mark-to-market losses on AFS/HTM securities are revealed to exceed the total common equity buffer [D05].",
+    "Failure to maintain capital ratios above regulatory minimums requiring further dilution or forced sale [D06]."
+   ],
+   "portfolio_risk": "High factor overlap with existing financials/banking positions; market volatility risk from systemic contagion; liquidity risk given the current bank-run environment [D02, D03, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The bank suffers a total collapse of its deposit franchise or an unrecognized solvency hole that renders the common equity worthless."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$74.00",
+   "floor": "$15.00",
+   "skew": "116% : 56%",
+   "irr_pct": 35
+  },
+  "plan": {
+   "asks": [
+    "none — wait for stabilization [D03]"
+   ],
+   "actors": [
+    "Major Banks — liquidity providers — active [D03]",
+    "Regulators — oversight — active [D03]"
+   ],
+   "governance_route": "Regulatory and banking sector intervention [D03]",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The Company is currently experiencing a severe liquidity crisis marked by deposit outflows that necessitate a $30 billion intervention from major banks and the suspension of the common dividend [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "While the stock trades at a distressed 0.46x tangible book value, the lack of granular data on asset marks versus liabilities prevents us from confirming a solvency floor [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Third Point lacks a differentiated edge in assessing whether this specific banking franchise can successfully stabilize its funding base versus undergoing a forced resolution [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The current valuation reflects extreme skepticism regarding asset quality, but the risk of total equity wipeout in a potential regulatory-led restructuring is too high for our investment mandate [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Deposit outflows exceed the liquidity provided by the $30 billion bank-led injection [D03].",
+   "Regulatory or central bank intervention necessitates a full write-down of common equity to protect depositors [D03].",
+   "Asset mark-to-market losses on AFS/HTM securities are revealed to exceed the total common equity buffer [D05].",
+   "Failure to maintain capital ratios above regulatory minimums requiring further dilution or forced sale [D06]."
+  ],
+  "what_would_change_our_mind": "Clear evidence of deposit base stabilization and transparency regarding the actual mark-to-market losses on the HTM/AFS securities portfolio that would allow for a precise calculation of tangible book value.",
+  "memo": "The Company is currently a distressed banking situation, characterized by a liquidity crisis that has forced a $30 billion deposit injection from major banks and the suspension of the common dividend [D03, D07]. The market has priced the equity at 0.46x tangible book value, reflecting profound skepticism regarding asset marks and long-term viability [D04, D05].\n\nOur analysis suggests a potential recovery value of $74 per share based on a return to 1.0x tangible book value, but this rests on the assumption that the deposit base stabilizes and asset marks do not breach the equity buffer [D04, D05]. Compared to a peer like JPMorgan Chase, which maintains a superior 18% tangible ROE, the Company's current 11.8% return highlights the struggle to manage funding costs in the current environment [D06].\n\nWe see no clear catalyst for Third Point to engage in this process [D03]. The current governance route is defined entirely by regulatory and banking sector intervention, leaving little room for a constructivist role [D03]. We remain sidelined, as we lack the necessary edge to confirm whether the liquidity provided will be sufficient to prevent a solvency event [D03, D05].\n\nWe pass on this opportunity, as the risk of total loss from a potential regulatory-led write-down of common equity outweighs the upside [D03, D05]. Should the situation stabilize and provide better clarity on the balance sheet, we may revisit, but as of today, the uncertainty is too great for a high-conviction position [D03, D05].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2020_hertz_equity_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No pre-reorganization Hertz common row in 2020 reportable history."
+  ],
+  "extra_agent_drivers": [
+   "Hertz has filed for Chapter 11 bankruptcy, which structurally subordinates common equity to senior creditors in a hierarchy that leaves no residual value [D03, D05].",
+   "Total liabilities of $18.8bn significantly exceed the company's realizable asset value, ensuring equity holders will be wiped out under the absolute priority rule [D04, D05].",
+   "The recent 115.2% rally in the common stock is a retail-driven speculative bubble that ignores the fundamental reality of the creditor-controlled bankruptcy process [D03, D04].",
+   "Governance and control have shifted entirely to the court and creditors, removing any pathway for shareholders to influence the restructuring outcome [D03, D07]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company filed for Chapter 11 on May 22, 2020",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total liabilities of $18.8bn",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "115.2% single-day rally on June 8, 2020",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 3,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on Hertz entirely, as there is no floor, no governance path, and no legitimate path to recovery for the common equity [D05, D07, D08].",
+ "grader_notes": "The agent correctly identified the PASS decision but failed to ground its reasoning in the actual observed history of the firm's holdings as stipulated in the answer key. Instead, the agent provided an extensive independent fundamental bankruptcy analysis which, while accurate, does not align with the specific procedural rationale provided by Loeb/Third Point for this control.",
+ "run": "ctl_2020_hertz_equity_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

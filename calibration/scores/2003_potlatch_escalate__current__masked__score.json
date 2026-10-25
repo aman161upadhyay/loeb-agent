@@ -1,0 +1,52 @@
+{
+ "trade_id": "2003_potlatch_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Persistent operating losses and inferior returns warrant greater board accountability. → With the company delivering a staggering -33.1% ROE compared to a -4.1% peer average, the case for change is undeniable.",
+   "The $66m towel investment deserves scrutiny while the consumer-products market is oversupplied. → Management is currently sinking $66 million into a new Las Vegas towel plant despite a clear industry downturn and widespread oversupply."
+  ],
+  "missed": [
+   "Shareholder voting rights should not reward four years of enduring poor stewardship.",
+   "Compensation and owner alignment should be tested against the loss record; the full alleged plane/perquisite criticism remains unverified."
+  ],
+  "extra_agent_drivers": [
+   "Underlying value in timber assets obscured by consolidated loss-making manufacturing."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Management is currently sinking $66 million into a new Las Vegas towel plant",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "ROE at -33.1% vs -4.1% industry average",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "80% approval hurdle for voting changes",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are moving to ESCALATE.",
+ "grader_notes": "The agent correctly identifies the ESCALATE direction and catches the core grievance regarding the $66 million towel plant and poor operating performance. However, it misses the specific Loeb drivers regarding the four-year tenure of stewardship and the compensation/perquisite concerns, focusing instead on structural governance and sum-of-the-parts valuation logic.",
+ "run": "2003_potlatch_escalate__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,53 @@
+{
+ "trade_id": "2024_vst_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Brilliant capital allocation and substantial buybacks exploited assets valued far below new-build cost. → Management is actively unlocking value through $1.5 billion in share repurchases",
+   "AI/data-center and EV demand could accelerate domestic electricity demand against constrained baseload supply. → The market misprices the company as a cyclical merchant power generator, ignoring the structural earnings inflection driven by surge demand from AI data centers"
+  ],
+  "missed": [
+   "The March 2023 Energy Harbor acquisition supplied the original nuclear-fleet catalyst.",
+   "Intermittent generation increased the need and economic value of existing dispatchable assets."
+  ],
+  "extra_agent_drivers": [
+   "14.3% GAAP FCF yield provides a cash-generative floor",
+   "Operating margins of 18% significantly outperform merchant peers"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "14.3% GAAP FCF yield",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Operating margins of 18%",
+    "citation": "D02",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "management execution through acquisition of Talen assets",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 4,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We believe this represents a fundamental mispricing; the business is not a commodity play, but a critical, high-margin provider of the zero-carbon, dispatchable power required for the AI data-center super-cycle [D03, D05].",
+ "grader_notes": "The agent correctly identified the BUY direction and captured the core AI/data-center thesis and the focus on capital allocation/buybacks. It failed to note the importance of the Energy Harbor nuclear catalyst or the specific logic regarding the economic value of dispatchable assets in an intermittent-generation environment. The agent leaned heavily on its own peer-comparison analysis, which was not featured in the provided Loeb key.",
+ "run": "2024_vst_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

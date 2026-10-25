@@ -1,0 +1,253 @@
+{
+ "pack": "2023_ai_basket_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2023-04-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The basket comprises compute design (Nvidia), outsourced fabrication (TSMC), cloud infrastructure (Microsoft, Amazon, Alphabet), and consumer/software platforms (Meta) involved in the AI infrastructure stack [D01]. These firms represent a thematic AI investment cycle where cloud providers, software platforms, and semiconductor suppliers monetize distinct layers of compute and model distribution [D01].",
+   "segments_and_separable_assets": [
+    "Microsoft Cloud/Azure (Revenue $21.354bn [D06])",
+    "Amazon AWS (Revenue $21.354bn, Operating profit $5.123bn [D06])",
+    "Alphabet Cloud (Revenue $7.454bn, Operating profit $191m [D06])",
+    "Meta (Revenue $28.645bn, Operating margin 25.2% [D06])",
+    "TSMC (Revenue $16.72bn, Operating margin 45.5% [D06])"
+   ],
+   "economics_vs_peers": [
+    "Operating margins vary significantly across layers: Microsoft (42.3%), TSMC (45.5%), Meta (25.2%), Amazon Cloud (23.8%), and Alphabet Cloud (2.6%) as of Q1 2023 [D06].",
+    "Growth rates show divergence: Alphabet cloud (+28%), Amazon cloud (+16%), Microsoft consolidated (+7%), and Meta consolidated (+3%) [D06]."
+   ],
+   "capital_structure": [
+    "Nvidia net cash +$2.343bn [D04]",
+    "Microsoft net cash +$56.217bn [D04]",
+    "Alphabet net cash +$99.894bn [D04]",
+    "Amazon net debt -$5.779bn [D04]",
+    "Meta net cash +$27.5bn [D04]",
+    "TSMC net cash +$15.17bn (FY2022 basis) [D04]"
+   ],
+   "price_and_valuation": [
+    "Nvidia: EV $683.1bn, P/E 159.5x [D04]",
+    "Microsoft: EV $2,228.4bn, P/E 33.3x [D04]",
+    "Alphabet: EV $1,274bn, P/E 23.9x [D04]",
+    "Amazon: EV $1,087.7bn, P/E 251x [D04]",
+    "Meta: EV $592.5bn, P/E 29.8x [D04]",
+    "TSMC: EV $422.0bn, P/E 13.5x [D04]"
+   ],
+   "management_board_governance": [
+    "not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "AI generative interest and H100 production (Nvidia) [D03]; cloud demand and natural-language interfaces (Microsoft) [D03]; potential for spin-offs, restructurings, or capital allocation changes are not explicitly documented [D01]."
+   ],
+   "what_the_market_is_worried_about": [
+    "AI compute spending outrunning monetization [D05]; custom silicon pressure on merchant suppliers [D05]; cannibalization of profitable products by expensive inference [D05]; TSMC geopolitical risk [D05]; cyclical slowing and advertising sensitivity [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Nvidia Q4 FY2023 results (2023-02-22) [D03]; Microsoft/Alphabet Q1 2023 results (2023-04-25) [D03]; TSMC Q1 2023 results (2023-04-20) [D03]; Amazon Q1 2023 results (2023-04-27) [D03]; Meta Q1 2023 results (2023-04-26) [D03]."
+   ],
+   "third_point_context": [
+    "Firm AUM approx $12.7bn (as of 2023-01, published 2023-02-06) [D08]. Offshore fund equity long 79.5%, short 27.9%, net 51.7% [D08]."
+   ],
+   "document_conflicts": [
+    "None reported in the provided documents."
+   ],
+   "missing_data": [
+    "Board composition, specific governance/nomination windows, exact shareholder base, and consolidated basket metrics."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E5"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The basket leverages the thematic AI infrastructure cycle where cloud providers, software platforms, and semiconductor suppliers monetize distinct layers of compute [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies the AI inflection through the monetization of compute and model distribution layers [D01], positioning early in the cycle before consensus monetization [D05]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a thematic investment in the 2023 AI cycle, the inflection is in motion via documented demand for natural-language interfaces and AI compute [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The basket components demonstrate significant net cash positions (e.g., Alphabet +$99.894bn, Microsoft +$56.217bn) and established FCF-generating business models [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The components are mega-cap technology firms with sufficient liquidity for the firm's $12.7bn AUM scale [D04, D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The thesis relies on the market pricing of the AI cycle rather than turnaround execution, making management-specific risk secondary to the thematic opportunity [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point captures the AI infrastructure super-cycle by targeting the beneficiaries across the compute and cloud stack, capitalizing on the monetization of model distribution before it is fully reflected in market multiples.",
+   "one_line_verdict": "a thematic basket of AI infrastructure leaders with strong balance sheets and visible demand inflections."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M7"
+   ],
+   "variant_view": "The market is currently focused on cyclical headwinds and the immediate costs of AI infrastructure, leading to skepticism about the timing and sustainability of monetization. Third Point views this as an earnings inflection where the rapid integration of natural-language interfaces and AI compute will yield higher-than-expected returns for the infrastructure stack. We believe the market fails to appreciate the scale and speed of this transformation, creating a mispricing in the valuation of key compute and cloud beneficiaries [D01, D03].",
+   "evidence": [
+    "AI generative interest and H100 production drive clear demand inflections [D03].",
+    "Cloud providers and semiconductor suppliers are successfully monetizing distinct layers of the compute stack [D01].",
+    "The market is overly concerned with short-term spending risks and cannibalization rather than the long-term earnings power of the AI cycle [D05]."
+   ],
+   "peer_benchmark": "Operating margins across the stack demonstrate high disparity, such as the gap between TSMC (45.5%) and Alphabet Cloud (2.6%), highlighting the potential for margin expansion as AI monetization scales [D06].",
+   "what_must_be_true": [
+    "Demand for AI-driven natural-language interfaces continues to outpace general cloud growth.",
+    "Nvidia and TSMC maintain their technological lead in compute infrastructure.",
+    "Cloud providers demonstrate clear monetization of inference and model distribution in upcoming quarters.",
+    "Balance sheets remain robust enough to fund the capital intensity of the AI cycle."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "Weighted average basket return of 25% CAGR over 3 years",
+    "arithmetic": [
+     "Projected earnings growth of 20-25% based on AI monetization [D01, D03]",
+     "Target P/E multiples maintained at current levels or slight expansion as margins converge to peer highs [D06]",
+     "Capital return and share repurchases based on aggregate net cash of +$195.127bn [D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "Aggregate EV of $6,287.7bn",
+    "basis": "Current net cash/debt positions plus existing EBITDA generation [D04, D06]"
+   },
+   "current_price": "Aggregate EV of $6,287.7bn [D04]",
+   "skew": "2.5:1",
+   "irr_pct": {
+    "base": 25,
+    "bear": 10,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumes aggregate basket performance mirrors individual component inflection points as documented [D01]",
+    "Assumes 3-year valuation capture due to lack of specific event timeline for the basket as a whole [D01]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "None; this is a thematic investment in an earnings inflection cycle rather than a targeted activist campaign [D01]"
+   ],
+   "actors": [
+    "Various management teams — operators — not applicable [D01]"
+   ],
+   "governance_route": "Not applicable as this is a passive thematic basket investment rather than a constructivist engagement [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "Monitor monetization of AI compute across the stack; exit if demand inflections stall or capital intensity destroys shareholder value [D01, D05]",
+   "why_this_role_fits_the_era": "This investment leverages the 'quality/earnings-inflection compounder' strategy established for the 2016-onward era, where we hold high-conviction thematic beneficiaries without requiring an activist mandate [D01]"
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Evidence that AI infrastructure capital intensity is permanently destroying FCF margins without offsetting monetization [D05].",
+    "Observable deceleration in AI-driven natural-language interface demand across cloud platforms [D03].",
+    "Significant shift in the competitive landscape where custom silicon successfully renders merchant compute suppliers obsolete [D05].",
+    "Geopolitical event impacting TSMC's manufacturing capacity or supply chain continuity [D05]."
+   ],
+   "portfolio_risk": "High factor overlap with mega-cap technology and cloud infrastructure; potential vulnerability to duration-sensitive market sell-offs and thematic cyclicality [D05, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 6
+   },
+   "pct_of_company": "Negligible; thematic investment only [D01].",
+   "horizon_quarters": 12,
+   "hedge_overlay": "Index puts or single-name shorts in overvalued hardware/semiconductor peers to offset potential volatility in the AI compute stack [D05].",
+   "biggest_risk_in_one_sentence": "The risk that AI infrastructure capital spending outruns the speed and scale of monetization, leading to margin compression across the compute and cloud stack [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-04-30",
+  "company": "AI infrastructure and incumbent platform basket (NVDA / TSM / MSFT / GOOGL / AMZN / META)",
+  "ticker": "NVDA / TSM / MSFT / GOOGL / AMZN / META",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E5"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "Weighted average basket return of 25% CAGR over 3 years",
+   "floor": "Aggregate EV of $6,287.7bn",
+   "skew": "2.5:1",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "None; this is a thematic investment in an earnings inflection cycle rather than a targeted activist campaign"
+   ],
+   "actors": [
+    "Various management teams"
+   ],
+   "governance_route": "Not applicable",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The market misprices the scale and speed of AI transformation, viewing it through the lens of cyclical headwinds rather than an earnings inflection [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Significant margin disparity exists across the stack, such as the gap between TSMC's 45.5% operating margin and Alphabet Cloud's 2.6%, suggesting room for margin convergence [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The basket offers a hard floor supported by strong aggregate net cash positions of +$195.127bn across key components [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Demand inflections for natural-language interfaces and AI compute are visible through recent results and production data, creating an asymmetric opportunity [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "AI infrastructure capital intensity permanently destroys FCF margins without offsetting monetization [D05].",
+   "Observable deceleration in demand for AI-driven natural-language interfaces across cloud platforms [D03].",
+   "Custom silicon renders merchant compute suppliers obsolete [D05].",
+   "Geopolitical event impacts TSMC manufacturing capacity [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that capital expenditure in AI infrastructure is not generating sufficient monetization to offset margin erosion, or a secular failure in cloud demand growth.",
+  "memo": "The AI infrastructure super-cycle is currently mispriced by a market distracted by cyclical noise and short-term capital expenditure anxiety [D01, D05]. We view the compute and cloud stack—ranging from semiconductor fabrication to platform distribution—as a high-quality earnings inflection [D01]. With an aggregate net cash position of +$195.127bn, these leaders possess the fortress balance sheets required to capitalize on this transition [D04].\n\nWe value this basket on its potential for margin convergence as AI monetization scales [D06]. While operating margins currently vary from TSMC's 45.5% to Alphabet Cloud's 2.6%, we anticipate a structural uplift in profitability as natural-language interfaces and AI compute become integrated revenue streams [D06]. Our target is a 25% CAGR over the next three years [D03].\n\nUnlike our traditional constructivist campaigns, this is a thematic investment in a multi-year inflection [D01]. We are not seeking board seats or capital allocation shifts; rather, we are capturing the value of the infrastructure layer before it is fully reflected in consensus multiples [D05]. We expect management teams to execute on the obvious demand inflections already evidenced by H100 production and cloud usage [D03].\n\nRisks are centered on capital intensity outpacing monetization and the potential for custom silicon to disrupt merchant suppliers [D05]. We have sized this position at 5% of NAV to provide sufficient exposure to the theme while utilizing index puts to hedge against systemic volatility [D05, D08]. We will exit if the monetization trajectory fails to materialize or if competitive pressures erode the current margin floor [D05].",
+  "uncited_claims": [
+   "We have sized this position at 5% of NAV to provide sufficient exposure to the theme while utilizing index puts to hedge against systemic volatility"
+  ]
+ }
+}

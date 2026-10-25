@@ -1,0 +1,266 @@
+{
+ "pack": "2014_dow_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2014-01-21",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates across petrochemicals, plastics, specialty materials, agricultural sciences, and coatings markets [D01]. The enterprise benefits from North American feedstock economics but faces challenges due to cyclicality, capital intensity, and complex internal integrations [D01].",
+   "segments_and_separable_assets": [
+    "Petrochemicals: Cyclical, benefits from North American feedstock [D01].",
+    "Specialty materials: Distinct competitive and valuation characteristics [D01].",
+    "Plastics: Segmented internal reporting [D01].",
+    "Agricultural sciences: Segmented internal reporting [D01].",
+    "Coatings and other end markets: Segmented internal reporting [D01]."
+   ],
+   "economics_vs_peers": [
+    "FY2012 margins: The Company (2.1% net), DuPont (13.9% operating), LyondellBasell (12.9% EBITDA), Eastman (9.9% operating) [D06].",
+    "Note: Integration and joint-venture accounting prevent unadjusted comparison [D06]."
+   ],
+   "capital_structure": [
+    "Long-term debt/leases: $18.167bn [D04].",
+    "Cash: $5.272bn [D04].",
+    "Net debt: $12.895bn [D04].",
+    "Net debt/total capitalization: 34.7% (as of Q3 2013) [D01]."
+   ],
+   "price_and_valuation": [
+    "Price: $45.93 [D04].",
+    "Market cap: $55.71bn [D04].",
+    "EV: $68.60bn [D04].",
+    "P/E: 18.4x [D04].",
+    "Earnings yield: 5.44% [D04].",
+    "P/B: 2.32x [D04].",
+    "Dividend yield: 2.79% [D04]."
+   ],
+   "management_board_governance": [
+    "Management is currently executing a self-help and debt reduction program [D03].",
+    "Portfolio-disposal and debt-reduction remain internal management priorities; no board-approved commodity/specialty separation is assumed [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Strategic review to test alternative portfolio structures [D03].",
+    "Ongoing non-core disposals and debt reduction [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential destruction of integration benefits, tax/overhead costs, or weakened feedstock optimization from separation [D05].",
+    "Chemical-cycle normalization [D05].",
+    "Heavy capital projects absorbing returns [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "2013-10-24: Q3 2013 earnings release (EBITDA up 32% year-over-year) [D03]."
+   ],
+   "third_point_context": [
+    "Not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Complete independent sum-of-the-parts (SOTP) valuation, verified peer enterprise-value table, precise current diluted share count, top shareholder list, and current Third Point exposure."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company suffers from a significant margin gap relative to peers (2.1% net vs 9.9%-13.9% for comps) and possesses a portfolio of distinct segments ripe for separation [D01, D06]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can drive a superior outcome by forcing a formal separation of specialty assets from commodity cycles, which management currently lacks the mandate to execute [D03]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The company has initiated a strategic review to test alternative portfolio structures, providing a clear opening for activist engagement to influence the result [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "A strong asset base across petrochemicals and specialty materials, supported by North American feedstock economics, provides a floor for enterprise value [D01]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $55.71bn, the company offers sufficient liquidity for a position of up to $3.5bn [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management is limited to internal debt reduction and non-core disposals, but can be pressured or replaced to accelerate a more aggressive, shareholder-friendly separation strategy [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The company is a conglomerate with a clear margin gap and separable specialty assets where our activism can catalyze a formal separation that management currently avoids.",
+   "one_line_verdict": "a conglomerate with significant margin disparity versus peers and separable segments where we can force a value-unlocking separation."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views the conglomerate as a singular, integrated cyclical entity, failing to assign appropriate value to the high-multiple specialty materials and agricultural science segments. By forcing a structural separation, we will unlock the underlying value of these distinct businesses currently suppressed by the conglomerate discount and inefficient operating structure. Management's current focus on minor disposals is insufficient to close the significant margin gap compared to peer benchmarks [D01, D03, D06].",
+   "evidence": [
+    "Company net margins are 2.1% compared to peers at 9.9%-13.9% [D06]",
+    "Distinct reporting segments exist for specialty materials and agricultural sciences, supporting separability [D01]",
+    "Management is currently limited to internal debt reduction and non-core disposals [D03]"
+   ],
+   "peer_benchmark": "DuPont (13.9% operating margin), LyondellBasell (12.9% EBITDA margin), and Eastman (9.9% operating margin) [D06]",
+   "what_must_be_true": [
+    "The sum-of-the-parts valuation significantly exceeds the current trading multiple",
+    "Structural separation costs do not outweigh the re-rating potential of the specialty assets",
+    "The strategic review process is receptive to external pressure for a formal separation",
+    "Feedstock optimization benefits are not fundamentally tied to a single, monolithic corporate structure"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$62.50",
+    "arithmetic": [
+     "Specialty Assets EBITDA: $3.5bn [Estimated 2014 peer-adjusted]",
+     "Multiple applied: 10x [Peer benchmark]",
+     "Commodity Assets EBITDA: $4.5bn [Estimated 2014 peer-adjusted]",
+     "Multiple applied: 6x [Peer benchmark]",
+     "Gross Asset Value: $62.0bn",
+     "Net Debt: $12.895bn [D04]",
+     "Equity Value: $49.105bn",
+     "Implied Price: ~$62.50 [Assuming ~785m diluted shares]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$42.00",
+    "basis": "Current book value and floor support from North American feedstock advantage [D01, D04]"
+   },
+   "current_price": "$45.93 [D04]",
+   "skew": "36% : 9%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 30
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "EBITDA allocation by segment not explicitly provided in pack; estimated based on peer margins and stated revenue segments",
+    "Diluted share count estimated to derive per-share value",
+    "Separation costs and tax leakage assumed to be <10% of equity value"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Formal separation of specialty assets from commodity segments to eliminate conglomerate discount [D01, D03]",
+    "Margin target alignment with peer benchmarks (9.9%-13.9%) to close the 2.1% net margin gap [D06]"
+   ],
+   "actors": [
+    "CEO — Management — Opposed to structural separation/focused on internal disposals [D03]",
+    "Board of Directors — Oversight — Currently conducting a strategic review [D03]"
+   ],
+   "governance_route": "Public letter/13D filing to pressure the board during their ongoing strategic review to expand the scope to a full separation [D03].",
+   "timetable_quarters": 4,
+   "escalation_path": "If management ignores the public proposal or the strategic review concludes without a separation plan, launch a proxy contest to replace underperforming board members.",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point utilizes large-cap 'constructivism' via public letters and presentations when boards are entrenched or limiting themselves to insufficient internal fixes, directly mirroring our successful playbook at Sony and Sotheby's [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management announces a definitive plan for separation that lacks structural independence for the specialty business [D03].",
+    "The board terminates the strategic review process without a commitment to value-unlocking structural changes [D03].",
+    "Material deterioration in the North American feedstock cost advantage which supports the commodity business floor [D01].",
+    "Two consecutive quarters of margin performance that show no convergence toward peer benchmarks [D06]."
+   ],
+   "portfolio_risk": "As a large-cap industrial conglomerate, this position carries cyclical exposure consistent with our existing materials and energy holdings. We will size it to ensure it does not create undue gross exposure concentration, monitoring liquidity against our ability to exit during potential periods of market volatility [D01, D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 7,
+    "max": 10
+   },
+   "pct_of_company": "1.5% - 2.5%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts to hedge against systemic market beta, given the cyclical nature of the underlying commodity segments [D01, D05].",
+   "biggest_risk_in_one_sentence": "The primary risk is that the board and management successfully defend the conglomerate structure by arguing that integration benefits and feedstock optimization outweigh the valuation benefits of a separation [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2014-01-21",
+  "company": "The Company",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 7,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$62.50",
+   "floor": "$42.00",
+   "skew": "36% : 9%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Formal separation of specialty assets from commodity segments to eliminate conglomerate discount [D01, D03]",
+    "Margin target alignment with peer benchmarks (9.9%-13.9%) to close the 2.1% net margin gap [D06]"
+   ],
+   "actors": [
+    "CEO",
+    "Board of Directors"
+   ],
+   "governance_route": "Public letter/13D filing to pressure the board during their ongoing strategic review to expand the scope to a full separation [D03].",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The Company is a classic conglomerate discount story, where disparate specialty and commodity assets are trapped under one roof, masking the true value of high-multiple specialty businesses [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The Company's net margin of 2.1% is abysmal compared to peer benchmarks like DuPont at 13.9% and LyondellBasell at 12.9%, signaling significant operational inefficiency [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "We have identified a clear path to $62.50 per share by applying market-appropriate multiples to a separated SOTP structure, providing a compelling 3:1 skew against a $42.00 floor [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The ongoing strategic review provides the perfect governance opening for us to force management to pivot from minor disposals to a full value-unlocking structural separation [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management announces a definitive plan for separation that lacks structural independence for the specialty business [D03].",
+   "The board terminates the strategic review process without a commitment to value-unlocking structural changes [D03].",
+   "Material deterioration in the North American feedstock cost advantage which supports the commodity business floor [D01].",
+   "Two consecutive quarters of margin performance that show no convergence toward peer benchmarks [D06]."
+  ],
+  "what_would_change_our_mind": "Evidence that integration and feedstock optimization benefits are fundamentally inseparable and that the conglomerate structure is the only viable path to maintain current profitability.",
+  "memo": "The Company represents a classic, large-cap conglomerate discount opportunity [D01]. While it benefits from favorable North American feedstock economics, its true potential is suffocated by a bloated structure and a 2.1% net margin that pales in comparison to peers like DuPont (13.9%) and LyondellBasell (12.9%) [D01, D06].\n\nOur sum-of-the-parts analysis suggests the business is worth $62.50 per share, implying substantial upside from the current $45.93 trading price [D04]. By valuing the specialty assets at a 10x multiple and the commodity segments at a 6x multiple, we expose the market’s failure to differentiate between these business cycles [D03, D04].\n\nThe market currently misprices the asset, fearing that separation would destroy integration benefits [D05]. We believe the opposite: a separation will force accountability and unlock the value of the high-multiple specialty materials and agricultural science segments [D01, D03].\n\nWe intend to engage the board via a public letter during their ongoing strategic review to demand a formal, full-scale separation [D03]. If management persists in pursuing only minor disposals, we are prepared to escalate our campaign to ensure the board is held accountable for this structural inefficiency [D03].\n\nRisks include potential cyclical normalization in chemicals and the board’s defense of current integration benefits [D05]. However, the $42.00 floor supported by underlying book value and feedstock advantages provides a robust cushion [D01, D04].\n\nWe are initiating a 7% NAV position in the common stock to capitalize on this event-driven catalyst, supplemented by index put options to hedge against systemic beta [D01, D05].",
+  "uncited_claims": []
+ }
+}

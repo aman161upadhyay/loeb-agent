@@ -1,0 +1,260 @@
+{
+ "pack": "2019_sony_buy2",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2019-06-13",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a diversified conglomerate consisting of gaming, music, film, electronics, image sensors, and financial services assets [D01]. Its business model leverages an installed user base to support subscription and network revenue streams while monetizing intellectual property through varied distribution channels [D01].",
+   "segments_and_separable_assets": [
+    "Gaming: includes hardware and 36.4 million subscriptions; network services comprise 62% of gaming sales [D03].",
+    "Music: includes recorded music and publishing; streaming sales grew 16% [D03].",
+    "Pictures: holds an 11% US box-office share [D03].",
+    "Image Sensors: a technology franchise with distinct capital expenditure profiles [D01].",
+    "Financial Services: maintains a separate balance sheet and is subject to distinct regulatory constraints [D01]."
+   ],
+   "economics_vs_peers": [
+    "The company has reported consolidated operating margins of 10.3% as of FY2019 [D02].",
+    "Operating segments have varying capital intensity, margin structures, and growth profiles; consolidated margins are not representative of individual unit economics [D01, D06]."
+   ],
+   "capital_structure": [
+    "Consolidated gross borrowings were ¥1,359.451 billion as of March 2019 [D02].",
+    "Consolidated financial-services securities and liabilities cannot be freely netted into industrial enterprise value [D02].",
+    "Non-financial net cash is approximately ¥397.7 billion [D02]."
+   ],
+   "price_and_valuation": [
+    "Tokyo closing price (2019-06-13): ¥5,334 [D04].",
+    "NYSE ADR closing price (2019-06-13): US$49.67 [D04].",
+    "FY2019 Diluted EPS: ¥707.74; Trailing P/E: 7.54x [D02, D04].",
+    "Approximate P/B ratio: 1.78x [D04]."
+   ],
+   "management_board_governance": [
+    "Japanese governance environment is noted as one of influence rather than control [D05].",
+    "Board can reject structural proposals; legal separation is not guaranteed by shareholder presentations [D05]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential separation or restructuring of media assets from the semiconductor/sensor business is noted as an analytical framework, but no formal management-adopted plan is cited [D01].",
+    "Reimagine SPE initiative targeted ¥15 billion in annual cost reductions [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Cloud gaming platform risks and console transition profitability [D05].",
+    "Content spending and hit-risk in music and pictures [D05].",
+    "Customer concentration and capital intensity in image sensors [D05].",
+    "Risks of stranded costs or weakened R&D branding upon potential separation [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "April 26, 2019: Annual results published [D07].",
+    "May 21, 2019: Investor day held [D07]."
+   ],
+   "third_point_context": [
+    "Firm AUM was approximately $18 billion as of July 2018 [D08].",
+    "The 13F filing as of March 31, 2019, shows US-long holdings of $8.994 billion [D08].",
+    "Existing stake and basis are not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Exact fully diluted share count [D02]; current liquidity and exact fund positioning [D08]; precise segment-level capital employed [D01]."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is a conglomerate where the potential separation of media assets from image sensors provides a clear sum-of-the-parts catalyst to address the conglomerate discount [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point possesses the analytical framework to value disparate segments like image sensors and entertainment assets against peer benchmarks, identifying the mispricing inherent in the consolidated structure [D01, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As of 2019, Third Point's approach to Japanese governance is built on polite, specific pressure within an environment of influence, which is a recognized and effective route for reform [D05]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains strong non-financial net cash of approximately ¥397.7 billion and trades at a low 7.54x P/E, providing a valuation floor [D02, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With $18 billion in AUM, Third Point has sufficient capital to build a meaningful position in a large-cap entity with significant trading liquidity [D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management has demonstrated engagement through initiatives like 'Reimagine SPE,' indicating they are receptive to operational improvement and potential restructuring [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point identifies an opportunity to unlock value by separating the high-growth image sensor business from the media conglomerate, capitalizing on the mispricing between consolidated performance and individual unit economics.",
+   "one_line_verdict": "a diversified conglomerate with separable, high-value assets and a management team demonstrating openness to operational improvements."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market views the company as a sprawling, complex conglomerate, applying a persistent discount that obscures the standalone value of its high-growth image sensor business and stable media assets [D01]. We believe the market fails to properly value these segments on a sum-of-the-parts basis, which would reveal significant upside [D01]. A strategic separation or increased focus on individual unit economics will force the market to re-rate the business to reflect its true underlying value [D01].",
+   "evidence": [
+    "Consolidated operating margins of 10.3% mask the disparate margin structures and growth profiles of individual segments [D01, D02].",
+    "Current valuation at 7.54x P/E does not reflect the potential of the high-growth image sensor franchise [D01, D04].",
+    "Non-financial net cash of ¥397.7 billion provides a strong floor, limiting downside during the transition [D02]."
+   ],
+   "peer_benchmark": "Industry-specific multiples for high-growth technology/semiconductor peers and media/entertainment comps, which command premiums over the current consolidated 7.54x P/E [D01, D04].",
+   "what_must_be_true": [
+    "Management continues to demonstrate openness to structural improvements like the 'Reimagine SPE' initiative [D03].",
+    "The image sensor business maintains its competitive moat and capital intensity profile [D01, D05].",
+    "The conglomerate is able to address investor concerns regarding potential stranded costs or R&D erosion in the event of a separation [D05].",
+    "The governance environment remains receptive to constructive, private influence from shareholders [D05]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "¥7,500",
+    "arithmetic": [
+     "Sum-of-the-parts implied by re-rating consolidated segments (Gaming, Music, Sensors) to peer multiples [D01, D04]",
+     "Base: ¥5,334 current price [D04]",
+     "Target: 3-year sum-of-the-parts valuation reflecting peer-benchmark premiums [D01, D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "¥4,000",
+    "basis": "Non-financial net cash of ¥397.7 billion [D02] plus conservative valuation of stable cash-generating core businesses at trough multiples [D01]"
+   },
+   "current_price": "¥5,334 [D04]",
+   "skew": "40% : 25%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Exact fully diluted share count not provided in pack [D02]",
+    "Peer-specific multiple premium assumed to be achievable through structural separation [D01]",
+    "Assumption that non-financial net cash provides a reliable valuation floor [D02]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Spin-off or formal separation of the high-growth image sensor business from the media/entertainment conglomerate to address the conglomerate discount [D01].",
+    "Enhanced segment-level financial reporting to align valuation with high-growth technology/semiconductor peer multiples [D01, D06].",
+    "Expansion of the 'Reimagine SPE' initiative beyond operational cost reductions into fundamental structural reform [D03]."
+   ],
+   "actors": [
+    "CEO/Board — Counterparty — Receptive to private engagement [D03, D05]."
+   ],
+   "governance_route": "Engagement based on Japanese governance norms of influence and specific, polite pressure rather than hostile confrontation [D05].",
+   "timetable_quarters": 4,
+   "escalation_path": "If private dialogue is ignored or management stalls, escalate to a public letter (P2) highlighting the specific valuation gap versus peers and the benefits of a corporate breakup [D01, D05].",
+   "why_this_role_fits_the_era": "Fits the post-2016 model of large-cap constructivism in Japan, where private engagement is the preferred first step for a constructive, influential investor before resorting to public pressure [D05]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management formally rejects structural separation and announces a strategy of deeper conglomerate integration [D03, D05].",
+    "Image sensor segment experiences a significant loss of market share or fundamental erosion of competitive moat [D01, D05].",
+    "Quarterly operating performance for core segments misses consensus by >15% for two consecutive quarters, indicating underlying business deterioration [D01, D02].",
+    "Japanese regulatory or governance environment shifts to further restrict shareholder influence on corporate structure [D05]."
+   ],
+   "portfolio_risk": "Factor overlap exists with existing technology/semiconductor and Japanese equity holdings within the portfolio; position would increase exposure to cyclical semiconductor demand and entertainment volatility [D01, D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on Nikkei 225 to mitigate systemic Japanese market beta while maintaining single-name exposure to the idiosyncratic sum-of-the-parts catalyst.",
+   "biggest_risk_in_one_sentence": "The conglomerate discount remains entrenched due to the board's resistance to structural change, rendering the catalyst ineffective despite the underlying asset quality."
+  }
+ },
+ "final": {
+  "as_of_date": "2019-06-13",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "¥7,500",
+   "floor": "¥4,000",
+   "skew": "40% : 25%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Spin-off or formal separation of the high-growth image sensor business from the media/entertainment conglomerate to address the conglomerate discount [D01].",
+    "Enhanced segment-level financial reporting to align valuation with high-growth technology/semiconductor peer multiples [D01, D06].",
+    "Expansion of the 'Reimagine SPE' initiative beyond operational cost reductions into fundamental structural reform [D03]."
+   ],
+   "actors": [
+    "CEO/Board"
+   ],
+   "governance_route": "Engagement based on Japanese governance norms of influence and specific, polite pressure rather than hostile confrontation [D05].",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a persistent conglomerate discount, masking the distinct value of its high-growth image sensor business and stable entertainment assets [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "A sum-of-the-parts revaluation using peer benchmarks for sensors and media reveals significant upside to a target of ¥7,500 per share [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management's 'Reimagine SPE' initiative proves they are open to operational improvement, providing a credible path to negotiate structural reform [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The floor is protected by ¥397.7 billion in non-financial net cash and a conservative 7.54x P/E valuation [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management formally rejects structural separation and announces a strategy of deeper conglomerate integration [D03, D05].",
+   "Image sensor segment experiences a significant loss of market share or fundamental erosion of competitive moat [D01, D05].",
+   "Quarterly operating performance for core segments misses consensus by >15% for two consecutive quarters, indicating underlying business deterioration [D01, D02].",
+   "Japanese regulatory or governance environment shifts to further restrict shareholder influence on corporate structure [D05]."
+  ],
+  "what_would_change_our_mind": "Evidence that the board is entrenched against structural change or that the underlying fundamentals of the image sensor business are deteriorating, invalidating the sum-of-the-parts thesis.",
+  "memo": "The Company is a sprawling, world-class conglomerate whose pieces are worth significantly more than the whole [D01]. While it contains crown jewel assets—notably a dominant image sensor franchise and high-quality entertainment units—the market persists in applying a conglomerate discount, valuing the entire entity at a pedestrian 7.54x P/E [D01, D04].\n\nOur sum-of-the-parts analysis suggests the current stock price of ¥5,334 misses the mark, with a target of ¥7,500 achievable by re-rating individual segments against their respective technology and media peer benchmarks [D01, D04]. Consolidated operating margins of 10.3% are a poor metric for the company, as they aggregate businesses with wildly different capital intensity and growth profiles [D01, D02].\n\nMarket participants are distracted by transient concerns such as console transition risk and content spending, failing to see that the structural complexity is the primary inhibitor of shareholder value [D01, D05]. We believe the path to unlocking this value is through a formal separation of the image sensor business, forcing a re-rating that reflects the unit's true growth profile [D01, D06].\n\nWe intend to engage with the board to expand the 'Reimagine SPE' initiative into a comprehensive plan for structural reform [D03]. We will exercise the Japanese model of influence, applying specific and polite pressure to advocate for portfolio simplification [D05]. We expect to see progress within four quarters; should management stall or reject these initiatives, we are prepared to escalate our approach [D05].\n\nWith ¥397.7 billion in non-financial net cash, the stock possesses a hard valuation floor near ¥4,000, creating an asymmetric risk/reward skew of roughly 3:1 [D02, D03, D04]. We will exit if the company doubles down on conglomerate integration or if the image sensor franchise shows fundamental degradation [D01, D03].\n\nWe are initiating a position at 5% of NAV, utilizing common shares, and are hedging the systemic risk of this trade with index puts on the Nikkei 225 [D05, D08]. We are sizing this position to reflect our conviction in the governance route and the significant valuation gap [D01, D08].",
+  "uncited_claims": []
+ }
+}

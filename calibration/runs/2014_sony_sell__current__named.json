@@ -1,0 +1,50 @@
+{
+ "pack": "2014_sony_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2014-10-20",
+ "stages": {},
+ "final": {
+  "as_of_date": "2014-10-20",
+  "company": "Sony Corporation",
+  "ticker": "6758",
+  "decision": "SELL",
+  "reason_class": "L1",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Original hidden entertainment value: Remains, but not realizable as a standalone asset [D01, D07]",
+   "Structural catalyst (entertainment listing): Broken; board rejected the proposal [D03, D07]",
+   "Electronics recovery: Weakened by significant mobile goodwill impairment and lowered cash flow forecasts [D01, D03, D05]"
+  ],
+  "remaining_skew": "Poor; downside protection from hardware losses is weak and primary catalyst is off the table [D03, D04]",
+  "next_catalyst_and_timing": "None; structural catalyst is spent and management has chosen to retain the integrated structure [D01, D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The core thesis—separating entertainment to unlock value—has been explicitly rejected by the board [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Mobile division performance has deteriorated significantly, resulting in a large goodwill impairment and lowered expectations [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The event-driven edge is lost, and we do not hold positions waiting for organic electronics recovery in the absence of a structural catalyst [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   }
+  ],
+  "memo": "Our original investment in Sony was predicated on the potential to unlock hidden value in the entertainment assets and force a structural separation from the struggling electronics business [D01, D07]. The board’s decision to formally reject our proposal for a minority listing of the entertainment division removes the primary catalyst for our involvement [D03, D07]. \n\nFurthermore, the fundamental outlook has darkened, evidenced by the substantial ¥180bn impairment of mobile-communications goodwill and downward revisions to operating income guidance [D01, D03]. While gaming and sensors remain attractive, the consolidated structure continues to tether these assets to loss-making hardware, which now faces a more challenging competitive environment [D05, D06]. \n\nWe are not in the business of winning arguments or hoping for a turnaround in a company that has chosen to ignore our call for portfolio simplification [D07]. With the primary thesis broken and the governance path effectively closed, we are exiting the position to rotate capital into higher-skew opportunities [D01, D07].",
+  "uncited_claims": []
+ }
+}

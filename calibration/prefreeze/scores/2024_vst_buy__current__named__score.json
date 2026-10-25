@@ -1,0 +1,53 @@
+{
+ "trade_id": "2024_vst_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The March 2023 Energy Harbor acquisition supplied the original nuclear-fleet catalyst → The Energy Harbor acquisition, closed in March 2024, provides critical scale in zero-carbon dispatchable nuclear power, justifying a re-rating toward infrastructure-like multiples [D03].",
+   "AI/data-center and EV demand could accelerate domestic electricity demand against constrained baseload supply → Vistra represents a structural earnings inflection as the market misprices the shift from a cyclical merchant generator to a premium, carbon-free power compounder driven by AI data-center demand [D03]."
+  ],
+  "missed": [
+   "Brilliant capital allocation and substantial buybacks exploited assets valued far below new-build cost.",
+   "Intermittent generation increased the need and economic value of existing dispatchable assets."
+  ],
+  "extra_agent_drivers": [
+   "Vistra’s operating margins of 18.0% significantly outperform peers like Constellation Energy at 7.7%, highlighting superior operational efficiency in retail load matching [D06].",
+   "An adjusted FCF yield of 9.4% provides a durable downside floor, limiting risk while the company executes its growth strategy [D04]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Energy Harbor acquisition, closed in March 2024",
+    "citation": "D03",
+    "verdict": "unsupported"
+   },
+   {
+    "claim": "Vistra maintains a superior operating margin of 18.0% compared to Constellation's 7.7%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "adjusted FCF yield of 9.4% provides a durable downside floor",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We believe the successful integration of the Energy Harbor nuclear fleet creates a structural earnings inflection, positioning the company as an essential provider of dispatchable, zero-carbon power for the accelerating AI-driven data center buildout [D03].",
+ "grader_notes": "The agent correctly identified the direction and captured the two primary thematic drivers (Energy Harbor acquisition and AI demand linkage). It failed to capture the capital allocation/buyback driver and the intermittent generation thesis. Additionally, the agent incorrectly cited March 2024 as the Energy Harbor closing date, contradicting the key's March 2023 date.",
+ "run": "2024_vst_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

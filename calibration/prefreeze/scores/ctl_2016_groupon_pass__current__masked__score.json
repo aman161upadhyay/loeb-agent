@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2016_groupon_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Groupon/GRPN absent from all 54 quarterly issuer/instrument observations; no manager-specific public investment rationale recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company is a melting ice cube with negative operating margins and no clear path to profitability.",
+   "There is no identifiable event or catalyst to unlock value, rendering the investment fundamentally incompatible with our event-driven strategy.",
+   "The current market valuation of $2.97bn significantly exceeds our calculated equity value of $1.65bn-$1.85bn, even when accounting for net cash.",
+   "The thesis relies on unproven management executing an undefined turnaround, lacking the governance path required for our constructivist approach."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "negative operating margins of -5.7% as of Q2 2016",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net cash position of $530.1m",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "current market capitalization of $2.97bn",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Third Point requires a concrete event or an identifiable earnings inflection to justify engagement; here, we find neither [D01].",
+ "grader_notes": "The agent provided a fundamental investment thesis, whereas the actual decision was a control PASS based on the absence of Third Point historical ownership of the issuer. The agent's reasoning was entirely fabricated as a 'why pass' justification, which does not align with the factual reality that Loeb never issued a public rationale for Groupon.",
+ "run": "ctl_2016_groupon_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

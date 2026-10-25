@@ -1,0 +1,48 @@
+{
+ "trade_id": "ho_2025_soho_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "August 20 13D/A reports zero beneficial shares following the August 18 event, establishing an exit rather than continued ownership.",
+   "The January campaign sought an independent sale process and fair minority treatment; catalyst realization is an inferred classification, not a contemporaneous disclosed execution rationale.",
+   "Issuer transaction terms announced August 18 provide event context but do not prove Third Point sold at the announced $9 offer price or that the merger was then complete."
+  ],
+  "extra_agent_drivers": [
+   "The core investment thesis remains an event-driven trade centered on achieving an independent and fair sale process for minority shareholders.",
+   "Governance remains the primary risk; we require evidence of process independence and competing offers to ensure minority holders receive adequate consideration.",
+   "Recent financial results show top-line growth, but we remain focused on actual cash flow generation after accounting for leases, debt, and funding needs.",
+   "As an existing activist situation, we maintain our position to ensure our public demands for minority protections are effectively prosecuted."
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Q2 2025 results showed revenue growth of 8.9% YoY",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "reported results include a $47.4 million foreign-exchange gain",
+    "citation": "D03",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Our current stance is to hold while we monitor the board and special committee for signs of a genuine, competitive bidding environment [D07].",
+ "grader_notes": "The agent failed to identify the actual exit signaled by the August 20 13D/A filing, incorrectly recommending a HOLD based on an outdated assessment of the activist thesis. The reasoning is entirely disconnected from the post-event reality that Third Point had already divested its position.",
+ "run": "ho_2025_soho_sell__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

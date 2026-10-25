@@ -1,0 +1,59 @@
+{
+ "trade_id": "ho_2026_portfolio_reduce_gross",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "The manager significantly reduced both net and gross exposure, including rails and the Kimberly-Clark successor position. → We will trim winners that have hit our valuation targets and deploy index-level protection to anchor the portfolio against broad market volatility"
+  ],
+  "missed": [
+   "Exposure reduction began in February when positions reached targets or benefited from factor rotation.",
+   "Cuts reflected sizing and risk discipline rather than a change in company fundamentals and preceded the Iran-war escalation; no advance war forecast is claimed."
+  ],
+  "extra_agent_drivers": [
+   "Mitigate correlated drawdown risk from highly concentrated AI-thematic long positions",
+   "High S&P 500 trailing earnings multiple suggests limited margin for error in a slowing earnings growth environment",
+   "Increase portfolio liquidity to preserve capital for future event-driven opportunities",
+   "Protect against potential financing risk if market volatility increases"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Market leadership is highly concentrated in AI-related themes, presenting a risk of correlated liquidation",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Current equity-market valuations are elevated (27.98x trailing P/E)",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Treasury yields (4.26% on 10-year) provide a competitive opportunity cost",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total equity gross exposure was 168.4% with 71.6% net",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 6,
+  "share": 0.75
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are moving to HEDGE, not out of a lack of conviction in our individual event-driven catalysts, but to ensure that our gross exposure does not leave us vulnerable to a thematic squeeze",
+ "grader_notes": "The agent correctly identified the decision to reduce gross exposure, but mischaracterized the primary intent as a 'HEDGE' strategy based on market macro-factors rather than the actual portfolio rebalancing logic described by Loeb. The reasoning is farthest from Loeb's in its focus on AI-theme liquidation risks and macro-valuation metrics, which were not the drivers cited by the manager for the February reduction.",
+ "run": "ho_2026_portfolio_reduce_gross__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "HEDGE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

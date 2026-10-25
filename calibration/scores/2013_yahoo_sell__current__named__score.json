@@ -1,0 +1,52 @@
+{
+ "trade_id": "2013_yahoo_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Monetize part of a substantially repriced position after the governance catalyst has been achieved. → Consistent with our philosophy of exiting when the catalyst is spent, we are trimming our position to lock in gains from the successful governance transition [D07].",
+   "The issuer's 40m-share block transaction supplies $1.1644bn gross liquidity at $29.11. → Issuer liquidity terms allow for a partial block exit to capture value from the successful governance campaign while retaining optionality in Asian assets [D02].",
+   "Board participation can end as the ownership threshold falls while a residual investment preserves upside. → We maintain our exposure to the Asian assets, which remain a distinct source of upside, but we are no longer compelled to hold the full core advertising franchise at current valuations without further evidence of operating acceleration [D05]."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "The core governance catalyst is realized following the installation of a new CEO and board access [D03].",
+   "Operating results (revenue ex-TAC and adjusted EBITDA) show continued pressure, indicating the core business turnaround remains unproven [D03].",
+   "We are not in the business of winning arguments or overstaying a technical event once the primary catalyst is spent [D07]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "With the installation of a new CEO and our successful acquisition of board seats, the governance catalyst has been effectively realized",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Consistent with our philosophy of exiting when the catalyst is spent, we are trimming our position to lock in gains from the successful governance transition",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The operating fundamentals—specifically revenue ex-TAC and adjusted EBITDA—have not yet demonstrated a clear inflection",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 8,
+  "share": 0.89
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Consistent with our philosophy of exiting when the catalyst is spent, we are trimming our position to lock in gains from the successful governance transition [D07].",
+ "grader_notes": "The agent correctly identified the direction and the primary motivation (monetization following catalyst achievement). The reasoning overlaps well with Loeb's stated drivers regarding the governance success and maintaining residual upside. The agent included extra drivers related to operational performance and internal investment philosophy, which are consistent with the context provided but were not strictly in the answer key's driver list.",
+ "run": "2013_yahoo_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

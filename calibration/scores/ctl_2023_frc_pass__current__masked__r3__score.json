@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2023_frc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "First Republic/FRC absent from complete 54-quarter index; no attributable named long comment recovered in the local manager-letter/case archive. PASS is an observed reportable-common control, not proof that undisclosed shorts, swaps or credit were absent."
+  ],
+  "extra_agent_drivers": [
+   "Liquidity crisis and $30B intervention",
+   "Lack of granular data on solvency",
+   "Lack of differentiated edge in assessing stabilization",
+   "Risk of total equity wipeout"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is currently experiencing a severe liquidity crisis marked by deposit outflows that necessitate a $30 billion intervention from major banks and the suspension of the common dividend",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market has priced the equity at 0.46x tangible book value",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this opportunity, as the risk of total loss from a potential regulatory-led write-down of common equity outweighs the upside [D03, D05].",
+ "grader_notes": "The agent correctly identified the PASS direction but failed to cite the objective index-based evidence provided in the answer key, instead generating proprietary fundamental reasons for passing. While the fundamental analysis is well-grounded in the provided documents, it does not overlap with the specific observational control logic defined for this trade ID.",
+ "run": "ctl_2023_frc_pass__current__masked__r3",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

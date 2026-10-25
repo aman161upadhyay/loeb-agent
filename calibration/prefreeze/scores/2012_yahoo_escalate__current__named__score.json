@@ -1,0 +1,52 @@
+{
+ "trade_id": "2012_yahoo_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The CEO's inaccurate credential undermines credibility and raises integrity concerns. → Our analysis of SEC filings has uncovered unacceptable discrepancies regarding the academic credentials of the CEO and director Patti Hart, a failure of disclosure that strikes at the heart of the board's integrity",
+   "Similar director-biography discrepancies make this a systemic governance issue, not just one executive's error. → Material discrepancy in CEO and director biographies reported in SEC filings undermines board credibility and governance",
+   "Fresh directors with industry competence and integrity are needed before further delay. → We are escalating to ensure our four independent director candidates are seated to provide the technical and media expertise this business desperately needs"
+  ],
+  "missed": [
+   "The search committee's basic diligence and board oversight need an independent investigation."
+  ],
+  "extra_agent_drivers": [
+   "The core business requires urgent stewardship reform to align with the value of distinct Asian affiliate holdings"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "unacceptable discrepancies regarding the academic credentials of the CEO and director Patti Hart",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current board has failed the most basic test of governance.",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are escalating to ensure our four independent director candidates are seated",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 3,
+  "share": 0.25
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are not interested in waiting for the current regime to stumble through further disclosures; we are escalating to ensure our four independent director candidates are seated to provide the technical and media expertise this business desperately needs [D03, D07, D08].",
+ "grader_notes": "The agent correctly identified the core escalation driver: the CEO/director biography scandal and the resulting need for new leadership. The reasoning was closest to Loeb's in its focus on the 'integrity' and 'transparency' failure of the board. It was farthest from Loeb's in its emphasis on the 'Asian-asset' monetization thesis, which, while factually relevant to the investment, was not explicitly highlighted in Loeb's specific list of drivers for the escalation event.",
+ "run": "2012_yahoo_escalate__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

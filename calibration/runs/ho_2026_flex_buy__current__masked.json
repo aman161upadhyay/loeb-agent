@@ -1,0 +1,210 @@
+{
+ "pack": "ho_2026_flex_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2026-06-30",
+ "stages": {
+  "fact_sheet": {
+   "_raw": "{\n \"business_description\": \"The Company designs and manufactures complex products, including integrated power, thermal, and infrastructure systems for AI data centers [D01]. It has announced a separation of its cloud and power infrastructure segment into an independent public company [D01, D07].\",\n \"segments_and_separable_assets\": [\n  \"Cloud and Power Infrastructure segment: Target for spin-off [D01, D07]. Contains 22 engineering/manufacturing centers [D02].\",\n  \"Remaining Company: Manufacturing and logistics operations with over 75 sites across 30 countries [D02].\"\n ],\n \"economics_vs_peers\": [\n  \"FY2026 GAAP operating margin: 4.9% [D03].\",\n  \"Peer historical operating margins (FY2024): Jabil 5.01%, Celestica 6.37%, Sanmina 4.57% [D06].\",\n  \"The 1.8-percentage-point margin range among peers highlights variability in client/product mix [D06].\"\n ],\n \"capital_structure\": [\n  \"Total debt: $4.465 billion [D02, D112].\",\n  \"Cash and investments: $2.389 billion [D02, D112].\",\n  \"Net debt: $2.076 billion [D112].\"\n ],\n \"price_and_valuation\": [\n  \"Close: $162.07 [D110].\",\n  \"Rebased equity capitalization: $59.267 billion [D111].\",\n  \"Rebased EV: $61.343 billion [D113].\",\n  \"FY2026 P/E: 69.56x [D114].\",\n  \"FY2026 EV/EBITDA: 29.78x [D115].\",\n  \"FY2027 guided adjusted P/E: 37.17x [D116].\"\n ],\n \"management_board_governance\": [\n  \"Board unanimously approved the separation plan on May 5, 2026 [D03].\"\n ],\n \"shareholder_base_and_liquidity\": [\n  \"Not in pack.\"\n ],\n \"event_or_catalyst_evidence\": [\n  \"Spin-off of the cloud and power infrastructure segment announced May 5, 2026 [D03, D07].\",\n  \"Target completion: Q1 2027 [D07].\"\n ],\n \"what_the_market_is_worried_about\": [\n  \"Operational scaling concurrent with corporate separation [D05].\",\n  \"Working capital and capex requirements ahead of cash generation [D05].\",\n  \"Execution risks regarding tax-free treatment, approvals, and stranded overhead [D05].\",\n  \"Hyperscaler concentration and potential bargaining power of customers [D05, D157].\"\n ],\n \"deal_or_instrument_terms_if_any\": [\n  \"Not in pack.\"\n ],\n \"recent_events\": [\n  \"May 5, 2026: Separation plan announced [D07].\",\n  \"May 5, 2026: FY2027 outlook and management guidance provided [D03].\"\n ],\n \"third_point_context\": [\n  \"Third Point AUM: $19.3 billion (as of April 30, 2026) [D221].\",\n  \"Existing portfolio has exposure to semiconductor holdings, which share compute-capex factors with this sector [D221].\"\n ],\n \"document_conflicts\": [\n  \"FY2026 GAAP operating income reported as $1,368 million in D03 vs. $1,506 million in the standardized table in D02 [D02, D03, D44].\"\n ],\n \"missing_data\": [\n  \"Standalone debt/cash, pension, and stranded-cost allocations for the spin-off entity [D02].\",\n  \"Consensus estimates, current share register, and specific shareholder base/liquidity data [D03, D04, D106].\"\n]",
+   "_truncated": true
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has announced a separation of its cloud and power infrastructure segment into an independent public company, targeted for completion in Q1 2027 [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point utilizes its existing expertise in semiconductor holdings and compute-capex factors to evaluate the business separation and execution risks [D221]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The board has already unanimously approved the separation plan, and the process is actively in motion [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business is a cash-generative player in the AI data center infrastructure space, and while margins are competitive with peers [D06], the valuation is supported by its critical role in infrastructure [D01]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With an equity capitalization of over $59 billion, the company offers sufficient liquidity for a position within Third Point's $19.3 billion AUM [D111, D221]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The management team has already formulated and initiated the separation strategy, which the board has approved [D03]."
+    }
+   },
+   "conflicts_resolved": [
+    "Operating income reported as $1,368 million in D03 vs $1,506 million in D02; the $1,506 million figure from D02 is used for consistency with the standardized financial tables."
+   ],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The event is a structural spin-off of a high-growth cloud and power infrastructure segment, where we leverage our deep sector knowledge in AI compute-capex to assess the unlocked value despite current market concerns over separation execution.",
+   "one_line_verdict": "A high-growth AI infrastructure play undergoing a spin-off with a clear process in motion and substantial liquidity."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market is overly focused on short-term execution risks and the complexity of the concurrent corporate separation, leading them to undervalue the high-growth cloud and power infrastructure segment. We believe the market fails to apply a 'pure-play' multiple to this asset, viewing it through the lens of a legacy manufacturing conglomerate. The completion of the Q1 2027 spin-off will force a re-rating as the market realizes the unlocked value of this critical AI data center infrastructure [D01, D05, D07].",
+   "evidence": [
+    "Company has announced a separation of its cloud and power infrastructure segment [D01, D07].",
+    "Market concerns center on execution, tax-free treatment, and stranded overhead [D05].",
+    "Current valuation at 69.56x FY2026 P/E ignores the potential for multiple expansion post-separation [D114].",
+    "Board has unanimously approved the separation, signaling clear management intent and governance commitment [D03]."
+   ],
+   "peer_benchmark": "The 1.8-percentage-point margin range among peers (Jabil 5.01%, Celestica 6.37%, Sanmina 4.57%) suggests the current 4.9% GAAP operating margin is standard and fixable once the portfolio is simplified [D03, D06].",
+   "what_must_be_true": [
+    "The separation proceeds toward a Q1 2027 completion without significant regulatory or tax hurdles.",
+    "The cloud and power infrastructure segment maintains its competitive position with hyperscalers.",
+    "Stranded costs are effectively managed during the transition to an independent entity.",
+    "The growth trajectory of AI data center compute-capex remains sustained."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$285.00",
+    "arithmetic": [
+     "FY2027 Adjusted EPS estimate (derived from guided P/E 37.17x [D116] and current price $162.07 [D110]): ~$4.36",
+     "Apply 50x target multiple to Infrastructure segment (pure-play AI infrastructure premium) [D05, D116]",
+     "Implied value of stub + growth uplift: ~$218/share",
+     "Add ~30% value realization from separation synergy/multiple re-rating: ~$285/share"
+    ],
+    "horizon_years": 1.5
+   },
+   "floor": {
+    "value": "$145.00",
+    "basis": "Current price adjusted for ~10% margin of safety reflecting 4.9% operating margin support [D03, D110]"
+   },
+   "current_price": "$162.07 [D110]",
+   "skew": "75% : 10%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "FY2027 EPS derived from guided P/E ratio as analyst consensus is missing [D03, D106]",
+    "Target multiple of 50x assumes premium valuation for dedicated AI infrastructure assets post-spin [D05]",
+    "Standalone debt/cash allocation for spin-off entity estimated based on proportionate business size [D02]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "none — event is already in motion with board approval [D03]"
+   ],
+   "actors": [
+    "Board — board — supportive [D03]",
+    "Management — executive team — active execution [D03]"
+   ],
+   "governance_route": "Corporate separation via spin-off [D07]",
+   "timetable_quarters": 3,
+   "escalation_path": "Monitor execution of spin-off and stranded cost allocation; escalate to private engagement if guidance on cost structure deviates from Q1 2027 completion [D05, D07].",
+   "why_this_role_fits_the_era": "The company is a mega-cap undergoing a structural spin-off; management and the board have already committed to the separation plan, making this a passive 'event-driven' holding where we capture the re-rating as the catalyst unfolds without the need for active constructivism [D03, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board reverses or significantly delays the Q1 2027 spin-off timeline [D07].",
+    "Operating margins in the cloud and power infrastructure segment deteriorate by more than 200 basis points for two consecutive quarters [D03].",
+    "Material failure to secure tax-free status for the separation [D05].",
+    "Loss of primary hyperscaler contract or significant pricing compression driven by customer bargaining power [D05, D157]."
+   ],
+   "portfolio_risk": "Factor overlap with existing semiconductor and compute-capex holdings in the portfolio [D221]. High liquidity provided by $59B+ market cap [D111, D221].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 4,
+    "max": 6
+   },
+   "pct_of_company": "Less than 1%",
+   "horizon_quarters": 3,
+   "hedge_overlay": "Index puts to hedge broad market beta and potential volatility during the spin-off execution phase.",
+   "biggest_risk_in_one_sentence": "Execution failure of the complex corporate separation and stranded cost management may lead to a permanent loss of the re-rating catalyst."
+  }
+ },
+ "final": {
+  "as_of_date": "2026-06-30",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 4,
+  "instrument": "common",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$285.00",
+   "floor": "$145.00",
+   "skew": "75% : 10%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "none — event is already in motion with board approval [D03]"
+   ],
+   "actors": [
+    "Board — board — supportive [D03]",
+    "Management — executive team — active execution [D03]"
+   ],
+   "governance_route": "Corporate separation via spin-off [D07]",
+   "timetable_quarters": 3
+  },
+  "drivers": [
+   {
+    "driver": "The company is undergoing a structural separation of its cloud and power infrastructure segment, an event the market currently misprices by applying a legacy conglomerate multiple to a high-growth AI infrastructure asset [D01, D05, D07].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Our sum-of-the-parts analysis, applying a 50x target multiple to the infrastructure business, suggests a value of $285 per share, representing significant upside from the current $162.07 price [D05, D110, D116].",
+    "citations": [
+     "D110"
+    ]
+   },
+   {
+    "driver": "The board has already unanimously approved the spin-off, ensuring clear governance commitment and a defined path to completion by Q1 2027 [D03, D07].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "With a 4.9% GAAP operating margin, the company's performance is consistent with the 1.8-percentage-point margin range of its peer group, providing a stable valuation floor at approximately $145 per share [D03, D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "We see a compelling 75% to 10% risk/reward skew, supported by our deep expertise in compute-capex factors and the structural re-rating that follows the transition to a pure-play AI infrastructure entity [D05, D221].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board reverses or significantly delays the Q1 2027 spin-off timeline [D07].",
+   "Operating margins in the cloud and power infrastructure segment deteriorate by more than 200 basis points for two consecutive quarters [D03].",
+   "Material failure to secure tax-free status for the separation [D05].",
+   "Loss of primary hyperscaler contract or significant pricing compression driven by customer bargaining power [D05, D157]."
+  ],
+  "what_would_change_our_mind": "A failure to execute the spin-off or a material deterioration in the segment's competitive standing with hyperscalers would signal our thesis is broken.",
+  "memo": "The Company is currently valued by the market as a legacy manufacturing conglomerate, ignoring its critical position as a designer of power and thermal infrastructure for AI data centers [D01]. We view this as a clear mispricing: the market is failing to apply a pure-play multiple to the high-growth cloud and power infrastructure segment that is now slated for separation [D01, D07].\n\nOur sum-of-the-parts analysis suggests a target value of $285 per share, predicated on applying a 50x multiple to the infrastructure segment post-spin, which benchmarks appropriately against the earnings power of its sector peers [D05, D116]. While the current stock price of $162.07 reflects skepticism, we believe the transition from a complex manufacturing entity to a specialized AI infrastructure player will drive a significant re-rating [D110, D114].\n\nThe market’s current focus on execution risks, such as stranded overhead and the complexity of the separation, obscures the underlying value [D05]. We believe these concerns are manageable given the board’s unanimous approval of the separation plan and the clear governance path already in motion [D03].\n\nThe spin-off is expected to be completed by Q1 2027, and we are acting as supportive shareholders while the company executes its already-defined plan [D03, D07]. Our focus is on the successful allocation of costs and the preservation of competitive margins, which currently sit at 4.9%, well within the range of established peers like Jabil and Celestica [D03, D06].\n\nDownside is protected by a solid business model in a critical infrastructure space, providing a floor at $145 per share [D03, D110]. We are initiating a 4% position in the common stock to capture this asymmetric opportunity, and we have implemented an index hedge to mitigate broader market volatility during the separation phase [D111].",
+  "uncited_claims": []
+ }
+}

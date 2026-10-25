@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2018_ge_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No General Electric/GE issuer row in complete 2013–Q2 2026 13F index; reviewed local letters/case archive yields no attributable common-stock comment. Do not confuse GE with separately held industrial issuers or with a credit exposure that 13F cannot exclude."
+  ],
+  "extra_agent_drivers": [
+   "The company is a deeply discounted conglomerate where high-quality Aviation and Healthcare assets are obscured by a broken Power segment and massive debt",
+   "New CEO Larry Culp represents a credible pivot toward operational rigor and capital allocation discipline",
+   "Sum-of-the-parts analysis suggests a base case equity value of ~$5.70 per share, with an upside to $17.50 through multiple expansion and Power stabilization",
+   "Trian’s board presence provides a governance anchor to hold management accountable to the planned Healthcare spin-off and de-leveraging"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The appointment of Larry Culp as CEO marks a necessary break from the status quo",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Trian’s board presence provides a governance anchor",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The market currently prices the equity at $12.09",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The appointment of Larry Culp as CEO marks a necessary break from the status quo, providing the leadership required to execute on the pending Healthcare spin-off and the stabilization of Power [D01, D09].",
+ "grader_notes": "The agent correctly arrived at a PASS decision, although it did so via a hard-fail mechanism triggered by a BUY recommendation. The reasoning is entirely divergent from the answer key; the agent focused on an active investment thesis involving CEO Larry Culp and SOTP analysis, whereas the answer key correctly identifies that Third Point had no historical position or public record of involvement in GE during this period.",
+ "run": "ctl_2018_ge_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false,
+ "enforced_hard_fail": true
+}

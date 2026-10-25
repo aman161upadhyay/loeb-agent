@@ -1,0 +1,52 @@
+{
+ "trade_id": "2005_ligand_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Scientific assets and intellectual property retain value despite operating and accounting failures. → Ligand's market valuation is distorted by a self-inflicted financial reporting crisis and Nasdaq delisting, masking the underlying value of its IP portfolio",
+   "An independent committee, current financials and relaxation of the 10% pill can enable value realization. → We will force board accountability and governance reform via a 13D filing to address the failure to maintain reporting compliance"
+  ],
+  "missed": [
+   "More than $600 million of NOLs and unrecognized real estate lift the asset-based downside estimate.",
+   "A strategic process can test substantial interest from potential product-line acquirers."
+  ],
+  "extra_agent_drivers": [
+   "The company suffers from a massive margin gap, with an FY2004 EBIT margin of -22.9% compared to peer Amgen's 38.9%."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Ligand's market valuation is distorted by a self-inflicted financial reporting crisis and Nasdaq delisting",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company suffers from a massive margin gap, with an FY2004 EBIT margin of -22.9% compared to peer Amgen's 38.9%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The asset base of marketed products and scientific IP provides a solid floor, insulating the investment from total permanent capital loss",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Ligand Pharmaceuticals is a textbook example of a company with valuable underlying pharmaceutical assets whose market price has been decimated by a management-induced governance and accounting failure.",
+ "grader_notes": "The agent correctly identifies the investment thesis (valuable IP underlying a governance-depressed stock) and the path to value realization (board intervention). It is furthest from Loeb's specific drivers regarding the NOL/real estate-backed valuation floor, instead substituting its own SOTP calculation. The agent's reasoning matches the core of Loeb's activist approach.",
+ "run": "2005_ligand_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

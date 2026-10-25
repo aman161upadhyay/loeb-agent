@@ -1,0 +1,263 @@
+{
+ "pack": "2015_bax_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-08-05",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Baxter International Inc. is a medical-products and renal-care company that recently completed the spin-off of its bioscience operations into Baxalta on July 1, 2015 [D01]. The newly focused parent company possesses a distinct product mix, margin profile, and capital structure compared to the previously consolidated business [D01, D06].",
+   "segments_and_separable_assets": [
+    "Medical-products and renal-care businesses: Standalone operating performance is the focus post-spin; revenue and EBITDA specifics not in pack [D01]"
+   ],
+   "economics_vs_peers": [
+    "Peers cited include Becton Dickinson, Danaher, and Pfizer; no numerical margin gap table available [D04, D06]",
+    "Pre-spin FY2014 consolidated operating margin was 16.2% [D02, D06]"
+   ],
+   "capital_structure": [
+    "Long-term debt/leases: $8,392m (FY2014) [D02]",
+    "Standalone net-debt bridge not recovered [D01, D02]"
+   ],
+   "price_and_valuation": [
+    "Price as of 2015-08-05: $42.13 [D04]",
+    "Market cap: ~$22.93bn [D04]",
+    "H2 2015 continuing EPS guidance: $0.58–0.62 (before special items) [D03, D04]",
+    "EV, P/E, FCF yield: Not comparable or unreconciled due to July 2015 separation [D04]"
+   ],
+   "management_board_governance": [
+    "CEO/Chair/Board details: Not in pack; potential leadership succession noted as a future governance checkpoint [D03, D07]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders/Short interest: Not in pack [D08]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential for margin improvement through focus on standalone medical-products and renal-care operations; leadership succession and operating priorities cited as possible governance checkpoints [D03, D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Standalone overhead costs exceeding focus benefits [D04, D05]",
+    "Margin improvement limitations in regulated medical products [D04, D05]",
+    "Execution risk regarding CEO transition [D04, D05]",
+    "Headwinds from currency, hospital purchasing pressure, and renal reimbursement [D04, D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "July 1, 2015: Separation of Baxalta completed [D01, D07]",
+    "July 29, 2015: Q2 results and post-separation outlook released [D03, D07]"
+   ],
+   "third_point_context": [
+    "Exact stake, basis, AUM, and portfolio exposure: Not in pack [D07, D08]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Reconciled standalone balance sheet, cutoff net-debt bridge, exact EV, current segment-level revenue/EBITDA, and Third Point's specific internal position details."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The spin-off of Baxalta creates a newly focused medical-products company where standalone margin improvement and operational simplification represent a fixable opportunity [D01, D03, D07]."
+    },
+    "edge": {
+     "score": "UNSURE",
+     "evidence": "While Third Point has a history of constructivist engagement in large-cap healthcare, the pack lacks specific internal analysis or a proprietary plan to address the margin gap vs peers [D03, D04, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Large-cap governance allows for private engagement and board pressure on leadership succession and operating priorities [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business operates in a core, cash-generative medical and renal-care segment which provides a fundamental floor despite transition overhead concerns [D01, D04, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$22.93bn, the equity offers sufficient liquidity to build a meaningful position for the Era C/E strategy [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Specific management details are not in pack, leaving the execution capacity of the post-spin leadership as an open question [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "edge_statement": "The event is the post-spin operational simplification of Baxter, where Third Point can apply its constructivist framework to drive margin expansion and hold management accountable for the new standalone strategy.",
+   "one_line_verdict": "a recently spun-off medical-products company undergoing a transition where operational focus and leadership accountability provide a path for value creation."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2",
+    "M4"
+   ],
+   "variant_view": "The market is overly focused on transition-related overhead and macro headwinds, ignoring the inherent potential for margin expansion following the separation of the bioscience business. We believe a leaner, focused Baxter will reveal significant operational inefficiencies that a new management team can address to close the valuation gap with higher-performing peers. Success will be driven by rigorous cost discipline and a strategic reset that moves the company toward industry-standard profitability metrics.",
+   "evidence": [
+    "Spin-off of Baxalta creates a newly focused medical-products company where standalone margin improvement and operational simplification represent a fixable opportunity [D01, D03, D07].",
+    "Current market concerns center on standalone overhead costs and margin limitations in regulated medical products [D04, D05].",
+    "Leadership succession and operating priorities provide clear governance checkpoints to drive accountability [D03, D07]."
+   ],
+   "peer_benchmark": "Becton Dickinson and Danaher [D04, D06]",
+   "what_must_be_true": [
+    "Management executes a concrete cost-reduction plan to improve standalone margins toward peer levels",
+    "Transition overhead costs are successfully contained post-spin",
+    "The new leadership team prioritizes capital allocation and operational efficiency over legacy practices",
+    "The core medical and renal-care segments maintain stable market share despite macro pressures"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "55.00",
+    "arithmetic": [
+     "H2 2015 EPS guidance of $0.60 annualized [D03, D04]",
+     "Implied run-rate EPS projected to $1.50 with margin expansion [Assumption based on peer-gap closure]",
+     "Target P/E multiple 20x based on peer benchmarks [Assumption based on Becton Dickinson/Danaher profiles D04, D06]",
+     "1.50 * 20 = 30.00 base, with strategic premium for margin recovery [Assumption]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "38.00",
+    "basis": "Current price adjusted for market volatility and baseline medical-products cash flow stability [D04]"
+   },
+   "current_price": "$42.13 [D04]",
+   "skew": "30% : 10%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Standalone EPS projection of $1.50",
+    "Target peer-multiple of 20x",
+    "No standalone balance sheet/debt bridge provided in pack"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Margin improvement roadmap to achieve peer-level profitability benchmarks [D03, D07]",
+    "Formalize operational cost-reduction targets for the standalone business [D03, D07]",
+    "Clarify capital allocation strategy post-spin [D07]"
+   ],
+   "actors": [
+    "Baxter Management — Leadership — Stance not in pack [D03, D07]",
+    "Baxter Board — Governance — Stance not in pack [D03, D07]"
+   ],
+   "governance_route": "Private engagement regarding board operating priorities and leadership accountability [D03, D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management fails to provide a concrete margin improvement plan within two quarters, move to public letter (P2) or potential board nomination engagement.",
+   "why_this_role_fits_the_era": "Fits the post-2011 standard of utilizing private constructivism first for large-cap situations where the board is expected to listen, aiming to drive operational focus following a major corporate separation."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Margin improvement plan fails to demonstrate progress toward peer-level benchmarks over two consecutive quarters [D03, D07].",
+    "Standalone overhead costs significantly exceed projected synergy benefits post-spin [D04, D05].",
+    "Execution of the leadership transition or operating priorities deviates from established accountability milestones [D03, D07].",
+    "Significant deterioration in core renal-care reimbursement or market share due to pricing pressures [D04, D05]."
+   ],
+   "portfolio_risk": "Factor overlap with existing large-cap healthcare positions and general exposure to medical-products sector volatility [D03, D04]. Gross exposure is managed according to the Era C constructivist mandate; liquidity is sufficient given the ~$22.93bn market cap [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts used to dampen systematic market beta exposure given macro-headwinds in the medical-products segment [D04, D05].",
+   "biggest_risk_in_one_sentence": "The risk is that standalone corporate overhead and structural medical-product cost pressures prove too rigid for the new management team to achieve the required margin expansion."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-08-05",
+  "company": "Baxter International Inc.",
+  "ticker": "BAX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "55.00",
+   "floor": "38.00",
+   "skew": "30% : 10%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Margin improvement roadmap to achieve peer-level profitability benchmarks",
+    "Formalize operational cost-reduction targets for the standalone business",
+    "Clarify capital allocation strategy post-spin"
+   ],
+   "actors": [
+    "Baxter Management",
+    "Baxter Board"
+   ],
+   "governance_route": "Private engagement regarding board operating priorities and leadership accountability",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The spin-off of Baxalta creates a newly focused medical-products company where operational simplification presents a clear opportunity for margin expansion [D01, D03, D07].",
+    "citations": [
+     "D01",
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The market is currently mispricing the entity due to transition-related overhead concerns, ignoring the potential to close the margin gap with peers like Becton Dickinson and Danaher [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Establishing a rigorous cost-reduction plan and clear capital allocation priorities will drive value toward a target valuation of $55 per share [D03, D04, D07].",
+    "citations": [
+     "D03",
+     "D04",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Core renal-care and medical-products cash flows provide a fundamental floor near $38 per share, offering an attractive asymmetric risk/reward profile [D01, D04, D05].",
+    "citations": [
+     "D01",
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Margin improvement plan fails to demonstrate progress toward peer-level benchmarks over two consecutive quarters [D03, D07].",
+   "Standalone overhead costs significantly exceed projected synergy benefits post-spin [D04, D05].",
+   "Execution of the leadership transition or operating priorities deviates from established accountability milestones [D03, D07].",
+   "Significant deterioration in core renal-care reimbursement or market share due to pricing pressures [D04, D05]."
+  ],
+  "what_would_change_our_mind": "A failure to articulate a credible, peer-comparable margin expansion plan within two quarters or persistent operational drift that suggests management is unable to capitalize on the standalone structure.",
+  "memo": "Baxter International is a core medical-products and renal-care business that has recently emerged from the July 1, 2015, spin-off of its bioscience operations [D01, D07]. The market currently misprices this newly focused entity by over-weighting transition-related overhead and macro headwinds, failing to recognize the significant operational simplification opportunity now available [D04, D05].\n\nBy narrowing the focus to its core segments, Baxter has the potential to close the material margin gap existing against high-performing peers like Becton Dickinson and Danaher [D04, D06]. We project that aggressive operational focus and cost discipline can drive run-rate earnings power, supporting a path toward our $55 valuation target [D03, D04].\n\nThe market’s pessimism regarding transition costs ignores the fundamental floor provided by the company’s cash-generative medical and renal-care operations [D01, D04, D05]. We believe the current price of $42.13 offers an asymmetric entry point with a hard floor near $38 [D04].\n\nOur plan involves private engagement with the board and leadership to force a concrete margin improvement roadmap and a disciplined capital allocation strategy [D03, D07]. We expect measurable progress toward peer-level profitability within two quarters; failure to execute will result in a rapid escalation of our constructivist efforts [D03, D07].\n\nWe are initiating a 5% position in Baxter common stock as an event-driven opportunity [D04, D05]. We intend to hedge our systemic market exposure via index puts to account for ongoing sector volatility [D04, D05].",
+  "uncited_claims": [
+   "The target P/E multiple of 20x is an assumption based on peer benchmarks",
+   "The standalone EPS projection of $1.50 is an assumption"
+  ]
+ }
+}

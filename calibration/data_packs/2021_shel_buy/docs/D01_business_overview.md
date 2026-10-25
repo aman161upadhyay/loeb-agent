@@ -1,0 +1,16 @@
+Title: Business economics and asset map — Royal Dutch Shell plc
+Source: https://www.globenewswire.com/news-release/2021/07/29/2270900/0/en/royal-dutch-shell-plc-2nd-quarter-2021-and-half-year-unaudited-results.html (2021-07-29); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (2021-10-05); https://13f.info/13f/000108514621002609-third-point-llc-q2-2021 (2021-08-16)
+Date: 2021-10-27
+
+Royal Dutch Shell integrates upstream oil/gas, LNG, refining, chemicals, marketing and low-carbon investments. Legacy assets generate cash under one commodity and carbon profile, while renewable and growth businesses seek different reinvestment and investor horizons. LNG has strategic scale and a different demand outlook from mature oil refining. Integration can provide trading, supply and balance-sheet advantages, but it also makes capital-allocation priorities harder to observe. Ben van Beurden leads the group. The listed share-class and domicile structure add a separate governance layer; a corporate simplification is not the same question as an operating breakup. [S1; analyst mapping]
+
+Economic map and evidence limits. Separate the source's business descriptions from an analyst's inference about durability. Revenue scale alone is not a moat: the important distinctions are repeat demand, switching or distribution advantages, reinvestment requirements, and the ability to convert customer value into cash for owners. A strong asset can be an unattractive security when other claims absorb the cash. Conversely, complexity can obscure an otherwise sound franchise. The facts above identify the businesses and the relevant unit of analysis; they do not establish that a particular corporate structure is optimal.
+
+Underwrite the operating case before assuming an event. Identify who pays, why the customer returns, which costs are fixed, and what spending must recur to protect the franchise. Keep operating assets, financial investments and restricted capital separate. Where the recovered source does not provide unit economics, customer retention or segment capital employed, those figures are not available in contemporaneous sources; do not fill them with a current estimate. A downside analysis should test the business with no immediate transaction or valuation rerating. This is an analyst framework, not a statement that management or any shareholder has adopted it.
+
+Analyst cross-check: Map the customer, contractual counterparty and owner of the relevant intellectual property separately. A distributor's access to end demand is not ownership of that demand; likewise, reported group market share does not prove that each operating unit possesses pricing power or recurring revenue.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.globenewswire.com/news-release/2021/07/29/2270900/0/en/royal-dutch-shell-plc-2nd-quarter-2021-and-half-year-unaudited-results.html (published 2021-07-29).
+- [S2] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (published 2021-10-05).
+- [S3] https://13f.info/13f/000108514621002609-third-point-llc-q2-2021 (published 2021-08-16).

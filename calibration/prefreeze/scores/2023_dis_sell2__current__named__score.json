@@ -1,0 +1,53 @@
+{
+ "trade_id": "2023_dis_sell2",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Reported common fell from 950,000 at Q4 2022 to absent Q1 2023; this is the verified directional observation.",
+   "The original thesis sought cost, Hulu and board changes, but no contemporaneous stated liquidation rationale was recovered.",
+   "Common-only absence does not prove the timing or size of a complete beneficial/derivative unwind."
+  ],
+  "extra_agent_drivers": [
+   "Support agreement provides board representation and active governance oversight",
+   "The $5.5 billion cost-savings target",
+   "Secular network erosion and high streaming content spend",
+   "Standstill obligations"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The September 2022 support agreement, which included the appointment of Carolyn Everson to the board, provides us with a seat at the table to monitor management's execution of the strategic agenda",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Q1 FY2023 results showed revenue growth of 7.8%, segment operating income declined by 6.6%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The current valuation, with a trailing P/E of 61.4x",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We will continue to evaluate the firm’s ability to convert revenue scale into durable cash flow for shareholders, maintaining our position while the governance agreement provides the structure for management to act [D01, D03].",
+ "grader_notes": "The agent incorrectly identifies the trade direction as HOLD, while the actual outcome was a full exit of the common stock position by Q1 2023. The agent provides a detailed forward-looking rationale for holding, which contradicts the observed liquidation of the position.",
+ "run": "2023_dis_sell2__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

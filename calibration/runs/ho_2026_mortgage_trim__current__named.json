@@ -1,0 +1,54 @@
+{
+ "pack": "ho_2026_mortgage_trim",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2026-02-27",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-02-27",
+  "company": "Discounted first-lien residential mortgage portfolio",
+  "ticker": "N/A",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Refinancing and monetization mechanism: intact [D01]; management continues to prioritize these seasoned assets for potential housing-affordability and equity-access opportunities [D03].",
+   "Collateral quality: intact; borrower equity remains strong at 40-55% [D02, D03]."
+  ],
+  "remaining_skew": "Potentially asymmetric upside as discounted principal moves toward par via refinancing or liquidation, balanced against uncertain timing and financing risks [D01, D04].",
+  "next_catalyst_and_timing": "Binding term financing, current pool-level performance data, and cash proceeds from refinancing expected following the Q1 2026 window [D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The core thesis remains that seasoned first-lien loans trading at a discount can be monetized as principal is pulled toward par through refinancing [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Borrower collateral remains robust, with disclosed borrower equity of 40-55% providing a significant cushion for the portfolio [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The external environment shows a slight decrease in benchmark mortgage rates, which may improve refinancing incentives for underlying borrowers [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The position serves as a core structured-credit exposure with identifiable operating levers, consistent with our opportunistic approach [D03, D08].",
+    "citations": [
+     "D03",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "We continue to hold our position in the discounted first-lien residential mortgage portfolio. The fundamental thesis remains intact: these seasoned loans, purchased at a discount to par, offer a path to value creation through borrower refinancing and the eventual pull-to-par of principal [D01, D07]. With borrowers maintaining significant equity in their properties—specifically in the 40–55% range—the underlying collateral remains robust despite broader market fluctuations [D02, D03].\n\nWhile we acknowledge the risks inherent in the credit environment—specifically the potential for financing spreads and interest rates to rise in tandem, which could dampen refinancing activity—our current assessment is that the structural margin of safety is sufficient [D05, D06]. The slight decline in the US 30-year mortgage benchmark rate to 5.98% provides a constructive backdrop for potential pool activity as we look toward the upcoming quarter [D03, D04].\n\nWe remain disciplined in our wait for hard evidence. Our next monitoring objective is the receipt of binding term financing and actual cash proceeds from the portfolio, which will serve as the primary validation of the monetization mechanism [D07]. We are not in the business of guessing the exact month of realization, but the portfolio's core descriptors—>18 years of seasoning and owner-occupied status—suggest an investable opportunity that warrants continued patience while the catalyst matures [D03].",
+  "uncited_claims": []
+ }
+}

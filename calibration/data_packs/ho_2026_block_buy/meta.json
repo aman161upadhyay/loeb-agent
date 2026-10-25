@@ -1,0 +1,29 @@
+{
+  "id": "ho_2026_block_buy",
+  "company": "Block",
+  "ticker": "XYZ",
+  "aliases": [
+    "Jack Dorsey",
+    "Amrita Ahuja",
+    "Block",
+    "Block Inc.",
+    "XYZ",
+    "Square",
+    "SQ",
+    "Cash App",
+    "Cash App Borrow",
+    "Square Financial Services",
+    "Afterpay",
+    "TIDAL",
+    "Bitkey",
+    "Proto",
+    "Square Loans"
+  ],
+  "as_of_date": "2026-03-31",
+  "mode": "new",
+  "era": "E",
+  "first_action_window": "2026-Q2; exact date unknown",
+  "fund_aum_usd_bn": 19.3,
+  "instrument": "common",
+  "notes": "Sealed Era E by disclosure date, not by company origin. First action dates unknown unless stated. Quarter-end fallback is explicit and may fall inside the action quarter; not a claim of pre-entry foresight. fund_aum_usd_bn=19.3 is stale firm-wide AUM stated in April 2025 report (published May 5); includes all managed/affiliate funds, SMAs and legacy-private participation notes, not Offshore NAV. Effective date of that firm AUM not specified. Authenticated cutoff closes and current consensus/peer multiples generally not recovered; historical filing-implied marks and issuer prices expressly dated. Header Date is the compiled desk-date cutoff, not a claim that all underlying publications share one date. Financial snapshots are intentionally limited to recovered figures; conditional underwriting is labeled separately. Grade B."
+}

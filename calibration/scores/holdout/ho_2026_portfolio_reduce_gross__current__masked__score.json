@@ -1,0 +1,53 @@
+{
+ "trade_id": "ho_2026_portfolio_reduce_gross",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Exposure reduction began in February when positions reached targets or benefited from factor rotation.",
+   "The manager significantly reduced both net and gross exposure, including rails and the Kimberly-Clark successor position.",
+   "Cuts reflected sizing and risk discipline rather than a change in company fundamentals and preceded the Iran-war escalation; no advance war forecast is claimed."
+  ],
+  "extra_agent_drivers": [
+   "Concentration in AI-related winners creates significant downside risk if the sector's momentum and capital-spending cycle shift simultaneously",
+   "The equity risk premium has compressed, as implied by the 3.57% earnings yield versus 4.26% 10-year Treasury yield, reducing the margin of safety",
+   "Market breadth remains narrow, increasing susceptibility to sudden, correlated liquidation losses across thematic baskets",
+   "Historical performance at year-end provides a base of +8.9% for 2025, allowing for a defensive posture to preserve capital during potential regime shifts"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Market leadership is highly concentrated in AI-related themes, presenting a risk of correlated liquidation if momentum falters",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Broad-market earnings yield is 3.57% against a 10-year Treasury yield of 4.26%",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total fund exposure as of December 31, 2025, was 162.2% long and 48.4% short",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 4,
+  "share": 0.5
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We are shifting to a HEDGE posture to dampen this factor correlation.",
+ "grader_notes": "The agent failed to match the actual decision, choosing to increase hedges rather than reducing gross exposure based on target-price attainment and factor rotation. The agent's reasoning was entirely focused on top-down macroeconomic concerns and market concentration, whereas Loeb's actual decision was driven by sizing discipline and specific position realizations.",
+ "run": "ho_2026_portfolio_reduce_gross__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "HEDGE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

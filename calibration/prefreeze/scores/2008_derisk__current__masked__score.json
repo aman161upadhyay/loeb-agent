@@ -1,0 +1,51 @@
+{
+ "trade_id": "2008_derisk",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Fundamental value is insufficient protection when crowded exposures become correlated and liquidity disappears. → The July reversal, where our energy longs and financial shorts both moved sharply against us, taught us a painful lesson: apparent diversification is thin protection when factor co-movement and funding pressures force liquidation [D05, D06].",
+   "Reduce the chance that funding or redemptions force sales before event value can be realized. → We are reducing gross exposure immediately to ensure we are not forced sellers when the next wave of volatility hits, regardless of the intrinsic value of our positions [D04, D05].",
+   "Preserve the ability to redeploy into distressed opportunities rather than defend every prior mark. → In such a regime, the temptation to hold for a recovery at 'distressed prices' is a trap; we must instead prioritize our ability to exit and survive."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Heightened market volatility (VIX 39.39) and potential collateral calls necessitate a more defensive posture [D04].",
+   "The lack of visibility into current counterparty haircuts and redemption pressure mandates a shift toward higher liquidity [D01]."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "VIX has climbed to 39.39",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The July reversal, where our energy longs and financial shorts both moved sharply against us",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We are operating in the dark regarding our current counterparty haircuts and redemption pipelines",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 6,
+  "cited": 1,
+  "share": 0.17
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are reducing gross exposure immediately to ensure we are not forced sellers when the next wave of volatility hits, regardless of the intrinsic value of our positions [D04, D05].",
+ "grader_notes": "The agent perfectly captured the three core drivers identified in the archival analysis, specifically focusing on the failure of diversification during liquidity events, the danger of forced selling, and the shift away from 'defending marks' toward survival. The reasoning alignment is high, though the agent supplemented these with specific observations on market volatility (VIX) and counterparty uncertainty which, while not in the answer key drivers, are logically consistent with the context of 2008.",
+ "run": "2008_derisk__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

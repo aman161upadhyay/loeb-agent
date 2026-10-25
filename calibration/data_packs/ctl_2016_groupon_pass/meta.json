@@ -1,0 +1,19 @@
+{
+  "id": "ctl_2016_groupon_pass",
+  "company": "Groupon",
+  "ticker": "GRPN",
+  "aliases": [
+    "Rich Williams",
+    "Groupon",
+    "GRPN",
+    "Groupon Goods",
+    "Groupon Local"
+  ],
+  "as_of_date": "2016-10-10",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Hypothetical desk decision 2016-10-10; no actual purchase window assigned.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Observational discipline control: no claim that a 13F negative excludes shorts, swaps, intraperiod positions or all non-reportable instruments. Replaces ctl_2016_twtr_pass; see control audit in manifest/key. Exact independently recovered pre-cutoff firm/fund AUM unavailable; null is an intentional missing-data/schema exception rather than fabricated numeric AUM. Authenticated cutoff closes and current consensus/peer multiples generally not recovered; historical filing-implied marks and issuer prices expressly dated. Header Date is the compiled desk-date cutoff, not a claim that all underlying publications share one date. Financial snapshots are intentionally limited to recovered figures; conditional underwriting is labeled separately. Grade C."
+}

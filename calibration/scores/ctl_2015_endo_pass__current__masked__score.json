@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2015_endo_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Endo/ENDP/Auxilium absent from 54-quarter issuer/instrument index and no attributable Endo investment comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The market ignores the core branded and generic franchise potential, focusing instead on transient integration costs and litigation noise",
+   "Operating margins are currently depressed at 37.3%, but reaching a 42% peer-benchmarked target provides significant upside to earnings power",
+   "The $1.6 billion divestiture of the Men's/Prostate Health business provides immediate capital to de-lever the balance sheet post-acquisition",
+   "At a current price of $87.32, the stock trades at an attractive entry relative to our $106-$125 post-event valuation range"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The $1.6 billion divestiture of the Men's/Prostate Health business",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins are currently depressed at 37.3%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "current price of $87.32",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 3,
+  "share": 0.21
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We are initiating a 5% position in the common stock to reflect our conviction in this event-driven setup.",
+ "grader_notes": "The agent proposed an active investment strategy based on fundamental valuation, whereas the actual Third Point historical record shows no investment in Endo during this period. The agent failed to identify that the firm did not hold the position, making its reasoning entirely disconnected from the actual 'PASS' state.",
+ "run": "ctl_2015_endo_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "BUY",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

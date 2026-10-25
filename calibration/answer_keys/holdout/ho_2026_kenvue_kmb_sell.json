@@ -1,0 +1,53 @@
+{
+  "id": "ho_2026_kenvue_kmb_sell",
+  "actual_decision": "SELL",
+  "conviction": "medium",
+  "size_pct_nav": "Complete exit per cited letter/13D; prior NAV weight not recovered.",
+  "first_action_date": "2026-02; exact trading day unknown",
+  "disclosure_date": "2026-04-10",
+  "reason_class": "L1",
+  "opportunity_template": [
+    "E2",
+    "E4"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Kimberly-Clark",
+      "Kenvue boards",
+      "shareholders",
+      "regulators",
+      "creditors"
+    ],
+    "governance_route": "Operating/transaction/portfolio implementation; no new proxy or board route required.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "The manager says the Kimberly-Clark exposure, described as successor to the prior Kenvue position, was completely exited in February.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": "the complete exit from Kimberly Clark (the successor to last year’s Kenvue position)"
+    },
+    {
+      "driver": "Demand for defensive securities provided a favorable exit opportunity.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "The exposure cuts followed target attainment or factor rotation rather than a stated change in company fundamentals.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf (2026-04-10; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "No exit valuation, exact successor mechanics or realized round-trip P&L disclosed.",
+  "outcome_note": "See dated primary disclosure for actual action. No later stock return, fund contribution or July 2026 unwind is a desk input. Conviction is an evaluator label, not a disclosed manager conviction; exact cost and realized round-trip P&L remain unknown.",
+  "sources": [
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1696/Third_Point_Q1_2026_Investor_Letter_MLHL.pdf",
+    "https://www.sec.gov/Archives/edgar/data/55785/000110465925105220/tm2530027d1_ex99-1.htm",
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf",
+    "https://assets.thirdpointlimited.com/f/166217/x/3999c42098/2025-04-april-monthly-report-tpil.pdf",
+    "https://13f.info/13f/000104027325000003-third-point-llc-q3-2025"
+  ],
+  "pack_quality_notes": "Grade C. Point-in-time issuer/manager evidence is separated from dated post-action explanation. Missing cutoff price, consensus, full peer models and current NAV constrain valuation. Original exact action dates and execution prices are unknown; a quarter-end fallback or preceding month-end trading day is expressly identified in metadata. Earlier-source arguments and inferred size-change rationales are not mislabeled as new manager statements. Each driver source identifies the retrospective disclosure. timetable_quarters=0 means no reliable quantitative timetable recovered, not an assertion of immediate completion."
+}

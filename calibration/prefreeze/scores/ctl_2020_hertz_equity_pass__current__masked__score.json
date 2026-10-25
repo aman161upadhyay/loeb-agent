@@ -1,0 +1,61 @@
+{
+ "trade_id": "ctl_2020_hertz_equity_pass",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No pre-reorganization Hertz common row in 2020 reportable history."
+  ],
+  "extra_agent_drivers": [
+   "The Company has filed for Chapter 11 bankruptcy, which renders the common equity worthless under the absolute priority rule as debt significantly exceeds asset value.",
+   "Total debt stands at approximately $18.8 billion, dwarfing the potential liquidation value of the vehicle fleet and operating assets.",
+   "Market participants are speculating on a recovery or residual value that ignores the debt-laden capital structure and the legal reality of bankruptcy proceedings.",
+   "We expect the court-supervised process to confirm that enterprise value accrues entirely to senior creditors, leaving zero recovery for junior common equity holders."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is currently undergoing a Chapter 11 bankruptcy restructuring following a catastrophic collapse in travel demand",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Despite the clear insolvency of the business, the stock is currently trading at a nonsensical price of $5.53",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "total debt ballooning to approximately $18.8 billion",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "peers like AMERCO maintain healthy margins of 13.6%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "administrative expenses and the inevitable losses from forced fleet liquidations will only further erode any potential asset coverage",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 12,
+  "share": 0.92
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Despite the clear insolvency of the business, the stock is currently trading at a nonsensical price of $5.53, driven by retail speculation regarding a potential recovery [D04].",
+ "grader_notes": "The agent attempted a short thesis based on bankruptcy fundamentals, while the Loeb control is a retrospective PASS due to lack of reportable exposure. The agent provided detailed fundamental reasoning that was entirely absent from the Loeb record, failing the objective of matching the investor's documented activity.",
+ "run": "ctl_2020_hertz_equity_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "SHORT",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

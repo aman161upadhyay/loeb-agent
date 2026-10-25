@@ -1,0 +1,260 @@
+{
+ "pack": "ctl_2012_best_buy_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2012-02-01",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a global multichannel consumer-electronics retailer operating through stores, online distribution, mobile products, and technology services [D01]. The core investment thesis centers on the potential for connected-product growth and an online operating reset to leverage the incumbent's footprint against online competition [D01, D03].",
+   "segments_and_separable_assets": [
+    "Retail stores and online platform [D01]; revenue evidence: Q3 FY2012 revenue $12,099m [D03].",
+    "Connected devices and mobile products (services and inventory) [D01, D05].",
+    "Peer multiples: Walmart (13.9x P/E), Target (12.9x P/E), Amazon (131.0x P/E) [D04]."
+   ],
+   "economics_vs_peers": [
+    "FY2011 operating margin of 4.2% [D06] compared to Walmart's 6.1% and Amazon's 1.8% [D06].",
+    "Growth: Company FY2011 revenue growth 1.2% vs Walmart 3.4% and Amazon 40.6% [D06].",
+    "Mix: Domestic computing/mobile represents 35% of December sales; entertainment dropped to 16% [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $2.541bn [D04].",
+    "Cash: $2.392bn [D04].",
+    "Net debt: $0.149bn [D04].",
+    "The fulcrum sits between retail inventory, services, and continuing franchise cash flows after leases and restructuring obligations [D01, D05]."
+   ],
+   "price_and_valuation": [
+    "Price: $24.18 [D04].",
+    "Market cap: ~$8.47bn [D04].",
+    "EV: ~$8.62bn [D04].",
+    "Trailing P/E: ~8.6x [D04].",
+    "FY2011 FCF yield: 5.3% [D04].",
+    "Forward P/E (management guidance): 6.6–7.2x [D04]."
+   ],
+   "management_board_governance": [
+    "Management guidance: reaffirmed annual adjusted diluted EPS of $3.35–$3.65 [D04].",
+    "Board/governance: not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 350.317m [D04].",
+    "Top holders: not in pack.",
+    "Short interest: not in pack.",
+    "Average daily volume: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Online operating reset and connected-product growth [D03, D07].",
+    "Holiday sales update and reaffirmed guidance [D03, D07].",
+    "Next milestones: annual results, online profitability, and restructuring costs [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Structurally pressured store network and declining legacy categories (e.g., entertainment comparable sales -19.5% in Dec) [D05].",
+    "Online price competition and weak legacy categories outweighing mobile growth [D05].",
+    "Restructuring charges becoming a permanent cash expense [D05, D07]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "December 13, 2011: Q3 results ($12,099m revenue, 1.5% GAAP operating margin) [D03].",
+    "January 6, 2012: Holiday trading update and reaffirmed guidance [D03, D07]."
+   ],
+   "third_point_context": [
+    "Mandate: event-driven investments across securities and capital structures [D08].",
+    "Current firm AUM, gross/net exposure: not in pack.",
+    "Existing stake: not in pack."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Current Third Point position/basis, precise board composition/nomination windows, institutional shareholder list, and specific debt covenants."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company suffers from a significant margin gap versus peers and a structurally pressured legacy retail footprint that requires a clear online operating reset [D01, D03, D06]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on an unproven management-led operating turnaround without a clear, specific governance plan or differentiated capital allocation catalyst [D01, D03]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "There is no board composition data, no nomination window information, and no evidence of an active or restless shareholder base to force a change [D04]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The core legacy entertainment business is in secular decline with negative comparable sales of -19.5% [D05], which constitutes a 'melting ice cube' under our discipline tests."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $8.47bn and high common shares outstanding, the company offers sufficient liquidity to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis depends on management successfully executing a multi-year operational turnaround and restructuring plan, which fails our 'new management executes' rule [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The opportunity is a retail incumbent with a margin gap versus peers, but we lack an edge in the absence of a concrete governance plan or evidence that the core retail business isn't a melting ice cube.",
+   "one_line_verdict": "A structurally challenged retailer in a secularly declining category with no governance path and an unproven management turnaround plan."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2"
+   ],
+   "variant_view": "The market believes the retailer is a dying storefront in a secularly declining category with unsustainable legacy costs. We disagree, as the company possesses a viable pathway to capture connected-product growth and improve operating margins through an online reset. These initiatives, if executed, will close the gap between current suppressed valuations and the performance of more efficient peers.",
+   "evidence": [
+    "FY2011 operating margin of 4.2% vs. Walmart's 6.1% [D06]",
+    "Revenue growth of 1.2% in FY2011 [D06]",
+    "Entertainment category comp sales decline of -19.5% [D05]"
+   ],
+   "peer_benchmark": "Walmart (6.1% operating margin) [D06]",
+   "what_must_be_true": [
+    "Management successfully executes the online operating reset",
+    "Mobile products and services growth outpaces the decline in legacy entertainment",
+    "Restructuring costs do not become a permanent drag on cash flow"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$33.85",
+    "arithmetic": [
+     "Target EPS of $3.50 (midpoint of $3.35-$3.65 guidance) [D04]",
+     "Target P/E multiple of 9.7x (blended peer discount to Walmart 13.9x and Target 12.9x) [D04]",
+     "$3.50 * 9.7x = $33.95 (less net debt per share $0.43) = $33.52 implied share price"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$23.36",
+    "basis": "Cash per share of $6.83 [D04] + net current assets/inventory liquidation value (assumed 75% of non-cash current assets)"
+   },
+   "current_price": "$24.18 [D04]",
+   "skew": "40% : -3%",
+   "irr_pct": {
+    "base": 18,
+    "bear": -2,
+    "bull": 28
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Target multiple of 9.7x reflects significant discount to peers despite operational improvement",
+    "Liquidation value of non-cash current assets assumed at 75% due to lack of inventory aging detail in pack"
+   ]
+  },
+  "gate4": {
+   "plan_role": "PASS",
+   "asks": [
+    "not in pack"
+   ],
+   "actors": [
+    "not in pack"
+   ],
+   "governance_route": "not in pack",
+   "timetable_quarters": 0,
+   "escalation_path": "Not applicable as we are passing on the opportunity.",
+   "why_this_role_fits_the_era": "The opportunity fails our core investment criteria. We require an identifiable event or governance catalyst to drive value, and in this case, we lack an edge, have no visibility into the board or shareholder base, and are relying on an unproven management turnaround plan for a business in secular decline [D01, D03, D04]. Per our mandate, cheap without an event is a pass [D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to meet reaffirmed EPS guidance of $3.35–$3.65 for two consecutive quarters [D04].",
+    "Restructuring charges transition from transitory costs into permanent margin-dilutive operating expenses [D07].",
+    "Further deterioration in legacy category comparable sales beyond the observed -19.5% [D05].",
+    "Inability to achieve online profitability milestones by the next fiscal year end [D07]."
+   ],
+   "portfolio_risk": "High factor overlap with traditional retail and consumer discretionary sectors already sensitive to shifts in the online-offline operating regime [D01, D06]. Liquidity is sufficient given the market cap, but the lack of an activist governance cushion increases downside sensitivity [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "We are relying on an unproven management team to execute a complex turnaround in a sector experiencing secular decline without a governance-driven catalyst to force capital allocation discipline."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-02-01",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "PASS",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$33.85",
+   "floor": "$23.36",
+   "skew": "40% : -3%",
+   "irr_pct": 18
+  },
+  "plan": {
+   "asks": [
+    "not in pack"
+   ],
+   "actors": [
+    "not in pack"
+   ],
+   "governance_route": "not in pack",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company suffers from a significant margin gap versus peers and a structurally pressured legacy retail footprint that requires a clear online operating reset [D01, D03, D06].",
+    "citations": [
+     "D01",
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The thesis relies on an unproven management-led operating turnaround without a clear, specific governance plan or differentiated capital allocation catalyst [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "There is no board composition data, no nomination window information, and no evidence of an active or restless shareholder base to force a change [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The core legacy entertainment business is in secular decline with negative comparable sales of -19.5%, constituting a 'melting ice cube' [D05].",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to meet reaffirmed EPS guidance of $3.35–$3.65 for two consecutive quarters [D04].",
+   "Restructuring charges transition from transitory costs into permanent margin-dilutive operating expenses [D07].",
+   "Further deterioration in legacy category comparable sales beyond the observed -19.5% [D05].",
+   "Inability to achieve online profitability milestones by the next fiscal year end [D07]."
+  ],
+  "what_would_change_our_mind": "Evidence of a concrete governance path or the emergence of an activist catalyst that would force the management team to improve capital allocation and operational efficiency.",
+  "memo": "The Company is a global multichannel consumer-electronics retailer currently attempting to navigate a difficult transition from a store-heavy model to an integrated online and mobile-focused business [D01]. While the company trades at a seemingly attractive forward P/E of 6.6–7.2x, the underlying retail operations are marred by a clear margin gap, with FY2011 operating margins of 4.2% versus 6.1% at Walmart [D04, D06].\n\nOur valuation analysis suggests a target price of $33.85 based on a 9.7x multiple of potential earnings, yet we find the reliance on the current management team to execute a multi-year turnaround to be insufficient for our investment mandate [D04]. In our experience, \"cheap\" without an event-driven catalyst is simply a value trap, especially when the core entertainment segment is in secular decline with negative comparable sales of -19.5% [D05, D08].\n\nWe see no evidence of a concrete governance plan, active board pressure, or institutional shareholder alignment that would provide a margin of safety for an operational turnaround [D04]. Without a defined roadmap or actors capable of forcing capital allocation discipline, we are not prepared to underwrite the execution risk inherent in this restructuring [D01, D03]. Accordingly, we are passing on the opportunity to invest at this time [D08].",
+  "uncited_claims": []
+ }
+}

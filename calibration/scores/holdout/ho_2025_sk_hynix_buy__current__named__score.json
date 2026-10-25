@@ -1,0 +1,64 @@
+{
+ "trade_id": "ho_2025_sk_hynix_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 4,
+  "matched": [],
+  "missed": [
+   "HBM differentiation and sticky design qualifications can dampen through-cycle earnings volatility.",
+   "AI inference remains memory constrained, supporting HBM growth beyond accelerator-unit growth.",
+   "Rising HBM complexity can widen the technology lead despite competition.",
+   "The manager saw a substantial valuation discount to Micron and Samsung."
+  ],
+  "extra_agent_drivers": [
+   "SK hynix is mispriced as a legacy cyclical memory player despite undergoing a structural earnings inflection driven by its dominant HBM3E positioning in the AI accelerator supply chain.",
+   "The company demonstrated a 42% operating margin in Q1 2025, significantly outperforming competitors like Micron (5.19%) and Samsung (10.88%).",
+   "Management guidance confirms that HBM demand is expected to double in 2025, providing a clear trajectory for sustained revenue and margin growth.",
+   "At 5.89x EV/EBITDA, the stock offers a compelling entry point for an AI infrastructure asset, with a target valuation of 9.0x reflecting its shifted earnings power."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "By annualizing the KRW 7.44 trillion operating profit delivered in Q1 2025, we project an annual run rate of KRW 29.76 trillion",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company demonstrated a 42% operating margin in Q1 2025",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "At 5.89x EV/EBITDA, the stock offers a compelling entry point",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has guided for HBM demand to double in 2025",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Downside is protected by a fortress balance sheet with KRW 14.3 trillion in cash",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "SK hynix is the preeminent beneficiary of the secular shift in AI computing architecture, yet the market continues to misprice it as a commodity memory cyclical, valuing the company at a depressed 5.89x EV/EBITDA [D03, D04].",
+ "grader_notes": "The agent correctly matched the investment direction. However, the reasoning is entirely based on fundamental data available at the time of the AS_OF_DATE rather than the specific drivers cited by Third Point in their retrospective disclosure. There is zero overlap between the agent's quantitative/valuation drivers and Loeb's qualitative drivers regarding HBM stickiness, inference constraints, and competitive technology leads.",
+ "run": "ho_2025_sk_hynix_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

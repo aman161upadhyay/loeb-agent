@@ -1,0 +1,50 @@
+{
+ "pack": "2022_growth_cut",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "hedge",
+ "as_of_date": "2022-03-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2022-03-31",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The Federal Reserve initiated a rate-hiking cycle on March 16 [D03], and CPI inflation reached 7.9% in February [D02], signaling a significant shift away from the cheap-funding environment that supported growth and venture-style assets [D01].",
+  "book_exposure": "The portfolio carries significant exposure to long-duration assets, including public growth equities, venture holdings, and SPACs, which are disproportionately sensitive to rising discount rates [D01].",
+  "actions": [
+   "Reduce exposure to high-multiple growth equities and speculative SPACs to limit sensitivity to rising discount rates [D01].",
+   "Exit illiquid private assets reliant on cheap funding [D01].",
+   "Reduce overall gross exposure to improve liquidity and risk positioning in the new rates regime [D05]."
+  ],
+  "target_gross_net": "Lower gross and net exposure significantly to align with a defensive posture during a regime change.",
+  "drivers": [
+   {
+    "driver": "The transition from a low-rate regime to a tightening cycle specifically targets the duration and valuation of growth, venture, and SPAC holdings [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Shrinking liquidity and higher discount rates undermine the funding models of cash-burning growth companies [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The portfolio's heavy skew toward long-duration equities necessitates a reduction in gross risk to preserve capital and prevent forced selling [D08].",
+    "citations": [
+     "D08"
+    ]
+   },
+   {
+    "driver": "The shift in macro regime—marked by the first rate hike and persistent inflation—renders previous valuation multiples for growth assets unsustainable [D02].",
+    "citations": [
+     "D02"
+    ]
+   }
+  ],
+  "memo": "The regime has decisively changed. We are moving from an era of easy money to a cycle of persistent inflation and rising policy rates [D03]. Our portfolio, heavily weighted toward long-duration growth, venture, and SPAC-related risk, is poorly positioned for this pivot. As we noted in our February discussions, private markets reliant on cheap funding face inevitable revaluation [D01]. \n\nWe must act quickly to reduce gross exposure. Staying committed to growth names solely because of brand quality or historical performance is a dangerous error when the underlying cost of capital has moved upward [D05]. We are cutting back on these speculative exposures to harden the book and preserve liquidity, prioritizing companies with genuine cash generation over those dependent on external funding rounds [D01]. This is not a time to wait for a rebound; it is a time to prune the portfolio of assets whose economics are anchored to a liquidity environment that no longer exists [D05].",
+  "uncited_claims": []
+ }
+}

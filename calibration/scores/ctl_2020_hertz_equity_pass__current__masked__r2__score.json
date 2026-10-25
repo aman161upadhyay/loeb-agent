@@ -1,0 +1,47 @@
+{
+ "trade_id": "ctl_2020_hertz_equity_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No pre-reorganization Hertz common row in 2020 reportable history."
+  ],
+  "extra_agent_drivers": [
+   "The current equity market valuation is a speculative trap that ignores the fundamental mathematical certainty of equity wipeout under the absolute priority rule.",
+   "Total debt of $17.089bn vastly exceeds the enterprise value, ensuring that no value reaches common shareholders after senior claims are satisfied.",
+   "The Chapter 11 bankruptcy process serves as a definitive catalyst that will force a creditor waterfall analysis, exposing the lack of equity recovery potential.",
+   "Administrative expenses and fleet liquidation losses continue to erode any theoretical option value, further impairing the equity holder's position."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Under the absolute priority rule, common equity must be completely wiped out before senior administrative, ABS, and corporate debt holders are satisfied",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company’s capital structure is burdened by $17.089bn in total debt",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 9,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Under the absolute priority rule, common equity must be completely wiped out before senior administrative, ABS, and corporate debt holders are satisfied [D02], [D03], [D05].",
+ "grader_notes": "The agent correctly identified the PASS decision. However, the reasoning is completely different; Loeb's PASS was based on the absence of a position in reportable filings, while the agent constructed a fundamental short thesis based on bankruptcy math. The agent failed to cite or acknowledge the retrospective nature of the control logic.",
+ "run": "ctl_2020_hertz_equity_pass__current__masked__r2",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false,
+ "enforced_hard_fail": true
+}

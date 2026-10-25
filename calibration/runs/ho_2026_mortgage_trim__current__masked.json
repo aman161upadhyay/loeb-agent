@@ -1,0 +1,56 @@
+{
+ "pack": "ho_2026_mortgage_trim",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2026-02-27",
+ "stages": {},
+ "final": {
+  "as_of_date": "2026-02-27",
+  "company": "the Company",
+  "ticker": "N/A",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis of monetizing and refinancing a seasoned discounted mortgage portfolio remains intact [D01, D03].",
+   "Evidence of portfolio characteristics (seasoning >18 years, first-lien reperforming loans) has been strengthened by February 2026 disclosures [D02, D03]."
+  ],
+  "remaining_skew": "Upside potential via par paydown of below-par loans vs. downside risk from financing costs and refinancing delays [D01, D04, D05].",
+  "next_catalyst_and_timing": "Binding term financing and updated pool performance data, expected in the March 2026 window [D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The core thesis—capturing the spread as discounted loans are monetized or refinanced—remains valid given the seasoned, reperforming nature of the collateral [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Borrower equity of 40–55% provides a meaningful collateral cushion before senior financing and transaction costs [D02, D04].",
+    "citations": [
+     "D02",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The financing environment is currently stable, though sensitivity to interest rate trends and funding spreads remains the primary monitorable risk [D03, D04, D06].",
+    "citations": [
+     "D03",
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "No structural breakdown of the investment thesis has occurred; we await the next set of operating disclosures to confirm execution progress [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "memo": "The thesis to hold our position in the mortgage portfolio is predicated on the continued monetization and refinancing of seasoned, reperforming first-lien residential loans [D01, D03]. As of February 27, 2026, the underlying collateral remains robust, characterized by a significant borrower equity cushion of 40–55% and an average loan seasoning of over 18 years [D02, D03]. These factors provide the necessary downside protection for our investment as we wait for the realization of the discount-to-par gap [D01, D04].\n\nWe are closely monitoring the financing environment, specifically the interplay between market interest rates and funding spreads, which directly impacts borrower refinancing incentives and our own financing risk [D03, D05]. While the recent 12bp decrease in the 30-year mortgage benchmark provides a constructive backdrop, we remain disciplined regarding the potential for higher funding costs to dampen returns [D03, D06]. We have not yet seen evidence of the March 2026 financing execution, making this a pivotal window for observing the next catalyst [D07].\n\nOur current stance is to hold through the ongoing operational cycle rather than exit or escalate. The risk-reward skew remains favorable as long as the monetization mechanism stays on track [D04]. We will continue to evaluate the portfolio based on borrower equity, paydown speed, and financing yields, ready to adjust our position should these fundamental indicators shift or the thesis regarding refinancing capacity break [D02, D05, D08].",
+  "uncited_claims": []
+ }
+}

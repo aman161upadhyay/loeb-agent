@@ -1,0 +1,19 @@
+Title: Dated event map and authority to act — Third Point growth, venture and SPAC risk book
+Source: https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (2022-03-16); https://www.bls.gov/news.release/archives/cpi_03102022.htm (2022-03-10); https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/28107946-f0e4-4631-89eb-5063b897287e/00D4I000000fYffUAE/Third%20Point%20Q4%202021.pdf (2022-02-16); https://www.bloomberg.com/news/articles/2022-02-01/loeb-s-third-point-hedge-funds-slump-as-much-as-10-in-january (2022-02-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (2021-10-05); https://13f.info/13f/000108514622001108-third-point-llc-q4-2021 (2022-02-14)
+Date: 2022-03-31
+
+February 16: the investor letter recognizes the risk of private-market revaluation under more expensive funding. March 10: CPI release shows 7.9% twelve-month inflation. March 16: the first policy-rate increase and signal of additional tightening. March 31: current cutoff. Future milestones include policy decisions, company cash-flow reports and financing rounds; none has a known successful outcome. Subsequent May positioning, summer reversal and year-end losses are absent. The desk must decide based on the changing regime and existing funding economics, not knowledge of how far prices will fall. [S1–S3]
+
+Event-path discipline. The timeline separates a public report, an announced intention, a legally binding step and actual implementation. These are different milestones. A board may examine an option without approving it; an approved transaction can still face financing, regulatory, tax or execution conditions. Put the authority to decide alongside the event, rather than presume that a minority shareholder can cause it immediately.
+
+The observation cutoff is hard. A later upload location for an older document does not move its underlying publication date, while a later investor retrospective cannot become an earlier desk input. No eventual transaction, operating result or investment outcome is implied here. Where a first transaction day is not publicly recoverable, this document does not invent one from a quarter-end filing. Future calendar items are possibilities to monitor, not completed facts. A realistic timetable should allow multiple quarters when necessary and specify the evidence that would show delay or failure. This avoids confusing a well-written proposal with an executable catalyst and keeps the analyst's expected value separate from the historical answer.
+
+Analyst cross-check: For each prospective milestone, identify who controls the decision, which prerequisite must occur first and whether shareholder approval is sufficient. Regulatory clearance, creditor consent and operational implementation are distinct gates. Delay affects discounted value even if the eventual strategic direction remains economically sensible and legally feasible.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.federalreserve.gov/newsevents/pressreleases/monetary20220316a.htm (published 2022-03-16).
+- [S2] https://www.bls.gov/news.release/archives/cpi_03102022.htm (published 2022-03-10).
+- [S3] https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/28107946-f0e4-4631-89eb-5063b897287e/00D4I000000fYffUAE/Third%20Point%20Q4%202021.pdf (published 2022-02-16).
+- [S4] https://www.bloomberg.com/news/articles/2022-02-01/loeb-s-third-point-hedge-funds-slump-as-much-as-10-in-january (published 2022-02-01).
+- [S5] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-september-2021-nav-performance-813566667.html (published 2021-10-05).
+- [S6] https://13f.info/13f/000108514622001108-third-point-llc-q4-2021 (published 2022-02-14).

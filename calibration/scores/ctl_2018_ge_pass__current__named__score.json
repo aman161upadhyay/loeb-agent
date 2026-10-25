@@ -1,0 +1,56 @@
+{
+ "trade_id": "ctl_2018_ge_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No General Electric/GE issuer row in complete 2013–Q2 2026 13F index; reviewed local letters/case archive yields no attributable common-stock comment. Do not confuse GE with separately held industrial issuers or with a credit exposure that 13F cannot exclude."
+  ],
+  "extra_agent_drivers": [
+   "GE is a bloated conglomerate with a massive debt load.",
+   "Trian is already on the board, leaving no edge for an activist approach.",
+   "Power segment margins are inefficient compared to peers.",
+   "Regulatory investigations and credit risks create asymmetric downside."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "GE debt load of $108.575bn",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Larry Culp named CEO",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Power segment margin is 7.7%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "GE stock trading at $12.09",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We favor companies where we can serve as the primary catalyst for change.",
+ "grader_notes": "The agent reached the correct PASS decision but completely fabricated its reasoning. The answer key relies on the historical absence of the ticker in Third Point's 13F filings, whereas the agent authored a comprehensive investment memo based on active fundamental analysis which Loeb did not perform.",
+ "run": "ctl_2018_ge_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

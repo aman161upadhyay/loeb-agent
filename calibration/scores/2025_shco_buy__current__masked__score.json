@@ -1,0 +1,52 @@
+{
+ "trade_id": "2025_shco_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Super-voting control and the proposed insider transaction created conflicts needing scrutiny. → The current environment, characterized by whispers of privatization, presents a classic risk for minority holders."
+  ],
+  "missed": [
+   "An independent sale process should maximize value for all shareholders.",
+   "Qualified outside bidders could offer superior value and a fresh start."
+  ],
+  "extra_agent_drivers": [
+   "Gap between underlying membership franchise value and public market performance necessitates active governance intervention",
+   "GAAP profitability remains fragile and negative equity underscores the need for capital allocation discipline over empire-building"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Membership growth of 13%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Positive operating income in Q3 2024",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Negative tangible book equity",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 3,
+  "share": 0.43
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are moving to ESCALATE to ensure that any potential change in control is handled through a transparent, competitive process that protects our investment.",
+ "grader_notes": "The agent correctly identified the direction as ESCALATE but failed to mirror the specific drivers articulated by Loeb, focusing instead on internal operating performance and financial health rather than the explicit demand for a competitive, third-party bidding process. While the sentiment regarding governance risk was shared, the agent's reasoning was driven more by fundamental business analysis than by the activist catalyst identified in the answer key.",
+ "run": "2025_shco_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

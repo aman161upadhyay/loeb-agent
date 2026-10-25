@@ -1,0 +1,52 @@
+{
+  "id": "2008_pdl_escalate",
+  "actual_decision": "ESCALATE",
+  "conviction": "medium",
+  "size_pct_nav": "9.7% at April 2007 letter; January 2008 stake/NAV weight unavailable.",
+  "first_action_date": null,
+  "disclosure_date": "2007-04-11",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "PDL board",
+      "L. Patrick Gage",
+      "shareholders"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Royalty and commercial assets are obscured by excessive mixed-business spending.",
+      "source": "https://www.sec.gov/Archives/edgar/data/882104/000119312507078826/dex991.htm (2007-04-11)",
+      "quote": null
+    },
+    {
+      "driver": "A separation should expose distinct commercial and development economics.",
+      "source": "https://www.sec.gov/Archives/edgar/data/882104/000119312507078826/dex991.htm (2007-04-11)",
+      "quote": "the Company should examine splitting into two publicly traded entities"
+    },
+    {
+      "driver": "Independent oversight and leadership accountability are necessary to restrain wasteful spending.",
+      "source": "https://www.sec.gov/Archives/edgar/data/882104/000119312507078826/dex991.htm (2007-04-11)",
+      "quote": null
+    },
+    {
+      "driver": "Credible buyer interest should be evaluated against a disciplined standalone plan.",
+      "source": "https://www.sec.gov/Archives/edgar/data/882104/000119312507078826/dex991.htm (2007-04-11)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact execution price and entry multiple not recovered.",
+  "outcome_note": "2008 commercial/manufacturing sales, cash distribution and research separation documented in dossier; aggregate fund return unknown.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/882104/000119312507078826/dex991.htm",
+    "https://www.sec.gov/Archives/edgar/data/882104/000119312507194707/dex991.htm"
+  ],
+  "pack_quality_notes": "Grade C. Requested cutoff is after original 2007 escalation. April letter concerned then-CEO McDade; key marks historical rationale, not a new January demand to dismiss an incumbent already changed. Current financials/price and an original January letter not recovered. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

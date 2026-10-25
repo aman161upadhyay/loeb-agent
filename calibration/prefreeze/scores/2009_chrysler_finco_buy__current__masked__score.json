@@ -1,0 +1,59 @@
+{
+ "trade_id": "2009_chrysler_finco_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Finco is legally ring-fenced from the insolvent manufacturing company. → While the market fears that the automaker’s potential bankruptcy will lead to the erosion of finance assets, we believe the legal separation of the financing entity—supported by a Treasury-backed SPV—may be significantly mispriced"
+  ],
+  "missed": [
+   "First liens in the 50s and second liens in the 30s are covered by the finance company's assets.",
+   "The government-set bankruptcy deadline can resolve ambiguity over the claims.",
+   "Subsequent runoff creates a repayment catalyst; this is a later thesis update, not initial entry evidence."
+  ],
+  "extra_agent_drivers": [
+   "A $1.5bn Treasury-backed facility provides a structural support layer, yet the actual collateral coverage remains unverified due to missing loan-level data",
+   "The governance route is strictly dictated by government-mandated viability plans, requiring a deep, data-driven recovery analysis we cannot yet perform",
+   "Downside floor protection depends on the legal integrity of the SPV, a high-risk variable in the current automotive bankruptcy climate"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The market is mispricing the legal ring-fence of the finance subsidiary, fearing that parent bankruptcy will erode recovery values for creditors",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "A $1.5bn Treasury-backed facility provides a structural support layer",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The governance route is strictly dictated by government-mandated viability plans",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Downside floor protection depends on the legal integrity of the SPV",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 2,
+  "share": 0.18
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Given the high degree of uncertainty regarding collateral quality and the lack of visibility into current market pricing, we are passing on the opportunity at this time.",
+ "grader_notes": "The agent correctly identified the core thesis of legal separation/ring-fencing but failed to make the investment because it lacked the specific pricing and collateral data that Loeb was willing to underwrite based on his market entry. The reasoning is farthest from Loeb's in its excessive caution regarding data availability, whereas Loeb proceeded with the trade.",
+ "run": "2009_chrysler_finco_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,52 @@
+{
+ "trade_id": "ho_2025_costar_add",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "April governance and capital-allocation oversight provide a documented pathway; attributing the precise add to that pathway is a well-inferred interpretation only. → The investment thesis centers on the governance improvements established in the April settlement, which replaced three directors and initiated formal oversight of capital allocation and compensation [D03]."
+  ],
+  "missed": [
+   "Reported common shares rose from 1.975 million to 3.085 million during Q2; the exact size-change rationale is not publicly stated.",
+   "The April original thesis was a valuable recurring commercial franchise obscured by Homes.com spending; continuation as a reason for the add is an inference, not a fresh manager quote."
+  ],
+  "extra_agent_drivers": [
+   "Residential drag remains a risk to commercial cash conversion.",
+   "Requires evidence from upcoming quarters to confirm oversight efficacy."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "April settlement successfully replaced three directors",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "underlying commercial franchise as high-quality, analogous to a Bloomberg for commercial real estate",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "risk that investment spending consumes commercial cash remains",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 6,
+  "share": 0.6
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We require evidence from upcoming quarters to confirm that the board's oversight is translating into actual capital-allocation discipline [D03, D07].",
+ "grader_notes": "The agent missed the primary factual driver of the trade (the documented increase in share count) and correctly identified the governance framework as the central thesis, though it failed to link this to an active 'ADD' decision, opting for a 'HOLD' instead. The reasoning aligns with the manager's cautious monitoring approach regarding the residential drag, but the failure to register the increase in position size results in a MISS on direction.",
+ "run": "ho_2025_costar_add__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "ADD",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

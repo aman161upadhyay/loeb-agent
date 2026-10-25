@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2020_hertz_equity_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No pre-reorganization Hertz common row in 2020 reportable history."
+  ],
+  "extra_agent_drivers": [
+   "Equity is a residual claim junior to debt",
+   "Market ignoring absolute priority rule",
+   "Price action driven by retail speculation",
+   "Lack of floor to support valuation"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The equity is a residual claim junior to over $17 billion in vehicle financing and corporate debt",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Recent trading volume reached over 533 million shares on June 8, 2020",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Accordingly, we are passing on the common equity and will continue to monitor the situation only for potential opportunistic entry points in the fulcrum debt should the reorganization terms improve [D01, D05].",
+ "grader_notes": "The agent correctly identified the PASS direction but failed to cite the firm-specific evidence provided in the answer key, instead generating four fundamental analysis drivers that Loeb did not express. The agent's reasoning is based on independent fundamental analysis of bankruptcy mechanics, whereas the key reflects a retrospective observational label based on historical reporting absence.",
+ "run": "ctl_2020_hertz_equity_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

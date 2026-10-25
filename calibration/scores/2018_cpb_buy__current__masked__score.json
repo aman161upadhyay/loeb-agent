@@ -1,0 +1,53 @@
+{
+ "trade_id": "2018_cpb_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "A credible slate and alliance with George Strawbridge created a route to governance change → Working alongside significant shareholders like George Strawbridge, we will push for a board refresh to ensure proper oversight of this simplification",
+   "A strategic review should consider a sale rather than preserve the status quo → We will ensure the strategic review process concludes with an actionable separation plan rather than cosmetic cost-cutting"
+  ],
+  "missed": [
+   "Poor board oversight and acquisition mistakes had damaged operating performance and shareholder value."
+  ],
+  "extra_agent_drivers": [
+   "The company is a conglomerate whose high-growth snack assets are unfairly obscured by the market's focus on secular decline in soup and failed fresh-food ventures.",
+   "A sum-of-the-parts valuation implies a $50-$55 target, providing a compelling 2-3:1 risk/reward skew relative to a $35-$38 downside floor supported by core asset value.",
+   "Management's initiated strategic review and the departure of the CEO provide an immediate, actionable catalyst to force structural separation."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company represents a classic conglomerate discount story: a high-quality, growth-oriented snack business trapped inside a struggling, legacy soup and fresh-food franchise",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Working alongside significant shareholders like George Strawbridge, we will push for a board refresh",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Strategic review process concluding in late August 2018",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Working alongside significant shareholders like George Strawbridge, we will push for a board refresh to ensure proper oversight of this simplification.",
+ "grader_notes": "The agent correctly identified the direction and the primary governance-focused drivers related to George Strawbridge and the strategic review. It struggled to match the specific criticism of the board's historical oversight and acquisition performance, instead focusing heavily on its own internal valuation work and conglomerate discount theory, which were not explicitly cited as Loeb's drivers.",
+ "run": "2018_cpb_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

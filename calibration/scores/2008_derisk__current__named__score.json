@@ -1,0 +1,41 @@
+{
+ "trade_id": "2008_derisk",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "Reduce the chance that funding or redemptions force sales before event value can be realized. → We will exit positions where the catalyst is spent or where the risk of forced liquidation outweighs the potential IRR, prioritizing liquidity over theoretical value.",
+   "Fundamental value is insufficient protection when crowded exposures become correlated and liquidity disappears. → The July factor reversal showed that our 'hedged' energy-long/financial-short strategy is vulnerable to correlated losses during regime shifts"
+  ],
+  "missed": [
+   "Preserve the ability to redeploy into distressed opportunities rather than defend every prior mark."
+  ],
+  "extra_agent_drivers": [
+   "The lack of current, verified NAV and counterparty data at this cutoff requires us to act conservatively to avoid unforeseen solvency risks"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Market volatility is spiking with the VIX at 39.39",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 1,
+  "share": 0.14
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We will reduce gross exposure immediately.",
+ "grader_notes": "The agent correctly identified the decision to reduce gross exposure and captured the essence of systemic liquidity and correlation risks. It missed the strategic driver regarding the preservation of capital for future distressed opportunities, focusing instead on internal operational gaps regarding data transparency.",
+ "run": "2008_derisk__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,64 @@
+{
+ "trade_id": "2009_delphi_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The GM and bankruptcy process supplies a path to emergence and new ownership. → The catalyst is the final financing hearing scheduled for June 16, which will authorize the $250 million subordinated DIP financing and clarify the path toward a sustainable capital structure [D02, D03, D07]."
+  ],
+  "missed": [
+   "Use senior restructuring paper rather than speculate in the old common stock.",
+   "Underwrite individual auto claims bottom-up while distinguishing plausible survivors from losers.",
+   "Restructuring can reset legacy costs and expose the industrial asset base's earnings power."
+  ],
+  "extra_agent_drivers": [
+   "The market views the Chapter 11 process with extreme pessimism, ignoring the underlying going-concern value of essential manufacturing assets and customer programs.",
+   "Distressed-debt claims are currently mispriced by participants overly focused on short-term production volatility and cash burn.",
+   "The company maintains over $1 billion in total cash reserves ($650m unrestricted), providing a tangible base for reorganization."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is currently operating in Chapter 11",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Q1 2009 operating margins fell to -21.1%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "total cash of $1,099 million",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "total liabilities of $14,583 million",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "final financing hearing scheduled for June 16",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The catalyst is the final financing hearing scheduled for June 16, which will authorize the $250 million subordinated DIP financing and clarify the path toward a sustainable capital structure [D02, D03, D07].",
+ "grader_notes": "The agent correctly identified the BUY direction and recognized the importance of the bankruptcy court process as a catalyst, which aligns with Loeb's structural focus. However, the agent's reasoning was far broader and more granular than Loeb's retrospective account, focusing on short-term market mispricing and specific cash metrics rather than the high-level, retrospective drivers regarding legacy cost-resetting and bottom-up claim selection.",
+ "run": "2009_delphi_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

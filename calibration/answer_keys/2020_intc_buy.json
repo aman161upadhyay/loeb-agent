@@ -1,0 +1,55 @@
+{
+  "id": "2020_intc_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Reported significant stake, often reported around $1bn; full instrument/NAV reconciliation not recovered.",
+  "first_action_date": null,
+  "first_action_window": "Purchase/position change predates or coincides with disclosure; exact first transaction date not recovered.",
+  "disclosure_date": "2020-12-29",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Omar Ishrak",
+      "Bob Swan",
+      "Intel board"
+    ],
+    "governance_route": "P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Restore advanced manufacturing competitiveness after losing leadership to Asian foundries.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (2020-12-29)",
+      "quote": null
+    },
+    {
+      "driver": "Address engineering talent flight and human-capital management immediately.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (2020-12-29)",
+      "quote": "Of special concern is Intel’s human capital management problem and the absence of an articulated plan to address it."
+    },
+    {
+      "driver": "Retain an adviser to examine strategic alternatives and failed acquisitions.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (2020-12-29)",
+      "quote": null
+    },
+    {
+      "driver": "Develop a manufacturing/customer strategy able to serve competitors as customers.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (2020-12-29)",
+      "quote": "Intel must figure out how to serve its competitors as customers."
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "Public common disappeared by Q4 2021, but February 2022 letter remained bullish; full economic exit and realized return unresolved.",
+  "sources": [
+    "https://assets.thirdpointlimited.com/f/166217/x/8a9b8ea40d/third-point-letter-to-intel-december-2020-tpou.pdf (2020-12-29)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. AUM 14.8bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-third-point-november-2020-monthly-report-843373033.html (2020-12-03). AUM observation period 2020-11; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

@@ -1,0 +1,58 @@
+{
+ "pack": "ho_2025_costar_add",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-06-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "the Company (XXX)",
+  "ticker": "the Company",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Board refresh/governance: intact; April settlement successfully replaced three directors [D03]",
+   "Commercial franchise: intact; viewed as high-margin recurring core business [D02]",
+   "Capital allocation: status pending; oversight is in early stages of implementation [D03, D07]",
+   "Residential drag: intact; risk that investment spending consumes commercial cash remains [D02, D05]"
+  ],
+  "remaining_skew": "Not quantified due to lack of reconciled segment cash models; requires execution to narrow [D02, D04]",
+  "next_catalyst_and_timing": "Evidence of spending discipline and core cash conversion in upcoming quarterly reports [D03, D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "Governance mechanism from April settlement is in place and requires time for operational impact [D03, D07].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Core commercial franchise offers potential value if residential cash burn is curtailed [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Monitoring period; thesis relies on board accountability to bridge the gap between revenue and cash earnings [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Maintain position pending demonstrable evidence of capital-allocation oversight [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "memo": "The investment thesis centers on the governance improvements established in the April settlement, which replaced three directors and initiated formal oversight of capital allocation and compensation [D03]. We view the underlying commercial franchise as high-quality, analogous to a Bloomberg for commercial real estate, provided management can successfully isolate it from the cash-intensive residential investment strategy [D01, D02]. As of our June 30 cutoff, we are in the early stages of this transition; the mechanism for change is established, but the operating results—specifically core commercial cash earnings net of residential spending—remain to be proven [D02, D07].\n\nOur HOLD decision reflects that the catalyst is currently in the execution phase rather than the final delivery phase [D07]. The bear case persists: there is a structural risk that management fails to impose meaningful discipline on residential spending, allowing it to continue absorbing commercial profits [D05]. We treat the recent board settlement as a necessary condition for value creation, not a substitute for realized operating performance [D05].\n\nWe require evidence from upcoming quarters to confirm that the board's oversight is translating into actual capital-allocation discipline [D03, D07]. Given the current loss-making profile and the absence of a fully reconciled segment cash model, we maintain our position while monitoring for concrete signs of earnings power improvement relative to the residential cash burn [D02, D04]. We avoid premature expansion until the path to improved cash conversion is more clearly defined by management disclosures [D03].",
+  "uncited_claims": [
+   "the Company placeholder used in the provided pack"
+  ]
+ }
+}

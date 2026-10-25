@@ -1,0 +1,54 @@
+{
+ "trade_id": "2013_sothebys_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 5,
+  "matched": [
+   "Expenses near prior peak levels despite lower revenue reveal an operational efficiency gap → Improve operating margins through expense control and portfolio simplification",
+   "Board refresh and CEO succession supply the mechanism for restoration → Refresh board with directors possessing specialized industry or capital allocation expertise"
+  ],
+  "missed": [
+   "The iconic franchise is losing competitive ground because of leadership and strategic weakness.",
+   "CEO perquisites and scant director ownership contrast with an owner's incentives.",
+   "Contemporary art, private sales, digital distribution and international markets provide specific growth routes."
+  ],
+  "extra_agent_drivers": [
+   "Clear path to $2.05 in EPS through expense discipline.",
+   "Net cash position provides a substantial valuation floor."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Sotheby's net cash position is $180.8m",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Company is trading at 31.7x trailing P/E multiple",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has a dominant market position",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 5,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a 5% position in the common stock, sized at the upper end of our core event range due to the company's high brand value and the clear path for governance-led rerating [D04].",
+ "grader_notes": "The agent correctly identified the direction as a BUY, but sized the position at 5%, which is materially different from the 9.3% stake Third Point actually disclosed. The reasoning correctly identified the need for board refresh and margin expansion, but lacked the specific focus on leadership weakness, executive perquisites, and growth opportunities in areas like private sales and digital distribution.",
+ "run": "2013_sothebys_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

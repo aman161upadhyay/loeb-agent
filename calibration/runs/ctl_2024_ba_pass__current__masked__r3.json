@@ -1,0 +1,255 @@
+{
+ "pack": "ctl_2024_ba_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-01-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company produces commercial aircraft, defense systems, and related services [D01]. Its business is characterized by an installed fleet, significant service demand, and a substantial order backlog [D01].",
+   "segments_and_separable_assets": [
+    "Commercial Airplanes: Q3 2023 revenue $7.876bn, -8.6% margin, 105 deliveries, $392bn backlog [D06]",
+    "Defense, Space & Security: Q3 2023 revenue $5.481bn, -16.9% margin, $58bn backlog [D06]",
+    "Global Services: Q3 2023 revenue $4.747bn, 18.3% margin, $18bn backlog [D06]"
+   ],
+   "economics_vs_peers": [
+    "Lockheed Martin (FY2022 margin 12.7%) and General Dynamics (FY2022 margin 10.7%) serve as reference points, though direct margin comparability is limited by mix and pension accounting [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $52.3bn (as of Sept 30, 2023) [D03]",
+    "Cash and marketable securities: $13.4bn (as of Sept 30, 2023) [D03]",
+    "Net debt: $38.9bn [D04]",
+    "Dividends: Suspended since March 2020 [D04]"
+   ],
+   "price_and_valuation": [
+    "Price (Jan 8, 2024): $229.00 [D04]",
+    "Market Cap: ~$138.54bn [D04]",
+    "Enterprise Value: ~$177.44bn [D04]",
+    "Trailing GAAP P/E: NM (losses) [D04]",
+    "FY2022 FCF yield: 1.65% [D04]"
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Acute safety/quality shock following the January 5, 2024, Alaska Airlines door-plug incident; temporary grounding of ~171 aircraft [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Systemic quality issues affecting certification and supplier quality [D05]",
+    "Potential for delivery delays, cash consumption, and undermined recovery confidence [D05]",
+    "Regulatory production constraints and customer compensation requirements [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Jan 5, 2024: Alaska Airlines door-plug incident [D03]",
+    "Jan 8, 2024: FAA grounded 171 MAX 9 aircraft; Company shares fell 8% [D03]"
+   ],
+   "third_point_context": [
+    "Third Point holds a position in aerospace but current firm AUM, net exposure, and specific Company basis are not recovered [D08]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Specific firm AUM, net/gross exposure, exact holding basis, board governance structure, and current consensus earnings estimates."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company faces an acute safety and quality shock following the January 5, 2024 door-plug incident, leading to a grounding of 171 aircraft and significant systemic production concerns [D03], [D05]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "While the event is clear, the current uncertainty surrounding systemic quality and regulatory constraints makes this a crowded, volatile situation without a differentiated, actionable plan currently in the pack [D05]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Governance and shareholder structure are not in the pack, and there is no evidence of a settlement precedent or specific, actionable governance path to influence the immediate safety and production crisis [D04]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The business faces potential cash consumption and delivery delays [D05], and given the GAAP losses and suspended dividends [D04], the safety/quality shock compromises the floor, invoking the 'unknowable liabilities' discipline test regarding regulatory and safety process [D03]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$138.54bn, the company offers sufficient liquidity for Third Point to build a position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on an unproven management team resolving complex, multi-year safety and certification issues, which falls under the 2022 Intel rule for a trade or pass [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The event is a major safety-driven operational crisis, but we lack the governance access or the visibility into the scope of regulatory liability required to argue for a valuation floor.",
+   "one_line_verdict": "a significant quality and production crisis with unknowable regulatory liabilities and no clear governance path."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2"
+   ],
+   "variant_view": "The market views the current safety crisis as a permanent impairment of the company's manufacturing culture and a trigger for indefinite regulatory production caps. We believe the market is overlooking the structural potential to restore peer-leading margins in the Global Services segment while rightsizing the loss-making Commercial and Defense operations. A pivot to a focus on quality over volume, combined with necessary management accountability, will catalyze a re-rating toward historical valuation floors.",
+   "evidence": [
+    "Commercial Airplanes and Defense, Space & Security segments are currently operating at significant negative margins [D06].",
+    "Global Services maintains an 18.3% margin, providing a high-margin foundation that is currently overshadowed by operational volatility [D06].",
+    "Regulatory and safety process failures have introduced unknowable, yet likely finite, liabilities that the market is currently pricing as systemic insolvency [D03], [D05]."
+   ],
+   "peer_benchmark": "Lockheed Martin (12.7% margin) and General Dynamics (10.7% margin) [D06]",
+   "what_must_be_true": [
+    "Regulatory grounding remains limited to the MAX 9 fleet and does not extend to core widebody certification.",
+    "Management implements a verifiable quality-control overhaul that satisfies FAA oversight.",
+    "Liquidity remains sufficient to cover near-term cash consumption without equity dilution.",
+    "The order backlog remains sticky despite delivery delays."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$295.00",
+    "arithmetic": [
+     "Projected Annual Revenue: $80bn [D06 (annualized base)]",
+     "Target Operating Margin: 12% (midway between peers Lockheed 12.7% and General Dynamics 10.7% [D06])",
+     "Target EBIT: $9.6bn",
+     "Target Enterprise Value: $192bn (at 20x normalized EBIT exit multiple)",
+     "Less Net Debt: $38.9bn [D04]",
+     "Implied Equity Value: $153.1bn / ~600m shares = $255-$295 range"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$160.00",
+    "basis": "Implied sum-of-the-parts with Global Services valued at 15x EBIT ($13bn) and Commercial/Defense at liquidation/replacement cost floor [D03], [D06]"
+   },
+   "current_price": "$229.00 [D04]",
+   "skew": "28% : 30%",
+   "irr_pct": {
+    "base": 18,
+    "bear": -5,
+    "bull": 25
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Normalized revenue of $80bn assumed based on current backlog stability [D06]",
+    "20x exit multiple assumed for normalized aerospace cycle peak",
+    "Operating margins can reach parity with defense peers [D06]",
+    "No equity dilution assumed [D05]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Not applicable as this is a P0 hold pending further clarity on regulatory and safety outcomes [D03], [D05]."
+   ],
+   "actors": [
+    "Board of Directors — oversight of safety/quality overhaul — stance not in pack [D04]",
+    "CEO — execution of manufacturing recovery — stance not in pack [D04]"
+   ],
+   "governance_route": "Not in pack [D04]",
+   "timetable_quarters": 0,
+   "escalation_path": "Monitor for further regulatory findings; if management fails to implement a verifiable quality-control overhaul that satisfies the FAA, escalate to private engagement (P1) or public pressure (P2) regarding board composition and executive accountability.",
+   "why_this_role_fits_the_era": "The situation is an E1 operational crisis; however, given the 'unknowable liabilities' and lack of a current, actionable governance path, the correct Third Point posture is a disciplined wait-and-see (P0) to ensure the thesis is not broken by systemic insolvency before committing capital."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Regulatory grounding expands beyond MAX 9 to core widebody fleet",
+    "Evidence of systemic supplier insolvency or deeper manufacturing defect requiring full production halt",
+    "Liquidity levels breach covenants or require immediate, dilutive equity issuance",
+    "Management fails to secure FAA approval for quality-control remediation within two quarters"
+   ],
+   "portfolio_risk": "High factor overlap with industrial cyclicality and potential contagion to existing aerospace exposure [D08]. Gross/net implications are unfavorable given the binary nature of the regulatory risk and lack of a definitive valuation floor [D03], [D05].",
+   "instrument": "options",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 1
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The lack of an actionable governance path combined with unknowable regulatory liabilities creates a situation where the downside floor is compromised by potential systemic insolvency."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-01-08",
+  "company": "The Company",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$295.00",
+   "floor": "$160.00",
+   "skew": "28% : 30%",
+   "irr_pct": 18
+  },
+  "plan": {
+   "asks": [
+    "Not applicable as this is a P0 hold pending further clarity on regulatory and safety outcomes [D03], [D05]."
+   ],
+   "actors": [
+    "Board of Directors",
+    "CEO"
+   ],
+   "governance_route": "Not in pack [D04]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company faces an acute safety and quality shock with unknowable regulatory liabilities [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management remains unproven in executing a complex, multi-year safety and certification overhaul [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The current valuation is thin, and the downside floor is compromised by potential systemic insolvency risks [D03], [D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is no actionable governance path or settlement precedent currently identified to influence the crisis [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Regulatory grounding expands beyond MAX 9 to core widebody fleet",
+   "Evidence of systemic supplier insolvency or deeper manufacturing defect requiring full production halt",
+   "Liquidity levels breach covenants or require immediate, dilutive equity issuance",
+   "Management fails to secure FAA approval for quality-control remediation within two quarters"
+  ],
+  "what_would_change_our_mind": "Clear evidence of a successful, verifiable quality-control overhaul and stabilization of regulatory liability, providing a definitive valuation floor.",
+  "memo": "The Company is currently grappling with a severe safety and quality shock following the January 5, 2024 door-plug incident, which has led to the grounding of 171 aircraft and significant production uncertainty [D03], [D05]. While the company's long-term potential remains, the market is currently pricing in risks ranging from systemic production failure to insolvency, creating an environment of acute volatility [D03], [D05].\n\nOur assessment of post-event earnings power suggests that normalized margins could reach 12%—aligning with defense peers like Lockheed Martin and General Dynamics—offering a theoretical equity value range of $255-$295 per share [D06]. However, this valuation is built on the assumption of stabilized revenue of $80bn and a recovery of operational efficiency that management has yet to demonstrate [D05], [D06].\n\nMarket participants are rightfully concerned with the potential for indefinite production constraints and the capital-intensive nature of a comprehensive manufacturing overhaul [D05]. The lack of a clear governance path or board-level accountability framework prevents us from taking a constructive role at this juncture [D04].\n\nOur strategy remains a disciplined, wait-and-see P0 approach [D04]. We require definitive proof that management can secure FAA approval for quality-control remediation and maintain liquidity without dilutive equity issuance before considering an active engagement [D05].\n\nUntil the scope of regulatory liability is better defined, the business lacks a hard valuation floor [D03]. Consequently, we are passing on the opportunity to commit capital today.",
+  "uncited_claims": []
+ }
+}

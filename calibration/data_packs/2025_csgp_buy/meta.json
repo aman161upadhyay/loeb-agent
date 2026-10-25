@@ -1,0 +1,27 @@
+{
+  "id": "2025_csgp_buy",
+  "company": "CoStar Group, Inc.",
+  "ticker": "CSGP",
+  "aliases": [
+    "Apartments.com",
+    "CoStar",
+    "CoStar Group",
+    "CoStar Group, Inc.",
+    "CoStar Suite",
+    "CSGP",
+    "Homes.com",
+    "LoopNet",
+    "OnTheMarket",
+    "STR",
+    "Ten-X"
+  ],
+  "as_of_date": "2025-03-31",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Requested June30 cutoff moved to March31, before April7 disclosure/settlement. Recovered primary evidence is separate agreements, not a single joint letter with D.E. Shaw.",
+  "fund_aum_usd_bn": 12,
+  "fund_aum_observation_period": "2024-12",
+  "fund_aum_source_date": "2025-01-02",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested June30 cutoff moved to March31, before April7 disclosure/settlement. Recovered primary evidence is separate agreements, not a single joint letter with D.E. Shaw. AUM 12bn is firm/manager capital, not Offshore NAV, per https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (2025-01-02). AUM observation period 2024-12; last verified, not asserted current."
+}

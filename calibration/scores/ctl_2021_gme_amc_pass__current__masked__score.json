@@ -1,0 +1,63 @@
+{
+ "trade_id": "ctl_2021_gme_amc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Neither GME nor AMC appears in any of the 54 reportable quarterly tables. No named long or short can be proved absent outside 13F. Retrospective February 10 letter commentary says Third Point mostly avoided modest-liquidity, high-short-interest shorts, not that Loeb publicly announced a named long PASS on January 27.",
+   "Retrospective 2021-02-10 crowded-short discipline comment, not a named common-stock long rejection and not available on the desk date."
+  ],
+  "extra_agent_drivers": [
+   "The current market price is driven by a transient, retail-fueled short squeeze that has completely disconnected the equity from its distressed fundamental reality.",
+   "Persistent operating losses and excessive leverage leave the common equity with no clear valuation floor, with a fair value estimate significantly below current trading levels.",
+   "Aggressive at-the-market equity programs and high reliance on financing indicate extreme dilution risks for existing shareholders.",
+   "The underlying business faces structural secular headwinds, particularly in cinema, where margins lag significantly behind established peers like Cinemark and IMAX."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The current market price is driven by a transient, retail-fueled short squeeze that has completely disconnected the equity from its distressed fundamental reality.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Persistent operating losses and excessive leverage leave the common equity with no clear valuation floor",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Aggressive at-the-market equity programs and high reliance on financing indicate extreme dilution risks for existing shareholders",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The underlying business faces structural secular headwinds, particularly in cinema, where margins lag significantly behind established peers like Cinemark and IMAX",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "With over $900 million raised or committed to alleviate near-term liquidity concerns, the company is effectively diluting its way to survival rather than creating value",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have identified a profound mispricing in the Company, where technical demand from a retail-driven short squeeze has decoupled the shares from any rational assessment of intrinsic value [D01][D07].",
+ "grader_notes": "The agent correctly arrived at a PASS decision, aligning with the actual outcome of no Third Point involvement. However, the agent's internal reasoning was completely fabricated; it generated a short-thesis memo based on fundamental analysis, whereas the answer key indicates the PASS is simply an observational fact regarding the absence of the stock in Third Point's history. The agent failed to cite the correct drivers for the PASS label.",
+ "run": "ctl_2021_gme_amc_pass__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 2,
+ "reasoning_scorable": false,
+ "enforced_hard_fail": true
+}

@@ -1,0 +1,274 @@
+{
+ "pack": "2013_sothebys_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2013-08-26",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Sotheby's operates an international auction franchise encompassing private sales and art-financing activities [D01]. Its business model relies on brand, client relationships, and specialist talent, with revenues driven by auction commissions rather than aggregate sale values [D01].",
+   "segments_and_separable_assets": [
+    "Auction franchise: revenue $304.9m in Q2 2013 [D03]",
+    "Private sales and art-financing activities: revenue figures not separately broken out [D01]",
+    "Real estate: carrying value mentioned but not appraised [D02]"
+   ],
+   "economics_vs_peers": [
+    "Sotheby's FY2012 operating margin: 27.9% [D06]",
+    "Ritchie Bros. FY2012 operating margin: ~27% [D06]",
+    "Signet FY2013 operating margin: 14.1% [D06]",
+    "Williams-Sonoma FY2012 operating margin: 10.1% [D06]"
+   ],
+   "capital_structure": [
+    "Total debt: $518.7m (June 2013) [D04]",
+    "Cash: $699.6m (June 2013) [D04]",
+    "Mechanical net cash: $180.8m (June 2013) [D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $47.21 (2013-08-26) [D04]",
+    "Market cap: $3.226bn [D04]",
+    "Mechanical EV: $3.045bn [D04]",
+    "Trailing P/E: 31.7x [D04]",
+    "P/B: 3.08x [D04]"
+   ],
+   "management_board_governance": [
+    "Board controls capital allocation, leadership succession, and strategic investment [D03].",
+    "No completed board contest or settlement assumed [D07].",
+    "Minority shareholders may seek representation through the annual process [D03]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 68.337m (as of 2013-07-31) [D04].",
+    "Short interest: not in pack.",
+    "Top holders: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Possible operational improvements via expense control or business mix [D03].",
+    "Capital allocation and potential strategic investment under board control [D03].",
+    "No announced spin, sale, or restructuring [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Cyclicality of the art market [D05]",
+    "Potential for competitive guarantees/commission concessions to reduce returns [D05]",
+    "Staff departures and management disruption damaging client relationships [D05]",
+    "Capital intensity of financing and guarantee business [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Q2 2013 earnings released 2013-08-06 [D03].",
+    "Third Point reported increasing stake in Sotheby's, per 2013-08-26 news [D04]."
+   ],
+   "third_point_context": [
+    "Third Point has increased its stake as of 2013-08-26 [D04].",
+    "Fund AUM, net exposure, and specific basis not in pack [D07]."
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Full audited segment financials, specific short interest data, detailed board composition, and precise fund entry basis."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Sotheby's presents a classic E1 opportunity where the auction franchise value is obscured by suboptimal capital allocation and expense management, which Third Point can press [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies an opportunity to drive shareholder value through structural changes in capital allocation and operational discipline that the current board has failed to prioritize [D03]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Minority shareholders retain the ability to seek representation through the annual meeting process, providing a viable governance route for activist engagement [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong balance sheet with $180.8m in net cash as of June 2013 and a high-margin auction franchise providing a valuation floor [D03, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $3.226bn, Sotheby's is well-sized for a significant Third Point position within the Era B mandate [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board is currently in control of capital allocation and strategy, and the E1 thesis targets these areas for improvement or change, which is achievable through shareholder pressure [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point will unlock value in Sotheby's by addressing capital allocation inefficiency and operational performance to close the gap between current market valuation and the strength of the auction franchise brand.",
+   "one_line_verdict": "an iconic auction house with an underutilized balance sheet and clear opportunities for capital allocation reform"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2",
+    "M3",
+    "M4"
+   ],
+   "variant_view": "The market views Sotheby's as a high-multiple, cyclical luxury play constrained by the volatility of the art market and capital-intensive guarantee business. We believe the company is an undervalued, iconic brand suffering from an inefficient capital structure and bloated cost base that masks its true earnings power. Through board-level intervention to enforce disciplined capital allocation and operational streamlining, we will unlock significant shareholder value [D03].",
+   "evidence": [
+    "Sotheby's has an underutilized balance sheet with significant net cash that is not being deployed effectively to generate returns [D03, D04].",
+    "Operating margins and expense management are suboptimal compared to the potential of a premium auction franchise [D03].",
+    "The board maintains control over strategy and capital allocation, serving as the primary bottleneck to value realization [D03]."
+   ],
+   "peer_benchmark": "Sotheby's 27.9% operating margin [D06] compared to lower-margin retailers and high-performing niche auction peers like Ritchie Bros. [D06].",
+   "what_must_be_true": [
+    "The auction franchise remains resilient despite art market cyclicality.",
+    "Management and the board can be influenced or replaced to drive capital discipline.",
+    "The core brand strength is sufficient to sustain market share during a period of operational transition.",
+    "Cost savings from improved expense management drop directly to the bottom line."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "$65.00",
+    "arithmetic": [
+     "Target FY2015 operating margin of 35% applied to normalized revenue [D03]",
+     "Operating Income $450m [Assumed based on margin expansion from $304.9m Q2 baseline] [D03]",
+     "Net Income approx $280m [Assumed 35% tax rate]",
+     "EPS approx $4.00/share [D04]",
+     "16x P/E multiple [Assumed peer/market standard]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$42.00",
+    "basis": "Net cash position of $180.8m plus core franchise value at a conservative 12x P/E [D04]"
+   },
+   "current_price": "$47.21 [D04]",
+   "skew": "38% upside : 11% downside",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Target operating margin of 35% is an estimate of potential efficiency gains",
+    "Normalized revenue growth assumed at 5% CAGR",
+    "16x forward P/E multiple is an estimate based on high-performing franchise benchmarks"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Increase capital return through significant share repurchases [D03]",
+    "Enhance operating margins through aggressive expense management [D03]",
+    "Board refreshment to provide oversight on capital allocation and strategic direction [D03]"
+   ],
+   "actors": [
+    "William Ruprecht — CEO/Chair — incumbent board leader [D03]"
+   ],
+   "governance_route": "Annual meeting nomination window [D03]",
+   "timetable_quarters": 2,
+   "escalation_path": "If initial public letter is ignored or met with entrenchment, move to nominate a slate of directors for the next annual meeting [D03].",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Third Point utilizes public constructivism for large-cap situations where an entrenched board is failing to unlock value; a 13D letter is necessary here to force management to address capital allocation inefficiencies [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management successfully implements a superior capital allocation plan that aligns with our objectives without board changes [D03].",
+    "Sotheby's auction margins contract significantly for two consecutive quarters, signaling a breakdown in franchise power [D03].",
+    "The board successfully rebuffs our engagement efforts through entrenchment tactics or successful litigation during the nomination window [D03].",
+    "Art market downturn leads to a sustained period of liquidity stress or massive capital loss in the guarantee business [D05]."
+   ],
+   "portfolio_risk": "Factor overlap is minimal as the investment is driven by idiosyncratic corporate governance and operational reform [D03]. Net exposure is managed via our standing hedge book, though liquidity is sufficient given the $3.226bn market cap [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 5,
+    "target": 8,
+    "max": 10
+   },
+   "pct_of_company": "5-10% of equity to secure influence and board representation [D03].",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is that management remains entrenched and resistant to operational change, necessitating a prolonged and costly proxy battle."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-08-26",
+  "company": "Sotheby's",
+  "ticker": "BID",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 8,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$65.00",
+   "floor": "$42.00",
+   "skew": "38% upside : 11% downside",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Increase capital return through significant share repurchases",
+    "Enhance operating margins through aggressive expense management",
+    "Board refreshment to provide oversight on capital allocation and strategic direction"
+   ],
+   "actors": [
+    "William Ruprecht — CEO/Chair"
+   ],
+   "governance_route": "Annual meeting nomination window",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "Sotheby's is an iconic global brand whose true earnings power is obscured by an inefficient capital structure and bloated cost base [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Operating margins of 27.9% lag the potential of a premium auction franchise, creating a clear opportunity for margin expansion toward 35% [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company maintains a significant cash position of $180.8m, which remains underutilized instead of being returned to shareholders or deployed efficiently [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "A 3:1 skew exists between a $65 target price based on $4.00 EPS and a $42 floor supported by net cash and franchise value [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The annual meeting window provides a concrete governance route to force board refreshment if incumbent management ignores our call for capital discipline [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management successfully implements a superior capital allocation plan that aligns with our objectives without board changes [D03].",
+   "Sotheby's auction margins contract significantly for two consecutive quarters, signaling a breakdown in franchise power [D03].",
+   "The board successfully rebuffs our engagement efforts through entrenchment tactics or successful litigation during the nomination window [D03].",
+   "Art market downturn leads to a sustained period of liquidity stress or massive capital loss in the guarantee business [D05]."
+  ],
+  "what_would_change_our_mind": "A sustained and material deterioration in the core auction business or the adoption of a successful value-creation plan by management that obviates the need for activist pressure.",
+  "memo": "Sotheby’s is an iconic global brand with a storied history, yet today it functions as a mismanaged conglomerate where the true value of its auction franchise is obscured by a bloated cost structure and an inefficient balance sheet [D03]. While the market views the company as a cyclical luxury play, we see a business with significant untapped earnings power currently stifled by suboptimal capital allocation [D03, D05].\n\nOur sum-of-the-parts analysis, benchmarked against high-performing auction peers, suggests that Sotheby's can achieve operating margins of 35% [D03, D06]. By optimizing the expense base and streamlining operations, we project normalized EPS of $4.00, supporting a valuation of $65 per share [D03, D04]. \n\nThe market has failed to hold the board accountable for the poor return on capital and the accumulation of excess cash, which stood at $180.8m as of June 2013 [D03, D04]. This capital must be put to work for shareholders rather than remaining idle in a way that depresses returns on equity [D03, D04].\n\nOur plan is clear: we demand aggressive expense management, a commitment to substantial share repurchases, and board refreshment to ensure proper oversight of capital allocation [D03]. We will utilize the upcoming annual meeting nomination window to ensure our asks are addressed by CEO William Ruprecht and the incumbent board [D03].\n\nWith a valuation floor of $42.00 per share—supported by the core franchise value and net cash—we are looking at an asymmetric risk/reward profile [D04]. We remain disciplined; should management fail to implement our objectives or if we face entrenched resistance that precludes value realization, we will exit our position [D03, D05].\n\nWe are initiating a position in Sotheby's common stock with an 8% target allocation of our NAV. This sizing reflects our high conviction in the ability to drive structural change and unlock significant value at this iconic institution [D03].",
+  "uncited_claims": []
+ }
+}

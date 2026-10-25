@@ -1,0 +1,59 @@
+{
+ "trade_id": "2012_yahoo_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The CEO's inaccurate credential undermines credibility and raises integrity concerns. → The recent identification of discrepancies between the CEO's stated academic credentials and institutional records, alongside similar issues with director Patti Hart, is unacceptable and demands an immediate, public response",
+   "Fresh directors with industry competence and integrity are needed before further delay. → We must escalate our campaign to ensure that the board is reconstituted with individuals who possess the technical and media experience necessary to oversee this business with integrity",
+   "The search committee's basic diligence and board oversight need an independent investigation. → Independent verification of credentials and internal governance controls"
+  ],
+  "missed": [
+   "Similar director-biography discrepancies make this a systemic governance issue, not just one executive's error."
+  ],
+  "extra_agent_drivers": [
+   "Operating performance is stagnant with a 11% decline in operating income",
+   "Underlying sum-of-the-parts value remains obscured",
+   "Competing director nominations are already active"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The recent identification of discrepancies between the CEO's stated academic credentials and institutional records, alongside similar issues with director Patti Hart",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "first-quarter operating income falling 11%",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "nominated four director candidates",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "5.8% stake",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 7,
+  "share": 0.78
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We must escalate our campaign to ensure that the board is reconstituted with individuals who possess the technical and media experience necessary to oversee this business with integrity",
+ "grader_notes": "The agent correctly identified the core drivers related to leadership integrity and the necessity of board refreshment. The reasoning was farthest from Loeb's in its focus on operating performance and sum-of-the-parts valuation, which were secondary to the governance crisis in the primary source material.",
+ "run": "2012_yahoo_escalate__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

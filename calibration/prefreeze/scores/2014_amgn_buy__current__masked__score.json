@@ -1,0 +1,56 @@
+{
+ "trade_id": "2014_amgn_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Mature drugs and growth assets are a hidden-value situation with distinct investor constituencies. → The Company suffers from a persistent conglomerate discount, as the market fails to distinguish between the high-margin, cash-generative mature biologics franchise and the volatile, research-heavy pipeline",
+   "A MatureCo/GrowthCo separation can make the two economic profiles visible. → Delineate mature biologics from research pipeline to unlock sum-of-the-parts value",
+   "Improve R&D productivity and project-selection discipline rather than assuming spending creates value. → The primary issue is a lack of capital allocation discipline rather than an inability to compete",
+   "Operating-margin improvement and capital return can create value even without a split. → Operating margins of 31.4% significantly trail peer benchmarks... leaving substantial room for improvement through structural simplification and cost discipline"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "We intend to engage management privately over the next two quarters to force a strategic review, with a public escalation path prepared if our margin and structural targets are ignored"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Mature product franchises are currently demonstrating 8% revenue growth",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins of 31.4% significantly trail peer benchmarks like Gilead at 40.4% and Biogen at 36.3%",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Current operating margins of 31.4% are well below peer benchmarks of 36.3% to 40.4%",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "mature business is re-rated to a 14x multiple",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 11,
+  "share": 0.69
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Structural simplification will force the market to recognize the value of the mature assets while properly ring-fencing the high-risk R&D expenditures [D01].",
+ "grader_notes": "The agent perfectly captured the core strategic pillars articulated by Loeb regarding the separation of growth and mature assets and the focus on margin/capital discipline. The agent's reasoning was slightly misaligned in its timeline (agent assumed a 2-quarter horizon, whereas the key identified an 8-quarter timetable) and its initial catalyst role assessment.",
+ "run": "2014_amgn_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

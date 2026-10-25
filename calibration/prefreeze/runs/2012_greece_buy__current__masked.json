@@ -1,0 +1,253 @@
+{
+ "pack": "2012_greece_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2012-06-15",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The investment represents newly issued sovereign bond strips following a private-sector debt exchange. Repayment relies on government revenue, fiscal discipline, and official funding within the monetary union rather than corporate cash flows [D01].",
+   "segments_and_separable_assets": [
+    "Not in pack"
+   ],
+   "economics_vs_peers": [
+    "Sovereign 10-year yields: Spain 6.67%, Italy 6.10% [D04, D06]",
+    "Labour-cost wedge: 44% of wages vs. EU average 30–35% [D06]",
+    "Entry-level minimum wage: 50% above Portugal, 17% above Spain [D06]"
+   ],
+   "capital_structure": [
+    "New bonds issued with 20 annual maturities (2023–2042) [D04]",
+    "Coupon: 2% (2012–2015), 3% (2016–2020), 3.65% (2021), 4.3% thereafter [D04]",
+    "Governing law: English law [D04]",
+    "Gross Maastricht debt: EUR355.8bn (2011 estimate) [D02]"
+   ],
+   "price_and_valuation": [
+    "Approximate cash price: 10¢ per EUR1 face [D04]",
+    "Indicative current cash yield: ~20% [D04]",
+    "Haircut: 53.5% of old-face principal [D04]"
+   ],
+   "management_board_governance": [
+    "June 17 election pending to form a government after previous failure [D02, D03, D07]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Hedge funds running 10–30% risky-asset exposure [D01, D06]",
+    "Fund-manager cash balances: 5.3% [D01, D06]",
+    "Some CDS counterparties declining to quote [D02, D03]"
+   ],
+   "event_or_catalyst_evidence": [
+    "June 17 national election [D03, D07]",
+    "Ongoing requirement for coalition formation, official reviews, and funding disbursements [D07]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Potential for government unwillingness to meet bailout conditions [D05]",
+    "Deposit flight and funding shortages [D05]",
+    "Political deadlock leading to capital controls, redenomination, or further restructuring [D05]",
+    "Liquidity evaporation during political risk events [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "English law governed bonds; 31.5% new principal and 15% in the Company securities for old eligible principal [D04]"
+   ],
+   "recent_events": [
+    "Q1 2012 real GDP contraction: -6.5% [D03]",
+    "June 8, 2012: GDP flash estimate release [D03]",
+    "June 12, 2012: Sovereign yield data [D04, D06]"
+   ],
+   "third_point_context": [
+    "Not in pack"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Exact June 15 strip constituents, settlement quotation, yield curve, accrued-interest schedule, current fund AUM, and specific position sizing."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The investment is in post-reorg sovereign bond strips following a 53.5% principal haircut, creating a distressed debt opportunity [D04]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point applies a distressed recovery analysis to the new English-law governed securities priced at 10¢, capturing asymmetric yield potential amid market forced selling [D04, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The process is driven by the formal sovereign funding disbursement schedule and the upcoming June 17 election to stabilize government policy [D07]."
+    },
+    "downside_floor": {
+     "score": "UNSURE",
+     "evidence": "While these are post-reorg bonds with English law protections, repayment relies on future government fiscal performance and official-sector funding rather than a hard asset or collateral floor [D01, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The distressed market allows for significant position building during periods of liquidity evaporation as other funds exit [D05]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The thesis relies on the sovereign's adherence to official bailout conditions and the formation of a government, which are verifiable processes rather than management execution [D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "The event is a post-restructuring sovereign debt recovery where Third Point exploits the mispricing of bond strips at 10¢ per euro, leveraging English law protections and the necessity of official funding to drive returns.",
+   "one_line_verdict": "distressed sovereign debt trading at distressed prices following a major haircut with a clear path defined by official-sector funding and government formation"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market is paralyzed by the fear of Eurozone contagion and the potential for a political vacuum following the June 17 election, leading to fire-sale pricing [D05]. We believe this ignores the reality that the sovereign's reliance on official funding makes a pragmatic coalition and adherence to bailout conditions a strategic necessity for the official sector [D07]. By pricing these bonds at 10¢, the market incorrectly applies a 'total loss' probability to instruments protected by English law [D04].",
+   "evidence": [
+    "Bonds trading at 10¢ per euro reflect extreme pessimism regarding the viability of post-reorg paper [D04].",
+    "Official-sector funding remains the primary driver of fiscal stabilization, creating a path to recovery regardless of immediate market sentiment [D07].",
+    "English law governance provides a superior legal floor compared to domestic-law alternatives [D04]."
+   ],
+   "peer_benchmark": "10-year sovereign yields for Spain (6.67%) and Italy (6.10%) [D04, D06]",
+   "what_must_be_true": [
+    "A government is successfully formed following the June 17 election [D07].",
+    "Official-sector funding disbursements continue as scheduled under the bailout agreement [D07].",
+    "The sovereign avoids immediate implementation of capital controls or disorderly redenomination [D05].",
+    "The English law protections are upheld in the event of further fiscal stress [D04]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "30¢ - 40¢ per EUR1 face",
+    "arithmetic": [
+     "Current market price: 10¢ [D04]",
+     "Implied value based on English law seniority and official-sector necessity: 30¢ - 40¢ per EUR1 [D04, D07]",
+     "Basis: Recovery value comparable to distressed sovereign debt with official sector backing and legal protections"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "10¢",
+    "basis": "Current distressed market pricing under panic conditions [D04, D05]"
+   },
+   "current_price": "10¢ [D04]",
+   "skew": "300%:0%",
+   "irr_pct": {
+    "base": 40,
+    "bear": 0,
+    "bull": 60
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Recovery value of 30-40¢ assumes the official sector enforces bailout conditions rather than permitting a disorderly exit",
+    "Assumption that English law protections provide a superior recovery floor compared to domestic-law paper"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Adherence to official-sector bailout conditions to facilitate scheduled funding disbursements [D07]"
+   ],
+   "actors": [
+    "Electorate — voters — pending election result [D07]",
+    "Official Sector (EU/ECB/IMF) — funding provider — enforcement agent [D07]"
+   ],
+   "governance_route": "Sovereign fiscal policy and international bailout agreement enforcement [D07]",
+   "timetable_quarters": 1,
+   "escalation_path": "Monitor adherence to bailout conditions; if the new government deviates, re-evaluate the recovery thesis against the likelihood of a secondary restructuring or exit from the Eurozone [D05, D07].",
+   "why_this_role_fits_the_era": "This is a distressed sovereign situation where our role is as a capital provider exploiting market panic. Unlike corporate activism, we have no seat at the political table; our edge is correctly assessing that the official sector will prioritize bailout compliance over default [D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "New government explicitly rejects existing bailout conditions",
+    "Official sector (EU/ECB/IMF) halts disbursement process",
+    "Implementation of capital controls or disorderly currency redenomination",
+    "English law jurisdictions are bypassed or overruled by emergency domestic decree"
+   ],
+   "portfolio_risk": "High factor overlap with sovereign debt and Eurozone contagion exposure [D05]. Gross exposure must be managed given the liquidity evaporation risk during political volatility [D05]. Hedge availability is limited due to CDS counterparties failing to quote [D02, D03].",
+   "instrument": "bond",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 3,
+    "max": 5
+   },
+   "pct_of_company": "Not applicable to sovereign debt",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on Euro-area financials to mitigate tail risk of a disorderly exit or banking sector collapse.",
+   "biggest_risk_in_one_sentence": "A political failure to form a government that accepts the bailout requirements triggers a default or exit event, rendering the recovery value thesis moot."
+  }
+ },
+ "final": {
+  "as_of_date": "2012-06-15",
+  "company": "The sovereign (Greece)",
+  "ticker": "N/A",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 3,
+  "instrument": "bond",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "30¢ - 40¢ per EUR1 face",
+   "floor": "10¢",
+   "skew": "300%:0%",
+   "irr_pct": 40
+  },
+  "plan": {
+   "asks": [
+    "Adherence to official-sector bailout conditions to facilitate scheduled funding disbursements"
+   ],
+   "actors": [
+    "Electorate",
+    "Official Sector (EU/ECB/IMF)"
+   ],
+   "governance_route": "Sovereign fiscal policy and international bailout agreement enforcement",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The market is pricing these bonds at 10¢ per euro, erroneously assigning a near-total loss probability to instruments secured by English law [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Official-sector funding is a strategic necessity for the Eurozone, which provides a reliable path to recovery that the market is currently ignoring due to contagion-related panic [D07].",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "The English law governance provides a critical legal floor that distinguishes this paper from domestic-law alternatives, supporting a recovery target of 30-40¢ [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The June 17 election serves as the immediate catalyst to form a government capable of maintaining adherence to bailout conditions, unlocking further funding [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "New government explicitly rejects existing bailout conditions",
+   "Official sector (EU/ECB/IMF) halts disbursement process",
+   "Implementation of capital controls or disorderly currency redenomination",
+   "English law jurisdictions are bypassed or overruled by emergency domestic decree"
+  ],
+  "what_would_change_our_mind": "A failure to form a government that commits to the existing bailout framework or an explicit rejection of official-sector conditions by the winning coalition, signaling an imminent disorderly exit.",
+  "memo": "We have initiated a position in the newly issued sovereign bond strips of Greece, currently trading at distressed levels of 10¢ per euro [D04]. The market is currently paralyzed by fear of Eurozone contagion and the potential for a political vacuum following the upcoming June 17 election, leading to a massive mispricing of these instruments [D05].\n\nOur analysis suggests a recovery value of 30¢ to 40¢ per euro, based on the reality that the sovereign's reliance on official-sector funding makes adherence to bailout conditions a strategic necessity for the EU and ECB [D04, D07]. By pricing these bonds at 10¢, the market is effectively ignoring the strength of the English law protections governing this post-reorg paper [D04, D05].\n\nThe path to realizing this value is clear: the sovereign must form a government capable of adhering to the conditions required for continued official-sector support [D07]. Unlike traditional corporate activism, we are not looking to reshape the boardroom, but rather to capitalize on the fact that the official sector will prioritize bailout compliance over a disorderly default [D07].\n\nWe size this at 3% of NAV to reflect our conviction in the recovery thesis while managing the risks of liquidity evaporation and political volatility [D05]. We have mitigated tail risk by layering in index puts on Euro-area financials, and we remain ready to exit if the new government deviates from the bailout agreement or if official-sector funding is halted [D05, D07].",
+  "uncited_claims": []
+ }
+}

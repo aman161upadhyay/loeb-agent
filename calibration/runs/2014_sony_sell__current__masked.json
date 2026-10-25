@@ -1,0 +1,57 @@
+{
+ "pack": "2014_sony_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2014-10-20",
+ "stages": {},
+ "final": {
+  "as_of_date": "2014-10-20",
+  "company": "the Company",
+  "ticker": "the Company.T",
+  "decision": "SELL",
+  "reason_class": "L1",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Original structural catalyst (minority entertainment listing) rejected by board: broken [D01, D07]",
+   "Electronics turnaround: ongoing, but hampered by mobile business impairments: weakened [D01, D04]",
+   "Hidden entertainment value: remains, but no longer supported by immediate structural catalyst: status changed [D01, D07]"
+  ],
+  "remaining_skew": "Unfavorable; the primary event-driven thesis has been rejected and the mobile segment requires recurring capital, reducing the attractiveness of the remaining integrated business [D01, D04, D07].",
+  "next_catalyst_and_timing": "None identified; management has explicitly chosen to retain the integrated structure [D01, D07].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The board has rejected the minority entertainment listing, which was the core structural catalyst for our investment [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Mobile communications goodwill impairment signals lower future cash flows and continued volatility in the electronics business [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "With the structural event removed, the business case relies on self-help, which is insufficient to justify the current risk and capital allocation [D04, D07].",
+    "citations": [
+     "D04",
+     "D07"
+    ]
+   },
+   {
+    "driver": "We are not in the business of winning arguments; once the catalyst is spent, we exit rather than waiting for long-term recovery [D07, D08].",
+    "citations": [
+     "D07",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "Our investment in the Company was originally underwritten on a clear thesis: separating the high-value content-franchise from the cyclical electronics business via a minority listing of the entertainment arm [D01, D07]. The board has now explicitly reviewed this structure and chosen to reject the restructuring [D01, D07]. Without this central catalyst, our edge is spent [D07].\n\nRecent financial updates highlight the ongoing struggles in the electronics segment, underscored by a ¥180bn impairment of mobile-communications goodwill [D01, D02]. While gaming and sensors retain merit, the parent group remains an integrated conglomerate rather than the pure-play content vehicle we sought to unlock [D01, D07]. We do not seek to hold positions simply for the hope of eventual operational improvement when the governance route to value creation has been closed [D04, D07].\n\nWe adhere to our discipline: we are not in the business of winning arguments or waiting for management to act against its stated preferences [D07, D08]. The structural thesis is broken [D01]. We exit now to reallocate capital to higher-skew events where the catalyst remains intact [D04, D08].",
+  "uncited_claims": []
+ }
+}

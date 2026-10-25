@@ -1,0 +1,23 @@
+{
+  "id": "2009_delphi_buy",
+  "company": "Delphi Corporation",
+  "ticker": "DLPH",
+  "aliases": [
+    "Delphi Corporation",
+    "DLPH",
+    "Delphi",
+    "Delphi Automotive",
+    "DPHIQ",
+    "General Motors",
+    "GM",
+    "Platinum Equity",
+    "Aptiv"
+  ],
+  "as_of_date": "2009-06-01",
+  "mode": "new",
+  "era": "B",
+  "first_action_window": "Requested checkpoint 2009-06-01; actual first action not recovered to a unique day; see answer-key dating notes. June entry identified retrospectively in July 2012 letter. July 2009 statement covers auto book, not every case-specific driver; cost-reset driver partly reconstructed from restructuring documents. Exact first fill, DIP tranche/price and fund AUM not recovered. June 1 announcement is same-day evidence; no later hearing result.",
+  "fund_aum_usd_bn": null,
+  "instrument": "loan",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. June entry identified retrospectively in July 2012 letter. July 2009 statement covers auto book, not every case-specific driver; cost-reset driver partly reconstructed from restructuring documents. Exact first fill, DIP tranche/price and fund AUM not recovered. June 1 announcement is same-day evidence; no later hearing result."
+}

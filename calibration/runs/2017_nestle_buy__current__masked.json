@@ -1,0 +1,265 @@
+{
+ "pack": "2017_nestle_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2017-06-25",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company produces coffee, infant nutrition, pet food, and bottled water through global and local brands, focusing on repeat purchases and brand investment [D01]. It operates with a new CEO, Mark Schneider, who arrived in early 2017 to manage the transition and operating strategy [D01; D07].",
+   "segments_and_separable_assets": [
+    "US confectionery business: roughly $900 million annual sales, identified as a potential divestiture candidate [D07].",
+    "Investment stake in the Company (separate entity): valued at over $25 billion; noted as a financial asset rather than operating revenue [D01; D04]."
+   ],
+   "economics_vs_peers": [
+    "The company faces a reported 300–400 basis-point margin gap versus selected peers [D06].",
+    "Reported 2016 trading operating margin was 15.3% [D02].",
+    "Peers: General Mills (16.3% margin), Kraft Heinz (23.2% margin), PepsiCo (15.6% margin) [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: CHF 23,209 million as of FY2016 [D02].",
+    "Net financial debt: CHF 12.3 billion as of FY2016 [D04].",
+    "Parent book equity: CHF 64,590 million as of FY2016 [D02]."
+   ],
+   "price_and_valuation": [
+    "Price: CHF 82.65 (May 31, 2017) [D04].",
+    "Market cap: ~CHF 255.5 billion [D04].",
+    "EV: ~CHF 267.8 billion [D04].",
+    "Trailing P/E: 30.1x (reported); Underlying P/E: 24.1x–24.3x [D04].",
+    "FCF yield: 4.53% based on FY2016 figures [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Mark Schneider, joined start of 2017 from Fresenius [D01; D07].",
+    "Prior activist history: Not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders: Not in pack.",
+    "Index ownership: Not in pack.",
+    "Short interest: Not in pack.",
+    "Average daily volume: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Strategic transition under new CEO [D01].",
+    "Possible sale of US confectionery business [D07].",
+    "Mid-single-digit organic growth and structural savings targets [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Consumer shift toward fresher/local products and changing retail channels [D05].",
+    "Slower category growth and pricing pressure on volumes [D03; D05].",
+    "Risks that margin targets involve cutting essential brand/marketing spend [D05].",
+    "Potential tax and loss of compounding assets if the cosmetics stake is sold [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "February 16, 2017: FY2016 results and conservative outlook published [D07].",
+    "April 20, 2017: Q1 2017 sales-only release, +2.3% organic growth [D03].",
+    "June 25, 2017: Third Point initiates stake and publicly advises sale of the Company's holding [D01; D03; D07]."
+   ],
+   "third_point_context": [
+    "AUM: ~USD 16 billion as of May 2017 [D08].",
+    "Position: Third Point has initiated a stake in the Company [D01; D03].",
+    "Prior engagement: No prior engagement documented [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Specific board composition, ownership stakes of controllers/family, anti-takeover provisions (pill/staggered board), exact top holder list, and current fund liquidity/cash levels."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has a 300–400 basis-point margin gap versus peers and holds a separable $25 billion investment stake, providing clear targets for operational improvement and portfolio simplification [D04; D06]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies an actionable margin gap and capital allocation inefficiency that can be addressed through a defined strategic plan, distinguishing it from passive index ownership [D01; D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "As a large-cap company with a widely held register, Third Point can engage constructively with the board and new management to push for margin expansion and divestitures [D01; D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a strong competitive position with global brands and steady free cash flow, supported by a significant $25 billion financial asset [D01; D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~CHF 255.5 billion, the company provides ample liquidity for a significant position size for a $16 billion AUM firm [D04; D08]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The arrival of a new CEO, Mark Schneider, provides a receptive partner for the transition and execution of the necessary operating strategy [D01; D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point identifies a structural margin gap versus peers and the opportunity to unlock value through portfolio simplification and the divestiture of non-core assets under new management.",
+   "one_line_verdict": "a world-class consumer goods conglomerate with a clear margin gap to peers and a significant, separable financial asset that can be optimized."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views this company as a slow-growth, defensive conglomerate struggling with volume pressure and secular shifts in consumer preferences. We believe the market fails to appreciate the significant upside from closing a 300-400 basis point margin gap relative to peers and the potential to unlock value by divesting the $25 billion non-core investment stake. With a new CEO in place, the company is uniquely positioned to trade its current status as a bloated conglomerate for a leaner, higher-margin consumer powerhouse [D01; D04; D06; D07].",
+   "evidence": [
+    "Reported 300-400 bps margin gap versus peers like Kraft Heinz and General Mills [D06].",
+    "Significant $25 billion financial asset that is separable and non-core to operating business [D01; D04].",
+    "New CEO Mark Schneider provides the leadership necessary to execute strategic portfolio simplification [D01; D07]."
+   ],
+   "peer_benchmark": "Kraft Heinz (23.2% margin), General Mills (16.3% margin), and PepsiCo (15.6% margin) [D06].",
+   "what_must_be_true": [
+    "New CEO Mark Schneider remains committed to an aggressive operational turnaround and portfolio pruning.",
+    "The margin gap can be closed without cannibalizing the core brand equity or marketing investment.",
+    "The board remains open to active capital allocation, including the divestiture of the $25 billion investment stake.",
+    "Consumer category growth stabilizes at mid-single-digit rates as targeted [D03; D05; D07]."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "CHF 105 - 110",
+    "arithmetic": [
+     "Operating business value: 18x 2019E EPS (assuming margin expansion to 18-19%) [D06; D07]",
+     "Investment stake: CHF 25B value treated as cash/separable asset [D01; D04]",
+     "Net Debt: CHF 12.3B [D04]",
+     "Sum: Operating business equity value + CHF 12.7B net value of investment stake [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "CHF 75",
+    "basis": "Current FCF yield of 4.53% provides a valuation floor for a high-quality global consumer base [D04]"
+   },
+   "current_price": "CHF 82.65 [D04]",
+   "skew": "25-30% upside : 10% downside",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumption: Operating margins can expand to 18-19% via cost savings without impacting organic growth [D06; D07]",
+    "Assumption: Investment stake can be monetized for full CHF 25B book value without prohibitive tax leakage [D01; D04]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Margin expansion to 18-19% via structural cost savings [D06; D07]",
+    "Divestiture of the $25 billion non-core investment stake [D01; D04]",
+    "Divestiture of non-core assets such as the US confectionery business [D07]"
+   ],
+   "actors": [
+    "Mark Schneider — CEO — partner in transition [D01; D07]"
+   ],
+   "governance_route": "Constructive engagement with the Board of Directors and management to leverage the new CEO's strategic mandate [D01; D07]",
+   "timetable_quarters": 4,
+   "escalation_path": "If management fails to articulate or execute a comprehensive plan within 3-4 quarters, pivot to a public letter campaign (P2) to apply pressure to the board.",
+   "why_this_role_fits_the_era": "Fits the 2016-onward strategy of mega-cap constructivism, where we prefer private engagement to catalyze value with a receptive, high-quality management team before resorting to public activism [D01]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Mark Schneider abandons the margin expansion program or fails to meet quarterly cost-saving milestones [D01; D07].",
+    "The Board of Directors explicitly rejects the strategic review or divestiture of the non-core $25 billion investment stake [D01; D07].",
+    "Organic growth decelerates significantly below the targeted mid-single-digit rates, signaling brand degradation [D03; D07].",
+    "A significant market-wide liquidity or interest rate shock occurs, impairing the valuation of high-quality consumer conglomerates [D05]."
+   ],
+   "portfolio_risk": "This position increases our exposure to the consumer staple sector, which offers defensive characteristics but shares duration sensitivity with our other large-cap holdings [D01; D05]. Liquidity is high given the CHF 255.5 billion market cap, allowing for efficient entry and exit [D04]. We will monitor correlation with our other European equity positions [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Use index puts on the broader consumer staple sector to hedge against macro-driven multiple contraction while we engage on company-specific catalysts.",
+   "biggest_risk_in_one_sentence": "The primary risk is that management fails to bridge the margin gap without sacrificing long-term organic growth, or that they lack the conviction to monetize the separable investment asset."
+  }
+ },
+ "final": {
+  "as_of_date": "2017-06-25",
+  "company": "Nestlé S.A.",
+  "ticker": "NESN",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "CHF 105 - 110",
+   "floor": "CHF 75",
+   "skew": "2.5-3:1",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Margin expansion to 18-19% via structural cost savings",
+    "Divestiture of the $25 billion non-core investment stake",
+    "Divestiture of non-core assets such as the US confectionery business"
+   ],
+   "actors": [
+    "Mark Schneider — CEO"
+   ],
+   "governance_route": "Constructive engagement with the Board of Directors and management to leverage the new CEO's strategic mandate",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The company suffers from a 300–400 basis-point margin gap relative to peers like Kraft Heinz and General Mills [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Management can unlock significant shareholder value by divesting the non-core $25 billion investment stake [D01; D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "New CEO Mark Schneider is a receptive partner capable of executing an aggressive operational turnaround and portfolio simplification [D01; D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "At CHF 82.65, the stock trades at an attractive valuation floor supported by a 4.53% free cash flow yield [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Mark Schneider abandons the margin expansion program or fails to meet quarterly cost-saving milestones [D01; D07].",
+   "The Board of Directors explicitly rejects the strategic review or divestiture of the non-core $25 billion investment stake [D01; D07].",
+   "Organic growth decelerates significantly below the targeted mid-single-digit rates, signaling brand degradation [D03; D07]."
+  ],
+  "what_would_change_our_mind": "A sustained failure by management to implement operational efficiencies or a board refusal to address capital allocation, specifically the monetization of the investment stake.",
+  "memo": "Nestlé is a world-class consumer goods conglomerate currently hampered by an unoptimized portfolio and significant operational inefficiencies [D01]. Despite its premier global brand portfolio, the company maintains a 300–400 basis-point margin gap versus peers such as Kraft Heinz and PepsiCo, representing a clear opportunity for margin expansion [D06].\n\nThe math is compelling: we value the operating business at 18x 2019E EPS while treating the $25 billion investment stake as a highly liquid, separable asset [D01; D04; D06]. This sum-of-the-parts approach yields a target value of CHF 105-110 per share, offering a robust upside relative to our CHF 75 downside floor [D04].\n\nThe market has mispriced Nestlé as a slow-growth, defensive dinosaur, failing to account for the potential for radical simplification under new leadership [D01; D04]. With the arrival of CEO Mark Schneider, the firm has the necessary catalyst to move from a bloated, low-margin conglomerate to a lean, efficient powerhouse [D01; D07].\n\nOur plan focuses on three pillars: structural margin expansion to 18-19%, the divestiture of the $25 billion non-core investment stake, and the sale of underperforming assets like US confectionery [D01; D06; D07]. We have initiated a constructive dialogue with the board and management to accelerate these initiatives over the next 4 quarters [D01; D07].\n\nWe size this as a core 5% position given the high quality of the underlying assets and the clear, actionable path to value creation [D01]. We will manage macro-driven multiple contraction via index put options on the consumer staples sector, maintaining our exposure until the catalysts are realized [D05].",
+  "uncited_claims": []
+ }
+}

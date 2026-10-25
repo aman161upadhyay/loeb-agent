@@ -1,0 +1,54 @@
+{
+ "trade_id": "ho_2025_sk_hynix_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The manager saw a substantial valuation discount to Micron and Samsung → The Company’s 42% operating margin in Q1 2025 demonstrates a clear margin gap over peers like Micron and Samsung, whose margins are substantially lower at 5.19% and 10.88% respectively [D03, D06]."
+  ],
+  "missed": [
+   "HBM differentiation and sticky design qualifications can dampen through-cycle earnings volatility.",
+   "AI inference remains memory constrained, supporting HBM growth beyond accelerator-unit growth.",
+   "Rising HBM complexity can widen the technology lead despite competition."
+  ],
+  "extra_agent_drivers": [
+   "Market is mispricing the company as a legacy cyclical manufacturer.",
+   "Forecasted doubling of HBM demand in 2025.",
+   "Strong balance sheet provides a firm downside floor."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company’s Q1 2025 operating margins of 42%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "KRW 14.3 trillion in cash",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Micron margins are 5.19%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 3,
+  "share": 0.25
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While legacy investors fret over traditional memory cycles, they are missing the fundamental step-up in profitability driven by HBM3E leadership [D01, D03].",
+ "grader_notes": "The agent correctly identified the direction as a BUY. Reasoning overlap was limited because the agent focused on near-term margin/demand metrics from the Q1 2025 results, whereas the investor-agent (Loeb) emphasized structural HBM differentiation and design stickiness in his retrospective commentary. The agent's drivers were technically grounded in the pack, but lacked the specific thematic focus provided in the answer key.",
+ "run": "ho_2025_sk_hynix_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

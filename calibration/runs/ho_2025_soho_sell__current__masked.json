@@ -1,0 +1,53 @@
+{
+ "pack": "ho_2025_soho_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-08-15",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-08-15",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Original thesis of an independent and fair sale process: intact [D01]",
+   "Governance concern regarding controlling shareholder influence: strengthened [D05]",
+   "Operating performance: Q2 2025 showed improvement in revenue and margins, but large FX gain cautions against annualizing growth [D03]"
+  ],
+  "remaining_skew": "not in pack",
+  "next_catalyst_and_timing": "Appointment of independent special committee with mandate for fair minority treatment or public bid announcement [D07]",
+  "asks_if_escalating": [
+   "Establishment of a truly independent special committee to oversee the sale process",
+   "Provision of full access for outside bidders to ensure a competitive auction",
+   "Commitment to minority-shareholder protection mechanisms against controller-led discounting"
+  ],
+  "drivers": [
+   {
+    "driver": "The risk that a controller-led process limits competition and results in inadequate consideration for minority shareholders remains the primary concern [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Following the initial January public letter, the lack of a definitive, fair sale process announcement necessitates a more aggressive public stance [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Current operating results, while improved, do not replace the need for the catalyst-driven event of a transaction to unlock value [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   }
+  ],
+  "memo": "We have engaged privately and publicly since January regarding the need for a transparent and independent sale process for the Company [D01, D07]. While the Company reported improved revenue and margin metrics in Q2 2025, a significant portion of this profit was driven by a non-recurring foreign-exchange gain, reinforcing our view that the primary value creation mechanism must be a structural transaction rather than reliance on organic operating improvements [D03].\n\nOur core thesis remains that the Company’s membership scarcity and brand value represent a hidden asset that can only be realized through a competitive auction [D01]. However, the strongest bear case—that a controlling shareholder may stifle competition to the detriment of minority economics—has not been mitigated by management's actions since our initial letter [D05, D07]. We have waited for sufficient time for the board to act, and the mispricing persists in the current equity market [D04, D07].\n\nConsequently, we are escalating our involvement. It is imperative that the board appoints an independent special committee empowered to ensure a fair sale process that welcomes and facilitates competing bids [D01, D07]. We will continue to monitor process independence, net proceeds per minority share, and the arrival of bona fide competing offers as the key indicators of whether our thesis is playing out as expected [D03, D07].",
+  "uncited_claims": []
+ }
+}

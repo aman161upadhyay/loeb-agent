@@ -1,0 +1,269 @@
+{
+ "pack": "2018_utx_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2018-05-04",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a diversified industrial conglomerate operating in aerospace engines, aerospace systems, elevators, and climate/control businesses [D01]. Its business model combines installed-base service revenue with construction-sensitive new equipment sales [D01].",
+   "segments_and_separable_assets": [
+    "Aerospace: Pratt & Whitney engine aftermarket and aerospace systems [D01, D06]",
+    "Climate/Control: HVAC products [D01, D06]",
+    "Elevators: [D01, D06]"
+   ],
+   "economics_vs_peers": [
+    "Aerospace segment benefits from recurring aftermarket demand but faces new-platform cash consumption [D01, D06].",
+    "Elevator service should be benchmarked against Kone and Schindler; climate products against HVAC peers; aerospace against propulsion/systems suppliers [D06].",
+    "Margins/Returns: FY2017 operating margin 14.5% [D02]; ROE 15.4% [D02]."
+   ],
+   "capital_structure": [
+    "Gross debt: $27.485bn (FY2017) [D02]; $27.35bn (as of 2018-03-31) [D04].",
+    "Cash: $7.67bn (as of 2018-03-31) [D04].",
+    "Net debt: $19.68bn (as of 2018-03-31) [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $120.15 (2018-04-30) [D04].",
+    "Market Cap: $96.13bn [D04].",
+    "EV: $115.81bn [D04].",
+    "EV/EBITDA: 11.0x [D04].",
+    "P/E (Trailing): 21.5x [D04].",
+    "Guidance P/E (forward): 17.0x [D04]."
+   ],
+   "management_board_governance": [
+    "Gregory Hayes chairs and leads the company [D01]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 800.06m [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Integration of the Company acquisition [D01, D05].",
+    "Potential for portfolio structure review/separation (not currently approved) [D01, D06, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Execution risks, supplier constraints, and warranty exposure regarding the geared-turbofan ramp [D05].",
+    "Weakness in the Company new-equipment orders [D03, D05].",
+    "Conglomerate discount and the potential for expensive/inefficient separation [D05].",
+    "Low near-term free cash flow conversion [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2018-04-24: Reported Q1 2018 results, raised sales/EPS outlook [D03, D07]."
+   ],
+   "third_point_context": [
+    "AUM: ~$16bn (as of 2017-05) [D08].",
+    "Specific stake/basis in the Company: not in pack."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Current specific position size/basis for Third Point; detailed segment capital employed; specific debt maturity schedule."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is a diversified conglomerate with separable segments including aerospace, elevators, and climate products, trading at a potential conglomerate discount [D01, D05, D06]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply its experience in large-cap constructivism to advocate for a portfolio separation, leveraging peer-benchmarked margin and return data for individual units [D06]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The company is a large-cap with an index-heavy, receptive shareholder base, allowing for a constructivist approach starting with a private letter to leadership [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business possesses high-quality aerospace aftermarket and service-based revenue streams that provide an operational floor despite temporary new-equipment weakness [D01, D03, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$96bn and high liquidity, Third Point can establish a meaningful position within its $300M-$3.5B Era C target range [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management is capable of executing on strategic portfolio changes, and the current governance structure allows for constructive engagement to drive capital allocation [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point identifies the conglomerate discount and the potential for a value-unlocking separation of distinct industrial units, utilizing peer-based benchmarking to drive portfolio simplification.",
+   "one_line_verdict": "a diversified industrial conglomerate with high-quality separable units that can be unlocked through a structured separation strategy."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market views the company as a complex, diversified conglomerate suffering from poor free cash flow conversion and execution risk in its aerospace division, resulting in a persistent valuation discount. We believe the sum-of-the-parts value is significantly higher, as the company owns three world-class businesses that should be separated to unlock their true earnings potential and valuation multiples. A strategic separation will allow investors to realize the full value of the aerospace, elevator, and climate assets independently [D01, D06].",
+   "evidence": [
+    "The company trades at a conglomerate discount due to its diversified structure and operational complexity [D01, D05, D06].",
+    "The aerospace segment, while high-quality, is obscured by the broader conglomerate structure [D01, D06].",
+    "Peer benchmarking shows the individual units have higher standalone potential [D06]."
+   ],
+   "peer_benchmark": "Elevator service business should be valued against Kone and Schindler, while HVAC and aerospace segments should be benchmarked against their respective sector peers [D06].",
+   "what_must_be_true": [
+    "The board must acknowledge that the conglomerate discount exceeds any synergies currently realized by the combined entity.",
+    "The separation can be executed in a tax-efficient manner.",
+    "Operational performance in the aerospace business remains stable enough to support a standalone valuation.",
+    "Management is willing to engage in a structured portfolio simplification process."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$160.00",
+    "arithmetic": [
+     "EV/EBITDA peer avg multiple 14.0x [D06]",
+     "Implied EV: $148bn (Est. FY18 EBITDA $10.6bn [D03] * 14.0x)",
+     "Less Net Debt: $19.68bn [D04]",
+     "Equity Value: $128.32bn",
+     "Per share: $160.38 (Equity Value / 800.06m shares [D04])"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$115.00",
+    "basis": "Current EV/EBITDA of 11.0x [D04] applied to current EBITDA, representing the conglomerate 'stub' value [D01]"
+   },
+   "current_price": "$120.15 [D04]",
+   "skew": "33% : 4%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "FY18 EBITDA estimated at $10.6bn based on Q1 growth trends [D03]",
+    "Peer average multiple of 14.0x for separated segments [D06]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Execute a tax-efficient separation of the aerospace, elevator, and climate/control segments into three independent public companies to eliminate the conglomerate discount [D01, D06].",
+    "Commit to segment-specific margin targets benchmarked against industry peers (e.g., Kone and Schindler for elevators) [D06].",
+    "Optimize capital allocation by providing standalone transparency to support market-appropriate valuation multiples [D06]."
+   ],
+   "actors": [
+    "Gregory Hayes — Chairman and CEO — Primary decision-maker [D01]"
+   ],
+   "governance_route": "Private constructive engagement with the board and leadership [D01, D07].",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains non-responsive or refuses to explore structural alternatives within two quarters, Third Point will prepare a public letter and initiate a campaign to influence the shareholder base [D07].",
+   "why_this_role_fits_the_era": "In the current era of mega-cap constructivism, Third Point prioritizes private engagement first, only moving to public letters if ignored, especially when dealing with high-quality businesses that can benefit from portfolio simplification [D06, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management publicly commits to the current conglomerate structure for an extended period, closing the window for near-term separation [D07].",
+    "Aerospace segment margins deteriorate below historical floors due to prolonged geared-turbofan production or warranty issues [D05].",
+    "Material deterioration in the elevator or climate segment returns compared to industry peers like Kone or Schindler, signaling structural competitive decay [D06].",
+    "Macro environment shift causing significant contraction in industrial liquidity, rendering a tax-efficient spin-off mathematically unviable [D06]."
+   ],
+   "portfolio_risk": "Factor overlap exists with other large-cap industrial holdings; however, this is a idiosyncratic conglomerate discount play which provides some decorrelation from pure-play cyclical risk [D06]. The position is highly liquid (average daily volume supports large entry/exit) [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 7,
+    "max": 10
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 8,
+   "hedge_overlay": "Index puts on the S&P Industrials sector to mitigate broad-market or sector-specific beta during the private engagement period.",
+   "biggest_risk_in_one_sentence": "The primary risk is that management remains entrenched and refuses to pursue the structural separation, forcing a long, public, and potentially value-destructive proxy fight."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-05-04",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 7,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$160.00",
+   "floor": "$115.00",
+   "skew": "33% : 4%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Execute a tax-efficient separation of the aerospace, elevator, and climate/control segments into three independent public companies to eliminate the conglomerate discount [D01, D06].",
+    "Commit to segment-specific margin targets benchmarked against industry peers (e.g., Kone and Schindler for elevators) [D06].",
+    "Optimize capital allocation by providing standalone transparency to support market-appropriate valuation multiples [D06]."
+   ],
+   "actors": [
+    "Gregory Hayes — Chairman and CEO"
+   ],
+   "governance_route": "Private constructive engagement with the board and leadership [D01, D07].",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company trades at a persistent conglomerate discount that obscures the value of three world-class businesses [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Sum-of-the-parts analysis, benchmarking individual units against peers like Kone and Schindler, yields a target value of $160 per share, significantly above the current $120.15 price [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A structured, tax-efficient separation would eliminate the conglomerate discount and align capital allocation with market-appropriate valuation multiples [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "High-quality aerospace aftermarket revenue provides an operational floor of $115, resulting in a compelling 33%:4% risk/reward skew [D01, D03, D04].",
+    "citations": [
+     "D01",
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "We will initiate private engagement with Gregory Hayes to propose the separation, with a public escalation plan prepared if ignored [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management publicly commits to the current conglomerate structure for an extended period, closing the window for near-term separation [D07].",
+   "Aerospace segment margins deteriorate below historical floors due to prolonged geared-turbofan production or warranty issues [D05].",
+   "Material deterioration in the elevator or climate segment returns compared to industry peers like Kone or Schindler, signaling structural competitive decay [D06].",
+   "Macro environment shift causing significant contraction in industrial liquidity, rendering a tax-efficient spin-off mathematically unviable [D06]."
+  ],
+  "what_would_change_our_mind": "A public, definitive commitment by the Board to maintain the current conglomerate structure would invalidate our thesis and lead to a swift exit.",
+  "memo": "The Company is a diversified industrial conglomerate whose true potential is masked by its current structure, leading to a persistent and unnecessary conglomerate discount [D01, D06]. While the aerospace, elevator, and climate businesses are world-class, they are currently managed as a single entity, which we believe is an inefficient way to extract value for shareholders [D01, D06].\n\nOur sum-of-the-parts analysis reveals a compelling upside. By benchmarking the elevator business against peers like Kone and Schindler, and valuing the aerospace and climate units against their respective sectors at an average 14.0x EBITDA multiple, we derive a valuation of $160 per share [D03, D06]. This stands in stark contrast to the current $120.15 trading price, which fails to recognize the independent earnings power of the core segments [D04].\n\nThe market’s focus on temporary execution risks in the aerospace segment and historical conglomerate complexity has created this mispricing [D01, D05]. We believe that a strategic, tax-efficient separation into three independent, public companies is the necessary catalyst to unlock this value [D01, D06]. Transparency as standalone entities will force the market to assign market-appropriate multiples to each business rather than the current depressed conglomerate stub [D01].\n\nWe are engaging privately with Chairman and CEO Gregory Hayes to outline our proposal for this separation [D01, D07]. We expect management to commit to segment-specific margin targets and provide a roadmap for structural independence within two quarters [D06, D07]. Should management remain unresponsive to this constructive approach, we are prepared to take our case directly to shareholders [D07].\n\nWe see a hard valuation floor at $115 per share, based on current EBITDA and a 11.0x multiple, which supports a highly asymmetric 33%:4% risk/reward skew [D03, D04]. Our downside risk is limited by the recurring aftermarket revenue in the aerospace division [D01, D05]. We intend to build a 7% position in the common stock to capitalize on this event-driven opportunity [D04].",
+  "uncited_claims": []
+ }
+}

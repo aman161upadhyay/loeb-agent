@@ -1,0 +1,17 @@
+Title: Dated event map and authority to act — Prudential plc
+Source: https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2019/2019-08-14.pdf (2019-08-14); https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-ltd-third-point-december-2019-monthly-report-874470232.html (2020-01-03); https://13f.info/13f/000108514620000685-third-point-llc-q4-2019 (2020-02-13)
+Date: 2020-02-24
+
+August 14: the half-year report describes Asia-led growth and expected European demerger later in the year. The current cutoff is February 24. The legal and funding details of a possible Asia/US separation are not yet established in the evidence presented here. The board, relevant insurance regulators and shareholders would all matter to implementation. A credible event calendar needs structural feasibility, capital approval and standalone listing work. No subsequent Jackson separation, new market crisis or later investment-manager rationale is used to pre-commit the answer. [S1; analyst timeline]
+
+Event-path discipline. The timeline separates a public report, an announced intention, a legally binding step and actual implementation. These are different milestones. A board may examine an option without approving it; an approved transaction can still face financing, regulatory, tax or execution conditions. Put the authority to decide alongside the event, rather than presume that a minority shareholder can cause it immediately.
+
+The observation cutoff is hard. A later upload location for an older document does not move its underlying publication date, while a later investor retrospective cannot become an earlier desk input. No eventual transaction, operating result or investment outcome is implied here. Where a first transaction day is not publicly recoverable, this document does not invent one from a quarter-end filing. Future calendar items are possibilities to monitor, not completed facts. A realistic timetable should allow multiple quarters when necessary and specify the evidence that would show delay or failure. This avoids confusing a well-written proposal with an executable catalyst and keeps the analyst's expected value separate from the historical answer.
+
+Analyst cross-check: For each prospective milestone, identify who controls the decision, which prerequisite must occur first and whether shareholder approval is sufficient. Regulatory clearance, creditor consent and operational implementation are distinct gates. Delay affects discounted value even if the eventual strategic direction remains economically sensible and legally feasible.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.prudentialplc.com/content/dam/prudential-plc/newsroom/company-news/2019/2019-08-14.pdf (published 2019-08-14).
+- [S2] https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (published 2020-02-24).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-ltd-third-point-december-2019-monthly-report-874470232.html (published 2020-01-03).
+- [S4] https://13f.info/13f/000108514620000685-third-point-llc-q4-2019 (published 2020-02-13).

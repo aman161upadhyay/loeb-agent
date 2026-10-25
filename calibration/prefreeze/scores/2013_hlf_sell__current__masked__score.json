@@ -1,0 +1,62 @@
+{
+ "trade_id": "2013_hlf_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The investment was successful as a short-duration repricing trade, so monetize gains rather than remain in the controversy indefinitely. → Our edge was the technical mispricing, and that edge is spent once the stock has repriced following the initial short attack.",
+   "Reduce or close the position after the initial catalyst rather than equating a compounder assessment with permanent ownership. → We are not in the business of winning public arguments or proving the critics wrong in perpetuity."
+  ],
+  "missed": [
+   "The initial operating/valuation case did not require holding through every subsequent legal or investor confrontation."
+  ],
+  "extra_agent_drivers": [
+   "Growth does not mitigate regulatory/business-model risk.",
+   "Maintaining the position exposes the firm to uncompensated volatility."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We entered this position to capitalize on a controversy-driven discount and the technical dynamics of a crowded short-side squeeze",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "operating results remain robust with 20% sales growth and 18% volume growth in Q4",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have already navigated the immediate management rebuttal and the latest earnings release",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Continuing to hold risks exposure to binary regulatory outcomes that are not captured in the current trading multiple",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Remaining invested in a stock crowded on both sides carries unnecessary volatility",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our edge was the technical mispricing, and that edge is spent once the stock has repriced following the initial short attack.",
+ "grader_notes": "The agent correctly identified the 'sell/trim' decision and aligned well with the rationale that the trade was a short-duration technical play rather than a long-term compounder. The agent's reasoning was closest to Loeb's in its characterization of the trade as a 'spent' technical opportunity and farthest in its focus on the risk-reward of remaining in a crowded, volatile stock, which was a secondary consideration compared to Loeb's simple desire to monetize the successful trade.",
+ "run": "2013_hlf_sell__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

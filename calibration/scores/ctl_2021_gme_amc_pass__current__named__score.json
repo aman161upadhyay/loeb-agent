@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2021_gme_amc_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 2,
+  "matched": [],
+  "missed": [
+   "Neither GME nor AMC appears in any of the 54 reportable quarterly tables.",
+   "Retrospective 2021-02-10 crowded-short discipline comment, not a named common-stock long rejection and not available on the desk date."
+  ],
+  "extra_agent_drivers": [
+   "Speculative, sentiment-driven technical short squeeze decoupled from fundamental reality",
+   "GameStop's retail model faces severe secular digital distribution pressures",
+   "AMC carries a precarious capital structure with debt",
+   "Valuation lacks any identifiable asset or earnings floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "These companies are currently the subjects of intense, retail-driven technical short squeezes",
+    "citation": "D13",
+    "verdict": "supported"
+   },
+   {
+    "claim": "GameStop, with its negative operating margins of -6.2%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "AMC’s operating margin of 2.5%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have reviewed the ongoing volatility in GameStop and AMC Entertainment and have determined these situations are a pass for our portfolio [D13].",
+ "grader_notes": "The agent correctly identified the PASS decision but provided a completely different set of fundamental drivers than the manager. While the agent's analysis of secular headwinds and valuation is plausible for an investment memo, it bears no resemblance to the manager's actual rationale, which was based on the absence of these securities from historical filings and retrospective commentary on short-interest discipline.",
+ "run": "ctl_2021_gme_amc_pass__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 2,
+ "reasoning_scorable": false
+}

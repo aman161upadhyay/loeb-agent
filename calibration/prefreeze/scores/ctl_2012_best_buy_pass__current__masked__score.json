@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2012_best_buy_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Never held per recovered 13F history: BBY/Best Buy absent from the complete Q3/Q4 2011 and all four 2012 original Third Point 13Fs (plus Q2 amendment), and from the 54-quarter 2013–Q2 2026 index. No attributable manager public comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "Legacy retailer facing structural decline",
+   "Lack of clear, separable asset or governance leverage",
+   "Operating margins trail peers",
+   "Absence of a hard floor"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company’s FY2011 operating margin of 4.2% lags substantially behind Walmart’s 6.1%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "the Company maintains $2.392bn in cash, it is offset by $2.541bn in debt",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We have reviewed the Company as a potential investment and have decided to pass.",
+ "grader_notes": "The agent correctly reached the PASS decision, matching the actual observational status. However, the reasoning is entirely fabricated; it provides fundamental analysis of Best Buy to justify a pass, whereas the actual 'Loeb' stance was a purely evidence-based historical fact: the firm never held the stock.",
+ "run": "ctl_2012_best_buy_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

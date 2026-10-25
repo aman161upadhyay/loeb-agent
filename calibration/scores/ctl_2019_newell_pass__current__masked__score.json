@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2019_newell_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Newell/NWL/Jarden absent from complete 54-quarter index; no attributable Third Point public position comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The Company is a structurally declining business with persistent negative core sales.",
+   "Major activist positions are already established, leaving no room for Third Point to exert meaningful influence.",
+   "The valuation is not compelling, with a market price of $36.00 significantly exceeding our sum-of-the-parts estimate of $22.00.",
+   "High leverage of 3.5x presents significant downside risk if asset disposal proceeds fall short of the $10bn target."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is a structurally declining business with persistent negative core sales.",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Starboard Value disclosed a ~4% Newell stake on 9 February 2018.",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 11,
+  "share": 0.92
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on the opportunity and maintain a watching brief for potential future entry if the thesis proves more robust.",
+ "grader_notes": "The agent correctly identified the PASS decision. However, the agent's reasoning was completely disconnected from the answer key; the answer key relies on a 'control' methodology (absence from 13F filings), whereas the agent fabricated a comprehensive fundamental thesis for a trade that Third Point did not make.",
+ "run": "ctl_2019_newell_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

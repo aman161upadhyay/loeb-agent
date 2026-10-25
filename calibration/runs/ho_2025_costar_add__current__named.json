@@ -1,0 +1,57 @@
+{
+ "pack": "ho_2025_costar_add",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-06-30",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "CoStar Group",
+  "ticker": "CSGP",
+  "decision": "HOLD",
+  "reason_class": "L5",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Commercial franchise as 'Bloomberg of real estate': intact [D01]",
+   "Governance/Capital allocation oversight via board refresh: intact [D01, D03]",
+   "Residential investment consuming commercial profits: ongoing risk [D05, D06]"
+  ],
+  "remaining_skew": "Undetermined due to lack of segment-level disclosure and unquantified impact of Homes.com spend [D02, D04]",
+  "next_catalyst_and_timing": "Evidence of spending discipline and core-business execution in upcoming quarters [D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The April settlement introduced new board members to oversee capital allocation and compensation, which remains the primary active catalyst [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The company continues to generate high-margin recurring commercial data and marketplace earnings that support the core valuation case [D01, D02].",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "Residential marketplace investment remains a persistent drag on profitability, requiring ongoing verification of management discipline [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The governance package is in its early stages of implementation, and we await tangible evidence of reduced burn rate in the residential segment [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "Our investment in CoStar remains anchored by the unique quality of its commercial real estate information franchise, which remains the 'Bloomberg' of its asset class [D01]. The central event-driven catalyst—the April 2025 governance settlement—is currently in the implementation phase [D03, D07]. By placing John Berisford, Rachel Glaser, and Christine McCarthy on the board, we have secured a mechanism to oversee capital allocation and compensation, directly addressing our concerns regarding historical empire-building [D03, D07].\n\nThe fundamental underwriting challenge is separating this high-margin, recurring commercial business from the cash-intensive, loss-making residential strategy [D02, D06]. The bears argue that Homes.com investment will continue to consume commercial profits indefinitely, rendering the governance remedy toothless [D05]. Our objective is to test this against actual operating disclosures rather than management rhetoric; we require empirical evidence of disciplined spending and improved cash conversion [D02, D03, D05].\n\nWe are in a holding pattern while the new directors establish their oversight. We do not have sufficient visibility into the precise segment-level cash bridge to justify an immediate exit or a significant increase in exposure [D02, D04]. We will monitor core commercial earnings and Homes.com investment levels closely as they are the primary metrics for determining whether this management team can deliver on the implied efficiency gains [D01, D07]. As we are now a party to the board agreement, we maintain our position while the agreed-upon plan proceeds [D03].",
+  "uncited_claims": []
+ }
+}

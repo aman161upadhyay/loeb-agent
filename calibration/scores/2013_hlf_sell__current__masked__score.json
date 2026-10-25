@@ -1,0 +1,43 @@
+{
+ "trade_id": "2013_hlf_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The investment was successful as a short-duration repricing trade, so monetize gains rather than remain in the controversy indefinitely. → The initial technical trade—a contrarian long against a high-profile short squeeze—has largely played out as the stock has repriced.",
+   "The initial operating/valuation case did not require holding through every subsequent legal or investor confrontation. → Reported growth remains strong, but this validates the business model rather than eliminating the lingering regulatory and legal risks.",
+   "Reduce or close the position after the immediate catalyst rather than equating a compounder assessment with permanent ownership. → We are not in the business of winning arguments; the edge provided by the technical dislocation is now spent."
+  ],
+  "missed": [],
+  "extra_agent_drivers": []
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The stock has experienced a significant technical repricing, fueled by robust operating performance and a squeeze on the short side.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "February 19 earnings release confirming double-digit growth in sales and volume points provides evidence of the business's current resilience.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are not in the business of winning public arguments or holding through indefinite regulatory uncertainty when the primary technical edge has been captured.",
+ "grader_notes": "The agent correctly identified the trade as a successful tactical event that had played out, aligning perfectly with Loeb's rationale of monetizing a repricing trade rather than holding through indefinite controversy. The agent's reasoning mirrored the answer key's drivers across all three points provided.",
+ "run": "2013_hlf_sell__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

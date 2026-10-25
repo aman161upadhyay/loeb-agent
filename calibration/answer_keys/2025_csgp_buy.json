@@ -1,0 +1,53 @@
+{
+  "id": "2025_csgp_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "1.975m common Q1 2025, $156.479m quarter-end value; not entry cost or full economic stake.",
+  "first_action_date": null,
+  "first_action_window": "Requested June30 cutoff moved to March31, before April7 disclosure/settlement. Recovered primary evidence is separate agreements, not a single joint letter with D.E. Shaw.",
+  "disclosure_date": "2025-04-07",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1",
+    "E4"
+  ],
+  "catalyst_role": "P1→P3",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Andy Florance",
+      "CoStar board",
+      "D.E. Shaw (separate support agreement)"
+    ],
+    "governance_route": "P1→P3; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "The Bloomberg of commercial real estate possessed recurring data and marketplace economics with pricing power.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf (2025-04-30, retrospective relative to pack)",
+      "quote": "Bloomberg of commercial real estate"
+    },
+    {
+      "driver": "Homes.com spending obscured the core and required capital-allocation discipline.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf (2025-04-30, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "Independent board expertise and oversight could improve returns on investment and accountability.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf (2025-04-30, retrospective relative to pack)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "Separate agreements signed April6, announced April7, added John Berisford, Rachel Glaser and Christine McCarthy and capital-allocation oversight. No single joint legal group established.",
+  "sources": [
+    "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf (2025-04-30)",
+    "https://www.sec.gov/Archives/edgar/data/1057352/000119312525074119/d937923dex991.htm",
+    "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf (2025-04-30, retrospective relative to pack)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested June30 cutoff moved to March31, before April7 disclosure/settlement. Recovered primary evidence is separate agreements, not a single joint letter with D.E. Shaw. AUM 12bn is firm/manager capital, not Offshore NAV, per https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (2025-01-02). AUM observation period 2024-12; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

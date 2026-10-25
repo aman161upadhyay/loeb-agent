@@ -1,0 +1,250 @@
+{
+ "pack": "ctl_2021_gme_amc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2021-01-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "GameStop distributes video games and related products, while AMC Entertainment operates a chain of cinemas [D01]. Both companies are subject to digital and physical market disruptions, with AMC specifically impacted by pandemic-related public-health conditions [D01, D05].",
+   "segments_and_separable_assets": [
+    "GameStop: Retail video game/product distribution with ecommerce growth of 257% in Q3 FY2020 [D01, D02]",
+    "AMC: Cinema exhibition operating assets [D01]"
+   ],
+   "economics_vs_peers": [
+    "AMC: Q3 2020 revenue decline of 90.9% and operating margin of -565.2% vs Cinemark's 10.3% pre-pandemic FY2019 operating margin [D03, D06]",
+    "GameStop: Q3 2020 revenue decline of 30.2% and operating margin of -6.3% vs Best Buy's 19.8% FY2020 P/E reference [D03, D06]"
+   ],
+   "capital_structure": [
+    "GameStop: $0.4198bn long-term debt (FY2019) and $0.4459bn unrestricted cash (Q3 FY2020) [D02, D03]",
+    "AMC: $4.7534bn debt (FY2019), $0.4179bn unrestricted cash (Q3 2020), and $917m raised/committed since mid-December [D02, D03]"
+   ],
+   "price_and_valuation": [
+    "GameStop: $347.51 price, $24.24bn market cap, NM P/E, 73.0x P/B [D04]",
+    "AMC: $19.90 price, ~$8.01bn market cap, NM P/E, negative book value [D04]"
+   ],
+   "management_board_governance": [
+    "GameStop: Ryan Cohen and board [D01]",
+    "AMC: Adam Aron and board; includes equity holders and lenders [D01]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "GameStop: 69.747m shares (Dec 1) [D04]",
+    "AMC: ~402.373m shares pro forma [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Crowded-short covering, retail investor participation, and financing optionality (equity issuance/debt raising) [D01, D03, D04]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Short covering is finite and may reverse [D05]",
+    "Digital distribution pressure (GME) and public-health/studio release uncertainty (AMC) [D05]",
+    "Potential for equity dilution and structural senior claims [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "Dec 8, 2020: GameStop Q3 results [D03, D07]",
+    "Jan 25, 2021: AMC financing announcement [D03, D07]",
+    "Jan 27, 2021: Dramatic repricing in GME and AMC; AMC completed at-the-market equity program [D03, D04, D07]"
+   ],
+   "third_point_context": [
+    "Third Point reported $9.998bn in securities as of Q3 2020 13F; no data on GME/AMC positions or current exposure as of 2021-01-27 [D08]"
+   ],
+   "document_conflicts": [
+    "none"
+   ],
+   "missing_data": [
+    "Fully diluted share counts, forward valuation estimates, precise firm AUM at 2021-01-27, and current unrestricted excess cash [D02, D03, D04, D08]"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Market activity is driven by a massive, crowded-short squeeze fueled by retail participation and forced financing, creating a technical exit opportunity [D01, D03, D04]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The price action in GME and AMC is a retail-driven, highly volatile momentum event with no differentiated fundamental thesis for Third Point [D04, D05, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The technical event is in motion via extreme short interest and publicised retail activity, allowing for a defined sell-into-strength exit strategy [D03, D04, D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Both businesses face secular decline or severe structural impairment, and neither exhibits a cash or asset floor that justifies current valuations [D01, D04, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Trading volumes during the short squeeze provide sufficient liquidity to execute a tactical position size [D04, D07]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The business models are undergoing severe disruption, and the current valuation is decoupled from any management-led operational roadmap [D01, D04, D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 3,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "This is a volatile, retail-driven technical short squeeze where the price is entirely disconnected from fundamental value, offering no durable Third Point edge.",
+   "one_line_verdict": "A speculative retail-driven short squeeze lacking a fundamental floor or a repeatable investment edge."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M5"
+   ],
+   "variant_view": "The market is currently engaged in a reflexive, retail-driven short squeeze that has decoupled share prices from any underlying fundamental reality. While the market views this as a momentum-based opportunity for indefinite gains, we view it as a transient technical anomaly driven by forced covering and extreme volatility. The catalyst will eventually exhaust as liquidity for the squeeze wanes or as fundamental dilution from management equity programs reasserts a lower valuation floor [D01, D03, D04].",
+   "evidence": [
+    "Dramatic price appreciation driven by crowded-short covering and retail participation [D01, D04].",
+    "Significant disconnect between market capitalization and business performance, with operating margins at -6.3% for GME and -565.2% for AMC [D03, D06].",
+    "Capital structure reality check: GME and AMC are facing secular disruption and negative/challenged book values [D01, D04]."
+   ],
+   "peer_benchmark": "Best Buy 19.8% FY2020 P/E reference for GME; Cinemark's 10.3% pre-pandemic FY2019 operating margin for AMC [D06]",
+   "what_must_be_true": [
+    "Retail sentiment must remain elevated to sustain current price levels",
+    "The velocity of short-covering must exceed the rate of management-led equity dilution",
+    "The technical event must provide sufficient liquidity for a clean exit"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "GME: ~$15.00, AMC: $0.00",
+    "arithmetic": [
+     "GME: Based on Best Buy 19.8% operating margin applied to GME's revenue scale [D06]",
+     "AMC: Negative book value and -565.2% operating margin indicate insolvency risk [D03, D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "GME: ~$0.446bn cash [D03]; AMC: $0.00",
+    "basis": "GME: Unrestricted cash; AMC: Negative book value [D03, D04]"
+   },
+   "current_price": "GME: $347.51; AMC: $19.90 [D04]",
+   "skew": "Negative:Negative",
+   "irr_pct": {
+    "base": -90,
+    "bear": -100,
+    "bull": -50
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumed GME can reach Best Buy-level margins despite secular digital disruption [D06]",
+    "Assumed AMC recovery is impossible given negative book value and operational losses [D04]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Liquidate current positions to exit the short squeeze while liquidity remains high [D04, D07]"
+   ],
+   "actors": [
+    "Ryan Cohen — GameStop Board — N/A [D01]",
+    "Adam Aron — AMC CEO — N/A [D01]"
+   ],
+   "governance_route": "N/A [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "No escalation; we are harvesting a transient technical anomaly to protect capital and move to the next event [D03, D04].",
+   "why_this_role_fits_the_era": "This is a tactical, opportunistic exit from a retail-driven short squeeze. We do not engage with the underlying businesses, which are structurally impaired and lack the fundamental value to support Third Point's long-term constructivist model [D04, D05, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Retail momentum sustains price significantly beyond current levels",
+    "Short interest remains persistently elevated preventing price correction",
+    "Management utilizes volatility to aggressively deleverage or dilute, masking underlying business impairment",
+    "Liquidity in the security dries up before position closure"
+   ],
+   "portfolio_risk": "Factor overlap with speculative, retail-driven momentum bubbles creates high volatility; gross exposure requires strict discipline to prevent drift into non-fundamental bets [D01, D03, D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0.5
+   },
+   "pct_of_company": "Minimal; tactical exit only",
+   "horizon_quarters": 1,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is a further reflexive, retail-driven squeeze that causes significant mark-to-market losses during the exit process."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-01-27",
+  "company": "GameStop and AMC Entertainment",
+  "ticker": "GME / AMC",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "GME: ~$15.00, AMC: $0.00",
+   "floor": "GME: ~$0.446bn cash; AMC: $0.00",
+   "skew": "Negative:Negative",
+   "irr_pct": -90
+  },
+  "plan": {
+   "asks": [
+    "Liquidate current positions to exit the short squeeze while liquidity remains high"
+   ],
+   "actors": [
+    "Ryan Cohen",
+    "Adam Aron"
+   ],
+   "governance_route": "N/A",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "GameStop and AMC are experiencing a reflexive, retail-driven short squeeze that has decoupled share prices from any fundamental business value [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Operating margins of -6.3% for GME and -565.2% for AMC highlight the severe secular and structural impairment facing these businesses compared to peer benchmarks [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   },
+   {
+    "driver": "There is no durable fundamental thesis for Third Point; the opportunity is a transient technical anomaly reliant on retail sentiment rather than operational improvement [D01, D04, D05].",
+    "citations": [
+     "D01",
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The risk of further reflexive price movement creates a dangerous setup where fundamental disconnects provide no floor, necessitating a clean exit from any potential exposure [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Retail momentum sustains price significantly beyond current levels",
+   "Short interest remains persistently elevated preventing price correction",
+   "Management utilizes volatility to aggressively deleverage or dilute, masking underlying business impairment",
+   "Liquidity in the security dries up before position closure"
+  ],
+  "what_would_change_our_mind": "A fundamental shift in the business models that provides a sustainable path to peer-level margins and a valuation floor backed by assets rather than retail speculation.",
+  "memo": "GameStop and AMC Entertainment are currently the subjects of a reflexive, retail-driven short squeeze that has completely decoupled their share prices from fundamental reality [D01, D04]. We view these names not as investment opportunities, but as transient technical anomalies characterized by extreme volatility and unsustainable pricing [D01, D03, D04].\n\nThe business math is stark. GameStop operates with an operating margin of -6.3%, while AMC suffers from a -565.2% operating margin, standing in sharp contrast to the 19.8% operating margin at Best Buy and the 10.3% pre-pandemic margin at Cinemark [D03, D06]. Neither company possesses a fundamental floor to support their current market capitalizations, with AMC exhibiting a negative book value [D03, D04].\n\nThe market is currently mispricing these entities by prioritizing short-covering velocity over structural impairment [D05]. As retail sentiment fluctuates and the financing optionality offered by equity dilution runs its course, we expect these valuations to face a severe, non-linear correction [D01, D03, D04].\n\nOur role here is nonexistent; there is no constructive roadmap, no management plan we support, and no governance route to extract value [D01]. These are structurally impaired businesses in secular decline [D04, D05].\n\nRisks remain high, specifically the potential for further reflexive squeezing which can cause significant mark-to-market losses [D04]. Our decision is to remain on the sidelines; we do not gamble on momentum and we require a fundamental floor to deploy capital [D04, D05]. We are passing on these names to protect capital and focus on disciplined, event-driven opportunities elsewhere [D03, D04].",
+  "uncited_claims": []
+ }
+}

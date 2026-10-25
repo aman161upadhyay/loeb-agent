@@ -1,0 +1,243 @@
+{
+ "pack": "ctl_2024_ba_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2024-01-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company sells commercial aircraft, defense systems, and related services [D01]. The business model relies on a significant installed fleet, service demand, and a substantial backlog of orders [D01, D02].",
+   "segments_and_separable_assets": [
+    "Commercial Airplanes: $7.876bn revenue, -8.6% operating margin, 105 deliveries, $392bn backlog [D06]",
+    "Defense, Space & Security: $5.481bn revenue, -16.9% operating margin, $58bn backlog [D06]",
+    "Global Services: $4.747bn revenue, 18.3% operating margin, $18bn backlog [D06]"
+   ],
+   "economics_vs_peers": [
+    "General comparison: Defense peers like Lockheed Martin and General Dynamics have positive operating margins (12.7% and 10.7% respectively in FY2022) compared to the Company's recent consolidated losses [D02, D06]. Direct comparison is limited by pension accounting and mix differences [D04, D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $52.3bn [D03, D04]",
+    "Cash and marketable securities: $13.4bn [D03, D04]",
+    "Net debt: $38.9bn [D04]",
+    "Dividend policy: Suspended since March 2020 [D02, D04]"
+   ],
+   "price_and_valuation": [
+    "Price: $229.00 [D04]",
+    "Market cap: ~$138.54bn [D04]",
+    "Enterprise value: ~$177.44bn [D04]",
+    "Trailing GAAP P/E: NM (losses) [D04]",
+    "P/tangible book: NM (negative equity) [D04]",
+    "FCF yield (2022): 1.65% [D04]"
+   ],
+   "management_board_governance": [
+    "The relevant actors are the Company, the Company’s board, FAA, airlines, and suppliers [D01]. Specific board composition details and prior activist history are not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack (beyond general existence of public common shares) [D04, D08]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Catalyst: Acute safety/quality shock (January 5 door-plug incident) creating potential franchise dislocation [D01, D03, D07].",
+    "Milestones: FAA-approved inspections, return to service, and durable production-quality control [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Systemic quality issues leading to delivery delays and cash consumption [D05].",
+    "Certification and regulatory production constraints [D05, D07].",
+    "Customer compensation claims [D05].",
+    "Structural hierarchy: Common shareholders remain behind significant debt and operating obligations [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "January 5, 2024: Door-plug incident [D03, D07].",
+    "January 8, 2024: FAA grounds approximately 171 Max 9 aircraft; shares decline 8% [D03, D07]."
+   ],
+   "third_point_context": [
+    "Third Point Q3 2023 13F securities totaled $6.593bn [D08]. No current stake in the Company disclosed in pack [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Firm AUM, specific current hedge ratios, consensus forward earnings multiples, and detailed debt maturity schedules."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company faces an acute safety and quality crisis creating franchise dislocation and significant operational underperformance versus defense peers [D01, D06]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Third Point lacks a differentiated plan or process for this complex regulatory and manufacturing crisis, and no activist strategy is outlined in the pack [D01, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "The resolution of the door-plug incident is currently dictated by the FAA and technical quality control, leaving no clear governance lever for an activist [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "With negative equity, suspended dividends, and $38.9bn in net debt, the company lacks a credible asset floor in the face of systemic quality issues and cash consumption [D04, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "The company has a large market capitalization of ~$138.54bn, providing ample liquidity for a position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis depends on an unproven management team executing a long-term production and quality recovery, which falls under the 2022 Intel rule for a trade or pass [D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "Third Point has no edge in a complex regulatory-driven manufacturing crisis that lacks a clear governance path or downside floor.",
+   "one_line_verdict": "a complex aerospace quality crisis with no clear path for activist intervention or valuation floor"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market is currently pricing in severe regulatory and operational uncertainty following the recent door-plug incident, which is appropriate given the absence of a clear governance path or downside floor. We do not have a variant view because the situation is driven by external regulatory oversight rather than a fixable internal governance or capital allocation failure. Consequently, the risks to the equity are too high to justify an opportunistic entry at this time.",
+   "evidence": [
+    "The company faces an acute safety and quality crisis creating franchise dislocation and significant operational underperformance versus defense peers [D01, D06].",
+    "Resolution is currently dictated by the FAA and technical quality control, leaving no clear governance lever for an activist [D01, D07].",
+    "The company lacks a credible asset floor in the face of systemic quality issues and cash consumption [D04, D05]."
+   ],
+   "peer_benchmark": "Defense peers like Lockheed Martin and General Dynamics have positive operating margins (12.7% and 10.7% respectively in FY2022) [D02, D06].",
+   "what_must_be_true": [
+    "FAA certification and return to service milestones are achieved without further material incidents",
+    "Production and quality control processes are stabilized to restore reliable delivery cadence",
+    "Negative cash flow trajectory is arrested to preserve the balance sheet"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Market Cap: $138.54bn [D04]",
+     "Net Debt: $38.9bn [D04]",
+     "Implied EV: $177.44bn [D04]"
+    ],
+    "horizon_years": 0
+   },
+   "floor": {
+    "value": "N/A",
+    "basis": "Negative tangible book value and ongoing cash consumption [D04, D05]"
+   },
+   "current_price": "$229.00 [D04]",
+   "skew": "N/A : N/A",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "No credible asset floor identified due to systemic quality issues and negative tangible equity"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "None; this is a pass.",
+   "why_this_role_fits_the_era": "The situation is driven by external regulatory oversight rather than a fixable internal governance or capital allocation failure. Without an edge, a clear governance lever, or a valuation floor, this does not meet Third Point's investment criteria [D01, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued regulatory grounding preventing delivery cadence recovery",
+    "Material cash erosion exceeding current liquidity buffers [D04]",
+    "Compounding quality defects indicating systemic cultural failure [D07]",
+    "Inability to stabilize operating margins relative to defense peers [D06]"
+   ],
+   "portfolio_risk": "High factor overlap with industrial and aerospace recovery expectations; potential duration and regulatory risk exposure [D07].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The absence of a margin of safety and a clear governance lever in a regulatory-led crisis makes this an unsuitable investment for an event-driven mandate [D01, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2024-01-08",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "N/A",
+   "floor": "N/A",
+   "skew": "N/A : N/A",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A [D01]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The Company faces an acute safety and quality crisis following the January 5 door-plug incident, resulting in significant franchise dislocation [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "There is no clear governance lever for an activist to influence the outcome, as resolution is currently dictated by FAA mandates and technical quality control [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The business lacks a credible asset floor due to negative tangible equity, suspended dividends, and $38.9bn in net debt [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Operational performance significantly lags defense peers, with the Commercial and Defense segments reporting negative operating margins [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued regulatory grounding preventing delivery cadence recovery",
+   "Material cash erosion exceeding current liquidity buffers [D04]",
+   "Compounding quality defects indicating systemic cultural failure [D07]",
+   "Inability to stabilize operating margins relative to defense peers [D06]"
+  ],
+  "what_would_change_our_mind": "Evidence of a stabilized production cadence under new governance oversight and the restoration of a positive cash-flow trajectory that supports a credible valuation floor.",
+  "memo": "The Company is a critical player in commercial aerospace and defense that is currently grappling with a severe safety and quality crisis [D01, D07]. The market is reacting to the recent door-plug incident, which has led to the grounding of approximately 171 Max 9 aircraft and an 8% decline in share price [D03, D07]. This is not merely a transient operational hiccup, but a franchise-level dislocation that undermines the company's long-term production and delivery reliability [D01, D07].\n\nFrom a valuation perspective, the picture is dire. The company carries $38.9bn in net debt against a backdrop of negative tangible book value and suspended dividends, leaving no discernible floor for the equity [D04, D05]. While defense peers like Lockheed Martin and General Dynamics maintain positive operating margins in the 10-13% range, the Company’s core segments are currently suffering from negative operating margins [D02, D06]. \n\nWe see no edge here. The resolution of this crisis is entirely dictated by the FAA and rigorous technical inspections, leaving no room for a constructivist activist to drive value through traditional board or capital allocation channels [D01, D07]. The thesis relies on an unproven management team executing a multi-year recovery in a highly regulated, high-stakes environment—a scenario that, under our established investment framework, warrants a pass [D07]. We exit this opportunity before it begins, as the lack of a clear governance path and the absence of a margin of safety make this an unsuitable risk for our capital [D01, D07].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,50 @@
+{
+ "trade_id": "2019_sony_buy2",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Recurring gaming and entertainment assets were misunderstood and undervalued. → Sony is a collection of high-quality assets including gaming, music, pictures, and image sensors that the market misprices as a monolithic conglomerate.",
+   "Separate the world-class image-sensor franchise to create two focused investment propositions. → We intend to engage management privately to propose structural separation of the semiconductor and entertainment businesses.",
+   "A roughly 8x EV/EBIT valuation implied a large discount to the stated sum of parts. → A sum-of-the-parts valuation reveals significant upside to our ¥7,500 target by unlocking the conglomerate discount."
+  ],
+  "missed": [
+   "Sell non-core listed stakes and redeploy proceeds into disciplined investment and buybacks."
+  ],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Sony trades at a 7.54x trailing P/E ratio.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Intrinsic value is ¥7,500 per share.",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Non-financial net cash is roughly ¥397.7bn.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 18,
+  "cited": 16,
+  "share": 0.89
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Despite world-class businesses in gaming, music, film, and image sensors, the company trades at an unjustifiable 7.54x trailing P/E ratio [D01], [D04].",
+ "grader_notes": "The agent correctly identified the core investment thesis of unlocking value through structural separation of the sensor business and addressing the conglomerate discount. It missed the specific driver regarding the disposal of non-core listed stakes. The valuation methodology aligns well with the Loeb thesis, though the agent provided specific internal price targets not explicitly found in the provided key.",
+ "run": "2019_sony_buy2__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

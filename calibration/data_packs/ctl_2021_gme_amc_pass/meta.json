@@ -1,0 +1,28 @@
+{
+  "id": "ctl_2021_gme_amc_pass",
+  "company": "GameStop and AMC Entertainment",
+  "ticker": "GME / AMC",
+  "aliases": [
+    "GameStop and AMC Entertainment",
+    "Adam Aron",
+    "GameStop",
+    "GameStop Corp.",
+    "GME",
+    "EB Games",
+    "AMC Entertainment",
+    "AMC Entertainment Holdings",
+    "AMC",
+    "AMC Theatres",
+    "WallStreetBets",
+    "r/wallstreetbets",
+    "Ryan Cohen",
+    "RC Ventures"
+  ],
+  "as_of_date": "2021-01-27",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Hypothetical desk decision 2021-01-27; no actual purchase window assigned.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Observational discipline control: no claim that a 13F negative excludes shorts, swaps, intraperiod positions or all non-reportable instruments. Exact independently recovered pre-cutoff firm/fund AUM unavailable; null is an intentional missing-data/schema exception rather than fabricated numeric AUM. Authenticated cutoff closes and current consensus/peer multiples generally not recovered; historical filing-implied marks and issuer prices expressly dated. Header Date is the compiled desk-date cutoff, not a claim that all underlying publications share one date. Financial snapshots are intentionally limited to recovered figures; conditional underwriting is labeled separately. Grade C."
+}

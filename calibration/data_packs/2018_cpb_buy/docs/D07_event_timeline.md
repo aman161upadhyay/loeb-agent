@@ -1,0 +1,18 @@
+Title: Dated event map and authority to act — Campbell Soup Company
+Source: https://www.sec.gov/Archives/edgar/data/16732/000001673218000045/exhibit991-q32018.htm (2018-05-18); https://www.sec.gov/Archives/edgar/data/16732/000114420418043237/tv500575_ex99-1.htm (2018-08-09); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (2018-05-15)
+Date: 2018-08-09
+
+May 18: quarterly results document impairments, lower guidance and a broad strategic review. The review is expected to report in late August. By the August 9 cutoff, a dated agreement between an investment manager and family shareholder George Strawbridge addresses coordinated governance activities. It demonstrates that a family shareholder can support change but does not mean the family as a whole agrees. No proxy-contest outcome, director appointment or settlement is included. The coming review and director nomination process are decision points, not completed catalysts. [S1–S2]
+
+Event-path discipline. The timeline separates a public report, an announced intention, a legally binding step and actual implementation. These are different milestones. A board may examine an option without approving it; an approved transaction can still face financing, regulatory, tax or execution conditions. Put the authority to decide alongside the event, rather than presume that a minority shareholder can cause it immediately.
+
+The observation cutoff is hard. A later upload location for an older document does not move its underlying publication date, while a later investor retrospective cannot become an earlier desk input. No eventual transaction, operating result or investment outcome is implied here. Where a first transaction day is not publicly recoverable, this document does not invent one from a quarter-end filing. Future calendar items are possibilities to monitor, not completed facts. A realistic timetable should allow multiple quarters when necessary and specify the evidence that would show delay or failure. This avoids confusing a well-written proposal with an executable catalyst and keeps the analyst's expected value separate from the historical answer.
+
+Analyst cross-check: For each prospective milestone, identify who controls the decision, which prerequisite must occur first and whether shareholder approval is sufficient. Regulatory clearance, creditor consent and operational implementation are distinct gates. Delay affects discounted value even if the eventual strategic direction remains economically sensible and legally feasible.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/16732/000001673218000045/exhibit991-q32018.htm (published 2018-05-18).
+- [S2] https://www.sec.gov/Archives/edgar/data/16732/000114420418043237/tv500575_ex99-1.htm (published 2018-08-09).
+- [S3] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S4] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S5] https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (published 2018-05-15).

@@ -1,0 +1,19 @@
+Title: Peers, industry and comparability — Nestlé S.A.
+Source: https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2017 (2018-02-15); https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (2017-06-25); https://www.valuewalk.com/wp-content/uploads/2018/01/Third-Point-Q4-Investor-Letter-TPOI.pdf (2018-01-22); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (2018-05-15)
+Date: 2018-07-01
+
+Focused competitors can align category strategy, marketing and incentives more directly than a decentralized multinational. Yet focus alone does not establish higher economic profit: a premium nutrition business and bottled water have different capital requirements and pricing. The group itself reports water margin of 12.7% against nutrition's 23.0%, showing why an undifferentiated cost target is inadequate. A valid peer bridge adjusts for category mix before attributing the whole margin gap to management. Identical-date peer multiples and segment capital employed are not available in the recovered contemporaneous set. [S1; analyst comparative analysis]
+
+Comparison discipline. Choose peers that match the economic exposure, not simply a sector classification. Product mix, geography, recurring revenue, leverage, capital intensity, tax and accounting can explain a large part of an apparent discount. A business that deserves a higher multiple after a transaction still must pay the costs of achieving that identity. A premium segment cannot be valued independently while its necessary central expenses are omitted.
+
+Relative valuation is a cross-check on an operating model rather than a replacement for one. Where the pack lacks identical-date peer multiples, it does not use a modern screen, an unrelated index average or a later shareholder target to fill the hole. Industry narratives also need an earnings mechanism: price, volume, mix, utilization, cost, financing or capital return. A broad secular tailwind may help competitors equally or encourage enough new supply to erode returns. Compare who captures incremental profit and who funds the investment. The evidence above identifies the most relevant competitive dimensions; it does not establish an exact attainable rerating or guarantee that the company's chosen benchmark is economically equivalent.
+
+Analyst cross-check: Relative attractiveness must survive a consistent comparison date and a consistent definition of earnings. A low multiple can compensate for weaker assets, heavier debt or poorer cash conversion. Conversely, different business mixes can make a group average look cheap even when no individual segment is undervalued.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.nestle.com/media/pressreleases/allpressreleases/full-year-results-2017 (published 2018-02-15).
+- [S2] https://www.scribd.com/document/352220358/Third-Point-Nestle-Letter (published 2017-06-25).
+- [S3] https://www.valuewalk.com/wp-content/uploads/2018/01/Third-Point-Q4-Investor-Letter-TPOI.pdf (published 2018-01-22).
+- [S4] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S5] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S6] https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (published 2018-05-15).

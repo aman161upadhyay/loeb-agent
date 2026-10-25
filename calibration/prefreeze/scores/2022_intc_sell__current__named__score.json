@@ -1,0 +1,48 @@
+{
+ "trade_id": "2022_intc_sell",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The public common-stock line is absent at December 31 versus 9m shares in the preceding reported quarter",
+   "The original stated thesis concerned engineering talent and strategic alternatives",
+   "The February 16 letter remained explicitly bullish on Gelsinger and investment"
+  ],
+  "extra_agent_drivers": [
+   "Management has adopted the core structural and strategic changes sought during the 2020 engagement",
+   "Operating results demonstrate resilience",
+   "The current valuation at approximately 10x trailing P/E offers a margin of safety",
+   "Substantial cash generation provides funding for fabrication upgrades"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Intel delivered a strong finish to 2021, with Q4 results exceeding internal guidance",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trading at roughly 10x trailing earnings",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 2,
+  "share": 0.25
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We maintain our position as we monitor the company's ability to hit staged technical and talent milestones rather than forcing an arbitrary timeline on the outcome [D03].",
+ "grader_notes": "The agent failed to capture the exit of the position, incorrectly categorizing the trade as a HOLD. The reasoning provided by the agent focuses on fundamental investment thesis performance, which is entirely misaligned with the actual exit rationale and the conflicting bullish/bearish signals noted by Third Point.",
+ "run": "2022_intc_sell__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

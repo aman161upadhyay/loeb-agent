@@ -1,0 +1,53 @@
+{
+ "trade_id": "ctl_2018_ge_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No General Electric/GE issuer row in complete 2013–Q2 2026 13F index; reviewed local letters/case archive yields no attributable common-stock comment. Do not confuse GE with separately held industrial issuers or with a credit exposure that 13F cannot exclude."
+  ],
+  "extra_agent_drivers": [
+   "The market is pricing the company as a terminal value trap due to Power segment impairments, overlooking the structural value of the Aviation and Healthcare businesses [D01, D09].",
+   "New CEO Lawrence Culp signals a departure from past failures, providing a catalyst to accelerate the dismantling of the conglomerate structure [D01, D07].",
+   "Aviation maintains superior 24.3% operating margins, serving as a high-quality anchor for the sum-of-the-parts valuation [D06].",
+   "The planned spin-off of the Healthcare business offers a clear path to unlock value and address the current conglomerate discount [D09].",
+   "With the stock trading at ~$12.09, the downside is protected by the sum of the core segments, providing an asymmetric risk/reward profile [D04, D06]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The appointment of H. Lawrence Culp Jr. as CEO is the decisive catalyst that shifts the narrative from managed decline to active restructuring",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market pessimism is driven by the $23bn goodwill impairment in Power",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Aviation maintains superior 24.3% operating margins",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a 4% position in the common equity [D05].",
+ "grader_notes": "The agent correctly reached a PASS decision via an enforced hard-fail mechanism, though the underlying reasoning was entirely fabricated as an active investment thesis rather than reflecting Third Point's actual lack of engagement with the issuer. The agent's reasoning was farthest from Loeb's, as Loeb's position was based on a complete absence of the security in his historical portfolio, while the agent constructed a detailed (but speculative) bull case.",
+ "run": "ctl_2018_ge_pass__current__masked__r2",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false,
+ "enforced_hard_fail": true
+}

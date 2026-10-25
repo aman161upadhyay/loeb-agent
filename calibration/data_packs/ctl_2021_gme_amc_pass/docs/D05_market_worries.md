@@ -1,0 +1,16 @@
+Title: GameStop and AMC Entertainment: The strongest contemporaneous counter-case
+Source: https://www.cnbc.com/2021/01/27/amc-shares-triple-as-retail-investor-raid-of-hedge-fund-short-targets-spreads-from-gamestop.html ; https://www.globenewswire.com/news-release/2020/12/08/2141775/0/en/gamestop-reports-third-quarter-results-a-positive-start-to-fourth-quarter-with-november-comparable-store-sales-increasing-16-5-and-sustained-progress-toward-long-term-strategic-obj.html ; https://www.cnbc.com/amp/2021/01/25/amc-says-bankruptcy-off-the-table-after-raising-more-than-900-million.html ; https://wolfstreet.com/2021/01/27/as-dow-sp-500-sink-into-red-ytd-gamestop-amc-4-other-most-shorted-stocks-jump-135-to-538-utter-mania-but-bloodletting-in-late-trading
+Date: 2021-01-27
+
+## Recovered evidence
+
+The most forceful bear case is that short covering is finite and can reverse faster than fundamental recovery occurs. Digital distribution pressures physical-game retail, and cinema attendance depends on public-health conditions and studio releases. Leases and debt sit ahead of common. Trading halts, margin changes, borrow recalls and extreme intraday ranges can make a theoretically profitable position impossible to execute at the assumed price. [1]
+
+
+## Underwriting analysis — conditional, not management guidance
+
+Give the skeptical mechanism equal analytical weight rather than reducing it to a generic volatility warning. The central threat is that a squeeze price need not be supported by a going-concern valuation and financing can dilute common holders. This can harm the cash earnings, the timing of their receipt or the amount attributable to the selected security. Distinguish temporary mark-to-market stress from a permanent transfer of value to creditors, customers, counterparties or new shareholders. An attractive operating business can coexist with a structurally poor security claim.
+
+The proposed asset support is retail inventory/cash and cinema operating assets after debt, leases and prospective dilution; test how accessible it remains under distress. Book value, collateral value, enterprise value and common equity value are different quantities. Restrictions on disposal, taxes, legal costs, financing covenants and ongoing cash needs can make an apparently visible asset a weak liquidity source. No independent appraisal is supplied merely by naming an asset. For GameStop and AMC Entertainment, current recovery amounts and probabilities should remain unasserted where not recovered.
+
+Observable checks should focus on unrestricted cash, cash burn, fully diluted market value and short interest, together with funding, governance and execution. Specify which adverse observations would invalidate the mechanism of crowded-short covering combined with retail participation and financing optionality, rather than waiting for a share price to recover. Conversely, specify the operating or contractual evidence that would rebut the bear case. Portfolio sizing must allow for a delayed catalyst, correlated liquidation and imperfect exit liquidity. These are analyst stress considerations, not a claim that any particular adverse scenario occurs. Do not turn an allegation into an adjudicated fact or attribute a skeptic’s reasoning to the investor without a dated source.

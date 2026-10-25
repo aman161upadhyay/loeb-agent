@@ -1,0 +1,54 @@
+{
+ "pack": "2013_yahoo_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2013-07-22",
+ "stages": {},
+ "final": {
+  "as_of_date": "2013-07-22",
+  "company": "Yahoo! Inc.",
+  "ticker": "YHOO",
+  "decision": "TRIM",
+  "reason_class": "L1",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Governance intervention: catalyst_realised [D07]",
+   "Board access and CEO change: achieved [D03]",
+   "Core operating turnaround: still in progress, not yet proven [D03]",
+   "Asian asset optionality: intact [D01]"
+  ],
+  "remaining_skew": "Upside remains in Asian asset optionality and potential core inflection, but risk-adjusted skew has compressed following the governance victory [D05]",
+  "next_catalyst_and_timing": "Evidence of core growth translating into sustained advertising margins; timeline ongoing [D03]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The core governance catalyst is realized following the installation of a new CEO and board access [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Operating results (revenue ex-TAC and adjusted EBITDA) show continued pressure, indicating the core business turnaround remains unproven [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Issuer liquidity terms allow for a partial block exit to capture value from the successful governance campaign while retaining optionality in Asian assets [D02].",
+    "citations": [
+     "D02"
+    ]
+   },
+   {
+    "driver": "We are not in the business of winning arguments or overstaying a technical event once the primary catalyst is spent [D07].",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "memo": "Our investment in Yahoo! was built on a dual thesis: a significant gap between realizable parts and core valuation, and a necessary governance intervention [D01]. With the installation of a new CEO and our successful acquisition of board seats, the governance catalyst has been effectively realized [D03]. We have achieved the primary structural change we demanded. \n\nWhile we continue to monitor the company's product-launch pace and engagement metrics, the operating fundamentals—specifically revenue ex-TAC and adjusted EBITDA—have not yet demonstrated a clear inflection [D03]. Gains in share price resulting from our involvement should not be mistaken for a proven advertising-margin turnaround [D03]. \n\nConsistent with our philosophy of exiting when the catalyst is spent, we are trimming our position to lock in gains from the successful governance transition [D07]. We maintain our exposure to the Asian assets, which remain a distinct source of upside, but we are no longer compelled to hold the full core advertising franchise at current valuations without further evidence of operating acceleration [D05]. We prefer to rotate capital into higher-skew events rather than wait indefinitely for operational proof [D05].",
+  "uncited_claims": []
+ }
+}

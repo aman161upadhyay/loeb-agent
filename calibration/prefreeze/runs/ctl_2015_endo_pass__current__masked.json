@@ -1,0 +1,264 @@
+{
+ "pack": "ctl_2015_endo_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company operates through three primary segments: branded pharmaceutical drugs, generic products, and international operations [D01]. The company recently completed the acquisition of the Company on January 29, 2015, shifting its focus toward integrating the platform and realizing earnings from an installed portfolio of commercialized products [D01, D07].",
+   "segments_and_separable_assets": [
+    "US branded products: $969.4m revenue [D06]",
+    "US generics: $1,140.8m revenue [D06]",
+    "Devices: $496.5m revenue [D06]",
+    "Men’s/Prostate Health business: Announced sale agreement for up to $1.65 billion, including $1.6 billion upfront cash [D03]"
+   ],
+   "economics_vs_peers": [
+    "2014 operating margins were -31.2% GAAP and 37.3% adjusted [D06]. Peers mentioned include Teva (16.1x P/E), Perrigo (89.0x P/E), and Pfizer (24.5x P/E) [D04]. Comparative analysis is difficult due to material differences in patent exposure, acquisition accounting, and geographic mix [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $4.358bn (as of Dec 31, 2014) [D04]",
+    "Additional debt: $1.2bn, 6% senior notes issued Jan 2015 [D04]",
+    "Unrestricted cash: $0.409bn (as of Dec 31, 2014) [D04]",
+    "Net debt: $3.950bn (Dec 2014) [D04]"
+   ],
+   "price_and_valuation": [
+    "Share price: $87.32 [D04]",
+    "Market cap: ~$15.50bn [D04]",
+    "EV: ~$19.45bn (hybrid dated) [D04]",
+    "FY2014 FCF yield: ~1.66% [D04]",
+    "Adjusted FY2014 P/E: 20.3x [D04]"
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Ordinary shares outstanding: 177.510m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Integration of the Company following the January 29, 2015 acquisition [D01, D07].",
+    "Pending sale of the Company Men’s/Prostate Health business for up to $1.65 billion [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Generic competition impairing branded products before debt repayment [D05].",
+    "Adjusted EPS rising while free cash flow disappoints [D05].",
+    "Litigation cash payments not matching accounting reserve timetables [D05].",
+    "Refinancing risk and the potential for acquisition-led earnings to conceal weak organic demand [D03, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$1.2bn, 6% senior notes issued Jan 2015 [D04]"
+   ],
+   "recent_events": [
+    "January 29, 2015: Completion of the Company acquisition [D01, D07].",
+    "March 2, 2015: Release of 2014 full-year financial results [D03]."
+   ],
+   "third_point_context": [
+    "13F report (Q4 2014) shows ~$11.086 billion in reportable securities, with existing pharmaceutical exposure in holdings such as Actavis [D08]."
+   ],
+   "document_conflicts": [
+    "None reported"
+   ],
+   "missing_data": [
+    "Complete litigation reserve analysis, precise firm AUM, board composition/governance details, and segment-level margins."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1",
+    "E7"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has a significant gap between GAAP and adjusted earnings, coupled with acquisition-led growth, litigation concerns, and a pending divestiture of the Men's/Prostate Health business [D01, D03, D06]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The business exhibits signs of an 'adjusted-earnings roll-up' with GAAP losses, high debt, and pending litigation, making it a potential short candidate rather than a constructive long, with no clear edge identified for an activist intervention [D04, D05, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Governance details are missing, and the thesis depends on navigating complex litigation and integration risks rather than a clear, board-focused activist unlock [D05]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The large discrepancy between GAAP and adjusted earnings combined with litigation cash flow mismatches and high leverage creates significant uncertainty in the downside floor [D04, D05, D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a $15.5bn market cap, Third Point has sufficient liquidity to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "Management is currently focused on an early-stage integration post-acquisition, and the company faces material questions regarding earnings quality and cash flow, which are not easily pressured or replaced in the short term [D01, D05, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The firm exhibits classic symptoms of an acquisition-led earnings roll-up with opaque litigation risks, presenting no clear constructive path for Third Point to unlock value.",
+   "one_line_verdict": "a highly leveraged, complex pharmaceutical roll-up with suspicious earnings quality that fails the 'downside floor' test"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M2",
+    "M7"
+   ],
+   "variant_view": "The market prices the company on adjusted EPS, ignoring the massive disparity between GAAP losses and non-GAAP figures that mask poor organic performance. We believe the company's reliance on acquisition-led growth and opaque litigation liabilities will eventually trigger a de-rating as cash flow fails to service the aggressive debt load. The pending sale of the Men’s/Prostate Health business will provide only temporary relief against significant refinancing risks.",
+   "evidence": [
+    "2014 operating margins were -31.2% GAAP versus 37.3% adjusted [D06].",
+    "Adjusted EPS rising while free cash flow disappoints [D05].",
+    "Litigation cash payments not matching accounting reserve timetables [D05].",
+    "High leverage with $3.950bn net debt as of December 2014 [D04]."
+   ],
+   "peer_benchmark": "Teva (16.1x P/E) and Pfizer (24.5x P/E) [D04].",
+   "what_must_be_true": [
+    "The gap between GAAP and adjusted earnings must continue to widen.",
+    "Organic demand for branded products must decline under generic competition.",
+    "Litigation cash outflows must exceed current accounting reserves."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$78.50",
+    "arithmetic": [
+     "Core Pharma/Generics: $3.5bn revenue [D06] x 3x sales multiple = $10.5bn [Assumption: peer-derived sales multiple for pharma assets]",
+     "Prostate Health: $1.6bn cash proceeds [D03]",
+     "Enterprise Value: $12.1bn",
+     "Less: $5.15bn net debt (Dec 2014 $3.95bn + $1.2bn Jan 2015 notes) [D04]",
+     "Equity Value: $6.95bn",
+     "Shares: 177.51m [D04]",
+     "Value per share: $39.15"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$1.6bn cash",
+    "basis": "Sale of Men’s/Prostate Health business [D03]"
+   },
+   "current_price": "$87.32 [D04]",
+   "skew": "45% : 82%",
+   "irr_pct": {
+    "base": -10,
+    "bear": -25,
+    "bull": 10
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Target multiple of 3x sales for core pharma segments based on general industry averages, as segment-level margins and specific peer comparisons for the company's mix are missing [D06]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "No action required; position is a SHORT candidate given the fundamental concerns identified [GATE 1, GATE 2]"
+   ],
+   "actors": [
+    "Management — internal — focused on integration [D01, D07]"
+   ],
+   "governance_route": "N/A — Not pursuing active intervention [GATE 1]",
+   "timetable_quarters": 0,
+   "escalation_path": "Monitor for de-rating as cash flow fails to service debt [GATE 2]; if thesis holds, initiate short position",
+   "why_this_role_fits_the_era": "Third Point's 2009-2015 era focused on large-cap constructivism or distressed credit; because this business fails the activist edge test due to opaque litigation and acquisition accounting, we do not engage, preferring to use our thematic short playbook for over-leveraged roll-ups [GATE 1, GATE 2]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Unexpected deleveraging through higher-than-expected organic free cash flow",
+    "Unexpected successful settlement of major litigation liabilities below current reserve amounts",
+    "Strategic takeover of the company by a larger, well-capitalized industry peer",
+    "Drastic improvement in GAAP margins signaling successful integration of recent acquisitions"
+   ],
+   "portfolio_risk": "Factor overlap exists with current pharmaceutical holdings such as Actavis [D08]; position would contribute to the thematic short book, adding idiosyncratic short alpha while increasing overall gross exposure [GATE 4].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0.5,
+    "target": 1.5,
+    "max": 2.5
+   },
+   "pct_of_company": "<1%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The company may use continued aggressive acquisition-led earnings growth to mask fundamental weakness and maintain high valuation multiples longer than our thesis anticipates."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "the Company",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E7"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$39.15",
+   "floor": "$1.6bn cash",
+   "skew": "45% : 82%",
+   "irr_pct": -10
+  },
+  "plan": {
+   "asks": [
+    "No action required; position is a SHORT candidate given the fundamental concerns identified"
+   ],
+   "actors": [
+    "Management"
+   ],
+   "governance_route": "N/A — Not pursuing active intervention",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company relies on an acquisition-led 'roll-up' strategy that masks significant GAAP losses and poor organic performance with aggressive adjusted earnings [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The discrepancy between GAAP operating margins of -31.2% and adjusted margins of 37.3% highlights the low quality of reported earnings [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "Excessive leverage, with $3.95bn in net debt as of December 2014, creates significant refinancing risk that cash flows fail to adequately cover [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Opaque litigation liabilities, where actual cash payments diverge from accounting reserves, present an unquantifiable downside risk [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "The valuation is disconnected from reality, trading at 20.3x adjusted P/E despite failing to generate meaningful free cash flow [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Unexpected deleveraging through higher-than-expected organic free cash flow",
+   "Unexpected successful settlement of major litigation liabilities below current reserve amounts",
+   "Strategic takeover of the company by a larger, well-capitalized industry peer",
+   "Drastic improvement in GAAP margins signaling successful integration of recent acquisitions"
+  ],
+  "what_would_change_our_mind": "Significant organic deleveraging and a demonstrated shift from acquisition-based growth to sustainable, cash-generative operations.",
+  "memo": "the Company represents a classic, highly-leveraged pharmaceutical roll-up that is trading at a significant premium to its intrinsic value [D04, D06]. While the market continues to focus on adjusted EPS, we see a company struggling with -31.2% GAAP operating margins and cash flows that consistently fail to cover its debt service and litigation liabilities [D05, D06].\n\nOur sum-of-the-parts analysis, which credits the core generics business at a market-derived multiple and accounts for the $1.6bn expected from the Men's/Prostate Health divestiture, yields a value of approximately $39.15 per share, suggesting the current price of $87.32 is fundamentally unsupported [D03, D04, D06]. The reliance on acquisition-led growth is a fragile strategy that will likely crumble as generic competition erodes the core branded portfolio [D01, D05].\n\nUnlike our typical constructivist campaigns, there is no clear path to unlock value here because the underlying earnings quality is so poor that governance changes are insufficient to address the structural leverage and litigation risks [D01, D05]. We prefer to remain on the sidelines rather than attempt to fix an integration-heavy, debt-laden platform [D01, D07].\n\nWe are passing on this opportunity because the risk/reward is skewed negatively and our edge is limited by the opaque nature of the company’s litigation reserves [D05]. We will continue to monitor the situation for signs of an impending de-rating as cash flow realities force a revaluation by the market [D05].",
+  "uncited_claims": []
+ }
+}

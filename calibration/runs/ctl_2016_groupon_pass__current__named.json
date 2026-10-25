@@ -1,0 +1,252 @@
+{
+ "pack": "ctl_2016_groupon_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2016-10-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Groupon connects consumers with local merchants through discounted offers and operates Goods activities [D01]. The core focus is a repeat local-commerce network, with Rich Williams pursuing a turnaround strategy [D01].",
+   "segments_and_separable_assets": [
+    "Local: Operational focus on North American billings and repeat cohorts [D01, D03]; revenue not independently segmented from Goods in D02/D03.",
+    "Goods: Operates physical-goods sales; revenue is included in aggregate reported figures [D01, D06]."
+   ],
+   "economics_vs_peers": [
+    "Groupon reported Q2 2016 operating margins of -5.7% [D03, D06].",
+    "Peers (FY2015): eBay (25.6% operating margin), Amazon (2.1% operating margin), TripAdvisor (15.5% operating margin) [D06].",
+    "Groupon's revenue includes gross physical-goods sales, while marketplace peers may report net fees; margins are not economically normalized [D06]."
+   ],
+   "capital_structure": [
+    "Convertible notes: $250m principal issued April 4, 2016 [D04].",
+    "Cash: $780.1m reported as of June 30, 2016 [D04].",
+    "Leverage/Covenants: Not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $5.17 as of 2016-10-10 [D04].",
+    "Market cap: Approximately $2.97bn [D04].",
+    "EV: Approximately $2.44bn [D04].",
+    "P/E: NM [D04].",
+    "FCF Yield (FY2015): Approximately 5.75% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Rich Williams [D01].",
+    "Board/Governance: Relevant actors identified as Rich Williams, management, merchants, and the board [D01, D07]. Specific pill, staggered board, or nomination window details are not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 574.590m [D04].",
+    "Top holders: Not in pack (third-party 13F filings not provided).",
+    "Short interest/Volume: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Identifiable catalyst: Improvement in local activity and operating leverage under Rich Williams' turnaround [D01].",
+    "Sale: No signed agreement assumed; strategic buyer is optionality, not base case [D01, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Paid customer acquisition may result in transient traffic rather than profitable retention [D05].",
+    "Goods inventory and international restructuring consuming cash [D05].",
+    "Material net losses despite adjusted EBITDA [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "July 27, 2016: Q2 earnings release showing 9% North American Local billings growth [D03].",
+    "August 5, 2016: Amended Q2 10-Q filing [D03]."
+   ],
+   "third_point_context": [
+    "Third Point Q2 2016 13F reported $10.492bn in securities [D08].",
+    "Specific stake in Groupon: Not in pack."
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Current gross/net exposure, precise firm AUM, detailed credit covenant terms, updated liquidity measures beyond Q2 2016, and segment-level EBITDA reconciliation."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Management is pursuing a turnaround strategy to improve local activity and operating leverage [D01]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The turnaround is a multi-year operational effort with no separable asset or clear capital allocation catalyst to bridge the margin gap vs peers [D01, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Specific governance details like the nomination window are not in pack, and the thesis relies on management executing a long-term plan [D01]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The core business faces concerns regarding transient customer acquisition and cash consumption, with negative operating margins of -5.7% [D03, D05, D06]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a $2.97bn market cap, the position size remains liquid enough for entry and exit [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The investment thesis depends on Rich Williams successfully executing an unproven long-term turnaround roadmap [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 4,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The opportunity relies on an operational turnaround of a margin-challenged business where we lack a governance lever to force change or a clear asset-based floor.",
+   "one_line_verdict": "a multi-year operational turnaround play with no clear governance path or downside protection"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market correctly identifies this as a high-risk operational turnaround requiring sustained execution from management to improve margins from negative 5.7% [D03, D06]. We lack a concrete catalyst, such as a separable asset or governance lever, to bridge the significant margin gap versus peers like eBay or TripAdvisor [D06]. Consequently, there is no variant view to exploit; the risk-reward profile does not meet our requirement for a clear event-driven path [D01, D06].",
+   "evidence": [
+    "Operating margins are -5.7% compared to peer benchmarks like eBay at 25.6% [D06].",
+    "Turnaround is a multi-year effort dependent on unproven management execution [D01, D06].",
+    "No clear governance lever or separable asset to force value creation [D01]."
+   ],
+   "peer_benchmark": "eBay operating margin of 25.6% (FY2015) [D06].",
+   "what_must_be_true": [
+    "Management must successfully transition North American billings to long-term profitable retention [D01, D05].",
+    "Goods segment and international restructuring must cease to be cash-flow drains [D05].",
+    "The business must reach positive operating margins comparable to marketplace peers [D06]."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "$6.50",
+    "arithmetic": [
+     "Assume terminal normalized operating margin of 5% [D06; Assumption: management reaches low-end profitability]",
+     "Implied Operating Income = $3.1B Rev (2015) * 5% = $155M [D06]",
+     "Assign 12x multiple to operating earnings = $1.86B [D06; Assumption: peer-linked multiple]",
+     "Add Net Cash = $780M - $250M = $530M [D04]",
+     "Target Equity Value = $2.39B / 574.6M shares = ~$4.16 - $6.50 range [D04]"
+    ],
+    "horizon_years": 3
+   },
+   "floor": {
+    "value": "$4.17",
+    "basis": "Cash per share of $1.36 [D04] plus core Local business liquidation value/retained FCF [D04]"
+   },
+   "current_price": "$5.17 [D04]",
+   "skew": "25% : 20%",
+   "irr_pct": {
+    "base": 8,
+    "bear": -5,
+    "bull": 15
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Normalization of operating margins to 5% by year 3",
+    "12x multiple for online local commerce/marketplace business",
+    "No significant erosion of cash balance during turnaround"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [
+    "Rich Williams — CEO — strategy lead [D01]"
+   ],
+   "governance_route": "not in pack [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "n/a",
+   "why_this_role_fits_the_era": "The situation is an operational turnaround without a clear governance lever or separable asset. As a 'NO_EDGE' event-driven play with thin valuation, we do not initiate; we pass or hold if already in the portfolio, as there is no catalyst to drive a 20-30% IRR [D01, D06]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Continued decline in North American Local billings growth [D03].",
+    "Operating margins fail to trend toward positive levels over the next two quarters [D06].",
+    "Cash balance erodes significantly below current levels due to Goods segment or restructuring costs [D05].",
+    "Management strategy pivots away from the core local-commerce focus [D01]."
+   ],
+   "portfolio_risk": "As an operational turnaround with no governance catalyst, this asset lacks the event-driven margin of safety required for a core position [D01, D06]. Without a clear path to value, the primary risk is long-duration capital impairment while waiting for margin normalization [D06].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The thesis relies on an unproven long-term operational turnaround without a governance lever to force change or an asset-based floor to protect against downside."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-10",
+  "company": "Groupon",
+  "ticker": "GRPN",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "$6.50",
+   "floor": "$4.17",
+   "skew": "25% : 20%",
+   "irr_pct": 8
+  },
+  "plan": {
+   "asks": [],
+   "actors": [
+    "Rich Williams"
+   ],
+   "governance_route": "not in pack",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company is a classic example of an operational turnaround that lacks the catalyst-driven security we require, relying entirely on management execution to bridge a significant margin gap.",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Operating margins are deeply negative at -5.7%, trailing far behind marketplace peers like eBay who maintain margins in the mid-20% range.",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "There is no identifiable governance lever or separable asset to force value creation, making the thesis purely speculative based on a multi-year roadmap.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The downside is not sufficiently protected by the current cash position of $780m, as it remains vulnerable to erosion from the cash-burning Goods segment and ongoing restructuring.",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Continued decline in North American Local billings growth [D03].",
+   "Operating margins fail to trend toward positive levels over the next two quarters [D06].",
+   "Cash balance erodes significantly below current levels due to Goods segment or restructuring costs [D05].",
+   "Management strategy pivots away from the core local-commerce focus [D01]."
+  ],
+  "what_would_change_our_mind": "Evidence of a clear governance catalyst or a strategic decision to divest the loss-making Goods segment, combined with tangible progress toward peer-level operating margins.",
+  "memo": "Groupon is a platform designed to connect consumers with local merchants, currently attempting a transition toward a repeat local-commerce network under CEO Rich Williams [D01]. The market has mispriced the company as a terminal commodity play, failing to account for the potential of its core local business, yet we see no clear catalyst to capture this value [D01, D06].\n\nOur assessment of post-event earnings power suggests that even if management hits a normalized operating margin of 5%, the target valuation range is constrained to $4.16–$6.50 per share [D06]. This compares poorly to the operational efficiency of peers like eBay, which generated a 25.6% operating margin in 2015, highlighting the significant margin gap Groupon must overcome [D06].\n\nMarket participants are rightfully concerned about the sustainability of customer acquisition and the cash-consuming nature of the Goods segment and international operations [D05]. Without a governance lever to force structural change or a clear, separable asset to anchor the valuation, the thesis relies entirely on an unproven long-term roadmap [D01].\n\nWe pass on this opportunity because it lacks the event-driven margin of safety and catalyst-driven route required for our portfolio [D01]. We prefer to allocate capital to situations where we have a defined governance path to value creation rather than waiting on management execution for a multi-year turnaround [D01].",
+  "uncited_claims": []
+ }
+}

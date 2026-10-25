@@ -1,0 +1,65 @@
+{
+ "trade_id": "2024_vst_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The March 2023 Energy Harbor acquisition supplied the original nuclear-fleet catalyst → Vistra is currently mispriced as a volatile merchant power player, ignoring the structural earnings inflection following the Energy Harbor acquisition",
+   "AI/data-center and EV demand could accelerate domestic electricity demand against constrained baseload supply → The market’s skepticism toward merchant power ignores the durable, secular demand growth driven by AI and data-center power requirements",
+   "Brilliant capital allocation and substantial buybacks exploited assets valued far below new-build cost → With the structural simplification largely complete—including the repurchase of tax-receivable-agreement interests—the business is now positioned to pivot toward aggressive capital returns, evidenced by the $1.5 billion share repurchase authorization"
+  ],
+  "missed": [
+   "Intermittent generation increased the need and economic value of existing dispatchable assets."
+  ],
+  "extra_agent_drivers": [
+   "The company maintains a significant margin gap relative to utility-like peers.",
+   "The risk/reward is protected by a 9.4% adjusted FCF yield and an asset floor support."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "structural earnings inflection following the Energy Harbor acquisition",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "AI and data-center power requirements",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$1.5 billion share repurchase authorization",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "9.4% adjusted FCF yield",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Jim Burke as a highly capable operator",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [
+   "The agent's memo references a 'March 2024 Energy Harbor acquisition' while the key and provided documents (D01, D07) identify the deal as occurring in March 2023."
+  ],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "The market’s skepticism toward merchant power ignores the durable, secular demand growth driven by AI and data-center power requirements [D03].",
+ "grader_notes": "The agent correctly identified the trade direction and captured three of the four core drivers provided in the key. The reasoning was closest regarding the impact of the Energy Harbor acquisition, the AI/data-center demand tailwind, and the importance of capital allocation/buybacks; it was farthest regarding the specific economic value of dispatchable assets due to intermittent generation, which the agent did not explicitly mention.",
+ "run": "2024_vst_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

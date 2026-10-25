@@ -1,0 +1,259 @@
+{
+ "pack": "2020_pru_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-02-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Prudential plc is a UK-headquartered group comprising Asian insurance/asset management operations and Jackson National, a US-based annuity provider [D01]. The group structure faces questions regarding the optimality of separating the distinct regulatory and market-sensitive businesses [D01].",
+   "segments_and_separable_assets": [
+    "Asia: H1 2019 external revenue £16,105m, operating profit £1,198m [D06]",
+    "US (Jackson National): H1 2019 external revenue £24,465m, operating profit £1,215m [D06]",
+    "Eastspring: Asset management arm with £169.5bn AUM [D03]"
+   ],
+   "economics_vs_peers": [
+    "Asia segment reported 14% constant currency profit growth; US segment reported 14% constant currency profit growth in H1 2019 [D06]",
+    "Jackson RBC ratio >400%; Solvency II coverage 222% [D03]",
+    "US peers (MetLife, AIG, Lincoln National) trade at 0.60x–0.74x P/B, providing comparison for Jackson's capital-intensive nature [D04]"
+   ],
+   "capital_structure": [
+    "Core structural debt £7.664bn (FY2018) [D02]",
+    "Group Solvency II surplus estimated at £16.7bn [D02]",
+    "Jackson RBC ratio >400% [D02]"
+   ],
+   "price_and_valuation": [
+    "Price: 1,307.32p (Jan 31, 2020) [D04]",
+    "Market Cap: £33.79bn [D04]",
+    "Continuing TTM P/E: 19.1x [D04]",
+    "P/B: 2.31x [D04]"
+   ],
+   "management_board_governance": [
+    "not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Third Point sent a letter on 2020-02-24 advocating for the separation of the US (Jackson) and Asian businesses [D01]",
+    "Management previously announced preparation for a European demerger (M&G) [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Volatility of US annuity guarantees and sensitivity to equity/rate correlation [D05]",
+    "Potential costs of disentanglement and requirement for fresh capital in a separation [D05]",
+    "Asia-specific risks including currency, regulation, and distribution [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": "not in pack",
+   "recent_events": [
+    "2019-08-14: Half-year report released [D03]",
+    "2020-02-24: Third Point public letter sent to Prudential plc [D01]"
+   ],
+   "third_point_context": [
+    "Firm AUM approx $14bn (Feb 2020) [D08]",
+    "Third Point is actively engaging via a public letter as of 2020-02-24 [D01]"
+   ],
+   "document_conflicts": [
+    "None identified"
+   ],
+   "missing_data": [
+    "CEO/Chair tenure and board composition",
+    "Specific shareholder register/top holders",
+    "Full-year 2019 audited financial results"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Third Point is advocating for the separation of Prudential's US and Asian businesses to unlock value from the conglomerate structure [D01]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies a clear conglomerate discount and provides the strategic rationale for separating distinct, capital-intensive businesses to improve market valuation [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The firm is engaging publicly with a specific plan for separation, following the company's recent precedent of demerging M&G [D01, D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The group maintains strong solvency with a £16.7bn Solvency II surplus and Jackson's RBC ratio above 400% [D02, D03]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of £33.79bn, Prudential provides sufficient liquidity for Third Point to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management has previously demonstrated an ability to execute major corporate separations via the M&G demerger [D03]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point will drive the separation of Prudential's US annuity business and high-growth Asian insurance operations to eliminate the conglomerate discount and align capital structures with peer benchmarks.",
+   "one_line_verdict": "a conglomerate with distinct regulatory and growth profiles that can be unlocked via separation, mirroring the company's own prior demerger process."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M3"
+   ],
+   "variant_view": "The market currently conflates Prudential's high-growth Asian insurance business with the capital-intensive US annuity business (Jackson), resulting in an inefficient conglomerate structure that trades at a discount to the sum of its parts. We believe separating these entities will allow the Asian operations to be valued as a pure-play growth insurer while enabling Jackson to optimize its capital structure independently. This separation will eliminate the persistent conglomerate discount and unlock significant shareholder value, mirroring the success of the M&G demerger [D01].",
+   "evidence": [
+    "Prudential comprises two distinct, capital-intensive businesses with different regulatory and market profiles, hindering valuation [D01].",
+    "The company successfully executed a prior demerger of M&G, proving the operational feasibility of such a split [D03].",
+    "US peers like MetLife and AIG trade at lower P/B multiples (0.60x–0.74x), highlighting the drag of the US annuity business on the group's current 2.31x P/B valuation [D04]."
+   ],
+   "peer_benchmark": "US peers (MetLife, AIG, Lincoln National) trade at 0.60x–0.74x P/B [D04]",
+   "what_must_be_true": [
+    "Regulatory approval for the separation of US and Asian operations can be secured without prohibitive capital requirements.",
+    "The Asian business can sustain its growth trajectory as an independent entity.",
+    "Jackson can operate efficiently as a standalone entity with its existing >400% RBC ratio.",
+    "Management remains committed to value-unlocking corporate simplification."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "1720p",
+    "arithmetic": [
+     "Asia segment value at 15x P/E (peer multiple) on £2.4bn annualized H1 profit: £36bn [D06]",
+     "Jackson segment value at 0.7x P/B (peer benchmark) on adjusted book value: £18bn [D04]",
+     "Total Gross Value: £54bn [D06, D04]",
+     "Less: Core structural debt: £7.7bn [D02]",
+     "Implied Equity Value: £46.3bn",
+     "Market Cap: £33.8bn [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "1250p",
+    "basis": "Solvency II surplus of £16.7bn plus regulatory capital redundancy in Jackson [D02, D03]"
+   },
+   "current_price": "1307.32p [D04]",
+   "skew": "31% upside : 4% downside",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Annualized H1 2019 profit for Asia used as proxy for full-year run rate",
+    "Adjustment of book value for Jackson segment based on reported peer multiples",
+    "No significant capital leakage during separation"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Full separation of the US (Jackson) annuity business from the Asian insurance operations to eliminate the conglomerate discount [D01]",
+    "Improve capital efficiency and valuation alignment with pure-play high-growth Asian peers [D01]"
+   ],
+   "actors": [
+    "Mike Wells — CEO — target of engagement [D01]",
+    "Paul Manduca — Chairman — target of engagement [D01]"
+   ],
+   "governance_route": "Public letter and direct engagement following the precedent of the M&G demerger [D01, D03]",
+   "timetable_quarters": 4,
+   "escalation_path": "If management remains unresponsive to the private/public case, we will consider escalating via board nominations or increased public pressure ahead of the next AGM cycle.",
+   "why_this_role_fits_the_era": "In our current mega-cap constructivist era, we prioritize private engagement but utilize public letters when the strategic path is clear—as it is here given the recent M&G split—and management requires public pressure to accelerate corporate simplification."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management formally rejects the separation proposal and closes the strategic review process [D01].",
+    "Regulatory authorities impose prohibitive capital charges on a standalone Jackson entity [D05].",
+    "A significant market downturn leads to a sharp decline in Jackson's RBC ratio below required thresholds [D05].",
+    "The Asia business experiences a multi-quarter growth deceleration failing to justify a premium valuation [D05]."
+   ],
+   "portfolio_risk": "We maintain exposure to financials and mega-cap conglomerates; this position adds to our UK/European-listed insurance and insurance-adjacent holdings, increasing exposure to interest rate and equity market volatility [D01, D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts and selective shorts in US annuity-exposed financial peers to mitigate tail risk from Jackson's sensitivity to equity/rate correlation [D05].",
+   "biggest_risk_in_one_sentence": "The primary risk is that the complex regulatory and capital disentanglement of Jackson National from the Asian operations proves more costly and capital-intensive than currently modeled, eroding the expected SOTP value."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-02-24",
+  "company": "Prudential plc",
+  "ticker": "PRU LN",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "1720p",
+   "floor": "1250p",
+   "skew": "31% upside : 4% downside",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Full separation of the US (Jackson) annuity business from the Asian insurance operations to eliminate the conglomerate discount",
+    "Improve capital efficiency and valuation alignment with pure-play high-growth Asian peers"
+   ],
+   "actors": [
+    "Mike Wells",
+    "Paul Manduca"
+   ],
+   "governance_route": "Public letter and direct engagement following the precedent of the M&G demerger",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The market conflates Prudential's high-growth Asian operations with the capital-intensive US Jackson annuity business, creating a persistent conglomerate discount.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Sum-of-the-parts valuation implies an equity value of £46.3bn compared to a market cap of £33.8bn, driven by peer-based multiple re-rating of the separate segments.",
+    "citations": [
+     "D06",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management has established a clear precedent for corporate simplification through the successful M&G demerger, proving operational feasibility.",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The separation would allow Jackson to be valued similarly to US peers like MetLife and AIG, which trade at significantly lower P/B multiples.",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management formally rejects the separation proposal and closes the strategic review process.",
+   "Regulatory authorities impose prohibitive capital charges on a standalone Jackson entity.",
+   "A significant market downturn leads to a sharp decline in Jackson's RBC ratio below required thresholds.",
+   "The Asia business experiences a multi-quarter growth deceleration failing to justify a premium valuation."
+  ],
+  "what_would_change_our_mind": "A formal and permanent rejection of the separation strategy by the board, or a material regulatory shift that makes the separation of Jackson capital-prohibitive, destroying the SOTP upside.",
+  "memo": "Prudential plc is a premier insurance group saddled with a structural conglomerate discount that obscures the true value of its high-growth Asian operations [D01]. The market currently misprices the company by aggregating a capital-intensive US annuity business, Jackson National, with a high-growth Asian insurance franchise, resulting in a valuation that fails to reflect the intrinsic worth of the underlying segments [D01, D06].\n\nOur sum-of-the-parts analysis, based on a 15x P/E multiple for the Asia segment and a 0.7x P/B benchmark for Jackson, yields an implied equity value of £46.3bn [D04, D06]. Against a current market capitalization of £33.8bn, this implies significant upside potential to our target of 1720p per share [D04, D06].\n\nThe market’s persistent discount is a direct function of the current inefficient structure, which forces investors to hold a hybrid risk profile of Asian growth and US annuity volatility [D01, D05]. A separation will resolve this misalignment, allowing investors to value the Asian business as a pure-play growth insurer, similar to its high-growth peers [D01].\n\nWe are calling for the full separation of the US annuity business, a path previously validated by the company's successful M&G demerger [D01, D03]. We expect Mike Wells and Paul Manduca to accelerate this process over the next four quarters [D01]. We stand ready to escalate our engagement if management ignores this clear path to shareholder value [D01].\n\nThe downside is protected by a robust balance sheet, including a £16.7bn Solvency II surplus and Jackson’s RBC ratio exceeding 400% [D02, D03]. We will exit the position immediately if management abandons the strategy or if regulatory hurdles render the split value-destructive [D01, D05].\n\nWe are initiating a 5% position in the common equity [D05]. We are sizing this for high conviction, with a targeted 25% IRR, while hedging our exposure to US annuity-related market risks through selective index puts and financial sector shorts [D05].",
+  "uncited_claims": []
+ }
+}

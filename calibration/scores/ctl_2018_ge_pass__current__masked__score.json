@@ -1,0 +1,56 @@
+{
+ "trade_id": "ctl_2018_ge_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No General Electric/GE issuer row in complete 2013–Q2 2026 13F index; reviewed local letters/case archive yields no attributable common-stock comment. Do not confuse GE with separately held industrial issuers or with a credit exposure that 13F cannot exclude."
+  ],
+  "extra_agent_drivers": [
+   "The company is a bloated conglomerate undergoing a complex reset where the activist path is already occupied by an incumbent peer.",
+   "Significant unknowable liabilities regarding long-term-care insurance and SEC investigations preclude a firm downside floor.",
+   "The appointment of Lawrence Culp provides a fresh mandate for portfolio separation, yet the market is overly focused on Power segment decay.",
+   "While Aviation and Healthcare offer high-quality franchise value comparable to peers, the conglomerate discount remains entrenched."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "H. Lawrence Culp Jr. — CEO/Chair — Management",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Board refreshment from 18 to 12 members",
+    "citation": "D09",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Aviation... sports margins comparable to 3M",
+    "citation": "D06",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "company's $91.3bn net debt",
+    "citation": "D04",
+    "verdict": "cannot_tell"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 2,
+  "share": 0.2
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this opportunity today.",
+ "grader_notes": "The agent correctly identified a 'PASS' decision but failed to ground its reasoning in the provided answer key, which notes that Third Point had no historical position or public commentary on GE. The agent instead fabricated a detailed investment thesis and activist strategy which were not supported by the Loeb-specific drivers.",
+ "run": "ctl_2018_ge_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

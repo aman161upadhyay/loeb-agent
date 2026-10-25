@@ -1,0 +1,48 @@
+{
+ "trade_id": "2023_dis_sell2",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Reported common fell from 950,000 at Q4 2022 to absent Q1 2023; this is the verified directional observation.",
+   "The original thesis sought cost, Hulu and board changes, but no contemporaneous stated liquidation rationale was recovered.",
+   "Common-only absence does not prove the timing or size of a complete beneficial/derivative unwind."
+  ],
+  "extra_agent_drivers": [
+   "The September support agreement provided a board seat and governance input, necessitating a period of holding to evaluate management's execution of the strategic plan",
+   "Management has initiated a significant $5.5 billion cost-savings program, which is a critical step toward the operational turnaround we originally envisioned",
+   "Direct-to-consumer operating losses have widened, placing pressure on the core business model and making the achievement of streaming profitability a primary performance hurdle",
+   "The standstill obligations from the settlement limit our ability to move to an immediate public escalation, requiring patience while the board acts"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The September support agreement provided a board seat and governance input",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has initiated a significant $5.5 billion cost-savings program",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 2,
+  "share": 0.22
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We maintain our position in Disney as the company enters a crucial phase of operational restructuring.",
+ "grader_notes": "The agent failed to identify the actual divestment that occurred in Q1 2023, opting instead to recommend a 'HOLD' based on forward-looking operational analysis. The agent's reasoning was entirely focused on fundamental thesis monitoring, whereas the answer key reflects a completed liquidation of the common stock position.",
+ "run": "2023_dis_sell2__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

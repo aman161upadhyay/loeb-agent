@@ -1,0 +1,259 @@
+{
+ "pack": "ctl_2023_frc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2023-03-16",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "First Republic Bank provides relationship-based banking, residential lending, and wealth management services to affluent households [D01]. The institution's franchise value depends on its ability to maintain customer relationships while stabilizing its balance sheet amidst current liquidity challenges [D01].",
+   "segments_and_separable_assets": [
+    "Wealth Management: Generates fee income; not loss-absorbing capital [D06].",
+    "Residential Lending: Primary lending activity [D01], with $166.9bn in loans for FY2022 [D03].",
+    "Relationship Banking: Deposit-based franchise with $176.4bn in total deposits as of year-end 2022 [D02]."
+   ],
+   "economics_vs_peers": [
+    "FY2022 ROE: 11.60%; Tangible ROE: 11.80% [D02].",
+    "Peer Comparison: JPMorgan Chase (ROE 14%) and others are not identical due to differences in funding franchises and business models [D06].",
+    "Growth: +12.9% deposit growth in 2022 [D02], compared to JPM (+5.8%) and Bank of America (+6.6%) [D06]."
+   ],
+   "capital_structure": [
+    "Borrowings: $15.279bn as of year-end 2022; increased emergency borrowing range of $20-$109bn (March 10-15) and $10bn FHLB borrowing [D03].",
+    "Common Equity: Market cap approximately $6.38bn (March 16) [D04].",
+    "Preferred claims: Positioned ahead of common shareholders [D01, D05].",
+    "Liquidity Support: $30bn uninsured term deposit placement from eleven banks (120-day term) [D03, D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $34.27 (March 16) [D04].",
+    "Market Cap: ~$6.38bn [D04].",
+    "P/E (Trailing): 4.15x [D04].",
+    "P/Tangible Book: 0.462x [D04].",
+    "Dividend Yield: 0% (suspended) [D04]."
+   ],
+   "management_board_governance": [
+    "Key Actors: First Republic management, eleven depositing banks, Treasury, Federal Reserve, FDIC, and OCC [D01, D07].",
+    "Prior activist history: Not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders: Not in pack.",
+    "Index ownership: Not in pack.",
+    "Short interest: Not in pack.",
+    "Average daily volume: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Stabilization Mechanism: $30bn deposit placement by eleven banks announced March 16 [D01, D03].",
+    "Potential Catalysts: Deposit stability, disclosure of funding costs, and a durable balance-sheet solution [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Funding Costs: High cost of emergency liquidity against low-yield assets [D05].",
+    "Capital Erosion: Potential for asset marks and expensive replacement funding to consume common equity value [D05].",
+    "Liquidity/Run Risk: Risk that customer balances continue to decline despite support [D03, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "$30bn uninsured term deposits from 11 banks; initial 120-day term at market rates [D03, D04]."
+   ],
+   "recent_events": [
+    "January 13, 2023: FY2022 results released [D02, D07].",
+    "March 9-16, 2023: Significant reliance on Fed/FHLB borrowing [D03].",
+    "March 16, 2023: Announcement of $30bn deposit placement and dividend suspension [D03, D04]."
+   ],
+   "third_point_context": [
+    "13F (Q4 2022): Disclosed holdings included PG&E, Colgate, Danaher, and Bath & Body Works [D08].",
+    "Stake in FRC: Not in pack."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Current deposit retention rates, post-March 16 liquidity status, current fair-value tangible book equity, and Third Point's current position/basis in FRC."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The announcement of a $30bn deposit placement by eleven major banks provides a stabilization mechanism following a liquidity run [D01, D03]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "There is no differentiated insight or process advantage identified to navigate the extreme uncertainty regarding deposit retention and capital erosion [D03, D05, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "The resolution of the liquidity crisis is currently controlled by a consortium of major banks, the Treasury, the Fed, and the FDIC, rather than shareholder action [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Significant risks of capital erosion from asset marks and high-cost emergency funding threaten the common equity, precluding a reliable floor [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Given the market cap of ~$6.38bn, a meaningful position size is achievable [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "Management is currently reliant on external emergency liquidity and regulatory support to stabilize a business model under severe strain [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The event is an emergency liquidity injection to stabilize a bank run; Third Point has no specific edge in navigating the complex regulatory, funding, and capital erosion risks present.",
+   "one_line_verdict": "a volatile, liquidity-constrained banking situation with high capital erosion risk and no clear governance path for shareholders"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market views First Republic as a high-risk entity facing existential capital erosion due to a deposit run and dependency on expensive emergency funding [D03, D05]. We agree with this assessment of extreme uncertainty and lack of visibility into balance sheet health. Given the dominance of regulatory and banking consortium control, there is no viable activist path to unlock value [D01, D07].",
+   "evidence": [
+    "Reliance on $30bn emergency deposit injection to stabilize liquidity [D01, D03].",
+    "High-cost emergency borrowings creating a negative carry scenario against existing low-yield loan assets [D05].",
+    "Substantial risk of tangible equity erosion from required asset marks [D05]."
+   ],
+   "peer_benchmark": "JPMorgan Chase (14% ROE) vs First Republic (11.60% FY2022 ROE) [D02, D06].",
+   "what_must_be_true": [
+    "Stabilization of the deposit base without further capital injections.",
+    "Ability to generate net interest income despite high cost of emergency borrowings.",
+    "Clarity on fair-value asset marks versus tangible book equity."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "Indeterminate",
+    "arithmetic": [
+     "Market Cap $6.38bn [D04]",
+     "Tangible Book Equity adjustment required for asset marks [D05]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "Zero",
+    "basis": "Potential for tangible equity erosion via asset marks and negative carry from high-cost emergency funding [D05]"
+   },
+   "current_price": "$34.27 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": 0,
+    "bear": -100,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "No visibility into current fair-value tangible book equity after required asset marks.",
+    "Assumes existential risk to common equity due to regulatory and liquidity pressure."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Not applicable [D01]"
+   ],
+   "actors": [
+    "First Republic Management — Oversight — Stance [D01]",
+    "Eleven Major Banks — Liquidity Providers — Stance [D01]",
+    "Federal Reserve/Treasury/FDIC — Regulatory Oversight — Stance [D07]"
+   ],
+   "governance_route": "Regulatory and banking consortium oversight of liquidity and balance sheet restoration [D01, D07]",
+   "timetable_quarters": 0,
+   "escalation_path": "Not applicable; Third Point maintains a PASS stance due to the absence of an actionable edge and excessive capital erosion risk.",
+   "why_this_role_fits_the_era": "Third Point avoids non-constructivist situations where the risk-reward is asymmetric to the downside and the governance path is controlled by regulators and systemic banking consortia rather than shareholders [D03, D05, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Deposit base continues to decline despite $30bn liquidity injection [D03, D05]",
+    "Tangible common equity is fully eroded by asset marks upon potential sale or further funding needs [D05]",
+    "Regulatory intervention necessitates a write-down or dilution of common equity to satisfy capital requirements [D07]"
+   ],
+   "portfolio_risk": "High overlap with existing financial exposures in a period of systemic market stress; extreme volatility and liquidity risk preclude a position [D03, D05]",
+   "instrument": "none",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The existential risk of tangible equity erosion driven by forced asset liquidation and reliance on high-cost emergency funding makes this an uninvestable situation for our risk-adjusted return mandate [D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2023-03-16",
+  "company": "First Republic Bank",
+  "ticker": "FRC",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "none",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "Indeterminate",
+   "floor": "Zero",
+   "skew": "0% : 100%",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "Not applicable"
+   ],
+   "actors": [
+    "First Republic Management",
+    "Eleven Major Banks",
+    "Federal Reserve/Treasury/FDIC"
+   ],
+   "governance_route": "Regulatory and banking consortium oversight of liquidity and balance sheet restoration",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The bank faces existential risk of tangible equity erosion from forced asset marks and the high cost of emergency funding relative to existing low-yield assets.",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "Governance is currently dominated by a consortium of major banks and regulatory bodies rather than shareholders, precluding an activist path to value.",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The $30bn emergency deposit injection is a stop-gap measure for liquidity rather than a sustainable resolution for long-term capital stability.",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The lack of visibility into fair-value tangible book equity makes the current $6.38bn market capitalization uninvestable.",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Deposit base continues to decline despite $30bn liquidity injection",
+   "Tangible common equity is fully eroded by asset marks upon potential sale or further funding needs",
+   "Regulatory intervention necessitates a write-down or dilution of common equity to satisfy capital requirements"
+  ],
+  "what_would_change_our_mind": "Evidence of stabilized long-term deposit retention, restoration of a viable net interest margin without emergency funding reliance, and clear visibility into fair-value tangible equity.",
+  "memo": "First Republic Bank is a relationship-based lender currently caught in a systemic liquidity crisis that has necessitated an emergency $30 billion deposit injection from a consortium of major banks [D01, D03]. Despite the bank's historical franchise in wealth management and residential lending, the market is currently pricing in extreme existential risk as funding costs soar against a low-yield asset base [D01, D03, D05].\n\nWhile the stock trades at 0.46x tangible book value, this metric is effectively meaningless without clarity on the fair-value marks of the underlying $166.9 billion loan portfolio [D03, D04, D05]. The reliance on high-cost emergency borrowings creates a negative carry scenario that threatens to erode the bank’s capital base rapidly [D05].\n\nManagement’s efforts are currently confined to stabilizing liquidity through regulatory and industry-supported intervention rather than driving long-term shareholder value [D01, D07]. With governance effectively ceded to the Fed, Treasury, and the depositing bank consortium, there is no actionable path for constructivist engagement to unlock a sum-of-the-parts recovery [D01, D07].\n\nWe see no edge in navigating this liquidity-constrained environment where the risk-reward is heavily skewed toward the downside [D03, D05]. Consequently, we are passing on the opportunity and will not participate in the common equity [D05].",
+  "uncited_claims": []
+ }
+}

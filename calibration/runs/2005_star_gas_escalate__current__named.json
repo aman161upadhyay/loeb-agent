@@ -1,0 +1,56 @@
+{
+ "pack": "2005_star_gas_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2005-02-13",
+ "stages": {},
+ "final": {
+  "as_of_date": "2005-02-13",
+  "company": "Star Gas Partners L.P.",
+  "ticker": "SGU",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "original driver: recovery after distribution suspension [D07]; status: broken - management continues to struggle with service centralization and customer attrition [D03]",
+   "original driver: core heating-oil business stability [D01]; status: deteriorating - retail volume fell 14.9% with annual attrition rising to 6.5% [D03]"
+  ],
+  "remaining_skew": "not in pack",
+  "next_catalyst_and_timing": "Asset-sale covenant's 360-day use-of-proceeds period and peak heating season results [D03]",
+  "asks_if_escalating": [
+   "Immediate board refresh to address operational failure",
+   "Comprehensive strategic review to evaluate the viability of the heating-oil franchise",
+   "Rigorous capital allocation plan regarding remaining proceeds from the propane disposal"
+  ],
+  "drivers": [
+   {
+    "driver": "Management's failure to address service-centralization issues has led to unacceptable customer attrition of 6.5% [D03]",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The distribution suspension remains in effect without a clear roadmap for reinstatement or operational recovery [D03]",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The company's core operating metrics are deteriorating while the leadership team lacks a definitive remedy for the business's structural problems [D03]",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The high cost of wholesale oil and inability to maintain route density present a persistent threat to earnings [D05]",
+    "citations": [
+     "D05"
+    ]
+   }
+  ],
+  "memo": "Star Gas Partners has become a textbook case of failed execution. Despite our prior engagement, management continues to preside over a deteriorating franchise, with customer attrition accelerating to 6.5% as a direct result of their disastrous service-centralization efforts [D03]. The suspension of the common distribution is not merely a temporary setback; it is an indictment of the current leadership's inability to protect the economic interests of unit holders [D03].\n\nWe are done waiting for internal improvement that never arrives. The company's attempt to centralize service and dispatch was a strategic blunder that effectively damaged the very customer relationships that define this business [D03]. As the propane disposal proceeds sit under an asset-sale covenant, the risk of capital misallocation is high, and we will not permit management to squander our remaining value on failed operating strategies [D03].\n\nOur role as a 6% holder in this distressed situation requires immediate action to force accountability [D07]. We are escalating our position to demand a board refresh and a concrete strategy to stem the operational rot. The market has lost faith, and we intend to ensure that the path forward prioritizes the preservation and realization of value for common unit holders, rather than continuing the cycle of excuses [D03].",
+  "uncited_claims": []
+ }
+}

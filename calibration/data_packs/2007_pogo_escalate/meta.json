@@ -1,0 +1,22 @@
+{
+  "id": "2007_pogo_escalate",
+  "company": "Pogo Producing Company",
+  "ticker": "PPP",
+  "aliases": [
+    "Pogo Producing Company",
+    "PPP",
+    "Pogo",
+    "Pogo Producing",
+    "Northrock",
+    "Northrock Resources",
+    "Paul Van Wagenen",
+    "Paul G. Van Wagenen"
+  ],
+  "as_of_date": "2007-01-31",
+  "mode": "existing",
+  "era": "A",
+  "first_action_window": "Requested checkpoint 2007-01-31; actual first action not recovered to a unique day; see answer-key dating notes. December 1 sale demand precedes requested January 31 cutoff; February 23 proxy amendment follows it. Key grades continued escalation, not a new January letter. Prior investor-demand text excluded from docs; daily price/AUM missing.",
+  "fund_aum_usd_bn": null,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. December 1 sale demand precedes requested January 31 cutoff; February 23 proxy amendment follows it. Key grades continued escalation, not a new January letter. Prior investor-demand text excluded from docs; daily price/AUM missing."
+}

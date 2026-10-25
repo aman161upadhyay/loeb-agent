@@ -1,0 +1,63 @@
+{
+ "trade_id": "2023_dis_sell2",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Reported common fell from 950,000 at Q4 2022 to absent Q1 2023; this is the verified directional observation.",
+   "The original thesis sought cost, Hulu and board changes, but no contemporaneous stated liquidation rationale was recovered.",
+   "Common-only absence does not prove the timing or size of a complete beneficial/derivative unwind."
+  ],
+  "extra_agent_drivers": [
+   "The company has initiated a meaningful $5.5bn cost reduction program which provides a clear operating catalyst to improve earnings [D03].",
+   "Governance improvements initiated by our initial engagement remain in progress following the appointment of a new director [D03].",
+   "Despite secular headwinds in linear networks, parks performance and intellectual property depth provide a floor for valuation [D06].",
+   "Current standstill obligations limit immediate public escalation, requiring us to allow the current management plan time to deliver results [D05, D07]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "management has now responded to the need for fiscal discipline by announcing a $5.5 billion cost-savings target",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Q1 operating losses in direct-to-consumer were approximately $1.1 billion",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company has initiated a meaningful $5.5bn cost reduction program which provides a clear operating catalyst to improve earnings",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Current standstill obligations limit immediate public escalation",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "standstill provisions currently dictate a measured approach",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 4,
+  "share": 0.4
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "We believe it is more prudent to hold and observe the execution of the company's plan rather than cycle out prematurely, as selling now would forfeit the potential upside from the margin improvement we have already demanded [D05].",
+ "grader_notes": "The agent missed the actual exit (SELL) that occurred by Q1 2023, choosing to HOLD instead. The reasoning is entirely divergent because the agent built a forward-looking thesis based on current company performance and standstill constraints, whereas the answer key reflects the realized historical exit which lacked a specific, contemporaneously stated liquidation rationale.",
+ "run": "2023_dis_sell2__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "SELL",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": false
+}

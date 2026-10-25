@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2022_vroom_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Vroom/VRM/UACC absent from complete 54-quarter 13F index; no attributable manager public comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "Vroom is a cash-depleting, loss-making entity with no identifiable catalyst or separable asset value to justify a position.",
+   "The company suffers from a severe margin gap, with operating margins of -21.1% compared to positive peer benchmarks such as CarMax and AutoNation.",
+   "The capital structure is precarious, featuring negative net debt where total liabilities of $1,212.1m significantly exceed cash holdings of $532.6m.",
+   "The investment thesis relies entirely on an unproven management turnaround plan in a distressed macro environment, lacking any governance-led event or margin of safety."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Vroom is a cash-depleting, loss-making entity.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins of -21.1%.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total liabilities of $1,212.1m significantly exceed cash holdings of $532.6m.",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 6,
+  "share": 0.67
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this situation in its entirety, maintaining our focus on high-conviction events where our capital and constructivist approach can drive tangible outcomes [D01].",
+ "grader_notes": "The agent's decision matches the observational pass label in the key. However, the reasoning provided by the agent consists of fundamental analysis of the company's financials rather than the observational, 13F-based evidence provided in the key's driver, which focused on the lack of Third Point exposure.",
+ "run": "ctl_2022_vroom_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

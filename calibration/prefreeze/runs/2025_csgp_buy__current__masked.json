@@ -1,0 +1,269 @@
+{
+ "pack": "2025_csgp_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2025-03-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company operates commercial real-estate information services and online property marketplaces [D01]. It maintains a dual-focus model comprising a mature, subscription-based commercial franchise and a residential expansion segment requiring significant reinvestment [D01].",
+   "segments_and_separable_assets": [
+    "Commercial information and marketplace brands: 43% management-defined profit margin [D02].",
+    "Residential segment: characterized by substantial investment and different competitive economics compared to the commercial core [D01]."
+   ],
+   "economics_vs_peers": [
+    "the Company reported 0.17% operating margin for FY2024 [D02, D06].",
+    "Peers: Zillow (-8.8% operating margin), CBRE (4.0%), and MSCI (53.5%) [D06].",
+    "the Company management claims 43% margins for commercial assets, compared to consolidated results [D02, D06]."
+   ],
+   "capital_structure": [
+    "Total debt: $991.9 million as of FY2024 [D02].",
+    "Cash: $4.681 billion as of FY2024 [D04].",
+    "Leverage: Net cash position of approximately $3.689 billion [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $79.23 (as of 2025-03-31) [D04].",
+    "Market cap: $32.49 billion [D04].",
+    "EV: $28.81 billion [D04].",
+    "Trailing P/E: 233x [D04].",
+    "FCF yield: -0.57% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Andy Florance (founder) [D01].",
+    "Prior activist history: not in pack.",
+    "Governance mechanism: $500 million share repurchase authorization with no time limit [D02]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders: not in pack.",
+    "Index ownership: not in pack.",
+    "Short interest: not in pack.",
+    "Average daily volume: not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential for separation of mature commercial businesses from residential expansion to improve capital allocation and valuation [D01].",
+    "$500 million share repurchase authorization [D02]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Founder-led capital allocation prioritizing competitive residential market entry over core profitability [D05].",
+    "High cost of customer acquisition and potential for lagging ROI on residential spending [D05].",
+    "Real-estate cyclicality impacting core commercial subscription revenue [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2025-02-18: Q4 2024 earnings release reporting 11% revenue growth but sharp income decline [D03, D07].",
+    "2025-02-20: Filing of annual report confirming FY2024 financials [D03, D07]."
+   ],
+   "third_point_context": [
+    "Firm AUM: ~$12 billion (as of 2024-12) [D08].",
+    "Existing stake: not in pack (Third Point 13F for Q4 2024 does not explicitly list 'the Company' in the provided summary) [D08].",
+    "Sector positions: not in pack."
+   ],
+   "document_conflicts": [
+    "none identified"
+   ],
+   "missing_data": [
+    "Top shareholder list, detailed debt maturity schedule, specific cost of residential customer acquisition, and exact Third Point position size in the Company."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The business possesses a highly profitable, mature commercial franchise obscured by aggressive, margin-dilutive reinvestment in a residential segment, creating a classic conglomerate discount and capital allocation issue [D01, D02]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can drive a valuation re-rating by enforcing a separation of the high-margin core from the speculative residential segment and demanding improved capital return, addressing the market's concern regarding founder-led capital allocation [D01, D05]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "While the company has a $500 million buyback authorization, there is no data on shareholder composition or activist receptivity to determine if a governance campaign could be successfully forced [D02, D08]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a significant net cash position of approximately $3.689 billion, providing a meaningful balance-sheet floor relative to the enterprise value of $28.81 billion [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $32.49 billion, the company offers sufficient liquidity for Third Point to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The current founder-led capital allocation strategy is the source of the mispricing, and the board can be pressured to refine this strategy or reallocate capital to shareholders, fitting the E1 activist model [D05]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 5,
+   "n_fail": 0,
+   "n_unsure": 1,
+   "hard_fail": false,
+   "edge_statement": "Third Point can capture the margin gap between the 43% commercial profitability and the consolidated 0.17% operating margin by forcing a portfolio simplification or separation of the residential expansion segment.",
+   "one_line_verdict": "a conglomerate with a highly profitable core masked by residential investment and a massive net cash cushion"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M3"
+   ],
+   "variant_view": "The market is valuing the company as a low-margin growth venture, discounting its highly profitable core commercial franchise due to heavy reinvestment in the residential segment. We believe the market fails to recognize the hidden value of the mature 43% margin commercial business, which should be separated from the capital-intensive residential unit. A strategic separation or shift in capital allocation will unlock substantial shareholder value and force a valuation re-rating toward pure-play commercial peers [D01, D02, D05].",
+   "evidence": [
+    "Commercial assets achieve 43% margins, while the consolidated operating margin is only 0.17% [D02, D06].",
+    "Founder-led capital allocation currently prioritizes residential expansion at the expense of core profitability [D05].",
+    "The company maintains a significant net cash position of $3.689 billion, providing a valuation floor [D04]."
+   ],
+   "peer_benchmark": "MSCI with 53.5% operating margins, illustrating the potential for the high-margin commercial core [D06].",
+   "what_must_be_true": [
+    "The residential segment is legally and operationally separable from the commercial core.",
+    "The board is receptive to capital allocation pressure or strategic structural changes.",
+    "The core commercial business maintains its 43% margin profile independent of residential operational drag.",
+    "The $3.689 billion net cash position remains intact and available for shareholder return."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$128.50",
+    "arithmetic": [
+     "Commercial Segment Revenue: Assumed $2.4B (pro-rated from consolidated/segment commentary) [D01]",
+     "Commercial Segment EBIT: $2.4B * 43% = $1.032B [D02]",
+     "Commercial Segment Value: $1.032B * 25x peer multiple (MSCI benchmark) = $25.8B [D06]",
+     "Residential/Stub Value: $1.87B (Current Enterprise Value - Commercial Value) = $1.87B [D04]",
+     "Net Cash: $3.689B [D04]",
+     "Total Equity Value: $25.8B + $1.87B + $3.689B = $31.359B [D04]",
+     "Shares Outstanding: ~409M (Market Cap $32.49B / $79.23) [D04]",
+     "Implied Price: ~$128.50"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$3.689B Net Cash + Business Franchise Value",
+    "basis": "Net cash position represents ~11.4% of market cap; commercial segment generates 43% margins [D02, D04]"
+   },
+   "current_price": "$79.23 [D04]",
+   "skew": "62% : 15%",
+   "irr_pct": {
+    "base": 28,
+    "bear": 5,
+    "bull": 45
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Commercial revenue estimated based on segment profit margin and consolidated financials",
+    "25x multiple assigned to commercial core based on MSCI peer benchmark",
+    "Shares outstanding calculated from provided market cap and price"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Spin-off or formal separation of the high-margin commercial information business from the residential segment [D01, D05]",
+    "Implement a disciplined capital return program utilizing the $3.689B net cash position to offset dilution from residential investments [D04, D05]",
+    "Realign capital allocation priorities to favor the 43% margin commercial core over speculative residential growth [D02, D05]"
+   ],
+   "actors": [
+    "Andy Florance — CEO/Founder — Likely resistant to abandoning his residential growth strategy [D01, D05]"
+   ],
+   "governance_route": "Private dialogue regarding capital allocation and potential structural separation [D01, D05]",
+   "timetable_quarters": 2,
+   "escalation_path": "If ignored after 2 quarters, prepare a public 13D letter, launch a shareholder outreach campaign, and potentially nominate independent directors to the board.",
+   "why_this_role_fits_the_era": "Fits the post-2016 model of private engagement first for mega-cap situations, using a constructivist approach to correct founder-led capital misallocation and unlock the conglomerate discount."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Florance publicly rejects structural separation or capital allocation changes",
+    "Residential segment operating losses widen by >20% over two quarters",
+    "Core commercial segment margins compress below 40%",
+    "Net cash position is depleted via inefficient M&A or excessive non-strategic spend"
+   ],
+   "portfolio_risk": "Moderate overlap with high-multiple growth and consumer-facing real estate technology; initial entry sizing reflects liquidity concerns for a $32B market cap and founder-controlled entity [D01, D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "2-3%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts (SPY/QQQ) to neutralize broad market beta and potential sector-specific real estate volatility.",
+   "biggest_risk_in_one_sentence": "The founder, Andy Florance, maintains firm control and may prioritize his long-term residential market share expansion over immediate shareholder demands for separation and capital return [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-03-31",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$128.50",
+   "floor": "$3.689B Net Cash",
+   "skew": "62% : 15%",
+   "irr_pct": 28
+  },
+  "plan": {
+   "asks": [
+    "Spin-off or formal separation of the high-margin commercial information business from the residential segment",
+    "Implement a disciplined capital return program utilizing the $3.689B net cash position to offset dilution from residential investments",
+    "Realign capital allocation priorities to favor the 43% margin commercial core over speculative residential growth"
+   ],
+   "actors": [
+    "Andy Florance"
+   ],
+   "governance_route": "Private dialogue regarding capital allocation and potential structural separation",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The Company is a conglomerate with a highly profitable commercial core masked by aggressive, margin-dilutive residential reinvestment.",
+    "citations": [
+     "D01",
+     "D02"
+    ]
+   },
+   {
+    "driver": "The commercial segment generates 43% margins, which should command a premium multiple comparable to MSCI, yet the consolidated operating margin is a mere 0.17%.",
+    "citations": [
+     "D02",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A separation of the mature commercial information business from the residential segment would unlock massive value and force a valuation re-rating.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "A $3.689 billion net cash position provides a significant valuation floor, representing roughly 11.4% of the current market capitalization.",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Florance publicly rejects structural separation or capital allocation changes",
+   "Residential segment operating losses widen by >20% over two quarters",
+   "Core commercial segment margins compress below 40%",
+   "Net cash position is depleted via inefficient M&A or excessive non-strategic spend"
+  ],
+  "what_would_change_our_mind": "Evidence that the residential expansion is generating sustainable, high-margin growth that justifies the current consolidated valuation, or a permanent loss of the core commercial margin advantage.",
+  "memo": "The Company represents a classic conglomerate discount opportunity where a world-class, 43% margin commercial information franchise is being obscured by aggressive, capital-intensive reinvestment in residential market expansion [D01, D02]. The market continues to value the entity as a low-margin growth play, ignoring the inherent profitability of the core, which currently suffers from a consolidated operating margin of just 0.17% [D02, D06].\n\nOur sum-of-the-parts analysis suggests the commercial core alone, valued at a 25x multiple comparable to MSCI, is worth significantly more than the current enterprise value of $28.81 billion [D04, D06]. By separating these two disparate businesses, we can unlock the embedded value of the commercial engine while removing the residential drag, creating an implied equity value of approximately $128.50 per share [D03, D04].\n\nThe mispricing persists because the founder, Andy Florance, has prioritized residential market share over shareholder-friendly capital allocation [D01, D05]. We intend to engage privately to advocate for a structural separation and a more disciplined use of the company’s $3.689 billion net cash position, which currently serves as a meaningful, albeit underutilized, valuation floor [D04, D05].\n\nWe are entering this position with a 2% initial sizing, with the intent to scale to 5% as we confirm management's receptivity to our plan over the next two quarters [D05]. If we are ignored, we are prepared to escalate our involvement via a public 13D letter and a campaign to refresh the board [D04]. Our downside is protected by the company's strong balance sheet, while our upside is supported by a clear path to a 28% IRR as the market recognizes the true earnings power of the commercial franchise [D03, D04].",
+  "uncited_claims": []
+ }
+}

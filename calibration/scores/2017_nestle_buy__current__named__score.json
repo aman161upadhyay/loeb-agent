@@ -1,0 +1,53 @@
+{
+ "trade_id": "2017_nestle_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 5,
+  "matched": [
+   "The best-positioned consumer portfolio was under-earning after years of stalled EPS and peer underperformance. → Nestlé is a world-class consumer conglomerate trading at a discount because of a persistent 300-400bps margin gap versus its peers [D01, D06].",
+   "Monetizing the non-core L'Oréal stake and pruning the portfolio could unlock hidden value. → The company holds a non-core ~23% stake in L'Oréal valued at over $25 billion, which should be monetized to unlock capital [D01, D04].",
+   "Outside CEO Mark Schneider and operating adviser Jan Bennink created a credible change window. → New CEO Mark Schneider represents an inflection point for the organization to adopt a more disciplined capital allocation and operational strategy [D01, D07].",
+   "An explicit 18–20% margin objective by 2020 could impose accountability and close the operating gap. → Our plan is straightforward: we are pushing for the divestiture of the L'Oréal holding and the non-core US confectionery business to catalyze a rerating of the core assets [D01, D07]."
+  ],
+  "missed": [
+   "An underlevered balance sheet could support repurchases and more efficient capital allocation."
+  ],
+  "extra_agent_drivers": [
+   "The US confectionery business, with $900 million in annual sales, is an identified candidate for divestiture to further simplify the portfolio [D07]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Nestlé is a world-class consumer conglomerate trading at a discount because of a persistent 300-400bps margin gap versus its peers",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "monetization of the ~23% L'Oréal stake—worth over $25 billion",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "New CEO Mark Schneider represents an inflection point for the organization",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Nestlé is a global powerhouse in coffee, infant nutrition, and pet care, yet its performance is obscured by a bloat-prone conglomerate structure that leaves a 300-400 basis-point operating margin gap against its peers [D01, D06].",
+ "grader_notes": "The agent correctly identified the core pillars of the Third Point thesis, including the L'Oréal divestment, margin improvement, and the leadership transition under Schneider. The agent missed the explicit focus on balance sheet leverage (buybacks) noted in the key, instead adding specific portfolio pruning detail regarding the US confectionery business.",
+ "run": "2017_nestle_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

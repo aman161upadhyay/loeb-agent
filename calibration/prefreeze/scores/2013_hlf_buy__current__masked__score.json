@@ -1,0 +1,52 @@
+{
+ "trade_id": "2013_hlf_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Independent diligence does not support the short seller's pyramid characterization → While the market fears that the company’s business model is a pyramid scheme susceptible to regulatory collapse, we see a highly cash-generative enterprise being sacrificed to the fears of the moment",
+   "The business is a cash-generative compounder temporarily discounted by the short attack → The market’s focus on short-seller allegations has created a disconnect between the company’s strong underlying cash generation—evidenced by $142.4m in operating cash flow in Q3 2012—and its depressed equity valuation",
+   "The analyst-day rebuttal and significant short interest provide near-term rerating catalysts → We expect this valuation gap to close as the regulatory environment clarifies and the business model’s legality is defended"
+  ],
+  "missed": [
+   "A modest 10–12x earnings multiple supports $55–68 value and 40–70% upside."
+  ],
+  "extra_agent_drivers": [
+   "Peer-relative valuation analysis using Nu Skin."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company generated $142.4m in operating cash flow in Q3 2012",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trading at 9.88x trailing P/E",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Nu Skin trades at 17.8x",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While the market fears that the company’s business model is a pyramid scheme susceptible to regulatory collapse, we see a highly cash-generative enterprise being sacrificed to the fears of the moment.",
+ "grader_notes": "The agent correctly identifies the long thesis and the market disconnect caused by the short-seller campaign. The reasoning is closest to Loeb's on the core conviction that the pyramid scheme allegations are overstated and the business remains cash-generative. The agent is farthest from Loeb's by introducing its own peer-multiple valuation model rather than specifically referencing the 10-12x multiple cited by Loeb.",
+ "run": "2013_hlf_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

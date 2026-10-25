@@ -1,0 +1,54 @@
+{
+  "id": "2022_bbwi_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "8.14m common reported Q3 2022; increased Q4. Not a verified purchase-day NAV percentage.",
+  "first_action_date": null,
+  "first_action_window": "Requested Feb1 2022 cutoff corrected to Sep30 2022: company/fund evidence says initiated Q3 2022. Governance settlement was March 2023, not Feb2022.",
+  "disclosure_date": "2022-11-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1",
+    "E4"
+  ],
+  "catalyst_role": "P1→P2→P3",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Sarah Nash",
+      "BBWI board",
+      "Gina Boswell (post-entry)"
+    ],
+    "governance_route": "P1→P2→P3; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "The standalone brand had a credible path to global direct-to-consumer growth.",
+      "source": "https://imonkey-files.s3-us-west-1.amazonaws.com/third-point-q4-2022-investor-letter-tpil.pdf (2023-02-08, retrospective)",
+      "quote": null
+    },
+    {
+      "driver": "Capital-allocation and governance improvements could unlock growth and efficiency.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000089914023000443/b022223d.htm (2023-02-22, post-entry)",
+      "quote": null
+    },
+    {
+      "driver": "Leadership and operating changes could restore margins at a low earnings valuation.",
+      "source": "https://imonkey-files.s3-us-west-1.amazonaws.com/third-point-q4-2022-investor-letter-tpil.pdf (2023-02-08, retrospective)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "Proxy threat Feb22 2023; company March6 2023 announcement added Thomas Kuhn after Lucy Brady and Steve Voskuil. No February 2022 settlement. Common exited Q4 2024; full realized return unresolved.",
+  "sources": [
+    "https://imonkey-files.s3-us-west-1.amazonaws.com/third-point-q4-2022-investor-letter-tpil.pdf (2023-02-08)",
+    "https://www.sec.gov/Archives/edgar/data/701985/000119312523061608/d439203ddefa14a.htm",
+    "https://imonkey-files.s3-us-west-1.amazonaws.com/third-point-q4-2022-investor-letter-tpil.pdf (2023-02-08, retrospective)",
+    "https://www.sec.gov/Archives/edgar/data/1040273/000089914023000443/b022223d.htm (2023-02-22, post-entry)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested Feb1 2022 cutoff corrected to Sep30 2022: company/fund evidence says initiated Q3 2022. Governance settlement was March 2023, not Feb2022. AUM 14bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15). AUM observation period 2022-08; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

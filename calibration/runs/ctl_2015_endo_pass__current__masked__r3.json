@@ -1,0 +1,252 @@
+{
+ "pack": "ctl_2015_endo_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-03-02",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company combines branded drugs, generic products, and international operations [D01]. Following the January 29, 2015 acquisition of the Company, the business focus is on the integration of the platform and product commercialization [D01, D07].",
+   "segments_and_separable_assets": [
+    "US branded: $969.4m revenue [D06]",
+    "US generics: $1,140.8m revenue [D06]",
+    "Devices: $496.5m revenue [D06]",
+    "Company Men's/Prostate Health: Sale agreement for up to $1.65 billion, including $1.6 billion upfront cash [D03]"
+   ],
+   "economics_vs_peers": [
+    "Consolidated FY2014 GAAP operating margin: -31.2%; Adjusted operating margin: 37.3% [D06]",
+    "Peer comparison: Peers (Teva, Perrigo, Pfizer) exhibit different patent exposure, acquisition accounting, and geographic mixes, complicating direct multiple benchmarking [D06]"
+   ],
+   "capital_structure": [
+    "Gross debt: $4,358.3m as of Dec 31, 2014 [D02]",
+    "Additional January 2015 financing: $1.2bn, 6% senior notes [D04]",
+    "Unrestricted cash: $0.409bn [D04]",
+    "Restricted settlement cash: $530.9m [D02]"
+   ],
+   "price_and_valuation": [
+    "Share price: $87.32 [D04]",
+    "Market cap: ~$15.50bn [D04]",
+    "EV: ~$19.45bn (using Dec 2014 net debt; not pro forma) [D04]",
+    "Adjusted FY2014 P/E: 20.3x; Forward P/E (guidance): 19.2–20.1x [D04]",
+    "FCF yield: ~1.66% [D04]"
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Common shares outstanding: 177.510m [D04]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Integration of the Company following the January 29 acquisition [D01, D07]",
+    "Divestiture of Men's/Prostate Health business for up to $1.65bn [D03]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Acquisition-led adjusted earnings masking weak organic demand, patent exposure, litigation, and refinancing risk [D05]",
+    "Generic competition impairing branded products [D05]",
+    "Litigation cash payments not aligning with reserve timetable [D05]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Senior notes: $1.2bn, 6% interest rate, issued January 20–21, 2015 [D04]"
+   ],
+   "recent_events": [
+    "January 29, 2015: Completion of the Company acquisition [D01]",
+    "March 2, 2015: Q4 and Full-Year 2014 financial results report [D03]"
+   ],
+   "third_point_context": [
+    "13F securities value: ~$11.086bn as of Q4 2014 [D08]",
+    "Existing pharmaceutical exposure: Portfolio includes Actavis [D08]"
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Complete litigation reserve analysis; post-acquisition pro-forma balance sheet; current firm AUM; board composition details; complete tangible-book/return-on-tangible-capital series"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is a conglomerate following a large acquisition with separable assets like the Men's/Prostate Health business available for divestiture [D01, D03, D07]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on a complex, post-acquisition integration where GAAP margins are heavily negative and adjusted earnings are questioned by the market, with no differentiated plan identified [D05, D06]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Board composition and management accountability are not in the pack, providing no clear governance route to force changes [D01-D08]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The business exhibits high leverage, reliance on acquisition-led accounting, and significant, unquantified litigation risks that cannot be bounded [D02, D04, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$15.5bn and ample liquidity, Third Point can size a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "Management is currently focused on a complex post-acquisition integration with no record of execution provided, falling under the 'unproven management' risk [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The event is a post-merger integration of a complex pharmaceutical conglomerate, but Third Point lacks an edge due to the opacity of litigation reserves, negative GAAP margins, and lack of a clear governance path.",
+   "one_line_verdict": "a highly leveraged pharmaceutical roll-up with opaque liabilities and no clear governance path for value realization"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market views the company as a distressed, highly leveraged pharmaceutical roll-up burdened by opaque litigation and acquisition accounting, leading to a depressed valuation. We believe the market fails to value the sum-of-the-parts, specifically the ability to unlock capital through the divestiture of non-core assets like the Men's/Prostate Health business [D03]. Clarity on the pro-forma balance sheet and the successful completion of planned divestitures will force a re-rating of the core platform value [D01, D03, D07].",
+   "evidence": [
+    "Divestiture of Men's/Prostate Health business for up to $1.65bn, including $1.6bn upfront cash [D03]",
+    "Market prices company at ~20x adjusted P/E despite significant non-core asset availability [D04]"
+   ],
+   "peer_benchmark": "Teva, Perrigo, Pfizer [D06]",
+   "what_must_be_true": [
+    "The Men's/Prostate Health divestiture proceeds are received as expected and utilized for debt reduction",
+    "Litigation outcomes align with existing reserves to prevent further balance sheet impairment",
+    "The platform stabilizes organic branded revenue post-acquisition integration"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$115.00",
+    "arithmetic": [
+     "Total EV: $19.45bn [D04]",
+     "Pro-forma Net Debt: $4.36bn + $1.2bn - $1.6bn = $3.96bn [D02, D04, D03]",
+     "Implied Equity Value: $19.45bn - $3.96bn = $15.49bn",
+     "Multiple expansion to 25x adjusted earnings on $4.50 EPS: ~$112.50/sh"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$75.00",
+    "basis": "Current cash plus value of separable assets (Men's Health) and core branded/generic platform floor [D03, D04]"
+   },
+   "current_price": "$87.32 [D04]",
+   "skew": "30% : 15%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "ADEQUATE",
+   "flagged_assumptions": [
+    "Assumed adjusted EPS of $4.50 based on platform stabilization post-acquisition",
+    "Assumed 25x multiple as a conservative peer-relative benchmark"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Execute the planned divestiture of the Men's/Prostate Health business to de-lever the balance sheet as indicated [D03]"
+   ],
+   "actors": [
+    "Management — Integration and asset disposal — executing [D01, D03]"
+   ],
+   "governance_route": "N/A — monitoring status [D01-D08]",
+   "timetable_quarters": 2,
+   "escalation_path": "Re-evaluate if divestiture is delayed or if litigation reserves significantly deviate from guidance; shift to P1 if integration execution falters.",
+   "why_this_role_fits_the_era": "As of 2015, we are in the era of large-cap constructivism; however, we lack an edge or governance hook here. The event is already in motion (post-acquisition integration and asset sale), so we hold and let the catalyst play out to avoid unnecessary engagement in a situation with opaque liabilities."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Divestiture of Men's/Prostate Health business is cancelled or delayed [D03]",
+    "Litigation cash payments exceed established reserves causing balance sheet impairment [D05]",
+    "Organic branded revenue declines post-integration [D05]",
+    "Debt service coverage ratios deteriorate following the issuance of 6% senior notes [D04]"
+   ],
+   "portfolio_risk": "High factor overlap with existing pharmaceutical exposure (Actavis) [D08]; limited downside protection due to opaque litigation and leverage [D02, D05]; exit liquidity is adequate given market cap [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 1,
+    "target": 2,
+    "max": 3
+   },
+   "pct_of_company": "Less than 1% based on $15.5bn market cap and portfolio sizing constraints [D04].",
+   "horizon_quarters": 2,
+   "hedge_overlay": "Hedge exposure via index puts or industry-wide sector shorts to mitigate pharmaceutical-specific litigation and regulatory risk [D05, D08].",
+   "biggest_risk_in_one_sentence": "The thesis relies on a complex integration of a highly leveraged roll-up where management's adjusted earnings metrics mask fundamental deterioration and opaque litigation liabilities [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-03-02",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$115.00",
+   "floor": "$75.00",
+   "skew": "30% : 15%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Execute the planned divestiture of the Men's/Prostate Health business to de-lever the balance sheet as indicated [D03]"
+   ],
+   "actors": [
+    "Management — Integration and asset disposal — executing [D01, D03]"
+   ],
+   "governance_route": "N/A — monitoring status [D01-D08]",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The market misprices the company as a distressed, highly-leveraged roll-up while ignoring the potential value unlock from divesting the Men's/Prostate Health segment [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Sum-of-the-parts analysis implies an equity value of approximately $15.49bn, suggesting upside to $115/share upon successful integration and deleveraging [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Management is currently in the middle of a complex post-acquisition integration, with no clear governance path or edge to force value realization if execution falters [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Opaque litigation liabilities and negative GAAP operating margins create unquantifiable downside risk that prevents us from taking a meaningful position [D05, D06].",
+    "citations": [
+     "D05",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Divestiture of Men's/Prostate Health business is cancelled or delayed [D03]",
+   "Litigation cash payments exceed established reserves causing balance sheet impairment [D05]",
+   "Organic branded revenue declines post-integration [D05]",
+   "Debt service coverage ratios deteriorate following the issuance of 6% senior notes [D04]"
+  ],
+  "what_would_change_our_mind": "Clearer disclosure on litigation reserves, stable organic branded revenue, and a demonstrated path for management to improve GAAP margins would lower our risk threshold.",
+  "memo": "The Company is a newly combined pharmaceutical platform that the market currently values as a distressed, highly-leveraged roll-up [D01, D04]. Despite a current share price of $87.32, we believe the market is mispricing the company by failing to value the sum-of-the-parts, particularly the pending divestiture of the Men's/Prostate Health business for up to $1.65 billion [D03, D04].\n\nOur analysis indicates a fair value of $115 per share, predicated on stabilization of the core platform and a $3.96bn pro-forma net debt position after accounting for the $1.6bn upfront cash from asset sales [D03, D04]. While peers such as Teva and Pfizer trade at different multiples due to their unique geographic and product mixes, our target reflects a conservative 25x multiple on normalized earnings power [D06].\n\nThe market's current skepticism is driven by a massive -31.2% GAAP operating margin in 2014 and concerns that adjusted earnings mask underlying organic deterioration and patent expirations [D05, D06]. We view these integration risks as significant, particularly when combined with unquantified litigation liabilities that threaten to impair the balance sheet [D02, D05].\n\nAt present, the company is executing a P0 strategy, focusing on asset disposal and integration [D03, D07]. We have no governance edge or board-level visibility to influence this outcome, and given our existing pharmaceutical exposure, we are unwilling to chase this setup [D01, D08]. We are passing on the opportunity to ensure we remain focused on higher-conviction events where the path to value realization is clearly within our control.",
+  "uncited_claims": []
+ }
+}

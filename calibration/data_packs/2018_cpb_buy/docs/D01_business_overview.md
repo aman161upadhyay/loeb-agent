@@ -1,0 +1,18 @@
+Title: Business economics and asset map — Campbell Soup Company
+Source: https://www.sec.gov/Archives/edgar/data/16732/000001673218000045/exhibit991-q32018.htm (2018-05-18); https://www.sec.gov/Archives/edgar/data/16732/000114420418043237/tv500575_ex99-1.htm (2018-08-09); https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (2018-07-01); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (2018-05-15)
+Date: 2018-08-09
+
+Campbell combines a mature US soup and simple-meals franchise, snacks and a troubled fresh-food expansion. The acquired Snyder's-Lance portfolio increases snacks exposure but also financing and integration demands. Soup brands can have durable distribution while facing weaker category demand and changing eating habits. These are not mutually exclusive facts. Denise Morrison's departure and an ongoing board strategic review create a leadership and portfolio window. Dorrance-family ownership is essential to governance feasibility: minority activism cannot be evaluated as if the entire share register were freely contestable. [S1–S2; analyst mapping]
+
+Economic map and evidence limits. Separate the source's business descriptions from an analyst's inference about durability. Revenue scale alone is not a moat: the important distinctions are repeat demand, switching or distribution advantages, reinvestment requirements, and the ability to convert customer value into cash for owners. A strong asset can be an unattractive security when other claims absorb the cash. Conversely, complexity can obscure an otherwise sound franchise. The facts above identify the businesses and the relevant unit of analysis; they do not establish that a particular corporate structure is optimal.
+
+Underwrite the operating case before assuming an event. Identify who pays, why the customer returns, which costs are fixed, and what spending must recur to protect the franchise. Keep operating assets, financial investments and restricted capital separate. Where the recovered source does not provide unit economics, customer retention or segment capital employed, those figures are not available in contemporaneous sources; do not fill them with a current estimate. A downside analysis should test the business with no immediate transaction or valuation rerating. This is an analyst framework, not a statement that management or any shareholder has adopted it.
+
+Analyst cross-check: Map the customer, contractual counterparty and owner of the relevant intellectual property separately. A distributor's access to end demand is not ownership of that demand; likewise, reported group market share does not prove that each operating unit possesses pricing power or recurring revenue.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/16732/000001673218000045/exhibit991-q32018.htm (published 2018-05-18).
+- [S2] https://www.sec.gov/Archives/edgar/data/16732/000114420418043237/tv500575_ex99-1.htm (published 2018-08-09).
+- [S3] https://www.businesswire.com/news/home/20180701005073/en/Point-Publishes-Presentation-%e2%80%9cNestl%c3%a9NOW%e2%80%9d (published 2018-07-01).
+- [S4] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S5] https://13f.info/13f/000108514618001511-third-point-llc-q1-2018 (published 2018-05-15).

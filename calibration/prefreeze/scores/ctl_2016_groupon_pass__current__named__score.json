@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2016_groupon_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Groupon/GRPN absent from all 54 quarterly issuer/instrument observations; no manager-specific public investment rationale recovered."
+  ],
+  "extra_agent_drivers": [
+   "Low-margin business in a secularly challenged space",
+   "Unproven long-term operational turnaround",
+   "Negative operating margins vs peers",
+   "Significant structural risks regarding marketing and retention"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Groupon operates as a low-margin business in a secularly challenged space",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins of -5.7% compare poorly to marketplace peers such as eBay at 25.6%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 7,
+  "cited": 4,
+  "share": 0.57
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Given the reliance on unproven operational improvements and the persistent structural headwinds facing the business model, we elect to pass [D01, D06].",
+ "grader_notes": "The agent correctly identifies the 'PASS' decision but completely fabricates its own investment thesis. The actual 'PASS' was based solely on the absence of the stock in Third Point's historical holdings, whereas the agent provided elaborate, fabricated fundamental reasoning that Dan Loeb never gave.",
+ "run": "ctl_2016_groupon_pass__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

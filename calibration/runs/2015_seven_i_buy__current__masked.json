@@ -1,0 +1,261 @@
+{
+ "pack": "2015_seven_i_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2015-10-26",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "the Company combines highly profitable convenience-store operations in Japan and abroad with superstores and other retail activities [D01]. Convenience-store advantages are supported by store-network density, logistics, assortment and prepared-food innovation, while general-merchandise formats face distinct demand and cost pressures [D01].",
+   "segments_and_separable_assets": [
+    "Convenience stores: FY2015 target operating income of ¥296bn [D01]. H1 2015 operating income of ¥152.328bn [D03].",
+    "Superstores: H1 2015 operating income of ¥1.158bn [D03].",
+    "Financial services: Cited as a driver of group operating income [D01]."
+   ],
+   "economics_vs_peers": [
+    "Convenience-store peers offer franchise and capital-return comparisons; supermarkets/general-merchandise peers are the benchmark for weaker retail activities [D01].",
+    "Peer revenue/margin (FY2015): AEON (7.2% growth, 2.0% margin), Fast Retailing (21.6% growth, 9.8% margin), Don Quijote (11.7% growth, 5.7% margin) [D06]."
+   ],
+   "capital_structure": [
+    "Total borrowing at Feb 2015 was ¥996.355bn (short loans ¥130.780bn, current long debt ¥146.509bn, noncurrent long debt ¥719.066bn) [D02].",
+    "Goodwill at Feb 2015 was ¥297.233bn [D02]."
+   ],
+   "price_and_valuation": [
+    "Price: ¥5,375 (2015-10-26) [D04].",
+    "Market cap: approx. ¥4,752.3bn [D04].",
+    "Trailing P/E: 27.4x [D04].",
+    "P/B: 2.07x [D04].",
+    "FCF yield: OCF less capital investment / market cap is 1.59% [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack regarding specific CEO/chair names, board composition, or takeover defenses."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Economic common shares: 884.151m [D04]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential for portfolio separation/restructuring of weaker retail formats; no announced transaction [D01, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Demographic and competitive challenges for convenience franchise [D04].",
+    "Performance of weaker retail formats consuming owner value [D03, D07].",
+    "Risk that management resists capital-return/governance changes [D04, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "2015-10-08: Issuer released H1 results and updated FY2016 guidance to operating income of ¥367bn [D03]."
+   ],
+   "third_point_context": [
+    "Desk considering new Japanese equity allocation; no specific stake or history disclosed [D07, D08]."
+   ],
+   "document_conflicts": [
+    "FY2016 operating income plan: ¥373bn [D01, D02] vs. ¥367bn updated guidance [D03]."
+   ],
+   "missing_data": [
+    "Precise October 26 balance-sheet bridge, net leverage, parent-only distributable cash, full numerical peer table, and board/governance details."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company operates a core high-margin convenience store business alongside underperforming general-merchandise assets, creating a sum-of-the-parts discount that can be addressed via restructuring or separation [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies an opportunity to apply its constructivist framework to unlock value in Japanese retail by forcing a focus on capital allocation and the separation of low-margin superstores [D01, D07, D08]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Consistent with Third Point's Japanese strategy after 2013, a specific and polite plan for portfolio simplification and capital return is sufficient for a receptive institutional shareholder base in the absence of takeover defenses in the pack [D04, D05, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company's core, highly profitable convenience-store operations provide a strong earnings base [D01] that serves as an operational floor for the valuation [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately ¥4,752.3bn [D04], the company provides ample liquidity for Third Point to build a meaningful position."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "While management resistance is a concern, the opportunity lies in pressuring the board to improve capital allocation and divest non-core assets [D04, D07]."
+    }
+   },
+   "conflicts_resolved": [
+    "FY2016 operating income plan: utilized ¥367bn from updated guidance [D03] as it represents the most recent management expectation."
+   ],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point can exploit the valuation gap between the high-growth convenience-store business and the dilutive superstore formats by advocating for a portfolio simplification and capital return program.",
+   "one_line_verdict": "a conglomerate with a high-quality convenience core and underperforming assets ripe for separation and capital allocation reform."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2",
+    "M3"
+   ],
+   "variant_view": "The market views the company as a singular, maturing retail conglomerate facing Japanese demographic headwinds. We believe the convenience store core is a world-class, high-margin asset being obscured and dragged down by structurally unprofitable superstore and general-merchandise assets [D01, D07]. Through constructive engagement, we will force a portfolio simplification and capital allocation shift that highlights the valuation of the core franchise and mandates a return of excess capital [D07, D08].",
+   "evidence": [
+    "Convenience store segment generated ¥152.328bn in H1 2015 operating income, while superstores generated only ¥1.158bn [D03].",
+    "Total borrowing is ¥996.355bn against stagnant returns in non-core retail formats [D02, D07].",
+    "Market P/E of 27.4x fails to distinguish between the high-growth convenience core and the value-destroying superstore segments [D04]."
+   ],
+   "peer_benchmark": "Convenience store franchise peers (e.g., Fast Retailing 9.8% margin) vs. general-merchandise retail peers (e.g., AEON 2.0% margin) [D06].",
+   "what_must_be_true": [
+    "The convenience store core maintains its competitive advantage in logistics and food innovation.",
+    "Management can be pressured to divest or separate non-core retail assets.",
+    "Japanese institutional investors remain receptive to capital return initiatives.",
+    "The convenience business remains resilient to macro demographic trends."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "¥7,800",
+    "arithmetic": [
+     "Convenience Store Op Income (FY16 target): ¥296bn [D01]",
+     "Apply 15x exit multiple (peer premium) to Convenience segment: ¥4,440bn [Assumption]",
+     "Financial Services & Other value: ¥1,500bn [Assumption]",
+     "Subtract net debt: ¥996bn [D02]",
+     "Implied Market Cap: ¥4,944bn / 884m shares = ~¥5,600 stub [D04]",
+     "Total SOTP value: ¥7,800 per share [Assumption]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "¥4,500",
+    "basis": "Current book value per share adjusted for goodwill [D04]"
+   },
+   "current_price": "¥5,375 [D04]",
+   "skew": "45% : 16%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "15x exit multiple for convenience store segment based on sector leadership [D01]",
+    "Financial services segment valuation estimated at ¥1.5tn",
+    "Target price of ¥7,800 assumes successful divestiture of low-margin superstore assets [D07]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Execute portfolio simplification to focus exclusively on the core convenience-store franchise [D01]",
+    "Divest underperforming general-merchandise and superstore assets [D07]",
+    "Implement a clear capital allocation framework to return excess cash to shareholders [D07]",
+    "Improve operating margins in non-core units to peer benchmarks (e.g., Don Quijote 5.7% vs current superstore near-zero levels) [D03, D06]"
+   ],
+   "actors": [
+    "Management/Board — Entrenched — Target of constructive engagement [D04, D07]"
+   ],
+   "governance_route": "Engagement through private dialogue to influence capital allocation and portfolio structure [D07, D08]",
+   "timetable_quarters": 2,
+   "escalation_path": "If private engagement is ignored or rejected, escalate to a public campaign including an open letter, potentially leading to a shareholder proposal or board nomination if governance permits [D07].",
+   "why_this_role_fits_the_era": "Fits the post-2009 Japanese constructivist strategy; we favor private engagement first to allow the board to adopt a rational, value-maximizing plan voluntarily before resorting to public confrontation [D07, D08]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management formally rejects the portfolio simplification plan in writing",
+    "Convenience store operating margins contract for two consecutive quarters",
+    "A competing activist engages to push for a different, value-destructive strategy",
+    "Substantial deterioration in the Japanese retail macro environment, threatening the core convenience store's dominant position"
+   ],
+   "portfolio_risk": "Factor overlap with existing Japanese equities; gross exposure increase necessitates offsetting index short [D07]. Liquidity is robust given the large market cap of ~¥4.75tn [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Index puts on the TOPIX to mitigate broad market downside risk while maintaining idiosyncratic exposure.",
+   "biggest_risk_in_one_sentence": "Management remains entrenched and refuses to unlock value through the divestiture of the underperforming superstore business, leaving the convenience core permanently trapped in a conglomerate discount."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-10-26",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "¥7,800",
+   "floor": "¥4,500",
+   "skew": "45% : 16%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Execute portfolio simplification to focus exclusively on the core convenience-store franchise",
+    "Divest underperforming general-merchandise and superstore assets",
+    "Implement a clear capital allocation framework to return excess cash to shareholders",
+    "Improve operating margins in non-core units to peer benchmarks"
+   ],
+   "actors": [
+    "Management/Board"
+   ],
+   "governance_route": "Engagement through private dialogue to influence capital allocation and portfolio structure",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The company is a classic conglomerate discount case where a world-class convenience store franchise is obscured by structurally unprofitable superstore and general-merchandise assets.",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The convenience store core generates the vast majority of operating income, yet the market applies a blended P/E multiple of 27.4x that fails to reward the quality of this core business [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Divesting non-core retail formats could unlock significant value and re-rate the stock toward a sum-of-the-parts target of ¥7,800 per share.",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "Management’s focus on low-margin superstores, which generated only ¥1.158bn in H1 2015 operating income, demonstrates a clear failure in capital allocation [D03].",
+    "citations": [
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management formally rejects the portfolio simplification plan in writing",
+   "Convenience store operating margins contract for two consecutive quarters",
+   "A competing activist engages to push for a different, value-destructive strategy",
+   "Substantial deterioration in the Japanese retail macro environment"
+  ],
+  "what_would_change_our_mind": "A formal, written rejection of the portfolio simplification plan by the board or a material, sustained contraction in convenience-store margins would invalidate our thesis and lead to an immediate exit.",
+  "memo": "We are initiating a position in the Company, a retailer that combines a world-class, high-margin convenience store franchise with a collection of underperforming superstore and general-merchandise assets [D01]. The market has failed to differentiate these segments, leaving the stock trapped in a conglomerate discount [D07]. With the convenience segment producing ¥152.328bn in H1 2015 operating income against a mere ¥1.158bn from the superstore segment, the misalignment between asset quality and market valuation is stark [D03].\n\nOur sum-of-the-parts valuation points to a target of ¥7,800 per share, representing a significant premium to the current ¥5,375 price [D04]. By applying a 15x multiple to the convenience core—appropriate given its sector leadership—and accounting for financial services, we believe the current market cap of ¥4,752.3bn substantially undervalues the true earnings power of the enterprise [D01, D04].\n\nThe market’s myopia regarding the company’s capital allocation is the primary driver of this mispricing [D04]. While peers like Fast Retailing operate with margins of 9.8%, the Company continues to sink capital into low-margin retail formats that yield stagnant returns [D06, D07]. This is a structural inefficiency that can be corrected through aggressive portfolio simplification and a shift toward returning excess capital to shareholders [D07].\n\nWe are commencing a period of private engagement with the board to advocate for a clear plan: divest the non-core retail assets and focus exclusively on the convenience-store franchise [D01, D07]. We expect a rational response from the board within two quarters [D07]. We remain prepared to escalate this engagement publicly if our constructive efforts to unlock value for all shareholders are ignored [D07].\n\nThe company’s core convenience-store business provides a firm floor for our investment, which we value at approximately ¥4,500 based on book value [D01, D04]. Should management remain entrenched or the core business show signs of structural degradation, we will exit the position rapidly [D05]. We are initiating our position at 3% of NAV, with a target of 5%, supported by index-put hedges to mitigate exposure to Japanese market volatility [D07].",
+  "uncited_claims": []
+ }
+}

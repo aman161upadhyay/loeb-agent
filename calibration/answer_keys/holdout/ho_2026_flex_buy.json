@@ -1,0 +1,56 @@
+{
+  "id": "ho_2026_flex_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Unknown NAV weight; 13F market value is not cost or total economic exposure.",
+  "first_action_date": "2026-Q2 after May 5 separation announcement; exact date unknown; June 30 fallback",
+  "disclosure_date": "2026-07-31",
+  "reason_class": null,
+  "opportunity_template": [
+    "E2",
+    "E4"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Revathi Advaithi",
+      "Michael Hartung",
+      "Flex’s board",
+      "customers",
+      "regulators"
+    ],
+    "governance_route": "Operating/transaction/portfolio implementation; no new proxy or board route required.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "The announced CPI separation exposes an infrastructure business the market undervalues as contract manufacturing.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf (2026-07-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Integrated power, cooling and racks create a differentiated AI deployment offering.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf (2026-07-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Branded electrical/cooling mix, Google TPU exposure and the 800V transition support growth and margins.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf (2026-07-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Revathi Advaithi’s electrical experience and separation record support confidence in execution.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf (2026-07-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "July retrospective forecasts: CPI ~$6B revenue in 2025 to ~$20B in 2027, >$7 EPS potential 2028. These forecasts are not June desk inputs.",
+  "outcome_note": "See dated primary disclosure for actual action. No later stock return, fund contribution or July 2026 unwind is a desk input. Conviction is an evaluator label, not a disclosed manager conviction; exact cost and realized round-trip P&L remain unknown.",
+  "sources": [
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1713/Third_Point_Q2_2026_Investor_Letter_MLHL.pdf",
+    "https://investors.flex.com/news/news-details/2026/Flex-Announces-Intention-to-Spin-Off-its-Cloud-and-Power-Infrastructure-Segment-into-a-New-Independent-Publicly-Traded-Company/default.aspx",
+    "https://assets.thirdpointlimited.com/f/166217/x/3999c42098/2025-04-april-monthly-report-tpil.pdf"
+  ],
+  "pack_quality_notes": "Grade B. Point-in-time issuer/manager evidence is separated from dated post-action explanation. Missing cutoff price, consensus, full peer models and current NAV constrain valuation. Original exact action dates and execution prices are unknown; a quarter-end fallback or preceding month-end trading day is expressly identified in metadata. Earlier-source arguments and inferred size-change rationales are not mislabeled as new manager statements. Each driver source identifies the retrospective disclosure. timetable_quarters=0 means no reliable quantitative timetable recovered, not an assertion of immediate completion."
+}

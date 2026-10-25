@@ -1,0 +1,54 @@
+{
+ "pack": "2025_shco_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2025-01-28",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-01-28",
+  "company": "Soho House & Co Inc.",
+  "ticker": "SHCO",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Membership growth remains robust with 13% YoY Soho House member increase [D02]",
+   "Operating profitability is improving with Q3 2024 operating margin of 11.4% [D03, D06]",
+   "Privatization process and controlling influence risks remain unresolved and opaque [D01, D05]"
+  ],
+  "remaining_skew": "Significant upside potential through proper privatization or corporate simplification versus downside floor protected by membership demand [D01, D04]",
+  "next_catalyst_and_timing": "Public communication or 13D filing demanding board independence and a fair, competitive bidding process; immediate [D01, D07]",
+  "asks_if_escalating": [
+   "Formation of an independent special committee to oversee any privatization or strategic process",
+   "Full disclosure of any potential buyout terms and elimination of conflicts of interest",
+   "Retention of an independent investment bank to conduct a robust market check",
+   "Assurance that minority shareholders receive fair value, not a price dictated by the controlling interest"
+  ],
+  "drivers": [
+   {
+    "driver": "The ongoing privatization process lacks transparency and threatens to disenfranchise minority shareholders given the controller's voting influence.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The business is showing operational progress and membership growth, which should be captured by public shareholders, not siphoned off in a low-ball takeout.",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Persistent governance risks require immediate public intervention to ensure independent oversight of strategic alternatives.",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "Soho House represents a unique brand with strong membership loyalty and improving operating leverage [D02, D03]. However, the current situation regarding a potential privatization is unacceptable [D01]. The presence of significant voting control by the existing leadership creates a high risk that minority shareholders will be deprived of the full value of the franchise through a non-competitive process [D01, D05].\n\nWe are moving to ESCALATE because the opportunity to realize value is being threatened by a lack of governance [D01]. While the operational performance in Q3 2024 was encouraging—with membership growing 13% and the company reporting positive operating margins—this progress must not serve as a justification for an opportunistic take-private bid [D03]. We require an independent special committee and a transparent process to ensure that any transaction or strategic shift reflects the true value of the underlying business rather than the preferences of a controlling insider [D01, D07].\n\nThe status quo of persistent public-market discounts and opaque control is no longer tolerable [D01, D05]. We will use our position to demand that the board prioritizes the interests of all shareholders, ensuring that any auction for the company is genuine and that the process is managed with complete independence [D01, D07].",
+  "uncited_claims": []
+ }
+}

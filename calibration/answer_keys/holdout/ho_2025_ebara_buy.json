@@ -1,0 +1,55 @@
+{
+  "id": "ho_2025_ebara_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Unknown NAV weight; 13F market value is not cost or total economic exposure.",
+  "first_action_date": "2025-Q3; exact date unknown",
+  "disclosure_date": "2025-10-31",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1",
+    "E4"
+  ],
+  "catalyst_role": "P1",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Ebara management",
+      "the board",
+      "customers",
+      "competing equipment vendors"
+    ],
+    "governance_route": "Private management/board engagement; no verified proxy fight or seat.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "Advanced logic nodes and AI packaging increase CMP steps, complexity and process time.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf (2025-10-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Ebara’s metal-CMP positioning offers a route to share gains.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf (2025-10-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "An overextended cost base and unnecessarily discounted pricing depress margins despite strong products.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf (2025-10-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "Private board/management engagement targets margin improvement, portfolio simplicity, repurchases and governance.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf (2025-10-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "October 31 retrospective letter calls valuation a substantial peer discount; no precise entry multiple. Proposed corporate margin increase over 50% is a forecast, not an achieved result.",
+  "outcome_note": "See dated primary disclosure for actual action. No later stock return, fund contribution or July 2026 unwind is a desk input. Conviction is an evaluator label, not a disclosed manager conviction; exact cost and realized round-trip P&L remain unknown.",
+  "sources": [
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf",
+    "https://www.ebara.com/content/dam/ebara/grand-masters/entities/en/pdf/ir/library/earnings/briefings-documents/20250515Presentation_en.pdf",
+    "https://assets.thirdpointlimited.com/f/166217/x/3999c42098/2025-04-april-monthly-report-tpil.pdf"
+  ],
+  "pack_quality_notes": "Grade B. Point-in-time issuer/manager evidence is separated from dated post-action explanation. Missing cutoff price, consensus, full peer models and current NAV constrain valuation. Original exact action dates and execution prices are unknown; a quarter-end fallback or preceding month-end trading day is expressly identified in metadata. Earlier-source arguments and inferred size-change rationales are not mislabeled as new manager statements. Each driver source identifies the retrospective disclosure. timetable_quarters=0 means no reliable quantitative timetable recovered, not an assertion of immediate completion."
+}

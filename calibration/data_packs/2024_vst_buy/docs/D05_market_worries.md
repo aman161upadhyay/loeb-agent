@@ -1,0 +1,16 @@
+Title: Strong countercase and thesis risks — Vistra Corp.
+Source: https://www.sec.gov/Archives/edgar/data/1692819/000119312524049124/d784050dex991.htm (2024-02-28); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (2023-02-06); https://13f.info/13f/000108514624001503-third-point-llc-q4-2023 (2024-02-14)
+Date: 2024-04-30
+
+The bear case is the history of merchant-power cyclicality: commodity prices, weather, outages, collateral requirements and regulation can overwhelm apparent cheapness. Current hedges can delay upside from stronger power prices. Nuclear outages are costly, while new market rules may redistribute scarcity rents. Retail and generation are imperfect natural offsets during extreme weather. AI demand forecasts can be exaggerated or arrive after competing capacity. Energy Harbor integration adds execution risk. Repurchases create value only below intrinsic value and can reduce liquidity before a stress period. The reported strong cash year is not an annuity. [S1; analyst countercase]
+
+Adversarial underwriting. The countercase above should be allowed to defeat the attractive narrative. Distinguish a temporary cloud from permanent impairment, and distinguish a bad business from a good business burdened by claims or a poor structure. Neither distinction is settled by a share-price decline. A credible risk memo names observable developments that would invalidate earnings, liquidity or governance assumptions rather than treat every setback as a chance to increase exposure.
+
+Useful tests include persistent demand or margin erosion after comparable accounting, inability to finance required investment, a remedy whose cost consumes its value, or a decision-maker with neither incentive nor obligation to act. These are analyst tests, not unreported management statements or documented shareholder instructions. Consider the opposite error as well: excessive caution can crystallize losses or miss a profitable recovery. A hedge can add basis, financing and squeeze risk. The recovered sources do not supply probabilities for each scenario, so no precision is implied. The downside floor must be independently demonstrated in cash flows, assets, contractual rights or capital structure; it must not be assumed merely because the upside plan sounds plausible.
+
+Analyst cross-check: Rank the objections by their transmission to the security: reduced operating cash generation, a larger financing claim, lost governance authority, or delayed realization. A thesis can survive a weak quarter but fail because funding expires first. Identify which risks can be monitored and which remain discontinuous.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/1692819/000119312524049124/d784050dex991.htm (published 2024-02-28).
+- [S2] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (published 2023-02-06).
+- [S3] https://13f.info/13f/000108514624001503-third-point-llc-q4-2023 (published 2024-02-14).

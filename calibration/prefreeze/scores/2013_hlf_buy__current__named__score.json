@@ -1,0 +1,48 @@
+{
+ "trade_id": "2013_hlf_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "The business is a cash-generative compounder temporarily discounted by the short attack. → The market is mispricing the company as a terminal business, ignoring its consistent ability to generate robust cash flows and its superior operational efficiency compared to peers.",
+   "A modest 10–12x earnings multiple supports $55–68 value and 40–70% upside. → We believe that as the regulatory uncertainty clears, the stock should trade closer to its peers at a 13x multiple; applied to our 2015 EPS estimate of $5.00, this yields a target price of $65.00."
+  ],
+  "missed": [
+   "Independent diligence does not support the short seller's pyramid characterization; this is the investor's conclusion, not a legal finding.",
+   "The analyst-day rebuttal and significant short interest provide near-term rerating catalysts."
+  ],
+  "extra_agent_drivers": [
+   "Herbalife's 16.3% operating margin significantly outperforms direct peers",
+   "Management's aggressive share repurchase program"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "With an operating margin of 16.3% in 2011, Herbalife significantly outperforms peers like Nu Skin (13.4%) and USANA (13.3%)",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management's aggressive share repurchase program, with $181.9m in Q3 2012",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 4,
+  "share": 0.31
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The market is mispricing the company as a terminal business, ignoring its consistent ability to generate robust cash flows and its superior operational efficiency compared to peers.",
+ "grader_notes": "The agent correctly identified the direction and captured the core investment thesis regarding cash generation and valuation upside. It missed the Loeb-specific drivers regarding the independent diligence of the pyramid scheme allegations and the importance of the analyst-day rebuttal as a catalyst, instead focusing on fundamental peer comparisons and share repurchases as primary drivers.",
+ "run": "2013_hlf_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

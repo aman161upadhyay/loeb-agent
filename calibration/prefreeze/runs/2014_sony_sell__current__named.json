@@ -1,0 +1,56 @@
+{
+ "pack": "2014_sony_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2014-10-20",
+ "stages": {},
+ "final": {
+  "as_of_date": "2014-10-20",
+  "company": "Sony Corporation",
+  "ticker": "6758 / SNE",
+  "decision": "SELL",
+  "reason_class": "L1",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Entertainment spin-off catalyst: broken, management rejected the proposal [D01, D07]",
+   "Electronics turnaround: persistent disappointment, with significant goodwill impairment in mobile [D01, D03]",
+   "Sum-of-the-parts value: remains, but now requires fresh segment earnings work following the mobile forecast revision [D02, D04]"
+  ],
+  "remaining_skew": "unclear; the primary structural catalyst is gone, and earnings power is suppressed by mobile losses [D04, D07]",
+  "next_catalyst_and_timing": "none; no structural or entertainment IPO event is on the horizon [D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The core thesis of an entertainment spin-off was rejected by the board, rendering the primary structural catalyst spent [D07, D08].",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "The mobile division's substantial goodwill impairment signals lower future cash flows and prolonged electronics risk [D01, D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Management's shift toward a revised mobile plan offers no immediate path to re-rating, and the dividend has been eliminated [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "We exit to rotate capital into higher-skew events now that the original governance path is closed [D04, D08].",
+    "citations": [
+     "D04",
+     "D08"
+    ]
+   }
+  ],
+  "memo": "The investment in Sony was underwritten on the strength of a potential entertainment spin-off and a focused electronics turnaround [D07, D08]. With the board having formally rejected the entertainment listing, the central structural catalyst for the position has been realised as a negative [D03, D07]. We do not wait for management to be proved right in the long run when the primary thesis for our involvement has been explicitly dismissed by the issuer [D07, D08].\n\nRecent financial disclosures further degrade the investment case. The ¥180bn impairment of mobile goodwill confirms our concerns regarding the division's competitive environment and cash generation [D01, D03]. While gaming and sensors retain some value, the parent's ability to fund loss-making mobile hardware remains a drain on the consolidated entity [D04, D05]. A currency-assisted recovery is not a substitute for the structural change we originally demanded [D06].\n\nWe adhere to our discipline of exiting when the catalyst is spent or the thesis breaks [D04, D08]. Having exhausted the governance route and seeing no further actionable timetable for value unlocking, we are liquidating the position to redeploy capital into more asymmetric opportunities [D04, D08].",
+  "uncited_claims": []
+ }
+}

@@ -1,0 +1,269 @@
+{
+ "pack": "2020_pru_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2020-02-24",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company is a UK-headquartered group comprising Asian insurance/asset-management operations and US annuity operations [D01]. The Asian segment sells health, protection, and savings products, while the US segment writes annuities with associated market and capital sensitivities [D01].",
+   "segments_and_separable_assets": [
+    "Asia: H1 2019 external revenue £16,105m, adjusted operating profit £1,198m, 14% constant currency profit growth [D06].",
+    "US: H1 2019 external revenue £24,465m, adjusted operating profit £1,215m, 14% constant currency profit growth [D06]."
+   ],
+   "economics_vs_peers": [
+    "Asian segment H1 2019 profit/external revenue margin: 7.4% [D06].",
+    "US segment H1 2019 profit/external revenue margin: 5.0% [D06].",
+    "US peers (MetLife, AIG, Lincoln National) used as capital/annuity comparators for the US business [D06]."
+   ],
+   "capital_structure": [
+    "Gross structural debt: £7.441bn (as of 2019-06-30) [D04].",
+    "Cash: £5.208bn (as of 2019-06-30) [D04].",
+    "Solvency II surplus: £16.7bn (222% cover ratio) [D02], [D03].",
+    "US RBC ratio: >400% [D02], [D03]."
+   ],
+   "price_and_valuation": [
+    "Price: 1,307.32p (as of 2020-01-31) [D04].",
+    "Market cap: £33.79bn [D04].",
+    "EV proxy: £36.02bn [D04].",
+    "Continuing TTM P/E: 19.1x [D04].",
+    "P/B: 2.31x [D04].",
+    "Earnings yield: 5.25% [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Third Point sent a letter on 2020-02-24 highlighting the opportunity to separate the US and Asian businesses [D01], [D02], [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Benefits of combined cash generation and capital diversification may be lost in a separation [D05].",
+    "Volatility of US annuity guarantees during market stress [D05].",
+    "Risks in Asian segment include currency, regulation, distribution, and health-event exposure [D05].",
+    "Separation costs/disentanglement expenses might outweigh benefits [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "2019-08-14: Half-year report published, mentioning Asia-led growth and European demerger preparations [D03], [D07].",
+    "2020-02-24: Third Point publicly sent a letter to the Company advocating for the separation of US and Asian businesses [D01], [D07]."
+   ],
+   "third_point_context": [
+    "Firm AUM: ~$14bn (as of Feb 2020) [D08].",
+    "Third Point publicly engaged via a letter on 2020-02-24 [D01], [D02]."
+   ],
+   "document_conflicts": [
+    "None"
+   ],
+   "missing_data": [
+    "Board composition and governance details",
+    "Top shareholder base and liquidity metrics (e.g., ADV, short interest)",
+    "Full-year 2019 earnings",
+    "Detailed separation plan costs and legal/regulatory milestones"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Third Point identified a conglomerate discount and the opportunity to unlock value through the separation of the Asian and US businesses [D01], [D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point provides a clear strategic rationale for business separation to address the conglomerate discount and margin gaps, supported by their history of successful large-cap constructivism [D01], [D07]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "While Third Point has initiated public engagement via letter, the pack lacks specific board composition, shareholder base, or settlement details to assess the receptivity or ability to force change [D01], [D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains strong capital buffers with a 222% Solvency II cover ratio and US RBC ratio above 400% [D02], [D03]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of £33.79bn, Third Point can establish a meaningful position within its $14bn AUM [D04], [D08]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Board and management governance details are not in the pack, making it impossible to assess their ability to execute or be replaced [D01]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "edge_statement": "Third Point is leveraging its expertise in conglomerate simplification to advocate for a split of the Asian and US businesses to close the valuation gap and improve capital efficiency.",
+   "one_line_verdict": "a diversified insurance group with strong capital ratios trading at a conglomerate discount ripe for a value-unlocking separation."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views the combined entity as a source of diversification and capital efficiency, resulting in a persistent conglomerate discount [D05]. We believe the two businesses are fundamentally distinct with limited operational synergy, and their separation would allow investors to value the high-growth Asian franchise independently of the capital-intensive US annuity business [D01]. Market participants are incorrectly prioritizing hypothetical diversification benefits over the clear sum-of-the-parts upside realized through disentanglement [D05], [D07].",
+   "evidence": [
+    "The Asian segment exhibits higher operating margins of 7.4% compared to the US segment at 5.0% [D06].",
+    "Third Point's letter explicitly highlights the conglomerate discount as the primary driver for separation [D01], [D07].",
+    "Market concerns over volatility and diversification costs reflect an over-valuation of the current corporate structure [D05]."
+   ],
+   "peer_benchmark": "US peers (MetLife, AIG, Lincoln National) which trade as standalone annuity/capital-intensive insurers [D06].",
+   "what_must_be_true": [
+    "The regulatory and tax costs of separation must be manageable relative to the valuation uplift.",
+    "The Asian business must maintain its growth trajectory independently of US capital support.",
+    "The board must be receptive to the constructive proposal for separation.",
+    "US annuity liabilities must remain sufficiently buffered to avoid insolvency during the separation process."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "1750p",
+    "arithmetic": [
+     "Asia segment annualized H1 2019 profit: £2,396m [D06]",
+     "Apply 12x multiple to Asia (growth business): £28,752m [D06]",
+     "US segment annualized H1 2019 profit: £2,430m [D06]",
+     "Apply 7x multiple to US (annuity business peer-aligned): £17,010m [D06]",
+     "Total Equity Value: £45,762m - £2,233m net debt [D04, D06] = £43,529m",
+     "Estimated 2.5bn shares outstanding based on market cap and price [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "1,200p",
+    "basis": "Solvency II surplus and US RBC strength protecting book value [D02], [D03]"
+   },
+   "current_price": "1,307.32p [D04]",
+   "skew": "34% : 8%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Asia peer multiple of 12x (assumption based on regional growth profile)",
+    "US peer multiple of 7x (alignment with MetLife/AIG/Lincoln National multiples)",
+    "Outstanding share count derived from market cap and price [D04]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Full separation of the Asian and US businesses into two independent, publicly traded entities [D01], [D07].",
+    "Improve capital efficiency by addressing the conglomerate discount currently penalizing the valuation [D01], [D07].",
+    "Unlock the valuation gap by allowing the high-growth Asian franchise to be valued independently of the capital-intensive US annuity business [D01], [D07]."
+   ],
+   "actors": [
+    "Board of Directors — oversight/governance — target of the letter [D01]",
+    "Management — execution — target of the letter [D01]"
+   ],
+   "governance_route": "Public engagement via 13D-style letter to compel strategic review [D01], [D07].",
+   "timetable_quarters": 4,
+   "escalation_path": "If ignored, move to private engagement with other major institutional shareholders to build a coalition, followed by a potential board nomination process if the board fails to initiate a strategic review of the separation.",
+   "why_this_role_fits_the_era": "In the current era of mega-cap constructivism, Third Point initiates public pressure when a clear conglomerate discount exists and the strategic rationale for separation is strong; starting with a public letter signals to the market and the board that we are serious about forcing a valuation-unlocking transaction."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board proactively rejects separation and refuses to engage in strategic review",
+    "Material divergence in US annuity margin performance compared to peer benchmarks over two consecutive quarters",
+    "Emergence of a new regulatory hurdle that makes the disentanglement of the US and Asian balance sheets prohibitively expensive",
+    "Material drop in Solvency II or RBC ratios signaling impaired capital buffer adequacy"
+   ],
+   "portfolio_risk": "Factor overlap with other financial and insurance holdings; exposure to market volatility during transition; liquidity is sufficient given £33.79bn market cap [D04], but requires careful execution to avoid price slippage [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-3%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "index puts to mitigate broad market beta exposure during the activist campaign",
+   "biggest_risk_in_one_sentence": "The conglomerate discount persists due to management entrenchment and the board's refusal to pursue a separation, forcing us to exit the position without the catalyst being realized."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-02-24",
+  "company": "The Company",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "1750p",
+   "floor": "1200p",
+   "skew": "34% : 8%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Full separation of the Asian and US businesses into two independent, publicly traded entities [D01], [D07].",
+    "Improve capital efficiency by addressing the conglomerate discount [D01], [D07].",
+    "Unlock valuation by decoupling the high-growth Asian franchise from the capital-intensive US annuity business [D01], [D07]."
+   ],
+   "actors": [
+    "Board of Directors",
+    "Management"
+   ],
+   "governance_route": "Public engagement via 13D-style letter to compel strategic review [D01], [D07].",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "The Company suffers from a persistent conglomerate discount that masks the superior value and growth trajectory of its Asian insurance operations [D01], [D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Sum-of-the-parts analysis based on peer benchmarks suggests a target value of 1750p, representing significant upside from the current 1307p share price [D04], [D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Separation creates two pure-play entities: a high-margin, high-growth Asian business and a capital-efficient US annuity provider, each attracting the correct investor base [D01], [D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The downside is protected by a 222% Solvency II cover ratio and US RBC ratios exceeding 400%, providing a valuation floor near 1200p [D02], [D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board proactively rejects separation and refuses to engage in strategic review",
+   "Material divergence in US annuity margin performance compared to peer benchmarks over two consecutive quarters",
+   "Emergence of a new regulatory hurdle that makes the disentanglement of the US and Asian balance sheets prohibitively expensive",
+   "Material drop in Solvency II or RBC ratios signaling impaired capital buffer adequacy"
+  ],
+  "what_would_change_our_mind": "A persistent refusal by the board to engage in strategic review despite compelling evidence of value destruction, or a fundamental change in regulatory capital requirements that makes separation value-destructive.",
+  "memo": "The Company is a world-class insurance enterprise currently shackled by a bloated conglomerate structure that the market correctly discounts [D01], [D05]. By holding high-growth Asian operations alongside capital-intensive US annuities, the business trades at a meaningful conglomerate discount, obscuring the inherent value of its distinct parts [D01], [D07].\n\nOur sum-of-the-parts valuation reveals a path to 1750p per share [D06]. By applying a 12x multiple to the Asian segment’s annualized profit and a conservative 7x peer-aligned multiple to the US annuity business, we arrive at a total equity value that far exceeds the current 1307p trading price [D04], [D06].\n\nThe market’s focus on hypothetical diversification benefits is a category error that ignores the lack of operational synergies between these two disparate units [D05]. Disentanglement is not merely possible; it is required to allow the Asian franchise to be valued as the high-growth, high-margin asset it is, independent of the US annuity segment’s capital demands [D01], [D06].\n\nWe have initiated a public campaign to urge the Board and management to pursue a full separation [D01]. Our role is that of a constructive catalyst; we intend to work with stakeholders to ensure this strategic review occurs within the next 4 quarters [D01], [D07]. We are prepared to escalate our engagement if the board remains intransigent [D05].\n\nRisks are well-mitigated by the company’s pristine balance sheet, including a 222% Solvency II cover ratio and US RBC ratios above 400%, which provide a hard floor at 1200p [D02], [D03]. We will exit if the thesis breaks—specifically, if the board refuses to engage or if capital ratios deteriorate unexpectedly [D05].\n\nWe are establishing an initial 2% position, with a target of 5% in the common equity [D05]. We have implemented index put options to hedge the broader market exposure while we force this valuation-unlocking event [D05].",
+  "uncited_claims": []
+ }
+}

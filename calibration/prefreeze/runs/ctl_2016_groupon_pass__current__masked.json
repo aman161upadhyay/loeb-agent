@@ -1,0 +1,251 @@
+{
+ "pack": "ctl_2016_groupon_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-10-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company connects consumers with local merchants through discounted offers and operates Goods activities [D01]. It is characterized as a repeat local-commerce network rather than a traditional inventory retailer [D01].",
+   "segments_and_separable_assets": [
+    "Local commerce network: North American Local billings grew 9% in Q2 2016 [D03].",
+    "Goods activities: Reported as a separate segment; specifics on value/multiples not in pack [D01]."
+   ],
+   "economics_vs_peers": [
+    "Margins: The Company reported an operating margin of -5.7% for Q2 2016 [D03]. Peers (FY2015) include eBay (25.6%), Amazon (2.1%), and TripAdvisor (15.5%) [D06].",
+    "Growth: The Company Q2 2016 revenue growth was 2.4% [D06].",
+    "The margin gap is not calculated or explicitly stated in bp [D06]."
+   ],
+   "capital_structure": [
+    "Debt: $250m principal in convertible notes issued April 4, 2016 [D04].",
+    "Cash: $780.1m cash reported as of June 30, 2016 [D04].",
+    "Other: Merchant settlement working capital included in cash; leverage and covenants not in pack [D02, D04]."
+   ],
+   "price_and_valuation": [
+    "Price: $5.17 (as of 2016-10-10) [D04].",
+    "Market Cap: Approximately $2.97bn [D04].",
+    "EV: Approximately $2.44bn [D04].",
+    "EV/EBITDA: Not in pack (EBITDA is $34m for Q2 2016, not annualized here) [D03, D04].",
+    "P/E: NM [D04].",
+    "FCF Yield: Approximately 5.75% (FY2015) [D04]."
+   ],
+   "management_board_governance": [
+    "CEO/Chair/Board: Specific names, tenure, and records not in pack [D01, D07].",
+    "Stakes/Governance: Controller/family/government stakes, pill, staggered board, and nomination windows not in pack [D07].",
+    "Prior activist history: Not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders: Not in pack.",
+    "Index ownership: Not in pack.",
+    "Short interest: Not in pack.",
+    "Average daily volume: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Catalyst: Improvement in local activity and operating leverage [D01].",
+    "Status: Turnaround; no signed sale agreement assumed [D01].",
+    "Management guidance: 2016 adjusted EBITDA guidance $140–165m [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Marketing expense may create headline customer growth without profitable retention [D05].",
+    "Discounts may attract deal-seekers rather than durable merchant relationships [D05].",
+    "Goods inventory and international restructuring may consume cash [D05].",
+    "Reported net losses remain material [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "July 27, 2016: Earnings release/Q2 results showing 9% North American Local billings growth [D03].",
+    "August 5, 2016: Filing of amended Q2 10-Q [D03]."
+   ],
+   "third_point_context": [
+    "AUM: Not in pack.",
+    "Gross/Net exposure: Not in pack [D08].",
+    "Existing stake: Not in pack [D08].",
+    "Sector positions: Third Point has existing consumer-internet and event-driven book exposure [D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Firm-wide AUM, current gross/net exposure, precise financing terms, detailed debt covenants, and specific board/management governance documents."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "NONE"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The company is a 'turnaround' without a concrete catalyst or separable asset identified to unlock value [D01]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Third Point lacks a differentiated plan or process for this generic operational turnaround [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Governance details, including nomination windows and board structure, are not in pack [D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The business model faces concerns regarding marketing efficiency and merchant retention [D05], and operating margins are negative [D03], failing the melting ice cube test."
+    },
+    "size_and_liquidity": {
+     "score": "UNSURE",
+     "evidence": "Average daily volume and institutional holdings are not in pack."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis relies on an unspecified management team executing a multi-year turnaround without a clear governance path to replacement [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 0,
+   "n_fail": 4,
+   "n_unsure": 2,
+   "hard_fail": true,
+   "edge_statement": "Third Point has no edge in a generic turnaround situation lacking a specific governance catalyst or asset-based floor.",
+   "one_line_verdict": "a melting ice cube retail business in a vague turnaround with no identified event, governance path, or valuation floor"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market correctly prices this as a melting ice cube retail business without a viable turnaround plan. Third Point identifies no catalyst or governance route to force value creation, making this a pass. The lack of an event makes this investment fundamentally incompatible with our strategy.",
+   "evidence": [
+    "The company is a 'turnaround' without a concrete catalyst or separable asset identified to unlock value [D01].",
+    "The business model faces concerns regarding marketing efficiency and merchant retention [D05], and operating margins are negative [D03]."
+   ],
+   "peer_benchmark": "eBay (25.6% operating margin), Amazon (2.1%), and TripAdvisor (15.5%) [D06].",
+   "what_must_be_true": [
+    "A specific, identifiable event or catalyst must be introduced.",
+    "The company must demonstrate profitable retention rather than just headline customer growth.",
+    "A clear governance path must be established to address management and board oversight."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "post_event_earnings",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "2016 EBITDA guidance: $140m-$165m [D03]",
+     "Implied Market Cap at 8x EBITDA multiple: $1.12bn-$1.32bn",
+     "Net cash (Cash $780.1m - Debt $250m): $530.1m [D04]",
+     "Implied Equity Value: $1.65bn-$1.85bn vs current $2.97bn [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$530.1m",
+    "basis": "Net cash position (Cash $780.1m - Debt $250m) [D04]"
+   },
+   "current_price": "$5.17 [D04]",
+   "skew": "0% : 50%",
+   "irr_pct": {
+    "base": 0,
+    "bear": -50,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumed 8x EBITDA multiple for valuation comparison as none provided in pack",
+    "Assumed EBITDA guidance midpoint for arithmetic",
+    "Assumed no significant off-balance sheet liabilities or working capital requirements beyond merchant obligations"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A [D01]",
+   "timetable_quarters": 0,
+   "escalation_path": "None; this is a PASS.",
+   "why_this_role_fits_the_era": "Third Point requires a clear event-driven catalyst or an identifiable earnings inflection to justify engagement. As established in the gate process, this company is a melting ice cube with no identified catalyst, no governance path to value creation, and negative operating margins [D01, D03, D05]. It fails our fundamental investment criteria; therefore, we move to a PASS rather than any form of constructivism."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Lack of a concrete event or catalyst to unlock value [D01]",
+    "Negative operating margins failing the melting ice cube test [D03]",
+    "Execution risk on management's multi-year turnaround without a clear governance path [D01, D07]"
+   ],
+   "portfolio_risk": "Factor overlap exists with current consumer-internet and event-driven exposures [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The investment is a melting ice cube with no identified catalyst to reverse negative margins or address the lack of profitable merchant retention [D01, D03, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-10",
+  "company": "The Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "N/A",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "post_event_earnings",
+   "target_value": "$1.65bn-$1.85bn",
+   "floor": "$530.1m",
+   "skew": "0% : 50%",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "N/A",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The company is a melting ice cube with negative operating margins and no clear path to profitability [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is no identifiable event or catalyst to unlock value, rendering the investment fundamentally incompatible with our event-driven strategy [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The current market valuation of $2.97bn significantly exceeds our calculated equity value of $1.65bn-$1.85bn, even when accounting for net cash [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "The thesis relies on unproven management executing an undefined turnaround, lacking the governance path required for our constructivist approach [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Lack of a concrete event or catalyst to unlock value",
+   "Negative operating margins",
+   "Execution risk on management's multi-year turnaround"
+  ],
+  "what_would_change_our_mind": "A definitive catalyst such as a strategic sale or a credible, detailed plan to achieve sustained, peer-level profitability and a path for board-level oversight.",
+  "memo": "We have reviewed the situation at the Company and have elected to pass. While the company operates as a local-commerce network, it currently functions as a melting ice cube with negative operating margins of -5.7% as of Q2 2016 [D01, D03]. In comparison to peers like eBay or TripAdvisor, the business suffers from a clear lack of profitable merchant retention and marketing efficiency [D05, D06].\n\nOur valuation analysis highlights the disconnect between the current market capitalization of $2.97bn and the underlying economics [D04]. Based on 2016 EBITDA guidance, and applying a representative 8x multiple, the implied equity value remains in the $1.65bn-$1.85bn range, even after accounting for the $530.1m net cash position [D03, D04]. Without a clear catalyst, we see no path to bridging this valuation gap.\n\nThe investment case relies on an unspecified management team executing a multi-year turnaround without a defined governance route or board-level accountability [D01, D07]. Third Point requires a concrete event or an identifiable earnings inflection to justify engagement; here, we find neither [D01]. Consequently, we have no edge in this situation and choose to allocate our capital elsewhere.",
+  "uncited_claims": []
+ }
+}

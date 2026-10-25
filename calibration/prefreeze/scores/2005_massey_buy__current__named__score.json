@@ -1,0 +1,54 @@
+{
+ "trade_id": "2005_massey_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Shareholder alignment and a board challenge can force capital-allocation accountability. → Our plan is to initiate a campaign for board refreshment to install independent oversight capable of enforcing operational discipline [D03]."
+  ],
+  "missed": [
+   "Valuable coal assets trade at a management discount caused by repeated operating disappointments.",
+   "Higher realizations and normalized production support $800–900m prospective EBITDA versus roughly $750m consensus.",
+   "With $300–350m capital spending, excess prospective cash should fund repurchases or a Dutch tender."
+  ],
+  "extra_agent_drivers": [
+   "Massey's operational performance is masked by a reliance on non-recurring reserve-exchange gains rather than core mining productivity [D03].",
+   "Underground coal production is in decline, signaling systemic failures in mine-level management and execution [D03].",
+   "The company possesses significant coal reserves which provide an inherent floor to the valuation despite current volatility [D01]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Massey's operational performance is masked by a reliance on non-recurring reserve-exchange gains rather than core mining productivity",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Underground coal production is in decline",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company possesses significant coal reserves which provide an inherent floor to the valuation",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our plan is to initiate a campaign for board refreshment to install independent oversight capable of enforcing operational discipline [D03].",
+ "grader_notes": "The agent correctly matches the decision to BUY and the activist intent to seek board refreshment. However, the reasoning is largely divergent; the agent focuses on operational productivity and reserve gains, whereas Loeb's primary drivers were focused on the management discount, prospective EBITDA upside, and capital allocation (repurchases/tender).",
+ "run": "2005_massey_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,261 @@
+{
+ "pack": "2018_cpb_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2018-08-09",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Campbell Soup Company is a food business with a portfolio spanning mature US soup and simple-meals franchises, snacks, and a troubled fresh-food expansion [D01]. The company faces challenges including weaker category demand, changing consumer eating habits, and integration demands following the Snyder's-Lance snack portfolio acquisition [D01].",
+   "segments_and_separable_assets": [
+    "Soup and simple-meals: Mature franchise [D01].",
+    "Snacks: Increased exposure via Snyder's-Lance acquisition [D01].",
+    "Campbell Fresh: Troubled expansion currently facing significant impairment [D01, D03]."
+   ],
+   "economics_vs_peers": [
+    "Peers offer distribution scale and cash generation but vary in growth, debt, and center-store exposure [D06].",
+    "Campbell's performance requires reconciliation of organic sales (flat in Q3 2018) vs reported growth (15%) [D02, D06].",
+    "The margin gap relative to peers is not quantified in the pack [D06]."
+   ],
+   "capital_structure": [
+    "Gross debt: $3.373 billion as of FY2017 [D02].",
+    "Notes: The five-year debt series provided precedes the 2018 Snyder's-Lance financing [D02].",
+    "Covenants: Not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $42.28 (August 9, 2018) [D04].",
+    "Market cap/EV/PE/FCF yield: Not in pack.",
+    "Valuation context: An impairment was taken on the fresh business, and poor acquisition returns complicate earnings normalization [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Denise Morrison departed [D01].",
+    "Governance: Significant Dorrance-family ownership limits the feasibility of minority activism [D01].",
+    "Strategic review: Ongoing board review with findings expected in late August 2018 [D03, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Top holders: Not in pack.",
+    "Family stakes: Dorrance family ownership is a key governance factor [D01].",
+    "Activist support: A dated agreement exists between an investment manager and family shareholder George Strawbridge [D07]."
+   ],
+   "event_or_catalyst_evidence": [
+    "Strategic review: Board-led review evaluating portfolio composition and strategy [D03, D07].",
+    "Management change: Departure of CEO Denise Morrison [D01].",
+    "Potential for restructuring: Market anticipates potential for spin-off or sale, though the family-controlled structure poses hurdles [D05]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Secular volume pressure on core soup and retailer bargaining power [D05].",
+    "Failed capital allocation in the fresh business and debt constraints from snack acquisitions [D05].",
+    "Governance risk: Family shareholders may block change [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "2018-05-18: Quarterly results announced, including fresh-food impairment and launch of strategic review [D07].",
+    "2018-08-09: Date of cutoff; management expected to report review findings in late August 2018 [D07]."
+   ],
+   "third_point_context": [
+    "Not in pack for Campbell specifically."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Contemporaneous peer multiples, exact fully diluted share count, detailed debt maturity schedule, and current (post-Snyder's-Lance) leverage ratios."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has initiated a board-led strategic review to evaluate portfolio composition, including potential separation of assets, following a CEO departure and performance struggles [D01, D03, D07]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The pack notes significant Dorrance-family ownership which limits the feasibility of minority activism [D01], and there is no evidence of a specific Third Point plan or differentiated process to overcome this governance hurdle."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Significant family ownership acts as a barrier to forcing change, and the board-led strategic review is already underway without evidence that Third Point can influence the outcome [D01, D03, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business possesses separable assets, specifically the core soup/simple-meals franchise and the snacks portfolio, which support value independent of the troubled fresh-food unit [D01]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "As a large-cap company, there is sufficient liquidity to build a meaningful position, though market cap data is not in the pack [D01, D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "The CEO has departed and the board is currently in a strategic review; whether new leadership can execute is unknown [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "While a strategic review and asset separation offer a potential path to value, the significant family-controlled ownership and lack of a specific activist plan by Third Point fail to provide a compelling edge.",
+   "one_line_verdict": "a classic turnaround/divestiture situation where the path to value is blocked by controlling family ownership"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M4"
+   ],
+   "variant_view": "The market believes Campbell is a structurally declining business hampered by family governance and failed M&A, depressing its valuation [D01, D05]. We believe the portfolio contains highly separable, high-quality assets in soup and snacks that are currently obscured by a troubled fresh-food unit and poor capital allocation [D01, D03]. A successful strategic review could unlock significant value through divestiture or separation, provided the board moves beyond passive review to decisive action [D03, D07].",
+   "evidence": [
+    "Campbell has launched a board-led strategic review to evaluate its portfolio, including potential asset separation [D03, D07].",
+    "Significant Dorrance-family ownership creates a governance hurdle that potentially limits the company's ability to maximize shareholder value [D01].",
+    "The market is heavily discounting the stock due to fresh-food impairments and the debt load from the Snyder's-Lance acquisition [D01, D05]."
+   ],
+   "peer_benchmark": "Food industry peers with similar distribution scale and cash flow profiles, though specific multiple data is not in pack [D06].",
+   "what_must_be_true": [
+    "The board-led strategic review results in the divestiture of the underperforming Campbell Fresh unit.",
+    "The Dorrance family proves willing to support structural changes rather than maintaining the status quo.",
+    "The core soup and snack franchises demonstrate sufficient stability to support a higher valuation multiple.",
+    "Management successfully stabilizes the balance sheet following the Snyder's-Lance acquisition."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "not in pack",
+    "arithmetic": [
+     "Market cap, peer multiples, and segment-specific earnings are not in pack [D06].",
+     "Current share price is $42.28 [D04]."
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "not in pack",
+    "basis": "Financial data to calculate enterprise value, segment FCF, or normalized earnings is not in pack [D06]."
+   },
+   "current_price": "$42.28 [D04]",
+   "skew": "not in pack : not in pack",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "THIN",
+   "flagged_assumptions": [
+    "Lack of peer multiples",
+    "Lack of normalized FCF or EBITDA",
+    "Lack of post-Snyder's-Lance net debt"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "Divestiture of the underperforming Campbell Fresh unit [D01, D03]",
+    "Stabilization of the balance sheet post-Snyder's-Lance acquisition [D01]"
+   ],
+   "actors": [
+    "Dorrance Family — Controlling Shareholders — Unknown stance [D01]",
+    "Board of Directors — Strategic Review Committee — Evaluating potential separation [D03, D07]"
+   ],
+   "governance_route": "Strategic review process currently initiated by the board [D03, D07]",
+   "timetable_quarters": 1,
+   "escalation_path": "Monitor outcomes of the strategic review in late August 2018; if the board remains passive or fails to act on asset separation, re-evaluate potential for P2 given the significant family governance hurdle [D01, D07].",
+   "why_this_role_fits_the_era": "The situation is currently in a board-led strategic review process, making P0 appropriate until the outcome is announced. The presence of significant family control creates high execution risk, necessitating a wait-and-see approach regarding their willingness to support structural change."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Board announces retention of Campbell Fresh unit",
+    "Dorrance family publicly reaffirms support for existing leadership or status quo",
+    "Balance sheet leverage remains elevated following strategic review, precluding potential for capital return or separation",
+    "Significant earnings miss in the upcoming quarterly results"
+   ],
+   "portfolio_risk": "Factor overlap with food and consumer staples sector exposure; significant governance risk due to family ownership [D01]. Limited downside from valuation floor [D01], but liquidity is sufficient for exit [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "not in pack",
+   "horizon_quarters": 1,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The significant Dorrance-family control creates a governance bottleneck that could render the board-led strategic review ineffective at unlocking value."
+  }
+ },
+ "final": {
+  "as_of_date": "2018-08-09",
+  "company": "Campbell Soup Company",
+  "ticker": "CPB",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "not in pack",
+   "floor": "not in pack",
+   "skew": "not in pack : not in pack",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "Divestiture of the underperforming Campbell Fresh unit",
+    "Stabilization of the balance sheet post-Snyder's-Lance acquisition"
+   ],
+   "actors": [
+    "Dorrance Family",
+    "Board of Directors"
+   ],
+   "governance_route": "Strategic review process currently initiated by the board",
+   "timetable_quarters": 1
+  },
+  "drivers": [
+   {
+    "driver": "The company is a classic turnaround situation with highly separable soup and snacks assets obscured by a troubled, loss-making fresh food business [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The current market price of $42.28 reflects extreme pessimism regarding secular volume declines in soup and the debt burden from the Snyder's-Lance acquisition [D01, D04, D05].",
+    "citations": [
+     "D01",
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Significant Dorrance-family ownership creates a profound governance hurdle that limits the feasibility of minority activism and potentially protects the status quo [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The board-led strategic review is already in progress, leaving us with no clear edge or unique role to accelerate the desired divestiture of the fresh unit [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Board announces retention of Campbell Fresh unit",
+   "Dorrance family publicly reaffirms support for existing leadership or status quo",
+   "Balance sheet leverage remains elevated following strategic review, precluding potential for capital return or separation",
+   "Significant earnings miss in the upcoming quarterly results"
+  ],
+  "what_would_change_our_mind": "Evidence that the controlling Dorrance family is actively supporting a full divestiture of the Campbell Fresh business and a path to significant board refreshment.",
+  "memo": "Campbell Soup Company presents a classic case of a legacy business needing a total strategic overhaul. The company is currently held back by a troubled fresh-food expansion that has led to impairments, while its core soup and snacks franchises remain high-quality businesses with strong scale [D01, D03]. The market has understandably punished the stock, trading at $42.28, reflecting significant skepticism toward the company's capital allocation and heavy debt load from the Snyder's-Lance acquisition [D01, D04, D05].\n\nOur assessment of the sum-of-the-parts suggests that if the board successfully separates the fresh-food unit, there is a path to unlocking shareholder value [D01, D03]. However, the primary obstacle is not the business model itself, but the governance structure. The Dorrance family’s significant ownership stake acts as an effective firewall against outside influence, making any attempt at forced change through traditional activism highly precarious [D01, D07].\n\nCurrently, the company is in the midst of a board-led strategic review due to conclude in late August 2018 [D03, D07]. Without an explicit, actionable plan that bridges the gap between the family’s controlling interests and the necessary structural changes, we lack the edge required to engage [D01, D03]. We will monitor the results of this internal process from the sidelines. We are passing on the opportunity today given the governance bottleneck and our lack of a clear, value-additive role in the current board-led process.",
+  "uncited_claims": []
+ }
+}

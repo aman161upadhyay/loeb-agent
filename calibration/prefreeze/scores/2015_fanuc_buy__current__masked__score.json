@@ -1,0 +1,54 @@
+{
+ "trade_id": "2015_fanuc_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 5,
+  "matched": [
+   "Idle cash, no debt and treasury stock create an inefficient capital structure. → The company holds ¥928.7bn in excess cash and securities, accounting for 23% of its market cap, which remains trapped due to the lack of a capital return policy.",
+   "A buyback program and better investor communication can surface earnings power and drive rerating. → Management's historical resistance to capital returns represents a classic governance opportunity to unlock shareholder value via board-led buybacks and treasury cancellations."
+  ],
+  "missed": [
+   "Dominant controls and service create high switching costs and a strong industrial franchise.",
+   "Chinese automation, global robotics and machining demand support secular growth within cyclical end markets.",
+   "Automation and vertical integration generate exceptional operating economics."
+  ],
+  "extra_agent_drivers": [
+   "Operating margins of 36.4% vastly outperform peers like Yaskawa, yet this superior profitability is overshadowed by balance sheet inefficiency.",
+   "A valuation floor is firmly established by the ¥4,747 per share cash position, providing a clear path to our target value through constructivist engagement."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company holds ¥928.7bn in excess cash and securities",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins of 36.4% vastly outperform peers",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management's historical resistance to capital returns",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 6,
+  "share": 0.46
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The Company is a world-class leader in factory automation, robotics, and robomachining, yet its market valuation is severely hindered by a hoarding of capital that serves no productive purpose.",
+ "grader_notes": "The agent correctly identified the core thesis concerning the inefficient capital structure and the potential for buybacks/governance reform to unlock value. However, the agent failed to capture Loeb's broader industrial franchise drivers, such as the company's dominant control systems and switching costs, which were key to his long-term investment justification.",
+ "run": "2015_fanuc_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

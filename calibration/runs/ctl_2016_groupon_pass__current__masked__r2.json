@@ -1,0 +1,249 @@
+{
+ "pack": "ctl_2016_groupon_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2016-10-10",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company connects consumers with local merchants through discounted offers and operates Goods activities [D01]. It is attempting a turnaround focused on improving local-commerce activity and operating leverage, characterized as a repeat local-commerce network rather than a traditional inventory retailer [D01].",
+   "segments_and_separable_assets": [
+    "Local-commerce network: Identified as the core turnaround focus with $1.49bn in Q2 2016 gross billings; North American Local billings grew 9% [D03].",
+    "Goods activities: Operates alongside Local offerings; performance metrics are not broken out independently from the aggregate [D01, D05].",
+    "Available cash: $780.1m cash as of June 30, 2016, though this contains merchant settlement working capital [D04]."
+   ],
+   "economics_vs_peers": [
+    "Revenue growth: 2.4% (Q2 2016) vs eBay -2.3% (FY2015), Amazon 20.2% (FY2015), TripAdvisor 19.7% (FY2015) [D06].",
+    "Operating margin: -5.7% (Q2 2016) vs eBay 25.6% (FY2015), Amazon 2.1% (FY2015), TripAdvisor 15.5% (FY2015) [D06].",
+    "Margin gap: Not in pack; accounting perimeters differ between gross physical-goods sales and net service commissions [D06]."
+   ],
+   "capital_structure": [
+    "Convertible notes: $250m principal issued April 4, 2016 [D04].",
+    "Cash: $780.1m as of June 30, 2016 [D04].",
+    "Leverage: Net cash approximately $530.1m (Equity plus notes less cash) [D04].",
+    "Other: Merchant settlement working capital and customer advances are present [D02, D04]."
+   ],
+   "price_and_valuation": [
+    "Share price: $5.17 (Oct 10, 2016) [D04].",
+    "Market cap: Approximately $2.97bn [D04].",
+    "Enterprise value: Approximately $2.44bn [D04].",
+    "P/E: NM [D04].",
+    "FCF yield: Approximately 5.75% based on FY2015 CFO less capex [D04].",
+    "P/B: 8.06x [D04]."
+   ],
+   "management_board_governance": [
+    "Not in pack: Specific CEO/Chair tenure, board composition, and governance defense details (e.g., pill, staggered board) are not in pack [D01, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 574.590m [D04].",
+    "Top holders: Not in pack.",
+    "Short interest / Volume: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Catalyst: Turnaround of local commerce activity and improvement in operating leverage [D01].",
+    "Operational milestones: North American Local billings growth and customer retention [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Marketing efficiency: Concerns that increased marketing expense buys transient traffic with poor retention [D05].",
+    "Economic durability: Potential for discounts to attract only deal-seekers rather than building merchant relationships [D05].",
+    "Cash burn: Goods inventory and international restructuring consuming cash [D05].",
+    "Earnings quality: Reported net losses remain material [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "July 27, 2016: Earnings release showing $756m revenue and $34m adjusted EBITDA [D03].",
+    "August 5, 2016: Amended Q2 10-Q filed [D03].",
+    "April 4, 2016: Convertible notes issued [D04]."
+   ],
+   "third_point_context": [
+    "AUM: Not in pack (Total 13F securities $10.492bn) [D08].",
+    "Existing stake: Not in pack.",
+    "Sector exposure: Consumer-internet turnaround adds to diversified event book [D08]."
+   ],
+   "document_conflicts": [
+    "None identified."
+   ],
+   "missing_data": [
+    "Full liquidity/cash-flow reconciliation, specific governance documentation (pill/staggered board), current short interest, and specific Third Point position size/basis."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "NONE"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "FAIL",
+     "evidence": "The company is undergoing a multi-year operational turnaround as the only lever without a separable asset or defined capital-return path [D01]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Third Point lacks a differentiated process for a business relying solely on a nebulous internal turnaround [D01]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Specific governance documentation and board composition details are not in pack, providing no clear route to force change [D01, D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Business model concerns regarding transient traffic and poor retention in daily-deals indicate potential secular decline in the core value proposition [D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of $2.97bn, the equity is sufficiently liquid for a position that matters [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "The thesis depends entirely on management executing a long-term turnaround without a clear governance path to replace them [D01, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 1,
+   "n_fail": 5,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The opportunity is a generic operational turnaround lacking a clear catalyst, separable assets, or a governance path, which fails our requirement for event-driven discipline.",
+   "one_line_verdict": "a turnaround play with no separable assets and no clear governance route, failing the discipline test for a multi-year operational recovery"
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market views this as a distressed consumer-internet turnaround with questionable marketing efficiency and poor customer retention. Third Point finds no credible catalyst or separable asset to bridge the margin gap, making the business a speculative operational gamble rather than an event-driven opportunity. Without a clear path for governance intervention or structural simplification, the thesis lacks an actionable edge [D01].",
+   "evidence": [
+    "Company is currently undergoing an unquantifiable multi-year operational turnaround [D01].",
+    "Operating margin of -5.7% (Q2 2016) significantly trails peer benchmarks like eBay at 25.6% [D06].",
+    "Concerns persist that increased marketing spend only attracts transient traffic with poor retention [D05].",
+    "Specific governance documentation to force change is not in pack [D01, D07]."
+   ],
+   "peer_benchmark": "eBay 25.6% operating margin (FY2015) [D06]",
+   "what_must_be_true": [
+    "Management demonstrates verifiable improvement in customer retention metrics",
+    "Operating margins show a clear trajectory toward peer-level profitability",
+    "The business model proves it can generate sustainable organic growth without excessive marketing spend",
+    "A clear governance path or activist catalyst emerges to hold leadership accountable"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "inflection",
+   "target_value": {
+    "per_share_or_price": "N/A",
+    "arithmetic": [
+     "Market cap $2.97bn [D04]",
+     "Operating margin -5.7% vs peers >15% [D06]"
+    ],
+    "horizon_years": 0
+   },
+   "floor": {
+    "value": "$530.1m net cash",
+    "basis": "Cash of $780.1m less $250m convertible notes [D04]"
+   },
+   "current_price": "$5.17 [D04]",
+   "skew": "N/A : N/A",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "No credible catalyst identified to justify valuation upside; operating turnaround unproven [D01]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [],
+   "governance_route": "Not applicable as the recommendation is to PASS [D01].",
+   "timetable_quarters": 0,
+   "escalation_path": "Not applicable as the recommendation is to PASS [D01].",
+   "why_this_role_fits_the_era": "Third Point requires a clear event, catalyst, or governance path to unlock value. As this situation is a nebulous operational turnaround with no identified separable assets or leverage over management, it fails the fundamental event-driven criteria of the firm, necessitating a PASS rather than an activist intervention [D01, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management fails to demonstrate improvement in customer retention metrics [D02]",
+    "Operating margins continue to trail peer benchmarks without trajectory toward profitability [D06]",
+    "Marketing spend fails to convert transient traffic into sustainable, recurring local-commerce growth [D05]",
+    "Cash burn from Goods inventory or international restructuring exceeds projections [D05]"
+   ],
+   "portfolio_risk": "This position adds unnecessary complexity and correlation risk to the consumer-internet segment of the book without the benefit of a clear catalyst or governance hedge [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The thesis relies on an unproven operational turnaround of a secularly challenged business model with no clear governance path or separable assets to protect the downside [D01, D05]."
+  }
+ },
+ "final": {
+  "as_of_date": "2016-10-10",
+  "company": "the Company (XXX)",
+  "ticker": "N/A",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "inflection",
+   "target_value": "N/A",
+   "floor": "$530.1m net cash",
+   "skew": "N/A : N/A",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [],
+   "governance_route": "Not applicable as the recommendation is to PASS [D01].",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The opportunity is a nebulous operational turnaround lacking any identifiable catalyst or separable assets to anchor our valuation [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Operating margins of -5.7% demonstrate a significant gap against peer benchmarks such as eBay at 25.6% [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "The business model struggles with marketing efficiency, where high spend fails to convert transient traffic into sustainable retention [D05].",
+    "citations": [
+     "D05"
+    ]
+   },
+   {
+    "driver": "There is no clear governance route or activist path to force structural changes or capital allocation discipline [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management fails to demonstrate improvement in customer retention metrics [D02]",
+   "Operating margins continue to trail peer benchmarks without trajectory toward profitability [D06]",
+   "Marketing spend fails to convert transient traffic into sustainable, recurring local-commerce growth [D05]",
+   "Cash burn from Goods inventory or international restructuring exceeds projections [D05]"
+  ],
+  "what_would_change_our_mind": "Evidence of sustainable margin expansion, verifiable improvements in customer retention, and an actionable governance path to hold leadership accountable.",
+  "memo": "The Company is currently attempting an internal operational turnaround focused on its local-commerce network, yet we see no mispricing or event-driven catalyst to support an investment [D01]. The business represents a secularly challenged consumer-internet model where the path to profitability remains entirely unproven [D01, D05].\n\nFinancially, the company remains distressed with an operating margin of -5.7% (Q2 2016), lagging significantly behind peers like eBay, which maintains a 25.6% operating margin [D06]. While the company holds $780.1m in cash, this balance is offset by $250m in convertible debt and heavy working capital requirements [D04].\n\nMarket concerns regarding the durability of the model are well-founded, as increased marketing expenditures appear to drive transient traffic rather than loyal, recurring engagement [D05]. Without separable assets or a defined path to structural simplification, we are left betting on a multi-year management execution plan that lacks a governance anchor [D01, D07].\n\nWe have no role in this process and no leverage to force change. The lack of a clear catalyst and the reliance on an unproven turnaround makes the risk/reward profile unattractive. We have decided to PASS and will allocate our capital to opportunities with a more identifiable margin of safety and a defined path to value realization [D01, D08].",
+  "uncited_claims": []
+ }
+}

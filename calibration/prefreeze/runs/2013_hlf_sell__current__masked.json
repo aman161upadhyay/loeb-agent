@@ -1,0 +1,46 @@
+{
+ "pack": "2013_hlf_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2013-03-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2013-03-01",
+  "company": "the Company",
+  "ticker": "HLF",
+  "decision": "TRIM",
+  "reason_class": "L1",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Profitable business at a controversy-driven discount: intact [D01]",
+   "Technical squeeze driven by short attack: catalyst partially realized as stock repriced [D01, D04]"
+  ],
+  "remaining_skew": "Uncertain; upside constrained by persistent regulatory/business-model risk versus limited technical catalyst [D04, D05]",
+  "next_catalyst_and_timing": "No specified legal deadline or resolution; future investor statements or regulatory developments [D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The technical short-squeeze catalyst has largely run its course following the initial repricing.",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Reported growth does not mitigate long-term regulatory uncertainty or structural business-model risks.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Maintaining the position exposes the firm to volatility that is no longer compensated by the initial entry discount.",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "We entered this position to capitalize on a controversy-driven discount and the technical dynamics of a crowded short-side squeeze [D01, D08]. While operating results remain robust with 20% sales growth and 18% volume growth in Q4, these figures do not invalidate the underlying legal and regulatory scrutiny facing the direct-selling model [D01, D05]. \n\nWe are not in the business of winning public arguments or proving the critics wrong in perpetuity. Our edge was the technical mispricing, and that edge is spent once the stock has repriced following the initial short attack [D01]. We have already navigated the immediate management rebuttal and the latest earnings release [D03].\n\nContinuing to hold risks exposure to binary regulatory outcomes that are not captured in the current trading multiple [D04, D05]. We prefer to lock in gains now, as the risk/reward skew has diminished since our entry in the low $30s [D04]. Remaining invested in a stock crowded on both sides carries unnecessary volatility as we look to deploy capital into higher-conviction opportunities [D01, D04].",
+  "uncited_claims": []
+ }
+}

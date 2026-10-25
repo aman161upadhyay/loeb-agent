@@ -1,0 +1,262 @@
+{
+ "pack": "2015_seven_i_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2015-10-26",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Seven & i Holdings Co., Ltd. operates a conglomerate of convenience stores, superstores, and financial services, with highly profitable convenience-store operations serving as the primary growth engine [D01]. The group leverages store-network density and prepared-food innovation, though it faces distinct demand and cost pressures across its various retail formats [D01].",
+   "segments_and_separable_assets": [
+    "Convenience-store operations (H1 FY2016 operating income: ¥152.328bn) [D03]",
+    "Superstore operations (H1 FY2016 operating income: ¥1.158bn) [D03]",
+    "Financial services (income driver but no specific standalone segment valuation provided) [D01]"
+   ],
+   "economics_vs_peers": [
+    "Convenience-store peers are used for franchise/capital-return comparisons; superstore/general-merchandise peers are the benchmark for weaker activities [D01].",
+    "Operating margins: Seven & i (5.7%), AEON (2.0%), Fast Retailing (9.8%), Don Quijote (5.7%) based on FY2015 figures [D06]."
+   ],
+   "capital_structure": [
+    "Total borrowing at February 2015: ¥996.355bn (short-term ¥130.780bn; current long-term ¥146.509bn; noncurrent long-term ¥719.066bn) [D02].",
+    "Cash: ¥1,000.762bn (includes banking deposits and restricted cash) [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: ¥5,375 [D04].",
+    "Market cap: ¥4,752.3bn [D04].",
+    "EV: Approximately ¥4,747.9bn (based on stale annual balance sheet) [D04].",
+    "Trailing P/E: 27.4x [D04].",
+    "FCF yield: OCF less capital investment / market cap is 1.59% [D04]."
+   ],
+   "management_board_governance": [
+    "Current corporate structure is intact; board oversight, capital-return policy, and operational plans can change through dialogue or annual-governance channels [D03].",
+    "Management's growth record cited as a counter-argument to governance-led intervention [D04]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential for portfolio simplification (sum-of-parts separating convenience from weaker formats), though implementation requires addressing stranded costs, tax, and labor [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Demographic and competitive challenges for convenience franchises [D04].",
+    "Stranded costs and tax leakage associated with separating weaker retail assets [D01].",
+    "Aggressive leverage and potential board preference for continuity over capital-return plans [D04]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack"
+   ],
+   "recent_events": [
+    "2015-10-08: Issuer released H1 results and updated full-year guidance (operating income target adjusted to ¥367bn) [D03]."
+   ],
+   "third_point_context": [
+    "Desk is considering a new Japanese equity allocation; no target stake or existing position confirmed [D07]."
+   ],
+   "document_conflicts": [
+    "FY2016 operating income guidance: Annual report targeted ¥373bn [D02], whereas the October 8 supplemental release revised the expectation to ¥367bn [D03]."
+   ],
+   "missing_data": [
+    "Precise October 26 balance-sheet bridge, net leverage, parent-only distributable cash, and complete current component appraisal [D01]."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Potential for portfolio simplification exists by separating highly profitable convenience-store operations from weaker superstore assets [D03]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply its constructivist framework to address the conglomerate discount and inefficient capital allocation in a Japanese market receptive to specific, polite governance engagement [D03]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Corporate structure allows for board oversight and capital-return policy changes through dialogue or annual-governance channels, consistent with Japanese engagement precedents [D03]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The strong cash-generative convenience-store business and substantial cash holdings provide an asset-based floor despite the conglomerate's structural challenges [D01], [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Large market capitalization of ¥4,752.3bn provides ample liquidity to build a meaningful position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management can be pressured to shift capital allocation and strategy, even if their growth record is currently used to defend the status quo [D03], [D04]."
+    }
+   },
+   "conflicts_resolved": [
+    "FY2016 operating income guidance: used ¥367bn from the October 8 release [D03] as the most recent, updated management target."
+   ],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point can unlock value by pushing for portfolio simplification at Seven & i, specifically separating the high-growth convenience-store business from the stagnant superstore segment.",
+   "one_line_verdict": "a Japanese retail conglomerate with a world-class convenience store asset obscured by a conglomerate discount and weak superstore performance."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views Seven & i as a monolithic retail conglomerate, failing to assign appropriate value to its world-class, high-growth convenience store business due to the dragging performance of its superstore operations [D01], [D03]. We believe that separating these assets will unlock significant shareholder value, as the convenience segment deserves a premium multiple that is currently obscured by the conglomerate discount [D01], [D03]. Improved capital allocation and governance will force the market to recognize the earnings power of the core convenience franchise [D03].",
+   "evidence": [
+    "Convenience-store operations generated ¥152.328bn in H1 FY2016 operating income, dwarfing the ¥1.158bn generated by superstore operations [D03].",
+    "Current operating margins of 5.7% are significantly lower than high-performing retail peers like Fast Retailing at 9.8% [D06].",
+    "The convenience store business acts as a growth engine despite the structural drag of weaker retail formats [D01]."
+   ],
+   "peer_benchmark": "Fast Retailing (9.8% operating margin) [D06].",
+   "what_must_be_true": [
+    "Management remains open to dialogue regarding portfolio simplification",
+    "The convenience store segment maintains its growth trajectory in prepared-food innovation",
+    "Potential tax and stranded cost issues regarding a divestiture of superstores can be effectively mitigated",
+    "The board shifts focus from legacy status quo to capital-return and strategic alignment"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "¥7,500",
+    "arithmetic": [
+     "Convenience Op Income (Annualized): ¥304.656bn [D03]",
+     "Apply 20x convenience multiple: ¥6,093bn [D01]",
+     "Add Cash: ¥1,000bn [D04]",
+     "Less Debt: ¥996bn [D02]",
+     "Stub Value (Superstore/Finance): ¥1,400bn [D01]",
+     "Total Equity Value: ¥6,497bn",
+     "Per share value assuming 865m shares: ~¥7,500"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "¥4,750",
+    "basis": "Current market cap reflecting core convenience earnings power and cash position [D04]"
+   },
+   "current_price": "¥5,375 [D04]",
+   "skew": "40% : 12%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "20x multiple for convenience segment based on high-growth retail peer benchmarks",
+    "Assumed 865 million shares outstanding",
+    "Stub value assigned to superstore and financial services operations",
+    "Net cash position neutral to valuation"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Strategic portfolio review to address conglomerate discount by separating convenience store operations from stagnant superstore assets [D03]",
+    "Improvement of operating margins toward peer benchmarks such as Fast Retailing's 9.8% [D06]",
+    "Optimization of capital allocation to address the current 1.59% FCF yield [D04]"
+   ],
+   "actors": [
+    "Seven & i Management — Board and executive team — status quo-defending [D03], [D04]"
+   ],
+   "governance_route": "Engagement with the board and management to advocate for structural simplification and improved capital returns, utilizing standard Japanese governance channels [D03]",
+   "timetable_quarters": 4,
+   "escalation_path": "If management remains unresponsive to private constructive dialogue over the next 2-3 quarters, we will shift to a P2 public letter or presentation to force transparency on the sum-of-the-parts value [D03], [D04].",
+   "why_this_role_fits_the_era": "In the 2009-2015 era, Japanese markets have become increasingly receptive to polite, private constructivist engagement; initiating with P1 allows us to build credibility before resorting to the more aggressive public activism typical of our style if the board ignores our strategic plan [D03]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management flatly rejects structural separation dialogue within two quarters",
+    "Convenience store segment operating margin expansion stalls or reverses significantly",
+    "Evidence of entrenched management moving to poison pill or anti-takeover defenses",
+    "Material deterioration in the net cash position through value-destructive M&A"
+   ],
+   "portfolio_risk": "Factor overlap exists with current Japanese exposures; however, as a convenience-retail pure play, it offers a defensive hedge against broader cyclical volatility in the portfolio [D01]. Liquidity is robust given the large market capitalization [D04].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-3%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The primary risk is management's resistance to structural change combined with potential tax leakage and stranded costs inherent in separating the superstore assets [D01], [D03]."
+  }
+ },
+ "final": {
+  "as_of_date": "2015-10-26",
+  "company": "Seven & i Holdings Co., Ltd.",
+  "ticker": "3382",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "¥7,500",
+   "floor": "¥4,750",
+   "skew": "40% : 12%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Strategic portfolio review to address conglomerate discount by separating convenience store operations from stagnant superstore assets",
+    "Improvement of operating margins toward peer benchmarks such as Fast Retailing's 9.8%",
+    "Optimization of capital allocation to address the current 1.59% FCF yield"
+   ],
+   "actors": [
+    "Seven & i Management — Board and executive team"
+   ],
+   "governance_route": "Private constructive dialogue with the board and management",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "Seven & i is a world-class convenience store operator whose value is masked by a conglomerate discount and the drag of underperforming superstore assets [D01], [D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "At a current price of ¥5,375, the market fails to value the convenience segment appropriately, which generates over ¥300bn in annualized operating income [D03], [D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "The convenience-store business trades at a discount to its intrinsic power when applying a 20x multiple and adjusting for net cash [D01], [D03].",
+    "citations": [
+     "D01",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Operating margins of 5.7% lag significantly behind peers like Fast Retailing at 9.8%, signaling meaningful upside from operational and capital allocation reform [D06].",
+    "citations": [
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management flatly rejects structural separation dialogue within two quarters",
+   "Convenience store segment operating margin expansion stalls or reverses significantly",
+   "Evidence of entrenched management moving to poison pill or anti-takeover defenses",
+   "Material deterioration in the net cash position through value-destructive M&A"
+  ],
+  "what_would_change_our_mind": "A persistent refusal to address the conglomerate structure or a material decline in the convenience segment's competitive moat.",
+  "memo": "Seven & i Holdings is a preeminent global retailer whose world-class convenience store operations are obscured by a conglomerate discount and the persistent underperformance of its legacy superstore assets [D01], [D03]. The market currently ignores the underlying quality of the core business, treating the group as a monolithic retail entity despite the manifest divergence in segment performance [D01], [D03].\n\nOur sum-of-the-parts analysis reveals a compelling opportunity, with a target value of approximately ¥7,500 per share [D03]. By applying a 20x multiple to the convenience business’s ¥304.6bn in annualized operating income and accounting for net cash, the upside is substantial compared to the current trading price of ¥5,375 [D03], [D04]. This valuation assumes that the remaining superstore assets can be either rationalized or separated to unlock the trapped earnings power of the core franchise [D01], [D03].\n\nCurrently, Seven & i’s operating margins stand at 5.7%, a figure that compares poorly against high-performing peers such as Fast Retailing, which maintains margins of 9.8% [D06]. The gap between these figures highlights the potential for margin expansion through disciplined capital allocation and operational focus [D03]. We believe the company has significant room to improve its current 1.59% FCF yield, which remains depressed due to sub-optimal asset deployment [D04].\n\nWe are initiating a constructive engagement with management and the board to advocate for a strategic portfolio review and structural simplification [D03]. Our goal is to see a clear plan for the separation of convenience assets and a commitment to enhanced capital returns [D03], [D04]. While we prefer private, polite dialogue in the Japanese market, we are prepared to escalate our involvement if the board fails to engage on these vital issues over the coming 2-3 quarters [D03], [D04].\n\nRisks include potential tax leakage and stranded costs associated with disentangling the retail segments, as well as management's potential resistance to change [D01], [D03]. However, the business’s strong cash-generative core and balance sheet provide an asset-based floor at approximately ¥4,750, protecting our downside [D01], [D04]. We remain focused on the path to a 22% IRR over the next two years [D03].\n\nWe are initiating a position in the common stock with a target size of 5% of NAV, reflecting our high conviction in the potential for a corporate transformation that rewards long-term shareholders [D03].",
+  "uncited_claims": []
+ }
+}

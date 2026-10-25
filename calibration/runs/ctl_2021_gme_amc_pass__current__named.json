@@ -1,0 +1,252 @@
+{
+ "pack": "ctl_2021_gme_amc_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2021-01-27",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "GameStop distributes videogames and related products [D01]. AMC Entertainment operates cinemas [D01].",
+   "segments_and_separable_assets": [
+    "GameStop: retail inventory/cash [D01], ecommerce channel [D06]",
+    "AMC: cinema operating assets [D01]"
+   ],
+   "economics_vs_peers": [
+    "GameStop FY2019 operating margin -6.2% [D06]; Best Buy FY2020 operating margin 19.8% (P/E) [D133]",
+    "AMC FY2019 operating margin 2.5% [D06]; Cinemark FY2019 10.3% [D182]; IMAX FY2019 19.5% [D183]"
+   ],
+   "capital_structure": [
+    "GameStop: Long-term debt (excluding current) $419.8m (FY2019) [D37]; October 31, 2020 cash $445.9m [D82]",
+    "AMC: Debt $4.753bn (FY2019) [D49]; Sept 30, 2020 cash $417.9m [D82]; January 2021 financing: $917m raised/committed [D57]"
+   ],
+   "price_and_valuation": [
+    "GameStop: $347.51/share, Mkt Cap $24.24bn (Jan 27, 2021) [D111, D114]",
+    "AMC: $19.90/share, Mkt Cap ~$8.01bn (Jan 27, 2021) [D111, D114]"
+   ],
+   "management_board_governance": [
+    "GameStop: Ryan Cohen and board [D17]",
+    "AMC: Adam Aron and board [D17]"
+   ],
+   "shareholder_base_and_liquidity": [
+    "Short interest cited as a primary mechanism [D13]",
+    "GameStop: 69.747m shares (Dec 1) [D113]",
+    "AMC: ~402.373m shares pro forma [D113]"
+   ],
+   "event_or_catalyst_evidence": [
+    "Crowded-short covering combined with retail participation and financing optionality [D13]",
+    "GameStop: console/product cycle [D08]",
+    "AMC: cinema reopening and financing runway [D08, D90]"
+   ],
+   "what_the_market_is_worried_about": [
+    "Finite short covering [D159]",
+    "Digital distribution pressures on physical retail [D159]",
+    "Public-health conditions/studio releases impacting cinema [D159]",
+    "Execution risk due to trading halts/margin changes [D159]"
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "AMC: $917m financing since mid-December [D57]; 63.3m shares sold for $304.8m proceeds since Jan 25 [D84]"
+   ],
+   "recent_events": [
+    "Dec 8, 2020: GameStop Q3 results [D208]",
+    "Jan 25, 2021: AMC financing announcement [D208]",
+    "Jan 27, 2021: Dramatic share repricing [D208]"
+   ],
+   "third_point_context": [
+    "Q3 2020 13F reported $9.998bn in securities [D227]. No Q4 holdings or current net exposure publicly recovered [D227]."
+   ],
+   "document_conflicts": [
+    "Not in pack"
+   ],
+   "missing_data": [
+    "Fully diluted share counts, forward valuation estimates, current firm AUM, and current gross/net exposure"
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E2"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Crowded-short covering combined with retail participation and financing optionality in both GameStop and AMC [D13]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "The current price movement is driven by a highly volatile, crowded short-squeeze and retail momentum [D13, D208] with no clear, differentiated fundamental thesis for Third Point to exploit."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The event is already in motion with massive short interest driving a squeeze and high volume trading [D13, D208]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "GameStop's retail model faces secular digital distribution pressures [D159] and AMC carries significant debt ($4.753bn FY2019) [D49] while operating in a challenged industry [D159], failing to provide a credible floor at current market caps of $24.24bn and $8.01bn [D111, D114]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Current trading volume and market capitalization [D111, D114] provide sufficient liquidity for Third Point's typical position sizing."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Management's ability to navigate current extreme volatility and execute long-term transitions is unproven in this specific environment [D159]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 3,
+   "n_fail": 2,
+   "n_unsure": 1,
+   "hard_fail": true,
+   "edge_statement": "The event is a transient, technical short squeeze driven by retail flow and short-interest mechanics, providing no durable fundamental edge for Third Point.",
+   "one_line_verdict": "A crowded, sentiment-driven short squeeze on fundamentally challenged businesses with no identifiable asset or earnings floor."
+  },
+  "gate2": {
+   "mechanisms": [
+    "NONE"
+   ],
+   "variant_view": "The market is currently caught in a speculative, sentiment-driven technical feedback loop that has decoupled share prices from any discernible fundamental reality. Third Point sees no identifiable asset floor or earnings inflection that would justify a long position at these elevated levels, as the current valuation ignores significant secular headwinds and balance sheet constraints. The event is transient and lacks the durable catalyst or margin-of-safety required for our investment criteria.",
+   "evidence": [
+    "GameStop FY2019 operating margin -6.2% vs. Best Buy 19.8% [D06, D133]",
+    "AMC FY2019 operating margin 2.5% vs. Cinemark 10.3% [D06, D182]",
+    "AMC holds $4.753bn in debt [D49]",
+    "Current trading driven by crowded short-squeeze and retail momentum [D13, D208]"
+   ],
+   "peer_benchmark": "Best Buy (for GameStop) operating margin 19.8% [D133]; Cinemark (for AMC) operating margin 10.3% [D182]",
+   "what_must_be_true": [
+    "Sustainable shift to profitable digital revenue model for GameStop",
+    "Long-term solvency for AMC amidst industry-wide secular decline",
+    "Price reversion to fundamental valuation metrics"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "Not calculable based on fundamental metrics",
+    "arithmetic": [
+     "GameStop market cap $24.24bn vs. operating loss [D06, D114]",
+     "AMC market cap $8.01bn vs. $4.753bn debt [D49, D114]"
+    ],
+    "horizon_years": 0
+   },
+   "floor": {
+    "value": "Zero or negative",
+    "basis": "AMC net debt exceeds book value of assets; GameStop negative operating margins imply no durable earnings floor [D06, D49]"
+   },
+   "current_price": "GameStop $347.51; AMC $19.90 [D111]",
+   "skew": "Not applicable : Not applicable",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "No fundamental basis for current share price; trading driven by technical factors not valuation [D13]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "None - situation is a transient technical event [D13]"
+   ],
+   "actors": [
+    "Ryan Cohen — GameStop Board — N/A [D17]",
+    "Adam Aron — AMC CEO — N/A [D17]"
+   ],
+   "governance_route": "N/A - position is a PASS [D13]",
+   "timetable_quarters": 0,
+   "escalation_path": "None, maintain no position.",
+   "why_this_role_fits_the_era": "Third Point does not engage in speculative, sentiment-driven technical squeezes that lack a durable fundamental edge or earnings inflection [D13, D208]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Retail momentum reverses",
+    "Short interest levels collapse",
+    "Financing windows close",
+    "Equity dilution exceeds market capacity"
+   ],
+   "portfolio_risk": "High volatility and retail-driven sentiment creates significant factor drift and decoupling from fundamental benchmarks [D13, D208]",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The position is a PASS due to the absence of a durable fundamental thesis and the extreme risks associated with speculative, retail-driven technical short squeezes [D13]."
+  }
+ },
+ "final": {
+  "as_of_date": "2021-01-27",
+  "company": "GameStop and AMC Entertainment",
+  "ticker": "GME / AMC",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E2"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "Not calculable",
+   "floor": "Zero or negative",
+   "skew": "Not applicable",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [
+    "None - situation is a transient technical event [D13]"
+   ],
+   "actors": [
+    "Ryan Cohen",
+    "Adam Aron"
+   ],
+   "governance_route": "N/A - position is a PASS [D13]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The current price action is a speculative, sentiment-driven technical short squeeze decoupled from fundamental reality [D13, D208].",
+    "citations": [
+     "D13",
+     "D208"
+    ]
+   },
+   {
+    "driver": "GameStop's retail model faces severe secular digital distribution pressures with negative operating margins of -6.2% [D06, D159].",
+    "citations": [
+     "D06",
+     "D159"
+    ]
+   },
+   {
+    "driver": "AMC carries a precarious capital structure with $4.753bn in debt, creating an inadequate margin of safety [D49].",
+    "citations": [
+     "D49"
+    ]
+   },
+   {
+    "driver": "The valuation lacks any identifiable asset or earnings floor, failing our criteria for an asymmetric risk/reward profile [D13, D114].",
+    "citations": [
+     "D13",
+     "D114"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Retail momentum reverses",
+   "Short interest levels collapse",
+   "Financing windows close",
+   "Equity dilution exceeds market capacity"
+  ],
+  "what_would_change_our_mind": "A durable shift in business models towards sustainable, peer-leading profitability and a valuation that reflects fundamental earnings power rather than technical momentum.",
+  "memo": "We have reviewed the ongoing volatility in GameStop and AMC Entertainment and have determined these situations are a pass for our portfolio [D13]. These companies are currently the subjects of intense, retail-driven technical short squeezes that have entirely decoupled share prices from any discernible fundamental value [D13, D208].\n\nWhen we evaluate investments, we look for a clear margin gap versus peers and a path to earnings growth [D06, D133]. GameStop, with its negative operating margins of -6.2%, stands in stark contrast to the 19.8% operating margins of peers like Best Buy [D06, D133]. Similarly, AMC’s operating margin of 2.5% is significantly inferior to the 10.3% achieved by Cinemark, all while saddled with $4.753bn of debt [D06, D49, D182].\n\nMarket participants have seemingly abandoned traditional valuation metrics in favor of sentiment-driven technical feedback loops [D13]. While liquidity is currently high due to the volume of trading, this environment lacks the durable catalysts we require to allocate capital [D13, D114].\n\nOur investment process relies on identifying structural mispricings where we have an edge [D13]. We find no such edge here, as the current price action is disconnected from the secular headwinds facing physical retail and the cinema industry [D159]. We will continue to avoid these speculative situations, as they lack both a fundamental floor and the asymmetric skew required by our mandate [D13].",
+  "uncited_claims": []
+ }
+}

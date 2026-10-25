@@ -1,0 +1,45 @@
+{
+ "trade_id": "2013_hlf_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "The investment was successful as a short-duration repricing trade, so monetize gains rather than remain in the controversy indefinitely. → once the technical squeeze has run its course, our edge is spent",
+   "The initial operating/valuation case did not require holding through every subsequent legal or investor confrontation. → This investment was never intended to be a long-term commitment to hold through years of regulatory debate",
+   "Reduce or close the position after the immediate catalyst rather than equating a compounder assessment with permanent ownership. → We are not in the business of winning public arguments or waiting indefinitely for regulatory resolution"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Continued operating success is noted but does not remove the long-term regulatory risk profile"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Our original thesis for Herbalife was premised on a profitable business being mispriced due to a public controversy and a technical short attack.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "While the company reported strong sales and volume growth in Q4, this operating performance does not mitigate the underlying legal and business-model criticisms.",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We are not in the business of winning public arguments or waiting indefinitely for regulatory resolution; once the technical squeeze has run its course, our edge is spent.",
+ "grader_notes": "The agent correctly identified the core drivers for the exit: the trade was a successful short-duration repricing play rather than a long-term compounder hold. The reasoning aligns perfectly with Loeb's rationale of monetizing gains following a catalyst to avoid indefinite exposure to regulatory controversy.",
+ "run": "2013_hlf_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

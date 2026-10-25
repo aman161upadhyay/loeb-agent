@@ -1,0 +1,44 @@
+{
+ "trade_id": "2012_yahoo_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "The CEO's inaccurate credential undermines credibility and raises integrity concerns. → Evidence of a discrepancy in the CEO's academic biography in company SEC filings necessitates immediate board accountability",
+   "The search committee's basic diligence and board oversight need an independent investigation. → The core business requires professional stewardship; current leadership credibility is insufficient to oversee operations or asset monetization",
+   "Similar director-biography discrepancies make this a systemic governance issue, not just one executive's error. → Valuable Asian affiliate assets continue to be obscured by the lack of effective governance and strategic direction",
+   "Fresh directors with industry competence and integrity are needed before further delay. → Director nominations are already underway, providing a clear governance path to address the leadership vacuum"
+  ],
+  "missed": [],
+  "extra_agent_drivers": []
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Evidence of a discrepancy in the CEO's academic biography in company SEC filings necessitates immediate board accountability",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Director nominations are already underway",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "This is not merely a resume error; it is a fundamental governance failure that demands an immediate response [D02, D03].",
+ "grader_notes": "The agent correctly matched all four of Loeb's primary drivers regarding the CEO's credentials, board oversight failure, systemic governance issues, and the need for new directors. The agent's reasoning aligned perfectly with the escalation path outlined in the original material.",
+ "run": "2012_yahoo_escalate__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

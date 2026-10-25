@@ -1,0 +1,53 @@
+{
+ "trade_id": "2022_cl_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Hill's pet nutrition represented hidden sum-of-parts value → The Company is a world-class owner of oral and personal care franchises, yet it trades at a stubborn conglomerate discount that ignores the distinct, high-growth potential of its premium pet nutrition business",
+   "Consumer-health consolidation and portfolio action supplied additional optionality → Our plan is to engage privately with the Board and Noel Wallace to push for a formal evaluation of a potential separation of the pet nutrition unit"
+  ],
+  "missed": [
+   "Defensive demand and significant pricing power were valuable under inflation.",
+   "Attractive valuation preceded a prospective earnings inflection."
+  ],
+  "extra_agent_drivers": [
+   "Operating margins have lagged behind best-in-class peers",
+   "The company maintains a strong FCF yield"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company suffers from a persistent conglomerate discount that masks the superior growth profile of the premium pet nutrition business",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Operating margins have lagged behind best-in-class peers like P&G, currently at 21.3% compared to 24.0% for P&G",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company maintains a strong FCF yield of 3.9%, providing a fundamental floor at $65.00 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 4,
+  "share": 0.36
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The Company is a world-class owner of oral and personal care franchises, yet it trades at a stubborn conglomerate discount that ignores the distinct, high-growth potential of its premium pet nutrition business [D01].",
+ "grader_notes": "The agent correctly identified the core catalyst (pet nutrition separation) and direction. However, it missed the drivers regarding defensive demand/pricing power and the general attractiveness of the valuation preceding an earnings inflection, substituting them with specific operational margin targets and FCF yields not explicitly cited in the Loeb letter.",
+ "run": "2022_cl_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

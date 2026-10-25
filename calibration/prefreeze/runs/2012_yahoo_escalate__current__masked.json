@@ -1,0 +1,59 @@
+{
+ "pack": "2012_yahoo_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2012-05-03",
+ "stages": {},
+ "final": {
+  "as_of_date": "2012-05-03",
+  "company": "Yahoo!",
+  "ticker": "YHOO",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Asian-asset value: intact [D07]",
+   "Core-business stewardship: broken due to management integrity and leadership credibility issues [D01, D07]"
+  ],
+  "remaining_skew": "Upside significantly exceeds downside given the discrepancy between sum-of-the-parts valuation and current governance-impaired trading price [D02, D04]",
+  "next_catalyst_and_timing": "Annual meeting and ongoing director nomination process [D03, D07]",
+  "asks_if_escalating": [
+   "Immediate board resignation of the CEO given the biography discrepancy [D02, D03]",
+   "Replacement of the current leadership with qualified, independent directors possessing relevant media and technical experience [D01, D05]",
+   "Execute on the monetization of Asian affiliate assets [D01, D06]"
+  ],
+  "drivers": [
+   {
+    "driver": "Evidence of a discrepancy in the CEO's academic biography in company SEC filings necessitates immediate board accountability [D02, D03]",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "The core business requires professional stewardship; current leadership credibility is insufficient to oversee operations or asset monetization [D01, D06]",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Valuable Asian affiliate assets continue to be obscured by the lack of effective governance and strategic direction [D01, D08]",
+    "citations": [
+     "D01",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Director nominations are already underway, providing a clear governance path to address the leadership vacuum [D07]",
+    "citations": [
+     "D07"
+    ]
+   }
+  ],
+  "memo": "We have reached a critical inflection point at Yahoo!. Our investment thesis has always been anchored in the robust value of the Asian assets and the necessity of core-business stewardship; however, the recent evidence of a significant discrepancy in the CEO's academic biography confirms our deepest concerns regarding the current board's lack of oversight and character [D01, D02, D07]. This is not merely a resume error; it is a fundamental governance failure that demands an immediate response [D02, D03].\n\nWhile the first-quarter results have shown a semblance of stabilization, we cannot entrust the long-term value of this enterprise to a management team whose integrity is now subject to documented challenge [D03, D04]. A company can possess valuable assets, but without an adequate board-control process, that value will remain trapped [D01, D05]. We have already nominated four highly qualified directors and we must now accelerate our efforts to replace an entrenched and compromised board [D07, D08].\n\nOur focus remains on the sum-of-the-parts realization and the need for new leadership with genuine media and technical experience [D01, D04]. We are no longer waiting for private engagement to yield results; the time for a public board refresh is now [D07]. We intend to pursue our nominees aggressively to ensure that the governance of this company is aligned with the interests of its shareholders, not the preservation of a failed regime [D07].",
+  "uncited_claims": []
+ }
+}

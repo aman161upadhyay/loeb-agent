@@ -1,0 +1,262 @@
+{
+ "pack": "ctl_2020_hertz_equity_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2020-06-08",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Hertz operates rental-car brands supported by a financed vehicle fleet [D01]. The company filed for Chapter 11 bankruptcy on May 22, 2020, citing a sudden reduction in travel demand and bookings [D03].",
+   "segments_and_separable_assets": [
+    "US rental: Q1 2020 revenue $1,381m, 67% utilization [D06]",
+    "International rental: Q1 2020 revenue $368m, 66% utilization [D06]",
+    "Fleet-leasing segment: Q1 2020 revenue $174m, +13% growth [D06]"
+   ],
+   "economics_vs_peers": [
+    "Industry comparison is complex; rental companies combine travel demand, utilization, vehicle purchase/disposal economics, and financing structures [D06].",
+    "AMERCO (FY March 2020) reported $3.979bn revenue and 13.6% operating margin [D06].",
+    "Hertz Q1 2020 US utilization was 67% vs 79% prior year; International was 66% vs 74% prior year [D03].",
+    "Comparison of revenue multiples is often ignored due to variations in fleet leverage and residual values [D06]."
+   ],
+   "capital_structure": [
+    "Total debt: $17,089m (as of Dec 31, 2019) [D02].",
+    "Reported debt: Approximately $18.8bn (March 31, 2020) [D04].",
+    "Unrestricted cash: $1,017m (as of March 31, 2020) [D03].",
+    "Claim hierarchy: Vehicle ABS, corporate debt, leases, and administrative claims sit senior to common equity [D02, D04].",
+    "Covenants: Not in pack."
+   ],
+   "price_and_valuation": [
+    "Price: $5.53 (June 8, 2020) [D04].",
+    "Market cap: Approximately $787m [D04].",
+    "EV: Approximately $18.6bn [D04].",
+    "P/E: NM [D04].",
+    "P/B: Approximately 0.57x [D04].",
+    "FY2019 earnings yield: -8.86% [D04]."
+   ],
+   "management_board_governance": [
+    "Management/Board: Not in pack (specific names and tenure not provided).",
+    "Governance: Bankruptcy filing puts control under the bankruptcy court and creditor stakeholders [D03, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding: 142.285m [D04].",
+    "Trading volume: Approximately 533.9m shares (June 8, 2020) [D04].",
+    "Top holders: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Event: Chapter 11 bankruptcy restructuring [D03].",
+    "Catalysts: Reopening of travel and used-vehicle realizations [D01].",
+    "Constraints: Equity holders do not control the restructuring timetable [D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Absolute priority: enterprise improvements may accrue entirely to creditors [D05].",
+    "Administrative expenses, fleet liquidation losses, and financing restrictions eroding residual value [D05].",
+    "Senior claims consuming the entire franchise value [D01, D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "May 11, 2020: Q1 2020 earnings released [D03].",
+    "May 22, 2020: Voluntary Chapter 11 bankruptcy petition filed [D03].",
+    "June 8, 2020: Speculative equity rally; stock price +115.2% [D04]."
+   ],
+   "third_point_context": [
+    "Third Point Q1 2020 13F (reported May 15) does not detail a Hertz position [D08].",
+    "Firm reported 16% Q1 Offshore loss; liquidity and instrument selection are priorities [D08].",
+    "No later manager discussion or confirmed stake recovered [D08]."
+   ],
+   "document_conflicts": [
+    "None reported."
+   ],
+   "missing_data": [
+    "Cutoff creditor waterfall, appraised vehicle value, specific claim-by-claim recovery models, current firm-wide gross/net exposure as of June 8, 2020, and current board/management details."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E3"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company has filed for Chapter 11 bankruptcy, which is a structural restructuring event [D03]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Without a specific recovery analysis or access to the waterfall to determine if equity retains value post-restructuring, we lack a differentiated edge in this speculative situation [D05, D08]."
+    },
+    "governance_route_or_process": {
+     "score": "FAIL",
+     "evidence": "Bankruptcy filing shifts control to the court and creditor stakeholders, leaving equity holders with no governance path to influence outcomes [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "Senior claims exceed assets and threaten to consume the entire franchise value, providing no floor for common equity [D01, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "Trading volume is significant at over 533 million shares on the date, providing ample liquidity for a position [D04]."
+    },
+    "management_credibility": {
+     "score": "FAIL",
+     "evidence": "Control is held by the court and creditors during Chapter 11, rendering management's internal role irrelevant to the investment thesis [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 2,
+   "n_fail": 4,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The situation involves a Chapter 11 restructuring where senior debt claims jeopardize the equity's value, and Third Point lacks the necessary recovery waterfall analysis to justify a position.",
+   "one_line_verdict": "a speculative bankruptcy equity play where creditors hold all the cards and the equity floor is non-existent"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M6"
+   ],
+   "variant_view": "The market is currently engaged in a speculative retail-driven rally following Hertz's bankruptcy filing, ignoring the fundamental reality that equity value is likely to be wiped out by senior creditors. We believe the bankruptcy process will prioritize debt holders, leaving nothing for shareholders once administrative and fleet-related claims are satisfied. The current price movement represents a detachment from the underlying recovery waterfall, which remains opaque and unfavorable for common equity.",
+   "evidence": [
+    "The stock price rallied 115.2% on June 8, 2020, despite the ongoing Chapter 11 process [D04].",
+    "Senior claims, including vehicle ABS and corporate debt, sit in a priority hierarchy above common equity [D02, D04].",
+    "Management and governance control has shifted entirely to the court and creditors [D03, D07]."
+   ],
+   "peer_benchmark": "AMERCO (FY March 2020) operating margin of 13.6% [D06]",
+   "what_must_be_true": [
+    "Travel demand recovers faster than projected fleet liquidation losses",
+    "Residual values of the vehicle fleet exceed the total claims of senior creditors",
+    "The bankruptcy court approves a plan that provides for a recovery to equity holders"
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "recovery",
+   "target_value": {
+    "per_share_or_price": "$0.00",
+    "arithmetic": [
+     "Total Liabilities: $18.8bn [D04]",
+     "Total Assets: Insufficient to cover senior claims [D05]",
+     "Recovery to Equity: $18.8bn debt > asset realization [D04, D05]"
+    ],
+    "horizon_years": 1
+   },
+   "floor": {
+    "value": "$0.00",
+    "basis": "Absolute priority rule in Chapter 11 renders equity worthless when senior debt exceeds asset recovery value [D05]."
+   },
+   "current_price": "$5.53 [D04]",
+   "skew": "0% : 100%",
+   "irr_pct": {
+    "base": -100,
+    "bear": -100,
+    "bull": -100
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Assumption that senior claims (ABS and corporate debt) exceed realizable value of the fleet and remaining assets based on Chapter 11 priority status [D02, D04, D05]."
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [
+    "No action; avoid speculative participation [D08]"
+   ],
+   "actors": [
+    "Bankruptcy Court — control entity — primary decision maker [D03]",
+    "Creditor stakeholders — senior claim holders — priority beneficiaries [D03, D07]"
+   ],
+   "governance_route": "Chapter 11 proceedings prioritize senior debt claims over equity [D05, D07]",
+   "timetable_quarters": 0,
+   "escalation_path": "None; maintain avoid/pass stance.",
+   "why_this_role_fits_the_era": "In 2020, our strategy dictates discipline in event-driven situations; since the senior debt clearly exceeds asset value and equity is structurally impaired, we have no role here and strictly avoid the speculative rally."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Bankruptcy court confirms absolute priority rule, leaving no residual value for common equity [D05]",
+    "Senior debt claims against asset recovery value remain fully impaired [D02, D04]",
+    "Total liabilities of $18.8bn continue to exceed enterprise asset realization [D04, D05]"
+   ],
+   "portfolio_risk": "We maintain a disciplined event-driven approach, avoiding speculative retail-driven bubbles where equity is structurally impaired; the asset represents potential contagion if we were to engage in sentiment-based trading, which contradicts our valuation-first mandate [D08].",
+   "instrument": "none",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "0%",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "The investment is fundamentally worthless due to the bankruptcy court's application of the absolute priority rule, which mandates that senior creditors must be fully satisfied before equity receives any recovery [D05, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2020-06-08",
+  "company": "Hertz Global Holdings",
+  "ticker": "HTZ",
+  "decision": "PASS",
+  "conviction": "high",
+  "target_size_pct_nav": 0,
+  "instrument": "none",
+  "opportunity_template": [
+   "E3"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "recovery",
+   "target_value": "$0.00",
+   "floor": "$0.00",
+   "skew": "0% : 100%",
+   "irr_pct": -100
+  },
+  "plan": {
+   "asks": [
+    "No action; avoid speculative participation"
+   ],
+   "actors": [
+    "Bankruptcy Court",
+    "Creditor stakeholders"
+   ],
+   "governance_route": "Chapter 11 proceedings prioritize senior debt claims over equity",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "Hertz has filed for Chapter 11 bankruptcy, which structurally subordinates common equity to senior creditors in a hierarchy that leaves no residual value [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Total liabilities of $18.8bn significantly exceed the company's realizable asset value, ensuring equity holders will be wiped out under the absolute priority rule [D04, D05].",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The recent 115.2% rally in the common stock is a retail-driven speculative bubble that ignores the fundamental reality of the creditor-controlled bankruptcy process [D03, D04].",
+    "citations": [
+     "D03",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Governance and control have shifted entirely to the court and creditors, removing any pathway for shareholders to influence the restructuring outcome [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Bankruptcy court confirms absolute priority rule, leaving no residual value for common equity",
+   "Senior debt claims against asset recovery value remain fully impaired",
+   "Total liabilities of $18.8bn continue to exceed enterprise asset realization"
+  ],
+  "what_would_change_our_mind": "Evidence that the vehicle fleet and other assets have a liquidation value exceeding the $18.8bn in senior claims, combined with a court-approved plan that provides a recovery to common equity.",
+  "memo": "Hertz Global Holdings is currently a classic example of a bankrupt entity where the equity is fundamentally worthless, yet the market has chosen to ignore the reality of its insolvency. The company filed for Chapter 11 on May 22, 2020, following a catastrophic drop in travel demand that rendered its $18.8bn debt load unsustainable [D03, D04].\n\nUnder the absolute priority rule of Chapter 11, senior claims including vehicle ABS and corporate debt must be fully satisfied before equity receives any consideration [D02, D05, D07]. With liabilities reaching $18.8bn, the recovery waterfall is effectively closed to shareholders [D04]. The current attempt to value the equity at nearly $800m is entirely detached from the recovery math, as there is no scenario in which asset realizations cover even the senior tranches [D04, D05].\n\nThe market's recent obsession with the common stock, including a 115.2% single-day rally on June 8, 2020, represents a speculative fervor divorced from the underlying bankruptcy process [D04]. This is not an event-driven opportunity for us; it is a liquidity trap. The bankruptcy court and senior creditors are now the sole decision-makers, and they have no incentive to preserve value for the equity holders who are structurally impaired [D03, D07].\n\nOur mandate remains disciplined and value-focused. While others engage in sentiment-based trading, we recognize that when the math dictates an absolute loss, the only prudent decision is to step aside. We are passing on Hertz entirely, as there is no floor, no governance path, and no legitimate path to recovery for the common equity [D05, D07, D08].",
+  "uncited_claims": []
+ }
+}

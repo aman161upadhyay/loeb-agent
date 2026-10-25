@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2019_newell_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Newell/NWL/Jarden absent from complete 54-quarter index; no attributable Third Point public position comment recovered. Replaces Kraft Heinz, which WAS held Q3 2015–Q1 2016 (peak $582.285M)."
+  ],
+  "extra_agent_drivers": [
+   "Conglomerate portfolio simplification/divestiture",
+   "Crowded trade by existing activists",
+   "Secular decline in core sales and margins",
+   "Valuation target analysis vs current price"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Starboard Value disclosed a ~4% Newell stake on 9 February 2018",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company is a conglomerate of consumer brands spanning Learning & Development, Food & Appliances, and Home & Outdoor Living",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Seven of the eleven board seats are already held by appointees of Starboard and Icahn",
+    "citation": "D09",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 3,
+  "share": 0.38
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on this opportunity to focus our resources on situations where we can drive the process or where we possess a distinct, non-crowded analytical advantage [D08, D09].",
+ "grader_notes": "The agent correctly identified the PASS decision. However, the reasoning provided by the agent focused on fundamental analysis and activist competition, whereas the actual 'reason' per the answer key is simply the absence of the issuer from Third Point's historical holdings index, making the driver overlap zero.",
+ "run": "ctl_2019_newell_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2019_newell_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Newell/NWL/Jarden absent from complete 54-quarter index; no attributable Third Point public position comment recovered. Replaces Kraft Heinz, which WAS held Q3 2015–Q1 2016 (peak $582.285M)."
+  ],
+  "extra_agent_drivers": [
+   "The activist edge is non-existent as Starboard Value and Carl Icahn already control seven of eleven board seats.",
+   "Core sales have declined for multiple years, failing to provide the downside floor required for a long position.",
+   "The company suffers from persistent margin pressure, with FY2018 normalized operating margins of 10.2% significantly lagging peers like Church & Dwight at 19.1%.",
+   "Transformation efforts are already crowded and fully priced in by existing activist involvement."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Starboard Value and Carl Icahn already control seven of eleven board seats",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "organic sales declining 4.0% in 2018",
+    "citation": "D09",
+    "verdict": "supported"
+   },
+   {
+    "claim": "FY2018 normalized operating margins of 10.2% significantly lagging peers like Church & Dwight at 19.1%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 7,
+  "share": 0.64
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this opportunity due to the lack of an actionable activist role and the absence of a hard downside floor in the declining core business [D09].",
+ "grader_notes": "The agent correctly identified the PASS decision. However, the agent fabricated a fundamental-driven investment memo for a situation where the Answer Key strictly denotes a retrospective observational label of non-ownership. The agent's reasoning was entirely external to the specific, limited evidence provided in the actual Loeb track record.",
+ "run": "ctl_2019_newell_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

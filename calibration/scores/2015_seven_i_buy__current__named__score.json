@@ -1,0 +1,52 @@
+{
+ "trade_id": "2015_seven_i_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Best-in-class convenience-store economics are hidden by weaker retail operations. → Seven & i is a world-class convenience store operator whose value is masked by a conglomerate discount and the drag of underperforming superstore assets",
+   "Stop subsidizing Ito Yokado and permit it to restructure outside the group. → This valuation assumes that the remaining superstore assets can be either rationalized or separated to unlock the trapped earnings power of the core franchise",
+   "A global convenience-store pure-play should command a meaningful rerating. → The convenience-store business trades at a discount to its intrinsic power when applying a 20x multiple and adjusting for net cash"
+  ],
+  "missed": [
+   "An underlevered balance sheet and slowing growth capex create a capital-return opportunity."
+  ],
+  "extra_agent_drivers": [
+   "Operating margins of 5.7% lag significantly behind peers like Fast Retailing, signaling meaningful upside from operational and capital allocation reform"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Seven & i Holdings is a preeminent global retailer whose world-class convenience store operations are obscured by a conglomerate discount and the persistent underperformance of its legacy superstore assets",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "By applying a 20x multiple to the convenience business’s ¥304.6bn in annualized operating income",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Currently, Seven & i’s operating margins stand at 5.7%",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 16,
+  "cited": 16,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Seven & i Holdings is a preeminent global retailer whose world-class convenience store operations are obscured by a conglomerate discount and the persistent underperformance of its legacy superstore assets [D01], [D03].",
+ "grader_notes": "The agent correctly matched the investment decision and captured the core investment thesis regarding the conglomerate discount and the value of convenience assets. It missed the specific emphasis on capital-return opportunities arising from an underlevered balance sheet, though it correctly identified the opportunity for operational margin improvement.",
+ "run": "2015_seven_i_buy__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

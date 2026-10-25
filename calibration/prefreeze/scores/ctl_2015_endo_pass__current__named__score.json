@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2015_endo_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Endo/ENDP/Auxilium absent from 54-quarter issuer/instrument index and no attributable Endo investment comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company relies on a complex, debt-fueled M&A strategy that obscures underlying earnings power through aggressive accounting adjustments.",
+   "There is a lack of a clear, differentiated governance-led catalyst or margin-improvement plan to force value realization.",
+   "Valuation appears thin, with an FCF yield of approximately 1.66%, offering an insufficient risk/reward skew for a speculative integration play.",
+   "Significant uncertainty exists regarding litigation cash payments potentially exceeding accounting reserves, which threatens the downside floor."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Endo International operates as a diversified pharmaceutical company currently engaged in the integration of its recent Auxilium acquisition.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Target of $95.00 based on a 22x multiple against 2015 guidance of approximately $4.35 in EPS.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Adjusted EPS figures likely mask disappointment in free cash flow generation.",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 7,
+  "share": 0.54
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are passing on Endo International.",
+ "grader_notes": "The agent correctly identified the PASS decision. However, the reasoning provided by the agent is completely fabricated as it attempts to generate an investment thesis for a company Loeb never held, whereas the answer key specifies the PASS is an observational label due to the absence of the issuer in historical holdings.",
+ "run": "ctl_2015_endo_pass__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

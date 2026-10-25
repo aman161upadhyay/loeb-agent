@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2024_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Boeing/BA absent from complete 54-quarter issuer/instrument index and no attributable named common-stock comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company suffers from a systemic quality crisis where management credibility and manufacturing integrity are severely compromised",
+   "Operational dislocation and regulatory grounding create an execution risk profile that lacks a clear, actionable governance catalyst for value realization",
+   "The thesis depends on an unproven management team executing a multi-year turnaround under heavy regulatory oversight, which falls outside our current constructivist mandate",
+   "Current valuation is thin relative to the significant execution risks and the absence of a hard floor or identifiable path to board-level accountability"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is currently defined by a severe operational quality crisis following the January 5th door-plug incident, which has led to the grounding of 171 MAX 9 aircraft",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "While the business possesses a massive $392bn backlog in its Commercial Airplanes segment, this is currently overshadowed by a -8.6% operating margin",
+    "citation": "D06",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 8,
+  "share": 0.62
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Consequently, we have decided to pass on the investment [D04].",
+ "grader_notes": "The agent correctly identified the PASS decision, but its reasoning was entirely fabricated as an internal investment memo. Third Point's actual 'driver' for the pass is the lack of any historical ownership or public comment, whereas the agent provided four detailed operational and valuation-based reasons not endorsed by Loeb.",
+ "run": "ctl_2024_ba_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

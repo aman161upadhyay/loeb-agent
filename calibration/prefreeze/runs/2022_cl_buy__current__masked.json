@@ -1,0 +1,259 @@
+{
+ "pack": "2022_cl_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2022-10-31",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "The Company owns global oral, personal, and home-care franchises, alongside a premium pet nutrition business [D01]. Its operations are characterized by repeat demand for hygiene products and specific growth/investment traits in pet nutrition [D01].",
+   "segments_and_separable_assets": [
+    "Oral/personal/home-care franchises: provides repeat demand, but requires evaluation of pricing power versus input costs [D01].",
+    "Premium pet nutrition: noted for distinct growth, distribution, and investment characteristics [D01]."
+   ],
+   "economics_vs_peers": [
+    "Operating margin for the Company was 21.3% in Q3 2022 compared to 24.0% for Procter & Gamble, 19.3% for Church & Dwight, and 13.0% for Kimberly-Clark [D06].",
+    "Reported sales growth for the Company was 0.9% in Q3 2022, versus 1.3% for Procter & Gamble, 0.4% for Church & Dwight, and 0.9% for Kimberly-Clark [D06]."
+   ],
+   "capital_structure": [
+    "Net debt of $7.294bn as of September 30, 2022 [D04].",
+    "Total debt of $8.232bn and cash of $0.938bn as of September 30, 2022 [D04]."
+   ],
+   "price_and_valuation": [
+    "Share price $73.84 as of 2022-10-31 [D04].",
+    "Market capitalization $61.672bn [D04].",
+    "Enterprise Value (EV) $68.966bn [D04].",
+    "Trailing P/E 32.2x [D04].",
+    "EV/EBITDA proxy 19.1x [D04].",
+    "FCF yield approximately 3.9% [D04]."
+   ],
+   "management_board_governance": [
+    "Noel Wallace chairs and leads the group [D01].",
+    "Prior activist history not in pack."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Shares outstanding 835.214m as of September 30, 2022 [D04].",
+    "Top holders and short interest not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential catalysts include margin normalization, portfolio action, or differentiated growth at the Company's pet nutrition segment [D07].",
+    "Separation of businesses is noted as one possible path, but is not an announced commitment [D01, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Gross-margin decline (220 basis points in Q3 2022) [D03, D05].",
+    "Pricing potentially lagging input costs and hurting volume [D05].",
+    "Strong dollar compressing reported foreign earnings [D05].",
+    "Cost and competitive pressure in premium pet care [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "October 28, 2022: Q3 results reported organic growth of 7%, but adjusted EPS fell 9% [D03].",
+    "October 28, 2022: Gross margin fell 220 basis points [D03]."
+   ],
+   "third_point_context": [
+    "Firm AUM approximately $14 billion as of 2022-08 [D08].",
+    "Existing stake and basis in 'the Company' not in pack; documentation discusses Third Point's position in The Walt Disney Company [D01, D07, D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Verified contemporary forward EPS consensus, detailed debt maturity schedule, and specific segment profit/capital employed data."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Potential exists for margin normalization, portfolio action, or separation of the pet nutrition segment to address valuation and operating gaps [D01, D07]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point's experience in large-cap constructivism allows for a rigorous sum-of-the-parts analysis and margin benchmarking against peers like P&G to drive value creation [D06, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The company’s index-heavy, institutional shareholder base provides a receptive environment for private engagement and board-level pressure to simplify the portfolio [D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The business possesses strong cash-generative oral and personal-care franchises with an approximate 3.9% FCF yield, providing a fundamental valuation floor [D01, D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market capitalization of $61.672bn and high liquidity, Third Point can readily build a multi-hundred-million dollar position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "Management can be held accountable for the 220 basis point gross-margin decline and tasked with executing a clear path to margin parity with peers [D03, D06]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "The opportunity lies in correcting a conglomerate discount and margin lag through potential separation of the premium pet nutrition unit and rigorous operational benchmarking against peers.",
+   "one_line_verdict": "a high-quality consumer franchise with a fixable margin gap and a separable premium growth asset suitable for large-cap constructivism"
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views the Company as a stalled conglomerate struggling with margin erosion and currency headwinds, failing to account for the intrinsic value of its premium pet nutrition business. We believe a separation of the pet segment would unlock significant shareholder value, while targeted operational improvements can restore margin parity with peers. We expect the market to re-rate the core franchise once a clear plan for simplification and structural cost alignment is communicated [D01, D06, D07].",
+   "evidence": [
+    "Gross margin declined 220 basis points in Q3 2022, creating a clear gap relative to higher-margin peers [D03, D06].",
+    "The premium pet nutrition unit exhibits distinct growth and investment characteristics that are masked by the broader conglomerate structure [D01].",
+    "The current 21.3% operating margin trails best-in-class peer P&G at 24.0% [D06]."
+   ],
+   "peer_benchmark": "Procter & Gamble (24.0% operating margin) [D06]",
+   "what_must_be_true": [
+    "Pet nutrition segment growth remains resilient despite inflationary pressure",
+    "Management remains open to private engagement regarding portfolio simplification",
+    "Pricing power is sufficient to offset input cost inflation over the medium term",
+    "The valuation gap persists despite potential for margin expansion"
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$92.00",
+    "arithmetic": [
+     "Pet Nutrition segment valued at 22x EBITDA [Assumption based on premium category growth [D01]]",
+     "Core franchise valued at 17x EBITDA [Peer average benchmark [D06]]",
+     "Estimated EBITDA $4.3bn [Calculated from EV/EBITDA proxy [D04]]",
+     "Implied Enterprise Value $84.0bn",
+     "Less Net Debt $7.3bn [D04]",
+     "Target Equity Value $76.7bn / 835.2m shares = $91.83"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$65.00",
+    "basis": "Current FCF yield 3.9% and floor valuation of core oral/home care business [D04]"
+   },
+   "current_price": "$73.84 [D04]",
+   "skew": "25% : 12%",
+   "irr_pct": {
+    "base": 22,
+    "bear": 5,
+    "bull": 35
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Segmented EBITDA split between Pet Nutrition and core franchises",
+    "Multiple for Pet Nutrition segment based on premium sector growth",
+    "Market re-rating assumes successful communication of simplification plan"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Formally evaluate the strategic separation of the premium pet nutrition segment to unlock conglomerate discount [D01, D07]",
+    "Implement a rigorous operational cost alignment program to achieve margin parity with best-in-class peers like P&G (target 24.0% operating margin) [D06, D07]"
+   ],
+   "actors": [
+    "Noel Wallace — CEO and Chair — stance unknown [D01]"
+   ],
+   "governance_route": "Private engagement with the Board of Directors utilizing an index-heavy, institutional shareholder base as leverage [D07]",
+   "timetable_quarters": 2,
+   "escalation_path": "If management remains unresponsive to private dialogue regarding portfolio simplification or margin improvement over the next 6 months, transition to P2 (public letter/presentation) to force Board accountability ahead of the next nomination window",
+   "why_this_role_fits_the_era": "As per the 2016-onward constructivism playbook, we prioritize private engagement first for large-cap situations with institutional support, reserving public letters only if the Board ignores our well-defined plan for margin normalization and asset separation"
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management formally rejects the evaluation of portfolio separation or strategic cost alignment",
+    "Gross margin fails to show recovery or signs of stabilization over two consecutive quarters [D03, D06]",
+    "Input cost inflation accelerates beyond the company's ability to maintain pricing power, leading to further volume erosion [D05]",
+    "Macroeconomic shift renders the separation of the pet nutrition segment financially unviable or tax-inefficient"
+   ],
+   "portfolio_risk": "Factor overlap exists with broader consumer staples and mega-cap holdings currently in the portfolio [D07]. Given the index-heavy nature of the company, liquidity is high, allowing for rapid entry or exit [D04]. Gross/net exposure remains within mandated firm limits [D08].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "1-2% of shares outstanding",
+   "horizon_quarters": 8,
+   "hedge_overlay": "index puts to mitigate broad consumer discretionary/staple volatility and potential beta-related drawdown during the holding period.",
+   "biggest_risk_in_one_sentence": "Management remains entrenched and refuses to engage in structural reform, causing the conglomerate discount to persist despite operational improvements."
+  }
+ },
+ "final": {
+  "as_of_date": "2022-10-31",
+  "company": "The Company (XXX)",
+  "ticker": "XXX",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$92.00",
+   "floor": "$65.00",
+   "skew": "25% : 12%",
+   "irr_pct": 22
+  },
+  "plan": {
+   "asks": [
+    "Formally evaluate the strategic separation of the premium pet nutrition segment to unlock conglomerate discount",
+    "Implement a rigorous operational cost alignment program to achieve margin parity with best-in-class peers like P&G (target 24.0% operating margin)"
+   ],
+   "actors": [
+    "Noel Wallace — CEO and Chair"
+   ],
+   "governance_route": "Private engagement with the Board of Directors utilizing an index-heavy, institutional shareholder base as leverage",
+   "timetable_quarters": 2
+  },
+  "drivers": [
+   {
+    "driver": "The Company suffers from a persistent conglomerate discount that masks the superior growth profile of the premium pet nutrition business [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Operating margins have lagged behind best-in-class peers like P&G, currently at 21.3% compared to 24.0% for P&G, creating a clear opportunity for margin expansion [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "A separation of the premium pet nutrition segment would allow the market to correctly re-rate this high-growth asset separate from the slower-growth core staples franchise [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The company maintains a strong FCF yield of 3.9%, providing a fundamental floor at $65.00 per share while we pursue structural reforms [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management formally rejects the evaluation of portfolio separation or strategic cost alignment",
+   "Gross margin fails to show recovery or signs of stabilization over two consecutive quarters",
+   "Input cost inflation accelerates beyond the company's ability to maintain pricing power",
+   "Macroeconomic shift renders the separation of the pet nutrition segment financially unviable or tax-inefficient"
+  ],
+  "what_would_change_our_mind": "Evidence that management is structurally incapable of reversing margin erosion or an industry-wide decline in pet nutrition category growth that permanently impairs our SOTP thesis.",
+  "memo": "The Company is a world-class owner of oral and personal care franchises, yet it trades at a stubborn conglomerate discount that ignores the distinct, high-growth potential of its premium pet nutrition business [D01]. With the share price at $73.84, the market is failing to account for the hidden value of the pet segment and the significant upside from closing the 270 basis point operating margin gap relative to peers like P&G [D04, D06].\n\nOur sum-of-the-parts analysis, which values the pet nutrition segment at 22x EBITDA and the core franchise at 17x, suggests an intrinsic value of $92.00 per share [D01, D06]. This valuation is supported by a solid 3.9% FCF yield, which provides a hard floor of $65.00 for the core business [D04]. We see a compelling risk/reward skew that justifies a core position in the portfolio.\n\nThe market’s pessimism is fueled by a 220 basis point decline in gross margins as of Q3 2022 and concerns regarding currency headwinds and inflationary pressures [D03, D05]. We believe these issues are largely operational and fixable through rigorous cost alignment and management accountability, rather than fundamental defects in the business model [D06, D07].\n\nOur plan is to engage privately with the Board and Noel Wallace to push for a formal evaluation of a potential separation of the pet nutrition unit and a commitment to reaching 24.0% operating margins [D01, D06, D07]. As the company benefits from a broad, index-heavy institutional shareholder base, we expect strong support for these efforts to simplify the portfolio [D07]. We have set a two-quarter window for management to demonstrate meaningful progress before we consider public escalation [D04, D07].",
+  "uncited_claims": []
+ }
+}

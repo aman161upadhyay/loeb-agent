@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2012_best_buy_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Never held per recovered 13F history: BBY/Best Buy absent from the complete Q3/Q4 2011 and all four 2012 original Third Point 13Fs (plus Q2 amendment), and from the 54-quarter 2013–Q2 2026 index."
+  ],
+  "extra_agent_drivers": [
+   "The company suffers from a significant margin gap versus peers and a structurally pressured legacy retail footprint that requires a clear online operating reset.",
+   "The thesis relies on an unproven management-led operating turnaround without a clear, specific governance plan or differentiated capital allocation catalyst.",
+   "There is no board composition data, no nomination window information, and no evidence of an active or restless shareholder base to force a change.",
+   "The core legacy entertainment business is in secular decline with negative comparable sales of -19.5%, constituting a 'melting ice cube'."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "FY2011 operating margins of 4.2% versus 6.1% at Walmart",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "core entertainment segment is in secular decline with negative comparable sales of -19.5%",
+    "citation": "D05",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 5,
+  "share": 0.63
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Accordingly, we are passing on the opportunity to invest at this time [D08].",
+ "grader_notes": "The agent correctly reached the PASS decision. However, the agent's reasoning was entirely fabricated based on fundamental analysis of Best Buy, whereas the answer key indicates that the 'PASS' label is a retrospective control based on the absence of Best Buy in Third Point's historical 13F filings.",
+ "run": "ctl_2012_best_buy_pass__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

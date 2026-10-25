@@ -1,0 +1,56 @@
+{
+ "trade_id": "2003_potlatch_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "Shareholder voting rights should not reward four years of enduring poor stewardship. → The company’s defenses—specifically the four-vote-per-share structure and staggered board—are specifically designed to protect entrenched management from shareholder oversight.",
+   "Persistent operating losses and inferior returns warrant greater board accountability. → This capital intensity, coupled with a staggering negative 33.1% ROE compared to a -4.1% peer average, proves that the status quo is unacceptable.",
+   "The $66m towel investment deserves scrutiny while the consumer-products market is oversupplied. → Management continues to pour capital into the $66 million Las Vegas towel plant even as pricing suffers from chronic excess supply."
+  ],
+  "missed": [
+   "Compensation and owner alignment should be tested against the loss record; the full alleged plane/perquisite criticism remains unverified."
+  ],
+  "extra_agent_drivers": [
+   "The May 12 annual meeting provides an immediate platform to force management accountability"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Management continues to pour capital into the $66 million Las Vegas towel plant even as pricing suffers from chronic excess supply",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "staggering negative 33.1% ROE compared to a -4.1% peer average",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "four-vote-per-share structure",
+    "citation": "D05",
+    "verdict": "supported"
+   },
+   {
+    "claim": "seventh-largest shareholder",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 0,
+  "cited": 0,
+  "share": 0
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By going public with our demands now, we draw a line in the sand regarding their capital allocation and governance, forcing management to confront the reality that their current strategy is not tenable.",
+ "grader_notes": "The agent correctly identified the core pillars of the escalation strategy: capital allocation concerns regarding the towel plant, poor ROE performance, and the governance bottleneck caused by multi-class voting. The reasoning is very close to Loeb's key themes. It failed to include the nuanced point regarding compensation and executive perquisites, which was one of the four drivers listed in the key.",
+ "run": "2003_potlatch_escalate__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

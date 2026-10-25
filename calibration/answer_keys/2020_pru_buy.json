@@ -1,0 +1,55 @@
+{
+  "id": "2020_pru_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "Just under 5% economic stake including derivatives and SPV; reported above $2bn, not a verified flagship NAV percentage.",
+  "first_action_date": null,
+  "first_action_window": "Ticker identity corrected: Prudential plc PRU.L/PUK, not US Prudential Financial PRU.",
+  "disclosure_date": "2020-02-24",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Mike Wells",
+      "Prudential plc board",
+      "insurance regulators"
+    ],
+    "governance_route": "P2; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Asia and Jackson shared no discernible benefit from the same corporate umbrella.",
+      "source": "https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24)",
+      "quote": null
+    },
+    {
+      "driver": "Independent Asian capital allocation could fund a high-ROE franchise with structural growth.",
+      "source": "https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24)",
+      "quote": null
+    },
+    {
+      "driver": "Jackson could invest and manage its own capital needs without obscuring Asian value.",
+      "source": "https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24)",
+      "quote": null
+    },
+    {
+      "driver": "Removing unnecessary group costs and complexity could unlock higher valuation.",
+      "source": "https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "Jackson separated in September 2021. Q1 2020 loss and subsequent adds are retained in the dossier; realized round-trip return unknown.",
+  "sources": [
+    "https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Ticker identity corrected: Prudential plc PRU.L/PUK, not US Prudential Financial PRU. AUM 14bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20200224005747/en/Third-Point-Sends-Letter-to-Prudential-plc-Highlighting-Opportunity-to-Separate-US-and-Asian-Businesses (2020-02-24). AUM observation period 2020-02; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

@@ -1,0 +1,60 @@
+{
+ "pack": "2003_potlatch_escalate",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2003-05-01",
+ "stages": {},
+ "final": {
+  "as_of_date": "2003-05-01",
+  "company": "the Company",
+  "ticker": "unknown",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "high",
+  "thesis_at_purchase_vs_now": [
+   "Asset stewardship: broken; persistent capital misallocation into new capacity amid industry downturn [D01, D06].",
+   "Operating recovery: intact but sluggish; marginal Q1 performance improvement insufficient [D03, D07].",
+   "Equal voting rights: broken; dual-class structure and staggered board remain entrenched with 80% hurdle for change [D03, D07]."
+  ],
+  "remaining_skew": "Upside significant via sum-of-the-parts realization and governance reform; downside protected by timber asset value [D01, D04].",
+  "next_catalyst_and_timing": "Annual meeting on May 12, 2003, followed by a campaign to clear the 80% hurdle for voting reform in the next cycle [D07].",
+  "asks_if_escalating": [
+   "Immediate cessation of non-core capital expenditure (Las Vegas plant) [D01].",
+   "Initiation of a formal strategic review to separate timber assets from loss-making manufacturing operations [D01].",
+   "Board commitment to a defined timeline for the elimination of dual-class voting and staggered terms [D03, D07]."
+  ],
+  "drivers": [
+   {
+    "driver": "Persistent capital misallocation into undifferentiated capacity expansion despite industry oversupply [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Material operating underperformance versus peers with ROE at -33.1% vs -4.1% industry average [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "Entrenched governance structure with a dual-class share system and staggered board obstructing shareholder influence [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Underlying value in timber assets obscured by consolidated loss-making manufacturing [D01].",
+    "citations": [
+     "D01"
+    ]
+   }
+  ],
+  "memo": "The Company is a classic example of a business where the intrinsic value of its timber assets is being cannibalized by a management team obsessed with empire-building through ill-timed capacity expansion. Management is currently sinking $66 million into a new Las Vegas towel plant despite a clear industry downturn and widespread oversupply, a move that sacrifices current cash generation for theoretical long-term gains [D01, D06]. Our initial thesis regarding asset stewardship is broken; while we have seen marginal operational improvements—including a recent labor contract—they are insufficient to justify the current stewardship of capital [D03, D07].\n\nThe governance structure is designed to insulate the board from accountability, utilizing an 80% approval hurdle for voting changes and a staggered board [D03, D07]. With the company delivering a staggering -33.1% ROE compared to a -4.1% peer average, the case for change is undeniable [D01, D06]. We have already engaged privately and registered our objection publicly, yet the management remains entrenched [D07].\n\nWe are moving to ESCALATE. We intend to force the issue of portfolio simplification and demand an immediate strategic review to separate the high-value timber assets from the manufacturing business [D01]. We will not wait for the next annual cycle to be ignored; we must hold the board accountable for the destruction of shareholder equity [D07].",
+  "uncited_claims": []
+ }
+}

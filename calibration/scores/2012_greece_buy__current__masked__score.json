@@ -1,0 +1,59 @@
+{
+ "trade_id": "2012_greece_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The market overstates the probability of default and redenomination relative to the official-sector incentive to keep Greece in the euro. → The market is paralyzed by the upcoming June 17 election, leading to indiscriminate selling by funds running significantly reduced exposure [D01, D06]."
+  ],
+  "missed": [
+   "New bonds' legal terms and creditor protections improve the recovery asymmetry.",
+   "Incremental official funding can produce low-20s pricing, with larger upside as the strip moves to yield valuation.",
+   "On-the-ground assessment and policy resolve support willingness to implement the program; this is Q3 hindsight relative to this pack."
+  ],
+  "extra_agent_drivers": [
+   "The sovereign bonds are trading at a distressed 10 cents on the euro.",
+   "The June 17 election acts as a binary catalyst.",
+   "Recovery value is estimated at 25-30 cents on the euro."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The sovereign bonds are trading at a distressed 10 cents on the euro",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The June 17 election acts as a binary catalyst",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The bonds reflect a 53.5% nominal haircut",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market pricing is driven by forced liquidations",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a position in Greek sovereign debt strips, which currently trade at 10 cents on the euro [D04].",
+ "grader_notes": "The agent correctly matched the directional decision (BUY). However, the reasoning overlap is weak because the agent focused on specific pre-election market mechanics and price targets rather than the broader institutional incentive structures and recovery asymmetry mechanisms cited by Loeb in his post-facto explanation.",
+ "run": "2012_greece_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

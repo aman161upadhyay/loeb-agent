@@ -1,0 +1,32 @@
+{
+  "id": "2022_growth_cut",
+  "company": "Third Point growth, venture and SPAC risk book",
+  "ticker": "PORTFOLIO",
+  "aliases": [
+    "Far Point",
+    "FPAC",
+    "Global Blue",
+    "Offshore",
+    "PORTFOLIO",
+    "Rivian",
+    "RIVN",
+    "S",
+    "Sentinel One",
+    "SentinelOne",
+    "SPAC",
+    "Third Point",
+    "Third Point growth, venture and SPAC risk book",
+    "Ultra",
+    "UPST",
+    "Upstart"
+  ],
+  "as_of_date": "2022-03-31",
+  "mode": "hedge",
+  "era": "C",
+  "first_action_window": "May6 retrospective distinguishes Q1-end41% from May5 23%; no later exposure or private-writeoff facts appear in docs.",
+  "fund_aum_usd_bn": 18,
+  "fund_aum_observation_period": "2021-12",
+  "fund_aum_source_date": "2022-02-01",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. May6 retrospective distinguishes Q1-end41% from May5 23%; no later exposure or private-writeoff facts appear in docs. AUM 18bn is firm/manager capital, not Offshore NAV, per https://www.bloomberg.com/news/articles/2022-02-01/loeb-s-third-point-hedge-funds-slump-as-much-as-10-in-january (2022-02-01). AUM observation period 2021-12; last verified, not asserted current."
+}

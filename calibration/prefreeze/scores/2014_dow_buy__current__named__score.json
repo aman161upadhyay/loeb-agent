@@ -1,0 +1,49 @@
+{
+ "trade_id": "2014_dow_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Commodity and specialty businesses merit an objective strategic review and potential separation. → Structural separation of specialty chemicals from cyclical commodity businesses",
+   "Petrochemicals under-earn despite shale feedstock advantages, indicating a self-help opportunity. → Improved operational focus and margin targets to close the significant gap versus peer benchmarks"
+  ],
+  "missed": [
+   "Transparent transfer pricing and operating benchmarks expose cross-subsidy and accountability gaps.",
+   "A stronger balance sheet and disciplined capital return complement operating improvement."
+  ],
+  "extra_agent_drivers": [
+   "SOTP valuation based on specific P/E multiples ($65 target)",
+   "Management's incremental self-help/disposal program is inadequate",
+   "Specialty materials and agriculture provide a valuation floor of $40"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Dow generated a paltry 2.1% net margin in 2012, while focused peers like DuPont and Eastman achieved 13.9% and 9.9% margins, respectively.",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Performance Plastics grew EBITDA by 32% in Q3 2013.",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 13,
+  "cited": 3,
+  "share": 0.23
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a position in Dow common equity with an initial 3% weight, with the intent to scale to 7% of NAV as we progress our engagement.",
+ "grader_notes": "The agent correctly identifies the investment direction and the core catalyst (structural separation). It misses the specific focus on transfer pricing and balance sheet management highlighted by Loeb, instead focusing on a detailed SOTP valuation and peer margin benchmarking. The reasoning is strongest on the strategic misalignment but weaker on the specific financial mechanics cited by the source.",
+ "run": "2014_dow_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

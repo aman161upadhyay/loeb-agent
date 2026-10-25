@@ -1,0 +1,53 @@
+{
+ "pack": "2021_venture_book",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "existing",
+ "as_of_date": "2021-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2021-01-31",
+  "company": "Upstart Holdings, Inc.",
+  "ticker": "UPST",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Venture-backed AI credit underwriting: intact [D01]",
+   "Fee-based model without balance sheet loan risk: intact [D01]",
+   "Scalability of partner bank distribution: intact [D01]"
+  ],
+  "remaining_skew": "Upside relies on continued AI model accuracy in credit underwriting and expansion of partner base; downside risk is model failure during an untested credit cycle [D05].",
+  "next_catalyst_and_timing": "First post-IPO quarterly earnings report [D03].",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "AI-driven credit underwriting continues to demonstrate potential for superior risk-adjusted returns over traditional scoring [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The fee-based platform model avoids the capital-intensive nature of traditional lending [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "The position originated as a venture investment, reflecting deep familiarity with management and the technology [D01].",
+    "citations": [
+     "D01"
+    ]
+   },
+   {
+    "driver": "Rapid post-IPO price appreciation requires disciplined monitoring of valuation against sustainable earnings power [D04].",
+    "citations": [
+     "D04"
+    ]
+   }
+  ],
+  "memo": "Upstart remains a compelling opportunity where our edge is rooted in deep, long-term familiarity as a venture investor, rather than a speculative public market bet [D01]. The platform's application of AI to consumer-credit underwriting provides a clear catalyst by potentially offering superior approval and loss outcomes for partner banks [D01]. By focusing on fee generation rather than holding loans on its own balance sheet, Upstart maintains a capital-light business model that differentiates it from traditional lenders [D01].\n\nFollowing the IPO, the stock has experienced significant price appreciation, moving well beyond its $20 offering price [D04]. While this volatility is expected for a newly public entity, we remain focused on the underlying operating metrics—specifically partner bank retention and the resilience of AI credit models through varied economic cycles [D05]. We acknowledge the risks of model sensitivity to credit cycles not represented in training data and potential regulatory scrutiny, but current data does not suggest the thesis has broken [D05].\n\nWe maintain our position to observe the upcoming first public earnings report, which will provide necessary transparency into cohort performance [D03]. We will continue to evaluate the company's ability to convert its technological advantage into sustainable cash flows while remaining vigilant about the valuation premium established since the IPO [D04].",
+  "uncited_claims": []
+ }
+}

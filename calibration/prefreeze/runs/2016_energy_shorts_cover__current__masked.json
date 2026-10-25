@@ -1,0 +1,48 @@
+{
+ "pack": "2016_energy_shorts_cover",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2016-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2016-01-31",
+  "decision": "REDUCE_GROSS",
+  "conviction": "medium",
+  "regime_evidence": "Oil markets remain significantly oversupplied with inventories high [D03], and US production continued to grow through 2015 [D06]. Financial markets show signs of stress with VIX elevated at 20.20 [D04] and equity markets off 5.1% year-to-date [D06].",
+  "book_exposure": "As of December 2015, the Offshore fund held 96.7% gross equity exposure (72.3% long, 24.4% short) [D08].",
+  "actions": [
+   "Cover short energy positions to reduce gross exposure in a volatile, commodity-sensitive regime [D06, D08]",
+   "Maintain cash and liquidity given the lack of visibility into firm-wide leverage and current fund positioning [D08]"
+  ],
+  "target_gross_net": "Reduce gross exposure below 90% by covering thematic energy shorts [D06, D08].",
+  "drivers": [
+   {
+    "driver": "Excess supply in global oil markets continues to pressure pricing, making energy-heavy short baskets susceptible to squeeze risk [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   },
+   {
+    "driver": "A 96.7% gross equity exposure creates unacceptable downside risk during periods of heightened market volatility [D06, D08].",
+    "citations": [
+     "D06",
+     "D08"
+    ]
+   },
+   {
+    "driver": "The lack of clear recovery catalysts in the near-term energy outlook warrants a more defensive stance [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   }
+  ],
+  "memo": "The current market environment is characterized by persistent commodity oversupply and increasing volatility [D03, D06]. While our thematic energy shorts have benefited from the secular decline in oil prices, the risk of a technical squeeze—driven by policy interventions or shifts in sentiment—is high, and we have no interest in holding such positions into a potential regime change [D05]. \n\nWe are choosing to reduce gross exposure now. Our discipline is to exit when the thesis reaches a stage of diminishing returns or when the portfolio becomes too concentrated in a singular, crowded macro factor [D06, D08]. We are not waiting for a fundamental bottom in oil, which remains speculative; rather, we are prioritizing capital preservation and liquidity by cutting positions that have served their purpose [D04, D07].",
+  "uncited_claims": [
+   "The energy-short basket has been profitable in recent periods."
+  ]
+ }
+}

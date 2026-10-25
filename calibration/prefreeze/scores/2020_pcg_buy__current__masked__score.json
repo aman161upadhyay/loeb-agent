@@ -1,0 +1,53 @@
+{
+ "trade_id": "2020_pcg_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 3,
+  "matched": [
+   "Bankruptcy settlements and California's wildfire framework created a path toward financial normalization → The California wildfire fund provides a vital floor by isolating the company from catastrophic liability, fundamentally de-risking the utility's long-term earnings power"
+  ],
+  "missed": [
+   "A good utility business had been impaired by a bad capital structure rather than disappearing demand.",
+   "The recapitalization and post-reorganization equity provided a fresh capital-structure entry."
+  ],
+  "extra_agent_drivers": [
+   "The company has emerged from Chapter 11 with a court-mandated plan, but remains mispriced due to a temporary technical overhang of shares held by restructuring creditors.",
+   "We are acquiring a critical, regulated utility at a price (~$9.03) near its offering level, while the market incorrectly discounts the equity for historical wildfire volatility instead of future earnings stability.",
+   "Normalization of operating margins to peer levels of ~15.5% against a $38.1bn asset base provides a clear path to $1.50 in forward EPS and an $18.00 target valuation."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is an essential regulated electric and gas utility that has just emerged from Chapter 11 bankruptcy on July 1, 2020",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The wildfire fund provides a vital floor by isolating the company from catastrophic liability",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "historical negative operating margins are a function of wildfire-related charges",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 2,
+  "share": 0.17
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "The California wildfire fund provides a vital floor by isolating the company from catastrophic liability, fundamentally de-risking the utility's long-term earnings power [D01, D03, D05].",
+ "grader_notes": "The agent correctly identified the direction as a BUY. The reasoning was closest to Loeb's regarding the importance of the wildfire framework and financial normalization, but the agent relied heavily on technical, quantitative valuation drivers (share overhang, peer margin analysis) that were not present in Loeb's stated drivers.",
+ "run": "2020_pcg_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

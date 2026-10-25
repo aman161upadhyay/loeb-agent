@@ -1,0 +1,49 @@
+{
+ "pack": "2023_dis_sell2",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2023-02-08",
+ "stages": {},
+ "final": {
+  "as_of_date": "2023-02-08",
+  "company": "The Walt Disney Company",
+  "ticker": "DIS",
+  "decision": "HOLD",
+  "reason_class": "L5",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Cost action: strengthened with new $5.5bn savings target [D03]",
+   "Board expertise: strengthened via Carolyn Everson appointment [D03]",
+   "Streaming/Integration: intact but challenging; DTC losses persist at -$1.1bn [D03]"
+  ],
+  "remaining_skew": "Upside relies on successful cost rationalization and streaming profitability path versus downside floor supported by parks and IP assets [D01, D03]",
+  "next_catalyst_and_timing": "Execution of the $5.5 billion cost savings program and ongoing margin improvement in DTC over the next 2-4 quarters [D03]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "The September 2022 support agreement includes a board appointment and standstill obligations, necessitating a hold through the implementation of the plan [D03, D07].",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Management has recently announced a significant $5.5 billion cost-savings target which requires monitoring to confirm execution [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "Streaming remains a cash-heavy investment; the immediate catalyst is proving operating discipline rather than further governance conflict [D03, D05].",
+    "citations": [
+     "D03",
+     "D05"
+    ]
+   }
+  ],
+  "memo": "We maintain our position in The Walt Disney Company as we move into the implementation phase of the governance agreement reached in September 2022 [D07]. The appointment of Carolyn Everson to the board provides the necessary internal oversight to hold management accountable to their operational targets [D03]. With the company's announcement of a $5.5 billion cost savings program, the primary catalyst has shifted from initial constructivist engagement to the execution of these efficiency mandates [D03].\n\nWhile the market continues to harbor concerns regarding secular network erosion and the cash intensity of the direct-to-consumer business—which reported an operating loss of approximately $1.1 billion in the latest quarter—our thesis focuses on the durability of the parks franchise and the potential for improved capital allocation [D01, D03, D05]. We must distinguish between temporary margin pressure and structural impairment; the current cost-action plan is a concrete step toward the latter [D03, D05].\n\nWe remain disciplined in our view that selling before the results of this management plan are evidenced would forfeit the upside of our prior engagement [D05]. Our holding reflects the constraints of the existing standstill agreement and our commitment to seeing the agreed-upon strategic adjustments through to realization [D03, D07].",
+  "uncited_claims": []
+ }
+}

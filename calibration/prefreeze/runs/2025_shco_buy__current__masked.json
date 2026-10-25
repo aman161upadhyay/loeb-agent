@@ -1,0 +1,55 @@
+{
+ "pack": "2025_shco_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2025-01-28",
+ "stages": {},
+ "final": {
+  "as_of_date": "2025-01-28",
+  "company": "Soho House & Co.",
+  "ticker": "SHCO",
+  "decision": "ESCALATE",
+  "reason_class": "ESCALATE",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Membership growth: intact, 208,078 members up 13% YoY [D03]",
+   "Profitability: broken/underperforming, ongoing negative GAAP bottom line despite adjusted EBITDA improvements [D03]",
+   "Governance: broken, super-voting control influence over potential privatization risks minority interests [D01]",
+   "Valuation: mispricing persists, trapped in public market with low liquidity and complex capital structure [D04]"
+  ],
+  "remaining_skew": "Significant upside potential if privatization process is corrected to ensure fair value/competitive auction, versus downside risk from continued public-market illiquidity and capital-intensive hospitality overhead [D04, D05]",
+  "next_catalyst_and_timing": "Public push for transparent, independent special committee process to evaluate potential sale and prevent value transfer to controlling shareholders; 1-3 quarters [D01, D07]",
+  "asks_if_escalating": [
+   "Establishment of an independent special committee to oversee any potential go-private transaction",
+   "Provision of full transparency regarding bidder access and financing to ensure a competitive, fair-process auction",
+   "Commitment to minority shareholder protections to prevent unilateral deal-setting by controlling interests"
+  ],
+  "drivers": [
+   {
+    "driver": "Persistent corporate governance risks under a controlling shareholder require public intervention to secure a fair valuation for minorities [D01, D05].",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "The company's status as a capital-intensive hospitality operator with negative GAAP earnings demands a transparent, arms-length exit strategy [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   },
+   {
+    "driver": "Public-market illiquidity and discount relative to the brand's potential justify pushing for a sale process that captures full sum-of-the-parts value [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "memo": "Soho House represents a classic constructivist opportunity where a powerful consumer brand is hampered by a complex capital structure, negative GAAP earnings, and significant governance risks [D01, D03, D04]. While membership growth remains healthy at 13% YoY, the company remains a capital-intensive hospitality network struggling to convert member value into tangible cash for shareholders [D03, D05, D06]. Current financial metrics, including negative common equity and ongoing operating losses, suggest the business is poorly suited for its current public-market existence [D02, D04].\n\nThe central issue is the ongoing privatization context [D01]. With a controlling shareholder influence, minority investors face the genuine risk of an opaque transaction that fails to achieve fair value through a competitive bidding process [D01, D05]. We are not content to wait for a management-led, potentially value-destructive process to conclude in private [D01, D07].\n\nWe are escalating to ensure a rigorous, independent process that maximizes shareholder value [D01]. Our asks are straightforward: the formation of a truly independent special committee to manage any potential sale and a commitment to transparency that guarantees an open, competitive auction [D01, D05]. We require a clear path to value realization that does not leave minority holders sidelined while controllers dictate the terms of exit [D05, D07].",
+  "uncited_claims": []
+ }
+}

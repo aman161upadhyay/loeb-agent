@@ -1,0 +1,59 @@
+{
+ "trade_id": "2009_delphi_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "The GM and bankruptcy process supplies a path to emergence and new ownership. → The GM-supported restructuring path provides a clear framework for value creation."
+  ],
+  "missed": [
+   "Use senior restructuring paper rather than speculate in the old common stock.",
+   "Underwrite individual auto claims bottom-up while distinguishing plausible survivors from losers.",
+   "Restructuring can reset legacy costs and expose the industrial asset base's earnings power."
+  ],
+  "extra_agent_drivers": [
+   "June 16, 2009 financing hearing as catalyst",
+   "Bridge liquidity provided by GM-supported DIP",
+   "Court-supervised Chapter 11 process mitigates reliance on legacy management"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Delphi's status as a critical automotive supplier creates an opportunity to capture value through its essential engineering and manufacturing footprint.",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The June 16, 2009 financing hearing acts as a clear catalyst to clear liquidation fears and validate the company's going-concern viability.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The proposed $250m GM-supported DIP financing provides necessary bridge liquidity.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The court-supervised Chapter 11 process mitigates reliance on legacy management.",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 15,
+  "cited": 9,
+  "share": 0.6
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While the company faces severe headwinds, including a 51.9% revenue decline in Q1 2009, the GM-supported restructuring path provides a clear framework for value creation.",
+ "grader_notes": "The agent correctly identified the direction as a BUY, but used a bond instrument rather than the loan instrument cited by Loeb. The agent's reasoning was significantly more tactical (focused on the specific June 16 DIP hearing) compared to Loeb's retrospective strategic drivers, resulting in a low overlap of established drivers.",
+ "run": "2009_delphi_buy__current__named",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

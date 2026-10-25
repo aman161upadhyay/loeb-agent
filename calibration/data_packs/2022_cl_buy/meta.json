@@ -1,0 +1,31 @@
+{
+  "id": "2022_cl_buy",
+  "company": "Colgate-Palmolive Company",
+  "ticker": "CL",
+  "aliases": [
+    "CL",
+    "Colgate",
+    "Colgate-Palmolive",
+    "Colgate-Palmolive Company",
+    "elmex",
+    "Hill's",
+    "Hill's Pet Nutrition",
+    "Hills",
+    "Hill’s",
+    "Palmolive",
+    "Prescription Diet",
+    "Sanex",
+    "Science Diet",
+    "Softsoap",
+    "Tom's of Maine"
+  ],
+  "as_of_date": "2022-10-31",
+  "mode": "new",
+  "era": "C",
+  "first_action_window": "Cutoff follows Oct18 disclosure; this is business underwriting with the current investor decision removed, not a literal pre-disclosure trading signal.",
+  "fund_aum_usd_bn": 14,
+  "fund_aum_observation_period": "2022-08",
+  "fund_aum_source_date": "2022-08-15",
+  "instrument": "common",
+  "notes": "Compact source-grounded reconstruction; investor's current decision, later rationale and outcomes are excluded from docs. Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Cutoff follows Oct18 disclosure; this is business underwriting with the current investor decision removed, not a literal pre-disclosure trading signal. AUM 14bn is firm/manager capital, not Offshore NAV, per https://www.businesswire.com/news/home/20220815005428/en/Third-Point-Accumulates-Position-in-The-Walt-Disney-Company-Files-for-Hart-Scott-Rodino-to-Engage-Directly-with-the-Company (2022-08-15). AUM observation period 2022-08; last verified, not asserted current."
+}

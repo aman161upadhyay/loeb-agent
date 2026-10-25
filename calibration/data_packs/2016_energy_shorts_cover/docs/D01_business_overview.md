@@ -1,0 +1,17 @@
+Title: Business economics and asset map — Third Point thematic energy and China-sensitive short book
+Source: https://www.eia.gov/outlooks/steo/archives/2016/Jan16.pdf (2016-01-12); https://www.insidermonkey.com/blog/third-points-portfolio-struggled-in-the-turbulent-third-quarter-378482/ (2015-10-18); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (2016-01-05); https://13f.info/13f/000108514615002339-third-point-llc-q3-2015 (2015-11-13)
+Date: 2016-01-31
+
+The portfolio question concerns a linked set of commodity, industrial and currency exposures, not a single oil producer. Oil revenues depend on realized prices, production and hedging; equity values also depend on debt maturities and access to external funding. A producer with attractive acreage can still have an impaired equity stub. Commodity shorts and short credit express different claims on the same enterprise. A dollar-sensitive short basket can acquire a common macro factor even when individual company analyses appear independent. EIA's January outlook describes an oversupplied oil market, a useful backdrop but not a security-specific insolvency forecast. [S1]
+
+Economic map and evidence limits. Separate the source's business descriptions from an analyst's inference about durability. Revenue scale alone is not a moat: the important distinctions are repeat demand, switching or distribution advantages, reinvestment requirements, and the ability to convert customer value into cash for owners. A strong asset can be an unattractive security when other claims absorb the cash. Conversely, complexity can obscure an otherwise sound franchise. The facts above identify the businesses and the relevant unit of analysis; they do not establish that a particular corporate structure is optimal.
+
+Underwrite the operating case before assuming an event. Identify who pays, why the customer returns, which costs are fixed, and what spending must recur to protect the franchise. Keep operating assets, financial investments and restricted capital separate. Where the recovered source does not provide unit economics, customer retention or segment capital employed, those figures are not available in contemporaneous sources; do not fill them with a current estimate. A downside analysis should test the business with no immediate transaction or valuation rerating. This is an analyst framework, not a statement that management or any shareholder has adopted it.
+
+Analyst cross-check: Map the customer, contractual counterparty and owner of the relevant intellectual property separately. A distributor's access to end demand is not ownership of that demand; likewise, reported group market share does not prove that each operating unit possesses pricing power or recurring revenue.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.eia.gov/outlooks/steo/archives/2016/Jan16.pdf (published 2016-01-12).
+- [S2] https://www.insidermonkey.com/blog/third-points-portfolio-struggled-in-the-turbulent-third-quarter-378482/ (published 2015-10-18).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-limited---third-point-december-performance-564207271.html (published 2016-01-05).
+- [S4] https://13f.info/13f/000108514615002339-third-point-llc-q3-2015 (published 2015-11-13).

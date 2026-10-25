@@ -1,0 +1,57 @@
+{
+  "id": "2013_sothebys_buy",
+  "actual_decision": "BUY",
+  "conviction": "high",
+  "size_pct_nav": "9.3% at October 2 letter; requested 9.6% not verified at August 26, initial NAV weight unknown.",
+  "first_action_date": null,
+  "disclosure_date": "2013-10-02",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "William Ruprecht",
+      "Sotheby's board",
+      "shareholders"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "The iconic franchise is losing competitive ground because of leadership and strategic weakness.",
+      "source": "https://www.sec.gov/Archives/edgar/data/823094/000119312513388165/d605390dex993.htm (2013-10-02; later stated rationale relative to pack cutoff)",
+      "quote": "Sotheby’s is like an old master painting in desperate need of restoration."
+    },
+    {
+      "driver": "Expenses near prior peak levels despite lower revenue reveal an operational efficiency gap.",
+      "source": "https://www.sec.gov/Archives/edgar/data/823094/000119312513388165/d605390dex993.htm (2013-10-02; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "CEO perquisites and scant director ownership contrast with an owner's incentives.",
+      "source": "https://www.sec.gov/Archives/edgar/data/823094/000119312513388165/d605390dex993.htm (2013-10-02; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Contemporary art, private sales, digital distribution and international markets provide specific growth routes.",
+      "source": "https://www.sec.gov/Archives/edgar/data/823094/000119312513388165/d605390dex993.htm (2013-10-02; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Board refresh and CEO succession supply the mechanism for restoration.",
+      "source": "https://www.sec.gov/Archives/edgar/data/823094/000119312513388165/d605390dex993.htm (2013-10-02; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact execution price and entry multiple not recovered.",
+  "outcome_note": "Three seats secured by May 2014 settlement, not completed contested-election victory; investment continued to 2019 take-private.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/823094/000119312513388165/d605390dex993.htm",
+    "https://www.sec.gov/Archives/edgar/data/823094/000082309413000027/exhibit991-earningsrelease.htm"
+  ],
+  "pack_quality_notes": "Grade B. August 26 precedes October stated rationale: October drivers marked retrospective relative to pack. Requested 9.6% corrected to verified 9.3% October disclosure, not backdated. Current quote, real-estate appraisal and full Christie's financial comparison missing. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

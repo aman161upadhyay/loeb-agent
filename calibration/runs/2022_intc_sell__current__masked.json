@@ -1,0 +1,54 @@
+{
+ "pack": "2022_intc_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2022-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2022-01-31",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Original driver: Governance and strategic review / Status: Addressed through leadership change and IDM 2.0 implementation [D07]",
+   "Original driver: Engineering execution / Status: Improved focus under new management [D03]",
+   "Original driver: Capital allocation / Status: Increased dividend announced, though heavy reinvestment needs remain [D03]"
+  ],
+  "remaining_skew": "P/E of ~10x vs. high-growth peer group; upside depends on successful execution of turnaround plan vs. downside of capital-intensive failure [D04, D06]",
+  "next_catalyst_and_timing": "Ongoing quarterly milestones of technical execution and cash flow conversion over the next 1-4 quarters [D03, D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "Management has executed on the original need for leadership change by installing a technical CEO [D07].",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "The Company is demonstrating progress on its IDM 2.0 roadmap and beating recent guidance [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The valuation remains attractive at ~10x P/E compared to the broader semiconductor landscape [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Substantial cash generation provides a buffer, though it must be carefully balanced against significant capital expenditure requirements [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   }
+  ],
+  "memo": "Our original engagement centered on correcting leadership, talent retention, and strategic drift, which has been materially addressed through the appointment of a new technical CEO and the rollout of the IDM 2.0 program [D07]. While the bear case warns of a capital-intensive turnaround that could strain cash flows, the latest results show execution is meeting or exceeding our expectations [D03, D05]. We acknowledge that the heavy manufacturing reinvestment cycle is a drag on near-term returns, but this is a necessary cost of the turnaround we advocated for [D03, D06].\n\nWe remain disciplined in our view that revenue growth alone is not the goal; we are tracking the actual cash conversion and the success of the new manufacturing roadmap [D06]. The board’s recent dividend increase is a welcome signal of capital discipline, though we will continue to monitor whether this competes unduly with essential capacity investments [D03]. At current valuation levels, the stock offers an attractive skew for patient investors as the market continues to discount the success of the turnaround [D04].\n\nWe maintain our position, as the catalyst remains active and the management team is currently executing on our core asks [D03, D07]. We will continue to evaluate the quarterly milestones of technical performance and free cash flow generation, holding the management team accountable to the specific goals of the IDM 2.0 plan [D03, D05].",
+  "uncited_claims": []
+ }
+}

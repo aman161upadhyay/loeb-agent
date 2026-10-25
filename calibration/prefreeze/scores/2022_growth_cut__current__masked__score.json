@@ -1,0 +1,54 @@
+{
+ "trade_id": "2022_growth_cut",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "Valuations were incompatible with the changing rate environment, geopolitical uncertainty and weakening economies. → The combination of sustained, elevated inflation at 7.9% and the Federal Reserve’s commitment to raising rates has broken the valuation floor for the long-duration technology and venture-origin assets that have previously driven our returns."
+  ],
+  "missed": [
+   "Reduce and substantially hedge the volatile SentinelOne concentration and exit other large equity exposures.",
+   "Increase selective single-name shorts while reducing basket and market hedges.",
+   "Maintain buying power for idiosyncratic events and cash-returning energy/cyclical opportunities."
+  ],
+  "extra_agent_drivers": [
+   "Rising CPI (7.9%) and policy rate increases compress valuation multiples for growth-heavy books.",
+   "A prudent event-driven strategy mandates exiting positions where the liquidity and funding-driven growth model is no longer sustainable.",
+   "Third Point’s history demonstrates that during liquidity regime changes—like 2008 and Q1 2020—cutting gross early is mandatory to protect capital."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Federal Reserve initiated a policy-rate hike cycle on March 16 [D01]",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "February CPI reached a 7.9% YoY increase [D03]",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Previous records indicate high equity gross exposure (149.7% in 2021-09) [D08]",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 8,
+  "cited": 5,
+  "share": 0.63
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are facing a regime shift that mandates a decisive reduction in gross exposure.",
+ "grader_notes": "The agent correctly identified the direction of the trade (Reduce Gross). However, the agent's reasoning failed to capture the specific tactical drivers stated by Loeb, such as managing the SentinelOne concentration and shifting toward cash-returning energy/cyclical opportunities, relying instead on broad macro-justifications not explicitly in the Loeb letter.",
+ "run": "2022_growth_cut__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

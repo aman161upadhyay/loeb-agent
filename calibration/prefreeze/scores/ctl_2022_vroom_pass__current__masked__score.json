@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2022_vroom_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Vroom/VRM/UACC absent from complete 54-quarter 13F index; no attributable manager public comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company is a cash-burning, operationally distressed entity facing a race between restructuring and potential insolvency",
+   "Operating margins have deteriorated to -21.1%, signaling significant fundamental weakness compared to industry benchmarks",
+   "The turnaround is a management-led operational effort lacking an identifiable activist catalyst or governance path",
+   "The investment thesis depends on unproven management executing a difficult, multi-year pivot, violating our core criteria for event-driven conviction"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Operating margins have deteriorated to -21.1%",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total debt standing at $1,212.1 million",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 4,
+  "share": 0.44
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We pass on this opportunity.",
+ "grader_notes": "The agent correctly identified the PASS decision but failed to utilize the provided answer key's reasoning, which focused on the absence of Vroom from Third Point's historical holdings. Instead, the agent fabricated an independent fundamental analysis of the company's distress and operational failures, missing the single provided driver entirely.",
+ "run": "ctl_2022_vroom_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

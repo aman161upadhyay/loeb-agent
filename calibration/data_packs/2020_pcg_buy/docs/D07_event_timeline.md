@@ -1,0 +1,17 @@
+Title: Dated event map and authority to act — PG&E Corporation
+Source: https://investor.pgecorp.com/news-events/press-releases/press-release-details/2020/PGE-Emerges-from-Chapter-11/default.aspx (2020-07-01); https://investor.pgecorp.com/news-events/press-releases/press-release-details/2020/PGE-Corporation-Prices-Offerings-of-its-Common-Stock-and-Equity-Units/default.aspx (2020-06-26); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-ltd-third-point-may-2020-monthly-report-876562038.html (2020-06-03); https://13f.info/13f/000108514620001614-third-point-llc-q1-2020 (2020-05-15)
+Date: 2020-07-01
+
+June 20: bankruptcy plan confirmed. June 26: common and equity-unit offering terms are announced with expected July 1 closing. July 1: emergence, funding and new board are announced. The event is implemented, but operational and safety commitments extend beyond the financing date. The analyst must distinguish an offering subscription from a subsequent exchange purchase and avoid assigning a PIPE price without the agreement. No later CEO appointment, operating achievements, future wildfire incident or dividend policy is in this information set. [S1–S2]
+
+Event-path discipline. The timeline separates a public report, an announced intention, a legally binding step and actual implementation. These are different milestones. A board may examine an option without approving it; an approved transaction can still face financing, regulatory, tax or execution conditions. Put the authority to decide alongside the event, rather than presume that a minority shareholder can cause it immediately.
+
+The observation cutoff is hard. A later upload location for an older document does not move its underlying publication date, while a later investor retrospective cannot become an earlier desk input. No eventual transaction, operating result or investment outcome is implied here. Where a first transaction day is not publicly recoverable, this document does not invent one from a quarter-end filing. Future calendar items are possibilities to monitor, not completed facts. A realistic timetable should allow multiple quarters when necessary and specify the evidence that would show delay or failure. This avoids confusing a well-written proposal with an executable catalyst and keeps the analyst's expected value separate from the historical answer.
+
+Analyst cross-check: For each prospective milestone, identify who controls the decision, which prerequisite must occur first and whether shareholder approval is sufficient. Regulatory clearance, creditor consent and operational implementation are distinct gates. Delay affects discounted value even if the eventual strategic direction remains economically sensible and legally feasible.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://investor.pgecorp.com/news-events/press-releases/press-release-details/2020/PGE-Emerges-from-Chapter-11/default.aspx (published 2020-07-01).
+- [S2] https://investor.pgecorp.com/news-events/press-releases/press-release-details/2020/PGE-Corporation-Prices-Offerings-of-its-Common-Stock-and-Equity-Units/default.aspx (published 2020-06-26).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-offshore-investors-ltd-third-point-may-2020-monthly-report-876562038.html (published 2020-06-03).
+- [S4] https://13f.info/13f/000108514620001614-third-point-llc-q1-2020 (published 2020-05-15).

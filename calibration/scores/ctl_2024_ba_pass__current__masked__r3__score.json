@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2024_ba_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Boeing/BA absent from complete 54-quarter issuer/instrument index and no attributable named common-stock comment recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company faces an acute safety and quality shock with unknowable regulatory liabilities",
+   "Management remains unproven in executing a complex, multi-year safety and certification overhaul",
+   "The current valuation is thin, and the downside floor is compromised by potential systemic insolvency risks",
+   "There is no actionable governance path or settlement precedent currently identified to influence the crisis"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company is currently grappling with a severe safety and quality shock following the January 5, 2024 door-plug incident, which has led to the grounding of 171 aircraft and significant production uncertainty",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The lack of a clear governance path or board-level accountability framework prevents us from taking a constructive role at this juncture",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 10,
+  "share": 0.91
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Consequently, we are passing on the opportunity to commit capital today.",
+ "grader_notes": "The agent correctly matched the decision label (PASS) but failed to identify the specific observational basis provided in the answer key, instead generating its own fundamental analysis and drivers. The agent's reasoning was farthest from Loeb's because it fabricated a sophisticated investment thesis instead of acknowledging the lack of public evidence of a position.",
+ "run": "ctl_2024_ba_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

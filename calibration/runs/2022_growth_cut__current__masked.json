@@ -1,0 +1,56 @@
+{
+ "pack": "2022_growth_cut",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2022-03-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2022-03-31",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The Federal Reserve initiated a policy rate hike on March 16, 2022 [D01, D07], alongside high and accelerating inflation (7.9% CPI in February) [D03, D07]. Market volatility has increased [D04, D06], and the regime has shifted toward higher discount rates which disproportionately penalize long-duration, cash-generative-challenged growth assets [D01, D04].",
+  "book_exposure": "The portfolio carries significant exposure to public growth equities, venture-origin holdings, and credit duration [D01], with a historically elevated gross equity exposure [D08].",
+  "actions": [
+   "Cut gross exposure to long-duration growth and venture-style assets which are vulnerable to rerating under higher discount rates.",
+   "Trim positions that rely on cheap external funding for growth [D01, D05].",
+   "Increase cash levels to manage liquidity and reduce sensitivity to the tightening cycle [D05]."
+  ],
+  "target_gross_net": "Materially lower gross and net exposure compared to 2021 levels to defend NAV against tightening liquidity.",
+  "drivers": [
+   {
+    "driver": "The Federal Reserve's pivot to a tightening cycle and higher discount rates necessitates a reduction in long-duration growth asset multiples [D01, D04].",
+    "citations": [
+     "D01",
+     "D04"
+    ]
+   },
+   {
+    "driver": "Private-market valuations and venture-heavy holdings face significant impairment risk as funding costs rise and liquidity shrinks [D01, D07].",
+    "citations": [
+     "D01",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The historical lesson of 2008 and Q1 2020 dictates that gross exposure should be reduced early during regime shifts rather than awaiting further price deterioration [D05, D07].",
+    "citations": [
+     "D05",
+     "D07"
+    ]
+   },
+   {
+    "driver": "Rising inflation and volatility create a challenging environment for growth-oriented equity factor concentration [D03, D06].",
+    "citations": [
+     "D03",
+     "D06"
+    ]
+   }
+  ],
+  "memo": "We are operating in a regime shift where the era of free money has definitively ended. The Federal Reserve's hike in March and the persistent 7.9% inflation print are clear signals that the discount rate applied to our long-duration, cash-light growth holdings must move higher, necessitating a painful rerating [D01, D03, D07]. We must not wait to be proven right by the market; our 2008 and 2020 experience teaches us that in liquidity-constrained environments, you reduce gross exposure early to preserve capital and create optionality [D05, D07].\n\nOur venture-origin and growth-heavy portfolio is particularly vulnerable to the tightening cycle [D01]. We are moving to reduce our gross exposure and cut positions that lack internal cash generation and are overly reliant on cheap external financing [D05, D08]. This is not an abandonment of our event-driven mandate, but a necessary defensive action to protect NAV while the market recalibrates. We will prioritize liquidity and maintain a cautious posture until the funding environment stabilizes and clear entry points emerge for higher-quality, earnings-inflection opportunities [D03, D05, D08].",
+  "uncited_claims": [
+   "No uncited claims made."
+  ]
+ }
+}

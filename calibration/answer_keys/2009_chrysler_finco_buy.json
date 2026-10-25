@@ -1,0 +1,53 @@
+{
+  "id": "2009_chrysler_finco_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Issuer-specific NAV weight unavailable; 12% auto-book figure is June aggregate, not Finco sizing.",
+  "first_action_date": null,
+  "disclosure_date": "2009-07-31",
+  "reason_class": null,
+  "opportunity_template": [
+    "E3"
+  ],
+  "catalyst_role": "P5",
+  "instrument": "loan",
+  "plan": {
+    "actors": [
+      "Chrysler Financial lenders",
+      "US Treasury",
+      "Chrysler automaker",
+      "GMAC"
+    ],
+    "governance_route": "P5; creditor/court/official process, no assumed equity voting control",
+    "timetable_quarters": 2
+  },
+  "drivers": [
+    {
+      "driver": "Finco is legally ring-fenced from the insolvent manufacturing company.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf (2009-07-31; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "First liens in the 50s and second liens in the 30s are covered by the finance company's assets.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf (2009-07-31; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "The government-set bankruptcy deadline can resolve ambiguity over the claims.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf (2009-07-31; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Subsequent runoff creates a repayment catalyst; this is a later thesis update, not initial entry evidence.",
+      "source": "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf (2009-07-31; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "July 31 retrospective letter identifies April first-lien prices in the 50s and second liens in the 30s.",
+  "outcome_note": "Loeb reports among largest quarterly winners, profit-taking and second-lien re-entry after runoff clarification.",
+  "sources": [
+    "https://fm.cnbc.com/applications/cnbc.com/resources/editorialfiles/2012/05/03/2226591_ThirdPoint2Q.pdf",
+    "https://www.gao.gov/assets/gao-09-553.pdf"
+  ],
+  "pack_quality_notes": "Grade C. May 1 requested new-mode date follows actual April purchases and automaker filing; fresh-capital counterfactual, not original first-fill prediction. Primary GAO verifies separate operations, not complete legal ring fence. Exact executed loan documentation, quote and current AUM missing. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

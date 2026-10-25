@@ -1,0 +1,51 @@
+{
+ "trade_id": "ctl_2012_best_buy_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Never held per recovered 13F history: BBY/Best Buy absent from the complete Q3/Q4 2011 and all four 2012 original Third Point 13Fs (plus Q2 amendment), and from the 54-quarter 2013–Q2 2026 index."
+  ],
+  "extra_agent_drivers": [
+   "The company trades at an overly pessimistic 6.6–7.2x forward P/E despite a significant 190bp operating margin gap vs Walmart.",
+   "The market misprices the company as a dying retailer, ignoring 26% growth in online sales.",
+   "We see a path to a $38 share price by applying an 11x multiple.",
+   "The lack of visibility into management or board composition prevents us from mapping a concrete governance route."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The company trades at an overly pessimistic 6.6–7.2x forward P/E despite a significant 190bp operating margin gap vs Walmart.",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "December entertainment comp decline of 19.5%.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Lack of visibility into management or board composition prevents us from mapping a concrete governance route.",
+    "citation": "D08",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Consequently, we are passing on the opportunity at this time, preferring to wait for an identifiable governance opening that would allow us to drive the required capital allocation and margin improvements.",
+ "grader_notes": "The agent fabricated a valuation-based rationale and a detailed turnaround plan, whereas the provided answer key correctly identifies this as a control-case 'PASS' based solely on the fact that Third Point never held the position. The agent's reasoning is completely detached from the factual reality of Third Point's lack of involvement.",
+ "run": "ctl_2012_best_buy_pass__current__masked__r2",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

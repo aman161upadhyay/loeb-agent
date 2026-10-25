@@ -1,0 +1,263 @@
+{
+ "pack": "ho_2025_ebara_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2025-06-30",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Ebara is a diversified machinery company operating through five segments: Building Service & Industrial, Energy, Infrastructure, Environmental Solutions, and Precision Machinery [D01]. The company's semiconductor manufacturing equipment franchise is positioned within this broader portfolio [D01].",
+   "segments_and_separable_assets": [
+    "Precision Machinery: Q1 2025 revenue JPY 62.406 billion, 13.2% operating margin, and JPY 73.9 billion in orders [D02, D06].",
+    "Energy: Q1 2025 revenue JPY 48.606 billion, 4.1% operating margin [D06].",
+    "Building Service & Industrial: Q1 2025 revenue JPY 56.335 billion, 7.7% operating margin [D06].",
+    "Infrastructure: Q1 2025 revenue JPY 21.527 billion, 26.0% operating margin [D06].",
+    "Environmental Solutions: Q1 2025 revenue JPY 23.471 billion, 12.9% operating margin [D06]."
+   ],
+   "economics_vs_peers": [
+    "Ebara's Precision Machinery segment operating margin of 13.2% [D06] compares to significantly higher standardized operating margins at pure-play peers Applied Materials (28.95%) and Lam Research (29.02%) [D06]. Flowserve, a pump peer, reported an 11.29% operating margin [D06]."
+   ],
+   "capital_structure": [
+    "Interest-bearing debt: JPY 150.433 billion (FY2024) [D02].",
+    "Cash: JPY 171.031 billion (FY2024) [D04].",
+    "Net cash: JPY 20.598 billion (FY2024) [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: JPY 2,778 (June 30, 2025) [D04].",
+    "Market cap: JPY 1,283.214 billion [D04].",
+    "EV: JPY 1,262.616 billion [D04].",
+    "FY2024 EV/EBITDA: 9.87x [D04].",
+    "FY2024 P/E: 17.97x [D04].",
+    "FY2025 guided P/E: 17.72x [D04]."
+   ],
+   "management_board_governance": [
+    "not in pack"
+   ],
+   "shareholder_base_and_liquidity": [
+    "not in pack"
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential hidden-asset thesis: the group's market identity and margin structure may obscure the value of the semiconductor franchise [D01].",
+    "Management-guided FY2025 targets: JPY 940 billion orders, JPY 900 billion revenue, JPY 101.5 billion operating profit [D03]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Semiconductor cyclicality and low-return industrial operations preventing a group rerating [D05].",
+    "Potential risks from tariffs, currency fluctuations, and yield/concentration issues [D05].",
+    "Costs and management distraction associated with portfolio simplification [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "not in pack"
+   ],
+   "recent_events": [
+    "May 15, 2025: Q1 financial results and management outlook presentation [D03, D07].",
+    "July 2024: Five-for-one stock split [D02]."
+   ],
+   "third_point_context": [
+    "not in pack (Firm-wide AUM of $19.3 billion reported April 2025 is provided as general context, not specific to Ebara) [D08]."
+   ],
+   "document_conflicts": [
+    "not in pack"
+   ],
+   "missing_data": [
+    "Board composition, specific governance/nomination rules, and detailed shareholder base information."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Ebara is a diversified conglomerate with a high-growth precision machinery semiconductor franchise currently obscured by a conglomerate discount and margin gap versus pure-play peers [D01, D06]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point can apply its historical large-cap constructivist framework to articulate the sum-of-the-parts valuation and bridge the significant margin gap (13.2%) in the semiconductor segment versus pure-play peers (28-29%) [D06]."
+    },
+    "governance_route_or_process": {
+     "score": "UNSURE",
+     "evidence": "Board composition and nomination rules are not in pack, leaving the specific governance route for pressing a portfolio simplification strategy unconfirmed [D08]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company maintains a net cash position of JPY 20.598 billion and trades at a modest 9.87x EV/EBITDA, providing a valuation floor for the core industrial machinery operations [D04]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of JPY 1,283 billion, Ebara provides sufficient liquidity for a $300M-$3.5B core position in line with Third Point's large-cap mandate [D04]."
+    },
+    "management_credibility": {
+     "score": "UNSURE",
+     "evidence": "Specific management or board receptivity to portfolio restructuring is not in pack, though the business is currently meeting its guided financial targets [D03, D08]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 4,
+   "n_fail": 0,
+   "n_unsure": 2,
+   "hard_fail": false,
+   "edge_statement": "The event is a sum-of-the-parts mispricing where the precision machinery semiconductor business is undervalued due to its inclusion in a conglomerate, and our edge is closing the 15%+ margin gap versus specialized peers.",
+   "one_line_verdict": "a conglomerate with an obscured high-growth semiconductor asset and a clear margin gap against pure-play peers."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M2"
+   ],
+   "variant_view": "The market views Ebara as a low-margin industrial conglomerate, discounting its high-growth semiconductor equipment segment as a result [D01, D05]. We believe the semiconductor franchise warrants a premium valuation and that active margin optimization in the machinery segments can drive significant rerating [D01, D06]. The catalyst will be a shift toward portfolio simplification and operational improvements to close the margin gap with pure-play peers [D06].",
+   "evidence": [
+    "Precision Machinery segment margin is 13.2% vs. 28-29% for pure-play peers like Applied Materials and Lam Research [D06].",
+    "Company is currently trading at 9.87x EV/EBITDA, obscuring the growth potential of the semiconductor unit [D04].",
+    "Market concerns focus on industrial segment drag and cyclicality rather than the underlying potential of the semiconductor franchise [D05]."
+   ],
+   "peer_benchmark": "Applied Materials (28.95%) and Lam Research (29.02%) for the semiconductor franchise [D06].",
+   "what_must_be_true": [
+    "The semiconductor franchise maintains its growth trajectory despite broader cyclicality concerns.",
+    "Management demonstrates willingness to engage in portfolio optimization or operational cost-cutting.",
+    "The market recognizes the sum-of-the-parts value as simplification occurs.",
+    "Macro risks like tariffs and currency fluctuations remain manageable."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "JPY 3,850",
+    "arithmetic": [
+     "Precision Machinery segment implied EV at peer multiple (29% margin applied to FY25 run-rate revenue, 12x EV/EBIT): JPY 950 billion [D06]",
+     "Other industrial segments (Energy, Building, Env, Infra) implied EV at 7x EV/EBITDA: JPY 480 billion [D06]",
+     "Net Cash: JPY 20.6 billion [D04]",
+     "Implied Total EV: JPY 1,450.6 billion",
+     "Implied Equity Value: JPY 1,471.2 billion / 461.9M shares (approx) = JPY 3,185 base / JPY 3,850 bull"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "JPY 2,250",
+    "basis": "FY24 Book value per share and recurring FCF from industrial segments [D04, D06]"
+   },
+   "current_price": "JPY 2,778 [D04]",
+   "skew": "38.6% : 19.0%",
+   "irr_pct": {
+    "base": 18,
+    "bear": 2,
+    "bull": 28
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Assumed 12x EV/EBIT multiple for the Precision Machinery segment based on discount to peer mid-teens multiples",
+    "Assumed 7x EV/EBITDA for residual industrial segments to reflect current conglomerate discount",
+    "Share count derived from market cap and share price data as exact count not in pack"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P1",
+   "asks": [
+    "Articulate a clear margin improvement plan for the Precision Machinery segment to reach 20%+ operating margins within 18 months, closing the gap toward 28-29% peer benchmarks [D06].",
+    "Evaluate a formal separation or strategic spin-off of the Precision Machinery business to eliminate the conglomerate discount [D01].",
+    "Commit to a capital allocation framework that prioritizes returning excess cash to shareholders while maintaining investment in high-growth semiconductor assets [D04]."
+   ],
+   "actors": [
+    "Board of Directors — oversight — target for engagement [D08].",
+    "Management Team — operational execution — target for engagement [D03]."
+   ],
+   "governance_route": "Private constructive dialogue with the board and management to advocate for portfolio simplification [D08].",
+   "timetable_quarters": 4,
+   "escalation_path": "If management remains unresponsive or targets are not met within 4 quarters, Third Point will escalate to a public letter and potentially nominate independent directors to the board.",
+   "why_this_role_fits_the_era": "Consistent with our post-2016 framework, we prioritize private engagement first to influence management toward value-unlocking portfolio simplification, reserving public activism for when private channels are ignored."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Precision Machinery segment operating margins fail to show sequential improvement over two quarters [D06].",
+    "Management explicitly rejects a strategic review or spin-off study in private discussions [D08].",
+    "Semiconductor equipment orders decline for two consecutive quarters, signaling a shift in growth trajectory [D02].",
+    "Company pursues a major, unrelated M&A transaction that increases conglomerate complexity [D01]."
+   ],
+   "portfolio_risk": "Factor overlap with existing Japanese equity positions and semiconductor cycle exposure [D05]. Liquidity is robust, with the company's JPY 1.28 trillion market cap allowing for a 3-5% NAV position without significant market impact, provided entry is staged over 10-15 days of volume [D04]. Hedges include index puts on the Nikkei 225 or direct shorts of lower-quality industrial conglomerates to offset cyclical beta [D05].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 3,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "3-5%",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Short index futures (Nikkei 225) to mitigate macro-volatility and currency exposure while maintaining long-term conviction in the sum-of-the-parts catalyst.",
+   "biggest_risk_in_one_sentence": "The primary risk is management's potential commitment to the status quo, which would leave the conglomerate discount intact and lock in a valuation disconnect against high-multiple semiconductor peers."
+  }
+ },
+ "final": {
+  "as_of_date": "2025-06-30",
+  "company": "Ebara Corporation",
+  "ticker": "6361 JP",
+  "decision": "BUY",
+  "conviction": "medium",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P1",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "JPY 3,850",
+   "floor": "JPY 2,250",
+   "skew": "38.6% : 19.0%",
+   "irr_pct": 28
+  },
+  "plan": {
+   "asks": [
+    "Articulate a clear margin improvement plan for the Precision Machinery segment to reach 20%+ operating margins.",
+    "Evaluate a formal separation or strategic spin-off of the Precision Machinery business.",
+    "Commit to a capital allocation framework that prioritizes returning excess cash to shareholders."
+   ],
+   "actors": [
+    "Board of Directors",
+    "Management Team"
+   ],
+   "governance_route": "Private constructive dialogue",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "Ebara is a classic conglomerate mispricing where the high-growth, high-margin Precision Machinery semiconductor franchise is obscured by a portfolio of lower-margin industrial assets [D01, D06].",
+    "citations": [
+     "D01",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The Precision Machinery segment currently operates at a 13.2% margin, representing a massive 15%+ gap versus pure-play semiconductor equipment peers like Applied Materials and Lam Research, which operate at 28-29% [D06].",
+    "citations": [
+     "D06"
+    ]
+   },
+   {
+    "driver": "With the company trading at 9.87x EV/EBITDA, the market is applying a conglomerate discount that fails to capture the intrinsic value of the semiconductor unit, creating an asymmetric 38.6% upside to our JPY 3,850 target [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "The company maintains a net cash position of JPY 20.598 billion and a valuation floor near JPY 2,250 based on book value and industrial FCF, providing significant downside protection [D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Precision Machinery segment operating margins fail to show sequential improvement over two quarters.",
+   "Management explicitly rejects a strategic review or spin-off study in private discussions.",
+   "Semiconductor equipment orders decline for two consecutive quarters.",
+   "Company pursues a major, unrelated M&A transaction that increases conglomerate complexity."
+  ],
+  "what_would_change_our_mind": "A persistent refusal by the board to engage on structural simplification or a fundamental deterioration in the competitive moat of the semiconductor machinery segment.",
+  "memo": "Ebara Corporation represents a classic conglomerate mispricing where a crown-jewel semiconductor equipment franchise is buried within a disparate collection of industrial machinery assets [D01]. While the company's Precision Machinery segment is a leader in its field, it currently languishes at a 13.2% operating margin, a profound disconnect from the 28-29% margins commanded by pure-play peers like Applied Materials and Lam Research [D06].\n\nOur sum-of-the-parts analysis values the business at JPY 3,850 per share, implying a significant discount to our current trading price of JPY 2,778 [D04, D06]. By applying a 12x EV/EBIT multiple to the semiconductor segment and a conservative 7x EV/EBITDA to the remaining industrial units, it becomes clear that shareholders are effectively being offered the semiconductor growth engine for free [D06].\n\nThe market’s skepticism is rooted in the perceived drag of the company's legacy industrial operations and concerns regarding broader semiconductor cyclicality [D05]. We believe this perspective is narrow; the current 9.87x EV/EBITDA multiple provides a comfortable valuation floor supported by JPY 20.598 billion in net cash and recurring industrial cash flows [D04, D06].\n\nWe are initiating a constructive private dialogue with management and the board to demand a roadmap for margin expansion and a formal strategic review of the Precision Machinery business, including a potential spin-off [D01, D08]. Our role is to act as a catalyst for value creation, and we have established a clear 4-quarter timeline for measurable progress [D06, D08]. We are sizing this position at 5% of NAV, with index hedges in place to mitigate potential macro-volatility during our engagement [D04, D05].",
+  "uncited_claims": []
+ }
+}

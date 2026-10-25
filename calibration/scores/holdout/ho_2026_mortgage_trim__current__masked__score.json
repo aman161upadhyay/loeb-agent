@@ -1,0 +1,53 @@
+{
+ "trade_id": "ho_2026_mortgage_trim",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "The manager refinanced a residential mortgage transaction in early March, selling over $300 million of risk inside a 5% yield.",
+   "Structural term leverage improved the retained exposure’s return profile.",
+   "Risk was monetized through asset-based financing while retaining upside rather than liquidating every loan."
+  ],
+  "extra_agent_drivers": [
+   "Core thesis remains valid",
+   "Borrower equity cushion",
+   "Financing environment sensitivity",
+   "No structural breakdown observed"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Borrower equity of 40–55% provides a meaningful collateral cushion",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "average loan seasoning of over 18 years",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "recent 12bp decrease in the 30-year mortgage benchmark",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 3,
+  "share": 0.3
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Our current stance is to hold through the ongoing operational cycle rather than exit or escalate.",
+ "grader_notes": "The agent failed to capture the actual event (the trim) that occurred in March 2026, instead recommending a hold. The agent's reasoning focused on tracking the thesis and monitoring macro indicators, whereas the actual manager had already moved to execute the refinancing and monetization.",
+ "run": "ho_2026_mortgage_trim__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "TRIM",
+ "agent_decision": "HOLD",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

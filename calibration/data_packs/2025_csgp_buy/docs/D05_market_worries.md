@@ -1,0 +1,17 @@
+Title: Strong countercase and thesis risks — CoStar Group, Inc.
+Source: https://www.sec.gov/Archives/edgar/data/1057352/000105735225000004/q42024earningspressrelease.htm (2025-02-18); https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (2025-01-02); https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (2023-02-06); https://13f.info/13f/000108514625001713-third-point-llc-q4-2024 (2025-02-14)
+Date: 2025-03-31
+
+The bear case is a founder-led capital-allocation strategy that spends core cash on an intensely competitive residential market without clear monetization. High traffic can be purchased, and sales scale can lag brand spending. Real-estate cyclicality and customer-budget pressure can affect even recurring commercial products. An outside investor may not overcome a committed founder, while a forced spending cut might destroy a valuable option just as network effects emerge. The source's lower annual net income despite 11% revenue growth shows the cost of the debate. Governance changes would be a mechanism, not a guaranteed cure. [S1; analyst countercase]
+
+Adversarial underwriting. The countercase above should be allowed to defeat the attractive narrative. Distinguish a temporary cloud from permanent impairment, and distinguish a bad business from a good business burdened by claims or a poor structure. Neither distinction is settled by a share-price decline. A credible risk memo names observable developments that would invalidate earnings, liquidity or governance assumptions rather than treat every setback as a chance to increase exposure.
+
+Useful tests include persistent demand or margin erosion after comparable accounting, inability to finance required investment, a remedy whose cost consumes its value, or a decision-maker with neither incentive nor obligation to act. These are analyst tests, not unreported management statements or documented shareholder instructions. Consider the opposite error as well: excessive caution can crystallize losses or miss a profitable recovery. A hedge can add basis, financing and squeeze risk. The recovered sources do not supply probabilities for each scenario, so no precision is implied. The downside floor must be independently demonstrated in cash flows, assets, contractual rights or capital structure; it must not be assumed merely because the upside plan sounds plausible.
+
+Analyst cross-check: Rank the objections by their transmission to the security: reduced operating cash generation, a larger financing claim, lost governance authority, or delayed realization. A thesis can survive a weak quarter but fail because funding expires first. Identify which risks can be monitored and which remain discontinuous.
+
+Source ledger (all facts above attributed to the dated entries; analytical paragraphs are explicitly analyst interpretation):
+- [S1] https://www.sec.gov/Archives/edgar/data/1057352/000105735225000004/q42024earningspressrelease.htm (published 2025-02-18).
+- [S2] https://www.hedgeweek.com/third-point-agrees-birch-grove-deal/ (published 2025-01-02).
+- [S3] https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-monthly-update-january-2023-nav-performance-859853935.html (published 2023-02-06).
+- [S4] https://13f.info/13f/000108514625001713-third-point-llc-q4-2024 (published 2025-02-14).

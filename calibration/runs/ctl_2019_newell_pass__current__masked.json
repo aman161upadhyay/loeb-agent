@@ -1,0 +1,205 @@
+{
+ "pack": "ctl_2019_newell_pass",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "new",
+ "as_of_date": "2019-02-22",
+ "stages": {
+  "fact_sheet": {
+   "_raw": "{\n \"business_description\": \"The Company is a portfolio of consumer brands operating across segments including Learning & Development, Food & Appliances, and Home & Outdoor Living [D01]. It is currently executing a transformation plan centered on disposals, debt reduction, and operational simplification [D01].\",\n \"segments_and_separable_assets\": [\n  \"Learning & Development, Food & Appliances, and Home & Outdoor Living brands [D01]; ~$10bn gross proceeds targeted from disposals [D09]\"\n ],\n \"economics_vs_peers\": [\n  \"FY2018 continuing sales decline of 9.6% with core sales down 5.2% [D02]; GAAP operating margin -90.7% vs normalized 10.2% [D02]; margin gap vs peers remains unquantified in bp [D06]\"\n ],\n \"capital_structure\": [\n  \"Total debt of $7.015bn as of Dec 31, 2018, including $318.7m current debt [D02]; year-end 2018 leverage reported as 3.5x [D04]\"\n ],\n \"price_and_valuation\": [\n  \"Market cap ~$7.71bn; EV ~$14.23bn [D04]; normalized trailing P/E 6.37x; 2019 forward P/E 10.3–11.4x based on guidance [D04]\"\n ],\n \"management_board_governance\": [\n  \"Board reconstituted in 2018 with 11 directors, 7 nominated by Starboard Value and Carl Icahn [D09]; CEO retirement announced after cutoff date [D09]\"\n ],\n \"shareholder_base_and_liquidity\": [\n  \"Starboard Value disclosed ~4% stake [D09]; Carl Icahn disclosed ~6.9% stake [D09]; top holders otherwise not in pack\"\n ],\n \"event_or_catalyst_evidence\": [\n  \"Accelerated Transformation Plan involving asset sales and debt reduction [D01]; ~$10bn gross proceeds targeted [D09]\"\n ],\n \"what_the_market_is_worried_about\": [\n  \"Persistent negative core sales [D05]; divestitures potentially reducing earnings faster than overhead [D05]; weak core demand making adjusted EPS misleading [D05]\"\n ],\n \"deal_or_instrument_terms_if_any\": \"not in pack\",\n \"recent_events\": [\n  \"Feb 15, 2019: Q4/FY2018 release; guided to further low-single-digit core sales decline in 2019 [D03][D09]\"\n ],\n \"third_point_context\": [\n  \"13F filings show major positions in Campbell, DowDuPont, Baxter, and PayPal as of Q4 2018 [D08]; firm AUM and exact position in the Company not in pack\"\n ],\n \"document_conflicts\": [\n  \"2017 continuing revenue/operating income figures differ between original 2017 presentation and 2018 restated release [D02]\"\n ],\n \"missing_data\": [\n  \"Firm-wide AUM; exact stake in the Company; consensus estimates; harmonized forward EPS consensus; granular segment-level margins\"\n]",
+   "_truncated": true
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "The company is executing an accelerated transformation plan focusing on asset disposals and debt reduction [D01][D09]."
+    },
+    "edge": {
+     "score": "FAIL",
+     "evidence": "Starboard Value and Carl Icahn already hold significant stakes and have successfully reconstituted the board, meaning Third Point would be entering 'someone else's fight' [D09]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "The company has a clear path for transformation via asset sales [D09] and an activist-influenced board [D09] that can be engaged."
+    },
+    "downside_floor": {
+     "score": "FAIL",
+     "evidence": "The core business is experiencing persistent negative core sales [D05] and a continuing sales decline [D02], failing the melting ice cube test."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of ~$7.71bn, the company provides sufficient liquidity for a $300M-$3.5B position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board has been recently reconstituted and the CEO's retirement is underway, indicating the existing management/board can be pressured or replaced [D09]."
+    }
+   },
+   "conflicts_resolved": [
+    "2017 continuing revenue/operating income figures differ between 2017 presentation and 2018 restated release → relied on the 2018 restated release [D02] for consistency"
+   ],
+   "n_pass": 4,
+   "n_fail": 2,
+   "n_unsure": 0,
+   "hard_fail": true,
+   "edge_statement": "The situation involves a conglomerate transformation and deleveraging, but Third Point lacks an edge as major activist positions are already established and the core business is in secular decline.",
+   "one_line_verdict": "A structurally declining business undergoing a transformation already directed by other major activists."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1",
+    "M3"
+   ],
+   "variant_view": "The market views the Company as a melting ice cube with persistent core sales declines, leading to extreme pessimism regarding its earnings power. We believe the market fails to value the potential for significant deleveraging and value unlocking through the $10bn targeted asset disposal program [D09]. Successful execution of this transformation will simplify the portfolio and repair the balance sheet, surfacing value that is currently buried under excessive debt and structural complexity [D01].",
+   "evidence": [
+    "Core sales down 5.2% in FY2018 [D02].",
+    "Targeting ~$10bn in gross proceeds from asset disposals to reduce debt [D09].",
+    "High leverage of 3.5x as of year-end 2018 [D04]."
+   ],
+   "peer_benchmark": "Normalized peer operating margin of 10.2% [D02].",
+   "what_must_be_true": [
+    "Disposals achieve proceeds at or near the targeted $10bn level.",
+    "Deleveraging successfully stabilizes the credit profile.",
+    "Operating overhead is reduced in proportion to the divested assets.",
+    "The core business reaches an inflection point and stops the sales decline."
+   ],
+   "edge_verdict": "NO_EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "$22.00",
+    "arithmetic": [
+     "EV = $14.23bn [D04]",
+     "Target asset disposal proceeds = $10bn [D09]",
+     "Implied remaining stub EV = $4.23bn",
+     "Market cap $7.71bn [D04] + Debt $7.015bn [D02] = Enterprise Value $14.725bn",
+     "Estimated equity value post-disposal = (EV $14.725bn - Disposals $10bn) = $4.725bn",
+     "Per share estimate based on implied current share count ~214m [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "$10.00",
+    "basis": "Implied value of core business post-$10bn asset divestiture [D09]"
+   },
+   "current_price": "$36.00 [D04]",
+   "skew": "not applicable : not applicable",
+   "irr_pct": {
+    "base": 0,
+    "bear": 0,
+    "bull": 0
+   },
+   "valuation_verdict": "NEGATIVE",
+   "flagged_assumptions": [
+    "Current share count inferred from market cap and EV [D04]",
+    "No consensus estimates available in pack [D06]",
+    "Tax leakage on $10bn divestitures not specified in pack"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P0",
+   "asks": [],
+   "actors": [
+    "Starboard Value — lead activist — active [D09]",
+    "Carl Icahn — lead activist — active [D09]"
+   ],
+   "governance_route": "Board reconstituted in 2018 with 7 directors nominated by activists [D09]",
+   "timetable_quarters": 0,
+   "escalation_path": "Monitor execution of the $10bn asset divestiture program; if the thesis on deleveraging holds but execution falters, reassess entry.",
+   "why_this_role_fits_the_era": "In a situation already crowded by sophisticated activist peers (Starboard and Icahn) with an established board footprint, Third Point avoids duplicative public posturing. We practice discipline; without an edge or a clear path to leadership in the activist block, we maintain a watching brief or pass rather than chasing a crowded, structurally challenged, and overvalued transformation play."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Asset disposal proceeds fall significantly short of the $10bn target [D09]",
+    "Core sales decline accelerates beyond the guided low-single-digits [D03][D09]",
+    "Leverage remains elevated at or above 3.5x due to poor execution [D04]",
+    "Activist coalition between Starboard and Icahn breaks down [D09]"
+   ],
+   "portfolio_risk": "High overlap with existing 'constructivist' portfolio themes in legacy consumer/conglomerate names; the position lacks a unique edge due to crowding by established activists [D08][D09].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 0,
+    "target": 0,
+    "max": 0
+   },
+   "pct_of_company": "N/A",
+   "horizon_quarters": 0,
+   "hedge_overlay": "none",
+   "biggest_risk_in_one_sentence": "We are late to a crowded trade in a structurally declining business where the heavy lifting of board reconstitution has already been performed by more capable activist peers [D09]."
+  }
+ },
+ "final": {
+  "as_of_date": "2019-02-22",
+  "company": "the Company (XXX)",
+  "ticker": "XXX",
+  "decision": "PASS",
+  "conviction": "low",
+  "target_size_pct_nav": 0,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P0",
+  "gate1_hard_fail": true,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "$22.00",
+   "floor": "$10.00",
+   "skew": "not applicable : not applicable",
+   "irr_pct": 0
+  },
+  "plan": {
+   "asks": [],
+   "actors": [
+    "Starboard Value — lead activist — active [D09]",
+    "Carl Icahn — lead activist — active [D09]"
+   ],
+   "governance_route": "Board reconstituted in 2018 with 7 directors nominated by activists [D09]",
+   "timetable_quarters": 0
+  },
+  "drivers": [
+   {
+    "driver": "The Company is a structurally declining business with persistent negative core sales [D02][D05].",
+    "citations": [
+     "D02",
+     "D05"
+    ]
+   },
+   {
+    "driver": "Major activist positions are already established, leaving no room for Third Point to exert meaningful influence [D09].",
+    "citations": [
+     "D09"
+    ]
+   },
+   {
+    "driver": "The valuation is not compelling, with a market price of $36.00 significantly exceeding our sum-of-the-parts estimate of $22.00 [D04][D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   },
+   {
+    "driver": "High leverage of 3.5x presents significant downside risk if asset disposal proceeds fall short of the $10bn target [D04][D09].",
+    "citations": [
+     "D04",
+     "D09"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Asset disposal proceeds fall significantly short of the $10bn target [D09]",
+   "Core sales decline accelerates beyond the guided low-single-digits [D03][D09]",
+   "Leverage remains elevated at or above 3.5x due to poor execution [D04]",
+   "Activist coalition between Starboard and Icahn breaks down [D09]"
+  ],
+  "what_would_change_our_mind": "Evidence that core sales have stabilized at an inflection point and that management can execute divestitures without excessive tax leakage or earnings degradation.",
+  "memo": "The Company is a portfolio of consumer brands currently attempting to navigate a transformation through asset disposals and debt reduction [D01][D09]. Despite these efforts, the market remains fixated on persistent core sales declines, which dropped 5.2% in FY2018 [D02][D05].\n\nOur sum-of-the-parts analysis suggests the current market price of $36.00 represents a premium over the implied value post-divestiture [D04]. Even assuming the full realization of the $10bn asset disposal program, the remaining stub value is significantly below current trading levels [D09].\n\nMarket participants are rightfully concerned that divestitures may reduce earnings power faster than they reduce overhead [D05]. The Company is currently operating with high leverage of 3.5x, leaving little margin for error in its execution [D04].\n\nGovernance is already being managed by Starboard Value and Carl Icahn, who have successfully reconstituted the board with 7 nominated directors [D09]. As we are late to this crowded trade and lack a unique edge, we see no reason to engage in a situation where the heavy lifting has already been performed by more capable activist peers [D09].\n\nRisks remain elevated, particularly if the asset disposal proceeds fall short or if the core business continues its secular decline [D03][D09]. Given these factors, we have no interest in participating in this turnaround effort.\n\nWe pass on the opportunity and maintain a watching brief for potential future entry if the thesis proves more robust [D09].",
+  "uncited_claims": []
+ }
+}

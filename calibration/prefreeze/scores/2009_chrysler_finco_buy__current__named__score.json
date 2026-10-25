@@ -1,0 +1,48 @@
+{
+ "trade_id": "2009_chrysler_finco_buy",
+ "direction": "PARTIAL",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Finco is legally ring-fenced from the insolvent manufacturing company. → Chrysler Financial operates as a distinct legal entity with an isolated SPV structure that houses the underlying retail auto loan book.",
+   "The government-set bankruptcy deadline can resolve ambiguity over the claims. → We intend to engage as a constructive participant in the restructuring process to ensure the absolute priority rule is strictly upheld."
+  ],
+  "missed": [
+   "First liens in the 50s and second liens in the 30s are covered by the finance company's assets.",
+   "Subsequent runoff creates a repayment catalyst; this is a later thesis update, not initial entry evidence."
+  ],
+  "extra_agent_drivers": [
+   "A $1.5bn government facility provides a fundamental floor for the SPV, supporting liquidity for dealer floorplan operations.",
+   "Recovery analysis suggests 70-80 cents on the dollar, offering an asymmetric 2:1 skew based on historical loan loss curves."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Chrysler Financial operates as a distinct legal entity with an isolated SPV structure",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "$1.5bn government-backed facility",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 1,
+  "share": 0.07
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "While the parent company faces profound existential challenges, Chrysler Financial operates as a distinct legal entity with an isolated SPV structure that houses the underlying retail auto loan book [D01, D04].",
+ "grader_notes": "The agent correctly identified the key thesis regarding the legal separation of the finance company from the parent. However, it failed to capture Loeb's specific focus on the pricing of first vs second liens and missed the explicit catalyst of runoff, relying instead on recovery-based valuation metrics not highlighted in the Loeb key.",
+ "run": "2009_chrysler_finco_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

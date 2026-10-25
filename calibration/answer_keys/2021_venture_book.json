@@ -1,0 +1,52 @@
+{
+  "id": "2021_venture_book",
+  "actual_decision": "HOLD",
+  "conviction": "high",
+  "size_pct_nav": "May hindsight letter: about $66m invested valued around $1.2bn and largest position; not January NAV weight. Added 1.2m at IPO.",
+  "first_action_date": null,
+  "first_action_window": "Requested 2021_upst_private_buy built as canonical 2021_venture_book, existing common HOLD. IPO add was Dec2020, not an unverified Jan31 new purchase. October2020 contemporaneous chronology says 2015 Series C; later 2016 Series B wording conflicts.",
+  "disclosure_date": "2021-05-06",
+  "reason_class": null,
+  "opportunity_template": [
+    "E4",
+    "E6"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Dave Girouard",
+      "Robert Schwartz",
+      "Third Point Ventures"
+    ],
+    "governance_route": "P0; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "AI underwriting could price consumer credit more accurately than legacy approaches.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/532e88d45d/third-point-q1-2021-investor-letter-tpil.pdf (2021-05-06, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "Years of venture and board knowledge supported underwriting the public-market lifecycle.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/532e88d45d/third-point-q1-2021-investor-letter-tpil.pdf (2021-05-06, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "The IPO was another stage of ownership rather than an automatic exit.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/532e88d45d/third-point-q1-2021-investor-letter-tpil.pdf (2021-05-06, retrospective relative to pack)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "Huge venture-origin winner followed by 52% Q4 2021 share decline. Later public collapse is not evidence every venture share lost money; full realized return unknown.",
+  "sources": [
+    "https://assets.thirdpointlimited.com/f/166217/x/532e88d45d/third-point-q1-2021-investor-letter-tpil.pdf (2021-05-06)",
+    "https://assets.thirdpointlimited.com/f/166217/x/532e88d45d/third-point-q1-2021-investor-letter-tpil.pdf (2021-05-06, retrospective relative to pack)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested 2021_upst_private_buy built as canonical 2021_venture_book, existing common HOLD. IPO add was Dec2020, not an unverified Jan31 new purchase. October2020 contemporaneous chronology says 2015 Series C; later 2016 Series B wording conflicts. AUM 14.8bn is firm/manager capital, not Offshore NAV, per https://www.prnewswire.co.uk/news-releases/regulatory-news/third-point-investors-ltd-third-point-november-2020-monthly-report-843373033.html (2020-12-03). AUM observation period 2020-11; last verified, not asserted current.",
+  "pack_quality_grade": "B",
+  "calibration_eligible": true,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

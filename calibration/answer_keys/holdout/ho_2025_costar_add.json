@@ -1,0 +1,53 @@
+{
+  "id": "ho_2025_costar_add",
+  "actual_decision": "ADD",
+  "conviction": "medium",
+  "size_pct_nav": "Unknown NAV weight; 13F market value is not cost or total economic exposure.",
+  "first_action_date": "2025-Q2; exact date unknown; quarter-end fallback",
+  "disclosure_date": "2025-08-14",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P3",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Andy Florance",
+      "the board",
+      "John Berisford",
+      "Rachel Glaser",
+      "Christine McCarthy",
+      "concerned shareholders"
+    ],
+    "governance_route": "April board settlement and capital-allocation oversight; precise add rationale inferred.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "Reported common shares rose from 1.975 million to 3.085 million during Q2; the exact size-change rationale is not publicly stated.",
+      "source": "https://www.sec.gov/Archives/edgar/data/1040273/000108514625005277/0001085146-25-005277.txt (2025-08-14; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "The April original thesis was a valuable recurring commercial franchise obscured by Homes.com spending; continuation as a reason for the add is an inference, not a fresh manager quote.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf (2025-04-30; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "April governance and capital-allocation oversight provide a documented pathway; attributing the precise add to that pathway is a well-inferred interpretation only.",
+      "source": "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf (2025-04-30; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Q2 reportable value $248.034M; no execution cost or NAV weight established.",
+  "outcome_note": "See dated primary disclosure for actual action. No later stock return, fund contribution or July 2026 unwind is a desk input. Conviction is an evaluator label, not a disclosed manager conviction; exact cost and realized round-trip P&L remain unknown.",
+  "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1040273/000108514625005277/0001085146-25-005277.txt",
+    "https://assets.thirdpointlimited.com/f/166217/x/bd64805fc1/third-point-q1-2025-investor-letter_tpil.pdf",
+    "https://investors.costargroup.com/static-files/9ae1c7cc-29cc-4364-a4a3-b35d9e33dce0",
+    "https://assets.thirdpointlimited.com/f/166217/x/3999c42098/2025-04-april-monthly-report-tpil.pdf",
+    "https://13f.info/13f/000108514625003337-third-point-llc-q1-2025"
+  ],
+  "pack_quality_notes": "Grade C. Point-in-time issuer/manager evidence is separated from dated post-action explanation. Missing cutoff price, consensus, full peer models and current NAV constrain valuation. Original exact action dates and execution prices are unknown; a quarter-end fallback or preceding month-end trading day is expressly identified in metadata. Earlier-source arguments and inferred size-change rationales are not mislabeled as new manager statements. Each driver source identifies the retrospective disclosure. timetable_quarters=0 means no reliable quantitative timetable recovered, not an assertion of immediate completion."
+}

@@ -1,0 +1,59 @@
+{
+ "trade_id": "ho_2025_ebara_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 1,
+  "n": 4,
+  "matched": [
+   "An overextended cost base and unnecessarily discounted pricing depress margins despite strong products → The Precision Machinery segment currently operates at a 13.2% margin, representing a massive 15%+ gap versus pure-play semiconductor equipment peers"
+  ],
+  "missed": [
+   "Advanced logic nodes and AI packaging increase CMP steps, complexity and process time.",
+   "Ebara’s metal-CMP positioning offers a route to share gains.",
+   "Private board/management engagement targets margin improvement, portfolio simplicity, repurchases and governance."
+  ],
+  "extra_agent_drivers": [
+   "Ebara is a classic conglomerate mispricing.",
+   "Market applying a conglomerate discount at 9.87x EV/EBITDA.",
+   "Net cash position and valuation floor provide downside protection."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Precision Machinery segment currently operates at a 13.2% margin",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Applied Materials and Lam Research operate at 28-29% [margins]",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trading at 9.87x EV/EBITDA",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "net cash position of JPY 20.598 billion",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a constructive private dialogue with management and the board to demand a roadmap for margin expansion and a formal strategic review of the Precision Machinery business, including a potential spin-off [D01, D08].",
+ "grader_notes": "The agent correctly matches the BUY direction and identifies the margin gap as a primary driver. However, it misses several of Loeb's specific drivers regarding CMP technology trends and AI packaging, focusing instead on structural conglomerate discounts and valuation metrics not emphasized in the key. The state is PARTIAL due to the direction match but low driver overlap.",
+ "run": "ho_2025_ebara_buy__current__named",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,46 @@
+{
+ "trade_id": "ctl_2016_groupon_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "Groupon/GRPN absent from all 54 quarterly issuer/instrument observations; no manager-specific public investment rationale recovered."
+  ],
+  "extra_agent_drivers": [
+   "The company's core marketplace is masked by the drag of a restructuring Goods segment, creating a significant margin gap relative to peers like eBay.",
+   "A formal separation of the Goods segment would unlock the value of the profitable local-commerce network, currently trading near its cash floor.",
+   "Management's current reliance on marketing-led customer acquisition without profitable retention is unsustainable and necessitates a pivot toward a disciplined, margin-accretive model.",
+   "The risk/reward skew is highly asymmetric at the current price of $5.17, with a hard floor supported by net cash of approximately $530 million."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Q2 2016 operating margin of -5.7% compared to the 25.6% margin achieved by a comparable marketplace peer like eBay",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "trades near a cash-backed floor of approximately $5.10 per share",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 10,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Despite the clear upside, we are currently passing on this opportunity as it lacks an immediate, actionable catalyst and currently relies on an unproven management team to execute a multi-year turnaround.",
+ "grader_notes": "The agent correctly matches the PASS decision but fails to cite the actual reason for the label, which was the total absence of the company from Third Point's historical investment activity. Instead, the agent created a detailed, hypothetical activist investment thesis that bears no relation to the actual institutional data for the firm in 2016.",
+ "run": "ctl_2016_groupon_pass__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

@@ -1,0 +1,52 @@
+{
+ "trade_id": "2021_shel_buy",
+ "direction": "MISS",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 3,
+  "matched": [],
+  "missed": [
+   "Incompatible investor mandates had created an incoherent strategy and weak performance.",
+   "Separate legacy cash-generating businesses from LNG and growth/transition assets.",
+   "Clearer capital allocation and distinct investor constituencies could close a large intrinsic-value discount."
+  ],
+  "extra_agent_drivers": [
+   "The lack of granular segment-level EBITDA prevents a verifiable sum-of-the-parts analysis",
+   "Governance transparency is insufficient to evaluate a credible path to forcing structural change",
+   "The business benefits from significant FCF generation and a 4.34% dividend yield, providing a fundamental floor"
+  ]
+ },
+ "discipline": "NO",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company represents a classic, yet opaque, integrated energy conglomerate where a complex domicile and share structure obscure the underlying value of its disparate assets",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "structural simplification is the most logical path to re-rate the stock",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Management has taken initial steps to improve shareholder returns, including a $2 billion share repurchase program and a dividend increase",
+    "citation": "D03",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "MISS",
+ "verbatim_agent_sentence": "Consequently, we are passing on this opportunity.",
+ "grader_notes": "The agent missed the investment decision entirely, opting to pass based on an absence of granular data and governance transparency. Loeb, by contrast, acted on the clear opportunity to drive a structural split despite these same information hurdles. The reasoning was farthest from Loeb's in its focus on data-driven conviction rather than activist engagement and structural thesis.",
+ "run": "2021_shel_buy__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "PASS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,264 @@
+{
+ "pack": "2013_sony_buy",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": false,
+ "mode": "new",
+ "as_of_date": "2013-05-13",
+ "stages": {
+  "fact_sheet": {
+   "business_description": "Sony Corporation is a conglomerate operating across electronics, gaming, pictures, music, and financial services [D01]. Its diversified business model requires distinguishing between operational synergies and financial cross-subsidies across units with varying capital requirements [D01].",
+   "segments_and_separable_assets": [
+    "Electronics: Includes commoditized television and PC hardware; peer multiples not independently verified in pack [D01, D04].",
+    "Entertainment (Games, Pictures, Music): Franchise and catalog assets; valued differently from electronics cycles [D01].",
+    "Financial Services: Regulated business; earnings cannot be capitalized as freely distributable industrial cash flow [D01, D04]."
+   ],
+   "economics_vs_peers": [
+    "Sony: FY2013 operating margin 3.4% [D03].",
+    "Canon: FY2012 operating margin 9.3% [D06].",
+    "Panasonic: FY2013 operating margin approximately 2.2% [D06].",
+    "Sharp: FY2013 operating margin -5.9% [D06].",
+    "Note: Different fiscal calendars and product mixes make group-level margin comparisons unreliable; content and financial services must be benchmarked separately from hardware [D06]."
+   ],
+   "capital_structure": [
+    "Total borrowing: ¥1,182.6bn [D02, D04].",
+    "Cash: ¥826.4bn [D04].",
+    "Net debt: ¥356.2bn [D04].",
+    "Note: Financial services assets and policy liabilities are not assumed to be freely distributable [D04]."
+   ],
+   "price_and_valuation": [
+    "Price: ¥1,855 (as of 2013-05-13) [D04].",
+    "Market cap: Approximately ¥1,877.2bn [D04].",
+    "EV: Approximately ¥2,233.4bn [D04].",
+    "Trailing P/E: 46.2x [D04].",
+    "P/B: 0.85x [D04].",
+    "Earnings yield: 2.17% [D04]."
+   ],
+   "management_board_governance": [
+    "CEO: Kazuo Hirai [D03].",
+    "Governance: Japanese governance process; potential for board-led initiatives such as operational focus, capital allocation, or minority-listing of assets without surrendering control [D03, D07]."
+   ],
+   "shareholder_base_and_liquidity": [
+    "Issued shares: 1,011.95 million [D04].",
+    "Other: Not in pack."
+   ],
+   "event_or_catalyst_evidence": [
+    "Potential board choices include operational focus, improved segment reporting, capital allocation, or alternative ownership structures (e.g., minority-listing of assets) [D03, D07]."
+   ],
+   "what_the_market_is_worried_about": [
+    "Conglomerate discount reflecting real losses and internal funding needs [D05].",
+    "Hit-driven nature of entertainment earnings and fierce competition/restructuring costs in electronics [D05].",
+    "Potential costs of separation (taxes, overhead, loss of strategic coordination) [D05].",
+    "Slow pace of Japanese governance and risk of reliance on management to implement change [D05]."
+   ],
+   "deal_or_instrument_terms_if_any": [
+    "Not in pack."
+   ],
+   "recent_events": [
+    "2013-05-09: Sony released full-year results for the period ended 2013-03-31, reporting ¥230.1bn in operating income [D03]."
+   ],
+   "third_point_context": [
+    "The desk is considering a new Japanese common-equity exposure, but no target stake or specific fund context (AUM, current positions) was recovered [D07, D08]."
+   ],
+   "document_conflicts": [
+    "None."
+   ],
+   "missing_data": [
+    "Independently verified peer-multiple table [D01]; precise fully diluted share count [D02]; comprehensive current top holders and short interest [D04]; explicit fund AUM and current sector concentration [D08]."
+   ]
+  },
+  "gate1": {
+   "situation_types": [
+    "E1"
+   ],
+   "criteria": {
+    "event_identified": {
+     "score": "PASS",
+     "evidence": "Sony operates as a conglomerate with a significant discount where hidden asset value in entertainment and financial services is obscured by poor electronics performance [D01, D05]."
+    },
+    "edge": {
+     "score": "PASS",
+     "evidence": "Third Point identifies a specific path to value creation through operational focus, improved segment reporting, and a potential minority-listing of the entertainment division to separate it from electronics volatility [D03, D07]."
+    },
+    "governance_route_or_process": {
+     "score": "PASS",
+     "evidence": "Japanese governance allows for board-led initiatives, and specific alternatives like minority-listings are viable paths to unlocking value within the existing corporate structure [D03, D07]."
+    },
+    "downside_floor": {
+     "score": "PASS",
+     "evidence": "The company trades at a P/B of 0.85x, providing an asset-based floor despite the conglomerate's electronics losses [D04, D05]."
+    },
+    "size_and_liquidity": {
+     "score": "PASS",
+     "evidence": "With a market cap of approximately ¥1,877.2bn, the liquidity is sufficient for a substantial position [D04]."
+    },
+    "management_credibility": {
+     "score": "PASS",
+     "evidence": "The board is electable and can be pressured to adopt the proposed structural changes, fitting the criteria for an E1 situation [D03, D07]."
+    }
+   },
+   "conflicts_resolved": [],
+   "n_pass": 6,
+   "n_fail": 0,
+   "n_unsure": 0,
+   "hard_fail": false,
+   "edge_statement": "Third Point leverages the conglomerate discount and the potential for a minority-listing of the entertainment business to unlock value that the market currently misprices due to electronics-related operating losses.",
+   "one_line_verdict": "a conglomerate with separable, high-value entertainment and financial assets trading below book value that can be unlocked through board-led structural reform."
+  },
+  "gate2": {
+   "mechanisms": [
+    "M1"
+   ],
+   "variant_view": "The market views Sony as a struggling conglomerate whose electronics losses and conglomerate discount justify a sub-book value valuation. Third Point believes that by pursuing a minority-listing of the high-quality entertainment division, Sony can separate these crown jewels from the volatility of electronics, thereby crystallizing significant hidden asset value. This structural reform will force the market to re-evaluate the company's component parts rather than applying a blanket discount to the consolidated entity [D03, D05, D07].",
+   "evidence": [
+    "Sony trades at a P/B of 0.85x, reflecting a conglomerate discount that obscures the value of the entertainment and financial services divisions [D04, D05].",
+    "Entertainment business possesses unique franchise and catalog assets that are fundamentally different from electronics hardware cycles [D01].",
+    "Board-led initiatives, specifically a minority-listing of entertainment assets, provide a clear governance route to unlock value [D03, D07]."
+   ],
+   "peer_benchmark": "Electronics peer Canon, which achieved a 9.3% operating margin compared to Sony's 3.4% [D03, D06].",
+   "what_must_be_true": [
+    "Management and the board are willing to entertain structural reforms to address the conglomerate discount.",
+    "The entertainment division maintains stable earnings power independent of the electronics business.",
+    "A minority-listing can be executed without incurring prohibitive tax or operational overhead costs.",
+    "Japanese corporate governance remains receptive to shareholder-led strategic initiatives."
+   ],
+   "edge_verdict": "EDGE"
+  },
+  "gate3": {
+   "method": "sotp",
+   "target_value": {
+    "per_share_or_price": "¥2,780",
+    "arithmetic": [
+     "Entertainment (Games, Pictures, Music) estimated at 1.0x-1.5x revenue [D01]",
+     "Implied SOTP target assumes elimination of conglomerate discount, moving P/B toward 1.25x-1.3x [D04]",
+     "Target Market Cap: ¥2,813.2bn (based on adjusted book value and peer multiples for entertainment) [D04]",
+     "¥2,813.2bn / 1,011.95 million shares = ¥2,780 [D04]"
+    ],
+    "horizon_years": 2
+   },
+   "floor": {
+    "value": "¥1,577",
+    "basis": "Current P/B 0.85x applied to book value [D04]"
+   },
+   "current_price": "¥1,855 [D04]",
+   "skew": "50% : 15%",
+   "irr_pct": {
+    "base": 25,
+    "bear": 5,
+    "bull": 40
+   },
+   "valuation_verdict": "COMPELLING",
+   "flagged_assumptions": [
+    "Entertainment division revenue multiple derived from industry standard peer benchmarks as specific peer table is missing from pack [D01]",
+    "Assuming successful minority-listing reduces conglomerate discount effectively [D03, D05]"
+   ]
+  },
+  "gate4": {
+   "plan_role": "P2",
+   "asks": [
+    "Minority IPO of Sony Entertainment (Music and Pictures) to separate crown jewels from electronics volatility [D03, D07]",
+    "Improved segment-level transparency and reporting to reveal hidden asset value [D03, D07]",
+    "Strategic refocusing of capital allocation away from low-margin electronics toward high-value growth assets [D03]"
+   ],
+   "actors": [
+    "Kazuo Hirai — CEO — current leadership [D03]",
+    "Third Point — Activist investor — initiator [D07]"
+   ],
+   "governance_route": "Board-led structural reform via shareholder pressure [D03, D07]",
+   "timetable_quarters": 4,
+   "escalation_path": "If management remains unresponsive, launch a public campaign, intensify pressure on the board for structural separation, and potentially seek board representation if the nomination window permits [D07].",
+   "why_this_role_fits_the_era": "Fits the 2009-2015 era of large-cap constructivism where we engage with the board to force structural changes in mispriced, over-diversified conglomerates via a public plan [D03, D07]."
+  },
+  "gate5": {
+   "kill_criteria": [
+    "Management flatly rejects the Entertainment IPO proposal with no alternative plan to close the valuation gap [D03, D07].",
+    "Operating margins in the core Electronics segment deteriorate further, signaling an inability to stabilize cash burn [D03, D06].",
+    "Capital allocation is diverted into dilutive or low-return acquisitions rather than debt reduction or shareholder returns [D03].",
+    "Major Japanese institutional shareholders signal public opposition to structural reforms [D03, D05]."
+   ],
+   "portfolio_risk": "We are currently increasing our Japanese exposure; Sony adds to our conglomerate and electronics risk, though we hedge index volatility to manage macro sensitivity [D03, D07].",
+   "instrument": "common",
+   "size_pct_nav": {
+    "initial": 2,
+    "target": 5,
+    "max": 8
+   },
+   "pct_of_company": "5-6% (target for meaningful influence without triggering excessive liquidity concerns)",
+   "horizon_quarters": 4,
+   "hedge_overlay": "Hedge Electronics segment beta using short positions in domestic peers (e.g., Panasonic or Sharp) and broad Nikkei 225 index puts to protect against systemic volatility [D06].",
+   "biggest_risk_in_one_sentence": "The Japanese board fails to act on structural separation, leaving us trapped in a slow-moving, low-margin conglomerate that continues to subsidize underperforming electronics with profits from its crown-jewel entertainment assets [D03, D05, D07]."
+  }
+ },
+ "final": {
+  "as_of_date": "2013-05-13",
+  "company": "Sony Corporation",
+  "ticker": "SNE",
+  "decision": "BUY",
+  "conviction": "high",
+  "target_size_pct_nav": 5,
+  "instrument": "common",
+  "opportunity_template": [
+   "E1"
+  ],
+  "catalyst_role": "P2",
+  "gate1_hard_fail": false,
+  "valuation": {
+   "method": "sotp",
+   "target_value": "¥2,780",
+   "floor": "¥1,577",
+   "skew": "50% : 15%",
+   "irr_pct": 25
+  },
+  "plan": {
+   "asks": [
+    "Minority IPO of Sony Entertainment (Music and Pictures) to separate crown jewels from electronics volatility",
+    "Improved segment-level transparency and reporting to reveal hidden asset value",
+    "Strategic refocusing of capital allocation away from low-margin electronics toward high-value growth assets"
+   ],
+   "actors": [
+    "Kazuo Hirai",
+    "Third Point"
+   ],
+   "governance_route": "Board-led structural reform via shareholder pressure",
+   "timetable_quarters": 4
+  },
+  "drivers": [
+   {
+    "driver": "Sony suffers from a severe conglomerate discount where its high-quality entertainment assets are masked by chronic electronics losses and poor transparency.",
+    "citations": [
+     "D01",
+     "D05"
+    ]
+   },
+   {
+    "driver": "A sum-of-the-parts valuation implies a target price of ¥2,780 based on peer entertainment multiples, offering significant upside from the current ¥1,855 share price.",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "We propose a minority IPO of the Entertainment division to crystallize value and force the market to assign appropriate multiples to the company's distinct business units.",
+    "citations": [
+     "D03",
+     "D07"
+    ]
+   },
+   {
+    "driver": "The current P/B of 0.85x provides a hard asset-based floor, limiting downside while we await structural change.",
+    "citations": [
+     "D04",
+     "D05"
+    ]
+   }
+  ],
+  "kill_criteria": [
+   "Management flatly rejects the Entertainment IPO proposal with no alternative plan to close the valuation gap.",
+   "Operating margins in the core Electronics segment deteriorate further, signaling an inability to stabilize cash burn.",
+   "Capital allocation is diverted into dilutive or low-return acquisitions rather than debt reduction or shareholder returns.",
+   "Major Japanese institutional shareholders signal public opposition to structural reforms."
+  ],
+  "what_would_change_our_mind": "Evidence that the board remains permanently tethered to the conglomerate structure and refuses any path toward separating the high-value entertainment business, combined with a sustained deterioration in the electronics division's cash-flow profile.",
+  "memo": "Sony Corporation is a classic conglomerate mispricing where the market fails to distinguish between its high-quality entertainment and financial services assets and its structurally challenged electronics business [D01, D05]. While the company generated ¥230.1bn in operating income for the fiscal year ended March 31, 2013, its consolidated valuation remains trapped by a conglomerate discount, trading at a P/B of just 0.85x [D03, D04].\n\nOur sum-of-the-parts analysis suggests the equity is worth ¥2,780 per share, implying substantial upside from the current ¥1,855 price [D04]. By benchmarking the entertainment division—comprising games, pictures, and music—against its industry peers, we believe the market is severely undervaluing these crown jewels [D01, D04].\n\nThe market’s pessimism is rooted in the electronics segment's operating margin of 3.4%, which lags behind peers like Canon, and the historical volatility of a hardware-dependent business model [D03, D06]. We disagree with the market's consolidated approach; the solution is to force transparency and structural separation [D03, D05].\n\nOur plan is a board-led structural reform aimed at a minority IPO of the entertainment division to separate it from the electronics segment’s volatility [D03, D07]. Working with CEO Kazuo Hirai and the board, we expect this to occur over a 4-quarter timeline, focusing on improved segment reporting and optimized capital allocation [D03, D07].\n\nRisks include management inertia and potential tax or operational costs of separation [D05, D07]. However, with a hard valuation floor at current book value levels, the risk/reward skew is compelling [D04, D05].\n\nWe are initiating a 5% position in common equity, sized to reflect our conviction in this event-driven opportunity [D07]. To manage our exposure to systemic Japanese equity volatility, we are simultaneously hedging our electronics-segment beta through short positions in domestic peers and broad index puts [D06].",
+  "uncited_claims": []
+ }
+}

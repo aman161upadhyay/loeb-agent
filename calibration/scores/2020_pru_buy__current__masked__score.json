@@ -1,0 +1,52 @@
+{
+ "trade_id": "2020_pru_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 4,
+  "n": 4,
+  "matched": [
+   "Asia and Jackson shared no discernible benefit from the same corporate umbrella → The market’s focus on hypothetical diversification benefits is a category error that ignores the lack of operational synergies between these two disparate units.",
+   "Independent Asian capital allocation could fund a high-ROE franchise with structural growth → Disentanglement is... required to allow the Asian franchise to be valued as the high-growth, high-margin asset it is.",
+   "Jackson could invest and manage its own capital needs without obscuring Asian value → ...independent of the US annuity segment’s capital demands.",
+   "Removing unnecessary group costs and complexity could unlock higher valuation → By holding high-growth Asian operations alongside capital-intensive US annuities, the business trades at a meaningful conglomerate discount, obscuring the inherent value of its distinct parts."
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Sum-of-the-parts analysis based on peer benchmarks suggests a target value of 1750p",
+   "The downside is protected by a 222% Solvency II cover ratio and US RBC ratios"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company suffers from a persistent conglomerate discount that masks the superior value and growth trajectory of its Asian insurance operations",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Sum-of-the-parts analysis based on peer benchmarks suggests a target value of 1750p",
+    "citation": "D04",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The downside is protected by a 222% Solvency II cover ratio",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 14,
+  "cited": 14,
+  "share": 1
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "By holding high-growth Asian operations alongside capital-intensive US annuities, the business trades at a meaningful conglomerate discount, obscuring the inherent value of its distinct parts.",
+ "grader_notes": "The agent perfectly captured all of Third Point's core qualitative arguments regarding the separation of the Asian and US businesses. While the agent included additional valuation and risk-mitigation drivers not explicitly stated in the Third Point letter, these were well-grounded in the provided pack and did not contradict the primary thesis.",
+ "run": "2020_pru_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

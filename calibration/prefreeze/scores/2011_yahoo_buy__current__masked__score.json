@@ -1,0 +1,48 @@
+{
+ "trade_id": "2011_yahoo_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Asian assets and net cash leave the core at only $2.78/share → The company trades at a significant conglomerate discount, with the core operating platform obscured by valuable Asian affiliate stakes",
+   "Repair partner relationships and optimize Asian monetization, buybacks and the capital structure → Capital allocation policy focused on buybacks or dividend return rather than value-destructive acquisitions"
+  ],
+  "missed": [
+   "The core franchise is damaged by governance but not irreparably damaged.",
+   "Changing only the CEO does not cure the board's record."
+  ],
+  "extra_agent_drivers": [
+   "The sudden removal of the CEO and announcement of a formal strategic review creates an immediate, rare window for governance intervention.",
+   "We see a clear path to 25% IRR through the separation of high-value Asian assets and a disciplined focus on core platform profitability."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company represents a classic case of a mispriced, bloated conglomerate where the market has entirely discounted the underlying value of its core internet properties and Asian affiliate stakes",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The leadership vacuum created by the removal of the CEO on September 6, 2011, provides the precise catalyst needed to force this realization",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We see a clear path to 25% IRR through the separation of high-value Asian assets and a disciplined focus on core platform profitability [D01], [D04].",
+ "grader_notes": "The agent correctly identified the investment opportunity and primary catalysts, aligning well with Loeb's focus on unlocking value from Asian assets and core business structural reform. The reasoning deviates in its specific framing of the 'board refresh' as a primary driver, whereas Loeb emphasized the inadequacy of board leadership beyond just CEO replacement.",
+ "run": "2011_yahoo_buy__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

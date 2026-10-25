@@ -1,0 +1,55 @@
+{
+ "trade_id": "2022_dis_buy2",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 5,
+  "matched": [],
+  "missed": [
+   "Cut excessive costs and dispose of weak assets.",
+   "Accelerate the purchase of Comcast's Hulu minority and integrate the offering with Disney+.",
+   "Reconsider an ESPN separation if contractual synergies can replicate shared ownership.",
+   "Refresh board skills in technology, advertising and consumer engagement.",
+   "Keep dividend suspended to preserve reinvestment, debt-repayment and repurchase flexibility."
+  ],
+  "extra_agent_drivers": [
+   "The Company suffers from a conglomerate discount where separable assets are not appropriately valued by the market",
+   "The Company's 16.6% segment margin lags significantly behind peers like Netflix at 19.8% and Comcast at 21.2%",
+   "High-value core assets, specifically Parks and Sports, provide an underlying valuation floor despite streaming-related FCF pressures",
+   "Revenue growth of 26.3% YoY demonstrates the strength of the underlying brand franchise despite current margin inefficiencies"
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The Company suffers from a conglomerate discount where separable assets are not appropriately valued by the market",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The Company's 16.6% segment margin lags significantly behind peers like Netflix at 19.8% and Comcast at 21.2%",
+    "citation": "D06",
+    "verdict": "supported"
+   },
+   {
+    "claim": "High-value core assets, specifically Parks and Sports, provide an underlying valuation floor",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 12,
+  "cited": 6,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We are initiating a position in The Walt Disney Company, a world-class entertainment conglomerate whose true value is currently obscured by a conglomerate discount and unaddressed margin gaps [D07].",
+ "grader_notes": "The agent correctly identified the direction as a BUY, but failed to capture any of the specific, actionable drivers cited by Third Point, such as the Hulu acquisition or ESPN separation. The agent's reasoning focused on generic valuation concepts like conglomerate discounts and peer margin comparisons, which do not overlap with the specific strategic initiatives disclosed by Loeb.",
+ "run": "2022_dis_buy2__current__masked",
+ "state_llm": "MISS",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 5,
+ "reasoning_scorable": true
+}

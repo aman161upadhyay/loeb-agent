@@ -1,0 +1,51 @@
+{
+  "id": "2016_energy_shorts_cover",
+  "actual_decision": "REDUCE_GROSS",
+  "conviction": "medium",
+  "size_pct_nav": "Not recovered; thematic-short gross reduction, not a stated NAV target.",
+  "first_action_date": null,
+  "first_action_window": "Requested January cutoff preserved, but actual covering signal is mid-February per the Q1 letter. January has no recovered reversal evidence; exclude from exact-date or high-confidence reasoning scoring.",
+  "disclosure_date": "2016-04-27",
+  "reason_class": "L3",
+  "opportunity_template": [
+    "E5",
+    "E7"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Daniel S. Loeb",
+      "Third Point investment team"
+    ],
+    "governance_route": "P0; see dated drivers; implementation is not assumed in desk evidence.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "China's unwillingness to devalue and prospective fiscal stimulus invalidated the common bearish macro premise.",
+      "source": "https://www.gurufocus.com/news/409620/dan-loebs-q1-third-point-letter-where-to-go-after-catastrophic-quarter (2016-04-27, retrospective relative to pack)",
+      "quote": null
+    },
+    {
+      "driver": "The dollar peak and a perceived oil bottom required covering commodity, cyclical and industrial shorts.",
+      "source": "https://www.gurufocus.com/news/409620/dan-loebs-q1-third-point-letter-where-to-go-after-catastrophic-quarter (2016-04-27, retrospective relative to pack)",
+      "quote": "We preserved capital by quickly moving to cover our trades that were linked to Chinese weakness/USD dominance in areas like commodities, cyclicals, and industrials."
+    },
+    {
+      "driver": "Corporate credit moved from net short to net long as energy-credit opportunities improved.",
+      "source": "https://www.gurufocus.com/news/409620/dan-loebs-q1-third-point-letter-where-to-go-after-catastrophic-quarter (2016-04-27, retrospective relative to pack)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact entry valuation not recovered; do not infer cost basis from historical close or later target.",
+  "outcome_note": "April 27 hindsight letter dates the change to mid-February, NOT January. It also admits missing much of the cyclical-equity rally. Covering shorts reduces gross but can raise net; REDUCE_GROSS is the requested taxonomy, not a claim net fell.",
+  "sources": [
+    "https://www.gurufocus.com/news/409620/dan-loebs-q1-third-point-letter-where-to-go-after-catastrophic-quarter (2016-04-27)",
+    "https://www.gurufocus.com/news/409620/dan-loebs-q1-third-point-letter-where-to-go-after-catastrophic-quarter (2016-04-27, retrospective relative to pack)"
+  ],
+  "pack_quality_notes": "Historical closes recovered where stated; complete same-day consensus and matched peer valuation often unavailable. D08 gives last-verified firm AUM and public holdings, with dated available exposures; these snapshots may be stale and are not decision-day NAV or cash. Dates on docs are compilation cutoffs; source ledger retains underlying publication dates, all no later than cutoff. Requested January cutoff preserved, but actual covering signal is mid-February per the Q1 letter. January has no recovered reversal evidence; exclude from exact-date or high-confidence reasoning scoring. AUM 17bn is firm/manager capital, not Offshore NAV, per https://www.insidermonkey.com/blog/third-points-portfolio-struggled-in-the-turbulent-third-quarter-378482/ (2015-10-18). AUM observation period 2015-10; last verified, not asserted current. NOT suitable for strict historical directional/reasoning scoring; key observations and requested-target contradictions are expressly annotated.",
+  "pack_quality_grade": "C",
+  "calibration_eligible": false,
+  "reason_attribution": "Investor-stated paraphrases unless individual driver explicitly identifies a holdings proxy or unresolved rationale."
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ctl_2021_gme_amc_pass",
+  "actual_decision": "PASS",
+  "conviction": "medium",
+  "size_pct_nav": 0,
+  "first_action_date": "2021-01-27",
+  "disclosure_date": null,
+  "reason_class": null,
+  "opportunity_template": [
+    "E2",
+    "E5"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [],
+    "governance_route": "No public Third Point action established for the scoped common-stock opportunity; PASS is a retrospective observational label.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "Neither GME nor AMC appears in any of the 54 reportable quarterly tables. No named long or short can be proved absent outside 13F. Retrospective February 10 letter commentary says Third Point mostly avoided modest-liquidity, high-short-interest shorts, not that Loeb publicly announced a named long PASS on January 27.",
+      "source": "loeb-agent/compendium/all_positions_index.md (54 quarterly tables, 2013–Q2 2026; accessed 2026-10-25)",
+      "quote": null
+    },
+    {
+      "driver": "Retrospective 2021-02-10 crowded-short discipline comment, not a named common-stock long rejection and not available on the desk date.",
+      "source": "https://www.foxbusiness.com/markets/third-points-dan-loeb-talks-short-selling-madness (2021-02-10; hindsight)",
+      "quote": "mostly avoided taking short stakes in companies with modest liquidity and large short interests."
+    }
+  ],
+  "entry_valuation_stated": "No Third Point entry: this is a common-stock discipline control, not an actual rejected-idea memo. Cutoff price/valuation gaps are identified in the pack.",
+  "outcome_note": "PASS labels absence of a reported long in the specified window, not a public statement of rejection, zero economic exposure across all instruments, or proof of no intraperiod trade. No forward return is used to justify the label.",
+  "sources": [
+    "https://13f.info/manager/0001040273-third-point-llc",
+    "loeb-agent/compendium/all_positions_index.md",
+    "https://www.foxbusiness.com/markets/third-points-dan-loeb-talks-short-selling-madness",
+    "https://www.cnbc.com/2021/01/27/amc-shares-triple-as-retail-investor-raid-of-hedge-fund-short-targets-spreads-from-gamestop.html"
+  ],
+  "pack_quality_notes": "Grade C. Negative evidence is scoped to reportable quarter-end holdings plus recovered public comments, not private investment records. Silent controls intentionally have one documented driver instead of fabricating three manager reasons. Most current share prices, peer tables and fund AUM were not recovered. Null fund AUM is an intentional metadata schema exception. Firm-wide/Offshore capital is not inferred from 13F value. No exhaustive historical X or letter review is claimed.",
+  "control_verification": {
+    "scope": "Complete 54-quarter reportable issuer/instrument index 2013–Q2 2026, including the requested decision window.",
+    "verified_reportable_absence": true,
+    "absolute_economic_nonownership_verified": false,
+    "replaced_requested_id": null
+  }
+}

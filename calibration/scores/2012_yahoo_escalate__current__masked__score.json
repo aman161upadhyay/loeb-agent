@@ -1,0 +1,52 @@
+{
+ "trade_id": "2012_yahoo_escalate",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 4,
+  "matched": [
+   "The CEO's inaccurate credential undermines credibility and raises integrity concerns. → We have identified material discrepancies between the CEO’s stated academic credentials and the university’s records, a pattern that extends to the board itself [D02, D07].",
+   "The search committee's basic diligence and board oversight need an independent investigation. → This is not merely a character issue; it is a governance crisis that distracts from the operational turnaround required to improve advertising economics [D04, D06].",
+   "Fresh directors with industry competence and integrity are needed before further delay. → We have already taken the necessary step of nominating four highly qualified directors to the board [D07]."
+  ],
+  "missed": [
+   "Similar director-biography discrepancies make this a systemic governance issue, not just one executive's error."
+  ],
+  "extra_agent_drivers": [
+   "The proxy contest is already underway, providing a clear path to force the necessary board changes [D07]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We have identified material discrepancies between the CEO’s stated academic credentials and the university’s records",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The board itself [has] material discrepancies",
+    "citation": "D07",
+    "verdict": "supported"
+   },
+   {
+    "claim": "We have already taken the necessary step of nominating four highly qualified directors",
+    "citation": "D07",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 9,
+  "cited": 3,
+  "share": 0.33
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "We have identified material discrepancies between the CEO’s stated academic credentials and the university’s records, a pattern that extends to the board itself [D02, D07].",
+ "grader_notes": "The agent correctly identified the core catalyst (CEO biographical discrepancy) and the response (nomination of directors). Reasoning was slightly broader than Loeb's, focusing on the specific mechanics of the proxy contest and operational stewardship rather than strictly the systemic nature of the board oversight failures.",
+ "run": "2012_yahoo_escalate__current__masked",
+ "state_llm": "MATCH",
+ "actual_decision": "ESCALATE",
+ "agent_decision": "ESCALATE",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

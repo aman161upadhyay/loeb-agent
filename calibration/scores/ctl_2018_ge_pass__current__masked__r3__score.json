@@ -1,0 +1,52 @@
+{
+ "trade_id": "ctl_2018_ge_pass",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 0,
+  "n": 1,
+  "matched": [],
+  "missed": [
+   "No General Electric/GE issuer row in complete 2013–Q2 2026 13F index; reviewed local letters/case archive yields no attributable common-stock comment. Do not confuse GE with separately held industrial issuers or with a credit exposure that 13F cannot exclude."
+  ],
+  "extra_agent_drivers": [
+   "The activist field is already occupied by Trian Fund Management, which limits our ability to drive the necessary constructivist change [D09].",
+   "The downside floor is rendered opaque by massive, unquantified insurance/financing obligations and ongoing SEC investigations [D09].",
+   "The Company is undergoing a major portfolio reset involving the separation of its Healthcare and Power businesses [D01], [D09].",
+   "The appointment of H. Lawrence Culp Jr. as CEO marks a leadership inflection point, though his turnaround plan remains unproven [D01].",
+   "The $23bn Power segment goodwill impairment underscores the structural decay within the conglomerate [D02], [D09]."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Trian Fund Management is already entrenched with board seats",
+    "citation": "D09",
+    "verdict": "cannot_tell"
+   },
+   {
+    "claim": "Power segment's $23bn goodwill impairment",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "H. Lawrence Culp Jr. as CEO",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 11,
+  "share": 1
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "Our decision is to pass.",
+ "grader_notes": "The agent correctly identified the PASS decision but completely failed to capture the observational nature of the decision provided in the key. The agent generated a substantive, independent investment thesis and proprietary drivers, whereas the key indicates the PASS decision is simply a result of the lack of a reported Third Point position in the 13F index.",
+ "run": "ctl_2018_ge_pass__current__masked__r3",
+ "state_llm": "MATCH",
+ "actual_decision": "PASS",
+ "agent_decision": "PASS",
+ "key_driver_count": 1,
+ "reasoning_scorable": false
+}

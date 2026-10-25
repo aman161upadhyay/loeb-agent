@@ -1,0 +1,50 @@
+{
+  "id": "2014_sony_sell",
+  "actual_decision": "SELL",
+  "conviction": "high",
+  "size_pct_nav": "Full position exit reported; exact final-day NAV weight unknown.",
+  "first_action_date": null,
+  "disclosure_date": "2014-10-21",
+  "reason_class": "L1",
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Sony board",
+      "Kazuo Hirai"
+    ],
+    "governance_route": "P0; monitor event or arrange liquidity; no new activist mandate",
+    "timetable_quarters": 1
+  },
+  "drivers": [
+    {
+      "driver": "Some operational and cost changes delivered progress despite rejection of the partial spinout.",
+      "source": "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil... (2014-10-21; later stated rationale relative to pack cutoff)",
+      "quote": "While, regrettably, the Company rejected our partial spin-out suggestion, they made some changes that were consistent with our goals."
+    },
+    {
+      "driver": "Electronics execution disappointed and successive profit warnings reduced confidence in the remaining turnaround.",
+      "source": "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil... (2014-10-21; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Realize the investment gain rather than rely on a structural proposal management will not implement.",
+      "source": "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil... (2014-10-21; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Exact execution price and entry multiple not recovered.",
+  "outcome_note": "Fund reports nearly 20% return; final execution date unknown. Secondary reason L2, management rejection/earnings disappointment.",
+  "sources": [
+    "https://doczz.net/doc/6574971/october%0921-%092014-the%09third%09quarter%09was%09moderately%09volatil...",
+    "https://www.sony.com/en/SonyInfo/News/Press/201308/13-091E/",
+    "https://www.sony.com/en/SonyInfo/IR/library/presen/er/14revision_sony.pdf"
+  ],
+  "pack_quality_notes": "Grade B. October 20 is preceding disclosure day, not verified final sale day. Reason normalized L1 with L2 secondary. Cutoff daily quote, final derivative exposure and exact fund sizing missing. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label.",
+  "secondary_reason_classes": [
+    "L2"
+  ]
+}

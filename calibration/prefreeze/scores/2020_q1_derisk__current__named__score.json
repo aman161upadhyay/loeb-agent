@@ -1,0 +1,52 @@
+{
+ "trade_id": "2020_q1_derisk",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 3,
+  "matched": [
+   "The fund had assigned inadequate probability to a full global pandemic → The WHO’s pandemic declaration [D01] and the Federal Reserve’s emergency response [D03] are not mere market signals; they indicate a synchronized, global interruption of economic activity that threatens to overwhelm even the most robust event-driven theses.",
+   "Concentrated and correlated cyclical exposures amplified shutdown losses → Concentration in cyclicals and event-driven equities creates excessive risk in a market where transaction financing may evaporate [D01, D06]."
+  ],
+  "missed": [
+   "Reducing equity exposure and preserving liquidity allowed rotation into more asymmetric credit."
+  ],
+  "extra_agent_drivers": [
+   "High-yield spread widening and Fed emergency measures confirm a liquidity regime shift that renders previous event-driven long theses secondary to solvency.",
+   "Lessons from 2008 underscore the imperative to cut gross exposure early when liquidity, rather than just valuation, becomes the primary risk."
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "The WHO has declared a pandemic",
+    "citation": "D01",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Market volatility (VIX) has reached 82.69",
+    "citation": "D02",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Total portfolio gross exposure was 174.3%",
+    "citation": "D02",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 11,
+  "cited": 5,
+  "share": 0.45
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "When financing markets freeze, a merger or separation catalyst is secondary to the fund's ability to maintain liquidity and meet obligations [D01, D05].",
+ "grader_notes": "The agent correctly identified the direction to reduce gross exposure and captured the primary drivers regarding pandemic miscalculation and cyclical exposure risk. It missed the specific forward-looking intent to rotate into asymmetric credit, which was a core component of Loeb's retrospective.",
+ "run": "2020_q1_derisk__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "REDUCE_GROSS",
+ "agent_decision": "REDUCE_GROSS",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,54 @@
+{
+ "pack": "2022_intc_sell",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "existing",
+ "as_of_date": "2022-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2022-01-31",
+  "company": "Intel Corporation",
+  "ticker": "INTC",
+  "decision": "HOLD",
+  "reason_class": "THESIS_ON_TRACK",
+  "conviction": "medium",
+  "thesis_at_purchase_vs_now": [
+   "Engagement on process leadership and talent: strengthened as Pat Gelsinger executes IDM 2.0 [D03, D07]",
+   "Questionable acquisitions and service to competitors: intact, as focus remains on restoring manufacturing execution [D07]",
+   "Strategic direction: intact, with the shift to IDM 2.0 replacing the previous review [D07]"
+  ],
+  "remaining_skew": "Upside exists if execution delivers on the IDM 2.0 roadmap; downside is protected by a 5.66% FCF yield [D04]",
+  "next_catalyst_and_timing": "Ongoing milestones in technical execution, customer adoption, and monitoring the earnings/FCF impact of high capital spending [D03, D07]",
+  "asks_if_escalating": [],
+  "drivers": [
+   {
+    "driver": "Management's transition to the IDM 2.0 strategy addresses the core issues identified in our original engagement [D07].",
+    "citations": [
+     "D07"
+    ]
+   },
+   {
+    "driver": "Recent financial results exceeded guidance, showing early progress despite lower near-term profitability [D03].",
+    "citations": [
+     "D03"
+    ]
+   },
+   {
+    "driver": "The valuation remains attractive at ~7x EV/EBITDA, providing a margin of safety while the turnaround progresses [D04].",
+    "citations": [
+     "D04"
+    ]
+   },
+   {
+    "driver": "Substantial cash generation supports the dividend increase, though high reinvestment needs remain the primary risk to watch [D02, D03].",
+    "citations": [
+     "D02",
+     "D03"
+    ]
+   }
+  ],
+  "memo": "Our original December 2020 engagement challenged the company’s process leadership, talent retention, and strategic focus [D07]. Under new leadership, the company has implemented the IDM 2.0 program, which fundamentally addresses our concerns regarding manufacturing execution and strategic orientation [D03, D07]. The most recent results show revenue exceeding management's guidance, confirming that the new team is making progress in a complex turnaround [D03].\n\nWhile the bear case remains—specifically that heavy capital investment will depress free cash flow—the current valuation is compelling [D04, D05]. Trading at approximately 7x EV/EBITDA, the stock prices in a significant level of skepticism, which provides a meaningful cushion while we await proof of long-term engineering success [D04]. The 5.66% free cash flow yield and the newly increased dividend reflect the strength of the underlying cash generation, even during this period of intense spending [D02, D04].\n\nWe remain disciplined in monitoring the technical milestones and the capital intensity of the IDM 2.0 roadmap [D03, D07]. We are not currently escalating because management has demonstrably adopted a clear, coherent, and aggressive strategy to restore the business's competitive edge [D03, D07]. We will hold our position to observe the next phases of capacity build-out and customer adoption, ensuring that the company maintains its focus on returns rather than empire-building [D03, D07].",
+  "uncited_claims": []
+ }
+}

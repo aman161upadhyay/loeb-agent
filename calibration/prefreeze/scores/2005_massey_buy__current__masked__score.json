@@ -1,0 +1,48 @@
+{
+ "trade_id": "2005_massey_buy",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 2,
+  "n": 4,
+  "matched": [
+   "Valuable coal assets trade at a management discount caused by repeated operating disappointments. → The Company presents a compelling opportunity to capture value from a mismanaged coal producer that is failing to capitalize on an robust commodity cycle.",
+   "Shareholder alignment and a board challenge can force capital-allocation accountability. → We intend to engage with the board to demand a full review of production targets and capital allocation, as the current strategy of pursuing non-cash accounting adjustments at the expense of mining output is unacceptable."
+  ],
+  "missed": [
+   "Higher realizations and normalized production support $800–900m prospective EBITDA versus roughly $750m consensus.",
+   "With $300–350m capital spending, excess prospective cash should fund repurchases or a Dutch tender."
+  ],
+  "extra_agent_drivers": [
+   "Management is masking core operational underperformance with non-cash reserve-exchange gains.",
+   "Underground production has fallen sequentially from 6 million to 4.7 million tons in Q3 2005."
+  ]
+ },
+ "discipline": "NA",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "Management has allowed underground production to plummet from 6 million tons to 4.7 million tons in Q3 2005.",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The company possesses a high-value base of steam and metallurgical coal reserves that provides an intrinsic floor to the valuation.",
+    "citation": "D01",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 5,
+  "share": 0.5
+ },
+ "state": "PARTIAL",
+ "verbatim_agent_sentence": "We intend to engage with the board to demand a full review of production targets and capital allocation, as the current strategy of pursuing non-cash accounting adjustments at the expense of mining output is unacceptable.",
+ "grader_notes": "The agent correctly identified the investment direction and the general theme of a management-driven valuation discount and board engagement. However, the reasoning was farthest from Loeb's regarding financial specifics; the agent focused on production volume statistics and reserve-exchange gains, whereas Loeb specifically highlighted EBITDA normalization versus consensus and the potential for excess cash to fund buybacks or tenders.",
+ "run": "2005_massey_buy__current__masked",
+ "state_llm": "PARTIAL",
+ "actual_decision": "BUY",
+ "agent_decision": "BUY",
+ "key_driver_count": 4,
+ "reasoning_scorable": true
+}

@@ -1,0 +1,25 @@
+{
+  "id": "2005_ligand_buy",
+  "company": "Ligand Pharmaceuticals Incorporated",
+  "ticker": "LGND",
+  "aliases": [
+    "Ligand Pharmaceuticals Incorporated",
+    "LGND",
+    "Ligand",
+    "Ligand Pharmaceuticals",
+    "LGNDE",
+    "AVINZA",
+    "Targretin",
+    "Ontak",
+    "Panretin",
+    "David Robinson",
+    "BDO Seidman"
+  ],
+  "as_of_date": "2005-09-30",
+  "mode": "new",
+  "era": "A",
+  "first_action_window": "Requested checkpoint 2005-09-30; actual first action not recovered to a unique day; see answer-key dating notes. Requested new-mode snapshot occurs after September 23 disclosure: counterfactual fresh-capital replay, not true pre-first-purchase test. Firm $4bn source is same-day key letter. NOL amount and investor valuation kept out of docs to avoid embedding the answer; asset categories remain supported. December 2006 update describes a December 2, 2005 board arrangement, not first seats in December 2006.",
+  "fund_aum_usd_bn": 4.0,
+  "instrument": "common",
+  "notes": "Analyst-prepared cutoff extracts; later investor explanations appear only in the answer key. Daily historical close/multiples, complete current fund cash/gross/net and some standalone financial inputs were not recovered; docs explicitly identify missing figures rather than inventing them. fund_aum_usd_bn is a sourced firm-level observation where present, not a fund-NAV denominator; null means unavailable. Requested new-mode snapshot occurs after September 23 disclosure: counterfactual fresh-capital replay, not true pre-first-purchase test. Firm $4bn source is same-day key letter. NOL amount and investor valuation kept out of docs to avoid embedding the answer; asset categories remain supported. December 2006 update describes a December 2, 2005 board arrangement, not first seats in December 2006. AUM $4bn is September 30 firm statement, not audited fund NAV."
+}

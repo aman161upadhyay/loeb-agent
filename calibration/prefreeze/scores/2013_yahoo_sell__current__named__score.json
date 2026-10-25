@@ -1,0 +1,50 @@
+{
+ "trade_id": "2013_yahoo_sell",
+ "direction": "MATCH",
+ "reasoning_overlap": {
+  "k": 3,
+  "n": 3,
+  "matched": [
+   "Monetize part of a substantially repriced position after the governance catalyst has been achieved. → With the primary governance catalyst now realized, our involvement is naturally transitioning to a close",
+   "The issuer's 40m-share block transaction supplies $1.1644bn gross liquidity at $29.11. → We have been presented with liquidity terms for a block of shares at $29.11, offering a premium to current market levels",
+   "Board participation can end as the ownership threshold falls while a residual investment preserves upside. → Given that our board-service role is concluding and the easy governance wins are behind us, it is prudent to trim our position"
+  ],
+  "missed": [],
+  "extra_agent_drivers": [
+   "Core operating revenue and EBITDA remain under pressure, shifting the thesis from pure governance to an unproven product turnaround"
+  ]
+ },
+ "discipline": "YES",
+ "grounding": {
+  "spot_checks": [
+   {
+    "claim": "We successfully secured board access and a new CEO",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "The core advertising business remains in a difficult spot, with revenue and adjusted EBITDA declining",
+    "citation": "D03",
+    "verdict": "supported"
+   },
+   {
+    "claim": "Liquidity terms for a block of shares at $29.11",
+    "citation": "D04",
+    "verdict": "supported"
+   }
+  ],
+  "leakage_flags": [],
+  "sentences": 10,
+  "cited": 9,
+  "share": 0.9
+ },
+ "state": "MATCH",
+ "verbatim_agent_sentence": "Given that our board-service role is concluding and the easy governance wins are behind us, it is prudent to trim our position.",
+ "grader_notes": "The agent accurately identified the three primary drivers cited by Loeb: the realization of the governance catalyst, the liquidity event at the specific strike price, and the planned conclusion of board participation. The agent provided an additional internal driver regarding the core operating business's performance, but this did not detract from the core alignment with Loeb's stated rationale.",
+ "run": "2013_yahoo_sell__current__named",
+ "state_llm": "MATCH",
+ "actual_decision": "TRIM",
+ "agent_decision": "TRIM",
+ "key_driver_count": 3,
+ "reasoning_scorable": true
+}

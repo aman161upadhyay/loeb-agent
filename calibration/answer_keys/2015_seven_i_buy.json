@@ -1,0 +1,51 @@
+{
+  "id": "2015_seven_i_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Initial target ownership and NAV weight not recovered.",
+  "first_action_date": null,
+  "disclosure_date": "2015-11-02",
+  "reason_class": null,
+  "opportunity_template": [
+    "E1"
+  ],
+  "catalyst_role": "P2",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "Toshifumi Suzuki",
+      "Seven & i board"
+    ],
+    "governance_route": "P2; owner engagement, public case and lawful director process if necessary; no assumed control",
+    "timetable_quarters": 4
+  },
+  "drivers": [
+    {
+      "driver": "Best-in-class convenience-store economics are hidden by weaker retail operations.",
+      "source": "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/ (2015-11-02; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "Stop subsidizing Ito Yokado and permit it to restructure outside the group.",
+      "source": "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/ (2015-11-02; later stated rationale relative to pack cutoff)",
+      "quote": null
+    },
+    {
+      "driver": "A global convenience-store pure-play should command a meaningful rerating.",
+      "source": "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/ (2015-11-02; later stated rationale relative to pack cutoff)",
+      "quote": "If Seven & i evolves into a global convenience store pure-play, shareholders would benefit from a meaningful rerating."
+    },
+    {
+      "driver": "An underlevered balance sheet and slowing growth capex create a capital-return opportunity.",
+      "source": "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/ (2015-11-02; later stated rationale relative to pack cutoff)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "Q3 letter: 7.2x forward EBITDA versus cited 10–12x peers; later publication, not independently recovered cutoff market multiple.",
+  "outcome_note": "2016 governance succession catalyst; no verified final realized P&L or completed pure-play conversion.",
+  "sources": [
+    "https://hedgefundalpha.com/investor-letters/dan-loeb-buys-seven-i-holdings-baxter-q3-letter/",
+    "https://www.7andi.com/library/dbps_data/_template_/_res/ir/library/ar/pdf/2015_10.pdf"
+  ],
+  "pack_quality_notes": "Grade C. Requested October 27 letter date not authenticated in retrieved source: preserved full excerpt is published November 2. Drivers use that later Q3 text, marked retrospective. Actual Q3 additions predate this new-mode cutoff; fresh-capital counterfactual. Numeric peer and current net cash missing. Unknown precise first-action dates are null, never synthesized from disclosure dates. Conviction is archival calibration assessment, not a claimed verbatim investor label."
+}

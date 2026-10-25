@@ -1,0 +1,54 @@
+{
+  "id": "ho_2025_sk_hynix_buy",
+  "actual_decision": "BUY",
+  "conviction": "medium",
+  "size_pct_nav": "Unknown NAV weight; 13F market value is not cost or total economic exposure.",
+  "first_action_date": "2025-Q3; exact date unknown",
+  "disclosure_date": "2025-10-31",
+  "reason_class": null,
+  "opportunity_template": [
+    "E4",
+    "E5"
+  ],
+  "catalyst_role": "P0",
+  "instrument": "common",
+  "plan": {
+    "actors": [
+      "SK hynix management",
+      "customers",
+      "memory competitors"
+    ],
+    "governance_route": "Operating/transaction/portfolio implementation; no new proxy or board route required.",
+    "timetable_quarters": 0
+  },
+  "drivers": [
+    {
+      "driver": "HBM differentiation and sticky design qualifications can dampen through-cycle earnings volatility.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf (2025-10-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "AI inference remains memory constrained, supporting HBM growth beyond accelerator-unit growth.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf (2025-10-31; post-action explanation unless explicitly labeled inference)",
+      "quote": "we continue to live in a compute-constrained world"
+    },
+    {
+      "driver": "Rising HBM complexity can widen the technology lead despite competition.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf (2025-10-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    },
+    {
+      "driver": "The manager saw a substantial valuation discount to Micron and Samsung.",
+      "source": "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf (2025-10-31; post-action explanation unless explicitly labeled inference)",
+      "quote": null
+    }
+  ],
+  "entry_valuation_stated": "October 31 retrospective letter: 7x 2026 earnings versus peers at 10–12x; NOT a June 30 price observation.",
+  "outcome_note": "See dated primary disclosure for actual action. No later stock return, fund contribution or July 2026 unwind is a desk input. Conviction is an evaluator label, not a disclosed manager conviction; exact cost and realized round-trip P&L remain unknown.",
+  "sources": [
+    "https://assets-malibu-life.s3.us-west-2.amazonaws.com/system/uploads/fae/file/asset/1673/Third_Point_Q3_2025_Investor_Letter_TPIL.pdf",
+    "https://news.skhynix.com/en/sk-hynix-announces-1q25-financial-results/",
+    "https://assets.thirdpointlimited.com/f/166217/x/3999c42098/2025-04-april-monthly-report-tpil.pdf"
+  ],
+  "pack_quality_notes": "Grade B. Point-in-time issuer/manager evidence is separated from dated post-action explanation. Missing cutoff price, consensus, full peer models and current NAV constrain valuation. Original exact action dates and execution prices are unknown; a quarter-end fallback or preceding month-end trading day is expressly identified in metadata. Earlier-source arguments and inferred size-change rationales are not mislabeled as new manager statements. Each driver source identifies the retrospective disclosure. timetable_quarters=0 means no reliable quantitative timetable recovered, not an assertion of immediate completion."
+}

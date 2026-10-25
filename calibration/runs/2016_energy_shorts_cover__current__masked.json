@@ -1,0 +1,47 @@
+{
+ "pack": "2016_energy_shorts_cover",
+ "investor": "Loeb",
+ "model": "replit-internal-current",
+ "masked": true,
+ "mode": "hedge",
+ "as_of_date": "2016-01-31",
+ "stages": {},
+ "final": {
+  "as_of_date": "2016-01-31",
+  "decision": "REDUCE_GROSS",
+  "conviction": "high",
+  "regime_evidence": "The oil market remains in a state of chronic oversupply with inventories mounting, as evidenced by EIA data projecting 2016 prices near $40/bbl [D03]. Market volatility is elevated, with the VIX rising to 20.20 and oil implied volatility near 60% [D03, D04].",
+  "book_exposure": "As of December 2015, the Offshore Fund maintained a gross equity exposure of 96.7% with a net of 47.9% [D08].",
+  "actions": [
+   "Cover thematic energy short positions to reduce gross exposure and lock in gains amid heightened volatility [D06, D08]",
+   "Maintain hedges against remaining macro factor concentration [D05, D08]"
+  ],
+  "target_gross_net": "Reduce gross exposure toward 80-85% by trimming energy shorts and related cyclical hedges.",
+  "drivers": [
+   {
+    "driver": "Thematic energy shorts have paid off significantly following the collapse in oil prices, and the risk of a squeeze now outweighs the remaining fundamental downside [D02, D04, D06].",
+    "citations": [
+     "D04",
+     "D06"
+    ]
+   },
+   {
+    "driver": "A transition to a more volatile regime requires lower gross exposure to maintain liquidity and avoid forced selling [D06, D08].",
+    "citations": [
+     "D06",
+     "D08"
+    ]
+   },
+   {
+    "driver": "Persistent macro factors across the book—duration, commodities, and cyclicality—are increasingly correlated, necessitating a reduction in gross leverage [D08].",
+    "citations": [
+     "D08"
+    ]
+   }
+  ],
+  "memo": "The energy trade has been a primary contributor to performance as the supply-demand imbalance in the oil market became a dominant, observable reality rather than a speculative thesis [D03, D06]. With Brent and WTI spot prices breaking toward the mid-30s, the margin of safety in our short book is narrowing significantly while volatility spikes increase the risk of rapid, liquidity-driven squeezes [D03, D04, D05].\n\nWe are choosing to exit these positions now rather than waiting for further price erosion. Our discipline is to exit when the catalyst is spent, not when the price hits a terminal bottom [D04, D07]. This is a defensive step: we are cutting the gross exposure attached to this thematic basket to ensure we retain the liquidity necessary to deploy capital into more distressed, event-driven opportunities as market conditions settle [D04, D08].",
+  "uncited_claims": [
+   "The decision to reduce gross is based on the specific instruction to treat energy short covering as a reduction of gross exposure in the 2016 regime."
+  ]
+ }
+}
